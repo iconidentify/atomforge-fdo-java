@@ -2,6 +2,8 @@
 
 A pure Java 21 library for compiling and decompiling Field Data Objects (FDO). This library provides complete FDO91 specification support with a fluent DSL for programmatic construction.
 
+**We welcome contributions.** Please open [issues](https://github.com/iconidentify/atomforge-fdo-java/issues) for bugs and ideas, and [pull requests](https://github.com/iconidentify/atomforge-fdo-java/pulls) for code changes. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 ## Features
 
 - **Cross-Platform**: Pure Java implementation, runs on any platform with Java 21+
@@ -552,4 +554,6 @@ mvn install
 
 ## License
 
-This project is proprietary software. All rights reserved.
+This project is released under the **MIT License**. See [LICENSE](LICENSE) for the full text.
+
+**Summary:** You may use, copy, modify, merge, publish, distribute, sublicense, and sell the software for any purpose. You must include the copyright notice and this permission notice in all copies or substantial portions of the software. The software is provided **as is**, with no warranty of any kind.

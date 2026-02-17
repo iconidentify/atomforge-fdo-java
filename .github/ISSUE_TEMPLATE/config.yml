@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/iconidentify/atomforge-fdo-java/blob/main/CONTRIBUTING.md
+    about: How to contribute and submit pull requests

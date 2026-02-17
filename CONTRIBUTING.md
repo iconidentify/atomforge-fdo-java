@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the AtomForge FDO Java library. T
 
 ## Reporting Bugs
 
-Please open a [GitHub Issue](https://github.com/iconidentify/atomforge-fdo-java/issues/new?template=bug_report.md) with:
+Please open a [GitHub Issue](https://github.com/iconidentify/atomforge-fdo-java/issues/new) and choose **Bug report** with:
 
 - A clear description of the bug
 - Steps to reproduce the issue
@@ -14,7 +14,7 @@ Please open a [GitHub Issue](https://github.com/iconidentify/atomforge-fdo-java/
 
 ## Suggesting Features
 
-Feature requests are welcome. Please open a [GitHub Issue](https://github.com/iconidentify/atomforge-fdo-java/issues/new?template=feature_request.md) describing:
+Feature requests are welcome. Please open a [GitHub Issue](https://github.com/iconidentify/atomforge-fdo-java/issues/new) and choose **Feature request** to describe:
 
 - The use case or problem you're trying to solve
 - Your proposed solution (if any)
