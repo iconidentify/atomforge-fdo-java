@@ -1,0 +1,667 @@
+uni_start_stream <00x>
+  async_is_known_subaccount
+  if_last_return_false_then <1>
+  async_alert <info, "receive refresh stop delete first gadget main process. standard\x7fSimple Bottom Gadget">
+  uni_wait_off
+uni_abort_stream
+uni_sync_skip <1>
+man_set_context_globalid <1>
+man_preset_gid <32-4621>
+if_last_return_true_then <1>
+man_make_focus
+man_update_display
+uni_wait_off
+uni_abort_stream
+uni_sync_skip <1>
+man_set_context_globalid <1>
+man_start_object <ind_group, "Standard Epsilon">
+  mat_object_id <41-52501>
+  mat_style_id <41-52501>
+  mat_orientation <vff>
+  mat_color_face <255, 255, 255>
+  mat_object_id <32-4621>
+  mat_style_id <32-4621>
+  mat_width <670>
+  mat_height <400>
+  man_get_display_characteristics <height, 80>
+  man_start_object <dss_list, "">
+    mat_relative_tag <101>
+    mat_bool_popup_menu <yes>
+    man_start_object <trigger, "Standard Sub Box">
+      act_replace_select_action
+          <
+          uni_start_stream
+            man_set_context_relative <1>
+            morg_obj_set_context_selection
+            morg_sort_items <16842754>
+            morg_obj_end_context
+            man_end_context
+          uni_end_stream
+          >
+      man_start_sibling <trigger, "Previous Area Region">
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_set_context_relative <1>
+              morg_obj_set_context_selection
+              morg_sort_items <65666>
+              morg_obj_end_context
+              man_end_context
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "First Window">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_set_context_relative <1>
+                morg_obj_set_context_selection
+                morg_sort_items <65539>
+                morg_obj_end_context
+                man_end_context
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Main Main">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_set_context_relative <1>
+                  morg_obj_set_context_selection
+                  morg_sort_items <65545>
+                  morg_obj_end_context
+                  man_end_context
+                uni_end_stream
+                >
+            man_start_sibling <trigger, "First Sub">
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    man_set_context_relative <1>
+                    morg_obj_set_context_selection
+                    morg_sort_items <65540>
+                    morg_obj_end_context
+                    man_end_context
+                  uni_end_stream
+                  >
+              man_end_object
+            man_end_object
+            man_start_object <dss_list, "">
+              mat_relative_tag <100>
+              mat_bool_popup_menu <yes>
+              man_start_object <trigger, "Current North">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      uni_invoke_no_context <41-46585>
+                    uni_end_stream
+                    >
+                man_start_sibling <trigger, "Main Top">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        uni_invoke_no_context <41-46587>
+                      uni_end_stream
+                      >
+                  man_start_sibling <ornament, "">
+                  man_start_sibling <trigger, "Previous Gadget">
+                    act_replace_select_action
+                        <
+                        uni_start_stream <00x>
+                          man_preset_gid <40-35297>
+                          if_last_return_true_then <1, 2>
+                          man_make_focus
+                          man_update_display
+                          uni_sync_skip <1>
+                          uni_wait_on
+                          uni_invoke_no_context <40-35297>
+                          uni_sync_skip <2>
+                        uni_end_stream
+                        >
+                    man_end_object
+                  man_end_object
+                  mat_bool_auto_closeable <no>
+                  act_set_criterion <200>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        var_lookup_by_id <A, 6>
+                        uni_use_last_atom_value <man_set_context_relative>
+                        morg_obj_count_children
+                        if_last_return_false_then <10, 20>
+                        man_set_context_relative <10>
+                        mat_bool_disabled <yes>
+                        man_change_context_relative <11>
+                        mat_bool_disabled <yes>
+                        man_change_context_relative <12>
+                        mat_bool_disabled <yes>
+                        man_change_context_relative <13>
+                        mat_bool_disabled <no>
+                        man_change_context_relative <14>
+                        mat_bool_disabled <yes>
+                        man_end_context
+                        uni_sync_skip <10>
+                        man_set_context_relative <14>
+                        mat_bool_disabled <no>
+                        man_end_context
+                        morg_view_has_mult_selections
+                        if_last_return_true_then <1, 2>
+                        man_set_context_relative <10>
+                        mat_bool_disabled <yes>
+                        man_change_context_relative <11>
+                        mat_bool_disabled <no>
+                        man_change_context_relative <12>
+                        mat_bool_disabled <yes>
+                        man_change_context_relative <13>
+                        mat_bool_disabled <yes>
+                        man_end_context
+                        uni_sync_skip <1>
+                        morg_obj_set_context_selection
+the_unknown <24, 59, 01x>
+                        if_last_return_true_then <11, 12>
+                        man_set_context_relative <20>
+                        mat_bool_disabled <no>
+                        man_end_context
+                        uni_sync_skip <11>
+                        man_set_context_relative <20>
+                        mat_bool_disabled <yes>
+                        man_end_context
+                        uni_sync_skip <12>
+                        man_end_context
+                        man_set_context_relative <10>
+                        mat_bool_disabled <no>
+                        man_change_context_relative <13>
+                        mat_bool_disabled <no>
+                        man_end_context
+                        morg_obj_can_delete
+                        uni_save_result
+                        man_set_context_relative <11>
+                        uni_get_result
+                        if_last_return_true_then <3, 4>
+                        mat_bool_disabled <no>
+                        uni_sync_skip <3>
+                        mat_bool_disabled <yes>
+                        uni_sync_skip <4>
+                        man_end_context
+                        morg_obj_can_rename
+                        uni_save_result
+                        man_set_context_relative <12>
+                        uni_get_result
+                        if_last_return_true_then <3, 4>
+                        mat_bool_disabled <no>
+                        uni_sync_skip <3>
+                        mat_bool_disabled <yes>
+                        uni_sync_skip <4>
+                        man_end_context
+                        morg_obj_can_create
+                        uni_save_result
+                        man_set_context_relative <13>
+                        uni_get_result
+                        if_last_return_true_then <3, 4>
+                        mat_bool_disabled <no>
+                        uni_sync_skip <3>
+                        mat_bool_disabled <yes>
+                        uni_sync_skip <4>
+                        man_end_context
+                        uni_sync_skip <2>
+                        uni_sync_skip <20>
+                        man_end_context
+                        man_update_display
+                      uni_end_stream
+                      >
+                    act_set_criterion <close>
+                    act_replace_action
+                        <
+                        uni_start_stream
+                          morg_pfc_check_db
+                        uni_end_stream
+                        >
+                      act_set_criterion <7>
+                      act_replace_action
+                          <
+                          uni_start_stream
+                            man_close_update
+                          uni_end_stream
+                          >
+                        mat_title_append_screen_name <prepend_with_s>
+                        mat_vertical_spacing <0>
+                        mat_position <center_center>
+                        mat_bool_background_flood <yes>
+                        man_start_object <org_group, "">
+                          mat_orientation <hff>
+                          mat_color_face <204, 204, 255>
+                          uni_void
+                          mat_horizontal_spacing <3>
+                          man_start_object <ornament, "Standard Epsilon">
+                            mat_size <20, 1, 20>
+                            mat_bool_precise <yes>
+                            mat_precise_x <0>
+                            mat_precise_y <0>
+                            mat_precise_height <30>
+                            mat_precise_width <495>
+                            mat_title <"Advanced Widget">
+                            mat_font_sis <arial, 16, bold>
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hrf>
+                            mat_color_face <204, 204, 255>
+                            man_start_object <trigger, "">
+                              mat_color_face <204, 204, 255>
+                              mat_color_top_edge <255, 255, 255>
+                              mat_color_bottom_edge <153, 153, 204>
+                              mat_bool_precise <yes>
+                              mat_precise_y <3>
+                              mat_font_size <8>
+                              mat_title <"Primary Theta Object">
+                              mat_context_help <"Default Button Box\x7fDefault Component Frame\x7fBasic Sigma Right">
+                              mat_horizontal_spacing <3>
+                              mat_vertical_spacing <0>
+                              mat_font_id <arial>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    idb_exists <20-0-62>
+                                    if_last_return_true_then <1, 2>
+                                    man_do_magic_response_id <2099658>
+                                    uni_invoke_no_context <32-2506>
+                                    uni_sync_skip <1>
+                                    uni_invoke_no_context <32-2507>
+                                    uni_sync_skip <2>
+                                  uni_end_stream
+                                  >
+                              man_start_sibling <trigger, "">
+                                mat_color_face <204, 204, 255>
+                                mat_color_top_edge <255, 255, 255>
+                                mat_color_bottom_edge <153, 153, 204>
+                                mat_bool_precise <yes>
+                                mat_precise_y <3>
+                                mat_font_size <8>
+                                mat_title <"Secondary Unit">
+                                mat_horizontal_spacing <0>
+                                mat_vertical_spacing <0>
+                                mat_font_id <arial>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      async_exec_context_help <41x, 72x, 63x, 68x, 69x, 76x, 65x, 73x>
+                                    uni_end_stream
+                                    >
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            uni_void
+                            man_start_object <org_group, "">
+                              mat_orientation <hff>
+                              mat_precise_width <5>
+                              mat_precise_height <10>
+                              mat_horizontal_spacing <0>
+                              mat_bool_precise <yes>
+                            man_end_object
+                            man_start_object <tab_group, "">
+                              mat_frame_style <double_line>
+                              mat_color_frame_hilight <153, 153, 204>
+                              mat_color_top_edge <150, 150, 201>
+                              mat_color_bottom_edge <150, 150, 201>
+                              mat_relative_tag <30>
+                              man_start_object <tab_page, "Previous View">
+                                mat_orientation <hfc>
+                                mat_color_frame_hilight <153, 153, 204>
+                                mat_color_frame_shadow <64, 64, 109>
+                                mat_color_face <153, 153, 204>
+                                mat_bool_background_flood <yes>
+                                mat_color_selected <221, 221, 255>
+                                mat_color_top_edge <64, 64, 109>
+                                mat_relative_tag <49>
+                                act_set_criterion <gain_focus>
+                                act_replace_action
+                                    <
+                                    uni_start_stream
+                                      var_number_set <A, 1>
+                                      var_number_save <A, 6>
+                                      man_set_context_relative <20>
+                                      mat_bool_disabled <no>
+                                      man_update_display
+                                      man_end_context
+                                      act_do_action <200>
+                                    uni_end_stream
+                                    >
+                                  man_start_object <org_group, "">
+                                    mat_orientation <hcf>
+                                    man_start_object <ornament, "">
+                                      mat_width <1>
+                                      mat_height <1>
+                                      mat_horizontal_spacing <0>
+                                    man_end_object
+                                    man_start_object <org_group, "">
+                                      mat_orientation <vlb>
+                                      man_start_object <ornament, "">
+                                        mat_vertical_spacing <1>
+                                      man_end_object
+                                      man_start_object <view, "">
+                                        mat_size <70, 8>
+                                        mat_relative_tag <1>
+                                        man_make_focus
+                                        morg_manage
+                                        mat_font_sis <arial, 9, normal>
+                                        act_set_criterion <128>
+                                        act_replace_action
+                                            <
+                                            uni_start_stream
+                                              act_do_action <200>
+                                            uni_end_stream
+                                            >
+                                          act_set_criterion <129>
+                                          act_replace_action
+                                              <
+                                              uni_start_stream
+                                                man_close_update
+                                              uni_end_stream
+                                              >
+                                            act_set_criterion <130>
+                                            act_replace_action
+                                                <
+                                                uni_start_stream
+                                                  act_do_action <200>
+                                                uni_end_stream
+                                                >
+                                              morg_view_hide_folder <"Sub Sigma Center">
+                                              morg_view_hide_folder <"Dynamic Window">
+                                              morg_view_hide_folder <"Default Edge Box">
+                                              morg_view_hide_folder <"Active Right North">
+                                              morg_view_hide_folder <"Complex Edge">
+                                              morg_view_hide_folder <"Custom Module Block">
+                                              morg_view_hide_folder <"Old Block Unit">
+                                              morg_view_hide_folder <"Sub Module">
+                                              mat_bool_writeable <yes>
+                                            man_end_object
+                                          man_end_object
+                                        man_end_object
+                                      man_end_object
+                                      man_start_object <tab_page, "Special North">
+                                        mat_orientation <hfc>
+                                        mat_color_frame_hilight <153, 153, 204>
+                                        mat_color_frame_shadow <64, 64, 109>
+                                        mat_color_face <153, 153, 204>
+                                        mat_bool_background_flood <yes>
+                                        mat_color_selected <221, 221, 255>
+                                        mat_color_top_edge <64, 64, 109>
+                                        mat_relative_tag <48>
+                                        act_set_criterion <gain_focus>
+                                        act_replace_action
+                                            <
+                                            uni_start_stream
+                                              var_number_set <A, 2>
+                                              var_number_save <A, 6>
+                                              man_set_context_relative <20>
+                                              mat_bool_disabled <yes>
+                                              man_update_display
+                                              man_end_context
+                                              act_do_action <200>
+                                            uni_end_stream
+                                            >
+                                          man_start_object <org_group, "">
+                                            mat_orientation <hcf>
+                                            man_start_object <ornament, "">
+                                              mat_width <1>
+                                              mat_height <1>
+                                              mat_horizontal_spacing <0>
+                                            man_end_object
+                                            man_start_object <org_group, "">
+                                              mat_orientation <vlb>
+                                              man_start_object <ornament, "">
+                                                mat_vertical_spacing <1>
+                                              man_end_object
+                                              man_start_object <view, "">
+                                                mat_size <70, 8>
+                                                mat_relative_tag <2>
+                                                morg_manage
+                                                mat_font_sis <arial, 9, normal>
+                                                act_set_criterion <128>
+                                                act_replace_action
+                                                    <
+                                                    uni_start_stream
+                                                      act_do_action <200>
+                                                    uni_end_stream
+                                                    >
+                                                  act_set_criterion <130>
+                                                  act_replace_action
+                                                      <
+                                                      uni_start_stream
+                                                        act_do_action <200>
+                                                      uni_end_stream
+                                                      >
+                                                    morg_view_path <"Dynamic Window">
+                                                    mat_bool_writeable <yes>
+                                                  man_end_object
+                                                man_end_object
+                                              man_end_object
+                                            man_end_object
+                                            man_start_object <tab_page, "Main Area Module">
+                                              mat_orientation <hfc>
+                                              mat_color_frame_hilight <153, 153, 204>
+                                              mat_color_frame_shadow <64, 64, 109>
+                                              mat_color_face <153, 153, 204>
+                                              mat_bool_background_flood <yes>
+                                              mat_color_selected <221, 221, 255>
+                                              mat_color_top_edge <64, 64, 109>
+                                              mat_color_bottom_edge <64, 64, 109>
+                                              mat_relative_tag <47>
+                                              act_set_criterion <gain_focus>
+                                              act_replace_action
+                                                  <
+                                                  uni_start_stream
+                                                    var_number_set <A, 3>
+                                                    var_number_save <A, 6>
+                                                    man_set_context_relative <20>
+                                                    mat_bool_disabled <yes>
+                                                    man_update_display
+                                                    man_end_context
+                                                    act_do_action <200>
+                                                  uni_end_stream
+                                                  >
+                                                man_start_object <org_group, "">
+                                                  mat_orientation <hcf>
+                                                  man_start_object <ornament, "">
+                                                    mat_width <1>
+                                                    mat_height <1>
+                                                    mat_horizontal_spacing <0>
+                                                  man_end_object
+                                                  man_start_object <org_group, "">
+                                                    mat_orientation <vlb>
+                                                    man_start_object <ornament, "">
+                                                      mat_vertical_spacing <1>
+                                                    man_end_object
+                                                    man_start_object <view, "">
+                                                      mat_size <70, 8>
+                                                      mat_relative_tag <3>
+                                                      morg_manage
+                                                      mat_font_sis <arial, 9, normal>
+                                                      act_set_criterion <128>
+                                                      act_replace_action
+                                                          <
+                                                          uni_start_stream
+                                                            act_do_action <200>
+                                                          uni_end_stream
+                                                          >
+                                                        act_set_criterion <130>
+                                                        act_replace_action
+                                                            <
+                                                            uni_start_stream
+                                                              act_do_action <200>
+                                                            uni_end_stream
+                                                            >
+                                                          morg_view_path <"Default Edge Box">
+                                                          mat_bool_writeable <yes>
+                                                        man_end_object
+                                                      man_end_object
+                                                    man_end_object
+                                                  man_end_object
+                                                man_end_object
+                                                man_start_object <org_group, "">
+                                                  mat_orientation <hff>
+                                                man_start_sibling <org_group, "">
+                                                  mat_orientation <hff>
+                                                  mat_horizontal_spacing <0>
+                                                  mat_vertical_spacing <0>
+                                                  man_start_object <org_group, "">
+                                                    mat_orientation <hef>
+                                                    man_start_object <trigger, "">
+                                                      mat_relative_tag <10>
+                                                      mat_color_face <204, 204, 255>
+                                                      mat_color_top_edge <255, 255, 255>
+                                                      mat_color_bottom_edge <153, 153, 204>
+                                                      mat_font_size <8>
+                                                      mat_title <"Default Edge">
+                                                      mat_context_help <"Main Top Form\x7fBasic Back Sub\x7fDynamic Panel Unit">
+                                                      mat_precise_width <50>
+                                                      mat_horizontal_spacing <2>
+                                                      mat_vertical_spacing <0>
+                                                      mat_bool_default <yes>
+                                                      mat_font_id <arial>
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                            var_lookup_by_id <A, 6>
+                                                            uni_use_last_atom_value <man_set_context_relative>
+                                                            morg_view_select_object
+                                                            man_end_context
+                                                          uni_end_stream
+                                                          >
+                                                      man_start_sibling <trigger, "">
+                                                        mat_relative_tag <13>
+                                                        mat_color_face <204, 204, 255>
+                                                        mat_color_top_edge <255, 255, 255>
+                                                        mat_color_bottom_edge <153, 153, 204>
+                                                        mat_font_size <8>
+                                                        mat_title <"Secondary Area Button">
+                                                        mat_context_help <"Current East Delta\x7fFirst Omega View\x7fSimple West Zone">
+                                                        mat_horizontal_spacing <2>
+                                                        mat_vertical_spacing <0>
+                                                        mat_font_id <arial>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              var_lookup_by_id <A, 6>
+                                                              uni_use_last_atom_value <man_set_context_relative>
+                                                              morg_prompt_create_folder
+                                                              man_end_context
+                                                            uni_end_stream
+                                                            >
+                                                        man_start_sibling <trigger, "">
+                                                          mat_relative_tag <12>
+                                                          mat_color_face <204, 204, 255>
+                                                          mat_color_top_edge <255, 255, 255>
+                                                          mat_color_bottom_edge <153, 153, 204>
+                                                          mat_font_size <8>
+                                                          mat_title <"Simple Gadget">
+                                                          mat_context_help <"Dynamic Epsilon Left\x7fBasic East Label\x7fActive Bottom">
+                                                          mat_horizontal_spacing <2>
+                                                          mat_vertical_spacing <0>
+                                                          mat_font_id <arial>
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                                var_lookup_by_id <A, 6>
+                                                                uni_use_last_atom_value <man_set_context_relative>
+                                                                morg_prompt_rename_object
+                                                                man_end_context
+                                                              uni_end_stream
+                                                              >
+                                                          man_start_sibling <trigger, "">
+                                                            mat_relative_tag <11>
+                                                            mat_color_face <204, 204, 255>
+                                                            mat_color_top_edge <255, 255, 255>
+                                                            mat_color_bottom_edge <153, 153, 204>
+                                                            mat_font_size <8>
+                                                            mat_title <"Current East Area">
+                                                            mat_context_help <"Simple North Element\x7fActive North Widget\x7fThird Frame">
+                                                            mat_horizontal_spacing <5>
+                                                            mat_vertical_spacing <3>
+                                                            mat_font_id <arial>
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                  var_lookup_by_id <A, 6>
+                                                                  uni_use_last_atom_value <man_set_context_relative>
+                                                                  morg_delete_current_object
+                                                                  man_end_context
+                                                                uni_end_stream
+                                                                >
+                                                            man_end_object
+                                                          man_start_sibling <org_group, "">
+                                                            mat_orientation <hrf>
+                                                            mat_horizontal_spacing <0>
+                                                            mat_vertical_spacing <0>
+                                                            man_start_object <trigger, "">
+                                                              mat_relative_tag <20>
+                                                              mat_color_face <204, 204, 255>
+                                                              mat_color_top_edge <255, 255, 255>
+                                                              mat_color_bottom_edge <153, 153, 204>
+                                                              mat_font_size <8>
+                                                              mat_precise_width <100>
+                                                              mat_precise_height <24>
+                                                              mat_context_help <"Default Button Beta\x7fSpecial Item Side\x7fStandard Front">
+                                                              mat_bool_dropdown_button <yes>
+                                                              act_replace_popup_menu_action
+                                                                <
+                                                                uni_start_stream
+                                                                  man_set_context_relative <101>
+                                                                  man_display_popup_menu <0>
+                                                                  man_end_context
+                                                                uni_end_stream
+                                                                >
+                                                              mat_art_id <1-6-25977>
+                                                              mat_horizontal_spacing <2>
+                                                              mat_vertical_spacing <0>
+                                                              mat_font_id <arial>
+                                                            man_start_sibling <trigger, "">
+                                                              mat_relative_tag <14>
+                                                              mat_color_face <204, 204, 255>
+                                                              mat_color_top_edge <255, 255, 255>
+                                                              mat_color_bottom_edge <153, 153, 204>
+                                                              mat_font_size <8>
+                                                              mat_title <"Previous Screen Item">
+                                                              mat_context_help <"Third Main Bottom\x7fCurrent Dialog Omega\x7fActive Block Gamma">
+                                                              mat_horizontal_spacing <2>
+                                                              mat_vertical_spacing <0>
+                                                              mat_font_id <arial>
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                    var_lookup_by_id <A, 6>
+                                                                    uni_use_last_atom_value <man_set_context_relative>
+                                                                    morg_view_search
+                                                                    man_end_context
+                                                                  uni_end_stream
+                                                                  >
+                                                              man_start_sibling <trigger, "">
+                                                                mat_color_face <204, 204, 255>
+                                                                mat_color_top_edge <255, 255, 255>
+                                                                mat_color_bottom_edge <153, 153, 204>
+                                                                mat_font_size <8>
+                                                                mat_precise_width <100>
+                                                                mat_precise_height <24>
+                                                                mat_context_help <"Third Corner Region\x7fSimple Item Edge\x7fStatic View Region">
+                                                                mat_bool_dropdown_button <yes>
+                                                                act_replace_popup_menu_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                    man_set_context_relative <100>
+                                                                    man_display_popup_menu <0>
+                                                                    man_end_context
+                                                                  uni_end_stream
+                                                                  >
+                                                                mat_art_id <1-6-1693>
+                                                                mat_horizontal_spacing <0>
+                                                                mat_vertical_spacing <0>
+                                                                mat_font_id <arial>
+                                                              man_end_object
+                                                            man_end_object
+                                                          man_start_sibling <org_group, "">
+                                                            mat_orientation <hff>
+                                                            mat_precise_width <1>
+                                                            mat_precise_height <7>
+                                                            mat_horizontal_spacing <0>
+                                                            mat_bool_precise <yes>
+                                                          man_end_object
+                                                          man_update_display
+                                                          act_do_action <200>
+                                                          man_end_context
+                                                        uni_wait_off_end_stream

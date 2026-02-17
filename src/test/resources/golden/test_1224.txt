@@ -1,0 +1,13 @@
+uni_start_stream
+  mat_object_id <32-45>
+  mat_style_id <32-45>
+  de_start_extraction
+  buf_set_token <"eT">
+  man_set_context_relative <10>
+  de_get_data
+  man_change_context_relative <12>
+  de_get_data
+  man_end_context
+  de_end_extraction
+  buf_close_buffer
+uni_end_stream

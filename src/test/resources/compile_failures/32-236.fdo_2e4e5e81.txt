@@ -1,0 +1,47 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+the_unknown <16, 204, 01x>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <7>
+      mat_width <40>
+      mat_color_text <1, 1, 1>
+      man_append_data <"Die gew�nschte Datei wurde in den Download-Manager �bernommen. Mit dem Button DOWNLOAD-MANAGER k�nnen Sie die Liste Ihrer gew�hlten Dateien ansehen. Sie k�nnen Ihren DOwnload-Manager auch �ber den Men�punkt "eMail", "Ablage", in der AOL-Symbolleiste aufrufen.">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <14>
+        mat_title_width <5>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <14>
+        mat_title_width <20>
+        mat_title <"Download-Manager">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

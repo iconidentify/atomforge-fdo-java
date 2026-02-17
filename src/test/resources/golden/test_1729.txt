@@ -1,0 +1,167 @@
+uni_start_stream
+  hfs_attr_checkbox_mapping <6, "|||">
+  man_start_object <ind_group, "Phone Help">
+    mat_orientation <vff>
+    mat_color_face <192, 255, 255>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <ornament, "PHONE HELP">
+        mat_width <15>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_orientation <hce>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hct>
+      man_start_object <ornament, "">
+        mat_width <30>
+        mat_height <1>
+        mat_font_sis <arial, 10, bold>
+        man_append_data <"[Not to be used for New Employee Setups.]">
+        man_end_data
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <vlf>
+      man_start_object <edit_view, "Requested by">
+        mat_bool_importable <yes>
+        mat_width <25>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <left | center>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_relative_tag <1>
+      man_start_sibling <edit_view, "Extension">
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_width <15>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <left | center>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_relative_tag <2>
+      man_start_sibling <edit_view, "Room/Pod #">
+        mat_bool_importable <yes>
+        mat_width <15>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <left | center>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_relative_tag <3>
+      man_start_sibling <edit_view, "Building #">
+        mat_bool_importable <yes>
+        mat_width <15>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <left | center>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_relative_tag <4>
+      man_start_sibling <edit_view, "Department">
+        mat_bool_importable <yes>
+        mat_width <25>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <left | center>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_relative_tag <5>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "Location:">
+        mat_width <10>
+        mat_height <1>
+        mat_font_sis <arial, 10, bold>
+        mat_orientation <hlf>
+      man_start_sibling <sss_list, "">
+        mat_orientation <hlf>
+        mat_relative_tag <6>
+        man_start_object <trigger, "Vienna">
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Reston">
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Herndon">
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Sterling">
+          mat_font_sis <system, 12, normal>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <org_group, "">
+        mat_orientation <vlf>
+        man_start_object <ornament, "Description of Request">
+          mat_width <30>
+          mat_height <1>
+          mat_font_sis <arial, 9, normal>
+          mat_orientation <hlf>
+        man_start_sibling <edit_view, "">
+          mat_bool_writeable <yes>
+          mat_bool_importable <yes>
+          mat_width <43>
+          mat_height <4>
+          mat_bool_resize_vertical <no>
+          mat_bool_resize_horizontal <no>
+          mat_font_sis <arial, 10, normal>
+          mat_bool_vertical_scroll <yes>
+          mat_validation <128>
+          mat_relative_tag <11>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Send">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"ef", 0-0-431>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Cancel">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+            mat_font_sis <system, 12, normal>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <hef>
+          man_start_object <trigger, "Calling Card/Pager Form">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"mD", 0-15-23263>
+                >
+              mat_font_sis <system, 12, normal>
+              mat_bool_default <yes>
+            man_start_sibling <trigger, "Cell Phone Form">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"mD", 0-17-388>
+                  >
+                mat_font_sis <system, 12, normal>
+              man_end_object
+            man_end_object
+            man_update_display
+          man_update_woff_end_stream

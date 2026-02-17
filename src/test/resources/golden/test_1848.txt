@@ -1,0 +1,366 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "INFO -- AOL's Internal Area">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <340>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-1-4984>
+    mat_position <cascade>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <550>
+      mat_precise_height <325>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_art_id <1-1-4984>
+      mat_bool_background_pic <yes>
+      man_start_object <view, "">
+        mat_bool_graphic_view <yes>
+        image_attr_image_type <521>
+        man_append_data <4ax, 47x, 04x, 0ex, 00x, 00x, 00x, 00x, 8cx, 16x, 00x, 00x, 42x, 00x, 47x, 00x, 23x, 05x, a0x, 88x, 40x, 06x, 90x, 17x, 03x, 0fx, b6x, 3fx, c0x, 00x, 00x, 3fx, e6x, 40x, 00x, 3fx, c0x, 37x, 40x, 00x, 84x, 1cx, 01x, aax, 00x, 00x, 8cx, 1dx, 00x, 01x, 10x, 00x, 11x, 00x, 23x, 05x, a0x, 88x, 40x, 06x, b5x, 1ex, eax, 32x, bex, ffx, ecx, f5x, eex, e2x, 6bx, ddx, 89x, d7x, c2x, 9ex, 1ex, 24x, 92x, c9x, dex, 3cx, b1x, 3cx, 3dx, 6fx, 89x, 2fx, 53x, 16x, 79x, 78x, d5x, 26x, d8x, 51x, 6ex, 2dx, 7fx, b9x, 97x, efx, d3x, 54x, ddx, b9x, f9x, 89x, 24x, 9cx, 64x, dfx, c4x, ccx, e0x, 8dx, 3fx, 0fx, 53x, 01x, 46x, 04x, 92x, 85x, f0x, d4x, 76x, 0dx>
+        man_append_data <0dx, d9x, 7bx, 25x, d0x, e4x, 5dx, 24x, fex, ebx, 56x, f4x, e2x, f2x, 3fx, 92x, 7ax, 8bx, e9x, cdx, 5bx, 53x, 53x, 4fx, c1x, 77x, 0ax, c0x, 6dx, 24x, 84x, bcx, 3fx, 5dx, 3dx, a2x, cex, 02x, 8cx, 62x, c7x, e6x, 7ax, eex, 83x, f0x, fax, 5fx, e7x, bcx, 71x, 63x, 9bx, bbx, 5bx, e5x, a5x, 5ex, 0bx, 73x, bdx, 90x, dbx, 9ax, 96x, 48x, c7x, a9x, 18x, f8x, 2cx, abx, ebx, 3ex, a5x, bex, 6fx, 87x, 1cx, fax, 2bx, f9x, a9x, 43x, 14x, e5x, c1x, adx, c7x, 20x, 98x, 8ex, 83x, 1ex, 47x, 1fx, 08x, 1ex, 34x, 7ax, 8cx, d8x, 2dx, f9x, afx, 26x, 1ax, 90x, d1x, 20x, b1x, 39x, 0fx, 43x, 80x, 08x, 78x, 73x, 83x, 97x, 86x, ffx, c4x, 39x, 7ex, 16x, 3fx, cax>
+        man_append_data <3bx, 07x, bex, 77x, a6x, 2ax, 91x, 2cx, 03x, f1x, f7x, ddx, 7bx, adx, 5bx, 43x, 10x, 0fx, fdx, 2bx, dbx, f3x, 0cx, ecx, edx, 8ax, 3ax, f6x, 89x, f1x, 7ax, 53x, 1fx, a8x, 6dx, 10x, 58x, e1x, b8x, 5ex, acx, 6fx, 5cx, 31x, 56x, 20x, 68x, 38x, 12x, 58x, d9x, edx, 09x, 01x, 20x, b1x, a5x, a0x, e2x, 09x, 9cx, 85x, f6x, 9cx, cfx, ecx, ffx, cax, 34x, 3cx, e8x, 90x, e2x, 11x, 4ax, f6x, f3x, 9ax, 9dx, 38x, edx, 65x, dbx, d4x, 07x, 3bx, a9x, 05x, c6x, 05x, d5x, 60x, 44x, c3x, 17x, 09x, 00x, a6x, 39x, 0fx, 33x, 06x, 97x, a2x, b3x, 03x, 30x, 0fx, f0x, f0x, 45x, dax, 1ax, 98x, 65x, 80x, 61x, bdx, a2x, 33x, 3fx, 71x, 50x, eex, 60x, c2x, 82x, 13x>
+        man_append_data <8dx, 2bx, 0ex, dcx, 75x, 63x, 69x, d1x, dfx, d5x, 81x, 80x, a0x, 9dx, 63x, 26x, 8dx, 2fx, 6ex, 86x, 06x, 30x, 93x, 27x, 02x, 6cx, 0cx, c3x, f1x, 49x, aax, 5ax, 0bx, 40x, 94x, 79x, e5x, 0ex, cfx, 5ex, 3fx, c8x, b4x, 04x, e1x, 6ex, b9x, 92x, 36x, 89x, 2fx, 2cx, 48x, 49x, a9x, a1x, 42x, 51x, 1fx, bbx, 93x, d8x, 70x, ccx, 0ex, 5ax, cdx, 7fx, 2cx, e8x, 03x, 15x, 00x, b5x, 19x, 0fx, 96x, b3x, 9fx, 88x, f8x, b4x, 11x, 08x, 1fx, c9x, 64x, 73x, c1x, 30x, 64x, 65x, c3x, 08x, 8cx, 84x, 15x, 99x, 17x, f6x, 64x, 62x, a5x, 86x, 06x, 60x, 66x, 06x, 60x, 4cx, 0cx, 75x, a5x, e2x, 4ex, b1x, eax, 51x, 7ax, a3x, 19x, 5ax, c9x, 58x, d9x, 56x, 8ex, 00x>
+        man_append_data <b1x, 19x, 0fx, b0x, c2x, b3x, 0ax, 77x, dax, 36x, 51x, 45x, 83x, 8bx, 17x, 07x, e0x, 25x, 45x, cdx, 0bx, 5ax, 31x, e4x, 91x, a6x, 81x, 8ex, 13x, cax, 8cx, 69x, 83x, bcx, d8x, 92x, 18x, 05x, f1x, a9x, eex, 10x, f0x, 30x, c0x, ccx, 0cx, c0x, ccx, 0cx, c0x, 85x, 19x, 01x, 13x, 2fx, b4x, c3x, cfx, cbx>
+        image_attr_hotspot_def_action <00x, 00x, 00x, 00x>
+        image_attr_hotspot_grid <00x, 01x, 00x, 01x>
+        image_attr_show_hotspot <01x>
+        image_attr_hotspot <00x, 01x, 00x, 01x>
+        image_attr_hotspot_type <00x, 00x>
+        image_attr_hilight_type <00x, 00x>
+        image_attr_hotspot_action_id <00x, 00x, 00x, 01x>
+        mat_precise_width <71>
+        mat_precise_height <66>
+        mat_precise_x <238>
+        mat_precise_y <81>
+        mat_relative_tag <56>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U2", 0-26-1351>
+            >
+          mat_art_id <1-0-34196>
+        man_end_object
+        man_start_object <ornament, "AOL heads to Australia.\r">
+          mat_relative_tag <57>
+          mat_precise_width <100>
+          mat_precise_height <50>
+          mat_precise_x <130>
+          mat_precise_y <105>
+          mat_orientation <hlf>
+          mat_font_sis <ms_sans_serif, 9, normal>
+          mat_color_text <66, 66, 173>
+        man_end_object
+        man_start_object <dss_list, "">
+          mat_precise_width <223>
+          mat_precise_height <98>
+          mat_precise_x <85>
+          mat_precise_y <177>
+          mat_bool_resize_vertical <no>
+          mat_bool_resize_horizontal <no>
+          mat_relative_tag <30>
+          mat_color_face <254, 255, 255>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "AOL- Employee Survey ">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"f1", 0-43-4317>
+                >
+              mat_art_id <1-0-1479>
+            man_end_object
+            man_start_object <trigger, "AOL-Compuserve News">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U2", 0-26-645>
+                  >
+                mat_art_id <1-0-1478>
+              man_end_object
+              man_start_object <trigger, "AOL Standards and Practices">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"K1", 0-17-52065>
+                    >
+                  mat_art_id <1-0-1479>
+                man_end_object
+                man_start_object <trigger, "AOL Press Releases">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"K1", 0-17-22103>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_end_object
+                  man_start_object <trigger, "AOL Legal">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"K1", 0-17-43605>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_end_object
+                    man_start_object <trigger, "Steve Case's Updates">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"f1", 0-41-676>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_end_object
+                      man_start_object <trigger, "Purchasing">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"f1", 0-43-1805>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_end_object
+                        man_start_object <trigger, "AOL Employee News Archives">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U2", 0-26-1150>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_end_object
+                        man_end_object
+                        man_start_object <trigger, "">
+                          mat_relative_tag <58>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"K1", 0-17-33427>
+                              >
+                            mat_precise_width <44>
+                            mat_precise_height <30>
+                            mat_precise_x <335>
+                            mat_precise_y <76>
+                            mat_font_sis <small_fonts, 7, normal>
+                            mat_art_id <1-1-7937>
+                            mat_trigger_style <plain_picture>
+                          man_end_object
+                          man_start_object <trigger, "">
+                            mat_relative_tag <60>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"K1", 0-17-35096>
+                                >
+                              mat_precise_width <44>
+                              mat_precise_height <30>
+                              mat_precise_x <335>
+                              mat_precise_y <104>
+                              mat_font_sis <small_fonts, 7, normal>
+                              mat_art_id <1-1-7937>
+                              mat_trigger_style <plain_picture>
+                            man_end_object
+                            man_start_object <trigger, "">
+                              mat_relative_tag <62>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"f1", 0-40-51075>
+                                  >
+                                mat_precise_width <44>
+                                mat_precise_height <30>
+                                mat_precise_x <335>
+                                mat_precise_y <131>
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_art_id <1-1-7937>
+                                mat_trigger_style <plain_picture>
+                              man_end_object
+                              man_start_object <trigger, "">
+                                mat_relative_tag <64>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U2", 0-26-406>
+                                    >
+                                  mat_precise_width <44>
+                                  mat_precise_height <30>
+                                  mat_precise_x <335>
+                                  mat_precise_y <160>
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_art_id <1-1-7937>
+                                  mat_trigger_style <plain_picture>
+                                man_end_object
+                                man_start_object <trigger, "">
+                                  mat_relative_tag <66>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"f1", 0-40-39088>
+                                      >
+                                    mat_precise_width <44>
+                                    mat_precise_height <30>
+                                    mat_precise_x <335>
+                                    mat_precise_y <190>
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_art_id <1-1-7937>
+                                    mat_trigger_style <plain_picture>
+                                  man_end_object
+                                  man_start_object <trigger, "">
+                                    mat_relative_tag <68>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"f1", 0-40-10552>
+                                        >
+                                      mat_precise_width <44>
+                                      mat_precise_height <30>
+                                      mat_precise_x <335>
+                                      mat_precise_y <220>
+                                      mat_font_sis <small_fonts, 7, normal>
+                                      mat_art_id <1-1-7937>
+                                      mat_trigger_style <plain_picture>
+                                    man_end_object
+                                    man_start_object <trigger, "">
+                                      mat_relative_tag <70>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"U2", 0-26-192>
+                                          >
+                                        mat_precise_width <44>
+                                        mat_precise_height <30>
+                                        mat_precise_x <335>
+                                        mat_precise_y <249>
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_art_id <1-1-7937>
+                                        mat_trigger_style <plain_picture>
+                                      man_end_object
+                                      man_start_object <ornament, "Full Disclosure">
+                                        mat_relative_tag <59>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <81>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <ornament, "Human Resources">
+                                        mat_relative_tag <61>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <109>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <ornament, "Employee Directory">
+                                        mat_relative_tag <63>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <136>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <ornament, "Internal Computing">
+                                        mat_relative_tag <65>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <165>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <ornament, "Employee Store">
+                                        mat_relative_tag <67>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <195>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <ornament, "AOL's Stock Quote">
+                                        mat_relative_tag <69>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <225>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <ornament, "The Daily Roundup">
+                                        mat_relative_tag <71>
+                                        mat_precise_width <168>
+                                        mat_precise_height <20>
+                                        mat_precise_x <380>
+                                        mat_precise_y <254>
+                                        mat_orientation <hlf>
+                                        mat_font_sis <ms_sans_serif, 12, bold>
+                                        mat_color_text <66, 66, 173>
+                                      man_end_object
+                                      man_start_object <trigger, "">
+                                        mat_relative_tag <72>
+                                        mat_precise_width <162>
+                                        mat_precise_height <35>
+                                        mat_precise_x <8>
+                                        mat_precise_y <288>
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_art_id <1-0-46108>
+                                        mat_trigger_style <picture>
+                                      man_end_object
+                                      man_start_object <trigger, "">
+                                        mat_relative_tag <74>
+                                        mat_precise_width <162>
+                                        mat_precise_height <35>
+                                        mat_precise_x <194>
+                                        mat_precise_y <288>
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_art_id <1-0-46108>
+                                        mat_trigger_style <picture>
+                                      man_end_object
+                                      man_start_object <trigger, "">
+                                        mat_relative_tag <76>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"f1", 0-43-1823>
+                                            >
+                                          mat_precise_width <162>
+                                          mat_precise_height <35>
+                                          mat_precise_x <376>
+                                          mat_precise_y <288>
+                                          mat_font_sis <small_fonts, 7, normal>
+                                          mat_art_id <1-1-2651>
+                                          mat_trigger_style <picture>
+                                        man_end_object
+                                      man_end_object
+                                      man_start_object <org_group, "">
+                                        mat_orientation <hff>
+                                        mat_precise_width <555>
+                                        mat_precise_height <22>
+                                        mat_precise_x <0>
+                                        mat_precise_y <325>
+                                        mat_color_face <1, 1, 127>
+                                        mat_bool_background_flood <yes>
+                                        man_start_object <ornament, "Keyword: Info">
+                                          mat_precise_width <105>
+                                          mat_precise_height <20>
+                                          mat_precise_x <440>
+                                          mat_precise_y <325>
+                                          mat_orientation <hlf>
+                                          mat_font_sis <times_roman, 9, normal>
+                                          mat_color_text <255, 255, 255>
+                                        man_end_object
+                                      man_end_object
+                                    man_end_object
+                                    man_update_display
+                                    uni_wait_off
+                                  uni_end_stream

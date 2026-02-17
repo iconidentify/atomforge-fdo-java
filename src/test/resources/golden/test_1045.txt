@@ -1,0 +1,520 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_object_id <41-42631>
+    mat_style_id <41-42631>
+    mat_orientation <vff>
+    mat_precise_width <300>
+    mat_precise_height <380>
+    mat_color_face <255, 255, 255>
+    mat_object_id <32-2618>
+    mat_style_id <32-2618>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_non_closeable <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vcf>
+      mat_precise_width <285>
+      mat_precise_height <375>
+      mat_vertical_spacing <0>
+      man_start_object <org_group, "">
+        mat_orientation <hcf>
+        mat_precise_width <1>
+        mat_precise_height <1>
+        man_start_object <ornament, "">
+          mat_relative_tag <1>
+          mat_bool_disabled <yes>
+          mat_bool_invisible <yes>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hcf>
+        mat_precise_y <60>
+        mat_precise_width <300>
+        mat_precise_height <315>
+        mat_vertical_spacing <0>
+        man_start_object <ornament, "">
+          mat_precise_y <10>
+          mat_precise_width <300>
+          mat_precise_height <60>
+          mat_font_sis <arial, 9, bold>
+          mat_orientation <hcf>
+          man_replace_data <"top">
+          idb_exists <20-255-131>
+          if_last_return_true_then <194>
+          idb_set_context <20-255-131>
+          idb_atr_offset <0>
+          idb_get_data
+          uni_use_last_atom_string <man_append_data>
+          idb_end_context
+          uni_sync_skip <194>
+          man_append_data <"Dynamic Theta Module">
+          act_get_db_value <14x, 00x, 00x, d1x>
+          if_last_return_true_then <1>
+          man_append_data <"Dynamic Alpha Top\x7fBasic Item Thing">
+          uni_sync_skip <1>
+          man_append_data <"\x7fAdvanced Gamma">
+          idb_set_context <20-0-6>
+          idb_atr_offset <6>
+          idb_get_value <02x>
+          uni_convert_last_atom_data
+          uni_use_last_atom_string <man_append_data>
+          man_append_data <".">
+          idb_atr_offset <8>
+          idb_get_value <02x>
+          uni_convert_last_atom_data
+          uni_use_last_atom_string <man_append_data>
+          idb_end_context
+          fm_start
+          fm_item_type <ini_file>
+          fm_item_set <"version.inf">
+          fm_item_type <ini_group>
+          fm_item_set <"Application Information">
+          fm_item_type <ini_key>
+          fm_item_set <"spin">
+          fm_ini_read_data
+          var_string_set_from_atom <A>
+          var_string_save <A, 34>
+          fm_end
+          if_stra_neq_null_then <2>
+          var_lookup_by_id <A, 34>
+          uni_save_result
+          uni_get_result
+          uni_use_last_atom_string <man_append_data>
+          uni_sync_skip <2>
+          act_get_db_value <14x, 00x, 00x, d1x>
+          if_last_return_true_then <1, 2>
+          man_append_data <"Default Front">
+          uni_sync_skip <1>
+          man_append_data <"Special Beta">
+          uni_sync_skip <2>
+          fm_start
+          fm_item_type <ini_file>
+          fm_item_set <"version.inf">
+          fm_item_type <ini_group>
+          fm_item_set <"Application Information">
+          fm_item_type <ini_key>
+          fm_item_set <"about">
+          fm_ini_read_data
+          var_string_set_from_atom <A>
+          var_string_save <A, 34>
+          fm_end
+          if_stra_neq_null_then <2>
+          var_lookup_by_id <A, 34>
+          uni_save_result
+          uni_get_result
+          uni_use_last_atom_string <man_append_data>
+          uni_sync_skip <2>
+          man_append_data <"\x7f">
+          mat_vertical_spacing <0>
+        man_end_object
+      man_start_sibling <ornament, "">
+        mat_precise_y <70>
+        mat_precise_width <300>
+        mat_precise_height <275>
+        mat_object_type <ornament, "">
+        mat_font_sis <arial, 8, normal>
+        mat_orientation <hcf>
+        mat_title_pos <above | center>
+        mat_vertical_spacing <2>
+        man_append_data <"\x7f\x7fupdate default south button old region first stop.\x7f\x7fhandle view item unit west special simple current. old\x7fsub handle load delta current second sigma stop. complex\x7fscreen area delete current update complex start bottom.\x7fobject east front save load create element beta.\x7f\x7fback main load theta window close stop side. save old bottom\x7fPrimary Item View\x7f\x7fpanel simple section static invoke first delete primary.\x7f\x7fload refresh label component close load process main. load send fourth process beta region complex left.\x7fActive East\x7f\x7fFirst South Button\x7f\x7f">
+      man_start_sibling <trigger, "Advanced Sub Left">
+        mat_relative_tag <3>
+        mat_command_key <52x, 01x>
+        mat_bool_invisible <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_get_top_window
+              uni_save_result
+              var_number_set_from_atom
+              var_number_set <B, 2099770>
+              if_numa_neq_numb_then <3>
+            uni_abort_stream
+            uni_sync_skip <3>
+            man_set_context_globalid <1>
+            man_start_object <ind_group, "New Alpha Zone">
+              mat_position <center_center>
+              mat_object_id <20-0-352>
+              mat_orientation <vee>
+              mat_bool_background_flood <yes>
+              mat_color_face <255, 255, 255>
+              mat_bool_modal <yes>
+              man_start_object <ornament, "">
+                mat_relative_tag <40>
+                mat_size <35, 16>
+                mat_font_sis <arial, 8, normal>
+                man_replace_data <"Complex Center Element\x7fCurrent Sub">
+                idb_exists <20-255-131>
+                if_last_return_true_then <194>
+                idb_set_context <20-255-131>
+                idb_atr_offset <0>
+                idb_get_data
+                uni_use_last_atom_string <man_append_data>
+                idb_end_context
+                uni_sync_skip <194>
+                man_append_data <"Basic Top">
+                idb_set_context <20-0-6>
+                idb_atr_offset <6>
+                idb_get_value <02x>
+                uni_convert_last_atom_data
+                uni_use_last_atom_string <man_append_data>
+                man_append_data <".">
+                idb_atr_offset <8>
+                idb_get_value <02x>
+                uni_convert_last_atom_data
+                uni_use_last_atom_string <man_append_data>
+                idb_end_context
+                man_append_data <" ">
+                idb_exists <20-3-36>
+                if_last_return_true_then <195>
+                idb_set_context <20-3-36>
+                idb_atr_offset <0>
+                idb_get_data
+                uni_use_last_atom_string <man_append_data>
+                idb_end_context
+                uni_sync_skip <195>
+                man_append_data <"\x7f">
+                man_append_data <"Primary Unit">
+                idb_exists <20-255-293>
+                if_last_return_true_then <196>
+                idb_set_context <20-255-293>
+                idb_atr_offset <0>
+                idb_get_data
+                uni_use_last_atom_string <man_append_data>
+                idb_end_context
+                uni_sync_skip <196>
+                idb_set_context <20-255-394>
+                man_append_data <"\x7fStatic Module Top">
+                idb_atr_offset <0>
+                idb_get_data
+                uni_use_last_atom_string <man_append_data>
+                idb_end_context
+                man_append_data <"\x7f\x7f">
+              man_start_sibling <trigger, "">
+                man_make_focus
+                mat_trigger_style <default>
+                mat_color_face <204, 204, 255>
+                mat_font_sis <arial, 8, normal>
+                mat_color_top_edge <255, 255, 255>
+                mat_color_bottom_edge <153, 153, 204>
+                mat_color_text <0, 0, 0>
+                mat_title <"Simple Object West">
+                mat_bool_default <yes>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_close_update
+                    uni_end_stream
+                    >
+                man_end_object
+                man_update_display
+                man_set_context_relative <40>
+                async_system_usage <"0">
+                async_system_usage <"1">
+                async_system_usage <"2">
+                async_system_usage <"3">
+                async_system_usage <"4">
+                async_system_usage <"5">
+                async_system_usage <"6">
+                async_system_usage <"7">
+                async_system_usage <"8">
+                man_end_context
+              man_end_object
+              man_end_context
+              man_update_display
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Standard Dialog Sub">
+          mat_relative_tag <5>
+          mat_command_key <54x, 01x>
+          mat_bool_invisible <yes>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_get_top_window
+                uni_save_result
+                var_number_set_from_atom
+                var_number_set <B, 2099770>
+                if_numa_neq_numb_then <3>
+              uni_abort_stream
+              uni_sync_skip <3>
+              cm_show_tools
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Special Object Theta">
+          mat_relative_tag <6>
+          mat_command_key <45x, 01x>
+          mat_bool_invisible <yes>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_get_top_window
+                uni_save_result
+                var_number_set_from_atom
+                var_number_set <B, 2099770>
+                if_numa_neq_numb_then <3>
+              uni_abort_stream
+              uni_sync_skip <3>
+              uni_invoke_no_context <41-32231>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Current Top Label">
+          mat_relative_tag <7>
+          mat_command_key <49x, 01x>
+          mat_bool_invisible <yes>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_get_top_window
+                uni_save_result
+                var_number_set_from_atom
+                var_number_set <B, 2099770>
+                if_numa_neq_numb_then <3>
+              uni_abort_stream
+              uni_sync_skip <3>
+              dice_disp_connect_summary
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Old Gamma Right">
+          mat_relative_tag <8>
+          mat_command_key <59x, 01x>
+          mat_bool_invisible <yes>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_get_top_window
+                uni_save_result
+                var_number_set_from_atom
+                var_number_set <B, 2099770>
+                if_numa_neq_numb_then <3>
+              uni_abort_stream
+              uni_sync_skip <3>
+              man_set_context_globalid <1>
+              man_start_object <ind_group, "Active Box Center">
+                mat_position <center_center>
+                mat_object_id <20-0-352>
+                mat_orientation <vee>
+                mat_bool_background_flood <yes>
+                mat_color_face <255, 255, 255>
+                mat_bool_modal <yes>
+                man_start_object <ornament, "">
+                  mat_relative_tag <40>
+                  mat_size <38, 7>
+                  mat_font_sis <arial, 8, normal>
+                  man_replace_data <"\x7f">
+                man_end_object
+                man_start_object <org_group, "">
+                  mat_orientation <hlt>
+                  man_start_object <ornament, "">
+                    mat_relative_tag <43>
+                    mat_size <26, 1>
+                    mat_font_sis <arial, 8, normal>
+                    if_online_then <43, 44>
+                    man_replace_data <"Advanced Label Label">
+                    uni_sync_skip <43>
+                    man_replace_data <"Dynamic Screen View">
+                    uni_sync_skip <44>
+                  man_start_sibling <ornament, "">
+                    mat_relative_tag <41>
+                    mat_size <15, 1>
+                    mat_font_sis <arial, 8, normal>
+                    man_replace_data <"Standard Button Corner">
+                  man_end_object
+                man_end_object
+                man_start_object <org_group, "">
+                  mat_orientation <hlt>
+                  man_start_object <ornament, "">
+                    mat_relative_tag <44>
+                    mat_size <26, 1>
+                    mat_font_sis <arial, 8, normal>
+                    man_replace_data <"element secondary close sigma back omega">
+                    if_online_then <44>
+                    mat_bool_invisible <yes>
+                    uni_sync_skip <44>
+                  man_start_sibling <ornament, "">
+                    mat_relative_tag <42>
+                    mat_size <15, 1>
+                    mat_font_sis <arial, 8, normal>
+                    man_replace_data <"Standard Button Corner">
+                    if_online_then <45>
+                    mat_bool_invisible <yes>
+                    uni_sync_skip <45>
+                  man_end_object
+                man_end_object
+                man_start_object <org_group, "">
+                  mat_orientation <hlt>
+                  man_start_object <ornament, "">
+                    mat_relative_tag <46>
+                    mat_size <15, 1>
+                    mat_font_sis <arial, 8, normal>
+                    man_replace_data <"Static View Section">
+                    if_offline_then <46>
+                    mat_bool_invisible <yes>
+                    uni_sync_skip <46>
+                  man_start_sibling <ornament, "">
+                    mat_relative_tag <47>
+                    mat_size <10, 1>
+                    mat_font_sis <arial, 8, normal>
+                    man_replace_data <"Basic Side">
+                    if_offline_then <47>
+                    mat_bool_invisible <yes>
+                    uni_sync_skip <47>
+                  man_end_object
+                man_end_object
+                man_start_object <trigger, "">
+                  man_make_focus
+                  mat_trigger_style <default>
+                  mat_color_face <204, 204, 255>
+                  mat_color_top_edge <255, 255, 255>
+                  mat_color_bottom_edge <153, 153, 204>
+                  mat_font_sis <arial, 8, normal>
+                  mat_color_text <0, 0, 0>
+                  mat_title <"Simple Object West">
+                  mat_bool_default <yes>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        man_close_update
+                      uni_end_stream
+                      >
+                  man_end_object
+                  man_update_display
+                  man_set_context_relative <40>
+                  man_append_data <"current start load previous side delete bottom load. delete create">
+                  dice_send_message <26>
+                  var_number_set_from_atom <B>
+                  var_number_set <A, 2>
+                  if_numa_neq_numb_then <22>
+                  dice_set_context_tool <10>
+                  dice_send_message <26>
+                  dice_end_context
+                  uni_sync_skip <22>
+                  man_update_display
+                  man_end_context
+                man_end_object
+                man_end_context
+                man_update_display
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Advanced Side South">
+            mat_relative_tag <9>
+            mat_command_key <43x, 01x>
+            mat_bool_default <yes>
+            mat_bool_invisible <yes>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  dice_set_context_tool <10>
+                  dice_send_message <31>
+                  dice_end_context
+                uni_end_stream
+                >
+            man_start_sibling <trigger, "OK">
+              mat_title_width <5>
+              mat_precise_x <115>
+              mat_precise_y <355>
+              mat_relative_tag <4>
+              mat_color_face <204, 204, 255>
+              mat_color_top_edge <255, 255, 255>
+              mat_color_bottom_edge <153, 153, 204>
+              man_make_focus
+              mat_precise_height <23>
+              mat_precise_width <70>
+              mat_font_sis <arial, 8, normal>
+              mat_vertical_spacing <0>
+              mat_bool_default <yes>
+              mat_font_id <arial>
+              mat_font_id <arial>
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    man_close_update
+                  uni_end_stream <00x>
+                  >
+              man_end_object
+            man_start_sibling <edit_view, "">
+              mat_field_script <any>
+              mat_encode_type <00x>
+              mat_bool_first_script <no>
+              mat_precise_y <5000>
+              mat_size <25, 1, 50>
+              mat_relative_tag <20>
+              mat_bool_vertical_scroll <no>
+              mat_bool_resize_vertical <no>
+              mat_bool_resize_horizontal <no>
+              mat_bool_exportable <no>
+              mat_bool_importable <no>
+              mat_bool_default_send <no>
+            man_start_sibling <trigger, "">
+              mat_precise_y <5000>
+              mat_precise_width <10>
+              mat_precise_height <10>
+              mat_relative_tag <21>
+              act_set_criterion <gain_focus>
+              act_replace_action
+                  <
+                  uni_start_stream
+                    man_set_context_relative <4>
+                    man_make_focus
+                    man_end_context
+                    man_update_display
+                  uni_end_stream
+                  >
+                mat_command_key <41x, 01x>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_set_context_relative <20>
+                      de_start_extraction <0>
+                      de_get_data_pointer
+                      uni_save_result
+                      var_string_set_from_atom <A>
+                      de_end_extraction
+                      man_end_context
+                      var_string_set <B,"Sub Item">
+                      if_stra_eq_strb_then <10>
+                      man_set_context_globalid <1>
+                      man_start_object <ind_group, "Default Zone">
+                        mat_orientation <vft>
+                        mat_bool_modal <yes>
+                        mat_bool_non_closeable <yes>
+                        man_start_object <ornament, "">
+                          mat_precise_width <250>
+                          mat_precise_height <160>
+                          uni_start_typed_data <latin1>
+                          uni_next_atom_typed <ascii>
+                          man_append_data <"update side main view left north close stop. stop east widget\x7fStandard South East\x7fleft refresh secondary execute refresh north frame bottom. box panel load close standard front dialog fourth. sub south sub window standard complex open bottom. previous static invoke update stop special receive fourth. standard back current right beta\x7fMain Zone Unit">
+                          man_end_data
+                          uni_end_typed_data
+                          mat_orientation <hlf>
+                        man_start_sibling <org_group, "">
+                          mat_orientation <hcf>
+                          uni_next_atom_typed <latin1>
+                          uni_next_atom_typed <ascii>
+                          man_start_object <trigger, "Custom Section">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  man_close_update
+                                uni_end_stream
+                                >
+                              mat_font_sis <arial, 9, normal>
+                              mat_color_text <1, 0, 0>
+                              mat_title_width <8>
+                              mat_color_top_edge <255, 255, 255>
+                              mat_color_bottom_edge <153, 153, 204>
+                              mat_color_face <204, 204, 255>
+                              mat_bool_default <yes>
+                            man_end_object
+                          man_end_object
+                          man_end_context
+                          man_update_display
+                          uni_sync_skip <10>
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_update_display
+                    uni_wait_off
+                  uni_end_stream <00x>

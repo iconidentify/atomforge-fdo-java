@@ -1,0 +1,66 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Automatic AOL Walk_Through">
+    mat_object_id <32-2520>
+    mat_style_id <32-2520>
+    mat_orientation <vft>
+    mat_precise_width <381>
+    mat_precise_height <187>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Congratulations">
+      mat_precise_x <110>
+      mat_precise_y <8>
+      mat_size <19, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <43>
+      mat_precise_width <400>
+      mat_precise_height <80>
+      mat_font_size <8>
+      mat_precise_width <381>
+      mat_precise_height <80>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"That's it. Automatic AOL is set up!  Remember, if you scheduled Automatic AOL, AOL must be running (but not signed-on) at the scheduled time.\x7f\x7fIf you want to review or change the selections you have made for \x7fAutomatic AOL, click <B>Set Up Automatic AOL</B> on the <B>Post Room</B> menu.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_x <183>
+      mat_precise_y <227>
+      mat_precise_width <50>
+      mat_precise_height <23>
+      man_start_object <trigger, "">
+        mat_precise_x <170>
+        mat_precise_y <125>
+        mat_precise_width <36>
+        mat_precise_height <36>
+        mat_trigger_style <plain_picture>
+        mat_art_id <1-1-56506>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_start_sibling <ornament, "">
+          mat_precise_x <180>
+          mat_precise_y <162>
+          mat_size <10, 1>
+          mat_font_sis <arial, 8, bold>
+          man_append_data <"OK">
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

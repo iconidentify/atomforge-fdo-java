@@ -1,0 +1,54 @@
+uni_start_stream
+  man_start_object <ind_group, "New Chat Rooms">
+    mat_orientation <vff>
+    man_start_object <ornament, "The new face of AOL Chat\r">
+      mat_relative_tag <3>
+      mat_width <26>
+      mat_height <1>
+      mat_font_sis <times_roman, 24, bold>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <het>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <view, "">
+        mat_width <30>
+        mat_height <10>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"The chat rooms are changing yet again!\r\n\r\nAOL is m">
+        man_append_data <"aking some minor adjustments to the chat rooms to ">
+        man_append_data <"allow for <ugh> advertising in the chat space.  Pe">
+        man_append_data <"rsonally, I think they have done okay with it.  Th">
+        man_append_data <"e ad space is unobtrusive and is really not so bad">
+        man_append_data <".  The function of the chat rooms remains unchange">
+        man_append_data <"d.\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_start_sibling <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <30>
+        mat_height <13>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "What's New in the Chat Rooms?">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-127-48219>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Preview of New Chat Room">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-127-45788>
+                >
+              mat_art_id <1-0-1478>
+            man_end_object
+          man_end_object
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

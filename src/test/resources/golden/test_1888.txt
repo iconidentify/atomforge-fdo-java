@@ -1,0 +1,45 @@
+uni_start_stream
+  man_start_object <ind_group, "April Promo Codes">
+    mat_orientation <vff>
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "April Promo Codes">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_orientation <hlf>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+      man_start_sibling <view, "">
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <yes>
+        mat_field_script <default>
+        man_append_data <"26949 AAA\r\n26948 AAA\r\n26947 AAA\r\n26946 AAA\r\n26937 ">
+        man_append_data <"AAA\r\n26936 AAA\r\n26935 AAA\r\n26213 AAA\r\n30608 AMERIC">
+        man_append_data <"AN EXPRESS\r\n25486 ATLANTIC MONTHLY\r\n25485 ATLANTIC">
+        man_append_data <" MONTHLY\r\n30409 EXTRA TV IN-HOUSE USE\r\n25578 GAME ">
+        man_append_data <"PRO SUBS\r\n30103 KAPLAN\r\n25488 MCO INSERT\r\n26945 MU">
+        man_append_data <"LTIMEDIA WORLD LIVE\r\n30370 NSBE MAGAZINE\r\n25572 PC">
+        man_append_data <" WORLD NEWS\r\n25573 PC WORLD SUBS\r\n27826 PULSE! MAJ">
+        man_append_data <"OR METRO CIRC\r\n25484 USA WEEKEND\r\n21370 VIDEO\r\n213">
+        man_append_data <"71 VIDEO\r\n18472 ZIFF COMPUTER LIFE NEWS\r\n16968 ZIF">
+        man_append_data <"F COMPUTER LIFE SUBS\r\n25574 ZIFF MACUSER NEWS\r\n255">
+        man_append_data <"75 ZIFF MACUSER SUBS\r\n30410 ZIFF N+I SHOW\r\n16970 Z">
+        man_append_data <"IFF PC COMPUTING NEWS\r\n23373 ZIFF PC COMPUTING SUB">
+        man_append_data <"S\r\n21355 ZIFF PC MAGAZINE SUBS\r\n25577 ZIFF WINDOWS">
+        man_append_data <" SOURCES NEWS\r\n25576 ZIFF WINDOWS SOURCES SUBS\r\n\r\n">
+        man_append_data <"Transmitted: 04/06/97 20:41">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

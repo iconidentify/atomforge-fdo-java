@@ -1,0 +1,202 @@
+uni_start_stream
+  man_start_object <ind_group, "AAC Staff Private Area">
+    mat_orientation <vff>
+    man_start_object <ornament, "AAC Staff Private Area\r">
+      mat_relative_tag <3>
+      mat_width <23>
+      mat_height <1>
+      mat_font_sis <times_roman, 24, bold>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <33>
+          mat_height <12>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "1997-8 AAC Topic List">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-29-19668>
+                >
+              mat_art_id <1-0-1477>
+            man_start_sibling <trigger, "Department News & Information">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-29-8833>
+                  >
+                mat_art_id <1-0-1476>
+              man_start_sibling <trigger, "AAC Staff Information Center">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-29-15997>
+                    >
+                  mat_art_id <1-0-1476>
+                man_start_sibling <trigger, "Newsletter and Fuzzy Library">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"eB", 0-0-14710>
+                      >
+                    mat_art_id <1-0-1482>
+                  man_start_sibling <trigger, "AAC Library">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"eB", 0-0-3909>
+                        >
+                      mat_art_id <1-0-1482>
+                    man_start_sibling <trigger, "Web Collection">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-29-12686>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Homework Helpers">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-29-13530>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "AAC Member Lists">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-29-18641>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "BackDoor to Rooms">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-29-29209>
+                                >
+                              mat_art_id <1-0-1477>
+                            man_start_sibling <trigger, "AAC Discussion Board">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"bE", 0-0-2706>
+                                  >
+                                mat_art_id <1-0-1483>
+                              man_end_object
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <vff>
+                            mat_vertical_spacing <7>
+                            man_start_object <view, "">
+                              mat_bool_graphic_view <yes>
+                              image_attr_dynamic_display <01x>
+                              image_attr_fit_to_view <yes>
+                              image_attr_aspect_ratio <no>
+                              mat_width <210>
+                              mat_height <140>
+                              mat_bool_resize_vertical <no>
+                              mat_bool_resize_horizontal <no>
+                              mat_bool_vertical_scroll <no>
+                              mat_relative_tag <5>
+                            man_start_sibling <ornament, "">
+                              mat_relative_tag <11>
+                              mat_width <25>
+                              mat_height <2>
+                              mat_vertical_spacing <0>
+                              mat_font_sis <arial, 9, normal>
+                              man_append_data <"Everything in this area is confidential\r">
+                              man_end_data
+                              mat_orientation <hlf>
+                            man_end_object
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <hff>
+                          man_start_object <org_group, "">
+                            mat_orientation <vcf>
+                            man_start_object <trigger, "">
+                              mat_relative_tag <56>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-29-15973>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_art_id <1-0-1341>
+                                mat_trigger_style <picture>
+                              man_start_sibling <ornament, "Administrative News\r">
+                                mat_relative_tag <57>
+                                mat_width <15>
+                                mat_height <1>
+                                mat_font_sis <times_roman, 9, normal>
+                                mat_orientation <hcc>
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <vcf>
+                              man_start_object <trigger, "">
+                                mat_relative_tag <58>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"MR", 0-0-38>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_art_id <1-0-1333>
+                                  mat_trigger_style <picture>
+                                man_start_sibling <ornament, "Conference Room\r">
+                                  mat_relative_tag <59>
+                                  mat_width <15>
+                                  mat_height <1>
+                                  mat_font_sis <times_roman, 9, normal>
+                                  mat_orientation <hcc>
+                                man_end_object
+                              man_start_sibling <org_group, "">
+                                mat_orientation <vcf>
+                                man_start_object <trigger, "">
+                                  mat_relative_tag <60>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-29-29210>
+                                      >
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_art_id <1-0-1848>
+                                    mat_trigger_style <picture>
+                                  man_start_sibling <ornament, "Orientation Information">
+                                    mat_relative_tag <61>
+                                    mat_width <15>
+                                    mat_height <1>
+                                    mat_font_sis <times_roman, 9, normal>
+                                    mat_orientation <hcc>
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <vcf>
+                                  man_start_object <trigger, "">
+                                    mat_relative_tag <62>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-29-16086>
+                                        >
+                                      mat_font_sis <small_fonts, 7, normal>
+                                      mat_art_id <1-0-1747>
+                                      mat_trigger_style <picture>
+                                    man_start_sibling <ornament, "Community Leaders">
+                                      mat_relative_tag <63>
+                                      mat_width <15>
+                                      mat_height <1>
+                                      mat_font_sis <times_roman, 9, normal>
+                                      mat_orientation <hcc>
+                                    man_end_object
+                                  man_end_object
+                                man_end_object
+                                man_update_display
+                              man_update_woff_end_stream

@@ -1,0 +1,76 @@
+uni_start_stream
+  man_start_object <ind_group, "VLA Preview">
+    mat_orientation <vff>
+    man_start_object <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <ornament, "">
+        mat_relative_tag <56>
+        mat_art_id <1-0-9132>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "">
+        mat_width <1>
+        mat_height <1>
+        mat_font_sis <arial, 9, normal>
+        mat_orientation <hlf>
+      man_start_sibling <ornament, "VLA Preview\r">
+        mat_relative_tag <3>
+        mat_width <17>
+        mat_height <2>
+        mat_font_sis <arial, 18, italic>
+        mat_color_text <219, 1, 1>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <35>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "About the VLA Preview Area">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-1-48345>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Confidentiality Notice">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-1-48374>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "AOL 101: Discovery for VirtuaLeaders!">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-127-29611>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "HTML 101: Web Creation Basics">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-1-28170>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "CMB 101: Monitoring and Managing Classic Boards">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-1-21785>
+                    >
+                  mat_art_id <1-0-1479>
+                man_end_object
+              man_start_sibling <ornament, "">
+                mat_relative_tag <1>
+                mat_width <35>
+                mat_height <4>
+                mat_font_sis <arial, 10, normal>
+                man_append_data <"Check out our two new courses: HTML 101 and CMB 10">
+                man_append_data <"1!\r\rKeyword: VLA PREVIEW\r">
+                man_end_data
+                mat_orientation <hlf>
+              man_end_object
+              man_update_display
+            man_update_woff_end_stream

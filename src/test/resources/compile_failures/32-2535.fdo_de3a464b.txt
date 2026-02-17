@@ -1,0 +1,72 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Run Automatic AOL Now">
+    mat_object_id <32-2535>
+    mat_style_id <32-2535>
+    mat_orientation <vff>
+    mat_precise_width <337>
+    mat_precise_height <220>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <320>
+      mat_precise_height <170>
+      mat_font_sis <arial, 8, normal>
+      man_append_data <"Select "Begin" below to immediately run Automatic AOL for the Screen Names you have designated. The actions that you have specified will occur. If you would like to review or change your instructions, select "Set Session" instead.\x7f\x7fRemember: Files attached to email can contain viruses! If your New Email list contains email with attached files, make sure you know who sent you the email before you start this Automatic AOL session. To retrieve unread email without downloading attached files, click on the "Set Session" button to change the Download Files option. For more information, go to AOL Keyword: Safety.\x7f\x7f\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      man_start_object <trigger, "Begin">
+        mat_precise_x <36>
+        mat_precise_y <175>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              mip_action_command <09x>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Set Session">
+          mat_precise_x <129>
+          mat_precise_y <175>
+          mat_precise_width <90>
+          mat_precise_height <23>
+          mat_trigger_style <14>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Cancel">
+            mat_precise_x <240>
+            mat_precise_y <175>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_trigger_style <14>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

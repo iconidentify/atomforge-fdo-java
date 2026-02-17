@@ -1,0 +1,69 @@
+uni_start_stream
+  man_start_object <ind_group, "Untitled">
+    mat_orientation <vff>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    man_start_object <ornament, "Jane's Window on the World">
+      mat_width <20>
+      mat_height <1>
+      mat_font_sis <times_roman, 24, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_width <40>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "Chat Room">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"MR", 0-0-330>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-1377>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Software Library">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"eB", 0-0-8985>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-1375>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "Lollapalooza WEB Site">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_set_token <"f1">
+                  buf_add_atom_data <2101876>
+                  buf_close_buffer
+                  www_browse <"http://www.lollapalooza.com">
+                uni_end_stream <00x>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-1377>
+            man_start_sibling <trigger, "Message Board">
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"bE", 0-0-1797>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-1372>
+              man_end_object
+            man_start_sibling <ornament, "Keyword: bartles">
+              mat_width <20>
+              mat_height <1>
+              mat_font_sis <arial, 9, normal>
+              mat_orientation <hlf>
+            man_end_object
+            man_update_display
+          man_update_woff_end_stream

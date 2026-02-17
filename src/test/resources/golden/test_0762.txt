@@ -1,0 +1,85 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Screen Object">
+    mat_style_id <32-8545>
+    mat_orientation <vft>
+    mat_precise_width <370>
+    mat_precise_height <235>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_art_id <1-5-7537>
+      mat_bool_disabled <yes>
+    man_start_sibling <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <350>
+      mat_precise_height <85>
+      mat_font_size <8>
+      mat_precise_width <350>
+      mat_precise_height <125>
+      mat_font_id <arial>
+      man_append_data <"screen area second current center handle primary previous. process\x7fBasic Zone Side\x7f\x7fedge stop delete section sub right left refresh. update simple current send handle side beta refresh. secondary first section back module update back new. side process gadget button advanced advanced dynamic default. view create fourth object update side area module.\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <212>
+      mat_precise_width <370>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <70>
+        mat_precise_y <165>
+        mat_trigger_style <plain_picture>
+        mat_art_id <1-5-21122>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-58>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-2510>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <165>
+          mat_precise_y <165>
+          mat_trigger_style <plain_picture>
+          mat_art_id <1-5-21128>
+          mat_font_id <arial>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-58>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-2510>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <250>
+            mat_precise_y <165>
+            mat_trigger_style <plain_picture>
+            mat_art_id <1-5-21181>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

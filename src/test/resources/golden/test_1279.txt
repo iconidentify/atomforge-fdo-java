@@ -1,0 +1,381 @@
+uni_start_stream <00x>
+  async_is_known_subaccount
+  if_last_return_false_then <1>
+  async_alert <info, "item refresh process update start top invoke close. delta component edge load delete">
+  uni_wait_off
+uni_abort_stream
+uni_sync_skip <1>
+man_set_context_globalid <1>
+man_preset_gid <32-4621>
+if_last_return_true_then <1>
+man_make_focus
+man_update_display
+uni_wait_off
+uni_abort_stream
+uni_sync_skip <1>
+man_set_context_globalid <1>
+man_start_object <ind_group, "Standard Bottom Beta">
+  mat_object_id <32-4621>
+  mat_style_id <32-4621>
+  mat_orientation <vff>
+the_unknown <16, 204, 01x>
+  mat_object_id <32-4621>
+  mat_style_id <32-4621>
+  mat_width <528>
+  man_get_display_characteristics <height, 80>
+  uni_use_last_atom_value <mat_height>
+  man_start_object <dss_list, "">
+    mat_relative_tag <100>
+    mat_bool_popup_menu <yes>
+    man_start_object <trigger, "Current Module">
+      act_replace_select_action
+          <
+          uni_start_stream
+            if_offline_then <3, 4>
+            uni_invoke_no_context <41-46585>
+            uni_sync_skip <3>
+            uni_invoke_no_context <47-50123>
+            uni_sync_skip <4>
+          uni_end_stream
+          >
+      man_start_sibling <trigger, "Second Main">
+        act_replace_select_action
+            <
+            uni_start_stream
+              if_offline_then <3, 4>
+              uni_invoke_no_context <41-46587>
+              uni_sync_skip <3>
+              uni_invoke_no_context <47-50153>
+              uni_sync_skip <4>
+            uni_end_stream
+            >
+        man_start_sibling <ornament, "">
+        man_start_sibling <trigger, "Custom Button">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                if_offline_then <3>
+                man_preset_gid <40-35297>
+                if_last_return_true_then <1, 2>
+                man_make_focus
+                man_update_display
+                uni_sync_skip <1>
+                uni_wait_on
+                uni_invoke_no_context <40-35297>
+                uni_sync_skip <2>
+                uni_sync_skip <3>
+                if_online_then <4>
+                uni_invoke_no_context <47-50154>
+                uni_sync_skip <4>
+              uni_end_stream
+              >
+          man_end_object
+        man_end_object
+        mat_bool_auto_closeable <no>
+        act_set_criterion <200>
+        act_replace_action
+            <
+            uni_start_stream
+              man_set_context_globalid <32-4621>
+              man_set_context_relative <1>
+              morg_obj_count_children
+              if_last_return_false_then <10, 20>
+              man_set_context_relative <10>
+              mat_bool_disabled <yes>
+              man_change_context_relative <11>
+              mat_bool_disabled <yes>
+              man_change_context_relative <12>
+              mat_bool_disabled <yes>
+              man_change_context_relative <13>
+              mat_bool_disabled <no>
+              man_change_context_relative <14>
+              mat_bool_disabled <yes>
+              man_end_context
+              uni_sync_skip <10>
+              man_set_context_relative <14>
+              mat_bool_disabled <no>
+              man_end_context
+              morg_view_has_mult_selections
+              if_last_return_true_then <1, 2>
+              man_set_context_relative <10>
+              mat_bool_disabled <yes>
+              man_change_context_relative <11>
+              mat_bool_disabled <no>
+              man_change_context_relative <12>
+              mat_bool_disabled <yes>
+              man_change_context_relative <13>
+              mat_bool_disabled <yes>
+              man_end_context
+              uni_sync_skip <1>
+              morg_obj_set_context_selection
+              man_set_context_relative <10>
+              mat_bool_disabled <no>
+              man_change_context_relative <13>
+              mat_bool_disabled <no>
+              man_end_context
+              morg_obj_can_delete
+              uni_save_result
+              man_set_context_relative <11>
+              uni_get_result
+              if_last_return_true_then <3, 4>
+              mat_bool_disabled <no>
+              uni_sync_skip <3>
+              mat_bool_disabled <yes>
+              uni_sync_skip <4>
+              man_end_context
+              morg_obj_can_rename
+              uni_save_result
+              man_set_context_relative <12>
+              uni_get_result
+              if_last_return_true_then <3, 4>
+              mat_bool_disabled <no>
+              uni_sync_skip <3>
+              mat_bool_disabled <yes>
+              uni_sync_skip <4>
+              man_end_context
+              morg_obj_can_create
+              uni_save_result
+              man_set_context_relative <13>
+              uni_get_result
+              if_last_return_true_then <3, 4>
+              mat_bool_disabled <no>
+              uni_sync_skip <3>
+              mat_bool_disabled <yes>
+              uni_sync_skip <4>
+              man_end_context
+              uni_sync_skip <2>
+              uni_sync_skip <20>
+              man_end_context
+              man_update_display
+              man_end_context
+            uni_end_stream
+            >
+          act_set_criterion <7>
+          act_replace_action
+              <
+              uni_start_stream
+                man_close_update
+              uni_end_stream
+              >
+            mat_title_append_screen_name <prepend_with_s>
+            mat_vertical_spacing <0>
+            mat_position <center_center>
+            mat_bool_background_flood <yes>
+            man_start_object <ornament, "">
+              mat_orientation <hlf>
+              mat_precise_height <1>
+            man_end_object
+            man_start_object <org_group, "">
+              mat_orientation <hff>
+              mat_horizontal_spacing <0>
+              man_start_object <ornament, "">
+                mat_art_id <1-13-5862>
+                mat_horizontal_spacing <0>
+              man_start_sibling <org_group, "">
+                mat_orientation <hrf>
+                man_start_object <trigger, "">
+                  mat_trigger_style <14>
+                  mat_title <"Default South">
+                  mat_horizontal_spacing <2>
+                  mat_vertical_spacing <0>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        idb_exists <20-0-62>
+                        if_last_return_true_then <1, 2>
+                        man_do_magic_response_id <2099658>
+                        uni_invoke_no_context <32-2506>
+                        uni_sync_skip <1>
+                        uni_invoke_no_context <32-2507>
+                        uni_sync_skip <2>
+                      uni_end_stream
+                      >
+                  man_start_sibling <trigger, "">
+                    mat_trigger_style <14>
+                    mat_title <"Active Window">
+                    mat_horizontal_spacing <0>
+                    mat_vertical_spacing <0>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          if_offline_then <1, 2>
+                          async_exec_context_help <46x, 69x, 6cx, 69x, 6ex, 67x, 20x, 43x, 61x, 62x, 69x, 6ex, 65x, 74x>
+                          uni_sync_skip <1>
+                        sm_send_f1 <46-50201>
+                        uni_sync_skip <2>
+                      uni_end_stream
+                      >
+                  man_end_object
+                man_end_object
+              man_end_object
+              man_start_object <org_group, "">
+                mat_orientation <vff>
+                mat_horizontal_spacing <0>
+                man_start_object <org_group, "">
+                  mat_orientation <vlb>
+                  man_start_object <ornament, "">
+                    mat_vertical_spacing <1>
+                  man_end_object
+                man_start_sibling <view, "">
+                  mat_size <70, 8>
+                  mat_frame_style <single_line_pop_in>
+                  mat_relative_tag <1>
+                  man_make_focus
+                  morg_manage
+                  morg_view_path
+                  mat_font_sis <arial, 9, normal>
+                  act_set_criterion <128>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        act_do_action <200>
+                      uni_end_stream
+                      >
+                    act_set_criterion <129>
+                    act_replace_action
+                        <
+                        uni_start_stream
+                          man_close_update
+                        uni_end_stream
+                        >
+                      act_set_criterion <130>
+                      act_replace_action
+                          <
+                          uni_start_stream
+                            act_do_action <200>
+                          uni_end_stream
+                          >
+                        morg_view_hide_folder <"Current South View">
+                        morg_view_hide_folder <"Standard Corner">
+                        morg_view_hide_folder <"sigm">
+                        morg_view_hide_folder <"Static Frame">
+                        morg_view_hide_folder <"Secondary Widget">
+                        morg_view_hide_folder <"Secondary Omega Gamma">
+                        morg_view_hide_folder <"Basic Element">
+                        morg_view_hide_folder <"Complex Edge">
+                        morg_view_hide_folder <"Default Window">
+                        morg_view_hide_folder <"Active East Top">
+                        morg_view_hide_folder <"Sub Module">
+                        morg_view_hide_folder <"Secondary Theta">
+                        morg_view_hide_folder <"Active Zone">
+                        morg_view_hide_folder <"Main Epsilon">
+                        morg_view_hide_folder <"Advanced Bottom">
+                        morg_view_hide_folder <"Basic Theta">
+                        mat_bool_writeable <yes>
+                      man_end_object
+                      man_start_object <org_group, "">
+                        mat_orientation <hff>
+                      man_start_sibling <org_group, "">
+                        mat_orientation <hff>
+                        mat_horizontal_spacing <0>
+                        mat_vertical_spacing <0>
+                        man_start_object <org_group, "">
+                          mat_orientation <hef>
+                          man_start_object <trigger, "">
+                            mat_relative_tag <10>
+                            mat_trigger_style <14>
+                            mat_title <"Complex Form">
+                            mat_precise_width <50>
+                            mat_horizontal_spacing <2>
+                            mat_vertical_spacing <0>
+                            mat_bool_default <yes>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  man_set_context_relative <1>
+                                  morg_view_select_object
+                                  man_end_context
+                                uni_end_stream
+                                >
+                            man_start_sibling <trigger, "">
+                              mat_relative_tag <13>
+                              mat_trigger_style <14>
+                              mat_title <"Special Sub North">
+                              mat_horizontal_spacing <2>
+                              mat_vertical_spacing <0>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    man_set_context_relative <1>
+                                    morg_prompt_create_folder
+                                    man_end_context
+                                  uni_end_stream
+                                  >
+                              man_start_sibling <trigger, "">
+                                mat_relative_tag <12>
+                                mat_trigger_style <14>
+                                mat_title <"Primary Bottom Sub">
+                                mat_horizontal_spacing <2>
+                                mat_vertical_spacing <0>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      man_set_context_relative <1>
+                                      morg_prompt_rename_object
+                                      man_end_context
+                                    uni_end_stream
+                                    >
+                                man_start_sibling <trigger, "">
+                                  mat_relative_tag <11>
+                                  mat_trigger_style <14>
+                                  mat_title <"Advanced Screen Omega">
+                                  mat_horizontal_spacing <0>
+                                  mat_vertical_spacing <0>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        man_set_context_relative <1>
+                                        morg_delete_current_object
+                                        man_end_context
+                                      uni_end_stream
+                                      >
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hrf>
+                                  mat_horizontal_spacing <0>
+                                  mat_vertical_spacing <0>
+                                  man_start_object <trigger, "">
+                                    mat_relative_tag <14>
+                                    mat_trigger_style <14>
+                                    mat_title <"New Gadget Bottom">
+                                    mat_horizontal_spacing <2>
+                                    mat_vertical_spacing <0>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          man_set_context_relative <1>
+                                          morg_view_search
+                                          man_end_context
+                                        uni_end_stream
+                                        >
+                                    man_start_sibling <trigger, "First Component">
+                                      mat_trigger_style <14>
+                                      mat_art_id <1-12-2363>
+                                      mat_text_on_picture_pos <art_middle_right | title_middle_left>
+                                      mat_title_access <"Third Delta Form">
+                                      mat_font_size <8>
+                                      mat_precise_width <82>
+                                      mat_precise_height <24>
+                                      mat_bool_dropdown_button <yes>
+                                      act_replace_popup_menu_action
+                                        <
+                                        uni_start_stream
+                                          man_set_context_relative <100>
+                                          man_display_popup_menu <0>
+                                          man_end_context
+                                        uni_end_stream
+                                        >
+                                      mat_horizontal_spacing <0>
+                                      mat_vertical_spacing <0>
+                                    man_end_object
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hff>
+                                  mat_precise_width <1>
+                                  mat_precise_height <7>
+                                  mat_bool_precise <yes>
+                                man_end_object
+                                man_update_display
+                                act_do_action <200>
+                                man_end_context
+                              uni_wait_off_end_stream

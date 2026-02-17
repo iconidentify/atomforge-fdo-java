@@ -1,0 +1,275 @@
+uni_start_stream_wait_on
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Staff Back Door ">
+    mat_orientation <vff>
+    mat_precise_width <230>
+    mat_precise_height <160>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <1, 0, 0>
+    mat_bool_background_flood <yes>
+    man_start_object <dss_list, "">
+      mat_width <25>
+      mat_height <10>
+      mat_precise_x <5>
+      mat_precise_y <4>
+      mat_font_sis <arial, 9, normal>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Member Help Room">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"MR", 0-0-2087>
+            >
+          mat_art_id <1-0-1480>
+        man_start_sibling <trigger, "The Plugin Pit">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"MR", 0-0-1806>
+              >
+            mat_art_id <1-0-1480>
+          man_start_sibling <trigger, "Blabsville USA">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"MR", 0-0-997>
+                >
+              mat_art_id <1-0-1480>
+            man_start_sibling <trigger, "Talksylvania">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"MR", 0-0-998>
+                  >
+                mat_art_id <1-0-1480>
+              man_start_sibling <trigger, "Chatopia">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"MR", 0-0-631>
+                    >
+                  mat_art_id <1-0-1480>
+                man_start_sibling <trigger, "Wonderland">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"MR", 0-0-504>
+                      >
+                    mat_art_id <1-0-1480>
+                  man_start_sibling <trigger, "Center of the Earth (GuideChat)">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"MR", 0-0-503>
+                        >
+                      mat_art_id <1-0-1480>
+                    man_start_sibling <trigger, "Rocky Mountain">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-56-16008>
+                          >
+                        mat_art_id <1-0-1480>
+                      man_start_sibling <trigger, "Orbit of the Earth">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"MR", 0-0-780>
+                            >
+                          mat_art_id <1-0-1480>
+                        man_start_sibling <trigger, "Ghosts n Hides">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"MR", 0-0-779>
+                              >
+                            mat_art_id <1-0-1480>
+                          man_start_sibling <trigger, "Computer Room">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"MR", 0-0-300>
+                                >
+                              mat_art_id <1-0-1480>
+                            man_start_sibling <trigger, "Cube Room">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"MR", 0-0-888>
+                                  >
+                                mat_art_id <1-0-1480>
+                              man_start_sibling <trigger, "Glasses Room">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"MR", 0-0-393>
+                                    >
+                                  mat_art_id <1-0-1480>
+                                man_start_sibling <trigger, "Sailboat Room">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"MR", 0-0-394>
+                                      >
+                                    mat_art_id <1-0-1480>
+                                  man_start_sibling <trigger, "Music Room">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"MR", 0-0-311>
+                                        >
+                                      mat_art_id <1-0-1480>
+                                    man_start_sibling <trigger, "Umbrella Room">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"MR", 0-0-887>
+                                          >
+                                        mat_art_id <1-0-1480>
+                                      man_start_sibling <trigger, "The GameRoom">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"MR", 0-0-259>
+                                            >
+                                          mat_art_id <1-0-1480>
+                                        man_start_sibling <trigger, "KO Club Chat">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"MR", 0-0-1276>
+                                              >
+                                            mat_art_id <1-0-1480>
+                                          man_start_sibling <trigger, "Conference rooms schedule">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-1-9257>
+                                                >
+                                              mat_art_id <1-0-1478>
+                                            man_start_sibling <trigger, "Ghost and Hides">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"MR", 0-0-779>
+                                                  >
+                                                mat_art_id <1-0-1480>
+                                              man_start_sibling <trigger, "The Alchemist Shop">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"MR", 0-0-251>
+                                                    >
+                                                  mat_art_id <1-0-1480>
+                                                man_start_sibling <trigger, "The Campfire">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"MR", 0-0-1337>
+                                                      >
+                                                    mat_art_id <1-0-1480>
+                                                  man_start_sibling <trigger, "The Wicker Basket">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"MR", 0-0-1206>
+                                                        >
+                                                      mat_art_id <1-0-1480>
+                                                    man_start_sibling <trigger, "Blackberry Creek">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"MR", 0-0-419>
+                                                          >
+                                                        mat_art_id <1-0-1480>
+                                                      man_start_sibling <trigger, "Gamepro">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"MR", 0-0-427>
+                                                            >
+                                                          mat_art_id <1-0-1480>
+                                                        man_start_sibling <trigger, "DC Comics Online 1">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"MR", 0-0-139>
+                                                              >
+                                                            mat_art_id <1-0-1480>
+                                                          man_start_sibling <trigger, "DC Comics Online II">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"MR", 0-0-357>
+                                                                >
+                                                              mat_art_id <1-0-1480>
+                                                            man_start_sibling <trigger, "Talk Ringling">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"MR", 0-0-597>
+                                                                  >
+                                                                mat_art_id <1-0-1480>
+                                                              man_start_sibling <trigger, "KidZine">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"MR", 0-0-631>
+                                                                    >
+                                                                  mat_art_id <1-0-1480>
+                                                                man_start_sibling <trigger, "Cartoon Network 1">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"MR", 0-0-150>
+                                                                      >
+                                                                    mat_art_id <1-0-1480>
+                                                                  man_start_sibling <trigger, "Cartoon Network 2">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"MR", 0-0-1046>
+                                                                        >
+                                                                      mat_art_id <1-0-1480>
+                                                                    man_start_sibling <trigger, "Blabbatorium">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"MR", 0-0-497>
+                                                                          >
+                                                                        mat_art_id <1-0-1480>
+                                                                      man_start_sibling <trigger, "The Chatterbox">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"MR", 0-0-633>
+                                                                            >
+                                                                          mat_art_id <1-0-1480>
+                                                                        man_start_sibling <trigger, "D A Live (Disney)">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"MR", 0-0-97>
+                                                                              >
+                                                                            mat_art_id <1-0-1480>
+                                                                          man_start_sibling <trigger, "Wizard World">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                sm_m_send_token_arg <"MR", 0-0-382>
+                                                                                >
+                                                                              mat_art_id <1-0-1480>
+                                                                            man_start_sibling <trigger, "K WB Chat">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                  sm_m_send_token_arg <"MR", 0-0-435>
+                                                                                  >
+                                                                                mat_art_id <1-0-1480>
+                                                                              man_end_object
+                                                                            man_end_object
+                                                                          hfs_attr_end_object
+                                                                        man_update_woff_end_stream

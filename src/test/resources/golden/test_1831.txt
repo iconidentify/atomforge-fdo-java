@@ -1,0 +1,106 @@
+uni_start_stream
+  man_start_object <ind_group, "ZIMA!!">
+    mat_orientation <vff>
+    mat_precise_width <480>
+    mat_precise_height <225>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-2264>
+    mat_bool_background_tile <yes>
+    man_start_object <edit_view, "Zima Area">
+      mat_precise_x <150>
+      mat_precise_y <70>
+      mat_title_pos <above | top_or_left>
+      act_set_criterion <11>
+      act_replace_action
+          <
+          uni_start_stream
+            man_set_context_relative <30>
+            var_lookup_by_id <D>
+            if_numa_false_then <1, 3>
+            var_number_set <A, 1>
+            var_number_save <A, 99>
+            mat_font_size <30>
+            mat_color_text <0, 255, 255>
+            mat_color_text_shadow <255, 0, 0>
+            uni_sync_skip <1>
+            var_number_set <B, 2>
+            var_number_save <A, 99>
+            mat_color_text <0, 0, 255>
+            uni_sync_skip <2>
+            var_number_set <B, 3>
+            var_number_save <A, 99>
+            mat_font_size <40>
+            mat_color_text <255, 0, 255>
+            mat_color_text_shadow <1, 1, 1>
+            uni_sync_skip <3>
+            man_end_context
+          uni_end_stream
+          >
+        mat_font_sis <courier, 10, normal>
+        mat_color_text <255, 0, 255>
+        mat_color_text_shadow <1, 1, 1>
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <30>
+      man_start_sibling <org_group, "">
+        mat_orientation <hfc>
+        mat_precise_width <0>
+        mat_precise_height <0>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        man_start_object <ornament, "">
+          mat_precise_x <30>
+          mat_precise_y <40>
+          mat_art_id <1-0-4814>
+          mat_font_sis <small_fonts, 7, normal>
+        man_end_object
+      man_start_sibling <dss_list, "">
+        mat_width <25>
+        mat_height <4>
+        mat_precise_x <30>
+        mat_precise_y <150>
+        mat_font_sis <arial, 9, normal>
+        mat_color_text <255, 0, 0>
+        mat_bool_list_icons <yes>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Go talk to Tribe Members">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"MR", 0-0-147>
+              >
+            mat_art_id <1-0-1480>
+          man_start_sibling <trigger, "Zima Web Page">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  www_browse <"http://www.zima.com">
+                uni_end_stream
+                >
+            man_end_object
+          man_start_sibling <trigger, "">
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_x <255>
+            mat_precise_y <160>
+            mat_art_id <1-0-5119>
+            mat_trigger_style <picture>
+            mat_bool_default <yes>
+            mat_art_animation_rate <200>
+            mat_art_animation_seq <2, 0, 0, 0, 0, 0, 0, 4, 3, 4, 2, 4, 1, 4, 0, 4, 1, 4, 1, 4, 2, 0, 0, 0, 0, 0, 0, 4, 1>
+            mat_art_frame <1>
+          man_start_sibling <trigger, "">
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_x <360>
+            mat_precise_y <160>
+            mat_art_id <1-0-5119>
+            mat_trigger_style <picture>
+            mat_art_animation_rate <200>
+            mat_art_animation_seq <2, 2, 1, 2, 3, 4, 5, 0, 0, 0, 0, 4, 3, 4, 2, 4, 1, 4, 0, 4, 1, 0, 0, 0, 0, 0, 4, 2, 4, 4, 1>
+            mat_art_frame <3>
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

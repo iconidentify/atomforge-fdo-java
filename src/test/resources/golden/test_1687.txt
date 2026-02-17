@@ -1,0 +1,98 @@
+uni_start_stream
+  man_start_object <ind_group, "Online CRIS">
+    mat_orientation <vff>
+    mat_art_id <1-0-2383>
+    mat_bool_background_tile <yes>
+    mat_position <top_center>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "Account">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"&m", 0-0-1>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-1307>
+        man_start_sibling <trigger, "History">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"&m", 0-0-2>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-1323>
+          man_start_sibling <trigger, "Billing">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"&m", 0-0-3>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-1744>
+            man_start_sibling <trigger, "Software">
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"&m", 0-0-4>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-1310>
+              man_start_sibling <trigger, "Store">
+                mat_title_pos <below | center>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"&m", 0-0-5>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_art_id <1-0-3122>
+                man_start_sibling <trigger, "Utilities">
+                  mat_title_pos <below | center>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"&m", 0-0-6>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_art_id <1-0-1909>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hcf>
+                  mat_bool_resize_vertical <yes>
+                  mat_bool_resize_horizontal <yes>
+                  man_start_object <dss_list, "Select:">
+                    mat_bool_default_send <no>
+                    mat_relative_tag <1>
+                    mat_width <30>
+                    mat_height <1>
+                    mat_title_pos <left | top_or_left>
+                    mat_font_sis <arial, 9, normal>
+                    mat_sort_order <normal>
+                  man_start_sibling <trigger, "GO">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                          uni_wait_on
+                          sm_check_domain
+                          de_start_extraction
+                          buf_set_token <"&M">
+                          de_get_data <default>
+                          man_set_context_relative <1>
+                          de_set_data_type <index>
+                          de_get_data
+                          de_end_extraction
+                          buf_close_buffer
+                          man_end_context
+                        uni_end_stream
+                        >
+                      mat_font_sis <system, 12, normal>
+                      mat_bool_default <yes>
+                    man_end_object
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

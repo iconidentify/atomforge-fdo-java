@@ -1,0 +1,47 @@
+uni_start_stream
+  man_start_object <ind_group, "Harvard Business School">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "Harvard Business School">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"Harvard Business School\r\n\r\n\r\n\r\nThe Harvard Busines">
+        man_append_data <"s School has a private area online for current stu">
+        man_append_data <"dents only.  Individuals who are not current stude">
+        man_append_data <"nts WILL NOT be given access.\r\n\r\n\r\nPricing Rate:  ">
+        man_append_data <"Students are put under invoice billing through Har">
+        man_append_data <"vard\r\n\r\nAction Needed:  If any student calls with ">
+        man_append_data <"questions regarding access of the Harvard area or ">
+        man_append_data <"with questions regarding billing for Harvard, plea">
+        man_append_data <"se have them send email to BrianBW.  This is Brian">
+        man_append_data <" Worobey at Harvard.\r\n\r\nHarvard Business School Al">
+        man_append_data <"umni\r\n\r\n\r\nHarvard also has a private area for Alum">
+        man_append_data <"ni.  This area is separate from the student area.\r">
+        man_append_data <"\n\r\nPricing Rate:  Normal standard AOL rates, no di">
+        man_append_data <"scount.\r\n\r\nAction Needed:  If any Harvard Business">
+        man_append_data <" School Alumni calls with questions regarding acce">
+        man_append_data <"ss of the alumni area, refer them to Judy Stahl at">
+        man_append_data <" Harvard.  Her screen name is Jstahl@hbs.edu.\r\n\r\n\r">
+        man_append_data <"\nTransmitted: 12/30/96 08:47">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

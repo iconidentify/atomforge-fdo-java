@@ -1,0 +1,372 @@
+uni_start_stream
+  hfs_attr_checkbox_mapping <1, "||">
+  man_start_object <ind_group, "Phone List Update Request">
+    mat_orientation <vff>
+    mat_precise_width <554>
+    mat_precise_height <303>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <109, 0, 85>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "AOL Phone List">
+      mat_precise_width <242>
+      mat_precise_height <38>
+      mat_precise_x <199>
+      mat_precise_y <5>
+      mat_color_face <109, 0, 85>
+      mat_bool_background_flood <yes>
+      mat_font_sis <times_roman, 24, bold | italic>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <sss_list, "">
+      mat_orientation <hff>
+      mat_relative_tag <1>
+      man_start_object <trigger, "">
+        mat_font_sis <system, 12, normal>
+        mat_precise_width <13>
+        mat_precise_height <13>
+        mat_precise_x <363>
+        mat_precise_y <53>
+      man_start_sibling <trigger, "">
+        mat_font_sis <system, 12, normal>
+        mat_precise_width <13>
+        mat_precise_height <13>
+        mat_precise_x <281>
+        mat_precise_y <53>
+      man_start_sibling <trigger, "">
+        mat_font_sis <system, 12, normal>
+        mat_precise_width <13>
+        mat_precise_height <13>
+        mat_precise_x <216>
+        mat_precise_y <53>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_precise_width <126>
+      mat_precise_height <63>
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_art_id <1-0-1367>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <136>
+      mat_precise_y <79>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <2>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <136>
+      mat_precise_y <104>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <3>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <136>
+      mat_precise_y <129>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <16>
+      mat_relative_tag <4>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <136>
+      mat_precise_y <154>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <5>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <136>
+      mat_precise_y <179>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <6>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <399>
+      mat_precise_y <76>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <7>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <399>
+      mat_precise_y <101>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <8>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <399>
+      mat_precise_y <126>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <6>
+      mat_relative_tag <9>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <399>
+      mat_precise_y <151>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <3>
+      mat_relative_tag <10>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_precise_x <399>
+      mat_precise_y <176>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <3>
+      mat_relative_tag <11>
+    man_start_sibling <ornament, "Last Name">
+      mat_width <10>
+      mat_height <1>
+      mat_precise_x <12>
+      mat_precise_y <82>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "First Name">
+      mat_width <10>
+      mat_height <1>
+      mat_precise_x <12>
+      mat_precise_y <107>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "AOL Screen Name">
+      mat_precise_width <110>
+      mat_precise_height <16>
+      mat_precise_x <12>
+      mat_precise_y <133>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Office Phone #">
+      mat_width <11>
+      mat_height <1>
+      mat_precise_x <12>
+      mat_precise_y <157>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Title">
+      mat_width <10>
+      mat_height <1>
+      mat_precise_x <12>
+      mat_precise_y <183>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Building">
+      mat_width <10>
+      mat_height <1>
+      mat_precise_x <279>
+      mat_precise_y <82>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Room#/Pod#">
+      mat_width <10>
+      mat_height <1>
+      mat_precise_x <279>
+      mat_precise_y <107>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "AOL File Number">
+      mat_width <12>
+      mat_height <1>
+      mat_precise_x <279>
+      mat_precise_y <133>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Company Number">
+      mat_width <14>
+      mat_height <1>
+      mat_precise_x <279>
+      mat_precise_y <157>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Dept. Number">
+      mat_width <11>
+      mat_height <1>
+      mat_precise_x <279>
+      mat_precise_y <183>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Delete">
+      mat_width <5>
+      mat_height <1>
+      mat_precise_x <378>
+      mat_precise_y <52>
+      mat_font_sis <arial, 10, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Change">
+      mat_width <7>
+      mat_height <1>
+      mat_precise_x <296>
+      mat_precise_y <52>
+      mat_font_sis <arial, 10, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "New">
+      mat_width <5>
+      mat_height <1>
+      mat_precise_x <231>
+      mat_precise_y <52>
+      mat_font_sis <arial, 10, bold>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "">
+      mat_width <54>
+      mat_height <2>
+      mat_precise_x <41>
+      mat_precise_y <214>
+      mat_font_sis <times_roman, 10, bold | italic>
+      mat_color_text <72, 255, 255>
+      man_append_data <"This information will be used to update several da">
+      man_append_data <"ta bases at AOL.  If necessary, please verify corr">
+      man_append_data <"ectness with management prior to submission.  Than">
+      man_append_data <"k you.">
+      man_end_data
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <265>
+      mat_precise_y <134>
+      mat_font_sis <arial, 14, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <266>
+      mat_precise_y <158>
+      mat_font_sis <arial, 12, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <266>
+      mat_precise_y <184>
+      mat_font_sis <arial, 12, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <25>
+      mat_precise_y <214>
+      mat_font_sis <arial, 12, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <385>
+      mat_precise_y <159>
+      mat_font_sis <arial, 12, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <385>
+      mat_precise_y <185>
+      mat_font_sis <arial, 12, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "*">
+      mat_precise_width <10>
+      mat_precise_height <10>
+      mat_precise_x <384>
+      mat_precise_y <135>
+      mat_font_sis <arial, 12, normal>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "Submit">
+      mat_relative_tag <12>
+      act_replace_select_action
+          <
+          uni_start_stream
+            uni_wait_on
+            de_validate <display_msg | terminate>
+            de_start_extraction <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+            buf_set_token <"ef">
+            de_get_data <default>
+            buf_set_data_atom <de_custom_data>
+            buf_add_atom_data <1245>
+            de_end_extraction
+            buf_close_buffer
+            man_close_update
+          uni_end_stream
+          >
+        mat_font_sis <system, 12, normal>
+        mat_precise_x <179>
+        mat_precise_y <260>
+      man_start_sibling <trigger, "Cancel">
+        mat_relative_tag <13>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+            uni_end_stream
+            >
+          mat_font_sis <system, 12, normal>
+          mat_precise_x <311>
+          mat_precise_y <261>
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

@@ -1,0 +1,402 @@
+uni_start_stream_wait_on
+  hfs_attr_server_name <"Rainman">
+  man_start_object <ind_group, "Da Bomb by: 5th">
+    mat_orientation <vff>
+    mat_precise_width <400>
+    mat_precise_height <330>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <153, 51, 102>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "5th">
+      mat_relative_tag <7>
+      mat_precise_x <375>
+      mat_precise_y <300>
+      mat_color_text <153, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+    man_start_sibling <trigger, "Beta Central">
+      mat_context_help <"Beta Central">
+      mat_title_pos <below | center>
+      sm_set_object_domain <00x>
+      act_replace_select_action
+          <
+          uni_start_stream
+            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+            buf_clear_buffer
+            buf_set_token <"ur">
+            buf_add_atom_pointer <"aol://4344:1095.WB32bc43.9441328.563220590">
+            buf_close_buffer
+          uni_end_stream
+          >
+        mat_precise_width <58>
+        mat_precise_height <58>
+        mat_precise_x <300>
+        mat_precise_y <0>
+        mat_art_id <1-0-34723>
+        mat_trigger_style <plain_picture>
+        mat_bool_draw_focus <yes>
+      man_start_sibling <dss_list, "Archive">
+        mat_precise_width <185>
+        mat_precise_height <50>
+        mat_precise_x <0>
+        mat_precise_y <75>
+        mat_title_pos <above | center>
+        mat_bool_list_icons <yes>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Debug">
+          act_replace_select_action
+              <
+              uni_start_stream
+                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                buf_clear_buffer
+                buf_set_token <"ur">
+                buf_add_atom_pointer <"aol://4401:10704:8068753">
+                buf_close_buffer
+              uni_end_stream
+              >
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "VPD for AOL 4.0 Win95/98">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_clear_buffer
+                  buf_set_token <"ur">
+                  buf_add_atom_pointer <"aol://4401:23815:2632442">
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_art_id <1-0-1482>
+            man_start_sibling <trigger, "Visual Publisher for Windows">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://4401:13820:316636">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_art_id <1-0-1482>
+              man_start_sibling <trigger, "UTIL: Testsys.exe 32-Bit">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                      buf_clear_buffer
+                      buf_set_token <"ur">
+                      buf_add_atom_pointer <"aol://4401:23815:1447116">
+                      buf_close_buffer
+                    uni_end_stream
+                    >
+                  mat_art_id <1-0-1482>
+                man_end_object
+              man_start_sibling <ornament, "">
+                mat_precise_x <0>
+                mat_precise_y <0>
+                mat_art_id <1-0-2381>
+              man_start_sibling <dss_list, "Hang outs">
+                mat_precise_width <175>
+                mat_precise_height <45>
+                mat_precise_x <125>
+                mat_precise_y <25>
+                mat_title_pos <above | center>
+                mat_bool_list_icons <yes>
+                mat_sort_order <normal>
+                man_start_object <trigger, "SlackingAOLTechs">
+                  mat_art_id <1-0-1480>
+                man_start_sibling <trigger, "AOL Secrets">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_clear_buffer
+                        buf_set_token <"ur">
+                        buf_add_atom_pointer <"aol://2719:62-2-aol%20secrets">
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    mat_art_id <1-0-1480>
+                  man_end_object
+                man_start_sibling <edit_view, "">
+                  mat_bool_importable <yes>
+                  mat_width <20>
+                  mat_height <1>
+                  mat_precise_x <125>
+                  mat_precise_y <0>
+                  mat_bool_resize_vertical <no>
+                  mat_color_text <0, 0, 255>
+                  mat_bool_vertical_scroll <no>
+                  man_append_data <"       Free Kevin Mitnick">
+                  man_end_data
+                  mat_color_face <255, 0, 0>
+                man_start_sibling <dss_list, "Information">
+                  mat_width <22>
+                  mat_height <6>
+                  mat_precise_x <200>
+                  mat_precise_y <75>
+                  mat_title_pos <above | center>
+                  mat_bool_list_icons <yes>
+                  mat_sort_order <normal>
+                  man_start_object <trigger, " General CAT Info">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                          buf_clear_buffer
+                          buf_set_token <"ur">
+                          buf_add_atom_pointer <"aol://4344:364.gencat.5861667.559058669">
+                          buf_close_buffer
+                        uni_end_stream
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, " The AOL Glossary">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                            buf_clear_buffer
+                            buf_set_token <"ur">
+                            buf_add_atom_pointer <"aol://4344:364.glossary.5852556.532361694">
+                            buf_close_buffer
+                          uni_end_stream
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, " Loren's Holding Area">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                              buf_clear_buffer
+                              buf_set_token <"ur">
+                              buf_add_atom_pointer <"aol://4344:2387.holding.25231914.577570756">
+                              buf_close_buffer
+                            uni_end_stream
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, " Viewrules & Token/Args">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                buf_clear_buffer
+                                buf_set_token <"ur">
+                                buf_add_atom_pointer <"aol://4344:431.page_vta.1339525.538168262">
+                                buf_close_buffer
+                              uni_end_stream
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "AOL's Webmaster Website">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                  buf_set_token <"f1">
+                                  buf_add_atom_data <2101876>
+                                  buf_close_buffer
+                                  www_browse <"http://dynamic.aol.com/cgi/redir?http://webmaster.info.aol.com/">
+                                uni_end_stream
+                                >
+                              mat_art_id <1-0-32650>
+                            man_end_object
+                          man_start_sibling <dss_list, "On The Web">
+                            mat_precise_width <185>
+                            mat_precise_height <150>
+                            mat_precise_x <0>
+                            mat_precise_y <150>
+                            mat_title_pos <above | center>
+                            mat_bool_list_icons <yes>
+                            mat_sort_order <normal>
+                            man_start_object <trigger, "Pentangle">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    buf_set_token <"f1">
+                                    buf_add_atom_data <2101876>
+                                    buf_close_buffer
+                                    www_browse <"www.Pentangle.net">
+                                  uni_end_stream
+                                  >
+                                mat_art_id <1-0-32650>
+                              man_start_sibling <trigger, "Lithiumnode">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                      buf_set_token <"f1">
+                                      buf_add_atom_data <2101876>
+                                      buf_close_buffer
+                                      www_browse <"www.lithiumnode.com">
+                                    uni_end_stream
+                                    >
+                                  mat_art_id <1-0-32650>
+                                man_start_sibling <trigger, "observers">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                        buf_set_token <"f1">
+                                        buf_add_atom_data <2101876>
+                                        buf_close_buffer
+                                        www_browse <"http://www.observers.net/main.htm">
+                                      uni_end_stream
+                                      >
+                                    mat_art_id <1-0-32650>
+                                    uni_next_atom_typed <latin1>
+                                  man_start_sibling <trigger, "Na�aS' AoL Secrets">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                          buf_set_token <"f1">
+                                          buf_add_atom_data <2101876>
+                                          buf_close_buffer
+                                          www_browse <"http://www.angelfire.com/ca2/AoLSecrets/">
+                                        uni_end_stream
+                                        >
+                                      mat_art_id <1-0-32650>
+                                    man_start_sibling <trigger, "Hex40 AOL Page !!!">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                            buf_set_token <"f1">
+                                            buf_add_atom_data <2101876>
+                                            buf_close_buffer
+                                            www_browse <"http://members.tripod.com/~Hex40/">
+                                          uni_end_stream
+                                          >
+                                        mat_art_id <1-0-32650>
+                                      man_start_sibling <trigger, "2600.com">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                              buf_set_token <"f1">
+                                              buf_add_atom_data <2101876>
+                                              buf_close_buffer
+                                              www_browse <"http://www.2600.com/mindex.html">
+                                            uni_end_stream
+                                            >
+                                          mat_art_id <1-0-32650>
+                                        man_start_sibling <trigger, "Amp Land XXX links">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                buf_set_token <"f1">
+                                                buf_add_atom_data <2101876>
+                                                buf_close_buffer
+                                                www_browse <"http://ampland.com/">
+                                              uni_end_stream
+                                              >
+                                            mat_art_id <1-0-32650>
+                                          man_start_sibling <trigger, "HaVoC On-Line">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                  buf_set_token <"f1">
+                                                  buf_add_atom_data <2101876>
+                                                  buf_close_buffer
+                                                  www_browse <"http://havocprogs.simplenet.com/">
+                                                uni_end_stream
+                                                >
+                                              mat_art_id <1-0-32650>
+                                            man_start_sibling <trigger, "Phrack.com">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                    buf_set_token <"f1">
+                                                    buf_add_atom_data <2101876>
+                                                    buf_close_buffer
+                                                    www_browse <"http://www.phrack.com/">
+                                                  uni_end_stream
+                                                  >
+                                                mat_art_id <1-0-32650>
+                                              man_start_sibling <trigger, "Welcome To The Insider.">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                      buf_set_token <"f1">
+                                                      buf_add_atom_data <2101876>
+                                                      buf_close_buffer
+                                                      www_browse <"http://www.inside-aol.com/">
+                                                    uni_end_stream
+                                                    >
+                                                  mat_art_id <1-0-32650>
+                                                man_start_sibling <trigger, "Viper online">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                        buf_set_token <"f1">
+                                                        buf_add_atom_data <2101876>
+                                                        buf_close_buffer
+                                                        www_browse <"http://members.xoom.com/vip0r/main.html">
+                                                      uni_end_stream
+                                                      >
+                                                    mat_art_id <1-0-32650>
+                                                    uni_next_atom_typed <latin1>
+                                                  man_start_sibling <trigger, "sH���M�N'z W��s��">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                          buf_set_token <"f1">
+                                                          buf_add_atom_data <2101876>
+                                                          buf_close_buffer
+                                                          www_browse <"http://shinoman.hypermart.net/">
+                                                        uni_end_stream
+                                                        >
+                                                      mat_art_id <1-0-32650>
+                                                    man_start_sibling <trigger, "L0pht Heavy Industries">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                            buf_set_token <"f1">
+                                                            buf_add_atom_data <2101876>
+                                                            buf_close_buffer
+                                                            www_browse <"http://www.l0pht.com/">
+                                                          uni_end_stream
+                                                          >
+                                                        mat_art_id <1-0-32650>
+                                                      man_start_sibling <trigger, "Why America Online Sucks">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                              buf_set_token <"f1">
+                                                              buf_add_atom_data <2101876>
+                                                              buf_close_buffer
+                                                              www_browse <"http://www.aolsucks.org/">
+                                                            uni_end_stream
+                                                            >
+                                                          mat_art_id <1-0-32650>
+                                                        man_end_object
+                                                      man_start_sibling <edit_view, "Shoots">
+                                                        mat_bool_importable <yes>
+                                                        mat_precise_width <100>
+                                                        mat_precise_height <120>
+                                                        mat_precise_x <200>
+                                                        mat_precise_y <175>
+                                                        mat_bool_resize_vertical <no>
+                                                        mat_title_pos <above | center>
+                                                        mat_bool_vertical_scroll <no>
+                                                        uni_start_typed_data <latin1>
+                                                        man_append_data <"      ACC\r\n      O0O\r\n      Viper\r\n     Na�aS\r\n  S">
+                                                        man_append_data <"atanMike\r\n AOL Secrets\r\n Lithium Node">
+                                                        man_end_data
+                                                        uni_end_typed_data
+                                                      man_end_object
+                                                      man_place_cursor <30>
+                                                    hfs_attr_end_object
+                                                  uni_end_stream

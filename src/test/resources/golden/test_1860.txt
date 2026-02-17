@@ -1,0 +1,146 @@
+uni_start_stream
+  man_start_object <ind_group, "Developers Studio">
+    mat_orientation <vff>
+    mat_precise_width <600>
+    mat_precise_height <365>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-13869>
+    mat_bool_background_pic <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <55>
+      mat_precise_y <40>
+      mat_art_id <1-0-13852>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <ornament, "">
+      mat_precise_x <85>
+      mat_precise_y <310>
+      mat_art_id <1-0-14326>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <ornament, "">
+      mat_precise_x <215>
+      mat_precise_y <310>
+      mat_art_id <1-0-14327>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <ornament, "">
+      mat_precise_x <320>
+      mat_precise_y <310>
+      mat_art_id <1-0-14329>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <ornament, "">
+      mat_precise_x <430>
+      mat_precise_y <310>
+      mat_art_id <1-0-14328>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"t1", 0-22-16513>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_x <65>
+        mat_precise_y <226>
+        mat_art_id <1-0-2381>
+        mat_trigger_style <plain_picture>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <40-27835>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_x <195>
+          mat_precise_y <223>
+          mat_art_id <1-0-2381>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"t1", 0-22-17619>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_x <316>
+            mat_precise_y <225>
+            mat_art_id <1-0-2381>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-27825>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_x <432>
+              mat_precise_y <227>
+              mat_art_id <1-0-2381>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-27598>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_x <325>
+                mat_precise_y <35>
+                mat_art_id <1-0-2381>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <trigger, "">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-27646>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_x <200>
+                  mat_precise_y <90>
+                  mat_art_id <1-0-2381>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <trigger, "">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-27620>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_precise_x <410>
+                    mat_precise_y <80>
+                    mat_art_id <1-0-2381>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <trigger, "">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-27631>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_precise_x <385>
+                      mat_precise_y <130>
+                      mat_art_id <1-0-2381>
+                      mat_trigger_style <plain_picture>
+                    man_start_sibling <trigger, "">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-27640>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_precise_x <225>
+                        mat_precise_y <150>
+                        mat_art_id <1-0-2381>
+                        mat_trigger_style <plain_picture>
+                      man_start_sibling <ornament, "Keyword: Developers Studio">
+                        mat_precise_width <200>
+                        mat_precise_height <40>
+                        mat_precise_x <25>
+                        mat_precise_y <345>
+                        mat_font_sis <arial, 9, bold>
+                        mat_orientation <hlf>
+                      man_end_object
+                      man_update_display
+                    man_update_woff_end_stream

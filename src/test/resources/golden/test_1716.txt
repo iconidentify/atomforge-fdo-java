@@ -1,0 +1,109 @@
+uni_start_stream
+  man_start_object <ind_group, "Phone List Q">
+    mat_orientation <vff>
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hlf>
+        man_start_object <ornament, "">
+          mat_relative_tag <120>
+          mat_art_id <1-0-23737>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <3>
+          mat_width <29>
+          mat_height <1>
+          mat_font_sis <arial, 18, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <63>
+          mat_height <10>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "QI, SHERRY - 703-918-1275 - SherryQi">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-60-13273>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "QUACH, RICHARD - 650-525-4067 - Rquach">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-60-13274>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "QUAN, CHRIS - 703-265-3645 - CAQuan">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-60-13276>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "QUEEN, ARTHUR - 801-622-7802 - AQueenUT">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-60-13278>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "QUILLEN, SCOTT - 703-918-1568 - ScottQuill">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-60-13279>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "QUINN, JOE - 703-265-2972 - JQuinn9710">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-60-13281>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "QUINNAN, ROBERT - 703-265-4813 - BQuinnan">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-60-13282>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "QUINTAL, HENRI - 703-918-1236 - HQuintal">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-60-13283>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_end_object
+                        man_end_object
+                      man_start_sibling <org_group, "">
+                        mat_orientation <hef>
+                        man_start_object <trigger, "Open">
+                          act_replace_select_action
+                              <
+                              uni_start_stream <00x>
+                              sm_do_list_action <30>
+                              >
+                            mat_font_sis <system, 12, normal>
+                            mat_bool_default <yes>
+                          man_start_sibling <trigger, "More">
+                            mat_bool_disabled <yes>
+                            mat_relative_tag <26>
+                            mat_font_sis <system, 12, normal>
+                          man_end_object
+                        man_end_object
+                      man_end_object
+                      man_update_display
+                    man_update_woff_end_stream

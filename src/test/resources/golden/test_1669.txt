@@ -1,0 +1,29 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Invoke Database Record">
+    mat_orientation <vcf>
+    man_start_object <edit_view, "Enter the record number to invoke:">
+      mat_bool_exportable <no>
+      mat_width <30>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_title_pos <above | top_or_left>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <1>
+    man_start_sibling <trigger, "OK">
+      act_replace_select_action
+          <
+          uni_start_stream
+            de_start_extraction <0>
+            man_set_context_relative <1>
+            de_get_data_pointer
+            uni_use_last_atom_string <mt_string_to_gid>
+            uni_use_last_atom_value <uni_invoke_no_context>
+            man_end_context
+            de_end_extraction
+          uni_end_stream
+          >
+        mat_bool_default <yes>
+      man_end_object
+    hfs_attr_end_object
+  man_update_woff_end_stream

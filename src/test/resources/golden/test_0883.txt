@@ -1,0 +1,84 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Screen Object">
+    mat_style_id <32-8551>
+    mat_orientation <vft>
+    mat_precise_width <380>
+    mat_precise_height <195>
+    mat_color_face <255, 255, 255>
+    mat_style_id <32-2516>
+    mat_object_id <32-2516>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_art_id <1-5-7542>
+      mat_bool_disabled <yes>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <60>
+      mat_precise_width <360>
+      mat_precise_height <70>
+      mat_font_size <8>
+      mat_precise_width <360>
+      mat_precise_height <70>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"invoke sub view complex delta current third region. secondary edge\x7fsave top update open screen section complex primary. receive component module start start custom center advanced. north second dynamic sub simple second module simple. open\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <255>
+      mat_precise_width <410>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <70>
+        mat_precise_y <130>
+        mat_color_top_edge <0, 0, 2>
+        mat_trigger_style <plain_picture>
+        man_make_focus
+        mat_art_id <1-5-21122>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_invoke_no_context <32-2517>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <170>
+          mat_precise_y <130>
+          mat_trigger_style <plain_picture>
+          mat_art_id <1-5-21128>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                uni_invoke_no_context <32-2515>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <265>
+            mat_precise_y <130>
+            mat_trigger_style <plain_picture>
+            mat_art_id <1-5-21181>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

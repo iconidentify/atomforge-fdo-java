@@ -1,0 +1,511 @@
+uni_start_stream <00x>
+  man_set_context_globalid <1>
+  man_set_response_id <8436>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Pr�f�rences">
+    mat_object_id <32-278>
+    mat_style_id <32-278>
+    mat_orientation <vff>
+    mat_precise_width <475>
+    mat_precise_height <315>
+    mat_color_face <255, 251, 240>
+    uni_start_stream
+      mat_bool_background_flood <yes>
+      mat_color_face <255, 251, 240>
+      mat_bool_resize_horizontal <no>
+    uni_end_stream
+    mat_position <center_center>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <20, 1>
+      mat_bool_disabled <yes>
+      mat_bool_invisible <yes>
+      mat_font_id <fixed_system>
+      mat_font_size <14>
+      mat_font_style <bold>
+      man_append_data <"Pr�f�rences">
+    man_start_sibling <ornament, "">
+      mat_precise_x <11>
+      mat_precise_y <5>
+      mat_precise_width <451>
+      mat_precise_height <63>
+      mat_font_sis <arial, 8, normal>
+      man_append_data <"Ces options vous permettent de personnaliser AOL en fonction de vos besoins. Cliquez sur l'une de ces ic�nes pour choisir une cat�gorie. Pour plus d'informations, cliquez sur le bouton "Aide" et s�lectionnez le sujet qui vous int�resse.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hlf>
+      mat_precise_x <11>
+      mat_precise_y <96>
+      mat_precise_width <375>
+      mat_precise_height <65>
+      man_start_object <trigger, "G�n�rales">
+        mat_title_width <8>
+        mat_precise_x <11>
+        mat_precise_y <80>
+        mat_precise_width <48>
+        mat_precise_height <48>
+        mat_trigger_style <place>
+        mat_font_size <8>
+        mat_trigger_style <rectangle>
+        mat_color_top_edge <255, 251, 240>
+        mat_color_bottom_edge <255, 251, 240>
+        mat_art_id <1-1-52285>
+        mat_font_id <arial>
+        mat_shortcut_key <"@">
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_preset_gid <32-291>
+              if_last_return_true_then <1, 2>
+              man_make_focus
+              man_update_display
+              uni_sync_skip <1>
+              uni_wait_on
+              uni_invoke_no_context <32-291>
+              uni_sync_skip <2>
+            uni_end_stream <00x>
+            >
+        man_start_sibling <trigger, "Barre d'outils">
+          mat_title_width <8>
+          mat_precise_x <84>
+          mat_precise_y <80>
+          mat_precise_width <48>
+          mat_precise_height <48>
+          mat_trigger_style <place>
+          mat_font_size <8>
+          mat_trigger_style <rectangle>
+          mat_color_top_edge <255, 251, 240>
+          mat_color_bottom_edge <255, 251, 240>
+          mat_art_id <1-1-52286>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_preset_gid <41-28625>
+                if_last_return_true_then <1, 2>
+                man_make_focus
+                man_update_display
+                uni_sync_skip <1>
+                uni_wait_on
+                uni_invoke_no_context <41-28625>
+                uni_sync_skip <2>
+              uni_end_stream <00x>
+              >
+          man_start_sibling <trigger, "Courrier">
+            mat_title_width <8>
+            mat_precise_x <162>
+            mat_precise_y <80>
+            mat_precise_width <48>
+            mat_precise_height <48>
+            mat_trigger_style <place>
+            mat_font_size <8>
+            mat_trigger_style <rectangle>
+            mat_color_top_edge <255, 251, 240>
+            mat_color_bottom_edge <255, 251, 240>
+            mat_art_id <1-1-52287>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_preset_gid <32-4651>
+                  if_last_return_true_then <1, 2>
+                  man_make_focus
+                  man_update_display
+                  uni_sync_skip <1>
+                  uni_wait_on
+                  uni_invoke_no_context <32-4651>
+                  uni_sync_skip <2>
+                uni_end_stream <00x>
+                >
+            man_start_sibling <trigger, "WWW">
+              mat_title_width <8>
+              mat_precise_x <236>
+              mat_precise_y <80>
+              mat_precise_width <48>
+              mat_precise_height <48>
+              mat_relative_tag <2>
+              mat_trigger_style <place>
+              mat_font_size <8>
+              mat_trigger_style <rectangle>
+              mat_color_top_edge <255, 251, 240>
+              mat_color_bottom_edge <255, 251, 240>
+              mat_art_id <1-1-52288>
+              mat_font_id <arial>
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    act_get_db_value <14x, 00x, 00x, d1x>
+                    if_last_return_false_then <1>
+                    man_preset_gid <32-4652>
+                    if_last_return_true_then <1, 2>
+                    man_make_focus
+                    man_update_display
+                    uni_sync_skip <1>
+                    uni_wait_on
+                    uni_invoke_no_context <32-4652>
+                    uni_sync_skip <2>
+                  uni_end_stream
+                  >
+              man_start_sibling <trigger, "Discussion">
+                mat_title_width <8>
+                mat_precise_x <311>
+                mat_precise_y <80>
+                mat_precise_width <48>
+                mat_precise_height <48>
+                mat_trigger_style <place>
+                mat_font_size <8>
+                mat_trigger_style <rectangle>
+                mat_color_top_edge <255, 251, 240>
+                mat_color_bottom_edge <255, 251, 240>
+                mat_art_id <1-1-52289>
+                mat_font_id <arial>
+                mat_shortcut_key <"@">
+                act_replace_select_action
+                    <
+                    uni_start_stream <00x>
+                      man_preset_gid <32-245>
+                      if_last_return_true_then <1, 2>
+                      man_make_focus
+                      man_update_display
+                      uni_sync_skip <1>
+                      uni_wait_on
+                      uni_invoke_no_context <32-245>
+                      uni_sync_skip <2>
+                    uni_end_stream <00x>
+                    >
+                man_start_sibling <trigger, "T�l�chargement">
+                  mat_title_width <9>
+                  mat_precise_x <387>
+                  mat_precise_y <80>
+                  mat_precise_width <48>
+                  mat_precise_height <48>
+                  mat_trigger_style <place>
+                  mat_font_size <8>
+                  mat_trigger_style <rectangle>
+                  mat_color_top_edge <255, 251, 240>
+                  mat_color_bottom_edge <255, 251, 240>
+                  mat_art_id <1-1-52290>
+                  mat_font_id <arial>
+                  mat_shortcut_key <"@">
+                  act_replace_select_action
+                      <
+                      uni_start_stream <00x>
+                        man_preset_gid <32-280>
+                        if_last_return_true_then <1, 2>
+                        man_make_focus
+                        man_update_display
+                        uni_sync_skip <1>
+                        uni_wait_on
+                        uni_invoke_no_context <32-280>
+                        uni_sync_skip <2>
+                      uni_end_stream <00x>
+                      >
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hlf>
+                  mat_precise_x <11>
+                  mat_precise_y <165>
+                  mat_precise_width <375>
+                  mat_precise_height <65>
+                  man_start_object <trigger, "Images">
+                    mat_title_width <8>
+                    mat_precise_x <11>
+                    mat_precise_y <153>
+                    mat_precise_width <48>
+                    mat_precise_height <48>
+                    mat_trigger_style <place>
+                    mat_font_size <8>
+                    mat_trigger_style <rectangle>
+                    mat_color_top_edge <255, 251, 240>
+                    mat_color_bottom_edge <255, 251, 240>
+                    mat_art_id <1-1-52291>
+                    mat_horizontal_spacing <0>
+                    mat_vertical_spacing <0>
+                    mat_font_id <arial>
+                    act_replace_select_action
+                        <
+                        uni_start_stream <00x>
+                          man_preset_gid <32-5270>
+                          if_last_return_true_then <1, 2>
+                          man_make_focus
+                          man_update_display
+                          uni_sync_skip <1>
+                          uni_wait_on
+                          uni_invoke_no_context <32-5270>
+                          uni_sync_skip <2>
+                        uni_end_stream <00x>
+                        >
+                    man_start_sibling <trigger, "Mots de passe">
+                      mat_title_width <8>
+                      mat_precise_x <84>
+                      mat_precise_y <153>
+                      mat_precise_width <48>
+                      mat_precise_height <48>
+                      mat_relative_tag <24>
+                      mat_trigger_style <place>
+                      mat_font_size <8>
+                      mat_trigger_style <rectangle>
+                      mat_color_top_edge <255, 251, 240>
+                      mat_color_bottom_edge <255, 251, 240>
+                      mat_art_id <1-1-52292>
+                      mat_font_id <arial>
+                      mat_shortcut_key <"@">
+                      uni_start_stream
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              if_offline_then <1, 2>
+                              uni_next_atom_typed <ascii>
+                              async_error_box <"Vous ne pouvez utiliser cette fonction que lorsque vous �tes connect�.">
+                              uni_sync_skip <1>
+                              uni_wait_on
+                              uni_invoke_no_context <41-16478>
+                              uni_sync_skip <2>
+                            uni_end_stream
+                            >
+                        uni_end_stream
+                      man_end_object
+                      if_offline_then <1, 2>
+                      uni_sync_skip <1>
+                      uni_sync_skip <2>
+                      man_start_object <trigger, "Sessions\x7fExpress">
+                        mat_title_width <8>
+                        mat_precise_x <162>
+                        mat_precise_y <153>
+                        mat_precise_width <48>
+                        mat_precise_height <48>
+                        mat_trigger_style <place>
+                        mat_font_size <8>
+                        mat_trigger_style <rectangle>
+                        mat_color_top_edge <255, 251, 240>
+                        mat_color_bottom_edge <255, 251, 240>
+                        mat_art_id <1-1-52293>
+                        mat_font_id <arial>
+                        mat_shortcut_key <"@">
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                              man_preset_gid <32-2506>
+                              if_last_return_true_then <1, 2>
+                              man_make_focus
+                              man_update_display
+                              uni_sync_skip <1>
+                              uni_wait_on
+                              uni_invoke_no_context <32-2506>
+                              uni_sync_skip <2>
+                            uni_end_stream <00x>
+                            >
+                        man_end_object
+                        if_offline_then <1, 2>
+                        uni_sync_skip <1>
+                        uni_sync_skip <2>
+                        man_start_object <trigger, "Dossiers\x7fd'archivage">
+                          mat_title_width <9>
+                          mat_precise_x <233>
+                          mat_precise_y <153>
+                          mat_precise_width <48>
+                          mat_precise_height <48>
+                          mat_trigger_style <place>
+                          mat_font_size <8>
+                          mat_trigger_style <rectangle>
+                          mat_color_top_edge <255, 251, 240>
+                          mat_color_bottom_edge <255, 251, 240>
+                          mat_art_id <1-1-52294>
+                          mat_font_id <arial>
+                          act_replace_select_action
+                              <
+                              uni_start_stream <00x>
+                                man_preset_gid <32-4678>
+                                if_last_return_true_then <1, 2>
+                                man_make_focus
+                                man_update_display
+                                uni_sync_skip <1>
+                                uni_wait_on
+                                uni_invoke_no_context <32-4678>
+                                uni_sync_skip <2>
+                              uni_end_stream <00x>
+                              >
+                          man_start_sibling <trigger, "Orthographe">
+                            mat_precise_x <305>
+                            mat_precise_y <153>
+                            mat_precise_width <48>
+                            mat_precise_height <48>
+                            mat_trigger_style <place>
+                            act_set_criterion <select>
+                            act_replace_action
+                                <
+                                uni_start_stream
+                                  spell_rules_dlg
+                                uni_end_stream
+                                >
+                              mat_font_size <8>
+                              mat_trigger_style <rectangle>
+                              mat_color_top_edge <255, 251, 240>
+                              mat_color_bottom_edge <255, 251, 240>
+                              mat_art_id <1-1-52295>
+                              mat_font_id <arial>
+                            man_start_sibling <trigger, "Polices">
+                              mat_precise_x <399>
+                              mat_precise_y <153>
+                              mat_precise_width <48>
+                              mat_precise_height <48>
+                              mat_trigger_style <place>
+                              mat_font_size <8>
+                              mat_trigger_style <rectangle>
+                              mat_color_top_edge <255, 251, 240>
+                              mat_color_bottom_edge <255, 251, 240>
+                              mat_art_id <1-1-52296>
+                              mat_font_id <arial>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream <00x>
+                                    man_preset_gid <41-5802>
+                                    if_last_return_true_then <1, 2>
+                                    man_make_focus
+                                    man_update_display
+                                    uni_sync_skip <1>
+                                    uni_wait_on
+                                    uni_invoke_no_context <41-5802>
+                                    uni_sync_skip <2>
+                                  uni_end_stream <00x>
+                                  >
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <hlf>
+                              mat_precise_x <11>
+                              mat_precise_y <240>
+                              mat_precise_width <375>
+                              mat_precise_height <65>
+                              man_start_object <trigger, "Langues">
+                                mat_precise_x <16>
+                                mat_precise_y <237>
+                                mat_precise_width <48>
+                                mat_precise_height <48>
+                                mat_trigger_style <place>
+                                mat_font_size <8>
+                                mat_trigger_style <rectangle>
+                                mat_color_top_edge <255, 251, 240>
+                                mat_color_bottom_edge <255, 251, 240>
+                                mat_art_id <1-1-52297>
+                                mat_horizontal_spacing <0>
+                                mat_vertical_spacing <0>
+                                mat_font_id <arial>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      async_invoke_language_pref
+                                    uni_end_stream
+                                    >
+                                man_start_sibling <trigger, "Publicit� et\x7finfo commerciale">
+                                  mat_title_width <10>
+                                  mat_precise_x <78>
+                                  mat_precise_y <236>
+                                  mat_precise_width <48>
+                                  mat_precise_height <48>
+                                  mat_font_size <8>
+                                  mat_trigger_style <rectangle>
+                                  mat_color_top_edge <255, 251, 240>
+                                  mat_color_bottom_edge <255, 251, 240>
+                                  mat_art_id <1-1-52298>
+                                  mat_font_id <arial>
+                                  uni_start_stream
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          if_offline_then <1, 2>
+                                          uni_next_atom_typed <ascii>
+                                          async_error_box <"Vous ne pouvez utiliser cette fonction que lorsque vous �tes connect�.">
+                                          uni_sync_skip <1>
+                                          uni_wait_on
+                                          uni_invoke_no_context <40-4979>
+                                          uni_sync_skip <2>
+                                        uni_end_stream
+                                        >
+                                    uni_end_stream
+                                  man_start_sibling <trigger, "Fuseau\x7fhoraire">
+                                    mat_precise_x <170>
+                                    mat_precise_y <237>
+                                    mat_precise_width <48>
+                                    mat_precise_height <48>
+                                    mat_relative_tag <3>
+                                    mat_color_face <0, 102, 153>
+                                    mat_color_top_edge <1, 1, 1>
+                                    mat_color_bottom_edge <1, 1, 1>
+                                    mat_trigger_style <place>
+                                    mat_font_size <8>
+                                    mat_art_id <1-1-52288>
+                                    mat_bool_invisible <yes>
+                                    mat_font_id <arial>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          async_invoke_timezone_pref
+                                        uni_end_stream
+                                        >
+                                    man_start_sibling <trigger, "">
+                                      mat_precise_x <237>
+                                      mat_precise_y <237>
+                                      mat_precise_width <49>
+                                      mat_precise_height <49>
+                                      mat_relative_tag <22>
+                                      mat_color_face <0, 102, 153>
+                                      mat_color_top_edge <1, 1, 1>
+                                      mat_color_bottom_edge <1, 1, 1>
+                                      mat_trigger_style <rectangle>
+                                      mat_font_size <8>
+                                      mat_art_id <1-1-23675>
+                                      mat_bool_disabled <yes>
+                                      mat_bool_invisible <yes>
+                                      mat_font_id <arial>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_send_k1 <17-64133>
+                                          >
+                                      man_end_object
+                                    man_start_sibling <trigger, "Aide">
+                                      mat_precise_x <397>
+                                      mat_precise_y <284>
+                                      mat_precise_width <70>
+                                      mat_precise_height <23>
+                                      mat_color_face <255, 153, 1>
+                                      mat_color_top_edge <255, 204, 1>
+                                      mat_color_bottom_edge <255, 204, 1>
+                                      mat_trigger_style <rectangle>
+                                      mat_font_id <arial>
+                                      mat_font_size <9>
+                                      mat_font_id <arial>
+                                      mat_font_size <9>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            uni_next_atom_typed <ascii>
+                                            async_exec_context_help <50x, 72x, e9x, 66x, e9x, 72x, 65x, 6ex, 63x, 65x, 73x, 2cx>
+                                          uni_end_stream
+                                          >
+                                      man_end_object
+                                      man_update_display
+                                      man_set_context_relative <3>
+                                      async_is_client_32bit
+                                      if_last_return_false_then <11, 12>
+                                      mat_bool_invisible <no>
+                                      man_end_context
+                                      uni_sync_skip <11>
+                                      man_end_context
+                                      uni_sync_skip <12>
+                                      act_get_db_value <14x, ffx, 00x, 04x>
+                                      if_last_return_true_then <1, 2>
+                                      man_set_context_relative <22>
+                                      mat_bool_invisible <no>
+                                      man_end_context
+                                      uni_sync_skip <1>
+                                      man_set_context_relative <22>
+                                      mat_bool_invisible <yes>
+                                      man_end_context
+                                      uni_sync_skip <2>
+                                      man_update_display
+                                      uni_end_typed_data
+                                      uni_wait_off
+                                    uni_end_stream <00x>

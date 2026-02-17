@@ -1,0 +1,114 @@
+uni_start_stream
+  man_start_object <ind_group, "Req. Intl Online Search DB">
+    mat_orientation <vff>
+    man_start_object <view, "">
+      mat_bool_writeable <yes>
+      mat_width <64>
+      mat_height <12>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Subject:  Req. Intl Online Search DB\r\nAuthor:  Ame">
+      man_append_data <"rica Online\r\nUploaded By:  JWILLETTE1\r\nDate:  07/2">
+      man_append_data <"1/97\r\n\r\nFile:  RQITLO~1.EXE (434759 bytes) \r\nEstim">
+      man_append_data <"ated Download Time (14400 baud):  < 8 minutes\r\nDow">
+      man_append_data <"nload Count:  9\r\n\r\nEquipment:  PC\r\nNeeds:  Word 6.">
+      man_append_data <"0 or higher\r\n\r\n\r\nRequesting an International Onlin">
+      man_append_data <"e search Database\r\n\r\nThis technical note discusses">
+      man_append_data <" the activities that international JV Producers, i">
+      man_append_data <"nternational JVInfo/AOL International, and Operati">
+      man_append_data <"ons perform to get an international online search ">
+      man_append_data <"database created.\r\n\r\nThis tech note has been saved">
+      man_append_data <" as a .exe file in order to retain its formatting ">
+      man_append_data <"characteristics. \r\n\r\nPerform the following steps t">
+      man_append_data <"o view the tech note:\r\n\r\n1. Download the file.\r\n2.">
+      man_append_data <" Double-click the file in File Manager or Windows ">
+      man_append_data <"Explorer.  The WinZip Self-Extractor window appear">
+      man_append_data <"s stating that the file will be unzipped to your C">
+      man_append_data <":\\Windows\\Temp directory.\r\n3. Click Unzip to decom">
+      man_append_data <"press the file.\r\n4. Double-click the unzipped file">
+      man_append_data <" in C:\\Windows\\Temp to view it in Microsoft Word.\r">
+      man_append_data <"\n\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <edit_view, "">
+      mat_bool_exportable <no>
+      mat_width <60>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <7>
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Download Now">
+        mat_relative_tag <3>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"mD", 0-22-24588>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Download Later">
+          mat_bool_disabled <yes>
+          mat_relative_tag <2>
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Ask The Staff">
+          mat_bool_disabled <yes>
+          mat_relative_tag <4>
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Related Files">
+          mat_bool_disabled <yes>
+          mat_relative_tag <6>
+          act_replace_select_action
+              <
+              uni_start_stream
+                uni_wait_on
+                sm_check_plus_group
+                buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                de_start_extraction
+                buf_set_token <"Kk">
+                man_set_context_relative <7>
+                de_get_data
+                man_end_context
+                de_end_extraction
+                buf_close_buffer
+              uni_end_stream
+              >
+            mat_font_sis <system, 12, normal>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <hcf>
+          man_start_object <trigger, "Delete">
+            mat_bool_disabled <yes>
+            mat_bool_invisible <yes>
+            mat_relative_tag <8>
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Hide">
+            mat_bool_disabled <yes>
+            mat_bool_invisible <yes>
+            mat_relative_tag <9>
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Release">
+            mat_bool_disabled <yes>
+            mat_bool_invisible <yes>
+            mat_relative_tag <10>
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Move">
+            mat_bool_disabled <yes>
+            mat_bool_invisible <yes>
+            mat_relative_tag <11>
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Edit">
+            mat_bool_disabled <yes>
+            mat_bool_invisible <yes>
+            mat_relative_tag <12>
+            mat_font_sis <system, 12, normal>
+          man_end_object
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

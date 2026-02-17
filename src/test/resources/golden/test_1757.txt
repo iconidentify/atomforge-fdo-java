@@ -1,0 +1,64 @@
+uni_start_stream
+  man_start_object <ind_group, "PCAO 1.5 Beta                      ">
+    mat_orientation <vcf>
+    man_start_object <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <36>
+      mat_height <12>
+      mat_font_sis <arial, 9, normal>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "How to Beta Test                   ">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_k1 <3-11726>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "About America Online v1.5a         ">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"f1", 0-32-936>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "AOL 1.5a Comments & Suggestions    ">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"bE", 0-0-1254>
+                >
+              mat_art_id <1-0-1483>
+            man_start_sibling <trigger, "PCAO 1.5a Final Version            ">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"eB", 0-0-3336>
+                  >
+                mat_art_id <1-0-1482>
+              man_start_sibling <trigger, "Beta Test Completed                ">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_k1 <2-21599>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "Test Form                          ">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-447>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_end_object
+                man_start_sibling <trigger, "Open">
+                  act_replace_select_action
+                      <
+                      uni_start_stream <00x>
+                      sm_do_list_action <1>
+                      >
+                    mat_font_sis <system, 12, normal>
+                    mat_bool_default <yes>
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

@@ -1,0 +1,116 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " Useful phone numbers">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-52736>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <63>
+          mat_height <14>
+          mat_sort_order <normal>
+          man_start_object <trigger, "Dublin phone list">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"f1", 0-43-15780>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Internal Country transfer numbers ">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-36-20758>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "AOL UK">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-36-7230>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "AOL France">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-36-10230>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "AOL Germany">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-36-10231>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "AOL - Austria and Switzerland">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-36-20826>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "AOL US">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-36-10233>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "AOL Japan">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-36-12369>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "AOL Australia">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-36-33866>
+                                >
+                              mat_art_id <1-0-1478>
+                            man_start_sibling <trigger, "Dublin-Saarbrucken Global One - Dial out numbers">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-36-15829>
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_start_sibling <trigger, "German account queries">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-36-20674>
+                                    >
+                                  mat_art_id <1-0-1478>
+                                man_end_object
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <hee>
+                              man_start_object <trigger, "  Open  ">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream <00x>
+                                    sm_do_list_action <30>
+                                    >
+                                  mat_bool_default <yes>
+                                man_start_sibling <trigger, "  More  ">
+                                  mat_bool_disabled <yes>
+                                  mat_relative_tag <26>
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                          hfs_attr_end_object
+                        man_update_woff_end_stream

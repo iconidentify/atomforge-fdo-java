@@ -1,0 +1,276 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " Support">
+    mat_orientation <vff>
+    mat_precise_width <525>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_relative_tag <15>
+    mat_art_id <1-2-10930>
+    mat_bool_background_tile <yes>
+    man_start_object <trigger, "">
+      mat_relative_tag <80>
+      mat_context_help <"Click here to go back to the ISO main page">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"U1", 0-1-31927>
+          >
+        mat_precise_width <75>
+        mat_precise_height <75>
+        mat_precise_x <6>
+        mat_precise_y <9>
+        mat_art_hint_title <"ISO Main Screen">
+        mat_art_hint_width <74>
+        mat_art_hint_height <75>
+        mat_art_id <1-3-7325>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "Support">
+        mat_relative_tag <3>
+        mat_precise_x <85>
+        mat_precise_y <15>
+        mat_color_text <204, 153, 0>
+        mat_color_text_shadow <255, 255, 204>
+        mat_orientation <hlf>
+      man_start_sibling <ornament, "">
+        mat_relative_tag <4>
+        mat_precise_x <85>
+        mat_precise_y <48>
+        mat_color_text <255, 255, 204>
+        man_append_data <"Choose a Technology, or the General Option">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <56>
+        mat_precise_width <18>
+        mat_precise_height <18>
+        mat_precise_x <5>
+        mat_precise_y <122>
+        mat_art_id <1-0-23738>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <57>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_set_context_relative <56>
+              act_do_action <select>
+              man_end_context
+            uni_end_stream
+            >
+          mat_color_text <255, 255, 255>
+          mat_precise_width <151>
+          mat_precise_height <20>
+          mat_precise_x <25>
+          mat_precise_y <121>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <org_group, "">
+          mat_orientation <hff>
+          mat_precise_width <326>
+          mat_precise_height <191>
+          mat_precise_x <185>
+          mat_precise_y <93>
+          mat_color_face <153, 153, 153>
+          mat_bool_background_flood <yes>
+          man_start_object <ornament, "Help Docs & FAQs">
+            mat_relative_tag <100>
+            mat_precise_x <192>
+            mat_precise_y <97>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <1, 0, 0>
+            mat_orientation <hcf>
+          man_start_sibling <dss_list, "">
+            mat_relative_tag <30>
+            mat_precise_x <192>
+            mat_precise_y <116>
+            mat_bool_list_icons <yes>
+            mat_sort_order <normal>
+            man_start_object <trigger, "Art Preparation FAQs">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-105-12736>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "VPD FAQs">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U3", 0-105-12762>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "VPD Area Manager FAQs">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-105-12783>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "VPD Documentation">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-105-12800>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "VPD Sample Forms">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-105-12807>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Channel Promo Tool">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-105-12930>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_end_object
+                      man_end_object
+                    man_start_sibling <trigger, "">
+                      mat_relative_tag <58>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-105-12846>
+                          >
+                        mat_precise_width <18>
+                        mat_precise_height <18>
+                        mat_precise_x <5>
+                        mat_precise_y <149>
+                        mat_art_id <1-0-6838>
+                        mat_trigger_style <plain_picture>
+                      man_start_sibling <trigger, "General Information               ">
+                        mat_relative_tag <59>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              man_set_context_relative <58>
+                              act_do_action <select>
+                              man_end_context
+                            uni_end_stream
+                            >
+                          mat_color_text <255, 255, 255>
+                          mat_precise_width <151>
+                          mat_precise_height <20>
+                          mat_precise_x <25>
+                          mat_precise_y <148>
+                          mat_trigger_style <plain_picture>
+                        man_start_sibling <trigger, "">
+                          mat_relative_tag <60>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U3", 0-105-12847>
+                              >
+                            mat_precise_width <18>
+                            mat_precise_height <18>
+                            mat_precise_x <5>
+                            mat_precise_y <176>
+                            mat_art_id <1-0-6838>
+                            mat_trigger_style <plain_picture>
+                          man_start_sibling <trigger, "Help Docs & FAQs                ">
+                            mat_relative_tag <61>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  man_set_context_relative <60>
+                                  act_do_action <select>
+                                  man_end_context
+                                uni_end_stream
+                                >
+                              mat_color_text <255, 255, 255>
+                              mat_precise_width <151>
+                              mat_precise_height <20>
+                              mat_precise_x <25>
+                              mat_precise_y <175>
+                              mat_trigger_style <plain_picture>
+                            man_start_sibling <trigger, "">
+                              mat_relative_tag <62>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U3", 0-105-12848>
+                                  >
+                                mat_precise_width <18>
+                                mat_precise_height <18>
+                                mat_precise_x <5>
+                                mat_precise_y <203>
+                                mat_art_id <1-0-6838>
+                                mat_trigger_style <plain_picture>
+                              man_start_sibling <trigger, "Rainman & Clerk2                   ">
+                                mat_relative_tag <63>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      man_set_context_relative <62>
+                                      act_do_action <select>
+                                      man_end_context
+                                    uni_end_stream
+                                    >
+                                  mat_color_text <255, 255, 255>
+                                  mat_precise_width <151>
+                                  mat_precise_height <20>
+                                  mat_precise_x <25>
+                                  mat_precise_y <202>
+                                  mat_trigger_style <plain_picture>
+                                man_start_sibling <trigger, "">
+                                  mat_relative_tag <64>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U3", 0-105-12849>
+                                      >
+                                    mat_precise_width <18>
+                                    mat_precise_height <18>
+                                    mat_precise_x <5>
+                                    mat_precise_y <230>
+                                    mat_art_id <1-0-6838>
+                                    mat_trigger_style <plain_picture>
+                                  man_start_sibling <trigger, "Stratus/Advanced Help                      ">
+                                    mat_relative_tag <65>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          man_set_context_relative <64>
+                                          act_do_action <select>
+                                          man_end_context
+                                        uni_end_stream
+                                        >
+                                      mat_color_text <255, 255, 255>
+                                      mat_precise_width <151>
+                                      mat_precise_height <20>
+                                      mat_precise_x <25>
+                                      mat_precise_y <229>
+                                      mat_trigger_style <plain_picture>
+                                    man_start_sibling <trigger, "">
+                                      mat_relative_tag <66>
+                                      mat_precise_width <18>
+                                      mat_precise_height <18>
+                                      mat_precise_x <5>
+                                      mat_precise_y <257>
+                                      mat_art_id <1-0-23738>
+                                      mat_trigger_style <plain_picture>
+                                    man_start_sibling <trigger, "">
+                                      mat_relative_tag <67>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            man_set_context_relative <66>
+                                            act_do_action <select>
+                                            man_end_context
+                                          uni_end_stream
+                                          >
+                                        mat_color_text <255, 255, 255>
+                                        mat_precise_width <151>
+                                        mat_precise_height <20>
+                                        mat_precise_x <25>
+                                        mat_precise_y <256>
+                                        mat_trigger_style <plain_picture>
+                                      man_end_object
+                                    hfs_attr_end_object
+                                  man_update_woff_end_stream

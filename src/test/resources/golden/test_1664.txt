@@ -1,0 +1,223 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "New Media Productions">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_color_face <0, 0, 170>
+    mat_art_id <1-0-9553>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hle>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_k1 <17-27348>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-16724>
+          mat_trigger_style <picture>
+        man_start_sibling <ornament, "IP Gateway Info">
+          mat_width <8>
+          mat_height <1>
+          mat_font_sis <system, 18, bold | italic>
+          mat_color_text <218, 218, 85>
+          mat_color_text_shadow <1, 1, 1>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <ornament, "">
+        mat_width <50>
+        mat_height <1>
+        mat_color_face <1, 1, 1>
+        mat_font_sis <system, 9, bold>
+        man_append_data <"--------------------------------------------------">
+        man_append_data <"--------------------------------------------------">
+        man_append_data <"--------------------------------------------------">
+        man_append_data <"----------------">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <org_group, "">
+        mat_orientation <hcc>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_bool_invisible <yes>
+          mat_width <20>
+          mat_height <12>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "Welcome...">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"t1", 0-100-33871>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "The Development Teams">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_k1 <40-37158>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "Communications">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_k1 <40-37433>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "Gateway Assignments">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_k1 <40-37489>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "QA">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"t1", 0-1-6000>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "** GATEWAYS ON AOL **">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_k1 <40-44557>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "AOL Resource Center">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_k1 <19-63091>
+                            >
+                          mat_art_id <1-0-1477>
+                        man_start_sibling <trigger, "Suggestions/Comments">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_k1 <40-37552>
+                              >
+                            mat_art_id <1-0-1477>
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <vff>
+                          mat_bool_resize_vertical <yes>
+                          mat_bool_resize_horizontal <yes>
+                          man_start_object <dss_list, "Private Access Areas:">
+                            mat_relative_tag <1>
+                            mat_width <30>
+                            mat_height <10>
+                            mat_title_pos <above | top_or_left>
+                            mat_font_sis <arial, 9, normal>
+                            mat_color_text <1, 1, 1>
+                            mat_sort_order <normal>
+                            man_start_object <trigger, "ABI">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_k1 <17-40175>
+                                  >
+                                mat_art_id <1-0-1477>
+                              man_start_sibling <trigger, "CUC International">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_send_k1 <17-45735>
+                                    >
+                                  mat_art_id <1-0-1477>
+                                man_start_sibling <trigger, "Luxembourg">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_k1 <17-33868>
+                                      >
+                                    mat_art_id <1-0-1477>
+                                  man_start_sibling <trigger, "Mutual Fund Center">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_send_k1 <40-37334>
+                                        >
+                                      mat_art_id <1-0-1477>
+                                    man_start_sibling <trigger, "New Zealand">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_k1 <17-33866>
+                                          >
+                                        mat_art_id <1-0-1477>
+                                      man_start_sibling <trigger, "Paramount">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_send_k1 <17-47543>
+                                            >
+                                          mat_art_id <1-0-1477>
+                                        man_start_sibling <trigger, "Stats, Inc.">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_send_k1 <17-33964>
+                                              >
+                                            mat_art_id <1-0-1477>
+                                          man_start_sibling <trigger, "Sycamore">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_k1 <17-61317>
+                                                >
+                                              mat_art_id <1-0-1477>
+                                            man_start_sibling <trigger, "Yes, We Can">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_send_k1 <17-45182>
+                                                  >
+                                                mat_art_id <1-0-1477>
+                                              man_end_object
+                                            man_start_sibling <org_group, "">
+                                              mat_orientation <hee>
+                                              man_start_object <trigger, "Go to Area">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream <00x>
+                                                    sm_do_list_action <1>
+                                                    >
+                                                  mat_font_sis <system, 9, normal>
+                                                  mat_color_text <218, 218, 85>
+                                                  mat_trigger_style <framed>
+                                                man_start_sibling <trigger, "Exit Forum">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream <00x>
+                                                        man_close_update
+                                                      uni_end_stream <00x>
+                                                      >
+                                                    mat_font_sis <system, 9, normal>
+                                                    mat_color_text <218, 218, 85>
+                                                    mat_trigger_style <framed>
+                                                  man_end_object
+                                                man_end_object
+                                              man_end_object
+                                            man_start_sibling <org_group, "">
+                                              mat_orientation <hff>
+                                              man_start_object <ornament, "KEYWORD: Gateways; Gateway Forms">
+                                                mat_width <30>
+                                                mat_height <1>
+                                                mat_font_sis <arial, 9, normal>
+                                                mat_color_text <218, 218, 85>
+                                                mat_orientation <hlf>
+                                              man_start_sibling <ornament, "Forum Manager: GG Julie">
+                                                mat_width <20>
+                                                mat_height <1>
+                                                mat_font_sis <arial, 9, normal>
+                                                mat_color_text <218, 218, 85>
+                                                mat_orientation <hlf>
+                                              man_end_object
+                                            man_end_object
+                                          hfs_attr_end_object
+                                        man_update_woff_end_stream

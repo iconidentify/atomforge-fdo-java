@@ -1,0 +1,90 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Kurierdienst starten jetzt">
+    mat_object_id <32-2535>
+    mat_style_id <32-2535>
+    mat_orientation <vff>
+    mat_precise_width <337>
+    mat_precise_height <230>
+    mat_color_face <250, 252, 255>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <320>
+      mat_precise_height <170>
+      mat_font_sis <arial, 8, normal>
+      man_append_data <"W�hlen Sie "Starten", um den Kurierdienst f�r Ihren AOL-Namen jetzt zu aktivieren. Die von Ihnen eingestellten Aufgaben werden dann ausgef�hrt. Mit "Einstellungen" k�nnen Sie den geplanten Kurierdienst bearbeiten.\x7f\x7fHinweis: Dateien unbekannter Herkunft k�nnen Viren enthalten und Ihrem Computersystem dadurch Schaden zuf�gen! Vergewissern Sie sich daher bitte �ber den Ursprung von Dateien, bevor Sie einen Kurierdienst starten. Um neue eMail auch ohne Anhang zu erhalten, w�hlen Sie "Einstellungen" und �ndern die entsprechende Option. F�r weitere Infos w�hlen Sie bitte das AOL-Stichwort: SICHERHEIT.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      man_start_object <trigger, "Starten">
+        mat_precise_x <36>
+        mat_precise_y <190>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <205, 228, 248>
+        mat_color_text <0, 51, 102>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <96, 104, 163>
+        mat_trigger_style <default>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              mip_action_command <09x>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Einstellungen">
+          mat_precise_x <129>
+          mat_precise_y <190>
+          mat_precise_width <90>
+          mat_precise_height <23>
+          mat_color_face <72, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <182, 182, 255>
+          mat_color_bottom_edge <36, 36, 85>
+          mat_trigger_style <default>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Abbrechen">
+            mat_precise_x <240>
+            mat_precise_y <190>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <72, 109, 170>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <182, 182, 255>
+            mat_color_bottom_edge <36, 36, 85>
+            mat_trigger_style <default>
+            mat_font_size <8>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

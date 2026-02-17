@@ -1,0 +1,190 @@
+uni_start_stream
+  man_start_object <ind_group, "Other Important Information">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-33785>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        man_append_data <"Other Important HHK Science Info\r">
+        man_end_data
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <60>
+        mat_height <10>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "HHK Science Room News #4">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-29-39932>
+              >
+            mat_art_id <1-0-21221>
+          man_start_sibling <trigger, "HHK Science Staff List">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-29-36594>
+                >
+              mat_art_id <1-0-37501>
+            man_start_sibling <trigger, "Staff Absence Report Form">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-29-36595>
+                  >
+                mat_art_id <1-0-37339>
+              man_start_sibling <trigger, "I Need A Sub!">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-29-36712>
+                    >
+                  mat_art_id <1-0-37495>
+                man_start_sibling <trigger, "HHK Science Private Chatroom!">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-29-36635>
+                      >
+                    mat_art_id <1-0-21808>
+                  man_start_sibling <trigger, "ARL Job Descriptions">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-29-36651>
+                        >
+                      mat_art_id <1-0-37503>
+                    man_start_sibling <trigger, "I Need a LOA!">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-29-36737>
+                          >
+                        mat_art_id <1-0-37500>
+                      man_start_sibling <trigger, "Change My Scheduled Time!">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-29-36633>
+                            >
+                          mat_art_id <1-0-37355>
+                        man_start_sibling <trigger, "TOS Violation! What Should I Do?">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-29-19871>
+                              >
+                            mat_art_id <1-0-52167>
+                          man_start_sibling <trigger, "AAC Empowered List 1/5/98">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-29-36591>
+                                >
+                              mat_art_id <1-0-37494>
+                            man_start_sibling <trigger, "Hal's Daily Updates">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-29-4162>
+                                  >
+                                mat_art_id <1-0-19938>
+                              man_start_sibling <trigger, "ARL Job Descriptions">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-29-36651>
+                                    >
+                                  mat_art_id <1-0-37503>
+                                man_start_sibling <trigger, "ARL Training Site">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-29-36713>
+                                      >
+                                    mat_art_id <1-0-32650>
+                                  man_start_sibling <trigger, "Useful Science Web Sites">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-29-36598>
+                                        >
+                                      mat_art_id <1-0-32650>
+                                    man_end_object
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hff>
+                                  man_start_object <org_group, "">
+                                    mat_orientation <vcf>
+                                    man_start_object <trigger, "">
+                                      mat_relative_tag <56>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-29-29145>
+                                          >
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_art_id <1-0-35999>
+                                        mat_trigger_style <picture>
+                                      man_start_sibling <ornament, "AACCL\r">
+                                        mat_relative_tag <57>
+                                        mat_width <20>
+                                        mat_height <1>
+                                        mat_font_sis <arial, 9, normal>
+                                        mat_orientation <hcc>
+                                      man_end_object
+                                    man_start_sibling <org_group, "">
+                                      mat_orientation <vcf>
+                                      man_start_object <trigger, "">
+                                        mat_relative_tag <58>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-100-13854>
+                                            >
+                                          mat_font_sis <small_fonts, 7, normal>
+                                          mat_art_id <1-0-35995>
+                                          mat_trigger_style <picture>
+                                        man_start_sibling <ornament, "VLA\r">
+                                          mat_relative_tag <59>
+                                          mat_width <20>
+                                          mat_height <1>
+                                          mat_font_sis <arial, 9, normal>
+                                          mat_orientation <hcc>
+                                        man_end_object
+                                      man_start_sibling <org_group, "">
+                                        mat_orientation <vcf>
+                                        man_start_object <trigger, "">
+                                          mat_relative_tag <60>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-63-30579>
+                                              >
+                                            mat_font_sis <small_fonts, 7, normal>
+                                            mat_art_id <1-0-36001>
+                                            mat_trigger_style <picture>
+                                          man_start_sibling <ornament, "TCB\r">
+                                            mat_relative_tag <61>
+                                            mat_width <20>
+                                            mat_height <1>
+                                            mat_font_sis <arial, 9, normal>
+                                            mat_orientation <hcc>
+                                          man_end_object
+                                        man_end_object
+                                      man_end_object
+                                      man_update_display
+                                    man_update_woff_end_stream

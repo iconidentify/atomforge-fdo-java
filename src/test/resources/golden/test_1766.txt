@@ -1,0 +1,92 @@
+uni_start_stream
+  man_start_object <ind_group, "How can I make WWW fields print correctly?">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-8832>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <485>
+      mat_precise_height <2>
+      mat_precise_x <4>
+      mat_precise_y <62>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+    man_start_sibling <view, "">
+      mat_precise_width <405>
+      mat_precise_height <168>
+      mat_precise_x <60>
+      mat_precise_y <80>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Currently VPD forms don't print WWW fields correct">
+      man_append_data <"ly, to rectify this situation, you need to add som">
+      man_append_data <"e code into the in-stream of the WWW field:\r\n\r\nmat">
+      man_append_data <"_bool_writeable <yes>\r\n\r\nThis should be fixed on a">
+      man_append_data <"n upcoming version of VPD.\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <3>
+      mat_precise_width <406>
+      mat_precise_height <37>
+      mat_precise_x <60>
+      mat_precise_y <11>
+      mat_font_sis <arial, 10, bold>
+      man_append_data <"Printing WWW Fields on VPD Forms\r">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Q:\r">
+      mat_relative_tag <13>
+      mat_precise_width <40>
+      mat_precise_height <38>
+      mat_precise_x <6>
+      mat_precise_y <9>
+      mat_font_sis <times_roman, 24, bold>
+      mat_color_text <0, 36, 255>
+      mat_color_text_shadow <0, 0, 0>
+      mat_orientation <hrf>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <11>
+      mat_precise_width <337>
+      mat_precise_height <20>
+      mat_precise_x <123>
+      mat_precise_y <254>
+      mat_font_sis <arial, 12, bold | italic>
+      mat_color_text <0, 36, 255>
+      mat_color_text_shadow <0, 0, 0>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <12>
+      mat_precise_width <337>
+      mat_precise_height <33>
+      mat_precise_x <123>
+      mat_precise_y <273>
+      mat_font_sis <arial, 9, normal>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <56>
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <45>
+      mat_precise_height <45>
+      mat_precise_x <63>
+      mat_precise_y <256>
+      mat_art_id <1-0-23738>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <ornament, "A:\r">
+      mat_relative_tag <14>
+      mat_precise_width <40>
+      mat_precise_height <34>
+      mat_precise_x <7>
+      mat_precise_y <82>
+      mat_font_sis <times_roman, 24, bold>
+      mat_color_text <0, 36, 255>
+      mat_color_text_shadow <0, 0, 0>
+      mat_orientation <hrf>
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

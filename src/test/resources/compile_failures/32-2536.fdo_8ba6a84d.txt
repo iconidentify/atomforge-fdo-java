@@ -1,0 +1,116 @@
+uni_start_stream <00x>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Iniciar o AOL Flash Agora">
+    mat_object_id <32-2536>
+    mat_style_id <32-2536>
+    mat_orientation <vff>
+    mat_precise_width <337>
+    mat_precise_height <280>
+    mat_color_face <255, 255, 255>
+    mat_art_id <1-4-4241>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_tile <yes>
+    man_start_object <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <320>
+      mat_precise_height <182>
+      mat_font_sis <arial, 8, normal>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      man_append_data <"Selecione <B>Iniciar</B> abaixo para iniciar imediatamente o AOL Flash com o nome de tela que voc� estiver usando no momento.  Suas escolhas ser�o aceitas. Se voc� quiser rever ou modificar suas instru��es, selecione antes <B>Configurar Sess�o</B>.\x7f\x7fLembre-se: Arquivos podem conter v�rus! Se sua nova lista de mensagens cont�m e-mails com arquivos anexados, certifique-se de que voc� sabe quem lhe enviou a mensagem antes de iniciar a sess�o do AOL Flash. Para recuperar mensagens n�o lidas sem fazer download dos arquivos anexados, clique em <B>Configurar Sess�o</B>, para modificar a op��o do Gerenciador de Downloads. Para mais informa��es, veja a Palavra-Chave: Seguran�a.\x7f\x7f">
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "Permanecer Online Quando Terminar">
+        mat_precise_x <8>
+        mat_precise_y <200>
+        mat_relative_tag <1>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      man_start_object <trigger, "Iniciar">
+        mat_precise_x <26>
+        mat_precise_y <243>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <0, 102, 102>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <153, 204, 204>
+        mat_color_bottom_edge <0, 51, 51>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              man_set_context_relative <1>
+              de_set_data_type <default>
+              de_get_data_value
+              uni_save_result
+              man_end_context
+              man_close_update
+              de_end_extraction
+              uni_get_result
+              if_last_return_true_then <1, 2>
+              mip_action_command <0ex>
+              uni_sync_skip <1>
+              mip_action_command <09x>
+              uni_sync_skip <2>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Configurar Sess�o">
+          mat_precise_x <114>
+          mat_precise_y <243>
+          mat_precise_width <110>
+          mat_precise_height <23>
+          mat_color_face <0, 102, 102>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <153, 204, 204>
+          mat_color_bottom_edge <0, 51, 51>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Cancelar">
+            mat_precise_x <240>
+            mat_precise_y <243>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <0, 102, 102>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <153, 204, 204>
+            mat_color_bottom_edge <0, 51, 51>
+            mat_font_size <8>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_end_typed_data
+          uni_wait_off
+        uni_end_stream <00x>

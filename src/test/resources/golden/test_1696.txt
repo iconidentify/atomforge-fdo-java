@@ -1,0 +1,110 @@
+uni_start_stream
+  man_start_object <ind_group, "PA Residential">
+    mat_orientation <vff>
+    man_start_object <ornament, "training2 PA Residential">
+      mat_relative_tag <3>
+      mat_width <20>
+      mat_height <1>
+      mat_font_sis <arial, 18, normal>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <40>
+      mat_height <15>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Play Area Residential A - B">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U1", 0-36-263>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Play Area Residential C - D">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U1", 0-36-264>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Play Area Residential E - F">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-36-265>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Play Area Residential G - H">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-36-266>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Play Area Residential I - J">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U1", 0-36-267>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Play Area Residential K - L">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U1", 0-36-268>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Play Area Residential M - N">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U1", 0-36-269>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Play Area Residential O - P">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U1", 0-36-270>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Play Area Residential Q - R">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U1", 0-36-271>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Play Area Residential S - T">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U1", 0-36-272>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "Play Area Residential U - V">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U1", 0-36-273>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Play Area Residential W - X">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U1", 0-36-274>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Play Area Residential Y - Z">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U1", 0-36-275>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_end_object
+                              man_end_object
+                              man_update_display
+                            man_update_woff_end_stream

@@ -1,0 +1,114 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Front Thing">
+    mat_object_id <32-2536>
+    mat_style_id <32-2536>
+    mat_orientation <vff>
+    mat_precise_width <337>
+    mat_precise_height <306>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <320>
+      mat_precise_height <225>
+      mat_font_sis <arial, 8, normal>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      man_append_data <"receive unit execute first dynamic start close active. main label special fourth sub update dynamic update. screen item dynamic handle delete third area module. start center execute advanced process fourth sigma thing. receive open omega invoke\x7f\x7fback second theta refresh delete close active load. send process advanced omega second sub delete start. panel default edge process widget button second window. complex receive custom basic active first stop side. dynamic east stop north left simple handle send. save delete default basic special delete receive alpha. north close first custom dynamic east handle stop. omega main execute section simple omega corner theta. invoke send">
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "Secondary Zone Center">
+        mat_precise_x <8>
+        mat_precise_y <240>
+        mat_relative_tag <1>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      man_start_object <trigger, "Primary Unit">
+        mat_precise_x <36>
+        mat_precise_y <273>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              man_set_context_relative <1>
+              de_set_data_type <default>
+              de_get_data_value
+              uni_save_result
+              man_end_context
+              man_close_update
+              de_end_extraction
+              uni_get_result
+              if_last_return_true_then <1, 2>
+              mip_action_command <0ex>
+              uni_sync_skip <1>
+              mip_action_command <09x>
+              uni_sync_skip <2>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Second Block">
+          mat_precise_x <123>
+          mat_precise_y <273>
+          mat_precise_width <104>
+          mat_precise_height <23>
+          mat_color_face <0, 51, 153>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <102, 153, 204>
+          mat_color_bottom_edge <0, 0, 102>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Old Dialog">
+            mat_precise_x <240>
+            mat_precise_y <273>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <0, 51, 153>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <102, 153, 204>
+            mat_color_bottom_edge <0, 0, 102>
+            mat_font_size <8>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

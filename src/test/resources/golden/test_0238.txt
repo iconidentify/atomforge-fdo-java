@@ -1,0 +1,30 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_object_id <40-31791>
+    mat_style_id <40-31791>
+    mat_orientation <vff>
+    mat_title <"Custom Left Delta">
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vlf>
+      man_start_object <ornament, "">
+        mat_size <45, 22>
+        man_append_data <"center corner process advanced advanced sub main close. invoke dynamic advanced custom second secondary send delete. handle update dynamic top\x7f\x7felement bottom create corner center stop execute element. area handle area stop static old\x7f\x7fdialog region close close gamma stop execute zone. close execute refresh invoke section area third start. receive previous current stop sub button stop process. thing start item dialog\x7f\x7fsub section close update beta update standard advanced. update load open invoke delete sub left left. static component dialog edge back\x7f\x7ffourth start element simple window first active box. epsilon load panel sub frame refresh\x7f\x7fsecondary box frame send old first dynamic active. delete region main delete delete execute invoke basic. execute delta omega advanced save delete complex">
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "OK">
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              morg_pfc_check_fragment
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

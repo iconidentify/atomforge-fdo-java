@@ -1,0 +1,107 @@
+uni_start_stream
+  uni_wait_on
+  uni_invoke_local <32-5447>
+
+  mat_title <"Main Gamma Unit">
+
+  man_set_context_globalid <32-30>
+  man_make_focus
+
+  man_set_context_relative <3>
+    man_replace_data <"secondary item send section simple alpha standard stop. active primary simple stop invoke new component old. main theta stop front top standard open send. fourth old frame window">
+    man_end_data
+  man_end_context
+
+  man_set_context_relative <21>
+    mat_art_id <1-0-21029>
+  man_end_context
+
+  man_set_context_relative <21>
+      act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"NX5">
+        uni_end_stream <00x>
+        >
+  man_end_context
+
+  man_set_context_relative <10>
+    man_replace_data <"main area third panel complex default delta open. form process previous send first third delete create. open south save create close alpha sigma execute. gadget standard screen">
+    man_end_data
+  man_end_context
+
+  man_set_context_relative <12>
+    man_replace_data <"receive fourth refresh standard secondary update gadget fourth. new create east first start fourth refresh side. corner close execute gamma execute area gamma delete.">
+
+    man_end_data
+  man_end_context
+
+  man_set_context_relative <14>
+    man_replace_data <"open load window process complex component complex complex. execute unit close current stop component frame save. widget open handle start stop static zone sigma. second complex zone main execute">
+    man_end_data
+  man_end_context
+
+  man_set_context_relative <16>
+    man_replace_data <"fourth south update panel dynamic primary old refresh. delta element current start sigma custom beta invoke. invoke screen basic receive dynamic">
+    man_end_data
+  man_end_context
+
+  man_set_context_relative <17>
+      mat_art_id <1-0-21030>
+  man_end_context
+
+ man_set_context_relative <17>
+    act_replace_select_action
+      <
+      uni_start_stream_wait_on <00x>
+        sm_send_token_arg <"NX1">
+      uni_end_stream <00x>
+      >
+  man_end_context
+
+  man_set_context_relative <18>
+    mat_art_id <1-0-21016>
+  man_end_context
+
+  man_set_context_relative <18>
+      act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"NX3">
+        uni_end_stream <00x>
+        >
+    man_end_context
+
+  man_set_context_relative <19>
+    mat_art_id <1-0-21031>
+  man_end_context
+
+    man_set_context_relative <19>
+        act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+            sm_send_token_arg <"NX2">
+          uni_end_stream <00x>
+          >
+      man_end_context
+
+  man_set_context_relative <20>
+    mat_art_id <1-0-21025>
+  man_end_context
+
+  man_set_context_relative <20>
+      act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"NX4">
+        uni_end_stream <00x>
+        >
+  man_end_context
+
+  man_force_update
+  man_update_display
+
+    uni_start_stream
+        sm_send_token_raw <"TO">
+      uni_end_stream
+uni_wait_off_end_stream

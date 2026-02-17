@@ -1,0 +1,85 @@
+uni_start_stream
+  man_start_object <ind_group, "Search Database test area">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-1307>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Search Database test area">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Search Database for Testing">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"2e", 0-0-7>
+            >
+          mat_art_id <1-0-1470>
+        man_start_sibling <trigger, "Search Encyclopedia (by text)">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"2e", 0-0-9>
+              >
+            mat_art_id <1-0-1470>
+          man_start_sibling <trigger, "Search Encyclopedia (by title)">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"2e", 0-0-12>
+                >
+              mat_art_id <1-0-1470>
+            man_start_sibling <trigger, "Search news database (db 10 on production)">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"2e", 0-0-10>
+                  >
+                mat_art_id <1-0-1470>
+              man_start_sibling <trigger, "Search AOLINHS (db 23)">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"2e", 0-0-23>
+                    >
+                  mat_art_id <1-0-1477>
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <hec>
+                man_start_object <trigger, "Open">
+                  act_replace_select_action
+                      <
+                      uni_start_stream <00x>
+                      sm_do_list_action <1>
+                      >
+                    mat_font_sis <system, 12, normal>
+                    mat_title_width <6>
+                    mat_bool_default <yes>
+                  man_start_sibling <trigger, "More">
+                    mat_bool_disabled <yes>
+                    mat_relative_tag <3>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_token_arg <"Cb">
+                        >
+                      mat_font_sis <system, 12, normal>
+                      mat_title_width <6>
+                    man_end_object
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

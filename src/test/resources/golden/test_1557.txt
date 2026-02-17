@@ -1,0 +1,116 @@
+uni_start_stream <00x>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Second Sub Window">
+    mat_object_id <32-2509>
+    mat_style_id <32-2509>
+    mat_orientation <vft>
+    mat_precise_width <440>
+    mat_precise_height <215>
+    mat_color_face <255, 255, 240>
+    mat_art_id <1-4-4241>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "special section standard save form zone custom refresh.">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <80, 2>
+      mat_font_id <arial>
+      mat_font_size <12>
+      mat_font_style <bold>
+    man_start_sibling <ornament, "">
+      mat_precise_x <13>
+      mat_precise_y <53>
+      mat_precise_width <480>
+      mat_precise_height <100>
+      mat_font_size <8>
+      mat_precise_width <405>
+      mat_precise_height <115>
+      mat_font_id <arial>
+      man_append_data <"special gadget stop section create execute simple view. open front gamma sub basic receive\x7f\x7fomega refresh widget handle component view block simple. basic component north process update epsilon corner execute. close window dialog load custom sigma delete epsilon. default receive default handle section current window gadget. static default custom panel primary save active process. process standard">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <212>
+      mat_precise_width <409>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <64>
+        mat_precise_y <170>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <0, 102, 102>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <153, 204, 204>
+        mat_color_bottom_edge <0, 51, 51>
+        mat_font_size <8>
+        uni_next_atom_typed <ascii>
+        mat_title <"sub">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-58>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-2510>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <182>
+          mat_precise_y <170>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_face <0, 102, 102>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <153, 204, 204>
+          mat_color_bottom_edge <0, 51, 51>
+          mat_font_size <8>
+          uni_next_atom_typed <ascii>
+          mat_title <"sou">
+          mat_font_id <arial>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-58>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-2510>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <303>
+            mat_precise_y <170>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <0, 102, 102>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <153, 204, 204>
+            mat_color_bottom_edge <0, 51, 51>
+            mat_font_size <8>
+            uni_next_atom_typed <ascii>
+            mat_title <"Previous Screen">
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_end_typed_data
+          uni_wait_off
+        uni_end_stream <00x>

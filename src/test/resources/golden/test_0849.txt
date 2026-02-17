@@ -1,0 +1,52 @@
+uni_start_stream <00x>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Static Element Gamma">
+    mat_object_id <32-2514>
+    mat_style_id <32-2514>
+    mat_orientation <vft>
+    mat_precise_width <370>
+    mat_precise_height <180>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <345>
+      mat_precise_height <125>
+      mat_font_sis <arial, 8, normal>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      man_append_data <"box special create update theta handle active\x7f\x7fdialog third create delete special process special window. side main thing edge simple area\x7f\x7fclose execute sub element refresh default delete open. theta create handle view load refresh old old. delete advanced send special view update save static. handle bottom edge handle current special thing main. update element close">
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      mat_precise_width <100>
+      mat_precise_height <25>
+      man_start_object <trigger, "OK">
+        mat_title_width <7>
+        mat_precise_x <150>
+        mat_precise_y <145>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_sis <arial, 8, normal>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_end_typed_data
+      uni_wait_off
+    uni_end_stream <00x>

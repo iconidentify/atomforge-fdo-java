@@ -1,0 +1,230 @@
+uni_start_stream
+  man_start_object <ind_group, "The Mute Goes Wild">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-1305>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "The Mute Goes Wild">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Areas 02/27/97 15:33">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-42-4159>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Test Collection">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-42-3099>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Software Libraries">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-42-3108>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Junk">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-42-3109>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Technology Testing 02/27/97 15:54">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-42-4164>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Newsgroups 02/27/97 16:16">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"K1", 0-17-53861>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_start_sibling <trigger, "AOL Today 04/04/97 10:49">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-42-4307>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Tour Schedules">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-42-4373>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "1-800-FLOWERS - Navigation Arrows 06/10/97 16:51">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-42-4542>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Navigation Arrow Collections 06/09/97 14:38">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-42-4543>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "Mail to Chris 06/10/97 17:01">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-42-4098>
+                                >
+                              mat_art_id <1-0-32650>
+                            man_start_sibling <trigger, "Media Space 06/25/97 10:20">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-42-4582>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Classifieds 06/25/97 13:14">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-42-4583>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "AOL Fonts and Sizes 08/21/97 12:46">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-42-4791>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "AOL's Advertising Terms and Conditions 08/28/97 10:42">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-42-4875>
+                                        >
+                                      mat_art_id <1-0-32650>
+                                    man_start_sibling <trigger, "Mail me 08/28/97 16:09">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-42-4878>
+                                          >
+                                        mat_art_id <1-0-32650>
+                                      man_start_sibling <trigger, "Navigation Test 11/03/97 14:37">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-42-5251>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_start_sibling <trigger, "Mail Form 11/07/97 13:31">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-42-5265>
+                                              >
+                                            mat_art_id <1-0-32650>
+                                          man_start_sibling <trigger, "Quick Time Examples 11/11/97 17:49">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-42-5270>
+                                                >
+                                              mat_art_id <1-0-1479>
+                                            man_start_sibling <trigger, "Netscape test 11/13/97 17:50">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-100-62328>
+                                                  >
+                                                mat_art_id <1-0-1477>
+                                              man_start_sibling <trigger, "Standard Ad Terms 11/13/97 19:14">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"t1", 0-42-5280>
+                                                    >
+                                                  mat_art_id <1-0-32650>
+                                                man_start_sibling <trigger, "Testing Rainman 12/08/97 11:44">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"t1", 0-42-5344>
+                                                      >
+                                                    mat_art_id <1-0-1479>
+                                                  man_start_sibling <trigger, "AOL Studios Announces 16 Major Advertisers on Debut of Electra 12/08/97 13:01">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"t1", 0-42-5345>
+                                                        >
+                                                      mat_art_id <1-0-1479>
+                                                    man_start_sibling <trigger, "Styleguide Software Library 01/09/98 11:25">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"eB", 0-0-28880>
+                                                          >
+                                                        mat_art_id <1-0-1482>
+                                                      man_start_sibling <trigger, "Pfizer Random Test 01/12/98 10:48">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"t1", 0-42-5481>
+                                                            >
+                                                          mat_art_id <1-0-1479>
+                                                        man_end_object
+                                                      man_start_sibling <org_group, "">
+                                                        mat_orientation <hec>
+                                                        man_start_object <trigger, "Open">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream <00x>
+                                                              sm_do_list_action <1>
+                                                              >
+                                                            mat_font_sis <system, 12, normal>
+                                                            mat_title_width <6>
+                                                            mat_bool_default <yes>
+                                                          man_start_sibling <trigger, "More">
+                                                            mat_bool_disabled <yes>
+                                                            mat_relative_tag <3>
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_wait_on
+                                                                uni_start_stream
+                                                                  buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                  buf_set_token <"Cc">
+                                                                  buf_add_atom_pointer <01x, 00x, 2ax, 03x, 39x, 00x, 14x>
+                                                                  buf_close_buffer
+                                                                uni_end_stream
+                                                                >
+                                                              mat_font_sis <system, 12, normal>
+                                                              mat_title_width <6>
+                                                            man_end_object
+                                                          man_end_object
+                                                          man_update_display
+                                                        man_update_woff_end_stream

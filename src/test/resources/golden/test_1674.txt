@@ -1,0 +1,177 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Oasis!">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-62584>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      man_start_object <ornament, "Welcome To Oasis!\r">
+        mat_relative_tag <3>
+        mat_width <22>
+        mat_height <1>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <60>
+        mat_height <10>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Welcome to the Oasis!">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-119-3488>
+              >
+            mat_art_id <1-0-37495>
+          man_start_sibling <trigger, "Women's Forum Volunteer Staff Policies">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-119-2549>
+                >
+              mat_art_id <1-0-1470>
+            man_start_sibling <trigger, "WN Volunteer Staff Directory">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-119-6939>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "WN Info & Templates">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-119-6942>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "WLV Reference and Training Forum">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-119-8504>
+                      >
+                    mat_art_id <1-0-1470>
+                  man_start_sibling <trigger, "Hot Information!">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-119-6945>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Staff Message Board">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"58", 0-0-7244>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "File Libraries">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-119-6944>
+                            >
+                          mat_art_id <1-0-1482>
+                        man_start_sibling <trigger, "Staff Web Pages">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-119-3604>
+                              >
+                            mat_art_id <1-0-1477>
+                          man_start_sibling <trigger, "Construction Zone">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-119-6946>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "... send your camel to bed">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"K1", 0-17-40417>
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_end_object
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hff>
+                            man_start_object <org_group, "">
+                              mat_orientation <vcf>
+                              man_start_object <trigger, "">
+                                mat_relative_tag <56>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-119-8155>
+                                    >
+                                  mat_art_id <1-0-36001>
+                                  mat_trigger_style <picture>
+                                man_start_sibling <ornament, "TalkWomen\r">
+                                  mat_relative_tag <57>
+                                  mat_width <15>
+                                  mat_height <1>
+                                  mat_orientation <hcc>
+                                man_end_object
+                              man_start_sibling <org_group, "">
+                                mat_orientation <vcf>
+                                man_start_object <trigger, "">
+                                  mat_relative_tag <58>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-119-16108>
+                                      >
+                                    mat_art_id <1-1-174>
+                                    mat_trigger_style <picture>
+                                  man_start_sibling <ornament, "VLA\r">
+                                    mat_relative_tag <59>
+                                    mat_width <15>
+                                    mat_height <1>
+                                    mat_orientation <hcc>
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <vcf>
+                                  man_start_object <trigger, "">
+                                    mat_relative_tag <60>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-119-12258>
+                                        >
+                                      mat_art_id <1-1-171>
+                                      mat_trigger_style <picture>
+                                    man_start_sibling <ornament, "ARC\r">
+                                      mat_relative_tag <61>
+                                      mat_width <15>
+                                      mat_height <1>
+                                      mat_orientation <hcc>
+                                    man_end_object
+                                  man_start_sibling <org_group, "">
+                                    mat_orientation <vcf>
+                                    man_start_object <trigger, "">
+                                      mat_relative_tag <62>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"U1", 0-22-48042>
+                                          >
+                                        mat_art_id <1-0-34714>
+                                        mat_trigger_style <picture>
+                                      man_start_sibling <ornament, "CLC">
+                                        mat_relative_tag <63>
+                                        mat_width <15>
+                                        mat_height <1>
+                                        mat_orientation <hcc>
+                                      man_end_object
+                                    man_end_object
+                                  man_end_object
+                                hfs_attr_end_object
+                              man_update_woff_end_stream

@@ -1,0 +1,27 @@
+uni_start_stream
+  man_start_object <ind_group, "Fast Keyword">
+    mat_orientation <vff>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <edit_view, "">
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_width <25>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_start_sibling <trigger, "Go!Go!Go!">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"Kk">
+            >
+          mat_font_sis <system, 12, normal>
+          mat_bool_default <yes>
+        man_end_object
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

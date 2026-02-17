@@ -1,0 +1,185 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "LDRS Team">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-33083>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <ornament, "">
+        mat_relative_tag <120>
+        mat_precise_width <42>
+        mat_precise_height <42>
+        mat_horizontal_spacing <3>
+        mat_art_id <1-0-1848>
+      man_start_sibling <ornament, "LDRS Team">
+        mat_relative_tag <3>
+        mat_precise_width <458>
+        mat_precise_height <42>
+        mat_vertical_spacing <2>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <view, "">
+          rich_manage
+          rich_bool_read_only <yes>
+          mat_precise_width <250>
+          mat_precise_height <115>
+          mat_horizontal_spacing <4>
+          mat_bool_vertical_scroll <yes>
+          mat_relative_tag <1>
+        man_start_sibling <org_group, "">
+          mat_orientation <hlf>
+          man_start_object <trigger, "">
+            mat_relative_tag <56>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U2", 0-83-3273>
+                >
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_art_id <1-0-37763>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <view, "">
+              rich_manage
+              rich_bool_read_only <yes>
+              mat_bool_exportable <no>
+              mat_precise_width <209>
+              mat_precise_height <19>
+              mat_bool_resize_vertical <no>
+              mat_bool_resize_horizontal <no>
+              mat_bool_vertical_scroll <no>
+              mat_relative_tag <57>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hlf>
+            man_start_object <trigger, "">
+              mat_relative_tag <58>
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_art_id <1-2-17066>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <ornament, "Not yet">
+              mat_relative_tag <59>
+              mat_precise_width <209>
+              mat_precise_height <19>
+              mat_orientation <hlf>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hlf>
+            man_start_object <trigger, "">
+              mat_relative_tag <60>
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_art_id <1-0-37763>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <ornament, "Not yet">
+              mat_relative_tag <61>
+              mat_precise_width <209>
+              mat_precise_height <19>
+              mat_orientation <hlf>
+            man_end_object
+          man_end_object
+        man_start_sibling <dss_list, "">
+          mat_relative_tag <30>
+          mat_precise_width <252>
+          mat_precise_height <212>
+          mat_bool_list_icons <yes>
+          mat_sort_order <normal>
+          mat_ruler <14>
+          man_start_object <trigger, "CLC Organizational Chart">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U2", 0-83-2297>
+                >
+              mat_art_id <1-0-19936>
+            man_start_sibling <trigger, "LDRS Orientation Area">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U2", 0-83-1361>
+                  >
+                mat_art_id <1-0-52172>
+              man_start_sibling <trigger, "Policies & Procedures">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U2", 0-83-1885>
+                    >
+                  mat_art_id <1-0-37493>
+                man_start_sibling <trigger, "CLC Course Materials (Macros, Mail, etc.)">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U2", 0-83-1572>
+                      >
+                    mat_art_id <1-0-52172>
+                  man_start_sibling <trigger, "Report Templates">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U2", 0-83-2300>
+                        >
+                      mat_art_id <1-0-37493>
+                    man_start_sibling <trigger, "Registrar Team">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U2", 0-83-2310>
+                          >
+                        mat_art_id <1-0-37493>
+                      man_start_sibling <trigger, "The CLUB Private Library">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"eB", 0-0-24282>
+                            >
+                          mat_art_id <1-0-1482>
+                        man_start_sibling <trigger, "The KARES Private Library">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"eB", 0-0-14914>
+                              >
+                            mat_art_id <1-0-1482>
+                          man_start_sibling <trigger, "The CLASS Private Library">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"eB", 0-0-24316>
+                                >
+                              mat_art_id <1-0-1482>
+                            man_end_object
+                          man_end_object
+                        man_end_object
+                      hfs_attr_end_object
+                      man_update_display
+                      man_set_context_relative <1>
+                      man_append_data <"<HTML></P><P ALIGN=CENTER><FONT  SIZE=2 PTSIZE=8><">
+                      man_append_data <"B>**LDRS This Week**<BR>Week of July 12 to July 18">
+                      man_append_data <"<BR></P><P ALIGN=LEFT><BR>Sunday, July 12:<BR>>><B">
+                      man_append_data <"R><BR>Monday, July 13:<BR>>> Gearing up.<BR><BR>Tu">
+                      man_append_data <"esday, July 14:<BR>>> Reconstruction begins! Woo h">
+                      man_append_data <"oo!<BR><BR>Wednesday, July 15:<BR>>><BR><BR>Thursd">
+                      man_append_data <"ay, July 16:<BR>>> <BR><BR>Friday, July 17:<BR>>> ">
+                      man_append_data <"TGIF!!<BR><BR>Saturday, July 18:<BR>>> sleep in :)">
+                      man_append_data <"</B></HTML>">
+                      man_end_data
+                      man_end_context
+                      man_set_context_relative <57>
+                      man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>The Bored of Ed</">
+                      man_append_data <"B></HTML>">
+                      man_end_data
+                      man_end_context
+                    man_update_woff_end_stream

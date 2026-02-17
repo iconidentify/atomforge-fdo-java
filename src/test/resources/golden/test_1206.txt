@@ -1,0 +1,23 @@
+uni_start_stream <00x>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Custom Theta">
+    mat_style_id <32-42>
+    mat_orientation <vff>
+    mat_color_face <255, 251, 240>
+    mat_style_id <32-42>
+    mat_position <center_center>
+    mat_bool_background_flood <yes>
+    man_start_object <view, "Complex Form Button">
+      mat_size <42, 10, 16384>
+      mat_relative_tag <1>
+      mat_ruler <12>
+      mat_bool_writeable <yes>
+    man_end_object
+    man_update_display
+    man_set_context_globalid <41-5271>
+    var_number_set <A, 0>
+    var_number_save <A, 8>
+    man_end_context
+    uni_end_typed_data
+    uni_wait_off
+  uni_end_stream <00x>

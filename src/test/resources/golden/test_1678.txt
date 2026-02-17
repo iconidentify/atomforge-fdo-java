@@ -1,0 +1,99 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "RST Online">
+    mat_orientation <vff>
+    mat_precise_width <460>
+    mat_precise_height <327>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-22995>
+    mat_bool_background_pic <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <27>
+      mat_precise_y <15>
+      mat_art_id <1-1-22994>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"MR", 1824>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_width <170>
+      mat_precise_height <46>
+      mat_precise_x <240>
+      mat_precise_y <109>
+      mat_art_id <1-1-22996>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <32-2291>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_width <140>
+      mat_precise_height <46>
+      mat_precise_x <240>
+      mat_precise_y <177>
+      mat_art_id <1-1-22997>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"Ki", 10298>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_width <200>
+      mat_precise_height <46>
+      mat_precise_x <240>
+      mat_precise_y <245>
+      mat_art_id <1-1-22998>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <23>
+      mat_height <11>
+      mat_precise_x <25>
+      mat_precise_y <116>
+      mat_font_sis <arial, 9, normal>
+      mat_frame_style <single_line_pop_out>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "RST Files">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-71-51016>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Technical Support BBS">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-71-51018>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Representative Support Q&A">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"bE", 0-0-2772>
+                >
+              mat_art_id <1-0-1483>
+            man_start_sibling <trigger, "RST Contact List">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-71-51023>
+                  >
+                mat_art_id <1-0-1478>
+              man_end_object
+            man_end_object
+          hfs_attr_end_object
+        man_update_woff_end_stream

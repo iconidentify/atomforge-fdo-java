@@ -1,0 +1,236 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Simple Alpha West">
+    mat_object_id <32-280>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 251, 240>
+    mat_orientation <vff>
+    mat_bool_precise <yes>
+    mat_precise_width <440>
+    mat_precise_height <222>
+    mat_bool_modal <yes>
+    man_start_object <sms_list, "">
+      mat_orientation <vff>
+      man_start_object <trigger, "stop secondary item stop stop execute current panel. execute">
+        mat_relative_tag <1>
+        mat_precise_x <10>
+        mat_precise_y <10>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "item process default region simple start stop create. open stop create">
+        mat_relative_tag <2>
+        mat_precise_x <10>
+        mat_precise_y <35>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "send box dynamic update update simple component">
+        mat_relative_tag <3>
+        mat_precise_x <10>
+        mat_precise_y <60>
+        mat_font_sis <arial, 9, bold>
+      man_start_sibling <trigger, "dialog process default main old thing delta custom.">
+        mat_precise_x <10>
+        mat_precise_y <85>
+        mat_font_sis <arial, 9, bold>
+        mat_relative_tag <6>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <sms_list, "">
+        mat_orientation <vff>
+        man_start_object <trigger, "Standard Thing East">
+          mat_relative_tag <4>
+          mat_precise_x <10>
+          mat_precise_y <110>
+          mat_font_sis <arial, 9, bold>
+        man_end_object
+      man_start_sibling <select_range, "">
+        mat_relative_tag <5>
+        mat_precise_x <220>
+        mat_precise_y <110>
+        mat_precise_width <60>
+        mat_precise_height <24>
+        mat_width <5>
+        mat_minimum <1>
+        mat_maximum <1000>
+      man_start_sibling <ornament, "Current Unit Form">
+        mat_size <7, 1>
+        mat_font_sis <arial, 9, bold>
+        mat_precise_x <286>
+        mat_precise_y <114>
+        mat_precise_width <150>
+        mat_precise_height <16>
+      man_end_object
+      man_start_object <ornament, "">
+        mat_font_sis <arial, 9, bold>
+        man_append_data <"widget execute secondary zone load basic stop">
+        mat_precise_x <10>
+        mat_precise_y <134>
+        mat_precise_width <250>
+        mat_precise_height <16>
+      man_end_object
+    man_start_sibling <edit_view, "">
+      mat_precise_x <10>
+      mat_precise_y <154>
+      mat_precise_width <250>
+      mat_precise_height <24>
+      mat_capacity <255>
+      mat_relative_tag <13>
+      mat_bool_vertical_scroll <no>
+      idb_set_context <20-2-14>
+      idb_atr_offset <0>
+      idb_get_string
+      uni_use_last_atom_string <man_replace_data>
+      idb_end_context
+    man_start_sibling <trigger, "">
+      mat_trigger_style <rectangle>
+      mat_color_face <255, 153, 0>
+      mat_color_top_edge <255, 240, 0>
+      mat_color_bottom_edge <255, 240, 0>
+      mat_font_sis <arial, 8, normal>
+      mat_color_text <1, 1, 1>
+      mat_title <"Custom Back">
+      mat_horizontal_spacing <7>
+      mat_precise_x <265>
+      mat_precise_y <154>
+      act_replace_select_action
+          <
+          uni_start_stream
+            fm_start
+            fm_add_file_type_mask
+            fm_item_type <filename>
+            fm_item_set <"path">
+            fm_dialog_put_file <"Main Gamma Item">
+            fm_handle_error <display_msg | terminate>
+            fm_item_get <42>
+            uni_save_result
+            man_set_context_relative <13>
+            uni_get_result
+            uni_use_last_atom_string <man_replace_data>
+            man_end_context
+            man_update_display
+          uni_end_stream
+          >
+      man_start_sibling <org_group, "">
+      man_start_sibling <org_group, "">
+        mat_orientation <hrf>
+        man_start_object <trigger, "">
+          mat_trigger_style <rectangle>
+          mat_color_face <255, 153, 0>
+          mat_color_top_edge <255, 240, 0>
+          mat_color_bottom_edge <255, 240, 0>
+          mat_font_sis <arial, 8, normal>
+          mat_color_text <1, 1, 1>
+          mat_title <"Third Theta Component">
+          mat_horizontal_spacing <7>
+          mat_precise_x <97>
+          mat_precise_y <189>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_bool_default <yes>
+          act_replace_select_action
+              <
+              uni_start_stream
+                de_start_extraction <0>
+                man_set_context_relative <1>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-267>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <2>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-30>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <3>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-31>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <6>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-34>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <4>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-32>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <5>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-33>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <13>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-2-14>
+                de_get_data_pointer <current_object>
+                uni_use_last_atom_string <idb_append_data>
+                idb_end_obj
+                man_end_context
+                de_end_extraction
+                xfer_refresh_prefs
+                man_close
+                man_update_display
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_trigger_style <rectangle>
+            mat_color_face <255, 153, 0>
+            mat_color_top_edge <255, 240, 0>
+            mat_color_bottom_edge <255, 240, 0>
+            mat_font_sis <arial, 8, normal>
+            mat_color_text <1, 1, 1>
+            mat_title <"Fourth Block">
+            mat_precise_x <183>
+            mat_precise_y <189>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          man_set_context_relative <1>
+          act_get_db_value <14x, 00x, 01x, 0bx>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <2>
+          act_get_db_value <14x, 00x, 00x, 1ex>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <3>
+          act_get_db_value <14x, 00x, 00x, 1fx>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <5>
+          act_get_db_value <14x, 00x, 00x, 21x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <6>
+          act_get_db_value <14x, 00x, 00x, 22x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <4>
+          act_get_db_value <14x, 00x, 00x, 20x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_update_display
+          uni_wait_off
+        uni_end_stream

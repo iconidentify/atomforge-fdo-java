@@ -1,0 +1,162 @@
+uni_start_stream
+  man_start_object <ind_group, "Rainman Support Area">
+    mat_orientation <vff>
+    mat_precise_width <400>
+    mat_precise_height <310>
+    mat_bool_precise <yes>
+    mat_art_id <1-0-2383>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hcc>
+      mat_precise_width <0>
+      mat_precise_height <0>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      man_start_object <ornament, "">
+        mat_precise_x <10>
+        mat_precise_y <10>
+        mat_art_id <1-0-2382>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Rainman Support Area">
+        mat_width <25>
+        mat_height <1>
+        mat_precise_x <145>
+        mat_precise_y <28>
+        mat_font_sis <arial, 18, normal>
+        mat_color_text_shadow <1, 1, 1>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_precise_x <0>
+      mat_precise_y <80>
+      mat_art_id <1-0-1369>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <0>
+      mat_precise_height <0>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      man_start_object <trigger, "About This\rArea">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"t1", 0-1-3718>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_bool_resize_vertical <yes>
+          mat_precise_x <24>
+          mat_precise_y <100>
+          mat_art_id <1-0-1325>
+          mat_trigger_style <rectangle>
+        man_start_sibling <trigger, "Who's New?">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"Ca", 0-0-5745>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_bool_resize_vertical <yes>
+            mat_precise_x <108>
+            mat_precise_y <100>
+            mat_art_id <1-0-1340>
+            mat_trigger_style <rectangle>
+          man_start_sibling <trigger, "Rainman\rTest Areas">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"Ca", 0-0-5744>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_bool_resize_vertical <yes>
+              mat_precise_x <209>
+              mat_precise_y <100>
+              mat_art_id <1-0-2288>
+              mat_trigger_style <rectangle>
+            man_start_sibling <trigger, "JG Graphics\rSupport Area">
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-8571>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_bool_resize_vertical <yes>
+                mat_precise_x <300>
+                mat_precise_y <100>
+                mat_art_id <1-0-3176>
+                mat_trigger_style <rectangle>
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <hef>
+              mat_precise_width <0>
+              mat_precise_height <0>
+              mat_precise_x <0>
+              mat_precise_y <0>
+              man_start_object <trigger, "Feedback">
+                mat_title_pos <below | center>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"Ca", 0-0-5722>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_bool_resize_vertical <yes>
+                  mat_precise_x <27>
+                  mat_precise_y <200>
+                  mat_art_id <1-0-1289>
+                  mat_trigger_style <rectangle>
+                man_start_sibling <trigger, "Online Help and\rReference">
+                  mat_title_pos <below | center>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_k1 <19-38709>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_bool_resize_vertical <yes>
+                    mat_precise_x <98>
+                    mat_precise_y <200>
+                    mat_art_id <1-0-2018>
+                    mat_trigger_style <rectangle>
+                  man_start_sibling <trigger, "Interactive\rRainman">
+                    mat_title_pos <below | center>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-411>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_bool_resize_vertical <yes>
+                      mat_precise_x <210>
+                      mat_precise_y <200>
+                      mat_art_id <1-0-1314>
+                      mat_trigger_style <rectangle>
+                    man_start_sibling <trigger, "Examine\rObject Info">
+                      mat_title_pos <below | center>
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-708>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_bool_resize_vertical <yes>
+                        mat_precise_x <306>
+                        mat_precise_y <200>
+                        mat_art_id <1-0-1780>
+                        mat_trigger_style <rectangle>
+                      man_end_object
+                    man_start_sibling <ornament, "Keyword: Rainman">
+                      mat_width <16>
+                      mat_height <1>
+                      mat_precise_x <5>
+                      mat_precise_y <290>
+                      mat_font_sis <arial, 9, normal>
+                      mat_color_text <0, 0, 170>
+                      mat_orientation <hlf>
+                    man_end_object
+                    man_update_display
+                  man_update_woff_end_stream

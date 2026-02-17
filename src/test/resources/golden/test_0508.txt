@@ -1,0 +1,12 @@
+uni_start_stream
+  cm_is_tool_loaded <230>
+  if_last_return_false_then <1>
+  async_exit
+  uni_sync_skip <1>
+  cm_tool_verify_set_tid <e6x>
+  cm_tool_verify <03x, 00x, 00x, 29x>
+  if_last_return_false_then <1>
+  async_exit
+  uni_sync_skip <1>
+  uni_invoke_local <32-5448>
+uni_end_stream

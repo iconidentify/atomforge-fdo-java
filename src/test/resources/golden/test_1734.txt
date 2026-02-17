@@ -1,0 +1,171 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL Legal Department Forms">
+    mat_orientation <vft>
+    mat_color_face <72, 36, 170>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_relative_tag <15>
+        mat_art_id <1-0-11333>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "AOL Legal Department Forms\r">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <68>
+      mat_height <11>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Questions Regarding Usage">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U1", 0-81-9422>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Process Instructions">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U1", 0-81-8424>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Last Revised Dates">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-81-9604>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Renewal/Termination">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-81-1018>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Information Provider Agreements">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U1", 0-81-682>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Letters of Intent">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U1", 0-81-327>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Bundling Agreements">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U1", 0-81-330>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Non-Disclosure Agreements">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U1", 0-81-350>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Consulting Agreements">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U1", 0-81-355>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Proprietary Information Agreements">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U1", 0-81-875>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "Interactive Marketing Agreements">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U1", 0-81-1541>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Employment Services Agreements">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U1", 0-81-10022>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Contests and Promotions">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U1", 0-81-359>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "Photo Releases">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U1", 0-81-362>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "TOS & Rules of the Road">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"U1", 0-81-367>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "Contract Forms Library">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"eB", 0-0-14373>
+                                          >
+                                        mat_art_id <1-0-1482>
+                                      man_start_sibling <trigger, "AOL Legal Library">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"eB", 0-0-29719>
+                                            >
+                                          mat_art_id <1-0-1482>
+                                        man_start_sibling <trigger, "AOL Int'l Legal Library">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"eB", 0-0-14156>
+                                              >
+                                            mat_art_id <1-0-1482>
+                                          man_end_object
+                                        man_start_sibling <org_group, "">
+                                          mat_orientation <hef>
+                                          mat_vertical_spacing <2>
+                                          man_start_object <trigger, "Open">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream <00x>
+                                                sm_do_list_action <30>
+                                                >
+                                              mat_font_sis <system, 12, normal>
+                                              mat_bool_default <yes>
+                                            man_start_sibling <trigger, "More">
+                                              mat_bool_disabled <yes>
+                                              mat_relative_tag <26>
+                                              mat_font_sis <system, 12, normal>
+                                            man_end_object
+                                          man_end_object
+                                          man_update_display
+                                        man_update_woff_end_stream

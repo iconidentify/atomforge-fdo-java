@@ -1,0 +1,205 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Automatic AOL Walk Through">
+    mat_object_id <32-2517>
+    mat_style_id <32-2517>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <240>
+    mat_color_face <255, 255, 204>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <19, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+      man_append_data <"Which days of the week?">
+    man_start_sibling <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <18>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <18>
+      mat_font_id <arial>
+      man_append_data <"Select the days of the week that you want to run Automatic AOL.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <108>
+      mat_precise_width <403>
+      mat_precise_height <130>
+      man_start_object <sms_list, "">
+        mat_orientation <vft>
+        uni_start_typed_data <ascii>
+        man_start_object <trigger, "Sunday">
+          mat_precise_x <81>
+          mat_precise_y <82>
+          mat_relative_tag <1>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_start_sibling <trigger, "Monday">
+          mat_precise_x <81>
+          mat_precise_y <110>
+          mat_relative_tag <2>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_start_sibling <trigger, "Tuesday">
+          mat_precise_x <81>
+          mat_precise_y <138>
+          mat_relative_tag <3>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_start_sibling <trigger, "Wednesday">
+          mat_precise_x <81>
+          mat_precise_y <166>
+          mat_relative_tag <4>
+          mat_font_sis <arial, 9, bold>
+          mat_vertical_spacing <5>
+          mat_bool_default_send <no>
+        man_end_object
+      man_start_sibling <sms_list, "">
+        mat_orientation <vft>
+        man_start_object <trigger, "Thursday">
+          mat_precise_x <255>
+          mat_precise_y <82>
+          mat_relative_tag <5>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_start_sibling <trigger, "Friday">
+          mat_precise_x <255>
+          mat_precise_y <110>
+          mat_relative_tag <6>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_start_sibling <trigger, "Saturday">
+          mat_precise_x <255>
+          mat_precise_y <138>
+          mat_relative_tag <7>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <242>
+      mat_precise_width <403>
+      mat_precise_height <30>
+      man_start_object <trigger, "">
+        mat_precise_x <135>
+        mat_precise_y <208>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_trigger_style <rectangle>
+        mat_font_size <8>
+        mat_title <"  Continue  ">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              idb_set_context <20-0-54>
+              idb_atr_offset <0>
+              man_set_context_relative <1>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <2>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <3>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <4>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <5>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <6>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <7>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_end_context
+              idb_end_context
+              de_end_extraction
+              man_close_update
+              uni_invoke_no_context <32-2518>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <222>
+          mat_precise_y <208>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_face <0, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_trigger_style <rectangle>
+          mat_font_size <8>
+          mat_title <"   Cancel   ">
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        idb_set_context <20-0-54>
+        man_set_context_relative <1>
+        idb_atr_offset <0>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <2>
+        idb_atr_offset <4>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <3>
+        idb_atr_offset <8>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <4>
+        idb_atr_offset <12>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <5>
+        idb_atr_offset <16>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <6>
+        idb_atr_offset <20>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <7>
+        idb_atr_offset <24>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        idb_end_context
+        man_update_display
+        man_end_context
+        uni_end_typed_data
+        uni_wait_off
+      uni_end_stream <00x>

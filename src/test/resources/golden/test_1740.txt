@@ -1,0 +1,151 @@
+uni_start_stream
+  man_start_object <ind_group, "United Kingdom">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-6285>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <540>
+      mat_precise_height <52>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <ornament, "United Kingdom">
+        mat_precise_width <256>
+        mat_precise_height <39>
+        mat_precise_x <128>
+        mat_precise_y <6>
+        mat_font_sis <arial, 24, bold>
+        mat_color_text <72, 0, 172>
+        mat_color_text_shadow <255, 255, 255>
+        mat_orientation <hcf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <65>
+      mat_precise_height <370>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <trigger, "">
+        mat_font_sis <system, 12, normal>
+        mat_precise_width <327>
+        mat_precise_height <29>
+        mat_precise_x <86>
+        mat_precise_y <254>
+        mat_art_id <1-0-28256>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <65>
+        mat_precise_height <370>
+        mat_precise_x <435>
+        mat_precise_y <0>
+        mat_art_id <1-0-16518>
+        mat_bool_background_tile <yes>
+        man_start_object <trigger, "">
+          mat_font_sis <system, 12, normal>
+          mat_precise_width <312>
+          mat_precise_height <29>
+          mat_precise_x <533>
+          mat_precise_y <114>
+          mat_art_id <1-0-28256>
+          mat_trigger_style <plain_picture>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <500>
+      mat_precise_height <60>
+      mat_precise_x <0>
+      mat_precise_y <239>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <40>
+        mat_precise_height <370>
+        mat_precise_x <65076>
+        mat_precise_y <239>
+        mat_art_id <1-0-16518>
+        mat_bool_background_tile <yes>
+      man_end_object
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U1", 209-9264>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <64>
+      mat_precise_height <69>
+      mat_precise_x <111>
+      mat_precise_y <85>
+      mat_art_id <1-0-11333>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U1", 209-524>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <64>
+      mat_precise_height <69>
+      mat_precise_x <215>
+      mat_precise_y <90>
+      mat_art_id <1-0-11334>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U1", 209-517>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <64>
+      mat_precise_height <69>
+      mat_precise_x <326>
+      mat_precise_y <91>
+      mat_art_id <1-0-11327>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <ornament, "Legal\rForms">
+      mat_precise_width <91>
+      mat_precise_height <47>
+      mat_precise_x <96>
+      mat_precise_y <154>
+      mat_font_sis <arial, 14, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Policies &\rPractices">
+      mat_precise_width <117>
+      mat_precise_height <51>
+      mat_precise_x <307>
+      mat_precise_y <156>
+      mat_font_sis <arial, 14, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Who's\rWho">
+      mat_precise_width <96>
+      mat_precise_height <47>
+      mat_precise_x <198>
+      mat_precise_y <157>
+      mat_font_sis <arial, 14, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

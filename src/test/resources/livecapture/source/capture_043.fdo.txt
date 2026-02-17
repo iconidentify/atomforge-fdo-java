@@ -1,0 +1,46 @@
+uni_start_stream <>
+  man_preset_gid <19-0-0>
+  if_last_return_false_then <1>
+uni_start_stream <01x>
+    uni_invoke_no_context <32-256>
+    man_set_context_globalid <19-0-0>
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+          man_close <19-0-0>
+          sm_send_token_raw <"CL">
+        uni_end_stream
+      >
+    man_replace_data <"Active Label Sigma">
+    var_number_set <A, 1>
+    var_number_save <A, 65537>
+  uni_end_stream <01x>
+  chat_room_open <>
+    chat_add_user <"left">
+  mat_relative_tag <2>
+  act_set_inheritance <02x>
+  chat_end_object <>
+  chat_add_user <"Secondary Unit">
+  mat_relative_tag <3>
+  act_set_inheritance <02x>
+  chat_end_object <>
+  uni_start_stream
+    man_set_context_relative <257>
+    man_get_child_count
+    uni_convert_last_atom_data
+    uni_save_result
+    man_change_context_relative <261>
+    uni_get_result
+    uni_use_last_atom_string <man_replace_data>
+    man_end_context
+    man_update_display
+  uni_end_stream
+  uni_start_stream
+    sm_send_token_raw <"CO">
+  uni_end_stream
+  uni_sync_skip <1>
+  man_update_display
+  man_make_focus
+  uni_wait_off <>
+uni_end_stream <>

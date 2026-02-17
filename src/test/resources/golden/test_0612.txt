@@ -1,0 +1,60 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 251, 240>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <6>
+      mat_width <38>
+      mat_color_text <1, 1, 1>
+      rich_manage
+      man_append_data <"process advanced new stop open dialog load receive. send invoke frame advanced screen default load static. receive primary open start main execute main handle. button window delete stop basic start complex south. third third process right">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <default>
+        mat_title_width <3>
+        mat_color_face <0, 102, 102>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 204, 204>
+        mat_color_bottom_edge <1, 51, 51>
+        mat_font_size <9>
+        mat_font_id <arial>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <default>
+        mat_title_width <20>
+        mat_color_face <0, 102, 102>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <153, 204, 204>
+        mat_color_bottom_edge <1, 51, 51>
+        mat_font_size <9>
+        mat_font_id <arial>
+        mat_title <"Second Side Top">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

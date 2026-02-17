@@ -1,0 +1,29 @@
+uni_start_stream
+  man_set_context_globalid <1>
+  act_do_action <129>
+  man_end_context
+  man_close_update <32-5483>
+  uni_invoke_no_context <32-482>
+  uni_invoke_no_context <32-484>
+  act_get_db_value <14x, 00x, 00x, 2bx>
+  if_last_return_true_then <1>
+  uni_next_atom_typed <ascii>
+  async_playsound <"Primary Sigma">
+  uni_sync_skip <1>
+  man_set_context_globalid <2>
+  man_set_context_relative <91>
+  uni_next_atom_typed <ascii>
+  mat_title <"Basic Omega">
+  mat_command_key <4dx>
+  mat_shortcut_key <"M">
+  act_replace_select_action
+      <
+      uni_start_stream_wait_on
+        man_do_magic_response_id <8413>
+        uni_invoke_no_context <32-221>
+      uni_wait_off_end_stream
+      >
+    man_update_display
+    man_end_context
+    man_end_context
+  uni_end_stream

@@ -1,0 +1,286 @@
+uni_start_stream <00x>
+  uni_next_atom_typed <ascii>
+  man_start_object <ind_group, "Prefer�ncias de Download">
+    mat_object_id <32-280>
+    mat_bool_background_flood <yes>
+    mat_art_id <1-4-4241>
+    mat_bool_background_tile <yes>
+    mat_orientation <vff>
+    mat_bool_precise <yes>
+    mat_precise_width <390>
+    mat_precise_height <250>
+    mat_bool_modal <yes>
+    man_start_object <sms_list, "">
+      mat_orientation <vff>
+      uni_next_atom_typed <ascii>
+      man_start_object <trigger, "Exibir Arquivos de Imagem durante download">
+        mat_relative_tag <1>
+        mat_precise_x <10>
+        mat_precise_y <10>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default <yes>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <trigger, "Descompactar os arquivos automaticamente ao encerrar">
+        mat_relative_tag <2>
+        mat_precise_x <10>
+        mat_precise_y <35>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default <yes>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <trigger, "Apagar arquivos ZIP depois da descompacta��o">
+        mat_relative_tag <3>
+        mat_precise_x <10>
+        mat_precise_y <60>
+        mat_font_sis <arial, 9, bold>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <trigger, "Confirmar adi��es � minha  lista de download">
+        mat_precise_x <10>
+        mat_precise_y <85>
+        mat_font_sis <arial, 9, bold>
+        mat_relative_tag <6>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <trigger, "Ativar Alerta de Download de arquivo">
+        mat_precise_x <10>
+        mat_precise_y <110>
+        mat_font_sis <arial, 9, bold>
+        mat_relative_tag <10>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <sms_list, "">
+        mat_orientation <vff>
+        uni_next_atom_typed <ascii>
+        man_start_object <trigger, "Manter informa��o sobre meus �ltimos">
+          mat_relative_tag <4>
+          mat_precise_x <10>
+          mat_precise_y <135>
+          mat_font_sis <arial, 9, bold>
+        man_end_object
+      man_start_sibling <select_range, "">
+        mat_relative_tag <5>
+        mat_precise_x <253>
+        mat_precise_y <135>
+        mat_precise_width <60>
+        mat_precise_height <24>
+        mat_width <5>
+        mat_minimum <1>
+        mat_maximum <1000>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <ornament, "downloads"">
+        mat_size <7, 1>
+        mat_font_sis <arial, 9, bold>
+        mat_precise_x <318>
+        mat_precise_y <139>
+        mat_precise_width <65>
+        mat_precise_height <16>
+      man_end_object
+      man_start_object <ornament, "">
+        mat_font_sis <arial, 9, bold>
+        uni_next_atom_typed <ascii>
+        man_append_data <"Usar este diret�rio como padr�o para downloads:">
+        mat_precise_x <10>
+        mat_precise_y <165>
+        mat_precise_width <300>
+        mat_precise_height <16>
+      man_end_object
+    man_start_sibling <edit_view, "">
+      mat_field_script <any>
+      mat_precise_x <10>
+      mat_precise_y <182>
+      mat_width <25>
+      mat_height <1>
+      mat_capacity <255>
+      mat_relative_tag <13>
+      mat_bool_vertical_scroll <no>
+      idb_set_context <20-2-14>
+      idb_atr_offset <0>
+      idb_get_string
+      uni_use_last_atom_string <man_replace_data>
+      idb_end_context
+    man_start_sibling <trigger, "">
+      mat_trigger_style <default>
+      mat_color_face <0, 102, 102>
+      mat_color_top_edge <153, 204, 204>
+      mat_color_frame_shadow <0, 51, 51>
+      mat_font_sis <arial, 8, normal>
+      mat_color_text <255, 255, 255>
+      uni_next_atom_typed <ascii>
+      mat_title <"   Procurar   ">
+      mat_horizontal_spacing <7>
+      mat_precise_x <265>
+      mat_precise_y <180>
+      act_replace_select_action
+          <
+          uni_start_stream
+            fm_start
+            fm_add_file_type_mask
+            fm_item_type <filename>
+            fm_item_set <"path">
+            uni_next_atom_typed <ascii>
+            fm_dialog_put_file <"Selecionar Caminho">
+            fm_handle_error <display_msg | terminate>
+            fm_item_get <42>
+            uni_save_result
+            man_set_context_relative <13>
+            uni_get_result
+            uni_use_last_atom_string <man_replace_data>
+            man_end_context
+            man_update_display
+          uni_end_stream
+          >
+      man_start_sibling <org_group, "">
+      man_start_sibling <org_group, "">
+        mat_orientation <hrf>
+        man_start_object <trigger, "">
+          mat_trigger_style <default>
+          mat_color_face <0, 102, 102>
+          mat_color_top_edge <153, 204, 204>
+          mat_color_frame_shadow <0, 51, 51>
+          mat_font_sis <arial, 8, normal>
+          mat_color_text <255, 255, 255>
+          uni_next_atom_typed <ascii>
+          mat_title <"       OK       ">
+          mat_horizontal_spacing <7>
+          mat_precise_x <112>
+          mat_precise_y <212>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_bool_default <yes>
+          act_replace_select_action
+              <
+              uni_start_stream
+                de_start_extraction <0>
+                man_set_context_relative <1>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-267>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <2>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-30>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <3>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-31>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <6>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-34>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <4>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-32>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <10>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-255-23>
+                de_get_data_value
+                if_last_return_true_then <1, 2>
+                idb_append_data <00x, 00x, 00x, 00x>
+                uni_sync_skip <1>
+                idb_append_data <00x, 00x, 00x, 01x>
+                uni_sync_skip <2>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <5>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-33>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <13>
+                de_get_data_pointer
+                var_string_set_from_atom <A>
+                de_validate <display_msg | terminate | 4>
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-2-14>
+                de_get_data_pointer <current_object>
+                uni_use_last_atom_string <idb_append_data>
+                idb_end_obj
+                man_end_context
+                de_end_extraction
+                xfer_refresh_prefs
+                man_close
+                man_update_display
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_trigger_style <default>
+            mat_color_face <0, 102, 102>
+            mat_color_top_edge <153, 204, 204>
+            mat_color_frame_shadow <0, 51, 51>
+            mat_font_sis <arial, 8, normal>
+            mat_color_text <255, 255, 255>
+            uni_next_atom_typed <ascii>
+            mat_title <"   Cancelar   ">
+            mat_precise_x <208>
+            mat_precise_y <212>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          man_set_context_relative <1>
+          act_get_db_value <14x, 00x, 01x, 0bx>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <2>
+          act_get_db_value <14x, 00x, 00x, 1ex>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <3>
+          act_get_db_value <14x, 00x, 00x, 1fx>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <10>
+          act_get_db_value <14x, ffx, 00x, 17x>
+          if_last_return_true_then <1, 2>
+          mat_value <0>
+          uni_sync_skip <1>
+          mat_value <1>
+          uni_sync_skip <2>
+          man_end_context
+          man_set_context_relative <5>
+          act_get_db_value <14x, 00x, 00x, 21x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <6>
+          act_get_db_value <14x, 00x, 00x, 22x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <4>
+          act_get_db_value <14x, 00x, 00x, 20x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_update_display
+          uni_wait_off
+        uni_end_stream

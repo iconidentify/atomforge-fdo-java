@@ -1,0 +1,194 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Message Center">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-17984>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <ornament, "">
+        mat_relative_tag <120>
+        mat_precise_width <42>
+        mat_precise_height <42>
+        mat_horizontal_spacing <2>
+        mat_art_id <1-0-13587>
+      man_start_sibling <ornament, "The Message Center\r">
+        mat_relative_tag <3>
+        mat_precise_width <430>
+        mat_precise_height <42>
+        mat_vertical_spacing <3>
+        mat_orientation <hlc>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <view, "">
+          rich_manage
+          rich_bool_read_only <yes>
+          mat_precise_width <270>
+          mat_precise_height <113>
+          mat_bool_vertical_scroll <yes>
+          mat_relative_tag <1>
+        man_start_sibling <org_group, "">
+          mat_orientation <hef>
+          man_start_object <org_group, "">
+            mat_orientation <vcf>
+            man_start_object <trigger, "">
+              mat_relative_tag <56>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"78", 0-0-12680>
+                  >
+                mat_precise_width <42>
+                mat_precise_height <42>
+                mat_art_id <1-0-13250>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <view, "">
+                rich_manage
+                rich_bool_read_only <yes>
+                mat_bool_exportable <no>
+                mat_precise_width <68>
+                mat_precise_height <39>
+                mat_bool_resize_vertical <no>
+                mat_bool_resize_horizontal <no>
+                mat_bool_vertical_scroll <no>
+                mat_relative_tag <57>
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <vcf>
+              man_start_object <trigger, "">
+                mat_relative_tag <58>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"78", 0-0-14150>
+                    >
+                  mat_precise_width <42>
+                  mat_precise_height <42>
+                  mat_art_id <1-0-13250>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <view, "">
+                  rich_manage
+                  rich_bool_read_only <yes>
+                  mat_bool_exportable <no>
+                  mat_precise_width <68>
+                  mat_precise_height <39>
+                  mat_bool_resize_vertical <no>
+                  mat_bool_resize_horizontal <no>
+                  mat_bool_vertical_scroll <no>
+                  mat_relative_tag <59>
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <vcf>
+                man_start_object <trigger, "">
+                  mat_relative_tag <60>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"78", 0-0-13424>
+                      >
+                    mat_precise_width <42>
+                    mat_precise_height <42>
+                    mat_art_id <1-0-13250>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <view, "">
+                    rich_manage
+                    rich_bool_read_only <yes>
+                    mat_bool_exportable <no>
+                    mat_precise_width <68>
+                    mat_precise_height <39>
+                    mat_bool_resize_vertical <no>
+                    mat_bool_resize_horizontal <no>
+                    mat_bool_vertical_scroll <no>
+                    mat_relative_tag <61>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <vcf>
+                  man_start_object <trigger, "">
+                    mat_relative_tag <62>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"78", 0-0-13425>
+                        >
+                      mat_precise_width <42>
+                      mat_precise_height <42>
+                      mat_art_id <1-0-13250>
+                      mat_trigger_style <plain_picture>
+                    man_start_sibling <view, "">
+                      rich_manage
+                      rich_bool_read_only <yes>
+                      mat_bool_exportable <no>
+                      mat_precise_width <68>
+                      mat_precise_height <39>
+                      mat_bool_resize_vertical <no>
+                      mat_bool_resize_horizontal <no>
+                      mat_bool_vertical_scroll <no>
+                      mat_relative_tag <63>
+                    man_end_object
+                  man_end_object
+                man_end_object
+              man_start_sibling <dss_list, "">
+                mat_relative_tag <30>
+                mat_precise_width <190>
+                mat_precise_height <210>
+                mat_bool_list_icons <yes>
+                mat_sort_order <normal>
+                mat_ruler <14>
+                man_start_object <trigger, "Posting Guidelines (6/98)">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-67-838>
+                      >
+                    mat_art_id <1-0-53719>
+                  man_start_sibling <trigger, "About the Boards">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-67-1037>
+                        >
+                      mat_art_id <1-0-21769>
+                    man_end_object
+                  man_end_object
+                man_end_object
+              hfs_attr_end_object
+              man_update_display
+              man_set_context_relative <1>
+              man_append_data <"<HTML><PRE><B>ATTENTION:</B>\x7f\x7fThe boards linked he">
+              man_append_data <"re should now be fully functional and accessible t">
+              man_append_data <"o everyone.  Since these are not the same boards, ">
+              man_append_data <"they will not contain posts previously posted here">
+              man_append_data <".  \x7f\x7fOnce again, thank you for your patience and w">
+              man_append_data <"e apologize for any inconvenience!\x7f</PRE></HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <57>
+              man_append_data <"<HTML><PRE></P><P ALIGN=CENTER><B>Info Exchange</B">
+              man_append_data <">\x7f\x7f</P><P ALIGN=LEFT>\x7f</PRE></HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <59>
+              man_append_data <"<HTML><PRE></P><P ALIGN=CENTER><B>Shift Reports</B">
+              man_append_data <">\x7f</PRE></HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <61>
+              man_append_data <"<HTML><PRE></P><P ALIGN=CENTER><B>Team Talk</B>\x7f</">
+              man_append_data <"PRE></HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <63>
+              man_append_data <"<HTML><PRE></P><P ALIGN=CENTER><B>CL Social Center">
+              man_append_data <"\x7f</B></PRE></HTML>">
+              man_end_data
+              man_end_context
+            man_update_woff_end_stream

@@ -1,0 +1,111 @@
+uni_start_stream <00x>
+  idb_exists <22-0-8>
+  if_last_return_true_then <100>
+  async_alert <info, "This feature is not available when signed on using a Kiosk client.">
+uni_abort_stream
+uni_sync_skip <100>
+async_is_guest
+if_last_return_true_then <101>
+async_alert <info, "This feature is not available when signed on using a Kiosk client.">
+uni_abort_stream
+uni_sync_skip <101>
+idb_set_context <20-0-16>
+idb_atr_offset <1>
+idb_get_string
+var_string_set_from_atom <A>
+var_string_set <B,"New User  ">
+idb_end_context
+if_stra_eq_strb_then <10, 99>
+async_alert <info, "Please register an account to use this feature.">
+uni_sync_skip <10>
+man_start_object <ind_group, "Automatic AOL Walk-Through">
+  mat_object_id <32-2507>
+  mat_style_id <32-2507>
+  mat_orientation <vft>
+  mat_precise_width <422>
+  mat_precise_height <320>
+the_unknown <16, 204, 01x>
+  mat_position <center_center>
+  mat_bool_resize_vertical <no>
+  mat_bool_modal <yes>
+  mat_bool_precise <yes>
+  mat_bool_background_flood <yes>
+  man_start_object <ornament, "Welcome to Automatic AOL!">
+    mat_precise_x <8>
+    mat_precise_y <8>
+    mat_size <19, 1>
+    mat_font_id <arial>
+    mat_font_size <14>
+    mat_font_style <bold>
+  man_start_sibling <ornament, "">
+    mat_precise_x <8>
+    mat_precise_y <53>
+    mat_precise_width <400>
+    mat_precise_height <200>
+    mat_font_size <8>
+    mat_precise_width <400>
+    mat_precise_height <200>
+    mat_font_id <arial>
+    man_append_data <"Automatic AOL allows you to go online, immediately or at times you \x7fdesignate, to:\x7f\x7f- read and respond to email offline;\x7f- read and respond to newsgroup or message board postings offline; \x7f- download files you have collected in your Download Manager.\x7f\x7fUsing Automatic AOL will save you time - because you can walk away \x7ffrom your computer while Automatic AOL does all the work.\x7f\x7fThis walk-through will help you set up Automatic AOL for the first time. \x7f If you are already familiar with Automatic AOL (or Flash Sessions), click\x7f "Expert Setup," and make just the changes you want to your Automatic \x7f AOL setup.\x7f\x7fClick Continue to start setting up Automatic AOL.">
+  man_start_sibling <org_group, "">
+    mat_orientation <hef>
+    mat_precise_x <6>
+    mat_precise_y <283>
+    mat_precise_width <408>
+    mat_precise_height <29>
+    man_start_object <trigger, "">
+      mat_precise_x <50>
+      mat_precise_y <286>
+      mat_precise_width <73>
+      mat_precise_height <23>
+      mat_trigger_style <14>
+      mat_font_size <8>
+      mat_title <"    Continue    ">
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream
+            man_close_update
+            uni_invoke_no_context <32-2508>
+          uni_end_stream
+          >
+      man_start_sibling <trigger, "">
+        mat_precise_x <168>
+        mat_precise_y <286>
+        mat_precise_width <96>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_title <"  Expert Setup  ">
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+              man_do_magic_response_id <2099658>
+              uni_invoke_no_context <32-2506>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_title_width <7>
+          mat_precise_x <309>
+          mat_precise_y <286>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_trigger_style <14>
+          mat_title <"Cancel">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        uni_wait_off
+        man_update_display
+        man_end_context
+        uni_sync_skip <99>
+      uni_end_stream <00x>

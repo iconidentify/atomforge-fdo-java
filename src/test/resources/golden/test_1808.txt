@@ -1,0 +1,73 @@
+uni_start_stream
+  man_start_object <ind_group, "TCB Message Board Foyer">
+    mat_orientation <vft>
+    mat_relative_tag <15>
+    mat_art_id <1-0-25755>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_relative_tag <120>
+        mat_art_id <1-0-40639>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "The Messaging Center\r\r\r">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <68>
+      mat_height <11>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Area Guidelines">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-63-1459>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "TCB Talk">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"^8", 0-0-19261>
+              >
+            mat_art_id <1-0-1483>
+          man_start_sibling <trigger, "Remembering Friends">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"^8", 0-0-19260>
+                >
+              mat_art_id <1-0-1483>
+            man_start_sibling <trigger, "CL Community">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"^8", 0-0-19259>
+                  >
+                mat_art_id <1-0-1483>
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <hef>
+              mat_vertical_spacing <2>
+              man_start_object <trigger, "Open">
+                act_replace_select_action
+                    <
+                    uni_start_stream <00x>
+                    sm_do_list_action <30>
+                    >
+                  mat_font_sis <system, 12, normal>
+                  mat_bool_default <yes>
+                man_start_sibling <trigger, "More">
+                  mat_bool_disabled <yes>
+                  mat_relative_tag <26>
+                  mat_font_sis <system, 12, normal>
+                man_end_object
+              man_end_object
+              man_update_display
+            man_update_woff_end_stream

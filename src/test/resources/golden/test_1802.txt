@@ -1,0 +1,106 @@
+uni_start_stream
+  man_start_object <ind_group, "Customer Service">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-52260>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Customer Service">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "How to Order">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-16-2710>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Shipping Information">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-16-2711>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Payment Method Information">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-16-2712>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Ask Customer Service">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"f1", 0-40-10520>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Suggestion Box">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"f1", 0-40-10519>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "About the America Online Store">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-16-2900>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "Important Consumer Notice">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-11-34477>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "Sales Tax Information">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-11-44376>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hec>
+                      man_start_object <trigger, "Open">
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                            sm_do_list_action <1>
+                            >
+                          mat_font_sis <system, 12, normal>
+                          mat_title_width <6>
+                          mat_bool_default <yes>
+                        man_start_sibling <trigger, "More">
+                          mat_bool_disabled <yes>
+                          mat_relative_tag <3>
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_token_arg <"Cb">
+                              >
+                            mat_font_sis <system, 12, normal>
+                            mat_title_width <6>
+                          man_end_object
+                        man_end_object
+                        man_update_display
+                      man_update_woff_end_stream

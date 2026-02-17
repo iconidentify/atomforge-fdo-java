@@ -1,0 +1,123 @@
+uni_start_stream
+  man_start_object <ind_group, " Navigating Msg Brd Tool for IPs">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <view, "">
+      mat_bool_writeable <yes>
+      mat_width <64>
+      mat_height <12>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Subject:   Navigating Msg Brd Tool for IPs\r\nAuthor">
+      man_append_data <":   America Online Technical Documentation Departm">
+      man_append_data <"ent\r\nUploaded By:  DMullVA\r\nDate:  05/05/97\r\n\r\nFil">
+      man_append_data <"e:  MBRDTOOL.EXE (717685 bytes) \r\nEstimated Downlo">
+      man_append_data <"ad Time (14400 baud):  < 13 minutes\r\nDownload Coun">
+      man_append_data <"t:  85\r\n\r\nEquipment:  PC\r\nNeeds:  Word 6.0 or high">
+      man_append_data <"er\r\n\r\n\r\nThis version of the America Online Message">
+      man_append_data <" Board tool supports the functionality needed to m">
+      man_append_data <"anage the new message boards that are similar in a">
+      man_append_data <"ppearance to newsgroups.  You must have an individ">
+      man_append_data <"ual board tool account (which is separate from you">
+      man_append_data <"r AOL account) as well as a security key to access">
+      man_append_data <" this tool.  When you have secured these items, th">
+      man_append_data <"e tool is accessible through America Online 3.0.\r\n">
+      man_append_data <"\r\nThis tech note has been saved as a .exe file in ">
+      man_append_data <"order to retain its formatting characteristics.  T">
+      man_append_data <"his version of the tech note replaces the one date">
+      man_append_data <"d November 25, 1996.\r\n\r\nPerform the following step">
+      man_append_data <"s to view the tech note:\r\n\r\n1. Download the file.\r">
+      man_append_data <"\n2. Double-click the file in File Manager or Windo">
+      man_append_data <"ws Explorer.  The WinZip Self-Extractor window app">
+      man_append_data <"ears stating that the file will be unzipped to you">
+      man_append_data <"r C:\\Windows\\Temp directory.\r\n3. Click Unzip to de">
+      man_append_data <"compress the file.\r\n4. Double-click the unzipped f">
+      man_append_data <"ile in C:\\Windows\\Temp to view it in Microsoft Wor">
+      man_append_data <"d.\r\n\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <edit_view, "">
+      mat_bool_exportable <no>
+      mat_width <60>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <7>
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Download Now">
+        mat_relative_tag <3>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"mD", 0-19-1222>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Download Later">
+          mat_bool_disabled <yes>
+          mat_relative_tag <2>
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Ask The Staff">
+          mat_relative_tag <4>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_send_token_arg <"m1", 0-19-1222>
+              >
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Related Files">
+            mat_relative_tag <6>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  uni_wait_on
+                  sm_check_plus_group
+                  buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  de_start_extraction
+                  buf_set_token <"Kk">
+                  man_set_context_relative <7>
+                  de_get_data
+                  man_end_context
+                  de_end_extraction
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hcf>
+            man_start_object <trigger, "Delete">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <8>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Hide">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <9>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Release">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <10>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Move">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <11>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Edit">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <12>
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

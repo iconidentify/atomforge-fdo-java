@@ -1,0 +1,769 @@
+uni_start_stream
+  man_close_update <32-30>
+  man_preset_gid <32-30>
+  man_start_object <ind_group, " Bienvenue">
+    mat_style_id <45-9876>
+    mat_orientation <hff>
+    mat_precise_width <604>
+    mat_precise_height <400>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_bool_non_closeable <yes>
+    act_set_criterion <9>
+    act_replace_action
+        <
+        uni_start_stream
+        sm_send_f1 <44-63328>
+      uni_end_stream
+      >
+    mat_object_id <32-30>
+    mat_url <"aol://1722:aujourd'hui">
+    mat_bool_ignore_url <yes>
+    mat_title_append_screen_name <prepend_with_s>
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+          man_close <32-30>
+        uni_end_stream
+        >
+      act_set_criterion <24>
+      act_replace_action
+          <
+          uni_start_stream
+            ; cleans up action so that it only happens once
+            act_set_criterion <24>
+            act_replace_action
+                <
+                uni_start_stream
+                uni_end_stream
+                >
+              >
+            man_start_object <org_group, "">
+              mat_orientation <vee>
+              mat_precise_width <600>
+              mat_precise_height <400>
+              mat_precise_x <0>
+              mat_precise_y <0>
+              mat_art_id <1-6-34400>
+              mat_bool_background_tile <yes>
+              man_start_object <trigger, "">
+                mat_relative_tag <401>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <41-44271>
+                  uni_end_stream
+                  >
+                mat_color_text <51, 51, 102>
+                mat_precise_width <100>
+                mat_precise_height <24>
+                mat_precise_x <489>
+                mat_precise_y <306>
+                mat_art_id <1-6-49288>
+                mat_bool_default <yes>
+                mat_color_bottom_edge <153, 153, 204>
+                mat_color_face <209, 216, 243>
+                mat_bool_draw_focus <yes>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <22>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      mip_action_command <1dx>
+                    uni_end_stream
+                    >
+                  mat_precise_width <140>
+                  mat_precise_height <47>
+                  mat_precise_x <447>
+                  mat_precise_y <348>
+                  mat_art_id <1-4-26060>
+                  mat_trigger_style <9>
+                  mat_bool_draw_focus <yes>
+                  mat_bool_repeat_animation <no>
+                man_start_sibling <view, "">
+                  rich_manage
+                  rich_set_static
+                  rich_allow_embeds <no>
+                  mat_bool_no_border <yes>
+                  mat_bool_exportable <no>
+                  mat_precise_width <256>
+                  mat_precise_height <87>
+                  mat_precise_x <170>
+                  mat_precise_y <62>
+                  mat_bool_resize_vertical <no>
+                  mat_bool_resize_horizontal <no>
+                  mat_font_sis <arial, 8, normal>
+                  mat_bool_vertical_scroll <no>
+                  mat_relative_tag <3>
+                  mat_font_sis <arial, 8, normal>
+                  mat_font_sis <arial, 8, normal>
+                  mat_font_sis <arial, 8, normal>
+                man_start_sibling <trigger, "">
+                  mat_relative_tag <31>
+                  sm_set_object_domain <00x>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_clear_buffer
+                        buf_set_token <"ur">
+                        buf_add_atom_pointer <"aol://4344:71.mp3_main.8196954.644681796">
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    mat_precise_width <60>
+                    mat_precise_height <60>
+                    mat_precise_x <207>
+                    mat_precise_y <236>
+                    mat_art_id <1-6-36326>
+                    mat_trigger_style <plain_picture>
+                    mat_bool_draw_focus <yes>
+                  man_start_sibling <view, "">
+                    rich_manage
+                    rich_set_static
+                    mat_bool_no_border <yes>
+                    mat_bool_exportable <no>
+                    mat_precise_width <146>
+                    mat_precise_height <60>
+                    mat_precise_x <277>
+                    mat_precise_y <238>
+                    mat_bool_resize_vertical <no>
+                    mat_bool_resize_horizontal <no>
+                    mat_bool_vertical_scroll <no>
+                    mat_relative_tag <32>
+                    mat_font_sis <arial, 8, normal>
+                    mat_font_sis <arial, 8, normal>
+                    mat_font_sis <arial, 8, normal>
+                  man_start_sibling <trigger, "">
+                    mat_relative_tag <25>
+                    sm_set_object_domain <00x>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                          buf_clear_buffer
+                          buf_set_token <"ur">
+                          buf_add_atom_pointer <"aol://4344:1598.MainCrr.12918986.593511623">
+                          buf_close_buffer
+                        uni_end_stream
+                        >
+                      mat_precise_width <12>
+                      mat_precise_height <12>
+                      mat_precise_x <10>
+                      mat_precise_y <277>
+                      mat_art_id <1-6-34397>
+                      mat_trigger_style <plain_picture>
+                      mat_bool_draw_focus <yes>
+                    man_start_sibling <view, "">
+                      rich_manage
+                      rich_set_static
+                      mat_bool_no_border <yes>
+                      mat_bool_exportable <no>
+                      mat_precise_width <170>
+                      mat_precise_height <42>
+                      mat_precise_x <26>
+                      mat_precise_y <274>
+                      mat_bool_resize_vertical <no>
+                      mat_bool_resize_horizontal <no>
+                      mat_font_sis <arial, 8, normal>
+                      mat_bool_vertical_scroll <no>
+                      mat_relative_tag <26>
+                      mat_font_sis <arial, 8, normal>
+                      mat_font_sis <arial, 8, normal>
+                      mat_font_sis <arial, 8, normal>
+                    man_start_sibling <trigger, "">
+                      mat_relative_tag <27>
+                      sm_set_object_domain <00x>
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                            buf_clear_buffer
+                            buf_set_token <"ur">
+                            buf_add_atom_pointer <"aol://4344:71.contmain.8196386.635949558">
+                            buf_close_buffer
+                          uni_end_stream
+                          >
+                        mat_precise_width <12>
+                        mat_precise_height <12>
+                        mat_precise_x <10>
+                        mat_precise_y <330>
+                        mat_art_id <1-6-34397>
+                        mat_trigger_style <plain_picture>
+                        mat_bool_draw_focus <yes>
+                      man_start_sibling <view, "">
+                        rich_manage
+                        rich_set_static
+                        mat_bool_no_border <yes>
+                        mat_bool_exportable <no>
+                        mat_precise_width <170>
+                        mat_precise_height <42>
+                        mat_precise_x <26>
+                        mat_precise_y <327>
+                        mat_bool_resize_vertical <no>
+                        mat_bool_resize_horizontal <no>
+                        mat_font_sis <arial, 8, normal>
+                        mat_bool_vertical_scroll <no>
+                        mat_relative_tag <28>
+                        mat_font_sis <arial, 8, normal>
+                        mat_font_sis <arial, 8, normal>
+                        mat_font_sis <arial, 8, normal>
+                      man_start_sibling <trigger, "">
+                        mat_relative_tag <33>
+                        sm_set_object_domain <00x>
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                              buf_clear_buffer
+                              buf_set_token <"ur">
+                              buf_add_atom_pointer <"aol://4344:1794.comm_une.15110660.643479811">
+                              buf_close_buffer
+                            uni_end_stream
+                            >
+                          mat_precise_width <60>
+                          mat_precise_height <60>
+                          mat_precise_x <207>
+                          mat_precise_y <313>
+                          mat_art_id <1-6-25448>
+                          mat_trigger_style <plain_picture>
+                          mat_bool_draw_focus <yes>
+                        man_start_sibling <view, "">
+                          rich_manage
+                          rich_set_static
+                          mat_bool_no_border <yes>
+                          mat_bool_exportable <no>
+                          mat_precise_width <146>
+                          mat_precise_height <60>
+                          mat_precise_x <277>
+                          mat_precise_y <315>
+                          mat_bool_resize_vertical <no>
+                          mat_bool_resize_horizontal <no>
+                          mat_bool_vertical_scroll <no>
+                          mat_relative_tag <34>
+                          mat_font_sis <arial, 8, normal>
+                          mat_font_sis <arial, 8, normal>
+                          mat_font_sis <arial, 8, normal>
+                        man_start_sibling <trigger, "">
+                          mat_bool_invisible <yes>
+                          mat_relative_tag <19>
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_m_send_token_arg <"Ki", 1929>
+                              >
+                            mat_precise_x <0>
+                            mat_precise_y <0>
+                            mat_bool_draw_focus <yes>
+                          man_start_sibling <view, "">
+                            rich_manage
+                            rich_set_static
+                            rich_allow_embeds <no>
+                            mat_bool_no_border <yes>
+                            mat_bool_exportable <no>
+                            mat_precise_width <251>
+                            mat_precise_height <17>
+                            mat_precise_x <174>
+                            mat_precise_y <34>
+                            mat_bool_resize_vertical <no>
+                            mat_bool_resize_horizontal <no>
+                            mat_font_sis <arial, 10, normal>
+                            mat_color_text <255, 255, 255>
+                            mat_bool_vertical_scroll <no>
+                            mat_relative_tag <20>
+                            mat_font_sis <arial, 10, normal>
+                            mat_font_sis <arial, 10, normal>
+                            mat_font_sis <arial, 10, normal>
+                          man_start_sibling <edit_view, "">
+                            mat_bool_importable <yes>
+                            mat_width <16>
+                            mat_height <1>
+                            mat_precise_x <442>
+                            mat_precise_y <276>
+                            mat_bool_resize_vertical <no>
+                            mat_bool_resize_horizontal <no>
+                            mat_bool_vertical_scroll <no>
+                            mat_capacity <60>
+                            mat_field_script <latin>
+                            mat_relative_tag <110>
+                          man_start_sibling <ornament, "">
+                            mat_bool_invisible <yes>
+                            mat_relative_tag <100>
+                            mat_precise_x <0>
+                            mat_precise_y <0>
+                            mat_orientation <hlf>
+                          man_start_sibling <dss_list, "">
+                            mat_relative_tag <400>
+                            mat_precise_width <149>
+                            mat_precise_height <162>
+                            mat_precise_x <444>
+                            mat_precise_y <47>
+                            mat_color_face <201, 231, 231>
+                            mat_font_sis <arial, 8, normal>
+                            mat_bool_no_border <yes>
+                            mat_bool_list_icons <yes>
+                            mat_sort_order <normal>
+                          man_end_object
+                          uni_start_stream
+                            async_is_guest
+                            if_last_return_false_then <50, 51>
+                            man_set_context_relative <400>
+                            morg_manage
+                            morg_view_path <"Vos Coups de coeur">
+                            morg_view_include_root <no>
+                            man_end_context
+                            man_update_display
+                            uni_sync_skip <50>
+                            man_set_context_relative <400>
+                            mat_precise_height <180>
+                            mat_precise_y <29>
+                            man_start_object <trigger, "Annuaires">
+                              sm_set_object_domain <00x>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    buf_clear_buffer
+                                    buf_set_token <"ur">
+                                    buf_add_atom_pointer <"aol://1722:annuaires">
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                                mat_art_id <1-0-4130>
+                              man_start_sibling <trigger, "AOL Messager">
+                                sm_set_object_domain <00x>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                      buf_clear_buffer
+                                      buf_set_token <"ur">
+                                      buf_add_atom_pointer <"aol://1722:buddyview">
+                                      buf_close_buffer
+                                    uni_end_stream
+                                    >
+                                  mat_art_id <1-0-4130>
+                                man_start_sibling <trigger, "AOL T�l�">
+                                  sm_set_object_domain <00x>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                        buf_clear_buffer
+                                        buf_set_token <"ur">
+                                        buf_add_atom_pointer <"aol://1722:aoltele">
+                                        buf_close_buffer
+                                      uni_end_stream
+                                      >
+                                    mat_art_id <1-0-4130>
+                                  man_start_sibling <trigger, "Cartes �lectroniques">
+                                    sm_set_object_domain <00x>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                          buf_clear_buffer
+                                          buf_set_token <"ur">
+                                          buf_add_atom_pointer <"aol://1722:Carteselectroniques">
+                                          buf_close_buffer
+                                        uni_end_stream
+                                        >
+                                      mat_art_id <1-0-4130>
+                                    man_start_sibling <trigger, "Cartographies">
+                                      sm_set_object_domain <00x>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                            buf_clear_buffer
+                                            buf_set_token <"ur">
+                                            buf_add_atom_pointer <"aol://1722:cartographies">
+                                            buf_close_buffer
+                                          uni_end_stream
+                                          >
+                                        mat_art_id <1-0-4130>
+                                      man_start_sibling <trigger, "Horoscope">
+                                        sm_set_object_domain <00x>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                              buf_clear_buffer
+                                              buf_set_token <"ur">
+                                              buf_add_atom_pointer <"aol://1722:horoscope">
+                                              buf_close_buffer
+                                            uni_end_stream
+                                            >
+                                          mat_art_id <1-0-4130>
+                                        man_start_sibling <trigger, "M�t�o">
+                                          sm_set_object_domain <00x>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                buf_clear_buffer
+                                                buf_set_token <"ur">
+                                                buf_add_atom_pointer <"aol://1722:meteo">
+                                                buf_close_buffer
+                                              uni_end_stream
+                                              >
+                                            mat_art_id <1-0-4130>
+                                          man_start_sibling <trigger, "Page Perso">
+                                            sm_set_object_domain <00x>
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                  buf_clear_buffer
+                                                  buf_set_token <"ur">
+                                                  buf_add_atom_pointer <"aol://1722:pp">
+                                                  buf_close_buffer
+                                                uni_end_stream
+                                                >
+                                              mat_art_id <1-0-4130>
+                                            man_start_sibling <trigger, "Portefeuille">
+                                              sm_set_object_domain <00x>
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                    buf_clear_buffer
+                                                    buf_set_token <"ur">
+                                                    buf_add_atom_pointer <"aol://1722:portefeuille">
+                                                    buf_close_buffer
+                                                  uni_end_stream
+                                                  >
+                                                mat_art_id <1-0-4130>
+                                              man_start_sibling <trigger, "Revue de presse">
+                                                sm_set_object_domain <00x>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                      buf_clear_buffer
+                                                      buf_set_token <"ur">
+                                                      buf_add_atom_pointer <"aol://1722:revuede presse">
+                                                      buf_close_buffer
+                                                    uni_end_stream
+                                                    >
+                                                  mat_art_id <1-0-4130>
+                                                man_start_sibling <trigger, "Shopping">
+                                                  sm_set_object_domain <00x>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                        buf_clear_buffer
+                                                        buf_set_token <"ur">
+                                                        buf_add_atom_pointer <"aol://1722:shopping">
+                                                        buf_close_buffer
+                                                      uni_end_stream
+                                                      >
+                                                    mat_art_id <1-0-4130>
+                                                  man_end_object
+                                                  man_end_context
+                                                  uni_sync_skip <51>
+                                                  man_start_object <trigger, "Personnalisez cette liste">
+                                                    mat_relative_tag <505>
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                          man_preset_gid <32-4619>
+                                                          if_last_return_true_then <1, 2>
+                                                          man_make_focus
+                                                          man_update_display
+                                                          uni_sync_skip <1>
+                                                          uni_wait_on
+                                                          uni_invoke_no_context <32-4619>
+                                                          uni_sync_skip <2>
+                                                        uni_end_stream
+                                                        >
+                                                      mat_font_sis <arial, 8, underline>
+                                                      mat_color_text <0, 0, 255>
+                                                      mat_precise_width <126>
+                                                      mat_precise_height <14>
+                                                      mat_precise_x <465>
+                                                      mat_precise_y <28>
+                                                      mat_trigger_style <8>
+                                                      mat_text_on_picture_pos <art_middle_left | title_middle_center>
+                                                      mat_bool_draw_focus <yes>
+                                                    man_start_sibling <trigger, "">
+                                                      mat_relative_tag <506>
+                                                      sm_set_object_domain <00x>
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                            man_preset_gid <32-4619>
+                                                            if_last_return_true_then <1, 2>
+                                                            man_make_focus
+                                                            man_update_display
+                                                            uni_sync_skip <1>
+                                                            uni_wait_on
+                                                            uni_invoke_no_context <32-4619>
+                                                            uni_sync_skip <2>
+                                                          uni_end_stream
+                                                          >
+                                                        mat_precise_width <12>
+                                                        mat_precise_height <12>
+                                                        mat_precise_x <446>
+                                                        mat_precise_y <29>
+                                                        mat_art_id <1-6-34397>
+                                                        mat_trigger_style <plain_picture>
+                                                        mat_bool_draw_focus <yes>
+                                                      man_start_sibling <ornament, "">
+                                                        mat_relative_tag <507>
+                                                        mat_precise_x <444>
+                                                        mat_precise_y <6>
+                                                        mat_art_id <1-6-49290>
+                                                      man_start_sibling <trigger, "">
+                                                        mat_relative_tag <508>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              man_preset_gid <32-4619>
+                                                              if_last_return_true_then <1, 2>
+                                                              man_make_focus
+                                                              man_update_display
+                                                              uni_sync_skip <1>
+                                                              uni_wait_on
+                                                              uni_invoke_no_context <32-4619>
+                                                              uni_sync_skip <2>
+                                                            uni_end_stream
+                                                            >
+                                                          mat_precise_width <131>
+                                                          mat_precise_height <17>
+                                                          mat_precise_x <438>
+                                                          mat_precise_y <6>
+                                                          mat_art_id <1-6-34396>
+                                                          mat_trigger_style <plain_picture>
+                                                          mat_bool_draw_focus <yes>
+                                                        man_start_sibling <trigger, "">
+                                                          sm_set_object_domain <00x>
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream_wait_on <00x>
+                                                              sm_send_f1 <41-44271>
+                                                            uni_end_stream
+                                                            >
+                                                          mat_precise_width <100>
+                                                          mat_precise_height <18>
+                                                          mat_precise_x <442>
+                                                          mat_precise_y <218>
+                                                          mat_art_id <1-6-34398>
+                                                          mat_trigger_style <plain_picture>
+                                                          mat_bool_draw_focus <yes>
+                                                        man_end_object
+                                                      man_start_sibling <trigger, "">
+                                                        sm_set_object_domain <00x>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream_wait_on <00x>
+                                                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                              buf_clear_buffer
+                                                              buf_set_token <"ur">
+                                                              buf_add_atom_pointer <"aol://1722:motcle">
+                                                              buf_close_buffer
+                                                            uni_end_stream
+                                                            >
+                                                          mat_font_sis <arial, 7, underline>
+                                                          mat_color_text <0, 0, 255>
+                                                          mat_precise_width <38>
+                                                          mat_precise_height <12>
+                                                          mat_precise_x <334>
+                                                          mat_precise_y <383>
+                                                          mat_art_id <1-6-49292>
+                                                          mat_trigger_style <plain_picture>
+                                                          mat_bool_draw_focus <yes>
+                                                        man_start_sibling <ornament, " accueil AOL">
+                                                          mat_precise_width <61>
+                                                          mat_precise_height <12>
+                                                          mat_precise_x <374>
+                                                          mat_precise_y <383>
+                                                          mat_font_sis <arial, 7, normal>
+                                                          mat_orientation <hlf>
+                                                        man_start_sibling <trigger, "">
+                                                          mat_relative_tag <56>
+                                                          mat_precise_width <70>
+                                                          mat_precise_height <12>
+                                                          mat_precise_x <6>
+                                                          mat_precise_y <383>
+                                                          mat_art_id <1-6-49287>
+                                                          mat_trigger_style <plain_picture>
+                                                          mat_bool_draw_focus <yes>
+                                                        man_start_sibling <ornament, "">
+                                                          mat_relative_tag <57>
+                                                          mat_precise_width <220>
+                                                          mat_precise_height <12>
+                                                          mat_precise_x <78>
+                                                          mat_precise_y <383>
+                                                          mat_font_sis <arial, 7, normal>
+                                                          mat_color_text <128, 128, 128>
+                                                          mat_orientation <hlf>
+                                                        man_start_sibling <trigger, "">
+                                                          mat_title_access <"Online Area">
+                                                          mat_relative_tag <23>
+                                                          sm_set_object_domain <00x>
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream_wait_on <00x>
+                                                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                buf_clear_buffer
+                                                                buf_set_token <"ur">
+                                                                buf_add_atom_pointer <"aol://4344:2615.FININV.28838728.611400873">
+                                                                buf_close_buffer
+                                                              uni_end_stream
+                                                              >
+                                                            mat_precise_width <60>
+                                                            mat_precise_height <60>
+                                                            mat_precise_x <207>
+                                                            mat_precise_y <160>
+                                                            mat_art_id <1-6-60883>
+                                                            mat_trigger_style <plain_picture>
+                                                            mat_bool_draw_focus <yes>
+                                                          man_start_sibling <view, "">
+                                                            rich_manage
+                                                            rich_set_static
+                                                            rich_allow_embeds <no>
+                                                            mat_bool_no_border <yes>
+                                                            mat_bool_exportable <no>
+                                                            mat_precise_width <146>
+                                                            mat_precise_height <60>
+                                                            mat_precise_x <277>
+                                                            mat_precise_y <161>
+                                                            mat_bool_resize_vertical <no>
+                                                            mat_bool_resize_horizontal <no>
+                                                            mat_font_sis <arial, 8, normal>
+                                                            mat_bool_vertical_scroll <no>
+                                                            mat_relative_tag <24>
+                                                          man_start_sibling <trigger, "">
+                                                            mat_title_access <"Online Area">
+                                                            mat_relative_tag <21>
+                                                            sm_set_object_domain <00x>
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream_wait_on <00x>
+                                                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                  buf_clear_buffer
+                                                                  buf_set_token <"ur">
+                                                                  buf_add_atom_pointer <"aol://4344:2943.mond_une.919884.652026296">
+                                                                  buf_close_buffer
+                                                                uni_end_stream
+                                                                >
+                                                              mat_precise_width <150>
+                                                              mat_precise_height <113>
+                                                              mat_precise_x <10>
+                                                              mat_precise_y <45>
+                                                              mat_art_id <1-6-60885>
+                                                              mat_trigger_style <plain_picture>
+                                                              mat_bool_draw_focus <yes>
+                                                            man_start_sibling <view, "">
+                                                              rich_manage
+                                                              rich_set_static
+                                                              mat_bool_no_border <yes>
+                                                              mat_bool_exportable <no>
+                                                              mat_precise_width <187>
+                                                              mat_precise_height <69>
+                                                              mat_precise_x <10>
+                                                              mat_precise_y <186>
+                                                              mat_bool_resize_vertical <no>
+                                                              mat_bool_resize_horizontal <no>
+                                                              mat_font_sis <arial, 8, normal>
+                                                              mat_bool_vertical_scroll <no>
+                                                              mat_relative_tag <17>
+                                                            man_end_object
+                                                            man_update_display
+                                                            man_set_context_relative <3>
+                                                            uni_start_typed_data <latin1>
+                                                            man_append_data <"<HTML><B>Des nouvelles fra�ches du monde<BR></B>> ">
+                                                            man_append_data <"Epluchez toutes <A HREF="aol://4344:2943.mond_une.">
+                                                            man_append_data <"919884.652026296/">les news en version originale</">
+                                                            man_append_data <"A><BR>> Discutez avec <A HREF="aol://4344:2943.mon">
+                                                            man_append_data <"d_cor.919899.652107308/">les abonn�s des autres pa">
+                                                            man_append_data <"ys</A><BR>> Vous partez � l'�tranger ? N'oubliez p">
+                                                            man_append_data <"as <BR>d'emporter <A HREF="aol://4344:1599.vali_un">
+                                                            man_append_data <"e.9976201.656495184/">AOL dans vos valises</A>.<B>">
+                                                            man_append_data <"<I><BR>">
+                                                            man_end_data
+                                                            uni_end_typed_data
+                                                            man_end_context
+                                                            man_set_context_relative <32>
+                                                            uni_start_typed_data <latin1>
+                                                            man_append_data <"<HTML><B>Le MP3 sur AOL</B><I><BR></I>> <A HREF="a">
+                                                            man_append_data <"ol://4344:71.mp3_sli.8197092.646491607/">Comment �">
+                                                            man_append_data <"a marche</A> ?<BR>> <A HREF="aol://4344:71.mp3_sit">
+                                                            man_append_data <"e.8196966.644758914/">O� trouver des tracks</A> ?<">
+                                                            man_append_data <"BR>> <A HREF="aol://4344:71.mp3_main.8196954.64468">
+                                                            man_append_data <"1796/">Envie d'en savoir plus</A> ?</HTML>">
+                                                            man_end_data
+                                                            uni_end_typed_data
+                                                            man_end_context
+                                                            man_set_context_relative <26>
+                                                            uni_start_typed_data <latin1>
+                                                            man_append_data <"<HTML><B>Bien utiliser l'e-mail<BR></B>Ecrire ou l">
+                                                            man_append_data <"ire un courrier <BR>�lectronique, <A HREF="aol://4">
+                                                            man_append_data <"344:1598.MainCrr.12918986.593511623/">le B.A-BA</A">
+                                                            man_append_data <">.<BR><B>Bien utiliser l'e-mail<BR></B>Ecrire ou l">
+                                                            man_append_data <"ire un courrier <BR>�lectronique, <A HREF="aol://4">
+                                                            man_append_data <"344:1598.MainCrr.12918986.593511623/">le B.A-BA</A">
+                                                            man_append_data <">.<BR>">
+                                                            man_end_data
+                                                            uni_end_typed_data
+                                                            man_end_context
+                                                            man_set_context_relative <28>
+                                                            uni_start_typed_data <latin1>
+                                                            man_append_data <"<HTML><B>AOL en 5mn pr�sente,<BR></B>le guide pour">
+                                                            man_append_data <" bien utiliser<BR>les <A HREF="aol://4344:71.contm">
+                                                            man_append_data <"ain.8196386.635949558/">messages �clair</A>.<BR><B">
+                                                            man_append_data <"R><B>AOL en 5mn pr�sente,<BR></B>le guide pour bie">
+                                                            man_append_data <"n utiliser<BR>les <A HREF="aol://4344:71.contmain.">
+                                                            man_append_data <"8196386.635949558/">messages �clair</A>.<BR>">
+                                                            man_end_data
+                                                            uni_end_typed_data
+                                                            man_end_context
+                                                            man_set_context_relative <34>
+                                                            man_append_data <"<HTML><B>Ne restez pas seul ! <BR></B>Envie de tch">
+                                                            man_append_data <"atcher ? Tous <BR>les <A HREF="aol://4344:1794.com">
+                                                            man_append_data <"m_une.15110660.643479811/">salons de discussion</A">
+                                                            man_append_data <"> de<BR>">
+                                                            man_end_data
+                                                            man_end_context
+                                                            man_set_context_relative <24>
+                                                            uni_start_typed_data <latin1>
+                                                            man_append_data <"<HTML><B>Sp�culez malin<BR></B>> Consultez <A HREF">
+                                                            man_append_data <"="aol://4344:2615.FININV.28838728.611400873/">le c">
+                                                            man_append_data <"onseil du jour</A><BR>> Passez <A HREF="aol://4344">
+                                                            man_append_data <":2615.vfiw03.28843678.635348870/">un ordre en bour">
+                                                            man_append_data <"se</A><BR>">
+                                                            man_end_data
+                                                            uni_end_typed_data
+                                                            man_end_context
+                                                            man_set_context_relative <17>
+                                                            uni_start_typed_data <latin1>
+                                                            man_append_data <"<HTML><B>AOL Info</B> : retrouvez toute l'actualit">
+                                                            man_append_data <"� sur la <A HREF="aol://4344:2615.INFOMAIN.2884704">
+                                                            man_append_data <"8.652807829">cha�ne Info</A><BR>">
+                                                            man_end_data
+                                                            uni_end_typed_data
+                                                            man_end_context
+                                                            async_is_guest
+                                                            if_last_return_true_then <5, 6>
+                                                            man_set_context_relative <505>
+                                                            mat_bool_hidden <yes>
+                                                            man_end_context
+                                                            man_set_context_relative <506>
+                                                            mat_bool_hidden <yes>
+                                                            man_end_context
+                                                            man_set_context_relative <508>
+                                                            mat_bool_hidden <yes>
+                                                            man_end_context
+                                                            uni_sync_skip <5>
+                                                            man_set_context_relative <507>
+                                                            mat_bool_hidden <yes>
+                                                            man_end_context
+                                                            uni_sync_skip <6>
+                                                            man_update_display
+                                                          uni_end_stream
+                                                          man_update_display
+                                                        uni_end_stream

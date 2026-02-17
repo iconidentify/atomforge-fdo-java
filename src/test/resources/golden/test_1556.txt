@@ -1,0 +1,131 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Current Theta Omega">
+    mat_object_id <32-2511>
+    mat_style_id <32-2511>
+    mat_orientation <vft>
+    mat_precise_width <408>
+    mat_precise_height <170>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Dynamic Window Area">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <35, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <20>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <25>
+      mat_font_id <arial>
+      man_append_data <"save view active simple main zone new open. delete fourth theta secondary\x7fSimple View Bottom">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <181>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <80>
+        mat_precise_y <95>
+        mat_precise_width <36>
+        mat_precise_height <36>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_trigger_style <plain_picture>
+        mat_font_size <8>
+        mat_title <"Yes">
+        mat_art_id <1-1-56506>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-60>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-4711>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <181>
+          mat_precise_y <95>
+          mat_precise_width <36>
+          mat_precise_height <36>
+          mat_color_face <0, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_trigger_style <plain_picture>
+          mat_font_size <8>
+          mat_title <"No">
+          mat_art_id <1-1-56737>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-60>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-4711>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <270>
+            mat_precise_y <95>
+            mat_precise_width <36>
+            mat_precise_height <36>
+            mat_color_face <0, 109, 170>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <145, 182, 255>
+            mat_color_bottom_edge <1, 1, 1>
+            mat_trigger_style <plain_picture>
+            mat_font_size <8>
+            mat_title <"Static Module">
+            mat_art_id <1-1-60879>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_start_sibling <ornament, "">
+              mat_precise_x <87>
+              mat_precise_y <135>
+              mat_size <10, 1>
+              mat_font_sis <arial, 8, bold>
+              man_append_data <"Yes">
+            man_start_sibling <ornament, "">
+              mat_precise_x <191>
+              mat_precise_y <135>
+              mat_size <10, 1>
+              mat_font_sis <arial, 8, bold>
+              man_append_data <"No">
+            man_start_sibling <ornament, "">
+              mat_precise_x <277>
+              mat_precise_y <135>
+              mat_size <10, 1>
+              mat_font_sis <arial, 8, bold>
+              man_append_data <"Static Module">
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

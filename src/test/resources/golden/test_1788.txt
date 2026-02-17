@@ -1,0 +1,148 @@
+uni_start_stream
+  man_start_object <ind_group, "T R A X">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-1305>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "T R A X">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "About TRAX">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U1", 0-122-21327>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Overnights">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-95-10639>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Monthlies">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-95-10640>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Channel TRAX -- US">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-95-10641>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Channel TRAX -- Germany">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-95-10642>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Channel TRAX -- UK">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-95-10643>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Channel TRAX -- France">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-95-10644>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Channel TRAX -- Canada">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-95-10645>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Channel TRAX -- Japan">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-95-10149>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Channel TRAX -- Australia">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-95-36409>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "The AOL Greenhouse  ">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-95-19755>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Partner's Plaza">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"f1", 0-40-12519>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Request a Plus Group">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-95-2995>
+                                    >
+                                  mat_art_id <1-0-32650>
+                                man_start_sibling <trigger, "Plus Group Tree">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-95-10647>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hec>
+                                  man_start_object <trigger, "Open">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream <00x>
+                                        sm_do_list_action <1>
+                                        >
+                                      mat_font_sis <system, 12, normal>
+                                      mat_title_width <6>
+                                      mat_bool_default <yes>
+                                    man_start_sibling <trigger, "More">
+                                      mat_bool_disabled <yes>
+                                      mat_relative_tag <3>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_token_arg <"Cb">
+                                          >
+                                        mat_font_sis <system, 12, normal>
+                                        mat_title_width <6>
+                                      man_end_object
+                                    man_end_object
+                                    man_update_display
+                                  man_update_woff_end_stream

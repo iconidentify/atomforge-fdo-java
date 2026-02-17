@@ -1,0 +1,56 @@
+uni_start_stream
+  man_start_object <ind_group, "Map View for Mac 1.0.3">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <view, "">
+      mat_width <59>
+      mat_height <14>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Visually displays your Rainman area in a treelike ">
+      man_append_data <"view.  This version works on both 68K and PowerMac">
+      man_append_data <"s.\r\n\r\nRelease Notes:\r\n\r\n* Performance Corrections ">
+      man_append_data <"\r\n* New \\Get protocals.\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <org_group, "">
+      mat_orientation <hce>
+      man_start_object <trigger, "Download Now">
+        mat_relative_tag <23>
+        mat_shortcut_key <"@">
+        mat_title_pos <below | center>
+        mat_title_width <12>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"mD", 0-15-28978>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-1292>
+        man_start_sibling <trigger, "Download Later">
+          mat_relative_tag <24>
+          mat_shortcut_key <"@">
+          mat_title_pos <below | center>
+          mat_title_width <12>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"mq", 0-15-28978>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-1288>
+          man_start_sibling <trigger, "Cancel">
+            mat_relative_tag <4>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

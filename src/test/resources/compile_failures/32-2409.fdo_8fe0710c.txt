@@ -1,0 +1,25 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Software-Aktualisierung">
+    mat_object_id <32-2409>
+    mat_orientation <vff>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 21>
+      mat_relative_tag <1>
+      man_append_data <"Um die Chart-Funktion nutzen zu k�nnen, muss Ihre bisherige AOL-Version aktualisiert werden. Dieser Vorgang kann automatisch ausgef�hrt werden.\x7f\x7fKlicken Sie hierzu auf "Aktualisieren". Die Aktualisierung dauert bei 9600 Baud etwa vier Minuten, bei 14.400 Baud etwa drei Minuten und bei 28.800 Baud etwa eine Minute. Sofort nach der Aktualisierung, wird Ihnen das gew�nschte Chart angezeigt.\x7f\x7fFalls Sie Ihre Software zu einem sp�teren Zeitpunkt aktualisieren m�chten, klicken Sie auf "OK".\x7f\x7fSollte die Aktualisierung unterbrochen werden, beenden Sie AOL, und starten Sie den Vorgang bitte erneut.\x7f\x7fF�r die Zeit der Aktualisierung werden Ihnen keine Extra-Geb�hren berechnet.\x7f\x7fSollte die Aktualisierung unterbrochen werden, beenden Sie AOL, und starten Sie den Vorgang bitte erneut.\x7f\x7fF�r die Zeit der Aktualisierung werden Ihnen keine Extra-Geb�hren berechnet.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Aktualisieren">
+        mat_relative_tag <2>
+        mat_trigger_style <14>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "Abbrechen">
+        mat_relative_tag <3>
+        mat_trigger_style <14>
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

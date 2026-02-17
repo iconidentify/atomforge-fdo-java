@@ -1,0 +1,136 @@
+uni_start_stream
+  man_start_object <ind_group, "Suggested Responses">
+    mat_orientation <vff>
+    mat_art_id <1-0-16519>
+    mat_bool_background_tile <yes>
+    mat_position <center_left>
+    man_start_object <ornament, "">
+      mat_width <19>
+      mat_height <2>
+      mat_font_sis <arial, 12, bold>
+      man_append_data <"Suggested Responses to\rCancellation Reasons">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_width <28>
+      mat_height <13>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Reminders">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"t1", 0-89-12364>
+            >
+        man_start_sibling <trigger, "Haven't Found Anything of Interest">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"t1", 0-89-20635>
+              >
+          man_start_sibling <trigger, "Didn't Use It Enough">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"t1", 0-89-20636>
+                >
+            man_start_sibling <trigger, "AOL Too Complicated/Hard to Use">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"t1", 0-89-20637>
+                  >
+              man_start_sibling <trigger, "Free Trial Period is Over">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"t1", 0-89-20661>
+                    >
+                man_start_sibling <trigger, "Costs Too Much or Ran Up Huge Bills">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"t1", 0-89-20638>
+                      >
+                  man_start_sibling <trigger, "Can't fit in budget">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"t1", 0-89-21442>
+                        >
+                    man_start_sibling <trigger, "Too Many Disconnects, Busies, Hangs">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"t1", 0-89-21441>
+                          >
+                      man_start_sibling <trigger, "AOL Too Slow">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"t1", 0-89-21437>
+                            >
+                        man_start_sibling <trigger, "Computer Not Good for AOL/Hardware Problem">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_m_send_token_arg <"t1", 0-89-21439>
+                              >
+                          man_start_sibling <trigger, "Going to Internet-only Service Provider">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_m_send_token_arg <"t1", 0-89-21440>
+                                >
+                            man_start_sibling <trigger, "Going to Online Service Competitor">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_m_send_token_arg <"t1", 0-89-20639>
+                                  >
+                              man_start_sibling <trigger, "Have Access to Internet at School, Work, etc.">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_m_send_token_arg <"t1", 0-89-20640>
+                                    >
+                                man_start_sibling <trigger, "No Local Access Number">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_m_send_token_arg <"t1", 0-89-20641>
+                                      >
+                                  man_start_sibling <trigger, "Local Access Number is Too Slow (Baud Rate)">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_m_send_token_arg <"t1", 0-89-20643>
+                                        >
+                                    man_start_sibling <trigger, "Billing Problem">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_m_send_token_arg <"t1", 0-89-21174>
+                                          >
+                                      man_start_sibling <trigger, "Had Bad Tech Support Experience">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_m_send_token_arg <"t1", 0-89-20666>
+                                            >
+                                        man_start_sibling <trigger, "Had Other Bad Customer Support Experience">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_m_send_token_arg <"t1", 0-89-20656>
+                                              >
+                                          man_start_sibling <trigger, "Leaving AOL Temporarily">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_m_send_token_arg <"t1", 0-89-12362>
+                                                >
+                                            man_end_object
+                                          man_end_object
+                                          man_update_display
+                                        man_update_woff_end_stream

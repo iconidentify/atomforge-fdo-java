@@ -1,0 +1,131 @@
+uni_start_stream
+  man_start_object <ind_group, "URL Registration">
+    mat_orientation <vff>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-3381>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_width <27>
+      mat_height <2>
+      mat_horizontal_spacing <0>
+      mat_vertical_spacing <0>
+      mat_font_sis <times_roman, 14, bold>
+      man_append_data <"                  URL Registration Form">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "URL">
+      mat_width <41>
+      mat_height <1>
+      mat_vertical_spacing <0>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_title_pos <below | top_or_left>
+      mat_frame_style <pop_in>
+      mat_font_sis <times_roman, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <4>
+    man_start_sibling <edit_view, "Web Site Name">
+      mat_width <41>
+      mat_height <1>
+      mat_vertical_spacing <0>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_title_pos <below | top_or_left>
+      mat_frame_style <pop_in>
+      mat_font_sis <times_roman, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <6>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_vertical_spacing <0>
+      man_start_object <edit_view, "Site Contact's Email">
+        mat_width <20>
+        mat_height <1>
+        mat_vertical_spacing <0>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <below | top_or_left>
+        mat_frame_style <pop_in>
+        mat_font_sis <times_roman, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <8>
+      man_start_sibling <edit_view, "Channel">
+        mat_width <20>
+        mat_height <1>
+        mat_vertical_spacing <0>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <below | top_or_left>
+        mat_frame_style <pop_in>
+        mat_font_sis <times_roman, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <10>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_vertical_spacing <3>
+      man_start_object <edit_view, "Your Name">
+        mat_width <20>
+        mat_height <1>
+        mat_vertical_spacing <0>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <below | top_or_left>
+        mat_frame_style <pop_in>
+        mat_font_sis <times_roman, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <12>
+      man_start_sibling <edit_view, "Your Email Address">
+        mat_width <20>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <below | top_or_left>
+        mat_frame_style <pop_in>
+        mat_font_sis <times_roman, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <14>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_width <1>
+      mat_height <1>
+      mat_font_sis <arial, 9, normal>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <het>
+      mat_vertical_spacing <2>
+      man_start_object <trigger, "Send It!">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"ef", 0-0-1203>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_vertical_spacing <0>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Cancel">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+            mat_font_sis <system, 12, normal>
+            mat_vertical_spacing <0>
+          man_end_object
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

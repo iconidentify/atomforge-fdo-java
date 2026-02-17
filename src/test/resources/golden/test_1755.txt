@@ -1,0 +1,584 @@
+uni_start_stream
+  man_start_object <ind_group, "DOD Archives - Older Than Dirt">
+    mat_orientation <vff>
+    mat_precise_width <409>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <255, 251, 240>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <95>
+      mat_precise_y <35>
+      mat_art_id <1-1-57868>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <ornament, "">
+      mat_precise_x <100>
+      mat_precise_y <5>
+      mat_art_id <1-1-57870>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <dss_list, "">
+      mat_width <19>
+      mat_height <12>
+      mat_precise_x <10>
+      mat_precise_y <100>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "December DOD 95-3">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <40-31809>
+            >
+        man_start_sibling <trigger, "December DOD 95-2">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <40-30599>
+              >
+          man_start_sibling <trigger, "December DOD 95-1">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-29584>
+                >
+            man_start_sibling <trigger, "November DOD 95-2">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-28125>
+                  >
+              man_start_sibling <trigger, "November DOD 95-1">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-27445>
+                    >
+                man_start_sibling <trigger, "October DOD 95-3">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-26476>
+                      >
+                  man_start_sibling <trigger, "October DOD 95-2">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-25364>
+                        >
+                    man_start_sibling <trigger, "October DOD 95-1">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-24855>
+                          >
+                      man_start_sibling <trigger, "September DOD 95-2">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_f1 <40-23449>
+                            >
+                        man_start_sibling <trigger, "September DOD 95-1">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_f1 <40-22229>
+                              >
+                          man_start_sibling <trigger, "August DOD 95-2">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_send_f1 <40-21197>
+                                >
+                            man_start_sibling <trigger, "August DOD 95-1">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <40-19617>
+                                  >
+                              man_start_sibling <trigger, "July DOD 95">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_send_f1 <40-17847>
+                                    >
+                                man_start_sibling <trigger, "June DOD 95">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_f1 <40-16161>
+                                      >
+                                  man_start_sibling <trigger, "May DOD 95">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_send_f1 <40-14756>
+                                        >
+                                    man_start_sibling <trigger, "April DOD 95">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_f1 <40-13286>
+                                          >
+                                      man_start_sibling <trigger, "March DOD 95">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_send_f1 <40-12502>
+                                            >
+                                        man_start_sibling <trigger, "February DOD 95">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_send_f1 <40-11080>
+                                              >
+                                          man_start_sibling <trigger, "January DOD 95">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_f1 <40-9971>
+                                                >
+                                            man_start_sibling <trigger, "December DOD 94">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_send_f1 <40-9225>
+                                                  >
+                                              man_start_sibling <trigger, "November DOD 94">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                    sm_send_f1 <40-6947>
+                                                    >
+                                                man_start_sibling <trigger, "October DOD 94">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                      sm_send_f1 <40-8293>
+                                                      >
+                                                  man_start_sibling <trigger, "September DOD 94">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream_wait_on <00x>
+                                                        sm_send_f1 <40-5932>
+                                                        >
+                                                    man_start_sibling <trigger, "August DOD 94">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream_wait_on <00x>
+                                                          sm_send_f1 <40-5945>
+                                                          >
+                                                      man_start_sibling <trigger, "July & June DOD 94">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream_wait_on <00x>
+                                                            sm_send_f1 <40-43706>
+                                                            >
+                                                        man_start_sibling <trigger, "May & April DOD 94">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream_wait_on <00x>
+                                                              sm_send_f1 <40-43757>
+                                                              >
+                                                          man_start_sibling <trigger, "March & February DOD 94">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream_wait_on <00x>
+                                                                sm_send_f1 <40-43758>
+                                                                >
+                                                            man_end_object
+                                                          man_start_sibling <ornament, "">
+                                                            mat_precise_x <35>
+                                                            mat_precise_y <75>
+                                                            mat_art_id <1-1-57960>
+                                                            mat_font_sis <small_fonts, 7, normal>
+                                                          man_start_sibling <dss_list, "">
+                                                            mat_bool_default_send <no>
+                                                            mat_width <19>
+                                                            mat_height <12>
+                                                            mat_precise_x <230>
+                                                            mat_precise_y <100>
+                                                            mat_font_sis <arial, 9, normal>
+                                                            mat_sort_order <normal>
+                                                            man_start_object <trigger, "Games Central">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream_wait_on <00x>
+                                                                  sm_send_f1 <41-1062>
+                                                                  >
+                                                              man_start_sibling <trigger, "Kids WB . Motley Fool . Classifieds . Hecklers">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream_wait_on <00x>
+                                                                    sm_send_f1 <43-1039>
+                                                                    >
+                                                                man_start_sibling <trigger, "Cybershop/Starbuck's/Greet Street">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream_wait_on <00x>
+                                                                      sm_send_f1 <43-857>
+                                                                      >
+                                                                  man_start_sibling <trigger, "Cyberstore/DC SGI">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream_wait_on <00x>
+                                                                        sm_send_f1 <43-701>
+                                                                        >
+                                                                    man_start_sibling <trigger, "COL Q . Kidzine">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream_wait_on <00x>
+                                                                          sm_send_f1 <43-646>
+                                                                          >
+                                                                      man_start_sibling <trigger, "Pet Care/Holiday Area/Halloween Add-ons">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream_wait_on <00x>
+                                                                            sm_send_f1 <43-574>
+                                                                            >
+                                                                        man_start_sibling <trigger, "L&C Animation">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream_wait_on <00x>
+                                                                              sm_send_f1 <43-573>
+                                                                              >
+                                                                          man_start_sibling <trigger, "Heckler's">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream_wait_on <00x>
+                                                                                sm_send_f1 <41-156>
+                                                                                >
+                                                                            man_start_sibling <trigger, "MS Resource Center/Personal Creations/Astronet">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream_wait_on <00x>
+                                                                                  sm_send_f1 <43-415>
+                                                                                  >
+                                                                              man_start_sibling <trigger, "Aviation">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream_wait_on <00x>
+                                                                                    sm_send_f1 <43-412>
+                                                                                    >
+                                                                                man_start_sibling <trigger, "Random">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream_wait_on <00x>
+                                                                                      sm_send_f1 <43-408>
+                                                                                      >
+                                                                                  man_start_sibling <trigger, "Zombie Detective">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream_wait_on <00x>
+                                                                                        sm_send_f1 <43-327>
+                                                                                        >
+                                                                                    man_start_sibling <trigger, "Zombie Detective">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream_wait_on <00x>
+                                                                                          sm_send_f1 <43-328>
+                                                                                          >
+                                                                                      man_start_sibling <trigger, "Zombie Detective">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream_wait_on <00x>
+                                                                                            sm_send_f1 <43-329>
+                                                                                            >
+                                                                                        man_start_sibling <trigger, "Zombie Detective">
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_start_stream_wait_on <00x>
+                                                                                              sm_send_f1 <43-330>
+                                                                                              >
+                                                                                          man_start_sibling <trigger, "Zombie Detective">
+                                                                                            act_replace_select_action
+                                                                                                <
+                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                sm_send_f1 <43-331>
+                                                                                                >
+                                                                                            man_start_sibling <trigger, "Mediaspace">
+                                                                                              act_replace_select_action
+                                                                                                  <
+                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                  sm_send_f1 <43-337>
+                                                                                                  >
+                                                                                              man_start_sibling <trigger, "Nickelodeon">
+                                                                                                act_replace_select_action
+                                                                                                    <
+                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                    sm_send_f1 <43-323>
+                                                                                                    >
+                                                                                                man_start_sibling <trigger, "Omaha Steaks">
+                                                                                                  act_replace_select_action
+                                                                                                      <
+                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                      sm_send_f1 <43-299>
+                                                                                                      >
+                                                                                                  man_start_sibling <trigger, "Nick Online">
+                                                                                                    act_replace_select_action
+                                                                                                        <
+                                                                                                        uni_start_stream_wait_on <00x>
+                                                                                                        sm_send_f1 <43-298>
+                                                                                                        >
+                                                                                                    man_start_sibling <trigger, "Zombie Detective">
+                                                                                                      act_replace_select_action
+                                                                                                          <
+                                                                                                          uni_start_stream_wait_on <00x>
+                                                                                                          sm_send_f1 <43-294>
+                                                                                                          >
+                                                                                                      man_start_sibling <trigger, "Zombie Detective">
+                                                                                                        act_replace_select_action
+                                                                                                            <
+                                                                                                            uni_start_stream_wait_on <00x>
+                                                                                                            sm_send_f1 <43-295>
+                                                                                                            >
+                                                                                                        man_start_sibling <trigger, "Zombie Detective">
+                                                                                                          act_replace_select_action
+                                                                                                              <
+                                                                                                              uni_start_stream_wait_on <00x>
+                                                                                                              sm_send_f1 <43-296>
+                                                                                                              >
+                                                                                                          man_start_sibling <trigger, "Entertainment">
+                                                                                                            act_replace_select_action
+                                                                                                                <
+                                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                                sm_send_f1 <43-289>
+                                                                                                                >
+                                                                                                            man_start_sibling <trigger, "Zombie Detective">
+                                                                                                              act_replace_select_action
+                                                                                                                  <
+                                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                                  sm_send_f1 <43-279>
+                                                                                                                  >
+                                                                                                              man_start_sibling <trigger, "Omaha/Marketplace/ONS/Websource">
+                                                                                                                act_replace_select_action
+                                                                                                                    <
+                                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                                    sm_send_f1 <43-256>
+                                                                                                                    >
+                                                                                                                man_start_sibling <trigger, "Omaha Steaks">
+                                                                                                                  act_replace_select_action
+                                                                                                                      <
+                                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                                      sm_send_f1 <43-244>
+                                                                                                                      >
+                                                                                                                  man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                    act_replace_select_action
+                                                                                                                        <
+                                                                                                                        uni_start_stream_wait_on <00x>
+                                                                                                                        sm_send_f1 <43-220>
+                                                                                                                        >
+                                                                                                                    man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                      act_replace_select_action
+                                                                                                                          <
+                                                                                                                          uni_start_stream_wait_on <00x>
+                                                                                                                          sm_send_f1 <43-219>
+                                                                                                                          >
+                                                                                                                      man_start_sibling <trigger, "Rosie O'Donnell">
+                                                                                                                        act_replace_select_action
+                                                                                                                            <
+                                                                                                                            uni_start_stream_wait_on <00x>
+                                                                                                                            sm_send_f1 <40-63209>
+                                                                                                                            >
+                                                                                                                        man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                          act_replace_select_action
+                                                                                                                              <
+                                                                                                                              uni_start_stream_wait_on <00x>
+                                                                                                                              sm_send_f1 <40-63146>
+                                                                                                                              >
+                                                                                                                          man_start_sibling <trigger, "Zombie Detective . Thrive">
+                                                                                                                            act_replace_select_action
+                                                                                                                                <
+                                                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                                                sm_send_f1 <40-62803>
+                                                                                                                                >
+                                                                                                                            man_start_sibling <trigger, "History Channel">
+                                                                                                                              act_replace_select_action
+                                                                                                                                  <
+                                                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                                                  sm_send_f1 <40-62787>
+                                                                                                                                  >
+                                                                                                                              man_start_sibling <trigger, "The Realm">
+                                                                                                                                act_replace_select_action
+                                                                                                                                    <
+                                                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                                                    sm_send_f1 <40-62755>
+                                                                                                                                    >
+                                                                                                                                man_start_sibling <trigger, "Omaha Steaks . Web Source . Family Life">
+                                                                                                                                  act_replace_select_action
+                                                                                                                                      <
+                                                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                                                      sm_send_f1 <40-62615>
+                                                                                                                                      >
+                                                                                                                                  man_start_sibling <trigger, "Aardvark/Communicator">
+                                                                                                                                    act_replace_select_action
+                                                                                                                                        <
+                                                                                                                                        uni_start_stream_wait_on <00x>
+                                                                                                                                        sm_send_f1 <40-62456>
+                                                                                                                                        >
+                                                                                                                                    man_start_sibling <trigger, "Travel Corner/Zombie">
+                                                                                                                                      act_replace_select_action
+                                                                                                                                          <
+                                                                                                                                          uni_start_stream_wait_on <00x>
+                                                                                                                                          sm_send_f1 <40-62052>
+                                                                                                                                          >
+                                                                                                                                      man_start_sibling <trigger, "DC Auto Animation">
+                                                                                                                                        act_replace_select_action
+                                                                                                                                            <
+                                                                                                                                            uni_start_stream_wait_on <00x>
+                                                                                                                                            sm_send_f1 <40-61908>
+                                                                                                                                            >
+                                                                                                                                        man_start_sibling <trigger, "Security First . First Union">
+                                                                                                                                          act_replace_select_action
+                                                                                                                                              <
+                                                                                                                                              uni_start_stream_wait_on <00x>
+                                                                                                                                              sm_send_f1 <40-61337>
+                                                                                                                                              >
+                                                                                                                                          man_start_sibling <trigger, "First Union/Disney/Urban Legends">
+                                                                                                                                            act_replace_select_action
+                                                                                                                                                <
+                                                                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                                                                sm_send_f1 <40-60897>
+                                                                                                                                                >
+                                                                                                                                            man_start_sibling <trigger, "Zombie Detective/AOL Banking Center">
+                                                                                                                                              act_replace_select_action
+                                                                                                                                                  <
+                                                                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                                                                  sm_send_f1 <40-60107>
+                                                                                                                                                  >
+                                                                                                                                              man_start_sibling <trigger, "First Chicago . GNN . First Union">
+                                                                                                                                                act_replace_select_action
+                                                                                                                                                    <
+                                                                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                                                                    sm_send_f1 <40-60085>
+                                                                                                                                                    >
+                                                                                                                                                man_start_sibling <trigger, "AOL On the Move/First Union/UBOC">
+                                                                                                                                                  act_replace_select_action
+                                                                                                                                                      <
+                                                                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                                                                      sm_send_f1 <40-59285>
+                                                                                                                                                      >
+                                                                                                                                                  man_start_sibling <trigger, "Miscellaneous">
+                                                                                                                                                    act_replace_select_action
+                                                                                                                                                        <
+                                                                                                                                                        uni_start_stream_wait_on <00x>
+                                                                                                                                                        sm_send_f1 <40-59216>
+                                                                                                                                                        >
+                                                                                                                                                    man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                                                      act_replace_select_action
+                                                                                                                                                          <
+                                                                                                                                                          uni_start_stream_wait_on <00x>
+                                                                                                                                                          sm_send_f1 <40-59038>
+                                                                                                                                                          >
+                                                                                                                                                      man_start_sibling <trigger, "Email Profiling,Enterprise,Battle Tech">
+                                                                                                                                                        act_replace_select_action
+                                                                                                                                                            <
+                                                                                                                                                            uni_start_stream_wait_on <00x>
+                                                                                                                                                            sm_send_f1 <40-58648>
+                                                                                                                                                            >
+                                                                                                                                                        man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                                                          act_replace_select_action
+                                                                                                                                                              <
+                                                                                                                                                              uni_start_stream_wait_on <00x>
+                                                                                                                                                              sm_send_f1 <40-58518>
+                                                                                                                                                              >
+                                                                                                                                                          man_start_sibling <trigger, "Slingo/Hachette/Isabelle Parfum">
+                                                                                                                                                            act_replace_select_action
+                                                                                                                                                                <
+                                                                                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                                                                                sm_send_f1 <40-58118>
+                                                                                                                                                                >
+                                                                                                                                                            man_start_sibling <trigger, "Zombie Detective,Convention 96,Fossil">
+                                                                                                                                                              act_replace_select_action
+                                                                                                                                                                  <
+                                                                                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                                                                                  sm_send_f1 <40-57535>
+                                                                                                                                                                  >
+                                                                                                                                                              man_start_sibling <trigger, "Preview Travel,RMPC,Zombie Detective">
+                                                                                                                                                                act_replace_select_action
+                                                                                                                                                                    <
+                                                                                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                                                                                    sm_send_f1 <40-57057>
+                                                                                                                                                                    >
+                                                                                                                                                                man_start_sibling <trigger, "Miscellaneous">
+                                                                                                                                                                  act_replace_select_action
+                                                                                                                                                                      <
+                                                                                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                                                                                      sm_send_f1 <40-56558>
+                                                                                                                                                                      >
+                                                                                                                                                                  man_start_sibling <trigger, "Aviation/Spinning Apple/Zombie Detective">
+                                                                                                                                                                    act_replace_select_action
+                                                                                                                                                                        <
+                                                                                                                                                                        uni_start_stream_wait_on <00x>
+                                                                                                                                                                        sm_send_f1 <40-55761>
+                                                                                                                                                                        >
+                                                                                                                                                                    man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                                                                      act_replace_select_action
+                                                                                                                                                                          <
+                                                                                                                                                                          uni_start_stream_wait_on <00x>
+                                                                                                                                                                          sm_send_f1 <40-55764>
+                                                                                                                                                                          >
+                                                                                                                                                                      man_start_sibling <trigger, "Zombie Detective">
+                                                                                                                                                                        act_replace_select_action
+                                                                                                                                                                            <
+                                                                                                                                                                            uni_start_stream_wait_on <00x>
+                                                                                                                                                                            sm_send_f1 <40-55765>
+                                                                                                                                                                            >
+                                                                                                                                                                        man_start_sibling <trigger, "Sharper Image/George">
+                                                                                                                                                                          act_replace_select_action
+                                                                                                                                                                              <
+                                                                                                                                                                              uni_start_stream_wait_on <00x>
+                                                                                                                                                                              sm_send_f1 <40-55233>
+                                                                                                                                                                              >
+                                                                                                                                                                          man_start_sibling <trigger, "Columbia/Zombie Detective">
+                                                                                                                                                                            act_replace_select_action
+                                                                                                                                                                                <
+                                                                                                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                                                                                                sm_send_f1 <40-55087>
+                                                                                                                                                                                >
+                                                                                                                                                                            man_start_sibling <trigger, "Kim Komando">
+                                                                                                                                                                              act_replace_select_action
+                                                                                                                                                                                  <
+                                                                                                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                                                                                                  sm_send_f1 <40-54951>
+                                                                                                                                                                                  >
+                                                                                                                                                                              man_start_sibling <trigger, "Sanwa Bank">
+                                                                                                                                                                                act_replace_select_action
+                                                                                                                                                                                    <
+                                                                                                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                                                                                                    sm_send_f1 <40-54753>
+                                                                                                                                                                                    >
+                                                                                                                                                                                man_start_sibling <trigger, "Reebok">
+                                                                                                                                                                                  act_replace_select_action
+                                                                                                                                                                                      <
+                                                                                                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                                                                                                      sm_send_f1 <40-54528>
+                                                                                                                                                                                      >
+                                                                                                                                                                                  man_start_sibling <trigger, "Digital City">
+                                                                                                                                                                                    act_replace_select_action
+                                                                                                                                                                                        <
+                                                                                                                                                                                        uni_start_stream_wait_on <00x>
+                                                                                                                                                                                        sm_send_f1 <40-54199>
+                                                                                                                                                                                        >
+                                                                                                                                                                                    man_start_sibling <trigger, "Bonjour Paris">
+                                                                                                                                                                                      act_replace_select_action
+                                                                                                                                                                                          <
+                                                                                                                                                                                          uni_start_stream_wait_on <00x>
+                                                                                                                                                                                          sm_send_f1 <40-54190>
+                                                                                                                                                                                          >
+                                                                                                                                                                                      man_start_sibling <trigger, "New Media Marketing">
+                                                                                                                                                                                        act_replace_select_action
+                                                                                                                                                                                            <
+                                                                                                                                                                                            uni_start_stream_wait_on <00x>
+                                                                                                                                                                                            sm_send_f1 <40-53843>
+                                                                                                                                                                                            >
+                                                                                                                                                                                        man_end_object
+                                                                                                                                                                                      man_start_sibling <ornament, "">
+                                                                                                                                                                                        mat_precise_x <230>
+                                                                                                                                                                                        mat_precise_y <75>
+                                                                                                                                                                                        mat_art_id <1-1-57871>
+                                                                                                                                                                                        mat_font_sis <small_fonts, 7, normal>
+                                                                                                                                                                                      man_end_object
+                                                                                                                                                                                      man_update_display
+                                                                                                                                                                                    man_update_woff_end_stream

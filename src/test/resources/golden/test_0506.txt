@@ -1,0 +1,54 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Custom Epsilon North">
+    mat_orientation <vff>
+    man_start_object <ornament, "">
+      mat_size <50, 5>
+      man_append_data <"first edge active receive sub start load execute. process sigma new gadget old element dynamic sub. active side update module create basic new refresh. load active handle west active primary send main. frame special alpha stop\x7f">
+    man_start_sibling <edit_view, "Primary Main">
+      mat_size <30, 1, 25>
+      mat_relative_tag <6>
+      mat_title_pos <left | center>
+      mat_bool_writeable <yes>
+    man_start_sibling <edit_view, "Special Thing">
+      mat_size <30, 1, 32>
+      mat_relative_tag <1>
+      mat_title_pos <left | center>
+      mat_bool_writeable <yes>
+    man_start_sibling <org_group, "">
+      mat_orientation <vff>
+      man_start_object <sss_list, "Third Front">
+        mat_orientation <hee>
+        mat_relative_tag <2>
+        man_start_object <trigger, "Basic Beta">
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "sigm">
+        man_start_sibling <trigger, "fra">
+        man_start_sibling <trigger, "Primary Corner">
+        man_start_sibling <trigger, "Fourth Component">
+        man_end_object
+      man_end_object
+    man_start_sibling <sss_list, "Simple Box">
+      mat_orientation <hce>
+      mat_relative_tag <3>
+      man_start_object <trigger, "but">
+      man_start_sibling <trigger, "Custom North">
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Advanced Area">
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+            de_ez_send_form <"fe">
+            >
+        man_start_sibling <trigger, "Secondary Element">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+              de_ez_send_form <"f3">
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        uni_wait_off
+      uni_end_stream <00x>

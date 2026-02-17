@@ -1,0 +1,298 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Internal Beta Area">
+    mat_orientation <vcf>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\rand want to come back?\r\rJust click here to\radd this area to your\rFavorite Places.">
+    mat_art_id <1-1-44850>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Internal Beta Area">
+      mat_font_sis <arial, 24, bold>
+      mat_color_text <64, 112, 96>
+      mat_color_text_shadow <182, 182, 170>
+      mat_orientation <hcc>
+    man_start_sibling <ornament, "">
+      mat_width <55>
+      mat_height <3>
+      mat_font_sis <arial, 9, normal>
+      man_append_data <"Bear in mind that all non-internal accounts will \r">
+      man_append_data <"go to either the Beta Area or a Beta Application f">
+      man_append_data <"orm.\rRemember:    The Road to Bug Elimination begi">
+      man_append_data <"ns with YOU. ">
+      man_end_data
+      mat_orientation <hcf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <org_group, "">
+        mat_orientation <vlc>
+        man_start_object <org_group, "">
+          mat_orientation <hlc>
+          man_start_object <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_clear_buffer
+                  buf_set_token <"ur">
+                  buf_add_atom_pointer <"aol://4344:1095.WB32bw00.9441328.563220590">
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_font_sis <arial, 12, normal>
+              mat_bool_small_icon <yes>
+              mat_art_id <1-1-44849>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "Win 32-bit Betas">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://4344:1095.WB32bw00.9441328.563220590">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_font_sis <arial, 12, bold>
+                mat_color_text <64, 112, 96>
+                mat_bool_small_icon <yes>
+                mat_trigger_style <plain_picture>
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <hlc>
+              man_start_object <trigger, "">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                      buf_clear_buffer
+                      buf_set_token <"ur">
+                      buf_add_atom_pointer <"aol://4344:1095.WB16bw00.9441329.563220590">
+                      buf_close_buffer
+                    uni_end_stream
+                    >
+                  mat_font_sis <arial, 12, normal>
+                  mat_bool_small_icon <yes>
+                  mat_art_id <1-1-44849>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <trigger, "Win 16-bit Betas">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_clear_buffer
+                        buf_set_token <"ur">
+                        buf_add_atom_pointer <"aol://4344:1095.WB16bw00.9441329.563220590">
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    mat_font_sis <arial, 12, bold>
+                    mat_color_text <64, 112, 96>
+                    mat_bool_small_icon <yes>
+                    mat_trigger_style <plain_picture>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hlc>
+                  man_start_object <trigger, "">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                          buf_clear_buffer
+                          buf_set_token <"ur">
+                          buf_add_atom_pointer <"aol://4344:1095.MBmacw00.9441259.563129436">
+                          buf_close_buffer
+                        uni_end_stream
+                        >
+                      mat_font_sis <arial, 12, normal>
+                      mat_bool_small_icon <yes>
+                      mat_art_id <1-1-44849>
+                      mat_trigger_style <plain_picture>
+                    man_start_sibling <trigger, "Macintosh Betas">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                            buf_clear_buffer
+                            buf_set_token <"ur">
+                            buf_add_atom_pointer <"aol://4344:1095.MBmacw00.9441259.563129436">
+                            buf_close_buffer
+                          uni_end_stream
+                          >
+                        mat_font_sis <arial, 12, bold>
+                        mat_color_text <64, 112, 96>
+                        mat_bool_small_icon <yes>
+                        mat_trigger_style <plain_picture>
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hcc>
+                      man_start_object <trigger, "">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_send_token_arg <"K1", 14-20081>
+                          uni_end_stream
+                          >
+                        mat_font_sis <arial, 12, normal>
+                        mat_bool_small_icon <yes>
+                        mat_art_id <1-1-44849>
+                        mat_trigger_style <plain_picture>
+                        mat_color_face <255, 255, 255>
+                      man_start_sibling <trigger, "Win 4.0 PP3 Internal Test">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_send_token_arg <"K1", 14-20081>
+                          uni_end_stream
+                          >
+                        mat_font_sis <arial, 12, bold>
+                        mat_color_text <64, 112, 96>
+                        mat_trigger_style <plain_picture>
+                        mat_color_face <255, 255, 255>
+                      man_end_object
+                    man_end_object
+                  man_start_sibling <org_group, "">
+                    mat_orientation <vlc>
+                    man_start_object <org_group, "">
+                      mat_orientation <hlc>
+                      man_start_object <trigger, "">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                              buf_clear_buffer
+                              buf_set_token <"ur">
+                              buf_add_atom_pointer <"aol://1722:driveway">
+                              buf_close_buffer
+                            uni_end_stream
+                            >
+                          mat_font_sis <arial, 9, normal>
+                          mat_bool_small_icon <yes>
+                          mat_art_id <1-1-44849>
+                          mat_trigger_style <plain_picture>
+                        man_start_sibling <trigger, "AOL Driveway">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                buf_clear_buffer
+                                buf_set_token <"ur">
+                                buf_add_atom_pointer <"aol://1722:driveway">
+                                buf_close_buffer
+                              uni_end_stream
+                              >
+                            mat_font_sis <arial, 12, bold>
+                            mat_color_text <64, 112, 96>
+                            mat_bool_small_icon <yes>
+                            mat_trigger_style <plain_picture>
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <hlc>
+                          man_start_object <trigger, "">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                  buf_clear_buffer
+                                  buf_set_token <"ur">
+                                  buf_add_atom_pointer <"aol://4344:1095.WBcanw00.9441248.563125760">
+                                  buf_close_buffer
+                                uni_end_stream
+                                >
+                              mat_font_sis <arial, 12, normal>
+                              mat_bool_small_icon <yes>
+                              mat_art_id <1-1-44849>
+                              mat_trigger_style <plain_picture>
+                            man_start_sibling <trigger, "AOL Canada Win">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    buf_clear_buffer
+                                    buf_set_token <"ur">
+                                    buf_add_atom_pointer <"aol://4344:1095.WBcanw00.9441248.563125760">
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                                mat_font_sis <arial, 12, bold>
+                                mat_color_text <64, 112, 96>
+                                mat_bool_small_icon <yes>
+                                mat_trigger_style <plain_picture>
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <hlc>
+                              man_start_object <trigger, "">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                      buf_clear_buffer
+                                      buf_set_token <"ur">
+                                      buf_add_atom_pointer <"aol://4344:1095.MBcanw00.9441338.563226349">
+                                      buf_close_buffer
+                                    uni_end_stream
+                                    >
+                                  mat_font_sis <arial, 12, normal>
+                                  mat_bool_small_icon <yes>
+                                  mat_art_id <1-1-44849>
+                                  mat_trigger_style <plain_picture>
+                                  mat_color_face <255, 255, 255>
+                                man_start_sibling <trigger, "AOL Canada Mac">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                        buf_clear_buffer
+                                        buf_set_token <"ur">
+                                        buf_add_atom_pointer <"aol://4344:1095.MBcanw00.9441338.563226349">
+                                        buf_close_buffer
+                                      uni_end_stream
+                                      >
+                                    mat_font_sis <arial, 12, bold>
+                                    mat_color_text <64, 112, 96>
+                                    mat_trigger_style <plain_picture>
+                                    mat_color_face <255, 255, 255>
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hlc>
+                                  man_start_object <trigger, "">
+                                    mat_bool_disabled <yes>
+                                    mat_bool_hidden <yes>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                          buf_clear_buffer
+                                          buf_set_token <"ur">
+                                          buf_add_atom_pointer <"aol://1722:ptbeta">
+                                          buf_close_buffer
+                                        uni_end_stream
+                                        >
+                                      mat_font_sis <arial, 9, normal>
+                                      mat_bool_small_icon <yes>
+                                      mat_art_id <1-1-44849>
+                                      mat_trigger_style <plain_picture>
+                                    man_start_sibling <trigger, "Travel Destinations Beta">
+                                      mat_bool_disabled <yes>
+                                      mat_bool_hidden <yes>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                            buf_clear_buffer
+                                            buf_set_token <"ur">
+                                            buf_add_atom_pointer <"aol://1722:ptbeta">
+                                            buf_close_buffer
+                                          uni_end_stream
+                                          >
+                                        mat_font_sis <arial, 12, bold>
+                                        mat_color_text <64, 112, 96>
+                                        mat_trigger_style <plain_picture>
+                                        mat_color_face <255, 255, 255>
+                                      man_end_object
+                                    man_end_object
+                                  man_end_object
+                                man_end_object
+                              hfs_attr_end_object
+                            man_update_woff_end_stream

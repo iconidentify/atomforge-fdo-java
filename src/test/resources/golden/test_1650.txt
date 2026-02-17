@@ -1,0 +1,67 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " AOL In-House Numbers">
+    mat_orientation <vff>
+    mat_precise_width <417>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-8759>
+    mat_bool_background_pic <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <3>
+      mat_precise_width <400>
+      mat_precise_height <30>
+      mat_precise_x <10>
+      mat_precise_y <5>
+      mat_color_text <255, 255, 255>
+      man_append_data <"AOL Support Numbers\r</P><P ALIGN=JUSTIFY>\\field 1 ">
+      man_append_data <"\r</P><P ALIGN=LEFT>AOL In-House Phone Numbers\r\r\r</">
+      man_append_data <"P><P ALIGN=JUSTIFY>LOCATION                     PH">
+      man_append_data <"ONE NUMBER\r</P><P ALIGN=LEFT>\rARC HELP            ">
+      man_append_data <"           (800) 348-1211\rStaff Technical         ">
+      man_append_data <"         (800) 827-6088 \rSales/Billing Department ">
+      man_append_data <"   (800) 827-6364\rTDD 800 Number               (80">
+      man_append_data <"0) 759-3323\rTechnical BBS                  (800) 8">
+      man_append_data <"27-5808\rTechnical Support Direct    (800) 827-3338">
+      man_append_data <"\rBilling (FAX)                      (703) 448-0760">
+      man_append_data <"\rTechnical Support (FAX)     (703) 883-1509\rTOS De">
+      man_append_data <"partment (FAX)       (703) 917-1802\rForum Creation">
+      man_append_data <" Issues        (703) 448-8700 ext. 7300\rFront Lobb">
+      man_append_data <"y (switchboard)   (703) 448-8700 \r\rThe above techn">
+      man_append_data <"ical support/help numbers are for internal use onl">
+      man_append_data <"y.  When calling, be prepared to verify your scree">
+      man_append_data <"nname, address, and producer's name/screen name.\r\r">
+      man_append_data <"\r\r_____________\rv1.2 (02/02/97)\r\r\r\r">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <view, "">
+      mat_bool_writeable <yes>
+      mat_precise_width <400>
+      mat_precise_height <230>
+      mat_precise_x <9>
+      mat_precise_y <45>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"AOL In-House Phone Numbers\r\n\r\n\r\nLOCATION          ">
+      man_append_data <"           PHONE NUMBER\r\n\r\nARC HELP               ">
+      man_append_data <"        (800) 348-1211\r\nStaff Technical           ">
+      man_append_data <"       (800) 827-6088 \r\nSales/Billing Department  ">
+      man_append_data <"  (800) 827-6364\r\nTDD 800 Number               (80">
+      man_append_data <"0) 759-3323\r\nTechnical BBS                  (800) ">
+      man_append_data <"827-5808\r\nTechnical Support Direct    (800) 827-33">
+      man_append_data <"38\r\nBilling (FAX)                      (703) 448-0">
+      man_append_data <"760\r\nTechnical Support (FAX)     (703) 883-1509\r\nT">
+      man_append_data <"OS Department (FAX)       (703) 917-1802\r\nForum Cr">
+      man_append_data <"eation Issues        (703) 448-8700 ext. 7300\r\nFro">
+      man_append_data <"nt Lobby (switchboard)   (703) 448-8700 \r\n\r\nThe ab">
+      man_append_data <"ove technical support/help numbers are for interna">
+      man_append_data <"l use only.  When calling, be prepared to verify y">
+      man_append_data <"our screenname, address, and producer's name/scree">
+      man_append_data <"n name.\r\n\r\n\r\n\r\n_____________\r\nv1.2 (02/02/97)\r\n\r\n\r">
+      man_append_data <"\n\r\n\r\n\r\nTransmitted: 3/8/97 10:30 AM (aol_num)">
+      man_end_data
+      mat_relative_tag <1>
+    man_end_object
+  hfs_attr_end_object
+man_update_woff_end_stream

@@ -1,0 +1,57 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Screen Object">
+    mat_object_id <32-8977>
+    mat_style_id <32-8977>
+    mat_orientation <vft>
+    mat_color_face <255, 255, 255>
+    mat_object_id <32-2515>
+    mat_style_id <32-2515>
+    mat_title <"Complex Delta Item">
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Static Dialog Beta">
+      mat_size <11, 1>
+      mat_vertical_spacing <5>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_vertical_spacing <5>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"update advanced new old second old invoke block. active handle execute area send corner start epsilon. south standard secondary basic side delete second second. area start save default unit panel\x7f\x7fwest area send epsilon label invoke gadget update. receive update active invoke receive dynamic secondary refresh. widget old delete previous update advanced item\x7fFirst Top">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_color_face <204, 204, 255>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <153, 153, 204>
+        mat_font_size <9>
+        mat_title <"Complex Sub">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

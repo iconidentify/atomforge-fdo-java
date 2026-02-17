@@ -1,0 +1,75 @@
+uni_start_stream
+  man_start_object <ind_group, "Casablanca Learning Center">
+    mat_orientation <vlf>
+    man_start_object <ornament, "Casablanca Learning Center\r">
+      mat_relative_tag <3>
+      mat_width <20>
+      mat_height <1>
+      mat_font_sis <times_roman, 24, bold>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hft>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vfc>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <view, "">
+          mat_width <33>
+          mat_height <8>
+          mat_font_sis <arial, 10, normal>
+          mat_bool_writeable <yes>
+          mat_bool_exportable <yes>
+          mat_bool_vertical_scroll <yes>
+          man_append_data <"Welcome to the Casablanca Learning Center!\r\n\r\nAOL ">
+          man_append_data <"4.0 for Mac Beta is now available! \r\n">
+          man_end_data
+          mat_relative_tag <1>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <vft>
+        man_start_object <org_group, "">
+          mat_orientation <vct>
+          man_start_object <trigger, "">
+            mat_relative_tag <56>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-1-343>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-34723>
+              mat_trigger_style <picture>
+              mat_bool_default <yes>
+            man_start_sibling <ornament, "2.5, 2.6, 2.7 Users \r">
+              mat_relative_tag <57>
+              mat_width <20>
+              mat_height <1>
+              mat_font_sis <arial, 9, normal>
+              mat_orientation <hcc>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <vcf>
+            man_start_object <trigger, "">
+              mat_relative_tag <58>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-1-152>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-34723>
+                mat_trigger_style <picture>
+              man_start_sibling <ornament, "3.0, 4.0 Users\r">
+                mat_relative_tag <59>
+                mat_width <20>
+                mat_height <1>
+                mat_font_sis <arial, 9, normal>
+                mat_orientation <hcc>
+              man_end_object
+            man_end_object
+          man_end_object
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

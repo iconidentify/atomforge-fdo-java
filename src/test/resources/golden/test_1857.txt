@@ -1,0 +1,97 @@
+uni_start_stream
+  man_start_object <ind_group, "KOOL">
+    mat_orientation <vff>
+    man_start_object <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <ornament, "">
+        mat_art_id <1-0-1407>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "KOOL">
+        mat_width <10>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_width <36>
+        mat_height <8>
+        mat_font_sis <arial, 9, normal>
+        mat_bool_list_icons <yes>
+        mat_sort_order <normal>
+        man_start_object <trigger, "About KOOL">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_k1 <8-51>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "For Your Parents">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_k1 <40-5725>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Hints and Tips">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_k1 <8-51>
+                  >
+                mat_art_id <1-0-1479>
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <vce>
+              man_start_object <trigger, "Funtime">
+                mat_title_pos <below | center>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"bE", 0-0-1649>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_art_id <1-0-1308>
+                man_start_sibling <trigger, "Library Center">
+                  mat_title_pos <below | center>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_k1 <40-12348>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_art_id <1-0-1310>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <vce>
+                  man_start_object <trigger, "Seriously">
+                    mat_title_pos <below | center>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"bE", 0-0-1624>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_art_id <1-0-1308>
+                    man_start_sibling <trigger, "Tree House">
+                      mat_title_pos <below | center>
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_k1 <40-12385>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_art_id <1-0-1328>
+                      man_end_object
+                    man_end_object
+                  man_start_sibling <ornament, "Keyword: KOOL">
+                    mat_width <15>
+                    mat_height <1>
+                    mat_font_sis <arial, 9, normal>
+                    mat_orientation <hlf>
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

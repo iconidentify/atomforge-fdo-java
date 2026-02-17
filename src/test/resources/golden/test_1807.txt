@@ -1,0 +1,87 @@
+uni_start_stream
+  man_start_object <ind_group, "A Three Step Tutorial for MapView">
+    mat_orientation <vlf>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <ornament, "Step 1:  Perform a Get\r">
+      mat_relative_tag <3>
+      mat_width <20>
+      mat_height <1>
+      mat_font_sis <times_roman, 24, bold>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hft>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vfc>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <view, "">
+          rich_manage
+          rich_bool_read_only <yes>
+          mat_width <33>
+          mat_height <8>
+          mat_font_sis <arial, 10, normal>
+          mat_bool_writeable <yes>
+          mat_bool_exportable <yes>
+          mat_bool_vertical_scroll <yes>
+          mat_relative_tag <1>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <vft>
+        man_start_object <org_group, "">
+          mat_orientation <vct>
+          man_start_object <trigger, "">
+            mat_relative_tag <56>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-13-787>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-34690>
+              mat_trigger_style <picture>
+              mat_bool_default <yes>
+            man_start_sibling <ornament, "Step 2\r">
+              mat_relative_tag <57>
+              mat_width <20>
+              mat_height <1>
+              mat_font_sis <arial, 9, normal>
+              mat_orientation <hcc>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <vcf>
+            man_start_object <trigger, "">
+              mat_relative_tag <58>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-13-1056>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-34690>
+                mat_trigger_style <picture>
+              man_start_sibling <ornament, "Step 3\r">
+                mat_relative_tag <59>
+                mat_width <20>
+                mat_height <1>
+                mat_font_sis <arial, 9, normal>
+                mat_orientation <hcc>
+              man_end_object
+            man_end_object
+          man_end_object
+        man_end_object
+        man_update_display
+        man_set_context_relative <1>
+        man_append_data <"<HTML><PRE><B>Step 1:  Perform the Get Commands\x7f</">
+        man_append_data <"B>The first step is to perform the get command on ">
+        man_append_data <"the top page in the area you wish to map out.  The">
+        man_append_data <" script is as follows, and <B><I>must </B></I>be d">
+        man_append_data <"one through email:\x7f\\group ##.name\x7f\\get page <exter">
+        man_append_data <"nal ID>\x7f\x7fDon't forget a carriage return after the ">
+        man_append_data <"second line of your script, or else your email fro">
+        man_append_data <"m Rainman will come back empty.\x7f\x7fDo this for each ">
+        man_append_data <"page that has objects linked to it in the area you">
+        man_append_data <" wish to map.\x7f</PRE></HTML>">
+        man_end_data
+      man_update_woff_end_stream

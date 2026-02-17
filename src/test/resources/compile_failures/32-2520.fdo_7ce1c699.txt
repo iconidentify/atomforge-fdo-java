@@ -1,0 +1,59 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Automatic AOL Walk-Through">
+    mat_orientation <vft>
+    mat_precise_width <381>
+    mat_precise_height <187>
+    mat_color_face <255, 255, 255>
+    mat_style_id <32-2520>
+    mat_object_id <32-2520>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_art_id <1-5-7543>
+      mat_bool_disabled <yes>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <43>
+      mat_precise_width <400>
+      mat_precise_height <80>
+      mat_font_size <8>
+      mat_precise_width <360>
+      mat_precise_height <90>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"That's it. Automatic AOL is set up!  Remember, if you scheduled Automatic AOL, AOL must be running (but not signed-on) at the scheduled time.\x7f\x7fIf you want to review or change the selections you have made for \x7fAutomatic AOL, click <B>Set Up Automatic AOL</B> on the <B>Email</B> menu on the Toolbar.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_x <183>
+      mat_precise_y <227>
+      mat_precise_width <50>
+      mat_precise_height <23>
+      man_start_object <trigger, "">
+        mat_precise_x <170>
+        mat_precise_y <125>
+        mat_trigger_style <plain_picture>
+        man_make_focus
+        mat_art_id <1-5-21175>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+              idb_start_obj <""b"">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream

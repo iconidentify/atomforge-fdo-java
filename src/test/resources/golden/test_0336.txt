@@ -1,0 +1,60 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_orientation <vff>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_style_id <32-114>
+    man_start_object <view, "">
+      mat_size <59, 10>
+      mat_relative_tag <1>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_writeable <yes>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "">
+        mat_relative_tag <3>
+        mat_trigger_style <9>
+        mat_art_id <1-12-16322>
+        mat_bool_disabled <yes>
+        mat_command_key <98x, 00x>
+      man_start_sibling <org_group, "">
+        mat_orientation <vfe>
+        man_start_object <ornament, "">
+          mat_vertical_spacing <0>
+          mat_size <1, 1>
+          mat_bool_invisible <yes>
+        man_start_sibling <trigger, "Basic Element Element">
+          mat_relative_tag <2>
+          mat_trigger_style <14>
+        man_end_object
+      man_start_sibling <trigger, "Fourth Sub Sub">
+        mat_relative_tag <20>
+        mat_art_id <1-0-1290>
+        mat_bool_disabled <yes>
+        mat_bool_invisible <yes>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <4>
+        mat_trigger_style <9>
+        mat_art_id <1-10-21683>
+        mat_bool_disabled <yes>
+        mat_command_key <99x, 00x>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Special Zone">
+        mat_relative_tag <8>
+        mat_bool_disabled <yes>
+        mat_bool_invisible <yes>
+      man_start_sibling <trigger, "Custom Epsilon Alpha">
+        mat_relative_tag <9>
+        mat_bool_disabled <yes>
+        mat_bool_invisible <yes>
+      man_start_sibling <trigger, "Old Item">
+        mat_relative_tag <10>
+        mat_bool_disabled <yes>
+        mat_bool_invisible <yes>
+      man_end_object
+    man_end_object
+    man_update_display
+  uni_end_stream <00x>

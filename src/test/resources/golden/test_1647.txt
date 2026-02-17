@@ -1,0 +1,287 @@
+uni_start_stream
+  man_start_object <ind_group, "ACLU Host Club">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-10487>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <500>
+      mat_precise_height <50>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_color_face <14, 17, 62>
+      mat_bool_background_flood <yes>
+      man_start_object <ornament, "ACLU Host Club">
+        mat_relative_tag <3>
+        mat_precise_width <400>
+        mat_precise_height <30>
+        mat_precise_x <18>
+        mat_precise_y <12>
+        mat_color_face <14, 17, 62>
+        mat_font_sis <arial, 18, normal>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_start_sibling <ornament, "">
+        mat_precise_width <38>
+        mat_precise_height <40>
+        mat_precise_x <409>
+        mat_precise_y <7>
+        mat_font_sis <arial, 7, normal>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <62>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U2", 0-119-2977>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <48>
+          mat_precise_height <48>
+          mat_precise_x <450>
+          mat_precise_y <0>
+          mat_art_id <1-0-34197>
+          mat_trigger_style <plain_picture>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <vff>
+        mat_precise_width <1>
+        mat_precise_height <1>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        man_start_object <trigger, "">
+          mat_relative_tag <56>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"58", 0-0-8756>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <55>
+            mat_precise_height <55>
+            mat_precise_x <10>
+            mat_precise_y <70>
+            mat_art_id <1-0-35991>
+            mat_trigger_style <rectangle>
+          man_start_sibling <ornament, "">
+            mat_relative_tag <57>
+            mat_precise_width <188>
+            mat_precise_height <48>
+            mat_precise_x <73>
+            mat_precise_y <74>
+            mat_font_sis <times_roman, 9, normal>
+            man_append_data <"Post a shift report, check out the Guide schedule,">
+            man_append_data <" maybe share a quote. All on the ACLU Host Boards.">
+            man_end_data
+            mat_orientation <hlf>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <58>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-28-53843>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <55>
+              mat_precise_height <55>
+              mat_precise_x <10>
+              mat_precise_y <155>
+              mat_art_id <1-0-35993>
+              mat_trigger_style <rectangle>
+            man_start_sibling <ornament, "">
+              mat_relative_tag <59>
+              mat_precise_width <188>
+              mat_precise_height <48>
+              mat_precise_x <73>
+              mat_precise_y <159>
+              mat_font_sis <times_roman, 9, normal>
+              man_append_data <"Don't want to post your shift report on the boards">
+              man_append_data <"? You can send them by email here.">
+              man_end_data
+              mat_orientation <hlf>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <60>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U2", 0-119-6907>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_width <55>
+                mat_precise_height <55>
+                mat_precise_x <10>
+                mat_precise_y <240>
+                mat_art_id <1-0-35994>
+                mat_trigger_style <rectangle>
+              man_start_sibling <ornament, "">
+                mat_relative_tag <61>
+                mat_precise_width <188>
+                mat_precise_height <48>
+                mat_precise_x <73>
+                mat_precise_y <244>
+                mat_font_sis <times_roman, 9, normal>
+                man_append_data <"If you haven't registered yet for a Community Lead">
+                man_append_data <"er account, you need to do so as soon as possible.">
+                man_end_data
+                mat_orientation <hlf>
+              man_end_object
+            man_start_sibling <dss_list, "">
+              mat_relative_tag <30>
+              mat_width <23>
+              mat_height <15>
+              mat_precise_x <270>
+              mat_precise_y <65>
+              mat_font_sis <arial, 9, normal>
+              mat_frame_style <single_line_pop_out>
+              mat_sort_order <normal>
+              man_start_object <trigger, "ACLU Christmas Song (web)">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U2", 0-119-2394>
+                    >
+                  mat_art_id <1-0-37355>
+                man_start_sibling <trigger, "Board Reoganization">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U2", 0-119-6919>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_start_sibling <trigger, "New Host Manual">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U2", 0-119-2977>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Register for New CL Account">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U2", 0-119-6907>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "Zone Shift Report by Email">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-28-53843>
+                            >
+                          mat_art_id <1-0-21809>
+                        man_start_sibling <trigger, "About the Host Only Collection">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-28-48998>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "Account Registration">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U2", 0-119-2084>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Community Building Announcements">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U2", 0-119-7253>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Welcome Newcomers! Take Our Tour!">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-28-59956>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "02-18-98 Official Host Mailing List">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-28-59880>
+                                      >
+                                    mat_art_id <1-0-1478>
+                                  man_start_sibling <trigger, "Promotion of ACLU Events">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-28-15073>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "Advice on Posting">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-28-3983>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "Looking for Chat Topics?">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-28-62189>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_start_sibling <trigger, "Historical Documents">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-28-62257>
+                                              >
+                                            mat_art_id <1-0-1479>
+                                          man_start_sibling <trigger, "Bill of Rights Message Boards">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-28-57582>
+                                                >
+                                              mat_art_id <1-0-1479>
+                                            man_start_sibling <trigger, "The Maze Craze">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-28-62331>
+                                                  >
+                                                mat_art_id <1-0-1479>
+                                              man_start_sibling <trigger, "Host Message Folders">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"58", 0-0-8756>
+                                                    >
+                                                  mat_art_id <1-0-1483>
+                                                man_start_sibling <trigger, "Emergency Numbers">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"t1", 0-28-2032>
+                                                      >
+                                                    mat_art_id <1-0-1478>
+                                                  man_start_sibling <trigger, "Host Forms">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"t1", 0-28-16536>
+                                                        >
+                                                      mat_art_id <1-0-1479>
+                                                    man_end_object
+                                                  man_start_sibling <ornament, "Our little corner of AOL">
+                                                    mat_relative_tag <9>
+                                                    mat_precise_width <200>
+                                                    mat_precise_height <15>
+                                                    mat_precise_x <10>
+                                                    mat_precise_y <300>
+                                                    mat_font_sis <times_roman, 9, bold | italic>
+                                                    mat_orientation <hlf>
+                                                  man_end_object
+                                                  man_update_display
+                                                man_update_woff_end_stream

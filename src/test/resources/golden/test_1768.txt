@@ -1,0 +1,107 @@
+uni_start_stream
+  man_start_object <ind_group, "NavBar1">
+    mat_orientation <vff>
+    man_start_object <view, "">
+      mat_bool_writeable <yes>
+      mat_width <64>
+      mat_height <12>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Subject:  NavBar1\r\nAuthor:  Kerry Pearce-Parkins\r\n">
+      man_append_data <"Uploaded By:  KAParkins\r\nDate:  03/14/97\r\n\r\nFile: ">
+      man_append_data <" NAVBAR.AMP (1181 bytes) \r\nEstimated Download Time">
+      man_append_data <" (14400 baud):  < 1 minute\r\nDownload Count:  264\r\n">
+      man_append_data <"\r\nEquipment:  VPD\r\n\r\n\r\nDownload this amp file.\r\nOp">
+      man_append_data <"en it using the Area Manager pull down menu.\r\nSele">
+      man_append_data <"ct NavBar from the list in the Area Manager.\r\nSele">
+      man_append_data <"ct the edit button in the Area Manager.\r\nYou shoul">
+      man_append_data <"d now be able to see the way the form has been cre">
+      man_append_data <"ated.\r\n\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <edit_view, "">
+      mat_bool_exportable <no>
+      mat_width <60>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <7>
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Download Now">
+        mat_relative_tag <3>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"mD", 0-17-547>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Download Later">
+          mat_bool_disabled <yes>
+          mat_relative_tag <2>
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Ask The Staff">
+          mat_relative_tag <4>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_send_token_arg <"m1", 0-17-547>
+              >
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Related Files">
+            mat_bool_disabled <yes>
+            mat_relative_tag <6>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  uni_wait_on
+                  sm_check_plus_group
+                  buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  de_start_extraction
+                  buf_set_token <"Kk">
+                  man_set_context_relative <7>
+                  de_get_data
+                  man_end_context
+                  de_end_extraction
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hcf>
+            man_start_object <trigger, "Delete">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <8>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Hide">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <9>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Release">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <10>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Move">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <11>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Edit">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <12>
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

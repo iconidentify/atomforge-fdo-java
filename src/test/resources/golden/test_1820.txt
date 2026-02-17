@@ -1,0 +1,36 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "How to Use the New Art Tool">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_color_face <208, 208, 208>
+    mat_bool_background_flood <yes>
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <ornament, "How to Use the New Art Tool\r">
+        mat_relative_tag <3>
+        mat_width <38>
+        mat_height <2>
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        mat_bool_writeable <yes>
+        mat_width <62>
+        mat_height <14>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"1) Download the Art Tool.\r\n2) Sign off and exit WA">
+        man_append_data <"OL\r\n3) Run the Art Tool file\r\n4) Select the curren">
+        man_append_data <"t WAOL 3.0 directory\r\n5) Art Tool will install its">
+        man_append_data <"elf\r\n6) Restart WAOL\r\n\r\nTo access the tool while o">
+        man_append_data <"ffline, hold down the following keys: Control Shif">
+        man_append_data <"t A S\r\n\r\nWhen online you can access the tool by ke">
+        man_append_data <"yword AREAMANAGER and selecting ART TOOL.\r\n\r\n\r\n\r\nT">
+        man_append_data <"ransmitted: 05/10/96 09:30 (gnewtool)">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    hfs_attr_end_object
+  man_update_woff_end_stream

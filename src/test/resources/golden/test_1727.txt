@@ -1,0 +1,27 @@
+uni_start_stream_wait_on
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Form">
+    mat_orientation <vff>
+    mat_precise_width <387>
+    mat_precise_height <205>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    man_start_object <edit_view, "Milkshakes">
+      mat_bool_importable <yes>
+      mat_precise_width <381>
+      mat_precise_height <205>
+      mat_precise_x <1>
+      mat_precise_y <0>
+      mat_title_pos <above | top_or_left>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Note: You must be using America Online 4.0 to use ">
+      man_append_data <"this or AOL will give you this little worthless er">
+      man_append_data <"ror message that means nothing to me...Remember...">
+      man_append_data <"DO NOT GIVE OUT TO ANYONE...Natas, Phryte, and Lio">
+      man_append_data <"n, this is ony to you....\r\n                       ">
+      man_append_data <"      Your good friend Crono\r\n">
+      man_end_data
+    man_end_object
+  hfs_attr_end_object
+man_update_woff_end_stream

@@ -1,0 +1,108 @@
+uni_start_stream <00x>
+  man_preset_gid <59>
+  if_last_return_false_then <1>
+  man_set_context_globalid <1>
+  man_start_object <org_group, "">
+    uni_sync_skip <1>
+    man_start_object <ind_group, "Outgoing Automatic AOL mail">
+      mat_object_id <32-2080>
+      mat_style_id <32-2080>
+      mat_orientation <vff>
+      mat_color_face <255, 251, 240>
+      act_set_criterion <11>
+      act_replace_action
+          <
+          uni_start_stream
+            man_set_context_relative <3>
+            mat_bool_invisible <yes>
+            man_update_display
+            man_end_context
+          uni_end_stream
+          >
+        act_set_criterion <10>
+        act_replace_action
+            <
+            uni_start_stream
+              man_set_context_relative <3>
+              mat_bool_invisible <no>
+              man_update_display
+              man_end_context
+            uni_end_stream
+            >
+          mat_position <center_center>
+          mat_bool_background_flood <yes>
+          man_start_object <dss_list, "">
+            mat_orientation <vff>
+            mat_size <62, 10>
+            mat_relative_tag <16>
+            mat_ruler <8, 24>
+            mat_bool_list_icons <yes>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  mip_action_command <15x>
+                uni_end_stream
+                >
+            man_start_sibling <org_group, "">
+              mat_orientation <hef>
+              man_start_object <trigger, "Edit">
+                mat_relative_tag <1>
+                mat_font_sis <arial, 8, normal>
+                mat_color_text <255, 255, 255>
+                mat_precise_height <24>
+                mat_precise_width <75>
+                mat_trigger_style <rectangle>
+                mat_color_top_edge <145, 182, 255>
+                mat_color_bottom_edge <1, 1, 1>
+                mat_color_face <1, 109, 170>
+                mat_bool_default <yes>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      mip_action_command <15x>
+                    uni_end_stream
+                    >
+                man_start_sibling <trigger, "Delete">
+                  mat_relative_tag <2>
+                  mat_font_sis <arial, 8, normal>
+                  mat_color_text <255, 255, 255>
+                  mat_precise_height <24>
+                  mat_precise_width <75>
+                  mat_trigger_style <rectangle>
+                  mat_color_top_edge <145, 182, 255>
+                  mat_color_bottom_edge <1, 1, 1>
+                  mat_color_face <1, 109, 170>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        lm_user_delete_item <2099232>
+                      uni_end_stream
+                      >
+                  man_start_sibling <trigger, "Send All">
+                    mat_relative_tag <3>
+                    mat_font_sis <arial, 8, normal>
+                    mat_color_text <255, 255, 255>
+                    mat_precise_height <24>
+                    mat_precise_width <75>
+                    mat_trigger_style <rectangle>
+                    mat_color_top_edge <145, 182, 255>
+                    mat_color_bottom_edge <1, 1, 1>
+                    mat_color_face <1, 109, 170>
+                    if_online_then <1, 2>
+                    mat_bool_invisible <no>
+                    uni_sync_skip <1>
+                    mat_bool_invisible <yes>
+                    uni_sync_skip <2>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          sm_enter_paid
+                          mip_action_command <0fx>
+                        uni_end_stream
+                        >
+                    man_end_object
+                  man_end_object
+                  man_update_display
+                man_end_object
+                uni_wait_off
+              uni_end_stream <00x>

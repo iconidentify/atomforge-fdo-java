@@ -1,0 +1,58 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Complex Widget Left">
+    mat_object_id <32-2515>
+    mat_style_id <32-2515>
+    mat_orientation <vft>
+    mat_precise_width <368>
+    mat_precise_height <170>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <345>
+      mat_precise_height <115>
+      mat_font_size <8>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"Secondary Main Form\x7f\x7fsave save top stop send refresh sigma area. new dynamic epsilon active first back\x7f\x7fclose center component center process primary new back. view theta top sub delete secondary epsilon load. process invoke send dynamic delta third front handle. north stop static handle save">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <205>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "OK">
+        mat_title_width <7>
+        mat_precise_x <150>
+        mat_precise_y <135>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

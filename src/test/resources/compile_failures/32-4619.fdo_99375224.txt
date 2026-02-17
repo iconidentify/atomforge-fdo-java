@@ -1,0 +1,977 @@
+uni_start_stream <00x>
+  man_preset_gid <32-4619>
+  if_last_return_true_then <1>
+  man_make_focus
+  man_update_display
+uni_abort_stream
+uni_sync_skip <1>
+var_number_set <B, 0>
+man_set_context_globalid <1>
+var_lookup_by_id <B, 16>
+man_end_context
+if_numb_false_then <2>
+var_number_set <B, 0>
+man_set_context_globalid <1>
+var_lookup_by_id <B, 17>
+man_end_context
+uni_sync_skip <2>
+if_numb_false_then <2>
+man_set_context_globalid <1>
+var_lookup_by_id <B, 19>
+man_end_context
+uni_sync_skip <2>
+man_set_context_globalid <3>
+man_set_context_relative <8>
+var_number_set <A, 0>
+var_number_save <A, 96>
+var_number_set <A, 1>
+var_number_set <C, 1>
+var_lookup_by_id <C, 97>
+man_end_context
+man_end_context
+if_numb_true_then <4>
+var_number_set <A, 0>
+uni_sync_skip <4>
+act_get_db_value <14x, ffx, 03x, 0dx>
+if_last_return_false_then <1>
+var_number_set <A, 0>
+uni_sync_skip <1>
+man_set_context_globalid <53>
+man_start_object <ind_group, "Favoriten">
+  mat_object_id <32-4619>
+  mat_style_id <32-4619>
+  mat_orientation <vff>
+the_unknown <16, 204, 01x>
+  var_number_save <A, 199>
+  mat_width <370>
+  var_number_set <A, 800>
+  man_get_display_characteristics <horzres>
+  var_number_set_from_atom <B>
+  if_numa_eq_numb_then <1, 2>
+  man_get_display_characteristics <height>
+  uni_use_last_atom_value <mat_height>
+  uni_sync_skip <1>
+  man_get_display_characteristics <height, 90>
+  uni_use_last_atom_value <mat_height>
+  uni_sync_skip <2>
+  var_lookup_by_id <A, 199>
+  var_number_get <A>
+  if_numa_true_then <5, 6>
+  mat_title <"Automatische Favoriten & Favoriten von">
+  uni_sync_skip <5>
+  mat_title <"Favoriten von">
+  uni_sync_skip <6>
+  mat_title_append_screen_name <append_with_for>
+  mat_bool_auto_closeable <no>
+  act_set_criterion <9>
+  act_replace_action
+      <
+      uni_start_stream
+        act_get_db_value <14x, ffx, 03x, 0dx>
+        if_last_return_true_then <1>
+        buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+        buf_set_token <"Pu">
+        buf_add_atom_data <1025>
+        buf_close_buffer
+        uni_sync_skip <1>
+      uni_end_stream
+      >
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+          act_get_db_value <14x, ffx, 03x, 0dx>
+          if_last_return_true_then <1>
+          buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+          buf_set_token <"Pu">
+          buf_add_atom_data <1281>
+          buf_close_buffer
+          uni_sync_skip <1>
+        uni_end_stream
+        >
+      act_set_criterion <200>
+      act_replace_action
+          <
+          uni_start_stream
+            man_set_context_relative <1>
+            morg_view_has_mult_selections
+            if_last_return_true_then <1, 2>
+            man_set_context_relative <13>
+            mat_bool_disabled <yes>
+            man_change_context_relative <16>
+            mat_bool_disabled <yes>
+            man_change_context_relative <18>
+            mat_bool_disabled <yes>
+            man_change_context_relative <11>
+            mat_bool_disabled <no>
+            man_end_context
+            uni_sync_skip <1>
+            morg_obj_set_context_selection
+            man_set_context_relative <13>
+            mat_bool_disabled <no>
+            man_change_context_relative <18>
+            morg_obj_can_rename
+            if_last_return_true_then <3, 4>
+            mat_bool_disabled <no>
+            uni_sync_skip <3>
+            mat_bool_disabled <yes>
+            uni_sync_skip <4>
+            man_change_context_relative <16>
+            morg_obj_get_class
+            var_number_set_from_atom <A>
+            var_number_set <B, 2>
+            if_numa_eq_numb_then <3, 4>
+            mat_bool_disabled <no>
+            uni_sync_skip <3>
+            mat_bool_disabled <yes>
+            uni_sync_skip <4>
+            man_change_context_relative <11>
+            morg_obj_can_delete
+            if_last_return_true_then <3, 4>
+            mat_bool_disabled <no>
+            uni_sync_skip <3>
+            mat_bool_disabled <yes>
+            uni_sync_skip <4>
+            man_end_context
+            uni_sync_skip <2>
+            man_end_context
+            man_update_display
+          uni_end_stream
+          >
+        act_set_criterion <201>
+        act_replace_action
+            <
+            uni_start_stream
+              idb_set_context <20-255-486>
+              idb_atr_offset <4>
+              act_get_db_value <14x, ffx, 01x, e6x>
+              if_last_return_false_then <3, 4>
+              man_set_context_relative <1>
+              mat_size <35, 13>
+              mat_bool_invisible <no>
+              mat_bool_disabled <no>
+              man_end_context
+              man_set_context_relative <2>
+              mat_precise_height <1>
+              mat_precise_width <1>
+              mat_bool_invisible <yes>
+              mat_bool_disabled <yes>
+              man_end_context
+              man_set_context_relative <14>
+              mat_bool_disabled <no>
+              man_end_context
+              act_do_action <200>
+              uni_sync_skip <3>
+              async_is_guest
+              if_last_return_true_then <2>
+              man_set_context_relative <1>
+              mat_precise_height <1>
+              mat_precise_width <1>
+              mat_bool_invisible <yes>
+              mat_bool_disabled <yes>
+              man_end_context
+              man_set_context_relative <2>
+              mat_size <35, 15>
+              mat_bool_invisible <no>
+              mat_bool_hidden <no>
+              mat_bool_disabled <no>
+              man_end_context
+              act_do_action <202>
+              uni_sync_skip <3>
+              uni_sync_skip <4>
+              man_update_display
+              idb_end_context
+            uni_end_stream
+            >
+          act_set_criterion <202>
+          act_replace_action
+              <
+              uni_start_stream
+                man_set_context_relative <16>
+                mat_bool_disabled <yes>
+                man_change_context_relative <13>
+                mat_bool_disabled <yes>
+                man_change_context_relative <18>
+                mat_bool_disabled <yes>
+                man_change_context_relative <11>
+                mat_bool_disabled <yes>
+                man_change_context_relative <14>
+                mat_bool_disabled <yes>
+                man_end_context
+                man_update_display
+              uni_end_stream
+              >
+            act_set_criterion <203>
+            act_replace_action
+                <
+                uni_start_stream
+                  man_set_context_relative <1>
+                  mat_bool_invisible <yes>
+                  mat_bool_hidden <yes>
+                  mat_bool_disabled <yes>
+                  man_end_context
+                  man_set_context_relative <99>
+                  mat_bool_invisible <no>
+                  mat_bool_hidden <no>
+                  mat_bool_disabled <no>
+                  man_end_context
+                  act_do_action <202>
+                  man_update_display
+                uni_end_stream
+                >
+              act_set_criterion <204>
+              act_replace_action
+                  <
+                  uni_start_stream
+                    man_set_context_relative <1>
+                    mat_bool_invisible <no>
+                    mat_bool_hidden <no>
+                    mat_bool_disabled <no>
+                    man_end_context
+                    man_set_context_relative <99>
+                    mat_bool_invisible <yes>
+                    mat_bool_hidden <yes>
+                    mat_bool_disabled <yes>
+                    man_end_context
+                    man_set_context_relative <14>
+                    mat_bool_disabled <no>
+                    man_end_context
+                    act_do_action <200>
+                    man_update_display
+                  uni_end_stream
+                  >
+                act_set_criterion <205>
+                act_replace_action
+                    <
+                    uni_start_stream
+                      man_set_context_globalid <3>
+                      man_set_context_relative <8>
+                      var_number_set <A, 1>
+                      var_number_set <B, 1>
+                      var_lookup_by_id <A, 97>
+                      var_lookup_by_id <B, 96>
+                      man_end_context
+                      man_end_context
+                      if_numb_true_then <1, 2>
+                      man_set_context_relative <91>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <93>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <60>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <101>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <92>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <94>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <10>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <10>
+                      var_lookup_by_id <D, 899>
+                      var_number_set <C, 0>
+                      var_number_save <C, 899>
+                      man_end_context
+                      uni_sync_skip <1>
+                      man_set_context_relative <91>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <10>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <93>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <60>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <101>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <92>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <94>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      uni_sync_skip <2>
+                      if_numa_true_then <3, 4>
+                      man_set_context_relative <90>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <89>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      uni_sync_skip <3>
+                      man_set_context_relative <90>
+                      mat_bool_invisible <no>
+                      man_end_context
+                      man_set_context_relative <89>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      man_set_context_relative <91>
+                      mat_bool_invisible <yes>
+                      man_end_context
+                      var_number_set <D, 0>
+                      uni_sync_skip <4>
+                      var_number_get <D>
+                      if_last_return_true_then <7>
+                      man_place_cursor <10>
+                      uni_sync_skip <7>
+                      man_update_display
+                    uni_end_stream
+                    >
+                  act_set_criterion <136>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_set_token <"Ps">
+                        buf_add_atom_data <1025>
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    act_set_criterion <207>
+                    act_replace_action
+                        <
+                        uni_start_stream
+                          sm_send_selection_code <101636>
+                        uni_end_stream
+                        >
+                      act_set_criterion <208>
+                      act_replace_action
+                          <
+                          uni_start_stream
+                            man_set_context_relative <92>
+                            mat_bool_disabled <no>
+                            man_end_context
+                            man_update_display
+                          uni_end_stream
+                          >
+                        mat_horizontal_spacing <0>
+                        mat_vertical_spacing <0>
+                        mat_position <top_right>
+                        mat_bool_background_flood <yes>
+                        var_lookup_by_id <A, 199>
+                        var_number_get <A>
+                        if_numa_true_then <99>
+                        man_start_object <org_group, "">
+                          mat_orientation <vff>
+                          man_start_object <org_group, "">
+                            mat_orientation <hff>
+                            mat_horizontal_spacing <0>
+                            mat_vertical_spacing <0>
+                            man_start_object <org_group, "">
+                              mat_orientation <hff>
+                              mat_precise_width <100>
+                              mat_precise_height <26>
+                              mat_precise_x <0>
+                              mat_precise_y <0>
+                              mat_bool_precise <yes>
+                              mat_color_face <209, 229, 243>
+                              mat_bool_background_flood <yes>
+                              man_start_object <ornament, "">
+                                mat_precise_width <240>
+                                mat_precise_height <26>
+                                mat_precise_x <0>
+                                mat_precise_y <0>
+                                mat_color_face <51, 153, 204>
+                                mat_art_id <1-15-14961>
+                                mat_font_sis <small_fonts, 7, normal>
+                              man_start_sibling <org_group, "">
+                                mat_orientation <hff>
+                                mat_precise_width <2000>
+                                mat_precise_height <26>
+                                mat_precise_x <0>
+                                mat_precise_y <10000>
+                                mat_bool_background_tile <yes>
+                                mat_art_id <1-12-64147>
+                                mat_vertical_spacing <2>
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <vff>
+                              mat_precise_x <0>
+                              mat_precise_y <0>
+                              man_start_object <ornament, "">
+                                mat_bool_hidden <yes>
+                                mat_precise_height <1>
+                                mat_precise_width <1>
+                              man_end_object
+                              man_start_object <org_group, "">
+                                mat_orientation <hcb>
+                                man_start_object <trigger, "Einstellungen">
+                                  mat_context_help <"Einstellungen f�r Automatische Favoriten">
+                                  mat_title_access <"Einstellungen f�r Automatische Favoriten">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                        buf_set_token <"Ps">
+                                        buf_add_atom_data <1281>
+                                        buf_close_buffer
+                                      uni_end_stream
+                                      >
+                                    mat_relative_tag <89>
+                                    mat_vertical_spacing <2>
+                                    mat_horizontal_spacing <3>
+                                    mat_precise_width <85>
+                                    mat_precise_height <20>
+                                    mat_trigger_style <14>
+                                    var_number_get <C>
+                                    if_last_return_false_then <1, 2>
+                                    mat_bool_invisible <yes>
+                                    uni_sync_skip <1>
+                                    mat_bool_invisible <no>
+                                    uni_sync_skip <2>
+                                  man_end_object
+                                  man_start_object <trigger, "Hilfe">
+                                    mat_context_help <"Hilfe">
+                                    mat_title_access <"Hilfe">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on
+                                          if_offline_then <1, 2>
+                                        sm_send_f1 <46-64812>
+                                        uni_wait_off
+                                        uni_sync_skip <1>
+                                      sm_send_f1 <46-64812>
+                                      >
+                                    mat_vertical_spacing <2>
+                                    mat_trigger_style <14>
+                                    mat_precise_width <50>
+                                    mat_precise_height <20>
+                                    mat_precise_y <3>
+                                  man_end_object
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            man_start_object <org_group, "">
+                              mat_orientation <hlf>
+                              mat_precise_width <2000>
+                              mat_precise_height <50>
+                              mat_precise_x <0>
+                              mat_precise_y <0>
+                              mat_color_face <209, 229, 243>
+                              mat_bool_background_flood <yes>
+                              man_start_object <ornament, "">
+                                mat_bool_hidden <yes>
+                                mat_precise_width <1>
+                                mat_precise_height <1>
+                                mat_horizontal_spacing <3>
+                                mat_color_face <0, 96, 159>
+                                mat_orientation <hlf>
+                              man_end_object
+                              man_start_object <org_group, "">
+                                mat_orientation <hff>
+                                mat_horizontal_spacing <0>
+                                mat_vertical_spacing <0>
+                                mat_color_face <209, 229, 243>
+                                mat_bool_background_flood <yes>
+                                man_start_object <view, "">
+                                  rich_manage
+                                  rich_set_static
+                                  mat_width <50>
+                                  mat_height <2>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <yes>
+                                  mat_font_sis <arial, 8, normal>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <90>
+                                  man_append_data <"Hier finden Sie die Seiten, die Sie h�ufig besuchen. <HTML><BR><FONT SIZE=1 PTSIZE=8 FAMILY="SANSSERIF" FACE="Arial" LANG="0"><A TITLE="Klicken Sie hier, um die Einstellungen f�r Automatische Favoriten angezeigt zu bekommen" aolaction=136 >Automatische Favoriten aktivieren</A></FONT></HTML>">
+                                  mat_bool_invisible <yes>
+                                  mat_horizontal_spacing <10>
+                                man_end_object
+                                man_start_object <ornament, "">
+                                  mat_bool_hidden <yes>
+                                  mat_precise_height <1>
+                                  mat_precise_width <5>
+                                man_end_object
+                                man_start_object <org_group, "">
+                                  mat_orientation <vlt>
+                                  man_start_object <ornament, "">
+                                    mat_art_id <1-14-37448>
+                                    mat_precise_height <19>
+                                    mat_precise_width <184>
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_horizontal_spacing <0>
+                                    mat_vertical_spacing <0>
+                                    mat_bool_invisible <yes>
+                                  man_end_object
+                                  man_start_object <view, "">
+                                    rich_manage
+                                    rich_set_static
+                                    mat_width <50>
+                                    mat_height <8>
+                                    mat_bool_resize_vertical <no>
+                                    mat_bool_resize_horizontal <no>
+                                    mat_font_sis <arial, 8, normal>
+                                    mat_bool_vertical_scroll <no>
+                                    mat_relative_tag <91>
+                                    man_append_data <"<HTML>Webseiten, die Sie in ">
+                                    man_append_data <"<B>AOL</B> und im Internet<p>h�ufiger besuchen, werden hier angezeigt.<p>">
+                                    man_append_data <"<p>Die Liste "Automatische Favoriten" wird genauer, je h�ufiger ">
+                                    man_append_data <"Sie surfen.</HTML>">
+                                    mat_bool_invisible <yes>
+                                    mat_horizontal_spacing <0>
+                                  man_end_object
+                                  man_end_context
+                                man_end_object
+                              man_end_object
+                              man_start_object <org_group, "">
+                                mat_orientation <hlf>
+                                man_start_object <ornament, "">
+                                  mat_precise_height <0>
+                                  mat_precise_width <2>
+                                  mat_bool_precise <yes>
+                                man_end_object
+                                man_start_object <org_group, "">
+                                  mat_orientation <vlt>
+                                  mat_frame_style <10>
+                                  man_start_object <21, "TreeCtrl">
+                                    mat_bool_default_send <yes>
+                                    mat_relative_tag <10>
+                                    mat_size <32, 10>
+                                    mat_vertical_spacing <0>
+                                    mat_bool_invisible <yes>
+                                    mat_treectrl_set_class <6>
+the_unknown <16, 194, 01x, 00x, 00x, 78x>
+                                    mat_frame_style <pop_in>
+                                    mat_font_sis <arial, 9, normal>
+                                    mat_bool_resize_horizontal <yes>
+                                    mat_bool_resize_vertical <yes>
+                                    mat_bool_horizontal_scroll <no>
+                                    mat_bool_vertical_scroll <yes>
+                                    mat_bool_background_flood <yes>
+                                    mat_orientation <hff>
+                                  man_end_object
+                                  man_start_object <org_group, "">
+                                    mat_orientation <hcf>
+                                    man_start_object <ornament, "">
+                                      mat_art_id <1-14-37442>
+                                      mat_precise_height <27>
+                                      mat_precise_width <3>
+                                      mat_relative_tag <93>
+                                      mat_font_sis <small_fonts, 7, normal>
+                                      mat_horizontal_spacing <0>
+                                      mat_bool_invisible <yes>
+                                    man_end_object
+                                    man_start_object <org_group, "">
+                                      mat_orientation <hff>
+                                      mat_horizontal_spacing <0>
+                                      mat_bool_resize_horizontal <yes>
+                                      mat_relative_tag <60>
+                                      mat_art_id <1-14-37441>
+                                      mat_bool_background_tile <yes>
+                                      mat_bool_invisible <yes>
+                                      man_start_object <view, "">
+                                        rich_manage
+                                        rich_set_static
+                                        rich_allow_attributes <17>
+                                        mat_bool_importable <no>
+                                        mat_bool_exportable <no>
+                                        mat_precise_width <2000>
+                                        mat_precise_height <20>
+                                        mat_bool_resize_vertical <no>
+                                        mat_font_sis <arial, 8, normal>
+                                        mat_bool_vertical_scroll <no>
+                                        mat_relative_tag <101>
+                                        mat_bool_invisible <yes>
+                                        man_append_data <" <HTML><FONT SIZE=1 PTSIZE=8 FAMILY="SANSSERIF" FACE="Arial" LANG="0"><A HREF="aol://1722:myroutinehelp" >Was sind die Automatischen Favoriten?</A></FONT></HTML>">
+                                      man_end_object
+                                      man_start_object <trigger, "L�schen">
+                                        mat_precise_width <50>
+                                        mat_precise_height <20>
+                                        mat_relative_tag <92>
+                                        mat_trigger_style <14>
+                                        mat_title_access <"Auswahl l�schen">
+                                        mat_font_id <arial>
+                                        mat_orientation <hrf>
+                                        mat_bool_invisible <yes>
+                                        mat_bool_disabled <yes>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                              uni_command <00x, 00x, 20x, 03x, 00x, 00x, 80x, 2cx, 00x>
+                                            uni_end_stream
+                                            >
+                                        man_end_object
+                                      man_end_object
+                                      man_start_object <ornament, "">
+                                        mat_bool_hidden <no>
+                                        mat_precise_height <27>
+                                        mat_precise_width <3>
+                                        mat_relative_tag <94>
+                                        mat_art_id <1-14-37443>
+                                        mat_bool_invisible <yes>
+                                      man_end_object
+                                    man_end_object
+                                  man_end_object
+                                man_end_object
+                              man_end_object
+                              uni_sync_skip <99>
+                              man_start_object <org_group, "">
+                                mat_orientation <hff>
+the_unknown <16, 204, 01x>
+                                man_start_object <org_group, "">
+                                  mat_orientation <hff>
+                                  mat_precise_width <150>
+                                  mat_precise_height <26>
+                                  mat_bool_precise <yes>
+                                  man_start_object <ornament, "">
+                                    mat_precise_y <0>
+                                    mat_precise_x <0>
+                                    mat_precise_width <131>
+                                    mat_precise_height <33>
+                                    mat_color_face <51, 153, 204>
+                                    mat_art_id <1-11-10126>
+                                    mat_bool_disabled <yes>
+                                  man_start_sibling <org_group, "">
+                                    mat_orientation <hff>
+                                    mat_precise_y <10000>
+                                    mat_precise_x <0>
+                                    mat_precise_width <2000>
+                                    mat_precise_height <26>
+                                    mat_bool_background_tile <yes>
+                                    mat_art_id <1-12-64147>
+                                  man_end_object
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <vff>
+                                  mat_precise_x <0>
+                                  mat_precise_y <0>
+                                  man_start_object <ornament, "">
+                                    mat_bool_hidden <yes>
+                                    mat_precise_height <1>
+                                    mat_precise_width <1>
+                                  man_end_object
+                                  man_start_object <org_group, "">
+                                    mat_orientation <hcb>
+                                    man_start_object <trigger, "Hilfe">
+                                      mat_context_help <"Hilfe">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on
+                                            if_offline_then <1, 2>
+                                            uni_wait_off
+                                            uni_sync_skip <1>
+                                          sm_send_f1 <46-64812>
+                                          >
+                                        mat_vertical_spacing <2>
+                                        mat_trigger_style <14>
+                                        mat_precise_width <50>
+                                        mat_precise_height <20>
+                                        mat_precise_y <3>
+                                        mat_bool_draw_focus <yes>
+                                        var_number_get <A>
+                                        if_numa_true_then <1, 2>
+                                        mat_bool_invisible <yes>
+                                        uni_sync_skip <1>
+                                        mat_bool_invisible <no>
+                                        uni_sync_skip <2>
+                                      man_end_object
+                                    man_end_object
+                                  man_end_object
+                                man_start_sibling <ornament, "">
+                                  mat_precise_height <5>
+                                  mat_precise_width <1>
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hrf>
+                                  man_start_object <ornament, "">
+                                    mat_precise_height <0>
+                                    mat_precise_width <1>
+                                  man_end_object
+                                  man_start_object <org_group, "">
+                                    mat_orientation <vff>
+                                    mat_horizontal_spacing <0>
+                                    man_start_object <view, "">
+                                      mat_vertical_spacing <0>
+                                      mat_size <39, 13>
+                                      mat_relative_tag <1>
+                                      mat_frame_style <pop_in>
+                                      morg_manage
+                                      mat_font_sis <arial, 9, normal>
+                                      async_is_known_subaccount
+                                      if_last_return_false_then <3, 4>
+                                      morg_view_path <"%Markierte Services">
+                                      uni_sync_skip <3>
+                                      morg_view_path <"\\Markierte Services">
+                                      uni_sync_skip <4>
+                                      morg_view_include_root <yes>
+                                      act_set_criterion <129>
+                                      act_replace_action
+                                          <
+                                          uni_start_stream
+                                            man_close_update
+                                          uni_end_stream
+                                          >
+                                        act_set_criterion <130>
+                                        act_replace_action
+                                            <
+                                            uni_start_stream
+                                              act_do_action <200>
+                                            uni_end_stream
+                                            >
+                                          mat_bool_writeable <yes>
+                                          act_set_criterion <131>
+                                          act_replace_action
+                                              <
+                                              uni_start_stream
+                                                act_do_action <203>
+                                              uni_end_stream
+                                              >
+                                            act_set_criterion <132>
+                                            act_replace_action
+                                                <
+                                                uni_start_stream
+                                                  act_do_action <204>
+                                                uni_end_stream
+                                                >
+                                            man_end_object
+                                            man_start_object <ornament, "">
+                                              mat_size <50, 13>
+                                              mat_relative_tag <2>
+                                              mat_bool_disabled <yes>
+                                              mat_bool_invisible <yes>
+                                              mat_bool_hidden <yes>
+                                              man_append_data <"Ihre Automatischen Favoriten stehen zurzeit nicht zur Verf�gung.\x7f\x7fIn Ihren Einstellungen haben Sie festgelegt, dass Nutzer, die als Gast angemeldet sind, keinen Zugriff auf Ihre Favoriten haben. Wenn Sie diese Einstellung �ndern m�chten, melden Sie sich erneut an (jedoch nicht als Gast), und gehen Sie zum AOL-Stichwort: Favoriten.">
+                                            man_end_object
+                                            man_start_object <org_group, "">
+                                              mat_orientation <hcf>
+                                              man_start_object <ornament, "">
+                                                mat_art_id <1-14-37442>
+                                                mat_precise_height <27>
+                                                mat_precise_width <3>
+                                                mat_font_sis <small_fonts, 7, normal>
+                                                mat_horizontal_spacing <0>
+                                              man_end_object
+                                              man_start_object <org_group, "">
+                                                mat_orientation <hcf>
+                                                mat_horizontal_spacing <0>
+                                                mat_bool_resize_horizontal <yes>
+                                                mat_relative_tag <60>
+                                                mat_art_id <1-14-37441>
+                                                mat_bool_background_tile <yes>
+                                                man_start_object <trigger, "OK">
+                                                  mat_precise_x <9>
+                                                  mat_precise_width <40>
+                                                  mat_precise_height <22>
+                                                  mat_relative_tag <16>
+                                                  mat_title_access <"OK">
+                                                  mat_horizontal_spacing <2>
+                                                  mat_bool_default <yes>
+the_unknown <16, 204, 00x>
+                                                  mat_trigger_style <14>
+                                                  mat_font_size <9>
+                                                  mat_font_style <bold | 8>
+                                                  mat_font_id <arial>
+                                                  mat_color_top_edge <59, 158, 30>
+                                                  mat_color_bottom_edge <128, 10, 99>
+                                                  mat_color_frame_hilight <35, 117, 153>
+                                                  mat_color_text_shadow <255, 255, 255>
+the_unknown <16, 207, 00x, e5x, f9x, dfx>
+the_unknown <16, 207, 01x, 80x, e2x, 63x>
+the_unknown <16, 207, 02x, ffx, ffx, ffx>
+the_unknown <16, 207, 03x, aex, f8x, 95x>
+the_unknown <16, 207, 04x, 97x, c3x, 91x>
+the_unknown <16, 207, 05x, d7x, fdx, d0x>
+the_unknown <16, 207, 06x, e5x, f9x, dfx>
+the_unknown <16, 207, 07x, 80x, e2x, 63x>
+the_unknown <16, 208, 00x, 00x, 66x, 00x>
+the_unknown <16, 208, 01x, f9x, ffx, f7x>
+the_unknown <16, 208, 02x, 00x, 66x, 00x>
+the_unknown <16, 208, 03x, f9x, ffx, f7x>
+the_unknown <16, 208, 04x, 00x, 66x, 00x>
+the_unknown <16, 208, 05x, f9x, ffx, f7x>
+the_unknown <16, 208, 06x, 8fx, d2x, 83x>
+the_unknown <16, 208, 07x, d0x, fax, c8x>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                        man_set_context_relative <1>
+                                                        morg_jump_bookmark
+                                                        sm_send_selection_code <26648>
+                                                        man_end_context
+                                                      uni_end_stream
+                                                      >
+                                                  man_end_object
+                                                  man_start_object <org_group, "">
+                                                    mat_orientation <hlf>
+                                                    mat_precise_width <205>
+                                                    mat_precise_height <20>
+                                                    mat_bool_precise <yes>
+the_unknown <16, 204, 01x>
+                                                    man_start_object <trigger, "Neu">
+                                                      mat_precise_x <0>
+                                                      mat_precise_width <40>
+                                                      mat_precise_height <22>
+                                                      mat_relative_tag <13>
+                                                      mat_trigger_style <14>
+                                                      mat_title_access <"Favoriten hinzuf�gen">
+                                                      mat_horizontal_spacing <2>
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream <00x>
+                                                            man_preset_gid <41-17465>
+                                                            if_last_return_true_then <1, 2>
+                                                            man_make_focus
+                                                            man_update_display
+                                                            uni_sync_skip <1>
+                                                            uni_wait_on
+                                                            uni_invoke_no_context <41-17465>
+                                                            uni_sync_skip <2>
+                                                          uni_end_stream <00x>
+                                                          >
+                                                      man_start_sibling <trigger, "Bearbeiten">
+                                                        mat_precise_x <46>
+                                                        mat_precise_width <80>
+                                                        mat_precise_height <22>
+                                                        mat_relative_tag <18>
+                                                        mat_trigger_style <14>
+                                                        mat_title_access <"Bearbeiten">
+                                                        mat_horizontal_spacing <2>
+                                                        mat_font_id <arial>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              man_set_context_relative <1>
+                                                              morg_obj_set_context_selection
+                                                              morg_obj_get_class
+                                                              var_number_set_from_atom <A>
+                                                              var_number_set <B, 2>
+                                                              if_numa_eq_numb_then <17, 18>
+                                                              morg_edit_bookmark
+                                                              uni_sync_skip <17>
+                                                              morg_prompt_rename_object
+                                                              uni_sync_skip <18>
+                                                              man_end_context
+                                                            uni_end_stream
+                                                            >
+                                                        man_end_object
+                                                        man_start_object <trigger, "Verwalten">
+                                                          mat_precise_x <132>
+                                                          mat_precise_width <70>
+                                                          mat_precise_height <22>
+                                                          mat_relative_tag <14>
+                                                          mat_trigger_style <14>
+                                                          mat_title_access <"Favoriten verwalten">
+                                                          mat_horizontal_spacing <2>
+                                                          mat_font_id <arial>
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream <00x>
+                                                                man_preset_gid <41-41723>
+                                                                if_last_return_true_then <1, 2>
+                                                                man_make_focus
+                                                                man_update_display
+                                                                uni_sync_skip <1>
+                                                                uni_wait_on
+                                                                uni_invoke_no_context <41-41723>
+                                                                uni_sync_skip <2>
+                                                              uni_end_stream <00x>
+                                                              >
+                                                          man_end_object
+                                                        man_end_object
+                                                        man_start_object <view, "">
+                                                          rich_manage
+                                                          rich_set_static
+                                                          rich_allow_attributes <17>
+                                                          mat_bool_importable <no>
+                                                          mat_bool_exportable <no>
+                                                          mat_precise_width <1500>
+                                                          mat_precise_height <1>
+                                                          mat_bool_resize_vertical <no>
+                                                          mat_font_sis <arial, 8, normal>
+                                                          mat_bool_vertical_scroll <no>
+                                                          mat_relative_tag <101>
+                                                        man_end_object
+                                                        man_start_object <trigger, "L�schen">
+                                                          mat_precise_x <98>
+                                                          mat_precise_width <60>
+                                                          mat_precise_height <22>
+                                                          mat_relative_tag <11>
+                                                          mat_trigger_style <14>
+                                                          mat_title_access <"Favoriten l�schen">
+                                                          mat_horizontal_spacing <0>
+                                                          mat_font_id <arial>
+                                                          mat_bool_disabled <yes>
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                                man_set_context_relative <1>
+                                                                morg_delete_current_object
+                                                                man_end_context
+                                                              uni_end_stream
+                                                              >
+                                                          man_end_object
+                                                        man_end_object
+                                                        man_start_object <ornament, "">
+                                                          mat_bool_hidden <no>
+                                                          mat_precise_height <27>
+                                                          mat_precise_width <3>
+                                                          mat_art_id <1-14-37443>
+                                                        man_end_object
+                                                      man_end_object
+                                                      man_start_object <org_group, "">
+                                                        mat_orientation <hrf>
+                                                        mat_horizontal_spacing <3>
+                                                        man_start_object <ornament, "">
+                                                          mat_size <25, 1>
+                                                          mat_bool_hidden <no>
+                                                          mat_bool_invisible <no>
+                                                          rich_manage
+                                                          mat_font_sis <arial, 8, normal>
+                                                          man_append_data <"<HTML><A HREF="aol://1391:45-29451">Datenschutzrechtlicher Hinweis</A></HTML>">
+                                                        man_end_object
+                                                        man_start_object <ornament, "">
+                                                          mat_relative_tag <19>
+                                                          mat_color_text <255, 255, 255>
+                                                          mat_font_sis <arial, 8, normal>
+                                                          mat_orientation <hrf>
+                                                          mat_art_id <1-11-10125>
+                                                        man_end_object
+                                                      man_end_object
+                                                    man_end_object
+                                                    man_start_object <ornament, "">
+                                                      mat_size <35, 13>
+                                                      mat_color_face <255, 255, 255>
+                                                      mat_relative_tag <99>
+                                                      mat_orientation <hcc>
+                                                      mat_bool_disabled <yes>
+                                                      mat_bool_invisible <yes>
+                                                      mat_bool_hidden <yes>
+                                                      man_append_data <"Favoriten aktualisieren">
+                                                    man_start_sibling <ornament, "">
+                                                      mat_precise_height <5>
+                                                      mat_precise_width <4>
+                                                    man_end_object
+                                                  man_start_sibling <org_group, "">
+                                                    mat_orientation <hff>
+                                                  man_start_sibling <ornament, "">
+                                                    mat_precise_height <2>
+                                                    mat_precise_width <1>
+                                                  man_end_object
+                                                  man_check_and_set_context_rid <10>
+                                                  if_last_return_true_then <2>
+                                                  var_number_set <D, 1>
+                                                  var_number_save <D, 899>
+                                                  man_end_context
+                                                  uni_sync_skip <2>
+                                                  act_do_action <200>
+                                                  uni_sync_skip <48>
+                                                  act_do_action <201>
+                                                  var_number_set <A, 0>
+                                                  man_set_context_globalid <1>
+                                                  var_lookup_by_id <A, 333>
+                                                  man_end_context
+                                                  var_number_get <A>
+                                                  if_numa_eq_one_then <6>
+                                                  act_do_action <203>
+                                                  uni_sync_skip <6>
+                                                  man_end_context
+                                                uni_wait_off_end_stream

@@ -1,0 +1,89 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Master AOL Functions">
+    mat_orientation <hff>
+    man_start_object <ornament, "">
+      mat_relative_tag <15>
+      mat_art_id <1-0-7195>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <30>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Invoke Database Record">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"f1", 0-32-2501>
+            >
+          mat_art_id <1-0-1477>
+        man_start_sibling <trigger, "Delete Database Record">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"f1", 0-32-2502>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "Display Art Record">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"f1", 0-32-2557>
+                >
+              mat_art_id <1-0-1477>
+            man_start_sibling <trigger, "Set Network Address">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"f1", 0-32-478>
+                  >
+                mat_art_id <1-0-1477>
+              man_start_sibling <trigger, "Set Version Number">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"f1", 0-32-2411>
+                    >
+                  mat_art_id <1-0-1477>
+                man_start_sibling <trigger, "Set Promo Code">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"f1", 0-32-4603>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_start_sibling <trigger, "Erase Account Info">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"f1", 0-32-503>
+                        >
+                      mat_art_id <1-0-1477>
+                    man_start_sibling <trigger, "Set Affinity Group">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"f1", 0-32-1640>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "Set FlashSession Minute">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"f1", 0-32-2539>
+                            >
+                          mat_art_id <1-0-1477>
+                        man_start_sibling <trigger, "Proxy Configuration">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"f1", 0-32-4674>
+                              >
+                            mat_art_id <1-0-1477>
+                          man_end_object
+                        man_end_object
+                      hfs_attr_end_object
+                    man_update_woff_end_stream

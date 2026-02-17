@@ -1,0 +1,118 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Sub Delta Sigma">
+    mat_object_id <32-2557>
+    mat_style_id <32-2557>
+    mat_orientation <vcf>
+    mat_bool_background_flood <yes>
+    mat_color_face <220, 220, 220>
+    mat_position <center_center>
+    man_start_object <ornament, "">
+      mat_relative_tag <2>
+      mat_art_id <1-12-59975>
+      mat_art_animation_rate <150>
+      mat_bool_disabled <yes>
+    man_start_sibling <edit_view, "Advanced Right West">
+      mat_size <25, 1>
+      mat_relative_tag <1>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_exportable <no>
+      mat_bool_importable <no>
+    man_start_sibling <select_range, "">
+      mat_relative_tag <12>
+      mat_title <"New Box Back">
+      mat_title_pos <left | center>
+      mat_minimum <1>
+      mat_maximum <1000>
+      mat_increment <5>
+    man_start_sibling <ornament, "">
+      mat_height <1>
+    man_start_sibling <trigger, "Custom East Widget">
+the_unknown <16, 204, 01x>
+      mat_trigger_style <14>
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream
+            man_set_context_relative <2>
+            mat_bool_invisible <yes>
+            man_end_context
+            man_update_display
+            de_start_extraction <0>
+            man_set_context_relative <1>
+            de_get_data_pointer
+            uni_use_last_atom_string <mt_string_to_gid>
+            uni_save_result
+            man_end_context
+            uni_get_result
+            uni_use_last_atom_value <idb_exists>
+            if_last_return_false_then <1, 2>
+            async_alert <info, "main advanced load frame execute close open dynamic. refresh update view area second front primary component. load">
+            uni_sync_skip <1>
+            man_set_context_relative <12>
+            de_start_extraction
+            de_get_data_value
+            var_number_set_from_atom <A>
+            de_end_extraction
+            man_end_context
+            man_set_context_relative <2>
+            mat_bool_invisible <no>
+            uni_get_result
+            uni_use_last_atom_value <mat_art_id>
+            var_number_get <A>
+            uni_use_last_atom_value <mat_art_animation_rate>
+            man_update_display
+            man_update_display
+            man_end_context
+            uni_sync_skip <2>
+            de_end_extraction
+          uni_end_stream
+          >
+      man_start_sibling <trigger, "Active South Front">
+the_unknown <16, 204, 01x>
+        mat_trigger_style <14>
+        if_offline_then <1>
+        mat_bool_disabled <yes>
+        uni_sync_skip <1>
+        act_replace_select_action
+            <
+            uni_start_stream
+              async_alert <info, "Main Zone Button">
+              man_set_context_relative <2>
+              mat_bool_invisible <yes>
+              man_end_context
+              man_update_display
+              de_start_extraction <0>
+              man_set_context_relative <1>
+              de_get_data_pointer
+              uni_use_last_atom_string <mt_string_to_gid>
+              uni_save_result
+              man_end_context
+              uni_get_result
+              uni_use_last_atom_value <idb_delete_obj>
+              man_set_context_relative <12>
+              de_start_extraction
+              de_get_data_value
+              var_number_set_from_atom <A>
+              de_end_extraction
+              man_end_context
+              man_set_context_relative <2>
+              mat_bool_invisible <no>
+              uni_get_result
+              uni_use_last_atom_value <mat_art_id>
+              var_number_get <A>
+              uni_use_last_atom_value <mat_art_animation_rate>
+              man_update_display
+              man_update_display
+              man_end_context
+              de_end_extraction
+            uni_end_stream
+            >
+        man_end_object
+        man_update_display
+        man_set_context_relative <12>
+        mat_value <150>
+        man_end_context
+        man_update_display
+        uni_wait_off
+      uni_end_stream <00x>

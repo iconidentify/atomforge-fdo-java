@@ -1,0 +1,67 @@
+uni_start_stream
+  man_start_object <ind_group, "AARP">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+        man_append_data <"American Association of Retired Persons(AARP)\r">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE></P><P ALIGN=CENTER><B>AARP  American A">
+    man_append_data <"ssociation of Retired Persons </B>\x7f</P><P ALIGN=LE">
+    man_append_data <"FT>\x7fThe American Association of Retired Persons ha">
+    man_append_data <"s a membership of over 34 million members. They ha">
+    man_append_data <"ve a public area online which can be located by us">
+    man_append_data <"ing the keyword AARP. This organization is a nonpr">
+    man_append_data <"ofit, non partisan group dedicated to helping work">
+    man_append_data <"ing and retired Americans over the age of 50, achi">
+    man_append_data <"eve lives of independence, dignity and purpose.\x7f\x7fP">
+    man_append_data <"RICING RATE  $8.95/5/$2.95\x7f\x7fACTION NEEDED\x7f\x7fInstruc">
+    man_append_data <"tions for requesting the AARP discount rate are on">
+    man_append_data <"line.  Member may use the keyword AARP and then se">
+    man_append_data <"lect AOL Discount For AARP Members from the list b">
+    man_append_data <"ox on the left.\x7f\x7fThe Customer must send e-mail to ">
+    man_append_data <"the screen name <B>AARP2 </B>requesting the lower ">
+    man_append_data <"rate and addition to the AARP affinity group. The ">
+    man_append_data <"member needs to include: \x7f\x7f</P><P ALIGN=CENTER>AAR">
+    man_append_data <"P MEMBERSHIP NUMBER\x7fREAL NAME                     ">
+    man_append_data <"       \x7fADDRESS                               \x7fARE">
+    man_append_data <"A CODE                            \x7fPHONE NUMBER.  ">
+    man_append_data <"                  \x7f</P><P ALIGN=LEFT>\x7fIt may take ">
+    man_append_data <"up to 3 weeks in order to complete processing the ">
+    man_append_data <"necssary changes to the member's account.\x7f\x7fNon Mem">
+    man_append_data <"bers: Reps may order the software using the promo ">
+    man_append_data <"code 4773.\x7f\x7fNOTE  The affinity group number is 73.">
+    man_append_data <" An AARP member can call us to order the software ">
+    man_append_data <"using 800/827-9948. When a call somes through to A">
+    man_append_data <"OL using that 800 number, you will hear a welcome ">
+    man_append_data <"to AARP Online announcement.  The price index for ">
+    man_append_data <"AARP members is 94, however a rep should not make ">
+    man_append_data <"this billing change per phone call or email\x7f\x7fTrans">
+    man_append_data <"mitted: 01/16/97 12:03</PRE></HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

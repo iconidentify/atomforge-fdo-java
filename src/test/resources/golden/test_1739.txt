@@ -1,0 +1,94 @@
+uni_start_stream
+  man_start_object <ind_group, "Renewal/Termination">
+    mat_orientation <vft>
+    mat_color_face <72, 36, 170>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_relative_tag <15>
+        mat_art_id <1-0-11333>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Renewal/Termination">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <68>
+      mat_height <11>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Renewal/Termination Instructions">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U1", 0-81-1019>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Mutual Termination Agreement">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U1", 0-81-366>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Version 7.0 Addendum">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-81-1021>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Extension Amendment">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-81-1022>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "Launch Date Notification Letter">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U1", 0-81-7808>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "Termination Letter">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U1", 0-81-8723>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "Reservation of Rights Letter">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U1", 0-81-1063>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_end_object
+                  man_start_sibling <org_group, "">
+                    mat_orientation <hef>
+                    mat_vertical_spacing <2>
+                    man_start_object <trigger, "Open">
+                      act_replace_select_action
+                          <
+                          uni_start_stream <00x>
+                          sm_do_list_action <30>
+                          >
+                        mat_font_sis <system, 12, normal>
+                        mat_bool_default <yes>
+                      man_start_sibling <trigger, "More">
+                        mat_bool_disabled <yes>
+                        mat_relative_tag <26>
+                        mat_font_sis <system, 12, normal>
+                      man_end_object
+                    man_end_object
+                    man_update_display
+                  man_update_woff_end_stream

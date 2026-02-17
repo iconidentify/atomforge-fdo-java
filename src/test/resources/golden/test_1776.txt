@@ -1,0 +1,252 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL Radio Field Test Application">
+    mat_orientation <vff>
+    mat_precise_width <525>
+    mat_precise_height <291>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-62589>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "AOL Radio Field Test Application">
+      mat_width <32>
+      mat_height <1>
+      mat_precise_x <38>
+      mat_precise_y <6>
+      mat_font_sis <arial, 14, bold>
+      mat_orientation <hcc>
+    man_start_sibling <ornament, "First Name:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <8>
+      mat_precise_y <43>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <8>
+      mat_precise_y <64>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <1>
+    man_start_sibling <ornament, "Last Name:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <217>
+      mat_precise_y <43>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <217>
+      mat_precise_y <64>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_relative_tag <2>
+    man_start_sibling <ornament, "Memory (RAM):">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <360>
+      mat_precise_y <97>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Processor Type:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <190>
+      mat_precise_y <98>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Pricing Plan:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <8>
+      mat_precise_y <97>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <3>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <8>
+      mat_precise_y <116>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Choose One...">
+      man_start_sibling <trigger, "Unlimited">
+      man_start_sibling <trigger, "Hourly">
+      man_start_sibling <trigger, "Light Usage">
+      man_start_sibling <trigger, "Bring Your Own Access">
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <4>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <190>
+      mat_precise_y <117>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Choose One...">
+      man_start_sibling <trigger, "Pentium">
+      man_start_sibling <trigger, "80486 (any)">
+      man_start_sibling <trigger, "Other">
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <5>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <360>
+      mat_precise_y <116>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Choose One...">
+      man_start_sibling <trigger, "4-7 Megs">
+      man_start_sibling <trigger, "8-15 Megs">
+      man_start_sibling <trigger, "16-31 Megs">
+      man_start_sibling <trigger, "32 Megs and Up">
+      man_end_object
+    man_start_sibling <ornament, "Operating System:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <8>
+      mat_precise_y <152>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <6>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <8>
+      mat_precise_y <171>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Choose One...">
+      man_start_sibling <trigger, "Win 95">
+      man_start_sibling <trigger, "Win 3.1">
+      man_start_sibling <trigger, "Other">
+      man_end_object
+    man_start_sibling <ornament, "Modem Speed:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <190>
+      mat_precise_y <152>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <7>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <190>
+      mat_precise_y <171>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Choose One...">
+      man_start_sibling <trigger, "14.4">
+      man_start_sibling <trigger, "28.8">
+      man_start_sibling <trigger, "33.6">
+      man_start_sibling <trigger, "57.6">
+      man_start_sibling <trigger, "Other">
+      man_end_object
+    man_start_sibling <ornament, "Sound Card:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <361>
+      mat_precise_y <151>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <8>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <361>
+      mat_precise_y <171>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Choose One...">
+      man_start_sibling <trigger, "SoundBlaster 16">
+      man_start_sibling <trigger, "SoundBlaster Pro">
+      man_start_sibling <trigger, "SoundBlaster AWE 32">
+      man_start_sibling <trigger, "SoundBlaster P-N-P">
+      man_start_sibling <trigger, "PackardBell">
+      man_start_sibling <trigger, "Compaq">
+      man_start_sibling <trigger, "IBM Thinkpad (MWAV)">
+      man_start_sibling <trigger, "Not Sure">
+      man_start_sibling <trigger, "Other (Please Specify Below)">
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_width <60>
+      mat_height <2>
+      mat_precise_x <8>
+      mat_precise_y <204>
+      mat_font_sis <arial, 9, bold>
+      man_append_data <"If you have an unlisted sound card, please let us ">
+      man_append_data <"know what kind it is.  Also please feel free to te">
+      man_append_data <"ll us anything unique about your computer system.">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_width <40>
+      mat_height <2>
+      mat_precise_x <8>
+      mat_precise_y <240>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <11>
+    man_start_sibling <trigger, "Send">
+      act_replace_select_action
+          <
+          uni_start_stream
+            uni_wait_on
+            de_validate <display_msg | terminate>
+            de_start_extraction <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+            buf_set_token <"ef">
+            de_get_data <default>
+            buf_set_data_atom <de_custom_data>
+            buf_add_atom_data <6531>
+            de_end_extraction
+            buf_close_buffer
+            man_close_update
+          uni_end_stream
+          >
+        mat_font_sis <system, 12, normal>
+        mat_precise_x <454>
+        mat_precise_y <248>
+      man_start_sibling <ornament, "Coming Soon">
+        mat_width <11>
+        mat_height <1>
+        mat_precise_x <212>
+        mat_precise_y <25>
+        mat_font_sis <arial, 10, bold>
+        mat_orientation <hcc>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

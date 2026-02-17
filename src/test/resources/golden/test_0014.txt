@@ -1,0 +1,23 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Standard Beta Left">
+    mat_object_id <32-136>
+    mat_orientation <vcf>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 4>
+      mat_relative_tag <1>
+      man_append_data <"active current area start send update back main. current refresh update secondary first sigma zone process.">
+      man_append_data <"old button execute custom create west epsilon north. epsilon omega">
+    man_start_sibling <trigger, "OK">
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream <00x>
+            man_close_update
+          uni_end_stream <00x>
+          >
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

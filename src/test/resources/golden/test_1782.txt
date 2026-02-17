@@ -1,0 +1,238 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "Miscellaneous">
+    mat_orientation <vff>
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+        sm_send_token_arg <"uB", 0-0-2685>
+        >
+      man_start_object <dss_list, "\tUpld\tSubject\t\tCount\tDownload">
+        mat_width <72>
+        mat_height <12>
+        mat_vertical_spacing <2>
+        mat_bool_default_send <no>
+        mat_relative_tag <7>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 9, normal>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_list_var <"mF", 0-0-7>
+            >
+          mat_sort_order <normal>
+          mat_ruler <3, 3, 10, 45, 57, 64, 71>
+          man_start_object <trigger, "\t09/04/97\tQ&A Folder\t\t9\t10/30/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t08/28/97\tCLO Meeting, August 28th, 1997\t\t44\t01/07/98">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t08/17/97\tPRIMAL SCREAM 7/23-8/16/97\t\t7\t12/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t08/08/97\tAnnouncements Discussion Folder\t\t29\t10/30/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/29/97\tMeeting with Stu, 5/28\t\t78\t11/13/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/23/97\t05/21/97 New Guide Training (PM)\t\t43\t10/10/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/23/97\t05/18/97 New Guide Training (PM)\t\t46\t08/17/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/19/97\tAm class 5-18 KO\t\t19\t08/15/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/14/97\tAM class 5-12 Bashing and PC flo\t\t17\t09/06/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/14/97\t05/11/97 New Guide Training (PM)\t\t26\t10/24/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/14/97\t05/11/97 New Guide Training (PM)\t\t23\t09/13/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/12/97\tFloat with Jeweled and Kathi\t\t13\t08/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/09/97\t05/05/97 LN New Guide Training\t\t14\t09/13/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/09/97\t05/07/97 New Guide Training (PM)\t\t17\t08/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/09/97\tHelp/Trblshooting AM class 5-7\t\t9\t08/17/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/09/97\t05/05/97 New Guide Training (PM)\t\t17\t08/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/05/97\t04/28/97 LN New Guide Training\t\t13\t08/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/05/97\t04/27/97 LN New Guide Training\t\t9\t08/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/05/97\t04/30/97 LN New Guide Training\t\t14\t08/21/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/04/97\t04/30/97 New Guide Training (PM)\t\t29\t10/16/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+          man_start_object <trigger, "\t05/01/97\t04/28/97 New Guide Training (PM)\t\t21\t11/15/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+        man_end_object
+        man_start_object <org_group, "">
+          mat_orientation <hee>
+          man_start_object <trigger, "Read Description">
+            mat_relative_tag <1>
+            mat_shortcut_key <"@">
+            mat_title_pos <below | center>
+            mat_title_width <10>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_send_list_var <"mF", 0-0-7>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-1467>
+              mat_bool_default <yes>
+            man_end_object
+            man_start_object <trigger, "Download Now">
+              mat_relative_tag <2>
+              mat_shortcut_key <"@">
+              mat_title_pos <below | center>
+              mat_title_width <10>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_send_list_var <"mD", 0-0-7>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-1292>
+              man_end_object
+              man_start_object <trigger, "Download Later">
+                mat_relative_tag <3>
+                mat_shortcut_key <"@">
+                mat_title_pos <below | center>
+                mat_title_width <10>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_send_list_var <"mq", 0-0-7>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_art_id <1-0-1288>
+                man_end_object
+                man_start_object <trigger, "Upload">
+                  mat_relative_tag <4>
+                  mat_shortcut_key <"@">
+                  mat_title_pos <below | center>
+                  mat_title_width <10>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_send_token_arg <"es", 0-0-2685>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_art_id <1-0-1310>
+                  man_end_object
+                  man_start_object <trigger, "List More Files">
+                    mat_relative_tag <5>
+                    mat_shortcut_key <"@">
+                    mat_title_pos <below | center>
+                    mat_title_width <10>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_send_token_arg <"mM", 0-0-2685>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_art_id <1-0-1326>
+                    man_end_object
+                    man_start_object <trigger, "View">
+                      mat_bool_disabled <yes>
+                      mat_bool_invisible <yes>
+                      mat_relative_tag <6>
+                      mat_shortcut_key <"@">
+                      mat_title_pos <below | center>
+                      mat_title_width <10>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_send_list_var <"vD", 0-0-7>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_art_id <1-0-1292>
+                      man_end_object
+                    man_end_object
+                    man_start_object <org_group, "">
+                      mat_orientation <hee>
+                      mat_bool_resize_vertical <yes>
+                      man_start_object <dss_list, "Sort Order:">
+                        mat_width <17>
+                        mat_height <1>
+                        mat_bool_resize_horizontal <no>
+                        mat_relative_tag <10>
+                        mat_title_pos <left | top_or_left>
+                        mat_font_sis <arial, 9, normal>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              de_start_extraction <0>
+                              de_set_data_type <index>
+                              de_get_data_value
+                              uni_save_result
+                              de_end_extraction
+                              uni_get_result
+                              var_number_set_from_atom <A>
+                              var_lookup_by_id <B, 192>
+                              if_numa_neq_numb_then <1>
+                              var_number_get <A>
+                              var_number_save <A, 192>
+                            sm_do_list_action <10>
+                            >
+                          mat_sort_order <normal>
+                          man_start_object <trigger, "Upload Date">
+                            mat_relative_tag <11>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_send_token_arg <"*B", 0-0-26858>
+                                >
+                            man_end_object
+                            man_start_object <trigger, "Subject">
+                              mat_relative_tag <12>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_send_token_arg <"*B", 0-0-26856>
+                                  >
+                              man_end_object
+                              man_start_object <trigger, "Download Count">
+                                mat_relative_tag <13>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_send_token_arg <"*B", 0-0-26853>
+                                    >
+                                man_end_object
+                                man_start_object <trigger, "Download Date">
+                                  mat_relative_tag <14>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_send_token_arg <"*B", 0-0-26851>
+                                      >
+                                  man_end_object
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            man_update_display
+                            uni_wait_off
+                          uni_end_stream

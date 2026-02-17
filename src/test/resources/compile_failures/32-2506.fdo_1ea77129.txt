@@ -1,0 +1,500 @@
+uni_start_stream <00x>
+  man_set_response_id <2099658>
+  idb_set_context <20-0-16>
+  idb_atr_offset <1>
+  idb_get_string
+  var_string_set_from_atom <A>
+  var_string_set <B,"Nouveau   ">
+  idb_end_context
+  if_stra_eq_strb_then <10, 99>
+  async_alert <info, "Vous devez enregistrer un compte pour utiliser cette fonction !">
+  uni_sync_skip <10>
+  man_start_object <ind_group, "Automatic AOL">
+    mat_object_id <32-7737>
+    mat_style_id <32-7737>
+    sm_set_plus_group <45x, b1x>
+    mat_orientation <vff>
+    mat_color_face <255, 255, 255>
+    mat_object_id <32-2506>
+    mat_style_id <32-2506>
+    mat_title <"Sessions Express">
+    act_set_criterion <131>
+    act_replace_action
+        <
+        uni_start_stream
+          man_set_context_relative <20>
+          idb_set_context <20-0-55>
+          idb_atr_offset <0>
+          idb_get_value <04x>
+          if_last_return_true_then <1, 2>
+          mat_title <"(Sessions planifi�es)">
+          uni_sync_skip <1>
+          mat_title <"(Aucune Session planifi�e)">
+          uni_sync_skip <2>
+          idb_end_context
+          man_update_display
+          man_end_context
+        uni_end_stream
+        >
+      mat_position <center_center>
+      mat_bool_resize_vertical <no>
+      mat_bool_background_flood <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <625>
+        mat_precise_height <15>
+        mat_vertical_spacing <5>
+        mat_precise_height <10>
+        mat_vertical_spacing <3>
+        mat_bool_precise <yes>
+      man_start_sibling <org_group, "">
+        mat_orientation <hfb>
+        mat_vertical_spacing <10>
+        man_start_object <org_group, "">
+          mat_orientation <hff>
+          man_start_object <trigger, "Select\rNames">
+            mat_color_face <204, 204, 255>
+            mat_color_top_edge <255, 255, 255>
+            mat_color_bottom_edge <153, 153, 204>
+            mat_title <"  S�lectionner des pseudos  ">
+            mat_font_sis <arial, 9, bold>
+            mat_horizontal_spacing <3>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_preset_gid <32-2164>
+                  if_last_return_true_then <1, 2>
+                  man_make_focus
+                  man_update_display
+                  uni_sync_skip <1>
+                  uni_wait_on
+                  uni_invoke_no_context <32-2164>
+                  uni_sync_skip <2>
+                uni_end_stream <00x>
+                >
+            man_start_sibling <trigger, "Schedule\rAutomatic\rAOL">
+              mat_color_face <204, 204, 255>
+              mat_color_top_edge <255, 255, 255>
+              mat_color_bottom_edge <153, 153, 204>
+              mat_title <"  Planifier des Sessions Express  ">
+              mat_font_sis <arial, 9, bold>
+              mat_font_id <arial>
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    man_preset_gid <32-2101>
+                    if_last_return_true_then <1, 2>
+                    man_make_focus
+                    man_update_display
+                    uni_sync_skip <1>
+                    uni_wait_on
+                    uni_invoke_no_context <32-2101>
+                    uni_sync_skip <2>
+                  uni_end_stream <00x>
+                  >
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <hfb>
+              man_start_object <trigger, "Walk Me\rThrough">
+                mat_color_face <204, 204, 255>
+                mat_color_top_edge <255, 255, 255>
+                mat_color_bottom_edge <153, 153, 204>
+                mat_title <"  Visite guid�e  ">
+                mat_font_sis <arial, 7, normal>
+                mat_font_id <arial>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_close_update
+                      uni_invoke_no_context <32-2507>
+                    uni_end_stream
+                    >
+                man_start_sibling <trigger, "Aide">
+                  mat_color_face <204, 204, 255>
+                  mat_color_top_edge <255, 255, 255>
+                  mat_color_bottom_edge <153, 153, 204>
+                  mat_font_sis <arial, 7, normal>
+                  mat_title <"  Aide  ">
+                  mat_font_id <arial>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on
+                        async_exec_context_help <53x, 65x, 73x, 73x, 69x, 6fx, 6ex, 73x, 20x, 45x, 78x, 70x, 72x, 65x, 73x, 73x>
+                      uni_wait_off_end_stream
+                      >
+                  man_end_object
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <hff>
+                mat_precise_width <625>
+                mat_precise_height <15>
+                mat_vertical_spacing <5>
+                mat_precise_height <10>
+                mat_vertical_spacing <3>
+                mat_bool_precise <yes>
+              man_start_sibling <org_group, "">
+                mat_orientation <hfb>
+                mat_vertical_spacing <0>
+                man_start_object <ornament, "">
+                  mat_size <30, 1>
+                  mat_font_sis <arial, 14, bold>
+                  mat_vertical_spacing <0>
+                  man_append_data <"Configurer les Sessions Express">
+                man_start_sibling <ornament, "">
+                  mat_title_width <16>
+                  mat_size <20, 1>
+                  mat_relative_tag <20>
+                  idb_set_context <20-0-55>
+                  idb_atr_offset <0>
+                  idb_get_value <04x>
+                  if_last_return_true_then <1, 2>
+                  mat_title <"(Sessions planifi�es)">
+                  uni_sync_skip <1>
+                  mat_title <"(Aucune Session planifi�e)">
+                  uni_sync_skip <2>
+                  idb_end_context
+                  mat_vertical_spacing <0>
+                  mat_font_id <arial>
+                  mat_font_size <9>
+                  mat_font_style <bold | italic>
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <hff>
+                mat_precise_width <625>
+                mat_precise_height <1>
+                mat_color_face <0, 0, 1>
+                mat_bool_background_flood <yes>
+                mat_color_face <0, 0, 1>
+                mat_vertical_spacing <5>
+                mat_precise_height <1>
+                mat_vertical_spacing <3>
+                mat_bool_precise <yes>
+                mat_bool_background_flood <yes>
+              man_start_sibling <org_group, "">
+                mat_orientation <hff>
+                mat_precise_width <625>
+                mat_precise_height <15>
+                mat_vertical_spacing <5>
+                mat_precise_height <5>
+                mat_vertical_spacing <3>
+                mat_bool_precise <yes>
+              man_start_sibling <org_group, "">
+                mat_orientation <hff>
+                mat_precise_width <630>
+                mat_precise_height <95>
+                mat_bool_precise <yes>
+                man_start_object <org_group, "">
+                  mat_orientation <vff>
+                  mat_precise_width <350>
+                  mat_precise_height <85>
+                  man_start_object <sms_list, "">
+                    mat_orientation <hff>
+                    mat_precise_width <320>
+                    mat_precise_height <23>
+                    man_start_object <trigger, "Send mail from the "Mail Waiting to be Sent" folder">
+                      mat_precise_width <300>
+                      mat_precise_height <23>
+                      mat_relative_tag <3>
+                      mat_title <"Envoyer les e-mails en attente">
+                      mat_font_sis <arial, 9, bold>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            de_start_extraction
+                            man_set_context_relative <3>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-59>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_end_context
+                            de_end_extraction
+                          uni_end_stream
+                          >
+                        mat_bool_default_send <no>
+                      man_end_object
+                    man_start_sibling <sms_list, "">
+                      mat_orientation <hff>
+                      mat_precise_y <23>
+                      mat_precise_width <350>
+                      mat_precise_height <25>
+                      man_start_object <trigger, "Get unread mail and put it in "Incoming Mail" folder">
+                        mat_precise_y <25>
+                        mat_precise_width <300>
+                        mat_precise_height <23>
+                        mat_relative_tag <1>
+                        mat_title <"Placer les e-mails non lus dans le dossier">
+                        mat_font_sis <arial, 9, bold>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              man_set_context_relative <1>
+                              de_start_extraction
+                              de_get_data_value
+                              uni_save_result
+                              man_change_context_relative <2>
+                              uni_get_result
+                              if_last_return_true_then <1, 2>
+                              mat_bool_disabled <no>
+                              uni_sync_skip <1>
+                              mat_bool_disabled <yes>
+                              mat_value <0>
+                              idb_start_obj <"b">
+                              idb_atr_globalid <20-0-58>
+                              idb_append_data <00x, 00x, 00x, 00x>
+                              idb_end_obj
+                              uni_sync_skip <2>
+                              man_end_context
+                              man_update_display
+                              idb_start_obj <"b">
+                              idb_atr_globalid <20-0-57>
+                              uni_get_result
+                              uni_use_last_atom_value <idb_append_data>
+                              idb_end_obj
+                              de_end_extraction
+                            uni_end_stream
+                            >
+                          mat_bool_default_send <no>
+                        man_end_object
+                      man_start_sibling <ornament, "">
+                        mat_precise_x <15>
+                        mat_precise_y <45>
+                        mat_precise_width <250>
+                        mat_precise_height <23>
+                        mat_relative_tag <16>
+                        mat_font_sis <arial, 9, bold>
+                        man_append_data <""Courrier retir� en Express"\x7f">
+                      man_start_sibling <sms_list, "">
+                        mat_orientation <hcf>
+                        mat_precise_y <25>
+                        mat_precise_width <300>
+                        mat_precise_height <25>
+                        man_start_object <trigger, "Download files that are attached to unread mail*">
+                          mat_precise_x <15>
+                          mat_precise_y <65>
+                          mat_precise_width <305>
+                          mat_precise_height <25>
+                          mat_relative_tag <2>
+                          mat_title <"T�l�charger les fichiers joints aux e-mails non lus*">
+                          mat_font_sis <arial, 9, bold>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                de_start_extraction
+                                man_set_context_relative <2>
+                                idb_start_obj <"b">
+                                idb_atr_globalid <20-0-58>
+                                de_get_data_value
+                                uni_use_last_atom_value <idb_append_data>
+                                idb_end_obj
+                                man_end_context
+                                de_end_extraction
+                              uni_end_stream
+                              >
+                            mat_bool_default_send <no>
+                          man_end_object
+                        man_end_object
+                      man_start_sibling <org_group, "">
+                        mat_orientation <vff>
+                        mat_precise_x <380>
+                        mat_precise_width <300>
+                        mat_precise_height <85>
+                        man_start_object <sms_list, "">
+                          mat_orientation <hff>
+                          mat_precise_x <380>
+                          mat_precise_width <230>
+                          mat_precise_height <25>
+                          man_start_object <trigger, "Send postings from the "Postings Waiting to be Sent" folder">
+                            mat_precise_x <380>
+                            mat_precise_width <230>
+                            mat_precise_height <23>
+                            mat_relative_tag <6>
+                            mat_title <"Envoyer les messages en attente">
+                            mat_font_sis <arial, 9, bold>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  de_start_extraction
+                                  man_set_context_relative <6>
+                                  idb_start_obj <"b">
+                                  idb_atr_globalid <20-0-85>
+                                  de_get_data_value
+                                  uni_use_last_atom_value <idb_append_data>
+                                  idb_end_obj
+                                  man_end_context
+                                  de_end_extraction
+                                uni_end_stream
+                                >
+                              mat_vertical_spacing <6>
+                              mat_bool_default_send <no>
+                            man_end_object
+                          man_start_sibling <sms_list, "">
+                            mat_orientation <hff>
+                            mat_precise_x <380>
+                            mat_precise_y <25>
+                            mat_precise_width <230>
+                            mat_precise_height <23>
+                            man_start_object <trigger, "Get unread postings">
+                              mat_precise_x <380>
+                              mat_precise_y <25>
+                              mat_precise_width <230>
+                              mat_precise_height <23>
+                              mat_relative_tag <5>
+                              mat_title <"Placer les messages non lus dans le">
+                              mat_font_sis <arial, 9, bold>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    de_start_extraction
+                                    man_set_context_relative <5>
+                                    idb_start_obj <"b">
+                                    idb_atr_globalid <20-0-84>
+                                    de_get_data_value
+                                    uni_use_last_atom_value <idb_append_data>
+                                    idb_end_obj
+                                    man_end_context
+                                    de_end_extraction
+                                  uni_end_stream
+                                  >
+                                mat_bool_default_send <no>
+                              man_end_object
+                            man_start_sibling <ornament, "">
+                              mat_precise_x <395>
+                              mat_precise_y <45>
+                              mat_precise_width <250>
+                              mat_precise_height <23>
+                              mat_relative_tag <17>
+                              mat_font_sis <arial, 9, bold>
+                              man_append_data <"dossier "Messages retir�s en Express"\x7f">
+                            man_start_sibling <sms_list, "">
+                              mat_orientation <hff>
+                              mat_precise_x <25>
+                              mat_precise_y <70>
+                              mat_precise_width <250>
+                              mat_precise_height <23>
+                              man_start_object <trigger, "Download files marked to be downloaded later*">
+                                mat_precise_x <380>
+                                mat_precise_y <65>
+                                mat_precise_width <230>
+                                mat_precise_height <23>
+                                mat_relative_tag <4>
+                                mat_title <"T�l�charger les fichiers s�lectionn�s*">
+                                mat_font_sis <arial, 9, bold>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      de_start_extraction
+                                      man_set_context_relative <4>
+                                      idb_start_obj <"b">
+                                      idb_atr_globalid <20-0-60>
+                                      de_get_data_value
+                                      uni_use_last_atom_value <idb_append_data>
+                                      idb_end_obj
+                                      man_end_context
+                                      de_end_extraction
+                                    uni_end_stream
+                                    >
+                                  mat_bool_default_send <no>
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hff>
+                            mat_precise_width <625>
+                            mat_precise_height <1>
+                            mat_bool_background_flood <yes>
+                            mat_color_face <0, 0, 1>
+                            mat_vertical_spacing <5>
+                            mat_precise_height <1>
+                            mat_vertical_spacing <3>
+                            mat_bool_precise <yes>
+                            mat_bool_background_flood <yes>
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hff>
+                            mat_precise_width <625>
+                            mat_precise_height <15>
+                            mat_vertical_spacing <5>
+                            mat_precise_height <2>
+                            mat_vertical_spacing <3>
+                            mat_bool_precise <yes>
+                          man_start_sibling <ornament, "">
+                            mat_size <80, 1>
+                            mat_font_size <8>
+                            mat_font_id <arial>
+                            man_append_data <"* Le r�pertoire de destination des fichiers t�l�charg�s peut �tre modifi� � partir du Gestionnaire de t�l�chargement.\x7f">
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hff>
+                            mat_precise_width <625>
+                            mat_precise_height <1>
+                            mat_bool_background_flood <yes>
+                            mat_color_face <0, 0, 1>
+                            mat_vertical_spacing <5>
+                            mat_precise_height <1>
+                            mat_vertical_spacing <3>
+                            mat_bool_precise <yes>
+                            mat_bool_background_flood <yes>
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hff>
+                            mat_precise_width <625>
+                            mat_precise_height <15>
+                            mat_vertical_spacing <5>
+                            mat_precise_height <10>
+                            mat_vertical_spacing <3>
+                            mat_bool_precise <yes>
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hff>
+                            man_start_object <ornament, "">
+                              mat_size <45, 2>
+                              mat_color_text <255>
+                              mat_color_text <255, 0, 0>
+                              man_append_data <"Attention, un fichier peut contenir des virus. Vous prenez un risque\x7fen t�l�chargeant des fichiers de provenance inconnue.\x7f">
+                            man_start_sibling <trigger, "">
+                              mat_title_width <8>
+                              mat_color_face <204, 204, 255>
+                              mat_color_top_edge <255, 255, 255>
+                              mat_color_bottom_edge <153, 153, 204>
+                              mat_title_access <"Ouvrir une Session Express maintenant">
+                              mat_font_size <8>
+                              mat_art_id <1-6-12489>
+                              mat_vertical_spacing <0>
+                              mat_font_id <arial>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    man_close_update
+                                    sm_enter_paid
+                                    uni_invoke_no_context <32-2522>
+                                  uni_end_stream
+                                  >
+                              man_end_object
+                            man_end_object
+                            uni_wait_off
+                            man_update_display
+                            man_set_context_relative <1>
+                            act_get_db_value <14x, 00x, 00x, 39x>
+                            uni_save_result
+                            uni_use_last_atom_value <mat_value>
+                            man_change_context_relative <2>
+                            act_get_db_value <14x, 00x, 00x, 3ax>
+                            uni_use_last_atom_value <mat_value>
+                            uni_get_result
+                            if_last_return_false_then <1>
+                            mat_bool_disabled <yes>
+                            uni_sync_skip <1>
+                            man_change_context_relative <3>
+                            act_get_db_value <14x, 00x, 00x, 3bx>
+                            uni_use_last_atom_value <mat_value>
+                            man_change_context_relative <4>
+                            act_get_db_value <14x, 00x, 00x, 3cx>
+                            uni_use_last_atom_value <mat_value>
+                            man_change_context_relative <5>
+                            act_get_db_value <14x, 00x, 00x, 54x>
+                            uni_use_last_atom_value <mat_value>
+                            man_change_context_relative <6>
+                            act_get_db_value <14x, 00x, 00x, 55x>
+                            uni_use_last_atom_value <mat_value>
+                            man_end_context
+                            man_update_display
+                            uni_sync_skip <99>
+                          uni_end_stream <00x>

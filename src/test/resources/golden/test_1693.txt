@@ -1,0 +1,120 @@
+uni_start_stream
+  man_start_object <ind_group, "GUIDEPAGER FOR STAFF MEMBERS">
+    mat_orientation <vee>
+    mat_art_id <1-0-7223>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_width <30>
+      mat_height <1>
+      mat_font_sis <arial, 18, bold>
+      man_append_data <"           Guidepager for Staff Members">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hee>
+      man_start_object <ornament, "">
+        mat_width <50>
+        mat_height <8>
+        mat_font_sis <arial, 9, bold>
+        man_append_data <"The Guide Pager is used to summon assistance when ">
+        man_append_data <"you witness a Terms of Service violation, such as ">
+        man_append_data <"vulgarity or harassment, and a Guide is not presen">
+        man_append_data <"t.  If the violation was 'spoken' in a public chat">
+        man_append_data <" room, please click on the 'Request Guide Assistan">
+        man_append_data <"ce' button, and a Guide will be along shortly to a">
+        man_append_data <"ssist you. You can also report problems directly t">
+        man_append_data <"o the Terms of Service staff by clicking on the ap">
+        man_append_data <"propriate button.">
+        man_end_data
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hee>
+      man_start_object <org_group, "">
+        mat_orientation <vee>
+        man_start_object <trigger, "Request\rGuide\rAssistance">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <40-22817>
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_bool_resize_vertical <yes>
+            mat_art_id <1-0-1334>
+          man_start_sibling <trigger, "Parental\rControls\r">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-17486>
+                >
+              mat_font_sis <small_fonts, 7, bold>
+              mat_bool_resize_vertical <yes>
+              mat_art_id <1-0-1974>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <vee>
+            man_start_object <trigger, "Report\rPassword\rSolicitation">
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-22018>
+                  >
+                mat_font_sis <small_fonts, 7, bold>
+                mat_bool_resize_vertical <yes>
+                mat_art_id <1-0-1353>
+              man_start_sibling <trigger, "Your Account\rSecurity\r">
+                mat_title_pos <below | center>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-4249>
+                    >
+                  mat_font_sis <small_fonts, 7, bold>
+                  mat_bool_resize_vertical <yes>
+                  mat_art_id <1-0-1356>
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <vee>
+                man_start_object <trigger, "Report\rRoom Name\rViolation">
+                  mat_title_pos <below | center>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-22025>
+                      >
+                    mat_font_sis <small_fonts, 7, bold>
+                    mat_bool_resize_vertical <yes>
+                    mat_art_id <1-0-1329>
+                  man_start_sibling <trigger, "Write to\rCommunity\rAction Team">
+                    mat_title_pos <below | center>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-1828>
+                        >
+                      mat_font_sis <small_fonts, 7, bold>
+                      mat_bool_resize_vertical <yes>
+                      mat_art_id <1-0-1289>
+                    man_end_object
+                  man_end_object
+                man_start_sibling <trigger, "MEMBER SERVICES">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                        sm_enter_free
+                      sm_send_f1 <40-4218>
+                      >
+                    mat_font_sis <ms_sans_serif, 12, bold>
+                    mat_trigger_style <rectangle>
+                    mat_color_face <255, 1, 1>
+                  man_start_sibling <ornament, "   Keyword: Staffpager">
+                    mat_width <20>
+                    mat_height <1>
+                    mat_font_sis <arial, 9, bold>
+                    mat_orientation <hlf>
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

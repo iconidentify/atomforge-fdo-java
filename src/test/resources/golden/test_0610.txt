@@ -1,0 +1,64 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_title <"Current Label">
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 255, 255>
+    man_start_object <ornament, "">
+      rich_manage
+      rich_set_static
+      mat_relative_tag <1>
+      mat_height <7>
+      mat_width <40>
+      mat_font_sis <arial, 8, normal>
+      mat_color_text <1, 1, 1>
+      man_append_data <"invoke east process front standard bottom main area. start omega process front load execute previous omega. north simple update load handle current gadget send. open save open refresh save old close current. zone send label old region bottom sigma thing. element invoke">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <default>
+        mat_bool_default <yes>
+        mat_title_width <7>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_font_id <arial>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <default>
+        mat_title_width <23>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_font_id <arial>
+        mat_title <"Secondary Omega Gamma">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

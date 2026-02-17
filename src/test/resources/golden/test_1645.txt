@@ -1,0 +1,304 @@
+uni_start_stream
+  man_start_object <ind_group, "AAC Confidential Area">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <330>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <80, 75, 124>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <550>
+      mat_precise_height <330>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_relative_tag <96>
+      mat_art_id <1-0-3381>
+      mat_bool_background_tile <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <550>
+        mat_precise_height <50>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        mat_color_face <2, 2, 2>
+        mat_bool_background_flood <yes>
+        man_start_object <ornament, "AAC Community Leader Area\r">
+          mat_relative_tag <3>
+          mat_precise_width <490>
+          mat_precise_height <40>
+          mat_precise_x <55>
+          mat_precise_y <5>
+          mat_font_sis <arial, 24, bold>
+          mat_color_text <255, 255, 255>
+          mat_orientation <hcf>
+        man_end_object
+      man_start_sibling <trigger, "">
+        mat_relative_tag <56>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-29-29146>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <50>
+          mat_precise_height <50>
+          mat_precise_x <342>
+          mat_precise_y <60>
+          mat_art_id <1-0-2572>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <ornament, "Tutoring Room News">
+          mat_relative_tag <57>
+          mat_precise_width <100>
+          mat_precise_height <30>
+          mat_precise_x <314>
+          mat_precise_y <118>
+          mat_font_sis <arial, 9, bold>
+          mat_orientation <hcf>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <58>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-29-29147>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <50>
+            mat_precise_height <50>
+            mat_precise_x <468>
+            mat_precise_y <60>
+            mat_art_id <1-0-35994>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <ornament, "Teacher Pager News">
+            mat_relative_tag <59>
+            mat_precise_width <100>
+            mat_precise_height <30>
+            mat_precise_x <444>
+            mat_precise_y <118>
+            mat_font_sis <arial, 9, bold>
+            mat_orientation <hcf>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <60>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-29-30366>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <50>
+              mat_precise_height <50>
+              mat_precise_x <342>
+              mat_precise_y <160>
+              mat_art_id <1-0-61344>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <ornament, "Archive News">
+              mat_relative_tag <61>
+              mat_precise_width <100>
+              mat_precise_height <30>
+              mat_precise_x <314>
+              mat_precise_y <215>
+              mat_font_sis <arial, 9, bold>
+              mat_orientation <hcf>
+            man_start_sibling <trigger, "Message Board News">
+              mat_relative_tag <62>
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-29-30367>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_width <50>
+                mat_precise_height <50>
+                mat_precise_x <468>
+                mat_precise_y <160>
+                mat_art_id <1-0-35991>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <ornament, "Message Board News">
+                mat_relative_tag <63>
+                mat_precise_width <100>
+                mat_precise_height <30>
+                mat_precise_x <444>
+                mat_precise_y <215>
+                mat_font_sis <arial, 9, bold>
+                mat_orientation <hcf>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <64>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-29-30368>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_width <50>
+                  mat_precise_height <50>
+                  mat_precise_x <5>
+                  mat_precise_y <265>
+                  mat_art_id <1-0-1382>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <ornament, "AAC News & Information Center">
+                  mat_relative_tag <65>
+                  mat_precise_width <116>
+                  mat_precise_height <42>
+                  mat_precise_x <60>
+                  mat_precise_y <270>
+                  mat_font_sis <arial, 9, bold>
+                  mat_orientation <hcf>
+                man_start_sibling <ornament, "">
+                  mat_relative_tag <72>
+                  mat_precise_width <45>
+                  mat_precise_height <45>
+                  mat_precise_x <0>
+                  mat_precise_y <0>
+                  mat_art_id <1-0-14022>
+                  mat_font_sis <small_fonts, 7, normal>
+                man_start_sibling <ornament, "">
+                  mat_relative_tag <4>
+                  mat_precise_width <193>
+                  mat_precise_height <16>
+                  mat_precise_x <105>
+                  mat_precise_y <245>
+                  mat_font_sis <arial, 10, normal>
+                  man_append_data <"Be sure to visit here once a week\r">
+                  man_end_data
+                  mat_orientation <hlf>
+                man_start_sibling <view, "">
+                  mat_bool_no_border <yes>
+                  mat_bool_graphic_view <yes>
+                  image_attr_dynamic_display <01x>
+                  image_attr_hotspot_def_action <00x>
+                  image_attr_hotspot_grid <00x, 01x, 00x, 01x>
+                  image_attr_show_hotspot <01x>
+                  image_attr_hotspot <00x, 01x, 00x, 01x>
+                  image_attr_hotspot_type <00x>
+                  image_attr_hilight_type <00x>
+                  image_attr_hotspot_action_id <01x>
+                  mat_precise_width <166>
+                  mat_precise_height <42>
+                  mat_precise_x <200>
+                  mat_precise_y <270>
+                  mat_bool_resize_vertical <no>
+                  mat_bool_resize_horizontal <no>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-29-16086>
+                      >
+                    mat_bool_vertical_scroll <no>
+                    mat_relative_tag <6>
+                  man_start_sibling <view, "">
+                    mat_bool_no_border <yes>
+                    mat_bool_graphic_view <yes>
+                    image_attr_dynamic_display <01x>
+                    image_attr_hotspot_def_action <00x>
+                    image_attr_hotspot_grid <00x, 01x, 00x, 01x>
+                    image_attr_show_hotspot <01x>
+                    image_attr_hotspot <00x, 01x, 00x, 01x>
+                    image_attr_hotspot_type <00x>
+                    image_attr_hilight_type <00x>
+                    image_attr_hotspot_action_id <01x>
+                    mat_precise_width <166>
+                    mat_precise_height <42>
+                    mat_precise_x <375>
+                    mat_precise_y <270>
+                    mat_bool_resize_vertical <no>
+                    mat_bool_resize_horizontal <no>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"MR", 0-0-38>
+                        >
+                      mat_bool_vertical_scroll <no>
+                      mat_relative_tag <7>
+                    man_start_sibling <dss_list, "">
+                      mat_relative_tag <30>
+                      mat_precise_width <290>
+                      mat_precise_height <180>
+                      mat_precise_x <8>
+                      mat_precise_y <60>
+                      mat_font_sis <arial, 9, normal>
+                      mat_sort_order <normal>
+                      man_start_object <trigger, "CL Registration Area">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-29-3456>
+                            >
+                          mat_art_id <1-0-37355>
+                        man_start_sibling <trigger, "Newsletter and Fuzzy Library">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"eB", 0-0-14710>
+                              >
+                            mat_art_id <1-0-1482>
+                          man_start_sibling <trigger, "AAC Discussion Board">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"bE", 0-0-2706>
+                                >
+                              mat_art_id <1-0-1483>
+                            man_start_sibling <trigger, "** Daily Updates **">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-29-3265>
+                                  >
+                                mat_art_id <1-0-17548>
+                              man_start_sibling <trigger, "Orientation & Mentoring Information">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-29-29210>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "TOS & Scam News">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-29-6011>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "Shortcuts to AAC Areas">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-29-34099>
+                                        >
+                                      mat_art_id <1-0-19938>
+                                    man_start_sibling <trigger, "Report Forms">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-29-29530>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "Official AAC HomePage">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-29-2928>
+                                            >
+                                          mat_art_id <1-0-32650>
+                                        man_end_object
+                                      man_end_object
+                                    man_end_object
+                                    man_update_display
+                                    man_set_context_relative <6>
+                                    image_attr_image_type <521>
+                                    man_append_data <4ax, 47x, 04x, 0ex, 00x, 00x, 00x, 00x, 8cx, 16x, 00x, 00x, 28x, 00x, 96x, 00x, 23x, 05x, a0x, 88x, 40x, 06x, 8dx, 17x, 02x, 0fx, b6x, 11x, 01x, 00x, 01x, 21x, 00x, 21x, 3fx, 00x, 00x, 84x, 1cx, 01x, aax, 00x, ffx, 8cx, 1dx, 00x, 01x, 0ax, 00x, 25x, 00x, 23x, 05x, a0x, 88x, 40x, 06x, a6x, 1ex, c0x, 30x, 04x, 2dx, 4ex, eex, 6fx, e0x, 7fx, a2x, bdx, 6ex, f5x, 76x, 8ax, f5x, 0ax, f7x, 0bx, 0dx, 3cx, 82x, 33x, 22x, c1x, 6cx, 2ax, 41x, e5x, 60x, 1dx, 84x, 0ex, 8ax, 18x, bcx, 0dx, 5ax, 82x, 3fx, 09x, 54x, c3x, 04x, 4fx, c6x, b3x, f5x, 14x, a4x, eex, 20x, b2x, 32x, 7ax, dbx, 2cx, 81x, bax, dbx, b5x, cbx, 16x, 35x, 9bx, 4bx, 83x, b6x, 75x>
+                                    man_append_data <96x, 1bx, e0x, 45x, 95x, a4x, 0cx, 77x, dex, 0dx, 09x, fex, e0x, 82x, 64x, 4ax, 91x, 57x, 4dx, 94x, 72x, 46x, edx, 01x, 5fx, 5cx, bfx, 50x, fbx, 3ax, 04x, 7ax, ffx, c1x, 44x, c3x, 80x, c7x, a9x, 18x, dax, 2cx, 97x, 74x, f7x, 9dx, 45x, 8ax, 18x, 4ax, 59x, 31x, d4x, 85x, 83x, 94x, 3ex, 61x, 2ex, 2ax, 68x, b2x, 58x, a5x, 25x, 4ax, 8ax, 52x, b1x, 6ax, ebx, 23x, 64x, 3bx, a7x, 0dx, 3fx, 7fx, 3dx, 04x, 80x, a6x, 39x, 0fx, e4x, 11x, eax, 44x, 7ex, 23x, f1x, 1fx, 88x, fcx, 47x, e2x, 3fx, 03x, 11x, 10x, 40x, 84x, 03x, ffx, e1x, c2x, f2x, 29x, 72x, 1bx, 84x, 81x, 94x, 1ex, 24x, 59x, 0ex, 4ax, 70x, 0ex, d1x, 4ex, e1x, 91x, 5bx, 8dx, 4ex, ebx>
+                                    man_append_data <3cx, 6ax, 77x, b6x, 7ex, a7x, e7x, 4dx, cfx, 31x, cbx, 37x, 43x, 4ex, 07x, 82x, 1ex, ccx, 56x, fcx, a4x, f5x, f9x, a6x, 08x, c1x, 4ex, cax, ccx, 81x, 5ex, bax, 47x, bdx, d6x, 5cx, 04x, e0x, 05x, 9cx, 70x, 31x, d5x, 08x, 72x, 14x, f1x, 0ax, 01x, 3dx, ebx, c6x, 21x, f6x, b0x, 13x, 00x, b0x, 59x, 0fx, 03x, 26x, fbx, e3x, 98x, 11x, b4x, bdx, 3bx, 78x, 09x, 40x, 05x, 78x, d6x, dex, 02x, 4ex, 8fx, 54x, e8x, 17x, 03x, 2ex, 2ex, 05x, c4x, 27x, 80x, 9cx, 1fx, c8x, f7x, 80x, 00x, 42x, 00x, 6dx, 7ax, f8x, d5x, b8x, 17x, 12x, a4x, 38x, 60x, 56x, 1cx, eax, 0ax, c0x, b4x, 43x, 2ax, 22x, dex, 5bx, 11x, 0cx, 8ax, dcx, 69x, e9x, 10x, b7x, 6bx, 0bx>
+                                    man_append_data <a0x, afx, abx, 60x, 60x, 15x, d2x, cex, b6x, 2bx, 71x, 6dx, 62x, b7x, f0x, 9fx, 1cx, 86x, 50x, edx, 37x, 6dx, e1x, c9x, 02x, 5cx, 6fx, 09x, 16x, 69x, 77x, 44x, b6x, e3x, 5dx, 84x, d1x, 25x, 47x, 11x, 00x, 2fx, ddx, abx, 6ex, 9fx, 4fx, 65x, 9fx, fax, 23x, 8dx, eex, 75x, 7cx, 43x, c1x, 2dx, 64x, 06x, b9x, 6fx, b7x, 89x, 27x, 10x, ebx, 64x, fcx, 2ex, 8bx, eax, dbx, a6x, 81x, e1x, 80x, 3cx, 02x, 9bx, 89x, ccx, 0ax, 3fx, acx, d5x, c2x, 34x, aex, bcx, c4x, e2x, 05x, 31x, c0x, b0x, d4x, 97x, 6bx, d3x, 8bx, e6x, d6x, 3ax, d9x, 09x, 78x, 91x, 19x, 07x, 00x, 2ex, 44x, e9x, 11x, f8x, 8fx, c4x, 7ex, 23x, f1x, 1fx, 88x, fcx, 47x, e0x, cfx, cbx>
+                                    man_end_data
+                                    man_set_context_relative <7>
+                                    image_attr_image_type <521>
+                                    man_append_data <4ax, 47x, 04x, 0ex, 00x, 00x, 00x, 00x, 8cx, 16x, 00x, 00x, 2bx, 00x, a0x, 00x, 23x, 05x, a0x, 88x, 40x, 06x, 93x, 17x, 04x, 0fx, b6x, 3fx, ffx, 21x, 11x, 00x, 3fx, c1x, 11x, 01x, 00x, 3fx, ffx, 3fx, 21x, 00x, 00x, 84x, 1cx, 01x, 00x, ffx, ffx, 8cx, 1dx, 00x, 01x, 0ax, 00x, 28x, 00x, 23x, 05x, a0x, 88x, 40x, 06x, a8x, 1ex, d8x, 40x, 2dx, 77x, 74x, 6fx, e1x, 7dx, bdx, c5x, 0ax, 77x, 2bx, d8x, e8x, 95x, e9x, 74x, 74x, e5x, 5ex, 5ex, 77x, 70x, c6x, 06x, 8ax, 9ex, b2x, 18x, 2ex, 66x, 2dx, bbx, 08x, c1x, 68x, b6x, 3bx, 40x, 8fx, 3fx, 09x, 0fx, c3x, d1x, 13x, 83x, d0x, d2x, 60x, 08x, 88x, 92x, 97x, 8bx, 0dx, 32x, d9x, b5x, a6x, 9ax, 92x>
+                                    man_append_data <5dx, 61x, 00x, bcx, 65x, 17x, c5x, 8ex, b1x, dbx, c8x, 97x, 49x, 94x, 53x, 2ax, 42x, 70x, c7x, 58x, f0x, 26x, 8bx, d7x, 7bx, d6x, 8ax, 3dx, 7bx, 55x, b2x, 3cx, e7x, 10x, 98x, 67x, f1x, c9x, 4ax, e6x, 36x, 2ex, eex, 54x, adx, 7bx, fdx, a7x, c9x, f5x, 9bx, a3x, a6x, e3x, e1x, 70x, 7ax, 00x, c7x, a8x, 18x, dax, 24x, abx, dbx, 1ax, efx, 24x, f4x, 8bx, efx, 07x, cax, 60x, bcx, 4ex, 8bx, bex, 3ax, dfx, dcx, 66x, c7x, 87x, 7fx, 9ax, 33x, 8ex, 9ax, c5x, 2dx, 8cx, 53x, d7x, 7ex, 22x, 5dx, fbx, f2x, 2ex, 82x, bbx, 39x, 0fx, aex, 12x, 35x, 4ax, 95x, 66x, 48x, a7x, 09x, 24x, 24x, 90x, 92x, 42x, 49x, 09x, 24x, 24x, 90x, 24x, 6bx, 60x, 00x, d6x>
+                                    man_append_data <c2x, 01x, a0x, 50x, 4ex, 03x, e0x, 10x, 10x, 12x, 70x, cbx, f4x, 40x, 9cx, c5x, 3bx, 9dx, dax, ccx, 2fx, bbx, 49x, 7dx, 6bx, e1x, 4ax, fbx, bax, acx, 76x, 9dx, 9dx, d5x, 5fx, 76x, 97x, 63x, b0x, 65x, b0x, 99x, 60x, 26x, 05x, bdx, 11x, 78x, afx, e9x, 8bx, cbx, edx, 86x, 77x, dfx, 78x, afx, b6x, 8bx, 93x, 88x, 9cx, 0dx, 60x, a8x, 81x, 3cx, e3x, 1ex, 2ex, 42x, 7cx, 69x, fex, 5dx, d3x, 80x, e0x, 39x, 09x, e1x, 4ex, c3x, ccx, 5ex, 79x, 85x, 39x, 20x, 15x, 09x, 27x, eax, 35x, e1x, 0cx, 00x, b8x, 59x, 0fx, 01x, f9x, 99x, c7x, cbx, 26x, cdx, 20x, a8x, b7x, 05x, 7ex, bax, 44x, e2x, 04x, 9ax, 4fx, 19x, 17x, 9dx, 2fx, 32x, 09x, e2x, a1x, 20x>
+                                    man_append_data <08x, 67x, a3x, bcx, 9ax, 3dx, c6x, 6fx, a4x, 46x, e0x, 28x, 48x, 2fx, 5bx, 2cx, afx, 93x, 1cx, d6x, cax, 00x, e8x, 00x, 11x, 72x, 84x, 14x, 22x, e0x, 01x, e3x, bdx, 93x, a0x, 77x, c6x, 78x, 00x, 71x, 9cx, 2bx, 9dx, 02x, 7cx, 46x, 28x, bdx, 00x, b6x, 84x, 0fx, 3ex, cbx, 40x, 0cx, 3fx, 2dx, b9x, d0x, ecx, 00x, 1bx, 42x, 89x, b7x, 3ax, 1dx, 96x, e5x, b9x, 29x, c0x, 34x, cex, 43x, 8bx, 92x, fcx, 67x, 97x, 06x, 45x, 40x, 2dx, 8fx, 20x, 46x, e5x, 6cx, f2x, 89x, e9x, 07x, 98x, 11x, 32x, d9x, 0cx, b3x, 0bx, eex, eax, c6x, f4x, 87x, ccx, 01x, 02x, ebx, 99x, aex, 21x, 7dx, e8x, 05x, 32x, e9x, 26x, 2fx, 50x, 8fx, 7ex, a3x, 05x, 47x, 05x, e9x>
+                                    man_append_data <05x, 92x, 62x, 96x, 2dx, a9x, d8x, 00x, 6ex, 04x, b8x, e9x, 8cx, 02x, 75x, 3bx, 02x, a4x, b7x, 8dx, f4x, 05x, d6x, 01x, ddx, e3x, 65x, 80x, 92x, 39x, 0ax, 22x, e3x, 59x, 6ax, 90x, 40x, 41x, e8x, e8x, 3cx, e3x, 59x, 6ax, 5ex, 06x, 09x, edx, eex, 2dx, 23x, 91x, 01x, 9bx, 7bx, 8ax, 4cx, 92x, 49x, a8x, 17x, d9x, 89x, edx, 36x, 03x, 92x, 4dx, 40x, 1bx, 04x, e3x, cax, 80x, 4bx, 31x, 74x, 69x, 7fx, 7bx, 84x, a7x, 8bx, 3ex, 39x, a0x, 6cx, 6cx, f8x, e3x, 98x, 2ax, 9ax, 2ax, 41x, 57x, afx, 17x, 2fx, 32x, 30x, 38x, 49x, 21x, 24x, d7x, 99x, 23x, 58x, 99x, 24x, 80x, cfx, cbx>
+                                    man_end_data
+                                  man_update_woff_end_stream

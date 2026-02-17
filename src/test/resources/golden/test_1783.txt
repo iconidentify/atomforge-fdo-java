@@ -1,0 +1,74 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "Member Services">
+    mat_orientation <hft>
+    man_start_object <view, "">
+      mat_width <30>
+      mat_height <12>
+      mat_relative_tag <1>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Here's a quick link to the FREE Member Services ar">
+      man_append_data <"ea. Members can get to the area shown here by usin">
+      man_append_data <"g Keywords: FREE, HELP, SUPPORT, and others! :)">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <vct>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_width <30>
+        mat_height <13>
+        mat_relative_tag <30>
+        mat_font_sis <arial, 9, normal>
+        mat_bool_list_icons <yes>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Mac">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"K1", 0-32-331>
+              >
+            mat_art_id <1-0-1477>
+          man_end_object
+          man_start_object <trigger, "WAOL">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"K1", 0-32-783>
+                >
+              mat_art_id <1-0-1477>
+            man_end_object
+            man_start_object <trigger, "PCAOL">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"K1", 0-32-331>
+                  >
+                mat_art_id <1-0-1477>
+              man_end_object
+            man_end_object
+            man_start_object <org_group, "">
+              mat_orientation <hct>
+              man_start_object <trigger, "OPEN">
+                act_replace_select_action
+                    <
+                    uni_start_stream <00x>
+                    sm_do_list_action <30>
+                    >
+                  mat_font_sis <system, 12, normal>
+                  mat_bool_default <yes>
+                man_end_object
+                man_start_object <trigger, "MORE">
+                  mat_bool_disabled <yes>
+                  mat_relative_tag <26>
+                  mat_font_sis <system, 12, normal>
+                man_end_object
+              man_end_object
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream

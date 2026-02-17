@@ -1,0 +1,141 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " ">
+    mat_orientation <vcc>
+    mat_horizontal_spacing <0>
+    mat_vertical_spacing <0>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-40850>
+    mat_bool_background_tile <yes>
+    mat_position <center_left>
+    man_start_object <ornament, "Dublin\r\nPhone\r\nList">
+      mat_width <7>
+      mat_height <3>
+      mat_horizontal_spacing <0>
+      mat_color_text <255, 255, 255>
+      mat_color_text_shadow <0, 0, 0>
+      mat_orientation <hcf>
+    man_start_sibling <org_group, "">
+      mat_orientation <vcc>
+      mat_art_id <1-0-52730>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-31460>
+          uni_end_stream
+          >
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_precise_width <52>
+        mat_precise_height <30>
+        mat_horizontal_spacing <0>
+        mat_vertical_spacing <0>
+        mat_art_id <1-0-33505>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "Germany">
+        mat_horizontal_spacing <0>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_orientation <hct>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <vcc>
+      mat_art_id <1-1-10327>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-15780>
+          uni_end_stream
+          >
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_precise_width <51>
+        mat_precise_height <30>
+        mat_horizontal_spacing <0>
+        mat_vertical_spacing <0>
+        mat_art_id <1-0-33501>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "UK">
+        mat_horizontal_spacing <0>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_orientation <hcc>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <vcc>
+      mat_art_id <1-0-52736>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-31459>
+          uni_end_stream
+          >
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_precise_width <52>
+        mat_precise_height <30>
+        mat_horizontal_spacing <0>
+        mat_vertical_spacing <0>
+        mat_art_id <1-0-33504>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "France">
+        mat_horizontal_spacing <0>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_orientation <hcc>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <vcc>
+      mat_art_id <1-0-51545>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <44-6314>
+          uni_end_stream
+          >
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_precise_width <52>
+        mat_precise_height <30>
+        mat_horizontal_spacing <0>
+        mat_vertical_spacing <0>
+        mat_art_id <1-0-33503>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "The Rest">
+        mat_horizontal_spacing <0>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_orientation <hcc>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <vcc>
+      mat_art_id <1-0-51545>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-48438>
+          uni_end_stream
+          >
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_precise_width <36>
+        mat_precise_height <26>
+        mat_horizontal_spacing <0>
+        mat_vertical_spacing <0>
+        mat_art_id <1-2-10519>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "BDFS">
+        mat_horizontal_spacing <0>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <0, 0, 0>
+        mat_orientation <hcc>
+      man_end_object
+    man_end_object
+  hfs_attr_end_object
+man_update_woff_end_stream

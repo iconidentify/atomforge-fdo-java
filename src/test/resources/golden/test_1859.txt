@@ -1,0 +1,58 @@
+uni_start_stream
+  man_start_object <ind_group, "Become An AOL Remote Staffer!">
+    mat_orientation <vff>
+    mat_color_face <90, 140, 200>
+    mat_art_id <1-0-3386>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      man_start_object <ornament, "">
+        mat_art_id <1-0-1491>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "">
+        mat_width <52>
+        mat_height <4>
+        mat_font_sis <arial, 9, normal>
+        man_append_data <"If you are interested in becoming a remote staffer">
+        man_append_data <", please give us your name and screename below. Se">
+        man_append_data <"nd it off, and an AOL cable staff person will be i">
+        man_append_data <"n touch with you right away. Thanks for your inter">
+        man_append_data <"est!">
+        man_end_data
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <edit_view, "">
+      rich_manage
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_width <52>
+      mat_height <5>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      mat_relative_tag <1>
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Cancel">
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+          mat_font_sis <arial, 12, bold>
+          mat_color_text <100, 200, 202>
+          mat_trigger_style <rectangle>
+        man_start_sibling <trigger, "Send">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              de_ez_send_form <"ef", 0-0-1965>
+              >
+            mat_font_sis <arial, 12, bold>
+            mat_color_text <100, 200, 202>
+            mat_trigger_style <rectangle>
+          man_end_object
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

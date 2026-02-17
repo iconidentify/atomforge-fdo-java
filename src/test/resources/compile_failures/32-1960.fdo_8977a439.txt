@@ -1,0 +1,782 @@
+uni_start_stream <00x>
+  man_use_default_title
+  man_set_context_globalid <1>
+  idb_exists <22-0-8>
+  if_last_return_true_then <121, 122>
+  uni_invoke_local <45-41253>
+  uni_sync_skip <121>
+  man_start_object <ind_group, "">
+    mat_object_id <32-1960>
+    mat_style_id <32-1960>
+    mat_orientation <vcc>
+    mat_relative_tag <30>
+    mat_color_face <250, 252, 255>
+    var_number_set <A, 1>
+    var_number_save <A, 101>
+    mat_dirty_query <yes>
+    act_set_criterion <9>
+    act_append_action
+      <
+      uni_start_stream
+        man_set_context_relative <1>
+        image_get_attr <16x, 2ax>
+        uni_convert_last_atom_data
+        var_string_set_from_atom <A>
+        man_change_context_relative <17>
+        var_string_set <B,"%">
+        var_string_concatenate_regs <A, B>
+        var_string_get <A>
+        uni_use_last_atom_string <mat_title>
+      uni_end_stream
+      >
+    act_set_criterion <20>
+    act_append_action
+      <
+      uni_start_stream
+        man_set_context_relative <30>
+        mat_title <"Unbenannt">
+        man_clear_file_name
+        mat_size <0, 0>
+        man_set_context_relative <3>
+        mat_bool_disabled <yes>
+        man_set_context_relative <1>
+        mat_size <0, 0>
+        man_end_context
+        man_update_display
+      uni_end_stream
+      >
+    act_set_criterion <28>
+    act_append_action
+      <
+      uni_start_stream
+        man_set_context_relative <3>
+        mat_bool_disabled <no>
+        man_end_context
+        man_update_display
+      uni_end_stream
+      >
+    man_start_object <dss_list, "">
+      mat_relative_tag <500>
+      mat_bool_popup_menu <yes>
+      man_start_object <trigger, "200%">
+        mat_relative_tag <255>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_set_context_relative <1>
+              image_attr_scale_display <200>
+              image_get_attr <16x, 2ax>
+              uni_convert_last_atom_data
+              var_string_set_from_atom <A>
+              man_change_context_relative <17>
+              var_string_set <B,"%">
+              var_string_concatenate_regs <A, B>
+              var_string_get <A>
+              uni_use_last_atom_string <mat_title>
+              man_end_context
+            uni_end_stream
+            >
+        man_end_object
+        man_start_object <trigger, "150%">
+          mat_relative_tag <205>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_set_context_relative <1>
+                image_attr_scale_display <150>
+                image_get_attr <16x, 2ax>
+                uni_convert_last_atom_data
+                var_string_set_from_atom <A>
+                man_change_context_relative <17>
+                var_string_set <B,"%">
+                var_string_concatenate_regs <A, B>
+                var_string_get <A>
+                uni_use_last_atom_string <mat_title>
+                man_end_context
+              uni_end_stream
+              >
+          man_end_object
+          man_start_object <trigger, "100%">
+            mat_relative_tag <155>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  man_set_context_relative <1>
+                  image_attr_scale_display <100>
+                  image_get_attr <16x, 2ax>
+                  uni_convert_last_atom_data
+                  var_string_set_from_atom <A>
+                  man_change_context_relative <17>
+                  var_string_set <B,"%">
+                  var_string_concatenate_regs <A, B>
+                  var_string_get <A>
+                  uni_use_last_atom_string <mat_title>
+                  man_end_context
+                uni_end_stream
+                >
+            man_end_object
+            man_start_object <trigger, "75%">
+              mat_relative_tag <130>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    man_set_context_relative <1>
+                    image_attr_scale_display <75>
+                    image_get_attr <16x, 2ax>
+                    uni_convert_last_atom_data
+                    var_string_set_from_atom <A>
+                    man_change_context_relative <17>
+                    var_string_set <B,"%">
+                    var_string_concatenate_regs <A, B>
+                    var_string_get <A>
+                    uni_use_last_atom_string <mat_title>
+                    man_end_context
+                  uni_end_stream
+                  >
+              man_end_object
+              man_start_object <trigger, "50%">
+                mat_relative_tag <105>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_set_context_relative <1>
+                      image_attr_scale_display <50>
+                      image_get_attr <16x, 2ax>
+                      uni_convert_last_atom_data
+                      var_string_set_from_atom <A>
+                      man_change_context_relative <17>
+                      var_string_set <B,"%">
+                      var_string_concatenate_regs <A, B>
+                      var_string_get <A>
+                      uni_use_last_atom_string <mat_title>
+                      man_end_context
+                    uni_end_stream
+                    >
+                man_end_object
+                man_start_object <trigger, "33%">
+                  mat_relative_tag <88>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        man_set_context_relative <1>
+                        image_attr_scale_display <33>
+                        image_get_attr <16x, 2ax>
+                        uni_convert_last_atom_data
+                        var_string_set_from_atom <A>
+                        man_change_context_relative <17>
+                        var_string_set <B,"%">
+                        var_string_concatenate_regs <A, B>
+                        var_string_get <A>
+                        uni_use_last_atom_string <mat_title>
+                        man_end_context
+                      uni_end_stream
+                      >
+                  man_end_object
+                  man_start_object <trigger, "25%">
+                    mat_relative_tag <80>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          man_set_context_relative <1>
+                          image_attr_scale_display <25>
+                          image_get_attr <16x, 2ax>
+                          uni_convert_last_atom_data
+                          var_string_set_from_atom <A>
+                          man_change_context_relative <17>
+                          var_string_set <B,"%">
+                          var_string_concatenate_regs <A, B>
+                          var_string_get <A>
+                          uni_use_last_atom_string <mat_title>
+                          man_end_context
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_start_object <trigger, "Andere...">
+                      mat_relative_tag <79>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            man_set_context_relative <1>
+                            image_attr_scale_display <0>
+                            image_get_attr <16x, 2ax>
+                            uni_convert_last_atom_data
+                            var_string_set_from_atom <A>
+                            man_change_context_relative <17>
+                            var_string_set <B,"%">
+                            var_string_concatenate_regs <A, B>
+                            var_string_get <A>
+                            uni_use_last_atom_string <mat_title>
+                            man_end_context
+                          uni_end_stream
+                          >
+                      man_end_object
+                    man_end_object
+                    mat_position <center_center>
+                    mat_bool_background_flood <yes>
+                    man_start_object <org_group, "">
+                      mat_orientation <hlf>
+                      mat_horizontal_spacing <0>
+                      man_start_object <trigger, "">
+                        mat_relative_tag <20>
+                        mat_trigger_style <plain_picture>
+                        var_number_set <B, 1>
+                        mat_context_help <"Bearbeitungswerkzeuge f�r Grafik anzeigen oder verbergen.">
+                        mat_art_id <1-1-28015>
+                        act_set_criterion <select>
+                        act_append_action
+                          <
+                          uni_start_stream
+                            man_set_context_relative <1>
+                            image_get_attr <16x, 2ax>
+                            uni_convert_last_atom_data
+                            var_string_set_from_atom <A>
+                            man_change_context_relative <17>
+                            var_string_set <B,"%">
+                            var_string_concatenate_regs <A, B>
+                            var_string_get <A>
+                            uni_use_last_atom_string <mat_title>
+                            man_set_context_relative <4>
+                            man_get_attribute <mat_bool_invisible>
+                            if_last_return_false_then <30>
+                            man_end_context
+                            man_set_context_relative <20>
+                            mat_art_id <1-1-28014>
+                            mat_context_help <"Bearbeitungswerkzeuge f�r Grafik anzeigen oder verbergen.">
+                            man_end_context
+                            man_set_context_relative <2>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <4>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <5>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <17>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <14>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <8>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <9>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <6>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <7>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <11>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            man_set_context_relative <10>
+                            mat_bool_invisible <yes>
+                            man_end_context
+                            uni_sync_skip <30>
+                            if_last_return_false_then <31>
+                            man_set_context_relative <20>
+                            mat_art_id <1-1-28015>
+                            mat_context_help <"Bearbeitungswerkzeuge f�r Grafik anzeigen oder verbergen.">
+                            man_set_context_relative <2>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <4>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <5>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <17>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <14>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <8>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <9>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <6>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <7>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <11>
+                            mat_bool_invisible <no>
+                            man_set_context_relative <10>
+                            mat_bool_invisible <no>
+                            man_end_context
+                            uni_sync_skip <31>
+                            man_update_display
+                          uni_end_stream
+                          >
+                      man_start_sibling <org_group, "">
+                        mat_orientation <hff>
+                      man_start_sibling <trigger, "">
+                        mat_relative_tag <2>
+                        mat_trigger_style <8>
+                        mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                        mat_bool_small_icon <yes>
+                        mat_font_style <normal>
+                        mat_context_help <"Grafik drehen">
+                        mat_art_id <1-1-13363>
+                        mat_bool_default <yes>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              uni_wait_on
+                              man_set_context_relative <1>
+                              var_number_set <B, 270>
+                              image_get_attr <16x, 01x>
+                              var_number_set_from_atom <A>
+                              if_numa_gte_numb_then <1, 2>
+                              var_number_set <A, 0>
+                              uni_sync_skip <1>
+                              var_number_add <90>
+                              uni_sync_skip <2>
+                              var_number_get <A>
+                              uni_use_last_atom_value <image_attr_rotate>
+                              man_end_context
+                            uni_wait_off_end_stream
+                            >
+                        man_start_sibling <trigger, "">
+                          mat_relative_tag <4>
+                          mat_trigger_style <8>
+                          mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                          mat_bool_small_icon <yes>
+                          mat_font_style <normal>
+                          mat_context_help <"Grafik horizontal spiegeln">
+                          mat_art_id <1-1-13354>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                uni_wait_on
+                                man_set_context_relative <1>
+                                image_flip_horizontal
+                                man_end_context
+                              uni_wait_off_end_stream
+                              >
+                          man_start_sibling <trigger, "">
+                            mat_relative_tag <5>
+                            mat_trigger_style <8>
+                            mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                            mat_bool_small_icon <yes>
+                            mat_font_style <normal>
+                            mat_context_help <"Grafik vertikal spiegeln">
+                            mat_art_id <1-1-13364>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  uni_wait_on
+                                  man_set_context_relative <1>
+                                  image_flip_vertical
+                                  man_end_context
+                                uni_wait_off_end_stream
+                                >
+                            man_start_sibling <trigger, "">
+                              mat_relative_tag <17>
+                              mat_color_text <255, 1, 1>
+                              mat_trigger_style <8>
+                              mat_text_on_picture_pos <art_middle_center | title_lower_center>
+                              mat_bool_small_icon <yes>
+                              mat_font_style <normal>
+                              mat_context_help <"Vergr��ern/Verkleinern">
+                              mat_bool_dropdown_button <yes>
+                              mat_title <"100%">
+                              mat_art_id <1-1-28013>
+                              mat_font_style <bold>
+                              act_replace_popup_menu_action
+                                <
+                                uni_start_stream
+                                  man_set_context_relative <1>
+                                  image_get_attr <16x, 2ax>
+                                  var_number_set_from_atom <A>
+                                  man_change_context_relative <255>
+                                  mat_value <0>
+                                  man_change_context_relative <205>
+                                  mat_value <0>
+                                  man_change_context_relative <155>
+                                  mat_value <0>
+                                  man_change_context_relative <130>
+                                  mat_value <0>
+                                  man_change_context_relative <105>
+                                  mat_value <0>
+                                  man_change_context_relative <88>
+                                  mat_value <0>
+                                  man_change_context_relative <80>
+                                  mat_value <0>
+                                  man_change_context_relative <79>
+                                  mat_value <0>
+                                  man_change_context_relative <1>
+                                  image_get_attr <16x, 2ax>
+                                  var_number_set_from_atom <A>
+                                  var_number_set <B, 200>
+                                  if_numa_eq_numb_then <1, 2>
+                                  man_change_context_relative <255>
+                                  mat_value <1>
+                                  uni_sync_skip <1>
+                                  var_number_set <B, 150>
+                                  if_numa_eq_numb_then <3, 4>
+                                  man_change_context_relative <205>
+                                  mat_value <1>
+                                  uni_sync_skip <3>
+                                  var_number_set <B, 100>
+                                  if_numa_eq_numb_then <5, 6>
+                                  man_change_context_relative <155>
+                                  mat_value <1>
+                                  uni_sync_skip <5>
+                                  var_number_set <B, 75>
+                                  if_numa_eq_numb_then <7, 8>
+                                  man_change_context_relative <130>
+                                  mat_value <1>
+                                  uni_sync_skip <7>
+                                  var_number_set <B, 50>
+                                  if_numa_eq_numb_then <9, 10>
+                                  man_change_context_relative <105>
+                                  mat_value <1>
+                                  uni_sync_skip <9>
+                                  var_number_set <B, 33>
+                                  if_numa_eq_numb_then <11, 12>
+                                  man_change_context_relative <88>
+                                  mat_value <1>
+                                  uni_sync_skip <11>
+                                  var_number_set <B, 25>
+                                  if_numa_eq_numb_then <13, 14>
+                                  man_change_context_relative <80>
+                                  mat_value <1>
+                                  uni_sync_skip <13>
+                                  man_change_context_relative <79>
+                                  mat_value <1>
+                                  uni_sync_skip <13>
+                                  uni_sync_skip <14>
+                                  uni_sync_skip <12>
+                                  uni_sync_skip <10>
+                                  uni_sync_skip <8>
+                                  uni_sync_skip <6>
+                                  uni_sync_skip <4>
+                                  uni_sync_skip <2>
+                                  man_change_context_relative <500>
+                                  man_display_popup_menu <0>
+                                uni_end_stream
+                                >
+                            man_start_sibling <trigger, "">
+                              mat_relative_tag <27>
+                              mat_trigger_style <8>
+                              mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                              mat_bool_small_icon <yes>
+                              mat_font_style <normal>
+                              mat_context_help <"Grafik an Fenstergr��e anpassen">
+                              mat_art_id <1-1-13356>
+                              mat_bool_invisible <yes>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    man_set_context_relative <1>
+                                    image_get_attr <16x, 1ex>
+                                    if_last_return_false_then <3, 4>
+                                    image_attr_fit_to_view <yes>
+                                    man_end_context
+                                    man_set_context_relative <17>
+                                    mat_art_id <1-1-13356>
+                                    man_update_display
+                                    man_end_context
+                                    uni_sync_skip <3>
+                                    image_attr_fit_to_view <no>
+                                    man_end_context
+                                    man_set_context_relative <17>
+                                    mat_art_id <1-1-13356>
+                                    man_update_display
+                                    man_end_context
+                                  uni_end_stream
+                                  >
+                              man_start_sibling <trigger, "">
+                                mat_relative_tag <14>
+                                mat_trigger_style <8>
+                                mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                mat_bool_small_icon <yes>
+                                mat_font_style <normal>
+                                mat_context_help <"Grafik ausw�hlen und beschneiden">
+                                mat_art_id <1-1-13357>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      man_set_context_relative <1>
+                                      image_crop_image
+                                    uni_wait_off_end_stream
+                                    >
+                                man_start_sibling <trigger, "">
+                                  mat_relative_tag <8>
+                                  mat_trigger_style <8>
+                                  mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                  mat_bool_small_icon <yes>
+                                  mat_font_style <normal>
+                                  mat_context_help <"Grafikkontrast erh�hen">
+                                  mat_art_id <1-1-13358>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        uni_wait_on
+                                        man_set_context_relative <1>
+                                        var_number_set <B, 128>
+                                        image_get_attr <16x, 07x>
+                                        var_number_set_from_atom <A>
+                                        if_numa_gte_numb_then <1, 2>
+                                        var_number_set <A, 128>
+                                        uni_sync_skip <1>
+                                        var_number_add <5>
+                                        uni_sync_skip <2>
+                                        var_number_get <A>
+                                        uni_use_last_atom_value <image_attr_contrast>
+                                        man_end_context
+                                      uni_wait_off_end_stream
+                                      >
+                                  man_start_sibling <trigger, "">
+                                    mat_relative_tag <9>
+                                    mat_trigger_style <8>
+                                    mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                    mat_bool_small_icon <yes>
+                                    mat_font_style <normal>
+                                    mat_context_help <"Grafikkontrast verringern">
+                                    mat_art_id <1-1-13359>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          uni_wait_on
+                                          man_set_context_relative <1>
+                                          var_number_set <B, 2164260863>
+                                          image_get_attr <16x, 07x>
+                                          var_number_set_from_atom <A>
+                                          if_numa_lte_numb_then <1, 2>
+                                          var_number_set <A, 2164260863>
+                                          uni_sync_skip <1>
+                                          var_number_sub <5>
+                                          uni_sync_skip <2>
+                                          var_number_get <A>
+                                          uni_use_last_atom_value <image_attr_contrast>
+                                          man_end_context
+                                        uni_wait_off_end_stream
+                                        >
+                                    man_start_sibling <trigger, "">
+                                      mat_relative_tag <6>
+                                      mat_trigger_style <8>
+                                      mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                      mat_bool_small_icon <yes>
+                                      mat_font_style <normal>
+                                      mat_context_help <"Grafik aufhellen">
+                                      mat_art_id <1-1-13360>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            uni_wait_on
+                                            man_set_context_relative <1>
+                                            var_number_set <B, 128>
+                                            image_get_attr <16x, 06x>
+                                            var_number_set_from_atom <A>
+                                            if_numa_gte_numb_then <1, 2>
+                                            var_number_set <A, 128>
+                                            uni_sync_skip <1>
+                                            var_number_add <5>
+                                            uni_sync_skip <2>
+                                            var_number_get <A>
+                                            uni_use_last_atom_value <image_attr_brightness>
+                                            man_end_context
+                                          uni_wait_off_end_stream
+                                          >
+                                      man_start_sibling <trigger, "">
+                                        mat_relative_tag <7>
+                                        mat_trigger_style <8>
+                                        mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                        mat_bool_small_icon <yes>
+                                        mat_font_style <normal>
+                                        mat_context_help <"Grafik verdunkeln">
+                                        mat_art_id <1-1-13361>
+                                        mat_font_id <ms_gothic>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                              uni_wait_on
+                                              man_set_context_relative <1>
+                                              var_number_set <B, 2164260863>
+                                              image_get_attr <16x, 06x>
+                                              var_number_set_from_atom <A>
+                                              if_numa_lte_numb_then <1, 2>
+                                              var_number_set <A, 2164260863>
+                                              uni_sync_skip <1>
+                                              var_number_sub <5>
+                                              uni_sync_skip <2>
+                                              var_number_get <A>
+                                              uni_use_last_atom_value <image_attr_brightness>
+                                              man_end_context
+                                            uni_wait_off_end_stream
+                                            >
+                                        man_start_sibling <trigger, "">
+                                          mat_relative_tag <11>
+                                          mat_trigger_style <8>
+                                          mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                          mat_bool_small_icon <yes>
+                                          mat_font_style <normal>
+                                          mat_context_help <"Grafik invertieren">
+                                          mat_art_id <1-1-13362>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                uni_wait_on
+                                                man_set_context_relative <1>
+                                                image_invert
+                                                man_end_context
+                                              uni_wait_off_end_stream
+                                              >
+                                          man_start_sibling <trigger, "">
+                                            mat_relative_tag <10>
+                                            mat_trigger_style <8>
+                                            mat_text_on_picture_pos <art_middle_center | title_middle_center>
+                                            mat_bool_small_icon <yes>
+                                            mat_font_style <normal>
+                                            mat_context_help <"Grafik in Grauwertdarstellung konvertieren">
+                                            mat_art_id <1-1-13355>
+                                            mat_horizontal_spacing <0>
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                  async_alert <yes_no, "Farbinhalt des Bildes entfernen?">
+                                                  async_get_alert_result
+                                                  var_number_set_from_atom <A>
+                                                  var_number_set <B, 1>
+                                                  if_numa_neq_numb_then <1>
+                                                uni_abort_stream
+                                                uni_sync_skip <1>
+                                                uni_wait_on
+                                                man_set_context_relative <1>
+                                                image_make_gray_scale
+                                                uni_wait_off
+                                                man_update_display
+                                                man_end_context
+                                              uni_end_stream
+                                              >
+                                          man_end_object
+                                        man_start_sibling <edit_view, "">
+                                          mat_size <199, 224>
+                                          mat_relative_tag <1>
+                                          mat_frame_style <pop_in>
+                                          mat_drop_data_type <3>
+                                          mat_width <456>
+                                          mat_bool_exportable <yes>
+                                          mat_bool_importable <yes>
+                                          mat_dirty_query <yes>
+                                          image_attr_image_cropable <01x>
+                                          mat_bool_graphic_view <yes>
+                                          image_attr_dynamic_display <01x>
+                                          image_attr_scale_best_fit <yes>
+                                          mat_bool_horizontal_scroll <yes>
+                                          mat_bool_writeable <yes>
+                                        man_start_sibling <org_group, "">
+                                          mat_orientation <hfb>
+                                          man_start_object <org_group, "">
+                                            mat_orientation <hlf>
+                                            man_start_object <trigger, "Speichern">
+                                              mat_relative_tag <15>
+                                              mat_color_face <72, 109, 170>
+                                              mat_color_text <255, 255, 255>
+                                              mat_color_top_edge <182, 182, 255>
+                                              mat_color_bottom_edge <36, 36, 85>
+                                              mat_trigger_style <default>
+                                              mat_font_size <8>
+                                              mat_font_style <normal>
+                                              mat_title <" Speichern ">
+                                              mat_font_id <arial>
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                    fm_start
+                                                    fm_broadcast <04x>
+                                                    fm_handle_error <display_msg | terminate>
+                                                    fm_end
+                                                  uni_end_stream
+                                                  >
+                                              man_start_sibling <trigger, "Letzte Version">
+                                                mat_relative_tag <3>
+                                                mat_color_face <72, 109, 170>
+                                                mat_color_text <255, 255, 255>
+                                                mat_color_top_edge <182, 182, 255>
+                                                mat_color_bottom_edge <36, 36, 85>
+                                                mat_trigger_style <default>
+                                                mat_font_size <8>
+                                                mat_font_style <normal>
+                                                mat_title <" Letzte Version ">
+                                                mat_font_id <arial>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                      async_alert <yes_no, "Sind Sie sicher, dass Sie die zuletzt gespeicherte Version dieser Grafik wiederherstellen m�chten?">
+                                                      async_get_alert_result
+                                                      var_number_set_from_atom <A>
+                                                      var_number_set <B, 1>
+                                                      if_numa_neq_numb_then <1>
+                                                    uni_abort_stream
+                                                    uni_sync_skip <1>
+                                                    uni_wait_on
+                                                    man_set_context_relative <1>
+                                                    image_revert
+                                                    man_end_context
+                                                  uni_wait_off_end_stream
+                                                  >
+                                              man_end_object
+                                            man_start_sibling <org_group, "">
+                                              mat_orientation <hrf>
+                                              man_start_object <trigger, "eMail einf�gen">
+                                                mat_relative_tag <12>
+                                                mat_color_face <72, 109, 170>
+                                                mat_color_text <255, 255, 255>
+                                                mat_color_top_edge <182, 182, 255>
+                                                mat_color_bottom_edge <36, 36, 85>
+                                                mat_trigger_style <default>
+                                                mat_font_size <8>
+                                                mat_font_style <normal>
+                                                mat_title <" In eMail einf�gen ">
+                                                mat_horizontal_spacing <4>
+                                                mat_font_id <arial>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                      sm_enter_paid
+                                                      gallery_send_img_to_mail
+                                                    uni_end_stream
+                                                    >
+                                                man_end_object
+                                                uni_sync_skip <122>
+                                                man_start_object <trigger, "Schlie�en">
+                                                  mat_relative_tag <16>
+                                                  mat_color_face <72, 109, 170>
+                                                  mat_color_text <255, 255, 255>
+                                                  mat_color_top_edge <182, 182, 255>
+                                                  mat_color_bottom_edge <36, 36, 85>
+                                                  mat_trigger_style <default>
+                                                  mat_font_size <8>
+                                                  mat_font_style <normal>
+                                                  mat_title <" Abbrechen ">
+                                                  mat_font_id <arial>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                        man_wm_close
+                                                      uni_end_stream
+                                                      >
+                                                  man_end_object
+                                                man_end_object
+                                              man_end_object
+                                            man_end_object
+                                            xfer_bool_in_progress
+                                            man_set_context_globalid <32-1960>
+                                            act_do_action <100>
+                                            man_end_context
+                                            uni_sync_skip <1>
+                                            man_set_context_globalid <57>
+                                            man_set_context_relative <11>
+                                            mat_bool_disabled <no>
+                                            man_change_context_relative <12>
+                                            mat_bool_disabled <no>
+                                            man_end_context
+                                            man_update_display <2>
+                                            man_set_context_relative <17>
+                                            man_update_display
+                                            man_end_context
+                                            man_end_context
+                                          uni_end_stream <00x>

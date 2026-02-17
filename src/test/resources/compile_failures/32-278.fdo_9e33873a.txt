@@ -1,0 +1,695 @@
+uni_start_stream <00x>
+  man_set_context_globalid <1>
+  man_set_response_id <8436>
+  man_start_object <ind_group, "">
+    mat_object_id <32-7607>
+    mat_style_id <32-7607>
+    mat_orientation <vff>
+    mat_precise_width <545>
+    mat_precise_height <325>
+    mat_color_face <255, 251, 240>
+    mat_title <"Pr�ferenzen">
+    mat_bool_resize_horizontal <no>
+    man_start_object <ornament, "">
+      mat_precise_x <21>
+      mat_precise_y <21>
+      mat_art_id <1-0-37503>
+      mat_bool_disabled <yes>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_precise_width <455>
+      mat_precise_height <1>
+      mat_precise_x <45>
+      mat_precise_y <40>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_precise_width <1>
+      mat_precise_height <237>
+      mat_precise_x <401>
+      mat_precise_y <69>
+      mat_color_face <153, 153, 153>
+      mat_bool_background_flood <yes>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_precise_width <341>
+      mat_precise_height <1>
+      mat_precise_x <45>
+      mat_precise_y <225>
+      mat_color_face <153, 153, 153>
+      mat_bool_background_flood <yes>
+    man_end_object
+    mat_art_id <1-0-38936>
+    mat_position <center_center>
+    mat_bool_precise <yes>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <44>
+      mat_precise_y <19>
+      mat_size <20, 1>
+      mat_font_sis <arial, 12, bold>
+      man_append_data <"Pr�ferenzen\x7f">
+    man_start_sibling <ornament, "">
+      mat_precise_x <45>
+      mat_precise_y <55>
+      mat_precise_width <350>
+      mat_precise_height <32>
+      mat_font_sis <arial, 9, normal>
+      man_append_data <"Die Pr�ferenzen erlauben es Ihnen, sich Ihr ganz pers�nliches AOL einzustellen.\x7f\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hlf>
+      mat_precise_x <11>
+      mat_precise_y <96>
+      mat_precise_width <375>
+      mat_precise_height <65>
+      man_start_object <trigger, "">
+        mat_title_width <8>
+        mat_precise_x <44>
+        mat_precise_y <97>
+        mat_color_face <0, 102, 153>
+        mat_color_top_edge <1, 1, 1>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_precise_width <102>
+        mat_precise_height <23>
+        mat_font_sis <arial, 8, bold>
+        mat_color_frame_hilight <182, 182, 255>
+        mat_color_frame_shadow <1, 36, 85>
+        mat_color_selected <218, 218, 218>
+        mat_color_top_edge <182, 182, 255>
+        mat_color_bottom_edge <36, 36, 85>
+        mat_color_face <72, 109, 170>
+        mat_art_id <1-1-53622>
+        mat_shortcut_key <"@">
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_preset_gid <32-291>
+              if_last_return_true_then <1, 2>
+              man_make_focus
+              man_update_display
+              uni_sync_skip <1>
+              uni_wait_on
+              uni_invoke_no_context <32-291>
+              uni_sync_skip <2>
+            uni_end_stream <00x>
+            >
+        man_start_sibling <trigger, "">
+          mat_title_width <8>
+          mat_precise_x <160>
+          mat_precise_y <185>
+          mat_color_face <0, 102, 153>
+          mat_color_top_edge <1, 1, 1>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_precise_width <102>
+          mat_precise_height <23>
+          mat_font_sis <arial, 8, bold>
+          mat_color_text <255, 255, 255>
+          mat_color_text_shadow <36, 36, 85>
+          mat_color_frame_hilight <182, 182, 255>
+          mat_color_frame_shadow <1, 36, 85>
+          mat_color_selected <218, 218, 218>
+          mat_color_top_edge <182, 182, 255>
+          mat_color_bottom_edge <36, 36, 85>
+          mat_color_face <72, 109, 170>
+          mat_art_id <1-1-53629>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_preset_gid <41-28625>
+                if_last_return_true_then <1, 2>
+                man_make_focus
+                man_update_display
+                uni_sync_skip <1>
+                uni_wait_on
+                uni_invoke_no_context <41-28625>
+                uni_sync_skip <2>
+              uni_end_stream <00x>
+              >
+          man_start_sibling <trigger, "">
+            mat_title_width <8>
+            mat_precise_x <160>
+            mat_precise_y <97>
+            mat_color_face <0, 102, 153>
+            mat_color_top_edge <1, 1, 1>
+            mat_color_bottom_edge <1, 1, 1>
+            mat_precise_width <102>
+            mat_precise_height <23>
+            mat_font_sis <arial, 8, bold>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <36, 36, 85>
+            mat_color_frame_hilight <182, 182, 255>
+            mat_color_frame_shadow <1, 36, 85>
+            mat_color_selected <218, 218, 218>
+            mat_color_top_edge <182, 182, 255>
+            mat_color_bottom_edge <36, 36, 85>
+            mat_color_face <72, 109, 170>
+            mat_art_id <1-1-53626>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_preset_gid <32-4651>
+                  if_last_return_true_then <1, 2>
+                  man_make_focus
+                  man_update_display
+                  uni_sync_skip <1>
+                  uni_wait_on
+                  uni_invoke_no_context <32-4651>
+                  uni_sync_skip <2>
+                uni_end_stream <00x>
+                >
+            man_start_sibling <trigger, "">
+              mat_title_width <8>
+              mat_precise_x <44>
+              mat_precise_y <141>
+              mat_relative_tag <2>
+              mat_color_face <0, 102, 153>
+              mat_color_top_edge <1, 1, 1>
+              mat_color_bottom_edge <1, 1, 1>
+              mat_precise_width <102>
+              mat_precise_height <23>
+              mat_font_sis <arial, 8, bold>
+              mat_color_text <255, 255, 255>
+              mat_color_text_shadow <36, 36, 85>
+              mat_color_frame_hilight <182, 182, 255>
+              mat_color_frame_shadow <1, 36, 85>
+              mat_color_selected <218, 218, 218>
+              mat_color_top_edge <182, 182, 255>
+              mat_color_bottom_edge <36, 36, 85>
+              mat_color_face <72, 109, 170>
+              mat_art_id <1-1-53630>
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    act_get_db_value <14x, 00x, 00x, d1x>
+                    if_last_return_false_then <1>
+                    man_preset_gid <32-4652>
+                    if_last_return_true_then <1, 2>
+                    man_make_focus
+                    man_update_display
+                    uni_sync_skip <1>
+                    uni_wait_on
+                    uni_invoke_no_context <32-4652>
+                    uni_sync_skip <2>
+                  uni_end_stream
+                  >
+              man_start_sibling <trigger, "">
+                mat_title_width <8>
+                mat_precise_x <277>
+                mat_precise_y <97>
+                mat_color_face <0, 102, 153>
+                mat_color_top_edge <1, 1, 1>
+                mat_color_bottom_edge <1, 1, 1>
+                mat_precise_width <105>
+                mat_precise_height <23>
+                mat_font_sis <arial, 8, bold>
+                mat_color_frame_hilight <182, 182, 255>
+                mat_color_frame_shadow <1, 36, 85>
+                mat_color_selected <218, 218, 218>
+                mat_color_top_edge <182, 182, 255>
+                mat_color_bottom_edge <36, 36, 85>
+                mat_color_face <72, 109, 170>
+                mat_art_id <1-1-53623>
+                mat_shortcut_key <"@">
+                act_replace_select_action
+                    <
+                    uni_start_stream <00x>
+                      man_preset_gid <32-245>
+                      if_last_return_true_then <1, 2>
+                      man_make_focus
+                      man_update_display
+                      uni_sync_skip <1>
+                      uni_wait_on
+                      uni_invoke_no_context <32-245>
+                      uni_sync_skip <2>
+                    uni_end_stream <00x>
+                    >
+                man_start_sibling <trigger, "">
+                  mat_title_width <8>
+                  mat_precise_x <277>
+                  mat_precise_y <141>
+                  mat_color_face <0, 102, 153>
+                  mat_color_top_edge <1, 1, 1>
+                  mat_color_bottom_edge <1, 1, 1>
+                  mat_precise_width <105>
+                  mat_precise_height <23>
+                  mat_font_sis <arial, 8, bold>
+                  mat_color_frame_hilight <182, 182, 255>
+                  mat_color_frame_shadow <1, 36, 85>
+                  mat_color_selected <218, 218, 218>
+                  mat_color_top_edge <182, 182, 255>
+                  mat_color_bottom_edge <36, 36, 85>
+                  mat_color_face <72, 109, 170>
+                  mat_art_id <1-1-53624>
+                  mat_shortcut_key <"@">
+                  act_replace_select_action
+                      <
+                      uni_start_stream <00x>
+                        man_preset_gid <32-280>
+                        if_last_return_true_then <1, 2>
+                        man_make_focus
+                        man_update_display
+                        uni_sync_skip <1>
+                        uni_wait_on
+                        uni_invoke_no_context <32-280>
+                        uni_sync_skip <2>
+                      uni_end_stream <00x>
+                      >
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hlf>
+                  mat_precise_x <11>
+                  mat_precise_y <165>
+                  mat_precise_width <375>
+                  mat_precise_height <65>
+                  man_start_object <trigger, "Grafik">
+                    mat_title_width <8>
+                    mat_precise_x <416>
+                    mat_precise_y <170>
+                    mat_color_face <0, 102, 153>
+                    mat_color_top_edge <1, 1, 1>
+                    mat_color_bottom_edge <1, 1, 1>
+                    mat_precise_width <85>
+                    mat_precise_height <23>
+                    mat_font_sis <arial, 8, bold>
+                    mat_color_text <255, 255, 255>
+                    mat_color_text_shadow <36, 36, 85>
+                    mat_color_frame_hilight <182, 182, 255>
+                    mat_color_frame_shadow <1, 36, 85>
+                    mat_color_selected <218, 218, 218>
+                    mat_color_top_edge <182, 182, 255>
+                    mat_color_bottom_edge <36, 36, 85>
+                    mat_color_face <72, 109, 170>
+                    mat_horizontal_spacing <0>
+                    mat_vertical_spacing <0>
+                    act_replace_select_action
+                        <
+                        uni_start_stream <00x>
+                          man_preset_gid <32-5270>
+                          if_last_return_true_then <1, 2>
+                          man_make_focus
+                          man_update_display
+                          uni_sync_skip <1>
+                          uni_wait_on
+                          uni_invoke_no_context <32-5270>
+                          uni_sync_skip <2>
+                        uni_end_stream <00x>
+                        >
+                    man_start_sibling <trigger, "">
+                      mat_title_width <8>
+                      mat_precise_x <44>
+                      mat_precise_y <243>
+                      mat_relative_tag <24>
+                      mat_color_face <0, 102, 153>
+                      mat_color_top_edge <1, 1, 1>
+                      mat_color_bottom_edge <1, 1, 1>
+                      mat_precise_width <102>
+                      mat_precise_height <23>
+                      mat_font_sis <arial, 8, bold>
+                      mat_color_frame_hilight <182, 182, 255>
+                      mat_color_frame_shadow <1, 36, 85>
+                      mat_color_selected <218, 218, 218>
+                      mat_color_top_edge <182, 182, 255>
+                      mat_color_bottom_edge <36, 36, 85>
+                      mat_color_face <72, 109, 170>
+                      mat_art_id <1-1-53628>
+                      mat_shortcut_key <"@">
+                      uni_start_stream
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              if_offline_then <1, 2>
+                              async_error_box <"Bitte melden Sie sich an, bevor Sie diese Funktion nutzen.">
+                              uni_sync_skip <1>
+                              uni_wait_on
+                              uni_invoke_no_context <41-16478>
+                              uni_sync_skip <2>
+                            uni_end_stream
+                            >
+                        uni_end_stream
+                      man_end_object
+                      if_offline_then <1, 2>
+                      uni_sync_skip <1>
+                      uni_sync_skip <2>
+                      man_start_object <trigger, "">
+                        mat_title_width <8>
+                        mat_precise_x <44>
+                        mat_precise_y <185>
+                        mat_color_face <0, 102, 153>
+                        mat_color_top_edge <1, 1, 1>
+                        mat_color_bottom_edge <1, 1, 1>
+                        mat_precise_width <102>
+                        mat_precise_height <23>
+                        mat_font_sis <arial, 8, bold>
+                        mat_color_frame_hilight <182, 182, 255>
+                        mat_color_frame_shadow <1, 36, 85>
+                        mat_color_selected <218, 218, 218>
+                        mat_color_top_edge <182, 182, 255>
+                        mat_color_bottom_edge <36, 36, 85>
+                        mat_color_face <72, 109, 170>
+                        mat_art_id <1-1-53625>
+                        mat_shortcut_key <"@">
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                              man_preset_gid <32-2506>
+                              if_last_return_true_then <1, 2>
+                              man_make_focus
+                              man_update_display
+                              uni_sync_skip <1>
+                              uni_wait_on
+                              uni_invoke_no_context <32-2506>
+                              uni_sync_skip <2>
+                            uni_end_stream <00x>
+                            >
+                        man_end_object
+                        if_offline_then <1, 2>
+                        uni_sync_skip <1>
+                        uni_sync_skip <2>
+                        man_start_object <trigger, "">
+                          mat_title_width <10>
+                          mat_precise_x <160>
+                          mat_precise_y <141>
+                          mat_color_face <0, 102, 153>
+                          mat_color_top_edge <1, 1, 1>
+                          mat_color_bottom_edge <1, 1, 1>
+                          mat_precise_width <102>
+                          mat_precise_height <23>
+                          mat_font_sis <arial, 8, bold>
+                          mat_color_frame_hilight <182, 182, 255>
+                          mat_color_frame_shadow <1, 36, 85>
+                          mat_color_selected <218, 218, 218>
+                          mat_color_top_edge <182, 182, 255>
+                          mat_color_bottom_edge <36, 36, 85>
+                          mat_color_face <72, 109, 170>
+                          mat_art_id <1-1-53627>
+                          act_replace_select_action
+                              <
+                              uni_start_stream <00x>
+                                man_preset_gid <32-4678>
+                                if_last_return_true_then <1, 2>
+                                man_make_focus
+                                man_update_display
+                                uni_sync_skip <1>
+                                uni_wait_on
+                                uni_invoke_no_context <32-4678>
+                                uni_sync_skip <2>
+                              uni_end_stream <00x>
+                              >
+                          man_start_sibling <trigger, "Rechtschreibung">
+                            mat_precise_x <277>
+                            mat_precise_y <185>
+                            mat_color_face <0, 102, 153>
+                            mat_color_top_edge <1, 1, 1>
+                            mat_color_bottom_edge <1, 1, 1>
+                            act_set_criterion <select>
+                            act_replace_action
+                                <
+                                uni_start_stream
+                                  spell_rules_dlg
+                                uni_end_stream
+                                >
+                              mat_precise_width <105>
+                              mat_precise_height <23>
+                              mat_font_sis <arial, 8, bold>
+                              mat_color_text <255, 255, 255>
+                              mat_color_text_shadow <36, 36, 85>
+                              mat_color_frame_hilight <182, 182, 255>
+                              mat_color_frame_shadow <1, 36, 85>
+                              mat_color_selected <218, 218, 218>
+                              mat_color_top_edge <182, 182, 255>
+                              mat_color_bottom_edge <36, 36, 85>
+                              mat_color_face <72, 109, 170>
+                            man_start_sibling <trigger, "Schrift">
+                              mat_precise_x <416>
+                              mat_precise_y <206>
+                              mat_color_face <0, 102, 153>
+                              mat_color_top_edge <1, 1, 1>
+                              mat_color_bottom_edge <1, 1, 1>
+                              mat_precise_width <85>
+                              mat_precise_height <23>
+                              mat_font_sis <arial, 8, bold>
+                              mat_color_text <255, 255, 255>
+                              mat_color_text_shadow <36, 36, 85>
+                              mat_color_frame_hilight <182, 182, 255>
+                              mat_color_frame_shadow <1, 36, 85>
+                              mat_color_selected <218, 218, 218>
+                              mat_color_top_edge <182, 182, 255>
+                              mat_color_bottom_edge <36, 36, 85>
+                              mat_color_face <72, 109, 170>
+                              mat_font_id <arial>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream <00x>
+                                    man_preset_gid <41-5802>
+                                    if_last_return_true_then <1, 2>
+                                    man_make_focus
+                                    man_update_display
+                                    uni_sync_skip <1>
+                                    uni_wait_on
+                                    uni_invoke_no_context <41-5802>
+                                    uni_sync_skip <2>
+                                  uni_end_stream <00x>
+                                  >
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <hlf>
+                              mat_precise_x <10>
+                              mat_precise_y <240>
+                              mat_precise_width <370>
+                              mat_precise_height <65>
+                              man_start_object <trigger, "Sprachen">
+                                mat_precise_x <416>
+                                mat_precise_y <133>
+                                mat_color_face <0, 102, 153>
+                                mat_color_top_edge <1, 1, 1>
+                                mat_color_bottom_edge <1, 1, 1>
+                                mat_precise_width <85>
+                                mat_precise_height <23>
+                                mat_font_sis <arial, 8, bold>
+                                mat_color_text <255, 255, 255>
+                                mat_color_text_shadow <36, 36, 85>
+                                mat_color_frame_hilight <182, 182, 255>
+                                mat_color_frame_shadow <1, 36, 85>
+                                mat_color_selected <218, 218, 218>
+                                mat_color_top_edge <182, 182, 255>
+                                mat_color_bottom_edge <36, 36, 85>
+                                mat_color_face <72, 109, 170>
+                                mat_horizontal_spacing <0>
+                                mat_vertical_spacing <0>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      async_invoke_language_pref
+                                    uni_end_stream
+                                    >
+                                man_start_sibling <trigger, "Marketing">
+                                  mat_precise_x <416>
+                                  mat_precise_y <243>
+                                  mat_color_face <0, 102, 153>
+                                  mat_color_top_edge <1, 1, 1>
+                                  mat_color_bottom_edge <1, 1, 1>
+                                  mat_precise_width <85>
+                                  mat_precise_height <23>
+                                  mat_font_sis <arial, 8, bold>
+                                  mat_color_text <255, 255, 255>
+                                  mat_color_text_shadow <36, 36, 85>
+                                  mat_color_frame_hilight <182, 182, 255>
+                                  mat_color_frame_shadow <1, 36, 85>
+                                  mat_color_selected <218, 218, 218>
+                                  mat_color_top_edge <182, 182, 255>
+                                  mat_color_bottom_edge <36, 36, 85>
+                                  mat_color_face <72, 109, 170>
+                                  uni_start_stream
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          if_offline_then <1, 2>
+                                          async_error_box <"Bitte melden Sie sich an, bevor Sie diese Funktion nutzen.">
+                                          uni_sync_skip <1>
+                                          uni_wait_on
+                                          uni_invoke_no_context <40-4979>
+                                          uni_sync_skip <2>
+                                        uni_end_stream
+                                        >
+                                    uni_end_stream
+                                  man_start_sibling <trigger, "Zeitzone">
+                                    mat_precise_x <416>
+                                    mat_precise_y <60>
+                                    mat_relative_tag <3>
+                                    mat_color_face <0, 102, 153>
+                                    mat_color_top_edge <1, 1, 1>
+                                    mat_color_bottom_edge <1, 1, 1>
+                                    mat_precise_width <85>
+                                    mat_precise_height <23>
+                                    mat_font_sis <arial, 8, bold>
+                                    mat_color_text <255, 255, 255>
+                                    mat_color_text_shadow <36, 36, 85>
+                                    mat_color_frame_hilight <182, 182, 255>
+                                    mat_color_frame_shadow <1, 36, 85>
+                                    mat_color_selected <218, 218, 218>
+                                    mat_color_top_edge <182, 182, 255>
+                                    mat_color_bottom_edge <36, 36, 85>
+                                    mat_color_face <72, 109, 170>
+                                    mat_bool_disabled <yes>
+                                    mat_bool_invisible <yes>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          async_invoke_timezone_pref
+                                        uni_end_stream
+                                        >
+                                    man_start_sibling <trigger, "Lokales">
+                                      mat_precise_x <616>
+                                      mat_precise_y <243>
+                                      mat_relative_tag <22>
+                                      mat_color_face <0, 102, 153>
+                                      mat_color_top_edge <1, 1, 1>
+                                      mat_color_bottom_edge <1, 1, 1>
+                                      mat_precise_width <85>
+                                      mat_precise_height <23>
+                                      mat_font_sis <arial, 8, bold>
+                                      mat_color_text <255, 255, 255>
+                                      mat_color_text_shadow <36, 36, 85>
+                                      mat_color_frame_hilight <182, 182, 255>
+                                      mat_color_frame_shadow <1, 36, 85>
+                                      mat_color_selected <218, 218, 218>
+                                      mat_color_top_edge <182, 182, 255>
+                                      mat_color_bottom_edge <36, 36, 85>
+                                      mat_color_face <72, 109, 170>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_send_f1 <41-34601>
+                                          >
+                                      man_start_sibling <trigger, "Multimedia">
+                                        mat_precise_x <416>
+                                        mat_precise_y <170>
+                                        mat_color_face <0, 102, 153>
+                                        mat_color_top_edge <1, 1, 1>
+                                        mat_color_bottom_edge <1, 1, 1>
+                                        mat_precise_width <85>
+                                        mat_precise_height <23>
+                                        mat_font_sis <arial, 8, bold>
+                                        mat_color_text <255, 255, 255>
+                                        mat_color_text_shadow <36, 36, 85>
+                                        mat_color_frame_hilight <182, 182, 255>
+                                        mat_color_frame_shadow <1, 36, 85>
+                                        mat_color_selected <218, 218, 218>
+                                        mat_color_top_edge <182, 182, 255>
+                                        mat_color_bottom_edge <36, 36, 85>
+                                        mat_color_face <72, 109, 170>
+                                        mat_bool_invisible <yes>
+                                        mat_font_id <arial>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream <00x>
+                                              man_preset_gid <40-58756>
+                                              if_last_return_true_then <1, 2>
+                                              man_make_focus
+                                              man_update_display
+                                              uni_sync_skip <1>
+                                              uni_wait_on
+                                              uni_invoke_no_context <40-58756>
+                                              uni_sync_skip <2>
+                                            uni_end_stream <00x>
+                                            >
+                                        man_start_sibling <trigger, "Lokales">
+                                          mat_precise_x <416>
+                                          mat_precise_y <97>
+                                          mat_color_face <0, 102, 153>
+                                          mat_color_top_edge <1, 1, 1>
+                                          mat_color_bottom_edge <1, 1, 1>
+                                          mat_precise_width <85>
+                                          mat_precise_height <23>
+                                          mat_font_sis <arial, 8, bold>
+                                          mat_color_text <255, 255, 255>
+                                          mat_color_text_shadow <36, 36, 85>
+                                          mat_color_frame_hilight <182, 182, 255>
+                                          mat_color_frame_shadow <1, 36, 85>
+                                          mat_color_selected <218, 218, 218>
+                                          mat_color_top_edge <182, 182, 255>
+                                          mat_color_bottom_edge <36, 36, 85>
+                                          mat_color_face <72, 109, 170>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                if_offline_then <1, 2>
+                                                async_error_box <"Bitte melden Sie sich an, bevor Sie diese Funktion nutzen.">
+                                                uni_sync_skip <1>
+                                              sm_send_f1 <41-34601>
+                                              >
+                                            uni_sync_skip <2>
+                                          man_end_object
+                                        man_start_sibling <trigger, "?">
+                                          mat_precise_x <477>
+                                          mat_precise_y <17>
+                                          mat_precise_width <24>
+                                          mat_precise_height <21>
+                                          mat_color_face <0, 109, 170>
+                                          mat_color_text <255, 255, 255>
+                                          mat_color_top_edge <145, 182, 255>
+                                          mat_color_bottom_edge <1, 1, 1>
+                                          mat_font_sis <arial, 8, bold>
+                                          mat_color_text <255, 255, 255>
+                                          mat_color_text_shadow <36, 36, 85>
+                                          mat_color_frame_hilight <182, 182, 255>
+                                          mat_color_frame_shadow <1, 36, 85>
+                                          mat_color_selected <218, 218, 218>
+                                          mat_color_top_edge <182, 182, 255>
+                                          mat_color_bottom_edge <36, 36, 85>
+                                          mat_color_face <72, 109, 170>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                async_exec_context_help <50x, 72x, e4x, 66x, 65x, 72x, 65x, 6ex, 7ax, 65x, 6ex>
+                                              uni_end_stream
+                                              >
+                                          man_start_sibling <ornament, "">
+                                            mat_precise_x <160>
+                                            mat_precise_y <240>
+                                            mat_precise_width <230>
+                                            mat_precise_height <32>
+                                            mat_font_sis <arial, 9, normal>
+                                            man_append_data <""Pa�w�rter" erspart Ihnen das Eingeben Ihres Pa�wortes beim Anmelden in AOL.">
+                                          man_start_sibling <view, "">
+                                            rich_manage
+                                            rich_set_static
+                                            mat_precise_x <44>
+                                            mat_precise_y <280>
+                                            mat_precise_width <350>
+                                            mat_precise_height <30>
+                                            mat_color_text <204, 1, 1>
+                                            mat_font_sis <arial, 8, normal>
+                                            mat_color_text <204, 1, 1>
+                                            mat_bool_vertical_scroll <no>
+                                            mat_bool_resize_vertical <no>
+                                            mat_bool_resize_horizontal <no>
+                                            mat_bool_exportable <no>
+                                            man_append_data <"<FONT  COLOR="#CC0101"><b>Achtung:</b> das dauerhafte Speichern des Pa�wortes ist zwar bequemer, birgt aber ein Sicherheitsrisiko!</font>">
+                                          man_end_object
+                                          man_update_display
+                                          man_set_context_relative <3>
+                                          async_is_client_32bit
+                                          if_last_return_false_then <11, 12>
+                                          mat_bool_invisible <no>
+                                          man_end_context
+                                          uni_sync_skip <11>
+                                          man_end_context
+                                          uni_sync_skip <12>
+                                          act_get_db_value <14x, ffx, 00x, 04x>
+                                          if_last_return_true_then <1, 2>
+                                          man_set_context_relative <22>
+                                          mat_bool_invisible <no>
+                                          man_end_context
+                                          uni_sync_skip <1>
+                                          man_set_context_relative <22>
+                                          mat_bool_invisible <yes>
+                                          man_end_context
+                                          uni_sync_skip <2>
+                                          man_update_display
+                                          uni_wait_off
+                                        uni_end_stream <00x>

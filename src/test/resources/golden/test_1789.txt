@@ -1,0 +1,117 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "UK Promo List  22/02/99">
+    mat_orientation <vec>
+    mat_precise_width <377>
+    mat_precise_height <299>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <182, 36, 170>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "UK Promo\rCode List\r22/02/99">
+      mat_precise_width <144>
+      mat_precise_height <66>
+      mat_precise_x <20>
+      mat_precise_y <13>
+      mat_color_face <72, 182, 255>
+      mat_bool_background_flood <yes>
+      mat_color_text <0, 255, 0>
+      mat_color_text_shadow <0, 0, 0>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Promo">
+      mat_precise_width <40>
+      mat_precise_height <15>
+      mat_precise_x <25>
+      mat_precise_y <84>
+      mat_color_text <0, 255, 0>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Print">
+      mat_precise_width <28>
+      mat_precise_height <15>
+      mat_precise_x <117>
+      mat_precise_y <84>
+      mat_color_text <0, 255, 0>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Title">
+      mat_precise_width <25>
+      mat_precise_height <15>
+      mat_precise_x <215>
+      mat_precise_y <84>
+      mat_color_text <0, 255, 0>
+      mat_orientation <hcf>
+    man_start_sibling <dss_list, "">
+      mat_precise_width <336>
+      mat_precise_height <180>
+      mat_precise_x <21>
+      mat_precise_y <103>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "0098530\tIreland\t\tIrish Promo Code">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "66319\tSweden\t\tSwedish Requests">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "106438 \tInvalid Certs\tInvalid certs">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "96431\tAir Miles\t\tAir Miles offer">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tBarclays\t\tfrom Barclays">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tNone\t\tNone">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tBenefits for you\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "104070\tRadio\t\tFrom the Radio">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tShop\t\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tPress\t\tfrom the press">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "104071\tTube\t\tFrom the Tube">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "104069\tTV\t\tFrom the TV">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "104074\tAOL Web\t\tAOL's web site">
+        mat_art_id <1-0-17203>
+      man_start_sibling <trigger, "104073\tBrand Floppy\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tCard\t\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tExhibitions\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103823\tFloppy\t\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tMagadverts\tSame">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tMaginsert\t\tFrom magazine inserts">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tOther Brand">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tOvers">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103824\tUpgrade\t\tAnyone looking to Upgrade">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "103821\tWord\t\tWord of mouth">
+        mat_art_id <1-0-31101>
+      man_start_sibling <trigger, "104072\tPosters\t\tSame">
+        mat_art_id <1-0-31101>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_bool_default_send <no>
+      mat_precise_width <152>
+      mat_precise_height <34>
+      mat_precise_x <204>
+      mat_precise_y <22>
+      mat_color_face <72, 182, 255>
+      mat_bool_background_flood <yes>
+      mat_bool_no_border <yes>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "= Web 100 hour Promo">
+        mat_art_id <1-0-17203>
+      man_start_sibling <trigger, "= PC\t100 hour Promo">
+        mat_art_id <1-0-31101>
+      man_end_object
+    man_end_object
+  hfs_attr_end_object
+man_update_woff_end_stream

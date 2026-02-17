@@ -1,0 +1,383 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Static Epsilon View">
+    mat_object_id <32-2101>
+    mat_style_id <32-2101>
+    mat_orientation <vff>
+    mat_precise_width <277>
+    mat_precise_height <320>
+    mat_color_face <255, 255, 255>
+    man_set_response_id <2130693>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_size <18, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      uni_next_atom_typed <ascii>
+      man_append_data <"Simple Bottom Gadget">
+    man_start_sibling <sms_list, "">
+      mat_orientation <hcf>
+      uni_next_atom_typed <ascii>
+      man_start_object <trigger, "Dynamic Gamma Main">
+        mat_precise_x <135>
+        mat_precise_y <55>
+        mat_relative_tag <11>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <ornament, "">
+        mat_font_sis <arial, 9, bold>
+        man_append_data <"Special Element">
+        mat_precise_x <135>
+        mat_precise_y <104>
+        mat_precise_width <81>
+        mat_precise_height <16>
+      man_end_object
+      man_start_object <select_range, "">
+        mat_relative_tag <8>
+        mat_title
+        mat_title_pos <left | center | 4>
+        mat_precise_x <128>
+        mat_precise_y <125>
+        mat_precise_height <24>
+        mat_precise_width <40>
+        mat_increment <1>
+        mat_minimum <0>
+        mat_maximum <23>
+      man_end_object
+      man_start_object <ornament, "">
+        mat_font_sis <arial, 9, bold>
+        man_append_data <":">
+        mat_precise_x <180>
+        mat_precise_y <129>
+        mat_precise_width <4>
+        mat_precise_height <16>
+      man_end_object
+      man_start_object <dss_list, "">
+        mat_relative_tag <9>
+        mat_orientation <vff>
+        mat_title <" ">
+        mat_title_pos <left | center | 4>
+        mat_precise_x <184>
+        mat_precise_y <123>
+        mat_precise_width <42>
+        mat_precise_height <22>
+        idb_set_context <20-0-61>
+        idb_atr_offset <0>
+        idb_get_value <04x>
+        mip_flip_it
+        var_number_set_from_atom <A>
+        man_start_object <trigger, "">
+          var_number_get <A>
+          uni_convert_last_atom_data
+          uni_use_last_atom_string <mat_title>
+        man_end_object
+        man_start_object <trigger, "">
+          var_number_add <30>
+          var_number_get <A>
+          uni_convert_last_atom_data
+          uni_use_last_atom_string <mat_title>
+        man_end_object
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_y <50>
+      mat_precise_width <25>
+      mat_precise_height <175>
+      uni_next_atom_typed <ascii>
+      man_start_object <sms_list, "New Section">
+        mat_orientation <vff>
+        uni_next_atom_typed <ascii>
+        man_start_object <trigger, "Primary Left">
+          mat_precise_x <10>
+          mat_precise_y <55>
+          mat_relative_tag <1>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Third Edge">
+          mat_precise_x <10>
+          mat_precise_y <80>
+          mat_relative_tag <2>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "New Area">
+          mat_precise_x <10>
+          mat_precise_y <105>
+          mat_relative_tag <3>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Sub Area">
+          mat_precise_x <10>
+          mat_precise_y <130>
+          mat_relative_tag <4>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Standard Item">
+          mat_precise_x <10>
+          mat_precise_y <155>
+          mat_relative_tag <5>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Old Alpha">
+          mat_precise_x <10>
+          mat_precise_y <180>
+          mat_relative_tag <6>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Basic Section">
+          mat_precise_x <10>
+          mat_precise_y <205>
+          mat_relative_tag <7>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_x <130>
+      mat_precise_y <175>
+      mat_precise_width <4130>
+      mat_precise_height <455>
+      man_start_object <ornament, "">
+        mat_precise_x <135>
+        mat_precise_y <179>
+        mat_precise_width <81>
+        mat_precise_height <16>
+        mat_font_id <arial>
+        mat_font_size <9>
+        mat_font_style <bold>
+        uni_next_atom_typed <ascii>
+        man_append_data <"Third Unit">
+      man_start_sibling <dss_list, "">
+        mat_orientation <vff>
+        mat_precise_x <136>
+        mat_precise_y <199>
+        mat_precise_width <109>
+        mat_precise_height <22>
+        mat_relative_tag <10>
+        mat_title_pos <above | center>
+        mat_font_id <arial>
+        mat_font_size <9>
+        uni_next_atom_typed <ascii>
+        man_start_object <trigger, "Dynamic Section Right">
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Active Object">
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Current Module">
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Default Widget">
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Current Omega">
+          uni_next_atom_typed <ascii>
+        man_start_sibling <trigger, "Dynamic Front">
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <235>
+      mat_precise_width <300>
+      mat_precise_height <29>
+      man_start_object <trigger, "\x00\x00OK">
+        mat_title_width <6>
+        mat_precise_x <65>
+        mat_precise_y <239>
+        mat_precise_width <48>
+        mat_precise_height <48>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_trigger_style <plain_picture>
+        mat_font_size <8>
+        mat_art_id <1-1-56506>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-54>
+              idb_atr_offset <0>
+              man_change_context_relative <1>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <2>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <3>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <4>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <5>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <6>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <7>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <8>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <9>
+              de_get_data_pointer
+              uni_convert_last_atom_string
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <11>
+              de_get_data_value
+              if_last_return_true_then <30, 40>
+              mip_action_command <07x>
+              uni_sync_skip <30>
+              mip_action_command <08x>
+              uni_sync_skip <40>
+              man_change_context_relative <10>
+              de_set_data_type <index>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_end_context
+              man_close_update
+              idb_end_obj
+              de_end_extraction
+              man_preset_gid <32-2506>
+              if_last_return_true_then <1>
+              act_do_action <131>
+              man_end_context
+              uni_sync_skip <1>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "\x00\x00Default Sigma">
+          mat_title_width <6>
+          mat_precise_x <145>
+          mat_precise_y <239>
+          mat_precise_width <48>
+          mat_precise_height <48>
+          mat_color_face <0, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_trigger_style <plain_picture>
+          mat_font_size <8>
+          mat_art_id <1-1-56737>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_start_sibling <ornament, "">
+            mat_precise_x <85>
+            mat_precise_y <285>
+            mat_size <5, 1>
+            mat_font_id <arial>
+            mat_font_style <bold>
+            mat_font_size <8>
+            man_append_data <"OK">
+          man_start_sibling <ornament, "">
+            mat_precise_x <155>
+            mat_precise_y <285>
+            mat_size <6, 1>
+            mat_font_id <arial>
+            mat_font_style <bold>
+            mat_font_size <8>
+            man_append_data <"Old Dialog">
+          man_end_object
+        man_end_object
+        man_update_display
+        man_set_context_globalid <32-2101>
+        idb_set_context <20-0-54>
+        man_set_context_relative <1>
+        idb_atr_offset <0>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <2>
+        idb_atr_offset <4>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <3>
+        idb_atr_offset <8>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <4>
+        idb_atr_offset <12>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <5>
+        idb_atr_offset <16>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <6>
+        idb_atr_offset <20>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <7>
+        idb_atr_offset <24>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <8>
+        idb_atr_offset <28>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <9>
+        idb_atr_offset <32>
+        idb_get_value
+        var_number_set_from_atom <A>
+        var_number_set <B, 30>
+        if_numa_lt_numb_then <10, 20>
+        mat_value <1>
+        uni_sync_skip <10>
+        mat_value <2>
+        uni_sync_skip <20>
+        man_change_context_relative <10>
+        idb_atr_offset <36>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        idb_end_context
+        idb_set_context <20-0-55>
+        idb_atr_offset <0>
+        man_change_context_relative <11>
+        idb_get_value <04x>
+        mip_flip_it
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        idb_end_context
+        man_update_display
+        man_end_context
+        uni_wait_off
+      uni_end_stream <00x>

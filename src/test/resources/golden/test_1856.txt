@@ -1,0 +1,84 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "List of PICT 12 & up Global IDs">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <290>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <255, 1, 1>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <3>
+      mat_precise_width <375>
+      mat_precise_height <45>
+      mat_precise_x <30>
+      mat_precise_y <13>
+      mat_color_text <255, 255, 1>
+      man_append_data <"System Art: Global IDs\rPict 12, 13, 14, 15, 16, 17">
+      man_append_data <"\r">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <view, "">
+      mat_bool_writeable <yes>
+      mat_precise_width <464>
+      mat_precise_height <210>
+      mat_precise_x <17>
+      mat_precise_y <65>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"System Art: Global IDs\r\nPict 12, 13, 14, 15, 16, 1">
+      man_append_data <"7\r\n(as of 11/06/96)\r\n\r\n\r\n__Picts 12\r\n1-0-34689  sp">
+      man_append_data <"ok_internetweb_gif\r\n1-0-34690  spok_internet2_gif\r">
+      man_append_data <"\n1-0-34691  spok_liveevents_gif\r\n1-0-34692  spok_d">
+      man_append_data <"iscovery_gif\r\n1-0-34693  spok_weather1_gif\r\n1-0-34">
+      man_append_data <"694  spok_win_gif\r\n1-0-34695  spok_summer_gif\r\n1-0">
+      man_append_data <"-34696  spok_whatshot_gif\r\n1-0-34697  spok_celebha">
+      man_append_data <"t_gif\r\n1-0-34698  spok_celebbot_gif\r\n1-0-34699  sp">
+      man_append_data <"ok_shoppackg_gif\r\n1-0-34702  spok_shopbag_gif\r\n1-0">
+      man_append_data <"-34704  spok_finance_gif\r\n1-0-34707  spok_communit">
+      man_append_data <"y_gif\r\n1-0-34708  spok_freehour_gif\r\n\r\n\r\n__Picts 1">
+      man_append_data <"3\r\n1-0-34709  spok_helptip_gif\r\n1-0-34710  spok_4j">
+      man_append_data <"uly_gif\r\n1-0-34711  spok_newchick_gif\r\n1-0-34197  ">
+      man_append_data <"spok_newsunicon_gif\r\n1-0-34712  spok_vote_gif\r\n1-0">
+      man_append_data <"-34713  spok_extra_gif\r\n1-0-34714  spok_travel_gif">
+      man_append_data <"\r\n1-0-34717  spok_passport_gif\r\n1-0-34721  spok_st">
+      man_append_data <"eveletter_gif\r\n1-0-34723  spok_blueyell_gif\r\n1-0-3">
+      man_append_data <"4196  spok_newsflash_gif\r\n1-0-34724  spok_watch_gi">
+      man_append_data <"f\r\n1-0-34725  spok_yellowex_gif\r\n1-0-35990  aol_ch">
+      man_append_data <"at3\r\n1-0-35991  aol_message_board\r\n\r\n\r\n__Picts 14\r">
+      man_append_data <"\n1-0-35992  aol_browse_folder\r\n1-0-35993  aol_comp">
+      man_append_data <"ose_mail\r\n1-0-35994  aol_read_new_mail\r\n1-0-35995 ">
+      man_append_data <" aol_kids2\r\n1-0-35996  aol_win2\r\n1-0-35997  aol_pr">
+      man_append_data <"izes\r\n1-0-35998  aol_games\r\n1-0-35999  aol_back_to">
+      man_append_data <"_schoo\r\n1-0-36000  aol_fall\r\n1-0-36006  aol_flag1\r">
+      man_append_data <"\n1-0-36001  aol_lady_liberty\r\n1-0-36002  aol_democ">
+      man_append_data <"ratic\r\n1-0-36003  aol_republican\r\n1-0-36004  aol_e">
+      man_append_data <"lection_96\r\n1-0-36005  aol_eagle_n_flag\r\n\r\n\r\n__Pic">
+      man_append_data <"ts 15\r\n1-0-42249  aol_people\r\n1-0-42245  aol_cellp">
+      man_append_data <"hone\r\n1-0-42244  aol_storms\r\n1-0-42254  aol_health">
+      man_append_data <"\r\n1-0-42250  aol_parental\r\n1-0-39994  aol_computin">
+      man_append_data <"g\r\n1-0-39995  aol_e_affinity\r\n1-0-39996  aol_famil">
+      man_append_data <"y\r\n1-0-39997  aol_finance5\r\n1-0-39998  aol_globe\r\n">
+      man_append_data <"1-0-39999  aol_hourglass\r\n1-0-40000  aol_pers_fina">
+      man_append_data <"nce2\r\n1-0-40001  aol_rewardsicon\r\n1-0-40002  aol_s">
+      man_append_data <"oftware\r\n1-0-40003  aol_sports\r\n\r\n\r\n__Picts 16\r\n1-">
+      man_append_data <"0-40004  aol_thrive\r\n1-0-40005  aol_tools\r\n1-0-400">
+      man_append_data <"06  aol_web_global\r\n1-0-40007  aol_winter\r\n1-0-400">
+      man_append_data <"08  aol_games2\r\n1-0-42243  aol_chance\r\n1-0-42243  ">
+      man_append_data <"aol_security\r\n1-0-42251  aol_laptop\r\n1-0-42252  ao">
+      man_append_data <"l_key\r\n1-0-42255  aol_halloween\r\n1-0-42253  aol_in">
+      man_append_data <"tl\r\n\r\n\r\n__Picts 17\r\n1-0-46050  aol_baseball\r\n1-0-4">
+      man_append_data <"6051  aol_basketball\r\n1-0-46052  aol_football\r\n1-0">
+      man_append_data <"-46053  aol_free_1\r\n1-0-46054  aol_free_2\r\n1-0-460">
+      man_append_data <"55  aol_mag_glass\r\n1-0-46056  aol_microphone\r\n1-0-">
+      man_append_data <"46057  aol_question_mark\r\n1-0-46058  aol_soccer\r\n1">
+      man_append_data <"-0-46059  aol_stethoscope\r\n1-0-46060  aol_thumbs\r\n">
+      man_append_data <"1-0-46061  aol_tickets\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_end_object
+  hfs_attr_end_object
+man_update_woff_end_stream

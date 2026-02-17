@@ -1,0 +1,13 @@
+uni_start_stream
+  idb_set_context <20-0-16>
+  idb_atr_offset <0>
+  idb_append_data <02x>
+  idb_append_data <54x, 4Fx, 53x, 41x, 64x, 76x, 69x, 73x, 6Fx, 72x, 00x, 20x, 20x, 20x, 20x, 20x, 20x, 20x, 20x, 20x, 20x, 00x, 47x, 75x, 65x, 73x, 74x, 20x, 20x, 20x, 20x, 20x, 00x, 37x, 37x, 37x, 37x, 37x, 37x, 37x, 37x, 37x, 37x, 00x, 4Ex, 65x, 77x, 20x, 55x, 73x, 65x, 72x, 20x, 20x, 00x, 36x, 36x, 36x, 36x, 36x, 36x, 36x, 36x, 36x, 36x, 00x, 4Ex, 65x, 77x, 20x, 4Cx, 6Fx, 63x, 61x, 6Cx, 23x, 00x, 35x, 35x, 35x, 35x, 35x, 35x, 35x, 35x, 35x, 35x, 00x>
+  idb_end_context
+  uni_use_last_atom_value <uni_save_result>
+  buf_start_buffer <token_header | stream_id_header | host_bound>
+  buf_set_token <"]K">
+  uni_get_result
+  uni_use_last_atom_value <buf_add_data>
+  buf_close_buffer
+uni_end_stream

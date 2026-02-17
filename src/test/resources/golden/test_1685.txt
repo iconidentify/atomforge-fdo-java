@@ -1,0 +1,245 @@
+uni_start_stream
+  man_start_object <ind_group, "CRIS Control Panel">
+    mat_orientation <vff>
+    mat_art_id <1-0-2383>
+    mat_bool_background_tile <yes>
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+          man_set_context_relative <7>
+          act_do_action <select>
+          man_end_context
+          man_close_update <6-0-3>
+        uni_end_stream
+        >
+      man_start_object <ornament, "">
+        mat_width <55>
+        mat_height <1>
+        mat_font_sis <arial, 9, normal>
+        mat_orientation <hlf>
+      man_start_sibling <edit_view, "Screen Name">
+        mat_width <16>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <16>
+        mat_relative_tag <1>
+      man_start_sibling <edit_view, "Phone">
+        mat_width <20>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <20>
+        mat_relative_tag <2>
+      man_start_sibling <edit_view, "Account Number">
+        mat_width <16>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <16>
+        mat_relative_tag <3>
+      man_start_sibling <edit_view, "Last Name">
+        mat_width <32>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <32>
+        mat_relative_tag <4>
+      man_start_sibling <edit_view, "First Name">
+        mat_width <32>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <32>
+        mat_relative_tag <5>
+      man_start_sibling <edit_view, "Certificate:">
+        mat_width <16>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"Hidden Text Removed">
+        man_end_data
+        mat_bool_invisible <yes>
+        mat_relative_tag <8>
+      man_start_sibling <edit_view, "CC Number:">
+        mat_width <20>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <left | center>
+        mat_title_width <16>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"Hidden Text Removed">
+        man_end_data
+        mat_bool_invisible <yes>
+        mat_relative_tag <9>
+      man_start_sibling <ornament, "">
+        mat_width <55>
+        mat_height <1>
+        mat_font_sis <arial, 9, normal>
+        mat_orientation <hlf>
+      man_start_sibling <org_group, "">
+        mat_orientation <hef>
+        man_start_object <trigger, "Search">
+          mat_relative_tag <6>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+                man_preset_gid <6-0-0>
+                if_last_return_true_then <80>
+                man_close_children
+                man_update_display
+                man_end_context
+                uni_sync_skip <80>
+                man_preset_gid <6-0-1>
+                if_last_return_true_then <81>
+                man_close_children
+                man_update_display
+                man_end_context
+                uni_sync_skip <81>
+                man_preset_gid <6-0-2>
+                if_last_return_true_then <82>
+                man_close_children
+                man_update_display
+                man_end_context
+                uni_sync_skip <82>
+              de_ez_send_form <"&S">
+              >
+            mat_font_sis <system, 12, normal>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "Clear (F12)">
+            mat_relative_tag <7>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_clear_relative <1>
+                  man_clear_relative <2>
+                  man_clear_relative <3>
+                  man_clear_relative <4>
+                  man_clear_relative <5>
+                  man_clear_relative <8>
+                  man_clear_relative <9>
+                  man_preset_gid <6-0-0>
+                  if_last_return_true_then <80>
+                  man_close_children
+                  man_update_display
+                  man_end_context
+                  uni_sync_skip <80>
+                  man_preset_gid <6-0-1>
+                  if_last_return_true_then <81>
+                  man_close_children
+                  man_update_display
+                  man_end_context
+                  uni_sync_skip <81>
+                  man_preset_gid <6-0-2>
+                  if_last_return_true_then <82>
+                  man_close_children
+                  man_update_display
+                  man_end_context
+                  uni_sync_skip <82>
+                uni_end_stream
+                >
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Reload Rights">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_token_arg <"&L", 0-0-105>
+                  >
+                mat_font_sis <system, 12, normal>
+              man_start_sibling <trigger, "CC Database">
+                mat_relative_tag <11>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_token_arg <"&L", 0-0-101>
+                    >
+                  mat_font_sis <system, 12, normal>
+                man_start_sibling <trigger, "DD Database">
+                  mat_relative_tag <15>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_token_arg <"&L", 0-0-106>
+                      >
+                    mat_font_sis <system, 12, normal>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hef>
+                  man_start_object <trigger, "Order Software">
+                    mat_relative_tag <12>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_token_arg <"&L", 0-0-102>
+                        >
+                      mat_font_sis <system, 12, normal>
+                    man_start_sibling <trigger, "Search Orders">
+                      mat_relative_tag <13>
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_token_arg <"&L", 0-0-103>
+                          >
+                        mat_font_sis <system, 12, normal>
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hef>
+                      man_start_object <trigger, "Make Certificate">
+                        mat_relative_tag <10>
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_token_arg <"&L", 0-0-104>
+                            >
+                          mat_font_sis <system, 12, normal>
+                        man_start_sibling <trigger, "Search Certificates">
+                          mat_relative_tag <14>
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_token_arg <"&L", 0-0-100>
+                              >
+                            mat_font_sis <system, 12, normal>
+                          man_end_object
+                        man_end_object
+                        man_update_display
+                      man_update_woff_end_stream

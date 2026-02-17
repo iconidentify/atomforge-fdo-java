@@ -1,0 +1,44 @@
+uni_start_stream
+  man_start_object <ind_group, "Member Services Promo SpotLITE">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <15>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"\r\nPROJECT ID:   OM011\r\n\r\nPROJECT NAME:   Member Se">
+        man_append_data <"rvices Promo SpotLITE\r\n\r\nDESCRIPTION:   Provide IP">
+        man_append_data <"s / Channels / AOL Companies / Advertisers opportu">
+        man_append_data <"nities to promote their products and information w">
+        man_append_data <"ithin the heavily trafficked Member Services.  We ">
+        man_append_data <"will be working in conjunction with Mark Luiggi of">
+        man_append_data <" Member Services Business Planning to bring intere">
+        man_append_data <"sted parties in.\r\n\r\nBENEFIT:  Increased Revenue.\r\n">
+        man_append_data <"\r\nSTART DATE:  05/16/96\r\n\r\nMILESTONES:  N/A\r\n\r\nCON">
+        man_append_data <"TACT:   Cheryl Lassiter\r\n\r\nCURRENT STATUS:   Addin">
+        man_append_data <"g promotional spots.  We now have 9 promo spots an">
+        man_append_data <"d are cycling them. Leslie Senevy has joined the t">
+        man_append_data <"eam as Project Manager to handle traffic responsib">
+        man_append_data <"ilities.\r\n\r\nBACKGROUND:  We identified an opportun">
+        man_append_data <"ity to leverage Member Services' high-traffic onli">
+        man_append_data <"ne real estate by providing additional promotional">
+        man_append_data <" space to AOL Partners and Channels.  In addition,">
+        man_append_data <" we saw the opportunity to sell ad space to compan">
+        man_append_data <"ies desiring an online presence.  Capitalizing on ">
+        man_append_data <"these opportunities will enable us to assist our A">
+        man_append_data <"OL partners in meeting their area usage goals, and">
+        man_append_data <" will help us meet the Member Services mission of ">
+        man_append_data <"creating revenue streams.\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

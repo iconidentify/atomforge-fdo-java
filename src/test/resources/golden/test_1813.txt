@@ -1,0 +1,35 @@
+uni_start_stream
+  man_start_object <ind_group, "Japan Call Center">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <15>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"\r\nPROJECT ID:   TL031\r\n\r\nPROJECT NAME:  Japan Call">
+        man_append_data <" Center\r\n\r\nDESCRIPTION:   Installation and configu">
+        man_append_data <"ration of the necessary hardware and software for ">
+        man_append_data <"the new Japan call center.\r\n\r\nBENEFIT:  Support fo">
+        man_append_data <"r Japanese joint venture.\r\n\r\nSTART DATE:  7/20/96\r">
+        man_append_data <"\n\r\nMILESTONES:  Phase 1 - Determine project requir">
+        man_append_data <"ements and timeline.  Phase 2 - Order the necessar">
+        man_append_data <"y equipment.  Phase 3 - Send technicians to Japan ">
+        man_append_data <"to install and configure the equipment \r\n\r\nCONTACT">
+        man_append_data <":  Malcolm Hawker\r\n\r\nCURRENT STATUS:   We are curr">
+        man_append_data <"ently in the initial phase of this project.  Work ">
+        man_append_data <"continues to determine the availability and suitab">
+        man_append_data <"ility of the correct ACD for the Japanese telephon">
+        man_append_data <"e system.\r\n\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

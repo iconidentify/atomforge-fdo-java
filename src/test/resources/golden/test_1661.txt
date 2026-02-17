@@ -1,0 +1,290 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Customer Care Systems">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <330>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-62663>
+    mat_bool_background_pic <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <170>
+      mat_precise_y <20>
+      mat_art_id <1-0-2381>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <56>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"t1", 0-89-5733>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <35>
+        mat_precise_height <35>
+        mat_precise_x <10>
+        mat_precise_y <100>
+        mat_art_id <1-0-2381>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <58>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-89-3293>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <35>
+          mat_precise_height <35>
+          mat_precise_x <10>
+          mat_precise_y <140>
+          mat_art_id <1-0-2381>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <60>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-89-9869>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <35>
+            mat_precise_height <35>
+            mat_precise_x <10>
+            mat_precise_y <180>
+            mat_art_id <1-0-2381>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <62>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-89-21880>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <35>
+              mat_precise_height <35>
+              mat_precise_x <10>
+              mat_precise_y <220>
+              mat_art_id <1-0-2381>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <64>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-89-21881>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_width <35>
+                mat_precise_height <35>
+                mat_precise_x <10>
+                mat_precise_y <260>
+                mat_art_id <1-0-2381>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <ornament, "Systems Development ">
+                mat_precise_x <50>
+                mat_precise_y <110>
+                mat_font_sis <arial, 10, bold>
+                mat_color_text <100, 100, 140>
+                mat_orientation <hlf>
+              man_start_sibling <ornament, "Systems Support">
+                mat_precise_x <50>
+                mat_precise_y <150>
+                mat_font_sis <arial, 10, bold>
+                mat_color_text <100, 100, 140>
+                mat_orientation <hlf>
+              man_start_sibling <ornament, "Systems Engineering">
+                mat_precise_x <50>
+                mat_precise_y <190>
+                mat_font_sis <arial, 10, bold>
+                mat_color_text <100, 100, 140>
+                mat_orientation <hlf>
+              man_start_sibling <ornament, "">
+                mat_precise_x <50>
+                mat_precise_y <230>
+                mat_font_sis <arial, 10, bold>
+                mat_color_text <100, 100, 140>
+                man_append_data <"Project Planning & Implementation">
+                man_end_data
+                mat_orientation <hlf>
+              man_start_sibling <ornament, "Support Desk/Beta Testing">
+                mat_precise_x <50>
+                mat_precise_y <270>
+                mat_font_sis <arial, 10, bold>
+                mat_color_text <100, 100, 140>
+                mat_orientation <hlf>
+              man_start_sibling <ornament, "Keyword: CCS">
+                mat_precise_width <89>
+                mat_precise_height <15>
+                mat_precise_x <440>
+                mat_precise_y <305>
+                mat_font_sis <arial, 9, bold>
+                mat_color_text <100, 100, 140>
+                mat_orientation <hlf>
+              man_start_sibling <trigger, "TEAM">
+                mat_relative_tag <66>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-89-3583>
+                    >
+                  mat_font_sis <arial, 12, bold>
+                  mat_color_text <100, 100, 140>
+                  mat_precise_width <48>
+                  mat_precise_height <21>
+                  mat_precise_x <430>
+                  mat_precise_y <247>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <trigger, "CCS Project Requests">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <43-5089>
+                      >
+                    mat_font_sis <arial, 9, bold>
+                    mat_color_text <100, 100, 140>
+                    mat_precise_width <168>
+                    mat_precise_height <15>
+                    mat_precise_x <240>
+                    mat_precise_y <305>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <trigger, "MSF">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"t1", 0-89-4165>
+                        >
+                      mat_font_sis <arial, 9, bold>
+                      mat_color_text <100, 100, 140>
+                      mat_precise_width <30>
+                      mat_precise_height <15>
+                      mat_precise_x <30>
+                      mat_precise_y <305>
+                      mat_trigger_style <plain_picture>
+                    man_start_sibling <trigger, "PROJECTS">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"t1", 0-57-14594>
+                          >
+                        mat_font_sis <arial, 12, bold>
+                        mat_color_text <100, 100, 140>
+                        mat_precise_width <91>
+                        mat_precise_height <21>
+                        mat_precise_x <295>
+                        mat_precise_y <247>
+                        mat_trigger_style <plain_picture>
+                      man_start_sibling <trigger, "Message Boards">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"^8", 0-0-18840>
+                            >
+                          mat_font_sis <arial, 9, bold>
+                          mat_color_text <100, 100, 140>
+                          mat_precise_width <107>
+                          mat_precise_height <16>
+                          mat_precise_x <95>
+                          mat_precise_y <305>
+                          mat_trigger_style <plain_picture>
+                        man_start_sibling <dss_list, "">
+                          mat_relative_tag <30>
+                          mat_precise_width <216>
+                          mat_precise_height <195>
+                          mat_precise_x <290>
+                          mat_precise_y <40>
+                          mat_color_face <240, 240, 248>
+                          mat_font_sis <arial, 9, normal>
+                          mat_color_text <136, 120, 160>
+                          mat_sort_order <normal>
+                          man_start_object <trigger, "Becky's Words of Wisdom">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-89-19986>
+                                >
+                              mat_art_id <1-0-37355>
+                            man_start_sibling <trigger, "CCS Mission">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-89-23198>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Who's Who in CCS">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-89-10330>
+                                    >
+                                  mat_art_id <1-0-21808>
+                                man_start_sibling <trigger, "Captain Kirk - Our Fearless Leader">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-89-23947>
+                                      >
+                                    mat_art_id <1-0-32650>
+                                  man_start_sibling <trigger, "Our #1 Customer">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-89-23250>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "Downloadables/Archives">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-89-20136>
+                                          >
+                                        mat_art_id <1-0-1482>
+                                      man_start_sibling <trigger, "Job Postings">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-89-17745>
+                                            >
+                                          mat_art_id <1-0-21222>
+                                        man_start_sibling <trigger, "CCS Fun Corner">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-89-20158>
+                                              >
+                                            mat_art_id <1-0-19933>
+                                          man_start_sibling <trigger, "Raving Fans">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-89-20846>
+                                                >
+                                              mat_art_id <1-0-21771>
+                                            man_start_sibling <trigger, "Career Development">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-89-19956>
+                                                  >
+                                                mat_art_id <1-0-19928>
+                                              man_start_sibling <trigger, "HR">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"K1", 0-17-35096>
+                                                    >
+                                                  mat_art_id <1-0-1470>
+                                                man_start_sibling <trigger, "CCS Monthly Letter">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"t1", 0-89-24224>
+                                                      >
+                                                    mat_art_id <1-0-21769>
+                                                  man_end_object
+                                                man_end_object
+                                              hfs_attr_end_object
+                                            man_update_woff_end_stream

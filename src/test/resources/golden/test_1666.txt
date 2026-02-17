@@ -1,0 +1,221 @@
+uni_start_stream_wait_on
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "People Connection Host Center">
+    mat_orientation <vff>
+    mat_precise_width <579>
+    mat_precise_height <325>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-3383>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_width <36>
+      mat_height <3>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_font_sis <arial, 18, bold>
+      man_append_data <"              Welcome To The People Connection  \r ">
+      man_append_data <"                          Gateway Center">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+    man_start_sibling <trigger, " AOL Resource Center">
+      mat_title_pos <below | center>
+      act_replace_select_action
+          <
+          uni_start_stream
+            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+            buf_clear_buffer
+            buf_set_token <"ur">
+            buf_add_atom_pointer <"aol://4344:2500.rmtool.25691732.571439266">
+            buf_close_buffer
+          uni_end_stream
+          >
+        mat_font_sis <arial, 8, bold>
+        mat_precise_x <25>
+        mat_precise_y <250>
+        mat_art_id <1-0-34197>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "The Community Building">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream
+              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+              buf_clear_buffer
+              buf_set_token <"ur">
+              buf_add_atom_pointer <"aol://1722:tcb">
+              buf_close_buffer
+            uni_end_stream
+            >
+          mat_font_sis <arial, 8, bold>
+          mat_precise_x <400>
+          mat_precise_y <250>
+          mat_art_id <1-0-42244>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "Request A Staff Name">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream
+                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                buf_clear_buffer
+                buf_set_token <"ur">
+                buf_add_atom_pointer <"mailto:Ask4aName">
+                buf_close_buffer
+              uni_end_stream
+              >
+            mat_font_sis <arial, 8, bold>
+            mat_precise_x <200>
+            mat_precise_y <250>
+            mat_art_id <1-0-34691>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <dss_list, "">
+            mat_width <22>
+            mat_height <9>
+            mat_precise_x <25>
+            mat_precise_y <100>
+            mat_font_sis <arial, 9, normal>
+            mat_bool_list_icons <yes>
+            mat_sort_order <normal>
+            man_start_object <trigger, "Guide Team Center">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://4344:364.clubt01.5861333.557864763">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "PC Host Files">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                      buf_clear_buffer
+                      buf_set_token <"ur">
+                      buf_add_atom_pointer <"aol://4400:7056">
+                      buf_close_buffer
+                    uni_end_stream
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "BPS SoftWare">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_clear_buffer
+                        buf_set_token <"ur">
+                        buf_add_atom_pointer <"aol://4344:1344.bpsfront.10164598.526964474">
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "Examine Object Info">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                          buf_clear_buffer
+                          buf_set_token <"ur">
+                          buf_add_atom_pointer <"aol://1722:eoi%20view">
+                          buf_close_buffer
+                        uni_end_stream
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "WAOL 3.0 TOD Library">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                            buf_clear_buffer
+                            buf_set_token <"ur">
+                            buf_add_atom_pointer <"aol://4400:11972">
+                            buf_close_buffer
+                          uni_end_stream
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "Link to the Host Chat Room">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                              buf_clear_buffer
+                              buf_set_token <"ur">
+                              buf_add_atom_pointer <"aol://4344:107.sshoes.812363.540668400">
+                              buf_close_buffer
+                            uni_end_stream
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "Helpful Software & Files">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                buf_clear_buffer
+                                buf_set_token <"ur">
+                                buf_add_atom_pointer <"aol://4344:204.w63hsrt1.1857559.496528972">
+                                buf_close_buffer
+                              uni_end_stream
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "Daily System Status">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                  buf_clear_buffer
+                                  buf_set_token <"ur">
+                                  buf_add_atom_pointer <"aol://4344:219.daily.75263.505879139">
+                                  buf_close_buffer
+                                uni_end_stream
+                                >
+                              mat_art_id <1-0-1478>
+                            man_start_sibling <trigger, "CL Registration">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    buf_clear_buffer
+                                    buf_set_token <"ur">
+                                    buf_add_atom_pointer <"aol://4344:3209.polstaff.21626914.534349882">
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_start_sibling <trigger, "The VirtuaLeader Academy">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                      buf_clear_buffer
+                                      buf_set_token <"ur">
+                                      buf_add_atom_pointer <"aol://1722:vla">
+                                      buf_close_buffer
+                                    uni_end_stream
+                                    >
+                                  mat_art_id <1-0-1478>
+                                man_end_object
+                              man_start_sibling <ornament, "">
+                                mat_precise_x <325>
+                                mat_precise_y <100>
+                                mat_art_id <1-0-2381>
+                                mat_font_sis <small_fonts, 7, normal>
+                              man_start_sibling <ornament, "">
+                                mat_precise_x <225>
+                                mat_precise_y <150>
+                                mat_art_id <1-0-2381>
+                                mat_font_sis <small_fonts, 7, normal>
+                              man_start_sibling <ornament, "">
+                                mat_precise_x <425>
+                                mat_precise_y <50>
+                                mat_art_id <1-0-2381>
+                                mat_font_sis <small_fonts, 7, normal>
+                              man_end_object
+                            hfs_attr_end_object
+                          man_update_woff_end_stream

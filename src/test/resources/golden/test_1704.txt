@@ -1,0 +1,257 @@
+uni_start_stream
+  man_start_object <ind_group, "Affinity Groups">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <15>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"\r\nMarch 25, 1997\r\nPromotion IDs have been defined ">
+        man_append_data <"for the following groups:\r\n\r\nAffinity        Promo">
+        man_append_data <" Id(s)      Affinity\r\nGroup        * = Sunset;    ">
+        man_append_data <"   Group\r\n    No.    will default to 0      Name\r\n">
+        man_append_data <"--------------------------------------------------">
+        man_append_data <"----\r\n     1 .................*42   Tandy\r\n     2 ">
+        man_append_data <".................*43   Geoworks\r\n     3 ..........">
+        man_append_data <"........44   Chicago Online\r\n     4 ..............">
+        man_append_data <"...*45   Sensation\r\n     5 ..................47   ">
+        man_append_data <"PS/1 Connection\r\n     6 ............48,138   San J">
+        man_append_data <"ose Mercury News\r\n     7 .................*50   Ta">
+        man_append_data <"ndy Palmtop\r\n     8 .................*51   Casio P">
+        man_append_data <"almtop\r\n     9 .................*52   Club Perform">
+        man_append_data <"a\r\n    10 ............. 40-41   NEA Online\r\n    11">
+        man_append_data <" ..................53   Scholastic\r\n    12 .......">
+        man_append_data <"..........*54   TIME\r\n    13 .................*55 ">
+        man_append_data <"  OMNI\r\n    14 ..................56   WINDOWS maga">
+        man_append_data <"zine\r\n    15 .................*57   Disney\r\n    16">
+        man_append_data <" ..................58   Warner/Reprise Records Onl">
+        man_append_data <"ine\r\n    17 .................*59   Atlantic Monthl">
+        man_append_data <"y\r\n    18 .................*60   MECC/Oregon Trail">
+        man_append_data <"\r\n    19 .................*61   United Media\r\n    ">
+        man_append_data <"20 .................*62   SIMBA Media Information ">
+        man_append_data <"Network\r\n    21 .................*63   COURT T.V.\r">
+        man_append_data <"\n    22 .................*64   Vantive\r\n    23 ...">
+        man_append_data <"..............*65   C-Span\r\n    24 ...............">
+        man_append_data <"..*66   Destination Florida\r\n    25 ..............">
+        man_append_data <"....67   American Entertainment Network\r\n    26 ..">
+        man_append_data <"...............*68   Rodale's Bicycling\r\n    27 ..">
+        man_append_data <"...............*69   Rodale's Backpacker\r\n    28 .">
+        man_append_data <".................70   New York Times\r\n    29 .....">
+        man_append_data <".............71   Harvard Business School\r\n    30 ">
+        man_append_data <"..................72   Interactive Services Assoc.">
+        man_append_data <"\r\n    31 ..................73   Traveler's Corner\r">
+        man_append_data <"\n    32 ..................74   American Express\r\n ">
+        man_append_data <"   33 .................*75   Lifetime Television\r\n">
+        man_append_data <"    34 .................*76   Sci-Fi Channel\r\n    ">
+        man_append_data <"35 ..................77   Flying Magazine\r\n    36 ">
+        man_append_data <"..................78   Car & Driver Magazine\r\n    ">
+        man_append_data <"37 ..................79   Stereo Review\r\n    38 ..">
+        man_append_data <"................80   Popular Photography\r\n    39 .">
+        man_append_data <"................*81   Kim Komando\r\n    40 ........">
+        man_append_data <"..........82   Military City Online\r\n    41 ......">
+        man_append_data <"...........*83   Mobile Office Computing\r\n    42 .">
+        man_append_data <"................*84   NBC\r\n    43 ................">
+        man_append_data <"..85   Road & Track Magazine\r\n    44 .............">
+        man_append_data <".....86   American Dialogue\r\n    45 ..............">
+        man_append_data <"...*87   Compute Magazine\r\n    46 ................">
+        man_append_data <"..88   American Federation of Teachers\r\n    47 ...">
+        man_append_data <"..............*89   National Assoc. of School Prin">
+        man_append_data <"cipals\r\n    48 .................*90   Scientific A">
+        man_append_data <"merican\r\n    49 .................*91   Washington ">
+        man_append_data <"Week in Review\r\n    50 .................*31   Cabl">
+        man_append_data <"e Modem area\r\n    51 .................*32   McLaug">
+        man_append_data <"hlin Group\r\n    52 .................*34   Nightly ">
+        man_append_data <"Business Report\r\n    53 .................*46   Ins">
+        man_append_data <"ide Media\r\n    54 .................*49   Comedy Ce">
+        man_append_data <"ntral\r\n    55 .................*92   HBO\r\n    56 .">
+        man_append_data <"................*93   Congressional Quarterly\r\n   ">
+        man_append_data <" 57 .................*94   LatinoNet\r\n    58 .....">
+        man_append_data <"............*95   UVA Alumni\r\n    59 .............">
+        man_append_data <".....96   DC Comics\r\n    60 ..................97  ">
+        man_append_data <" MTV\r\n    61 ..................98   MIT Sloan\r\n   ">
+        man_append_data <" 62 ..................99   Paramount\r\n    63 .....">
+        man_append_data <"............100   KAPLAN\r\n    64 .................">
+        man_append_data <"101   American Assoc. of Individual Investors\r\n   ">
+        man_append_data <" 65 .................        Test Group\r\n    66 ..">
+        man_append_data <"..............*103   Longevity Magazine\r\n    67 ..">
+        man_append_data <"..............*104   Yale University\r\n    68 .....">
+        man_append_data <"............105   Williams College\r\n    69 .......">
+        man_append_data <"..........106   Columbia University\r\n    70 ......">
+        man_append_data <"...........107   ABC\r\n    71 .................    ">
+        man_append_data <"    Test Group #2\r\n    72 .................109   M">
+        man_append_data <"ixStar\r\n    73 .................110   AARP\r\n    74">
+        man_append_data <" ................*111   Rockline\r\n    75 .........">
+        man_append_data <"........112   McDonald's - McMom's Program\r\n    76">
+        man_append_data <" .................113   Multimedia World\r\n    77 .">
+        man_append_data <"................114   Worth Magazine\r\n    78 .....">
+        man_append_data <"...........*115   Preview Media\r\n    79 ..........">
+        man_append_data <"......*116   The Nature Conservancy\r\n    80 ......">
+        man_append_data <"...........117   Harvard Business School Alumni\r\n ">
+        man_append_data <"   81 .................118   Family PC Computing M">
+        man_append_data <"agazine\r\n    82 .................119   Christianit">
+        man_append_data <"y Online\r\n    83 .................120   Extra Onli">
+        man_append_data <"ne Show\r\n    84 .................121   Boating\r\n  ">
+        man_append_data <"  85 .................122   Cycle World\r\n    86 ..">
+        man_append_data <"...............123   Home\r\n    87 ................">
+        man_append_data <".124   Elle\r\n    88 ................*125   Busines">
+        man_append_data <"s Week\r\n    89 .................126   BMG Music\r\n ">
+        man_append_data <"   90 .................127   Polygram Records\r\n   ">
+        man_append_data <" 91 .................128   Joke Line\r\n    92 .....">
+        man_append_data <"............255   Vanguard\r\n    93 ...............">
+        man_append_data <"..130   Movie Phone\r\n    94 ................*131  ">
+        man_append_data <" Comcast Trial\r\n    95 .................132   2Mar">
+        man_append_data <"ket\r\n    96 .................133   Orlando Sentine">
+        man_append_data <"l Online\r\n    97 .................277   Pavilions\r">
+        man_append_data <"\n    98 ................*135   2nd Mixstar group (">
+        man_append_data <"old Harmons)\r\n    99 ................*136   QFC\r\n ">
+        man_append_data <"  100 .................137   Internet\r\n   101 ....">
+        man_append_data <".............139   Macworld\r\n   102 ..............">
+        man_append_data <"..*140   Cablevision\r\n   103 ................*141 ">
+        man_append_data <"  K-Mart\r\n   104 .................142   Shopper's ">
+        man_append_data <" Advantage\r\n   105 .................143   Viacom\r\n">
+        man_append_data <"   106 .................144   Nickelodeon\r\n   107 ">
+        man_append_data <"................*145   American Woodworker\r\n   108">
+        man_append_data <" ................*146   Corbis Media\r\n   109 .....">
+        man_append_data <"...........*147   Davidson\r\n   110 ...............">
+        man_append_data <"..148   PC World\r\n   111 ...........149,249   New ">
+        man_append_data <"Member AG\r\n   112 .................151   Fidelity\r">
+        man_append_data <"\n   113 .................152   Entertainment Weekl">
+        man_append_data <"y\r\n   114 ................*153   ACLU\r\n   115 ....">
+        man_append_data <"............*154   Access Point\r\n   116 ..........">
+        man_append_data <".......155   User Groups\r\n   117 .................">
+        man_append_data <"156   Jewish.Community\r\n   118 .................15">
+        man_append_data <"7   HomePC\r\n   119 .................158   GLCF\r\n  ">
+        man_append_data <" 120 ................*159   Focus on the Family\r\n ">
+        man_append_data <"  121 .................160   Motley Fool\r\n   122 .">
+        man_append_data <"...............*161   PCFN\r\n   123 ...............">
+        man_append_data <"..162   WWF\r\n   124 ..511,164,165,1,245    German ">
+        man_append_data <"Int'l. Promotions\r\n   125 .................166   C">
+        man_append_data <"yberJustice\r\n   126 .................167   Digital">
+        man_append_data <" City\r\n   127 .................168   Compaq\r\n   12">
+        man_append_data <"8 ................*169   Parenting\r\n   129 .......">
+        man_append_data <"..........170   New Fidelity\r\n   130 .............">
+        man_append_data <"....129   Woman's Day\r\n   131 ................*172">
+        man_append_data <"   Men are from Mars...\r\n   132 ................*1">
+        man_append_data <"73   Greenhouse\r\n   133 ................*174   Inc">
+        man_append_data <". Magazine\r\n   134 .................167   WHFS\r\n  ">
+        man_append_data <" 135 .................167   News Channel 8 (Digita">
+        man_append_data <"l City\r\n   136 .................167   Generation N">
+        man_append_data <"ext\r\n   137 ...511,164,165,1,364   German test 1\r\n">
+        man_append_data <"   138 ...511,164,165,1,339   German test 2\r\n   13">
+        man_append_data <"9 ................*175   National Geographic\r\n   1">
+        man_append_data <"40 .................176   Simon & Shuster\r\n   141 ">
+        man_append_data <".................177   Comptons\r\n   142 ..........">
+        man_append_data <".......178   Nickelodeon\r\n   143 .................">
+        man_append_data <"179   Gamepro\r\n   144 ................*180   Kidso">
+        man_append_data <"ft\r\n   145 .................181   KidsWB\r\n   146 .">
+        man_append_data <"...............*182   Ringling Bros.\r\n   147 .....">
+        man_append_data <"...........*183   Musicspace\r\n   148 .............">
+        man_append_data <"...*184   Smithsonian\r\n   149 ................*185">
+        man_append_data <"   Pontiac\r\n   150 ................*186   Saturn\r\n">
+        man_append_data <"   151 .................187   Hecklers Online\r\n   ">
+        man_append_data <"152 ................*188   Food and Drink\r\n   153 ">
+        man_append_data <".................189   NUSTAR\r\n   154 ............">
+        man_append_data <"....*190   USA Weekend\r\n   155 .................19">
+        man_append_data <"1   Arizona Central\r\n   156 .................192  ">
+        man_append_data <" Sunset magazine\r\n   157 .................193   Th">
+        man_append_data <"e Pet Care Forum\r\n   158 .................194   Ve">
+        man_append_data <"ternary Info Network\r\n   159 ................*195 ">
+        man_append_data <"  The Legal Pad\r\n   160 ................*196   AAA">
+        man_append_data <"\r\n   161 ................*197   Charles Schwab\r\n  ">
+        man_append_data <" 162 .................198   MACMILLAN\r\n   163 ....">
+        man_append_data <".............199   Seventeen\r\n   164 .............">
+        man_append_data <"....200   VH1\r\n   165 .................201   Sixty">
+        man_append_data <" Second Novelist\r\n   166 .................202   CN">
+        man_append_data <"N\r\n   167 .................203   ABC Sports\r\n   16">
+        man_append_data <"8 .................203   EZone\r\n   169 ...........">
+        man_append_data <".....*204   NBR\r\n   170 .................205   Ast">
+        man_append_data <"ro Net\r\n   171 ...........206-211   Kids Only\r\n   ">
+        man_append_data <"172 .................212   Family Life Magazine\r\n ">
+        man_append_data <"  173 .................213   Warner Bros. Studio S">
+        man_append_data <"tore\r\n   174 .................214   Bank of Americ">
+        man_append_data <"a\r\n   175 ....215-217,221,222   UK Promotions\r\n   ">
+        man_append_data <"176 ...........218-220   France Promotions\r\n   177">
+        man_append_data <" ...........223-225   Canada Promotions\r\n   178 ..">
+        man_append_data <".........226-228   Japan\r\n   179 ...........229-23">
+        man_append_data <"1   Australia Promotions\r\n   180 ................*">
+        man_append_data <"232   Parents Soup\r\n   181 ................*233   ">
+        man_append_data <"Sports Illustrated/Kids\r\n   182 .................2">
+        man_append_data <"34   Highlights for Children\r\n   183 .............">
+        man_append_data <"....235   ABC Kids\r\n   184 .................237   ">
+        man_append_data <"The History Channel\r\n   185 .................238  ">
+        man_append_data <" Rolling Stone\r\n   186 .................239   US\r\n">
+        man_append_data <"   187 ...................*      Mens Journal\r\n   ">
+        man_append_data <"188 ...241,215,216,221,2   UK 188\r\n   189 ...242,2">
+        man_append_data <"15,216,221,2   UK 189\r\n   190 ...243,215,216,221,2">
+        man_append_data <"   UK 190\r\n   191 ...244,215,216,221,2   UK 191\r\n ">
+        man_append_data <"  192 ...................*     Regional Calif. for">
+        man_append_data <" Angela\r\n   193 .................250   Digital Cit">
+        man_append_data <"y Boston\r\n   194 .................265   Eworld Gro">
+        man_append_data <"up\r\n   195 .................271   Digital City Atl">
+        man_append_data <"anta\r\n   196 .................200   Digital City C">
+        man_append_data <"leveland\r\n   197 .................273   Digital Ci">
+        man_append_data <"ty Dallas\r\n   198 .................274   Digital C">
+        man_append_data <"ity Denver\r\n   199 .................275   Digital ">
+        man_append_data <"City Detroit\r\n   200 .................276   Digita">
+        man_append_data <"l City Houston\r\n   201 .................277   Digi">
+        man_append_data <"tal City LA\r\n   202 .................278   Digital">
+        man_append_data <" City Miami\r\n   203 .................279   Digital">
+        man_append_data <" City Minneapolis\r\n   204 .................280   D">
+        man_append_data <"igital City Philadelphia\r\n   205 .................">
+        man_append_data <"281   Digital City San Diego\r\n   206 .............">
+        man_append_data <"....282   Digital City San Francisco\r\n   207 .....">
+        man_append_data <"............283   Digital City Seatle\r\n   208 ...2">
+        man_append_data <"84,219,220,1,247   France Partner #1\r\n   209 ...28">
+        man_append_data <"5,219,220,1,247   France Partner #2\r\n   210 ...286">
+        man_append_data <",323,324,1,325   France Partner #3\r\n   211 ...287,">
+        man_append_data <"219,220,1,247   France Partner #4\r\n   212 ...288,2">
+        man_append_data <"19,220,1,247   France Partner #5\r\n   213 ...289,21">
+        man_append_data <"9,220,1,247   France Partner #6\r\n   214 ...290,219">
+        man_append_data <",220,1,247   France Partner #7\r\n   215 ...291,219,">
+        man_append_data <"220,1,247   France Partner #8\r\n   216 ...292,219,2">
+        man_append_data <"20,1,247   France Partner #9\r\n   217 ...293,219,22">
+        man_append_data <"0,1,247   France Partner #10\r\n   218 .........294-">
+        man_append_data <"296,1,2       AOL Globalnet\r\n   219 ..............">
+        man_append_data <"...297   Century 21\r\n   220 .................     ">
+        man_append_data <"   Test Group #3\r\n   221 .................310   Di">
+        man_append_data <"gital City Hampton Road\r\n   222 .................3">
+        man_append_data <"11   Digital City Tampa\r\n   223 ...312,216,217,221">
+        man_append_data <",2   AOL Sweden\r\n   224 .................313   New">
+        man_append_data <" Media Markeing\r\n   225 .................314   Hew">
+        man_append_data <"lett Packard\r\n   226 .................315   AOL En">
+        man_append_data <"terprise Dealer Info. Systems (DIS)\r\n   227 ......">
+        man_append_data <"...........        Test Group #4\r\n   228 .........">
+        man_append_data <"..401-403   Internet Direct\r\n   229 ..............">
+        man_append_data <"...318   AOL Enterprise - Macro International\r\n   ">
+        man_append_data <"230 .................319   Young Presidents Organi">
+        man_append_data <"zation\r\n   231 .................320   University O">
+        man_append_data <"nline\r\n   232 .................321   Perkin-Elmer\r">
+        man_append_data <"\n   233 .................322   Fast RX\r\n   234 ...">
+        man_append_data <"..............397   Computer Network Corporation\r\n">
+        man_append_data <"   235 .................396   Oil Field Equipment\r">
+        man_append_data <"\n   236 .................395   AOL Enterprises\r\n  ">
+        man_append_data <" 237 ...563,216,217,221,2   February Mailing  (UK)">
+        man_append_data <"\r\n   238 ...450,224,225,363,2   AOL Enterprise - C">
+        man_append_data <"anada client\r\n   239 .................451   AOL En">
+        man_append_data <"terprise - C21 Online (Private)\r\n   240 ..........">
+        man_append_data <".......452   AOL Enterprise - C21 Online Communiti">
+        man_append_data <"es\r\n   241 .................430   Digital City Tam">
+        man_append_data <"pa\r\n   242 ...500,164,165,1,245   AOL Germany Temp">
+        man_append_data <"orary 1\r\n   243 ...501,164,165,1,245   AOL Germany">
+        man_append_data <" Temporary 2\r\n   244 .................453   AOL En">
+        man_append_data <"terprise - MediaVault Inc.\r\n   245 ...............">
+        man_append_data <"..454   AOL Enterprise - The Laser Center Inc & Vi">
+        man_append_data <"sion Corp.\r\n\r\n\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

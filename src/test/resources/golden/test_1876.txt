@@ -1,0 +1,204 @@
+uni_start_stream
+  man_start_object <ind_group, "Win Beta Tools">
+    mat_orientation <vff>
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+        sm_send_token_arg <"uB", 0-0-10529>
+        >
+      man_start_object <dss_list, "\tUpld\tSubject\t\tCount\tDownload">
+        mat_bool_default_send <no>
+        mat_relative_tag <7>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_list_var <"mF", 0-0-7>
+            >
+          mat_width <72>
+          mat_height <12>
+          mat_vertical_spacing <2>
+          mat_title_pos <above | top_or_left>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          mat_ruler <3, 3, 10, 45, 57, 64, 71>
+          man_start_object <trigger, "\t02/03/98\tWin95 Rainman Tool 1.95 AOL 3.0\t\t37\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/12/98\tWin95 Rainman Tool 1.96 AOL 4.0\t\t22\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/02/98\tRM Grinder 1.4 rev 016 16bit\t\t375\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/02/98\tCasa - Designer 1.1 086 32bit\t\t116\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/02/98\tDesigner 1.1 086 32bit\t\t639\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/11/97\tCasa - Designer 1.1 084 32bit\t\t159\t01/05/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/11/97\tDesigner 1.0 072 32bit\t\t686\t02/10/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/10/97\tDesigner 1.0 070 16bit\t\t2155\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/10/97\tDesigner 1.0 070 16bit - Latin1\t\t124\t12/14/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/10/97\tDesigner 1.0 070 16bit - Japan\t\t39\t01/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/10/97\tDesigner 1.0 070 32bit\t\t3042\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t04/29/97\tAME 1.0 Rev. 002 32bit\t\t937\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t04/10/97\tSendFile Utility\t\t394\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t04/09/97\tUpload Express 2.0\t\t427\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/27/97\tPreparing a form for Canning\t\t291\t02/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/06/97\tRM Grinder 1.3 rev 014 32bit\t\t2029\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/06/97\tRM Grinder 1.3 rev 014 16bit\t\t835\t01/27/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/10/97\tRainman Tool 1.8 rev 049 Jap.\t\t136\t02/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/21/97\tMapview 1.0 rev 001 16bit\t\t262\t02/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/21/97\tMapview 1.0 rev 001 32bit\t\t438\t02/08/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/07/96\tAdditional Designer IP Doc\t\t419\t07/29/88 09:16">
+            mat_art_id <1-0-1482>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <hee>
+          man_start_object <trigger, "Read Description">
+            mat_relative_tag <1>
+            mat_shortcut_key <"@">
+            mat_title_pos <below | center>
+            mat_title_width <10>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_send_list_var <"mF", 0-0-7>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-1467>
+              mat_bool_default <yes>
+            man_start_sibling <trigger, "Download Now">
+              mat_relative_tag <2>
+              mat_shortcut_key <"@">
+              mat_title_pos <below | center>
+              mat_title_width <10>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_send_list_var <"mD", 0-0-7>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-1292>
+              man_start_sibling <trigger, "Download Later">
+                mat_relative_tag <3>
+                mat_shortcut_key <"@">
+                mat_title_pos <below | center>
+                mat_title_width <10>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_send_list_var <"mq", 0-0-7>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_art_id <1-0-1288>
+                man_start_sibling <trigger, "Upload">
+                  mat_bool_disabled <yes>
+                  mat_relative_tag <4>
+                  mat_shortcut_key <"@">
+                  mat_title_pos <below | center>
+                  mat_title_width <10>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_send_token_arg <"es", 0-0-10529>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_art_id <1-0-1310>
+                  man_start_sibling <trigger, "List More Files">
+                    mat_relative_tag <5>
+                    mat_shortcut_key <"@">
+                    mat_title_pos <below | center>
+                    mat_title_width <10>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_send_token_arg <"mM", 0-0-10529>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_art_id <1-0-1326>
+                    man_start_sibling <trigger, "View">
+                      mat_relative_tag <6>
+                      mat_shortcut_key <"@">
+                      mat_title_pos <below | center>
+                      mat_title_width <10>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_send_list_var <"vD", 0-0-7>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_art_id <1-0-1292>
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hee>
+                      mat_bool_resize_vertical <yes>
+                      man_start_object <dss_list, "Sort Order:">
+                        mat_relative_tag <10>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              de_start_extraction <0>
+                              de_set_data_type <index>
+                              de_get_data_value
+                              uni_save_result
+                              de_end_extraction
+                              uni_get_result
+                              var_number_set_from_atom <A>
+                              var_lookup_by_id <B, 192>
+                              if_numa_neq_numb_then <1>
+                              var_number_get <A>
+                              var_number_save <A, 192>
+                            sm_do_list_action <10>
+                            >
+                          mat_width <17>
+                          mat_height <1>
+                          mat_bool_resize_horizontal <no>
+                          mat_title_pos <left | top_or_left>
+                          mat_font_sis <arial, 9, normal>
+                          mat_sort_order <normal>
+                          man_start_object <trigger, "Upload Date">
+                            mat_relative_tag <11>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_send_token_arg <"*B", 0-1-39762>
+                                >
+                            man_start_sibling <trigger, "Subject">
+                              mat_relative_tag <12>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_send_token_arg <"*B", 0-1-39760>
+                                  >
+                              man_start_sibling <trigger, "Download Count">
+                                mat_relative_tag <13>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_send_token_arg <"*B", 0-1-39757>
+                                    >
+                                man_start_sibling <trigger, "Download Date">
+                                  mat_relative_tag <14>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_send_token_arg <"*B", 0-1-39755>
+                                      >
+                                  man_end_object
+                                man_end_object
+                              man_end_object
+                              man_update_display
+                            man_update_woff_end_stream

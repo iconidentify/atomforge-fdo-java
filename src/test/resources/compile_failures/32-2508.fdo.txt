@@ -1,0 +1,92 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Automatic AOL Walk-Through">
+    mat_object_id <32-2508>
+    mat_style_id <32-2508>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <195>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Retrieve Unread Mail">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <21, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_font_id <arial>
+      man_append_data <"Do you want Automatic AOL to retrieve mail that is waiting for you?\x7f\x7fMail retrieved by Automatic AOL is stored in your Personal Filing Cabinet.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <157>
+      mat_precise_width <409>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <50>
+        mat_precise_y <160>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_title <"Yes">
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-57>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-2509>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <181>
+          mat_precise_y <160>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_trigger_style <14>
+          mat_title <"No">
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-57>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-2510>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <309>
+            mat_precise_y <160>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_trigger_style <14>
+            mat_title <"Cancel">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

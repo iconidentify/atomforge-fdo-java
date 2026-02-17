@@ -1,0 +1,102 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "AOL 3.0 Refresh">
+    mat_orientation <vff>
+    mat_precise_width <503>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-44855>
+    mat_bool_background_pic <yes>
+    mat_position <cascade>
+    man_start_object <ornament, "">
+      mat_relative_tag <15>
+      mat_precise_width <237>
+      mat_precise_height <41>
+      mat_precise_x <257>
+      mat_precise_y <25>
+      mat_art_id <1-1-60648>
+    man_end_object
+    man_start_object <trigger, "">
+      mat_relative_tag <56>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"U1", 0-16-5407>
+          >
+        mat_precise_width <198>
+        mat_precise_height <45>
+        mat_precise_x <28>
+        mat_precise_y <46>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-1-45960>
+        mat_trigger_style <plain_picture>
+        mat_art_animation_rate <75>
+        mat_art_animation_seq <0, 20, 1, 1, 2, 1, 3, 1, 4, 1, 4, 1, 3, 1, 2, 1, 1, 1, 0, 1>
+        mat_art_frame <1>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_relative_tag <58>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U1", 0-16-5408>
+            >
+          mat_precise_width <222>
+          mat_precise_height <46>
+          mat_precise_x <8>
+          mat_precise_y <90>
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-1-44881>
+          mat_trigger_style <plain_picture>
+          mat_art_animation_rate <75>
+          mat_art_animation_seq <0, 30, 1, 1, 2, 1, 3, 1, 4, 5, 5, 1, 6, 1>
+        man_end_object
+        man_start_object <dss_list, "">
+          mat_width <27>
+          mat_height <10>
+          mat_precise_x <12>
+          mat_precise_y <143>
+          mat_relative_tag <30>
+          mat_font_sis <arial, 9, normal>
+          mat_bool_list_icons <yes>
+          mat_sort_order <normal>
+          man_start_object <trigger, "Welcome to the AOL 3.0 Refresh">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-16-5407>
+                >
+              mat_art_id <1-0-1477>
+            man_end_object
+            man_start_object <trigger, "Known Bugs">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-16-5408>
+                  >
+                mat_art_id <1-0-1477>
+              man_end_object
+            man_end_object
+            man_start_object <view, "">
+              rich_manage
+              rich_bool_read_only <yes>
+              mat_precise_width <223>
+              mat_precise_height <216>
+              mat_precise_x <264>
+              mat_precise_y <74>
+              mat_relative_tag <1>
+              mat_font_sis <arial, 10, normal>
+              mat_bool_exportable <yes>
+              mat_bool_vertical_scroll <yes>
+              man_append_data <"<HTML><PRE><B>February 11</B> - Welcome to the AOL">
+              man_append_data <" 3.0 Refresh Beta!   This is a new version of AOL ">
+              man_append_data <"3.0 with NEW and old improvements included in the ">
+              man_append_data <"installer!\x7f\x7f\x7f\x7fTransmitted: 02/11/98 20:59 (WBaol30">
+              man_append_data <"0)</PRE></HTML>">
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream

@@ -1,0 +1,173 @@
+uni_start_stream
+  man_start_object <ind_group, "Internal Software Testing Center">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-2383>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        man_start_object <ornament, "">
+          mat_art_id <1-0-1366>
+        man_start_sibling <ornament, "Windows Development Test Area">
+          mat_width <25>
+          mat_height <1>
+          mat_orientation <hlf>
+          mat_font_sis <arial, 18, bold>
+        man_end_object
+      man_start_sibling <ornament, "">
+        mat_width <60>
+        mat_height <3>
+        man_append_data <"This area is provided by the Windows Client Develo">
+        man_append_data <"pment team for QA and other internal testing group">
+        man_append_data <"s. Provided are examples of new client features. P">
+        man_append_data <"lease E-Mail screenname WinAOL with any questions ">
+        man_append_data <"or comments.">
+        man_end_data
+        mat_orientation <hlf>
+        mat_font_sis <arial, 9, normal>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hle>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_width <30>
+        mat_height <10>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        mat_ruler <23>
+        man_start_object <trigger, "URL Drop Sinks (95.1 & above)">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <32-4707>
+              >
+          man_start_sibling <trigger, "Web Browser (home page)">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  www_browse
+                uni_end_stream
+                >
+            man_start_sibling <trigger, "Embedded Browser Test (IBM)">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <32-4640>
+                  >
+              man_start_sibling <trigger, "Link to Web Page (Netscape)">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      www_browse <"http://www.mcom.com">
+                    uni_end_stream
+                    >
+                man_start_sibling <trigger, "Midi info as a DOD / called from DB">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-9685>
+                      >
+                  man_start_sibling <trigger, "Midi as DOD / DB call #2">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-10488>
+                        >
+                    man_start_sibling <trigger, "Wave as a DOD / called from DB">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-9686>
+                          >
+                      man_start_sibling <trigger, "Wave DOD / DB call #2">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_f1 <40-9747>
+                            >
+                        man_start_sibling <trigger, "Chart test form 1">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_f1 <40-9095>
+                              >
+                          man_start_sibling <trigger, "Chart test form 2">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_send_f1 <40-9744>
+                                >
+                            man_start_sibling <trigger, "Chart test form 3">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <40-9745>
+                                  >
+                              man_start_sibling <trigger, "Chart test form 4">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_send_f1 <40-9746>
+                                    >
+                                man_start_sibling <trigger, "Active Charting test">
+                                man_start_sibling <trigger, "Cursor Positioning Test\t(40-9402)">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_f1 <40-9402>
+                                      >
+                                  man_start_sibling <trigger, "Newsgroups Quoting Test\t(40-9749)">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_send_f1 <40-9749>
+                                        >
+                                    man_end_object
+                                  man_start_sibling <org_group, "">
+                                    mat_orientation <vet>
+                                    man_start_object <trigger, "Clear Wave DOD \rFrom local DB">
+                                      mat_title_pos <below | center>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            idb_delete_obj <20-0-290>
+                                            idb_delete_obj <20-0-291>
+                                          uni_end_stream
+                                          >
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_art_id <1-0-1307>
+                                        mat_bool_default <yes>
+                                      man_start_sibling <trigger, "Software\rLibrary">
+                                        mat_title_pos <below | center>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_m_send_token_arg <"eB", 0-0-8573>
+                                            >
+                                          mat_font_sis <small_fonts, 7, normal>
+                                          mat_art_id <1-0-1307>
+                                        man_end_object
+                                      man_start_sibling <org_group, "">
+                                        mat_orientation <vet>
+                                        man_start_object <trigger, "Clear Midi DOD \rFrom local DB">
+                                          mat_title_pos <below | center>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                idb_delete_obj <20-0-289>
+                                                idb_delete_obj <20-0-292>
+                                              uni_end_stream
+                                              >
+                                            mat_font_sis <small_fonts, 7, normal>
+                                            mat_art_id <1-0-1307>
+                                          man_start_sibling <trigger, "Reserved for \rFuture Use">
+                                            mat_title_pos <below | center>
+                                            mat_font_sis <small_fonts, 7, normal>
+                                            mat_art_id <1-0-1307>
+                                          man_end_object
+                                        man_end_object
+                                      man_end_object
+                                      man_update_display
+                                    man_update_woff_end_stream

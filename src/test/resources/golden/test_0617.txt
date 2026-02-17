@@ -1,0 +1,43 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    man_start_object <ornament, "">
+      mat_height <4>
+      mat_width <40>
+      man_append_data <"New Gadget Bottom">
+      man_append_data <"New Section Button">
+      man_append_data <"Static Delta Region">
+      man_append_data <"First Sigma Box">
+      man_append_data <"Basic Left North">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_title <"Secondary Omega Gamma">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

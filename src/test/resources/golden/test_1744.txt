@@ -1,0 +1,220 @@
+uni_start_stream
+  man_start_object <ind_group, "@ttention Span Dublin">
+    mat_orientation <vcc>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-16519>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <15>
+        mat_art_id <1-0-17091>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "@ttention Span Dublin">
+        mat_relative_tag <3>
+        mat_width <25>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hcc>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <65>
+        mat_height <12>
+        mat_font_sis <arial, 9, normal>
+        mat_frame_style <double_line>
+        mat_sort_order <normal>
+        man_start_object <trigger, "@ttention Span file library">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"eB", 0-0-13143>
+              >
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "@ttention Span - 23rd September 1996">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-36-9709>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "@ttention Span - 6th September 1996">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-36-9708>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "@ttention Span - 27th August 1996">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-36-8947>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "@ttention Span - 2nd August 1996">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-36-8944>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "@ttention Span - 23rd July 1996">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-36-8527>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "@ttention Span - 16th July 1996">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-36-8518>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "@ttention Span - 5th July 1996">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-36-8147>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "@ttention Span - 21st June 1996">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-36-8098>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "@ttention Span - 14th June 1996">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-36-8096>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "@ttention Span - 5th June 1996">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-36-7914>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "@ttention Span - 27th May 1996">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-36-7590>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "@ttention Span - 20th May 1996">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-36-7589>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "@ttention Span - 13th May 1996">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-36-7196>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "@ttention Span - 6th May 1996">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-36-7091>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "@ttention Span - 29th April 1996">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-36-6923>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_start_sibling <trigger, "@ttention Span - 22nd April 1996">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-36-6066>
+                                              >
+                                            mat_art_id <1-0-1479>
+                                          man_start_sibling <trigger, "@ttention Span - 8th April 1996">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-36-6483>
+                                                >
+                                              mat_art_id <1-0-1479>
+                                            man_start_sibling <trigger, "@ttention Span - 1st April 1996">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-36-6379>
+                                                  >
+                                                mat_art_id <1-0-1479>
+                                              man_start_sibling <trigger, "S@S March 27th 1996">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"t1", 0-36-6243>
+                                                    >
+                                                  mat_art_id <1-0-1479>
+                                                man_start_sibling <trigger, "@ttention Span - 25th March">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"t1", 0-36-6116>
+                                                      >
+                                                    mat_art_id <1-0-1479>
+                                                  man_start_sibling <trigger, "@ttention Span - 18th March">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"t1", 0-36-5533>
+                                                        >
+                                                      mat_art_id <1-0-1479>
+                                                    man_start_sibling <trigger, "@ttention Span - 11th March">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"t1", 0-36-5814>
+                                                          >
+                                                        mat_art_id <1-0-1479>
+                                                      man_start_sibling <trigger, "@ttention Span - 4th March">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"t1", 0-36-5802>
+                                                            >
+                                                          mat_art_id <1-0-1479>
+                                                        man_end_object
+                                                      man_end_object
+                                                    man_start_sibling <org_group, "">
+                                                      mat_orientation <hcc>
+                                                      man_start_object <trigger, "Open">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream <00x>
+                                                            sm_do_list_action <30>
+                                                            >
+                                                          mat_font_sis <system, 12, normal>
+                                                          mat_horizontal_spacing <7>
+                                                          mat_trigger_style <rectangle>
+                                                        man_start_sibling <trigger, "More">
+                                                          mat_bool_disabled <yes>
+                                                          mat_relative_tag <26>
+                                                          mat_font_sis <system, 12, normal>
+                                                          mat_trigger_style <rectangle>
+                                                        man_end_object
+                                                      man_end_object
+                                                      man_update_display
+                                                    man_update_woff_end_stream

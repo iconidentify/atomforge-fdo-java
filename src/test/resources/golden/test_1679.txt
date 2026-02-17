@@ -1,0 +1,191 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " Resource Center">
+    mat_orientation <vff>
+    mat_precise_width <610>
+    mat_precise_height <350>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <222, 222, 222>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <610>
+      mat_precise_height <30>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+      man_start_object <ornament, "The GCT Resource Center\r">
+        mat_relative_tag <3>
+        mat_precise_width <590>
+        mat_precise_height <25>
+        mat_precise_x <10>
+        mat_precise_y <3>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <610>
+      mat_precise_height <320>
+      mat_precise_x <0>
+      mat_precise_y <30>
+      mat_color_face <204, 204, 255>
+      mat_bool_background_flood <yes>
+      man_start_object <dss_list, "">
+        mat_relative_tag <30>
+        mat_precise_width <285>
+        mat_precise_height <295>
+        mat_precise_x <310>
+        mat_precise_y <45>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Leader File Library">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"eB", 0-0-15727>
+              >
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "Rainman">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-57-13718>
+                >
+              mat_art_id <1-0-37492>
+            man_start_sibling <trigger, "Using Hyperlinks In Listserve">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-57-16250>
+                  >
+                mat_art_id <1-0-19937>
+              man_start_sibling <trigger, "IP Tools">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-57-2169>
+                    >
+                  mat_art_id <1-0-37503>
+                man_start_sibling <trigger, "Computer Information">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-57-15880>
+                      >
+                    mat_art_id <1-0-32650>
+                  man_start_sibling <trigger, "McAfee Virus Scan">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-57-2171>
+                        >
+                      mat_art_id <1-0-1477>
+                    man_start_sibling <trigger, "GrittySoft Support">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"K1", 0-17-48195>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "BPS Software (PowerTools & More)">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-57-3956>
+                            >
+                          mat_art_id <1-0-1477>
+                        man_start_sibling <trigger, "AOL Insider">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-57-15279>
+                              >
+                            mat_art_id <1-0-37340>
+                          man_start_sibling <trigger, "Community Update From Steve Case">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-57-13807>
+                                >
+                              mat_art_id <1-0-34395>
+                            man_start_sibling <trigger, "Information Provider Resource Center">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-57-15916>
+                                  >
+                                mat_art_id <1-0-37469>
+                              man_start_sibling <trigger, "Reach Out Zone Help Center">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-57-15936>
+                                    >
+                                  mat_art_id <1-0-37355>
+                                man_start_sibling <trigger, "Sample Leader Areas">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-57-2164>
+                                      >
+                                    mat_art_id <1-0-37493>
+                                  man_start_sibling <trigger, "Ask The GCTeam!">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-57-13833>
+                                        >
+                                      mat_art_id <1-0-1473>
+                                    man_start_sibling <trigger, "1997 AOL Editorial Calendar">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-57-15415>
+                                          >
+                                        mat_art_id <1-0-38049>
+                                      man_start_sibling <trigger, "Quick Guide To AOL Live Promotions">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-57-16400>
+                                            >
+                                          mat_art_id <1-0-37499>
+                                        man_end_object
+                                      man_start_sibling <view, "">
+                                        mat_bool_writeable <yes>
+                                        mat_precise_width <285>
+                                        mat_precise_height <290>
+                                        mat_precise_x <10>
+                                        mat_precise_y <45>
+                                        mat_bool_resize_vertical <no>
+                                        mat_bool_resize_horizontal <no>
+                                        mat_bool_vertical_scroll <yes>
+                                        man_append_data <"Here are the main tools, software, information and">
+                                        man_append_data <" resources used by remote staff and Community Lead">
+                                        man_append_data <"ers to support your forum's content and daily acti">
+                                        man_append_data <"vities. \r\n\r\nThe Leader File Library contains softw">
+                                        man_append_data <"are for chat hosting, room management, Rainman scr">
+                                        man_append_data <"ipting and graphics as well as other Community Lea">
+                                        man_append_data <"der support programs. You can upload any software ">
+                                        man_append_data <"directly from this library.\r\n\r\nYou'll find compreh">
+                                        man_append_data <"ensive Rainman and Computer Information collection">
+                                        man_append_data <"s including links to AOL's art, forms and IP resou">
+                                        man_append_data <"rce areas for your use. If you'd like token/args t">
+                                        man_append_data <"o link any of these or other AOL services to your ">
+                                        man_append_data <"own private leader area, just note your request on">
+                                        man_append_data <" the Ask GCTeam form.\r\n\r\nWe have also provided lin">
+                                        man_append_data <"ks to relevant AOL update, resource and service ar">
+                                        man_append_data <"eas for your use.\r\n\r\nIf you have any questions abo">
+                                        man_append_data <"ut the software or resources found here, use the A">
+                                        man_append_data <"sk The GCTeam form and we'll get right back to you">
+                                        man_append_data <". :) \r\n\r\n\r\n\r\n\r\n\r\nTransmitted: 1/29/98 3:07 PM (res">
+                                        man_append_data <"ource)">
+                                        man_end_data
+                                        mat_relative_tag <1>
+                                      man_end_object
+                                    man_end_object
+                                  hfs_attr_end_object
+                                man_update_woff_end_stream

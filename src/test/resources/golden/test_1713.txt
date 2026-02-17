@@ -1,0 +1,581 @@
+uni_start_stream
+  man_start_object <ind_group, "Phone List J">
+    mat_orientation <vff>
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hlf>
+        man_start_object <ornament, "">
+          mat_relative_tag <120>
+          mat_art_id <1-0-23737>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <3>
+          mat_width <29>
+          mat_height <1>
+          mat_font_sis <arial, 18, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <63>
+          mat_height <10>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "JACKSON, DAVID - 703-265-4518 - Davidifrit">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-60-11657>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "JACKSON, JONATHAN - 703-918-1966 - JonJackson">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-60-11660>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "JACKSON, PAUL - 703-918-1963 - PJJackson1">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-60-11664>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "JACKSON, RONALD - 801-622-7802 - RjacksonUT">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-60-11665>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "JACKSON, SHERI - 520-733-7777 - SJacksonAZ">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-60-11666>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "JACKSON, TERRENCE - 703-918-1011 - TerJackson">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-60-11668>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "JACOBS, ROLF - 714-823-4075 - RolfJacobs">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-60-11678>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "JACOBY, BRIAN - 703-265-4412 - BJacoby">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-60-11687>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "JACQUE, TERRY - 904-357-7270 - TJacqu">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-60-11692>
+                                >
+                              mat_art_id <1-0-1478>
+                            man_start_sibling <trigger, "JAFFE, JENNIFER - 703-265-1292 - JenJaff">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-60-11693>
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_start_sibling <trigger, "JAFFE, MICHAEL - 703-265-4257 - MJaffe">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-60-11694>
+                                    >
+                                  mat_art_id <1-0-1478>
+                                man_start_sibling <trigger, "JAMES, DAVID W. - 703-265-4155 - VNEND">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-60-11695>
+                                      >
+                                    mat_art_id <1-0-1478>
+                                  man_start_sibling <trigger, "JANKE, MATTHEW - 405-440-6603 - mattsj77">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-60-11698>
+                                        >
+                                      mat_art_id <1-0-1478>
+                                    man_start_sibling <trigger, "JANNISE, JENNIFER - 703-265-3579 - JenJannise">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-60-11699>
+                                          >
+                                        mat_art_id <1-0-1478>
+                                      man_start_sibling <trigger, "JANSMA, KEITH - 703-918-1817 - KJansma">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-60-11700>
+                                            >
+                                          mat_art_id <1-0-1478>
+                                        man_start_sibling <trigger, "JAOUDI, JULIE - 703-265-3524 - Jaoudi">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-60-11701>
+                                              >
+                                            mat_art_id <1-0-1478>
+                                          man_start_sibling <trigger, "JARAMILLO, ROBERT - 505-342-6054 - RAJara">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-60-11702>
+                                                >
+                                              mat_art_id <1-0-1478>
+                                            man_start_sibling <trigger, "JARMOLOWSKI, TOM - 703-918-1857 - tjj@aolnorth.com">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-60-11703>
+                                                  >
+                                                mat_art_id <1-0-1478>
+                                              man_start_sibling <trigger, "JASTRZEMSKI, MARY - 703-265-1154 - MaryJasski">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"t1", 0-60-11704>
+                                                    >
+                                                  mat_art_id <1-0-1478>
+                                                man_start_sibling <trigger, "JAWOROWSKI, STEPHEN - 703-918-1268 - SteveJaws">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"t1", 0-60-11705>
+                                                      >
+                                                    mat_art_id <1-0-1478>
+                                                  man_start_sibling <trigger, "JENKINS, BRANDON - 505-342-6057 - BCJenkins">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"t1", 0-60-11708>
+                                                        >
+                                                      mat_art_id <1-0-1478>
+                                                    man_start_sibling <trigger, "JENKINS, JOSHUA - 520-733-7777 - JJenkinsAZ">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"t1", 0-60-11709>
+                                                          >
+                                                        mat_art_id <1-0-1478>
+                                                      man_start_sibling <trigger, "JENNINGS, DANNA - 703-265-5674 - DHJennings">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"t1", 0-60-11712>
+                                                            >
+                                                          mat_art_id <1-0-1478>
+                                                        man_start_sibling <trigger, "JENNINGS, VICKY - 405-440-6603 - VLJennings">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"t1", 0-60-11713>
+                                                              >
+                                                            mat_art_id <1-0-1478>
+                                                          man_start_sibling <trigger, "JENSEN, ADRIANNA - 801-622-7802 - AJensenUT">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"t1", 0-60-11714>
+                                                                >
+                                                              mat_art_id <1-0-1478>
+                                                            man_start_sibling <trigger, "JENSEN, CHRISTY ANN - 801-622-7802 - CAJensen49">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"t1", 0-60-11715>
+                                                                  >
+                                                                mat_art_id <1-0-1478>
+                                                              man_start_sibling <trigger, "JENSEN, MIKE - 714-823-4083 - MikeHJen">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"t1", 0-60-11717>
+                                                                    >
+                                                                  mat_art_id <1-0-1478>
+                                                                man_start_sibling <trigger, "JENSEN, TAFF (FRANK) - 801-622-7802 - FTJensen">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"t1", 0-60-11718>
+                                                                      >
+                                                                    mat_art_id <1-0-1478>
+                                                                  man_start_sibling <trigger, "JENSON, ROBERT - 703-265-5932 - robjen@aol.net">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"t1", 0-60-11719>
+                                                                        >
+                                                                      mat_art_id <1-0-1478>
+                                                                    man_start_sibling <trigger, "Jerakis, Lora - 703-265-1708 - LJerakis">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"t1", 0-60-11720>
+                                                                          >
+                                                                        mat_art_id <1-0-1478>
+                                                                      man_start_sibling <trigger, "JOE, LINCOLN - 703-265-5793 - LAJoe1">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"t1", 0-60-11725>
+                                                                            >
+                                                                          mat_art_id <1-0-1478>
+                                                                        man_start_sibling <trigger, "JOHNSON, AMBER B - 801-622-7802 - AJohn20381">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"t1", 0-60-11740>
+                                                                              >
+                                                                            mat_art_id <1-0-1478>
+                                                                          man_start_sibling <trigger, "JOHNSON, CHRIS - 703-265-5542 - ChrisJonsn">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                sm_m_send_token_arg <"t1", 0-60-11823>
+                                                                                >
+                                                                              mat_art_id <1-0-1478>
+                                                                            man_start_sibling <trigger, "JOHNSON, COLIN - 904-357-7270 - CTJohnson">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                  sm_m_send_token_arg <"t1", 0-60-11824>
+                                                                                  >
+                                                                                mat_art_id <1-0-1478>
+                                                                              man_start_sibling <trigger, "JOHNSON, DAVE - 714-823-4146 - DJohn24726">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                    sm_m_send_token_arg <"t1", 0-60-11826>
+                                                                                    >
+                                                                                  mat_art_id <1-0-1478>
+                                                                                man_start_sibling <trigger, "JOHNSON, DEBORAH - 703-265-4457 - DeborahJhn">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream
+                                                                                      sm_m_send_token_arg <"t1", 0-60-11855>
+                                                                                      >
+                                                                                    mat_art_id <1-0-1478>
+                                                                                  man_start_sibling <trigger, "JOHNSON, JAMES - 650-525-4149 - jamesij">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream
+                                                                                        sm_m_send_token_arg <"t1", 0-60-11857>
+                                                                                        >
+                                                                                      mat_art_id <1-0-1478>
+                                                                                    man_start_sibling <trigger, "JOHNSON, JOHN - 7835 - JJohnsonUT">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream
+                                                                                          sm_m_send_token_arg <"t1", 0-60-11859>
+                                                                                          >
+                                                                                        mat_art_id <1-0-1478>
+                                                                                      man_start_sibling <trigger, "JOHNSON, JOHNNIE - 904-357-7148 - SSCJohnnie">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream
+                                                                                            sm_m_send_token_arg <"t1", 0-60-11860>
+                                                                                            >
+                                                                                          mat_art_id <1-0-1478>
+                                                                                        man_start_sibling <trigger, "JOHNSON, KATHY - 505-342-6123 - KathyJ">
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_start_stream
+                                                                                              sm_m_send_token_arg <"t1", 0-60-11861>
+                                                                                              >
+                                                                                            mat_art_id <1-0-1478>
+                                                                                          man_start_sibling <trigger, "JOHNSON, KATHY - 703-265-1948 - KMJonson">
+                                                                                            act_replace_select_action
+                                                                                                <
+                                                                                                uni_start_stream
+                                                                                                sm_m_send_token_arg <"t1", 0-60-11864>
+                                                                                                >
+                                                                                              mat_art_id <1-0-1478>
+                                                                                            man_start_sibling <trigger, "JOHNSON, LISA - 904-357-7275 - LLJohnson">
+                                                                                              act_replace_select_action
+                                                                                                  <
+                                                                                                  uni_start_stream
+                                                                                                  sm_m_send_token_arg <"t1", 0-60-11867>
+                                                                                                  >
+                                                                                                mat_art_id <1-0-1478>
+                                                                                              man_start_sibling <trigger, "JOHNSON, MARIA - 703-918-1673 - MJohnsonQA">
+                                                                                                act_replace_select_action
+                                                                                                    <
+                                                                                                    uni_start_stream
+                                                                                                    sm_m_send_token_arg <"t1", 0-60-11868>
+                                                                                                    >
+                                                                                                  mat_art_id <1-0-1478>
+                                                                                                man_start_sibling <trigger, "JOHNSON, MICHAEL - 505-836-7420 - JohnsonMkS">
+                                                                                                  act_replace_select_action
+                                                                                                      <
+                                                                                                      uni_start_stream
+                                                                                                      sm_m_send_token_arg <"t1", 0-60-11870>
+                                                                                                      >
+                                                                                                    mat_art_id <1-0-1478>
+                                                                                                  man_start_sibling <trigger, "JOHNSON, PAT - 703-918-1597 - PJ1445">
+                                                                                                    act_replace_select_action
+                                                                                                        <
+                                                                                                        uni_start_stream
+                                                                                                        sm_m_send_token_arg <"t1", 0-60-11871>
+                                                                                                        >
+                                                                                                      mat_art_id <1-0-1478>
+                                                                                                    man_start_sibling <trigger, "Johnson, Patricia - 405-440-6764 - PJohnsonL">
+                                                                                                      act_replace_select_action
+                                                                                                          <
+                                                                                                          uni_start_stream
+                                                                                                          sm_m_send_token_arg <"t1", 0-60-11872>
+                                                                                                          >
+                                                                                                        mat_art_id <1-0-1478>
+                                                                                                      man_start_sibling <trigger, "JOHNSON, RHONDA - 405-440-6603 - Johnronda">
+                                                                                                        act_replace_select_action
+                                                                                                            <
+                                                                                                            uni_start_stream
+                                                                                                            sm_m_send_token_arg <"t1", 0-60-11873>
+                                                                                                            >
+                                                                                                          mat_art_id <1-0-1478>
+                                                                                                        man_start_sibling <trigger, "JOHNSON, ROBERT - 703-918-1221 - BobJoh">
+                                                                                                          act_replace_select_action
+                                                                                                              <
+                                                                                                              uni_start_stream
+                                                                                                              sm_m_send_token_arg <"t1", 0-60-11875>
+                                                                                                              >
+                                                                                                            mat_art_id <1-0-1478>
+                                                                                                          man_start_sibling <trigger, "JOHNSON, ROMY - 405-440-6700 - RomyJo">
+                                                                                                            act_replace_select_action
+                                                                                                                <
+                                                                                                                uni_start_stream
+                                                                                                                sm_m_send_token_arg <"t1", 0-60-11878>
+                                                                                                                >
+                                                                                                              mat_art_id <1-0-1478>
+                                                                                                            man_start_sibling <trigger, "JOHNSON, SCOTT - 904-357-7003 - SJohnsoJAX">
+                                                                                                              act_replace_select_action
+                                                                                                                  <
+                                                                                                                  uni_start_stream
+                                                                                                                  sm_m_send_token_arg <"t1", 0-60-11898>
+                                                                                                                  >
+                                                                                                                mat_art_id <1-0-1478>
+                                                                                                              man_start_sibling <trigger, "JOHNSON, STEVE - 714-823-4040 - SGJohnson">
+                                                                                                                act_replace_select_action
+                                                                                                                    <
+                                                                                                                    uni_start_stream
+                                                                                                                    sm_m_send_token_arg <"t1", 0-60-11936>
+                                                                                                                    >
+                                                                                                                  mat_art_id <1-0-1478>
+                                                                                                                man_start_sibling <trigger, "JOHNSON, THADIS - 904-357-7270 - THADJX">
+                                                                                                                  act_replace_select_action
+                                                                                                                      <
+                                                                                                                      uni_start_stream
+                                                                                                                      sm_m_send_token_arg <"t1", 0-60-11951>
+                                                                                                                      >
+                                                                                                                    mat_art_id <1-0-1478>
+                                                                                                                  man_start_sibling <trigger, "JOHNSTON, ROBERT - 703-265-3182 - R1Johnston">
+                                                                                                                    act_replace_select_action
+                                                                                                                        <
+                                                                                                                        uni_start_stream
+                                                                                                                        sm_m_send_token_arg <"t1", 0-60-11952>
+                                                                                                                        >
+                                                                                                                      mat_art_id <1-0-1478>
+                                                                                                                    man_start_sibling <trigger, "JONES, AMBER - 801-622-7817 - AmberUSM">
+                                                                                                                      act_replace_select_action
+                                                                                                                          <
+                                                                                                                          uni_start_stream
+                                                                                                                          sm_m_send_token_arg <"t1", 0-60-11953>
+                                                                                                                          >
+                                                                                                                        mat_art_id <1-0-1478>
+                                                                                                                      man_start_sibling <trigger, "JONES, ANTHONY - 904-357-7270 - ANTHNJONES">
+                                                                                                                        act_replace_select_action
+                                                                                                                            <
+                                                                                                                            uni_start_stream
+                                                                                                                            sm_m_send_token_arg <"t1", 0-60-11960>
+                                                                                                                            >
+                                                                                                                          mat_art_id <1-0-1478>
+                                                                                                                        man_start_sibling <trigger, "JONES, BECKY - 904-357-7270 - RJonesJX">
+                                                                                                                          act_replace_select_action
+                                                                                                                              <
+                                                                                                                              uni_start_stream
+                                                                                                                              sm_m_send_token_arg <"t1", 0-60-11968>
+                                                                                                                              >
+                                                                                                                            mat_art_id <1-0-1478>
+                                                                                                                          man_start_sibling <trigger, "JONES, BERL - 703-265-3443 - BerlJr">
+                                                                                                                            act_replace_select_action
+                                                                                                                                <
+                                                                                                                                uni_start_stream
+                                                                                                                                sm_m_send_token_arg <"t1", 0-60-11982>
+                                                                                                                                >
+                                                                                                                              mat_art_id <1-0-1478>
+                                                                                                                            man_start_sibling <trigger, "JONES, BRIAN - 520-733-7777 - BJonesAZ">
+                                                                                                                              act_replace_select_action
+                                                                                                                                  <
+                                                                                                                                  uni_start_stream
+                                                                                                                                  sm_m_send_token_arg <"t1", 0-60-11984>
+                                                                                                                                  >
+                                                                                                                                mat_art_id <1-0-1478>
+                                                                                                                              man_start_sibling <trigger, "JONES, JAMES - 703-265-4260 - James">
+                                                                                                                                act_replace_select_action
+                                                                                                                                    <
+                                                                                                                                    uni_start_stream
+                                                                                                                                    sm_m_send_token_arg <"t1", 0-60-11985>
+                                                                                                                                    >
+                                                                                                                                  mat_art_id <1-0-1478>
+                                                                                                                                man_start_sibling <trigger, "JONES, JURIA - 703-265-2946 - JuriaJ">
+                                                                                                                                  act_replace_select_action
+                                                                                                                                      <
+                                                                                                                                      uni_start_stream
+                                                                                                                                      sm_m_send_token_arg <"t1", 0-60-11986>
+                                                                                                                                      >
+                                                                                                                                    mat_art_id <1-0-1478>
+                                                                                                                                  man_start_sibling <trigger, "JONES, KELLY - 703-265-1773 - KellyJones">
+                                                                                                                                    act_replace_select_action
+                                                                                                                                        <
+                                                                                                                                        uni_start_stream
+                                                                                                                                        sm_m_send_token_arg <"t1", 0-60-11987>
+                                                                                                                                        >
+                                                                                                                                      mat_art_id <1-0-1478>
+                                                                                                                                    man_start_sibling <trigger, "JONES, LANCE - 520-733-7517 - Lance1WJ">
+                                                                                                                                      act_replace_select_action
+                                                                                                                                          <
+                                                                                                                                          uni_start_stream
+                                                                                                                                          sm_m_send_token_arg <"t1", 0-60-11988>
+                                                                                                                                          >
+                                                                                                                                        mat_art_id <1-0-1478>
+                                                                                                                                      man_start_sibling <trigger, "JONES, LARRY - 405-440-6755 - JonesLA">
+                                                                                                                                        act_replace_select_action
+                                                                                                                                            <
+                                                                                                                                            uni_start_stream
+                                                                                                                                            sm_m_send_token_arg <"t1", 0-60-11989>
+                                                                                                                                            >
+                                                                                                                                          mat_art_id <1-0-1478>
+                                                                                                                                        man_start_sibling <trigger, "JONES, LYNDA - 703-265-1334 - LyndaJones">
+                                                                                                                                          act_replace_select_action
+                                                                                                                                              <
+                                                                                                                                              uni_start_stream
+                                                                                                                                              sm_m_send_token_arg <"t1", 0-60-11990>
+                                                                                                                                              >
+                                                                                                                                            mat_art_id <1-0-1478>
+                                                                                                                                          man_start_sibling <trigger, "JONES, MICHAEL - 703-265-4662 - JonesML1">
+                                                                                                                                            act_replace_select_action
+                                                                                                                                                <
+                                                                                                                                                uni_start_stream
+                                                                                                                                                sm_m_send_token_arg <"t1", 0-60-11991>
+                                                                                                                                                >
+                                                                                                                                              mat_art_id <1-0-1478>
+                                                                                                                                            man_start_sibling <trigger, "JONES, SEAN E. - 703-265-4767 - SEricJ">
+                                                                                                                                              act_replace_select_action
+                                                                                                                                                  <
+                                                                                                                                                  uni_start_stream
+                                                                                                                                                  sm_m_send_token_arg <"t1", 0-60-11993>
+                                                                                                                                                  >
+                                                                                                                                                mat_art_id <1-0-1478>
+                                                                                                                                              man_start_sibling <trigger, "JONES, THELMA - 405-440-6603 - thelmjones">
+                                                                                                                                                act_replace_select_action
+                                                                                                                                                    <
+                                                                                                                                                    uni_start_stream
+                                                                                                                                                    sm_m_send_token_arg <"t1", 0-60-11995>
+                                                                                                                                                    >
+                                                                                                                                                  mat_art_id <1-0-1478>
+                                                                                                                                                man_start_sibling <trigger, "Jordan, Val - 650-356-5471 - val@webcrawler.com">
+                                                                                                                                                  act_replace_select_action
+                                                                                                                                                      <
+                                                                                                                                                      uni_start_stream
+                                                                                                                                                      sm_m_send_token_arg <"t1", 0-60-12002>
+                                                                                                                                                      >
+                                                                                                                                                    mat_art_id <1-0-1478>
+                                                                                                                                                  man_start_sibling <trigger, "JOYCE, DAVID - 405-440-6661 - DTJoyce">
+                                                                                                                                                    act_replace_select_action
+                                                                                                                                                        <
+                                                                                                                                                        uni_start_stream
+                                                                                                                                                        sm_m_send_token_arg <"t1", 0-60-12003>
+                                                                                                                                                        >
+                                                                                                                                                      mat_art_id <1-0-1478>
+                                                                                                                                                    man_start_sibling <trigger, "Joynt, Amy - 703-265-1088 - Ajoynt">
+                                                                                                                                                      act_replace_select_action
+                                                                                                                                                          <
+                                                                                                                                                          uni_start_stream
+                                                                                                                                                          sm_m_send_token_arg <"t1", 0-60-12005>
+                                                                                                                                                          >
+                                                                                                                                                        mat_art_id <1-0-1478>
+                                                                                                                                                      man_start_sibling <trigger, "JU, SUSAN - 703-265-5759 - SHJUXX">
+                                                                                                                                                        act_replace_select_action
+                                                                                                                                                            <
+                                                                                                                                                            uni_start_stream
+                                                                                                                                                            sm_m_send_token_arg <"t1", 0-60-12006>
+                                                                                                                                                            >
+                                                                                                                                                          mat_art_id <1-0-1478>
+                                                                                                                                                        man_start_sibling <trigger, "JUDSON, REBECCA - 703-265-4822 - RJudson">
+                                                                                                                                                          act_replace_select_action
+                                                                                                                                                              <
+                                                                                                                                                              uni_start_stream
+                                                                                                                                                              sm_m_send_token_arg <"t1", 0-60-12007>
+                                                                                                                                                              >
+                                                                                                                                                            mat_art_id <1-0-1478>
+                                                                                                                                                          man_start_sibling <trigger, "JULES, MAUREEN - 703-918-1034 - JulesDCI">
+                                                                                                                                                            act_replace_select_action
+                                                                                                                                                                <
+                                                                                                                                                                uni_start_stream
+                                                                                                                                                                sm_m_send_token_arg <"t1", 0-60-12008>
+                                                                                                                                                                >
+                                                                                                                                                              mat_art_id <1-0-1478>
+                                                                                                                                                            man_start_sibling <trigger, "JUPITER, SHIRLEY - 714-823-4172 - SJupiter">
+                                                                                                                                                              act_replace_select_action
+                                                                                                                                                                  <
+                                                                                                                                                                  uni_start_stream
+                                                                                                                                                                  sm_m_send_token_arg <"t1", 0-60-12009>
+                                                                                                                                                                  >
+                                                                                                                                                                mat_art_id <1-0-1478>
+                                                                                                                                                              man_end_object
+                                                                                                                                                            man_end_object
+                                                                                                                                                          man_start_sibling <org_group, "">
+                                                                                                                                                            mat_orientation <hef>
+                                                                                                                                                            man_start_object <trigger, "Open">
+                                                                                                                                                              act_replace_select_action
+                                                                                                                                                                  <
+                                                                                                                                                                  uni_start_stream <00x>
+                                                                                                                                                                  sm_do_list_action <30>
+                                                                                                                                                                  >
+                                                                                                                                                                mat_font_sis <system, 12, normal>
+                                                                                                                                                                mat_bool_default <yes>
+                                                                                                                                                              man_start_sibling <trigger, "More">
+                                                                                                                                                                mat_bool_disabled <yes>
+                                                                                                                                                                mat_relative_tag <26>
+                                                                                                                                                                act_replace_select_action
+                                                                                                                                                                    <
+                                                                                                                                                                    uni_wait_on
+                                                                                                                                                                    uni_start_stream
+                                                                                                                                                                      buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                                                                                                                      buf_set_token <"Cc">
+                                                                                                                                                                      buf_add_atom_pointer <01x, 00x, 3cx, 04x, 9fx, 00x, 3cx>
+                                                                                                                                                                      buf_close_buffer
+                                                                                                                                                                    uni_end_stream
+                                                                                                                                                                    >
+                                                                                                                                                                  mat_font_sis <system, 12, normal>
+                                                                                                                                                                man_end_object
+                                                                                                                                                              man_end_object
+                                                                                                                                                            man_end_object
+                                                                                                                                                            man_update_display
+                                                                                                                                                          man_update_woff_end_stream

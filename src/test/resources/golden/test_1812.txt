@@ -1,0 +1,32 @@
+uni_start_stream
+  man_start_object <ind_group, "GeoTel Workstations">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <15>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"\r\nPROJECT ID:   TL026\r\n\r\nPROJECT NAME:  GeoTel Wor">
+        man_append_data <"kstations\r\n\r\nDESCRIPTION:   Installation and confi">
+        man_append_data <"guration of GeoTel Workstations in Jacksonville (T">
+        man_append_data <"ech Control Desk) and Tucson.\r\n\r\nBENEFIT:  Greater">
+        man_append_data <" site awareness of call distribution between sites">
+        man_append_data <".\r\n\r\nSTART DATE:  9/5/96\r\n\r\nMILESTONES:  Phase one">
+        man_append_data <" - receive budget approval and order the equipment">
+        man_append_data <".  Phase two - install and configure the hardware.">
+        man_append_data <"\r\n\r\nCONTACT:  Malcolm Hawker\r\n\r\nCURRENT STATUS:  P">
+        man_append_data <"hase one is complete.  Hardware delivery is expect">
+        man_append_data <"ed towards the end of October.\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

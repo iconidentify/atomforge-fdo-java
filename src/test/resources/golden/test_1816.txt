@@ -1,0 +1,49 @@
+uni_start_stream
+  man_start_object <ind_group, "Member Help Interactive">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <15>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"\r\nPROJECT ID:  OM001\r\n\r\nPROJECT NAME:   Member Hel">
+        man_append_data <"p Interactive\r\n\r\nPROJECT DESCRIPTION:  Provide a c">
+        man_append_data <"ommunication link between reps and members as a re">
+        man_append_data <"placement for the tech support live auditorium tec">
+        man_append_data <"hnology.  The project will also provide administra">
+        man_append_data <"tive and statistical tools for measuring performan">
+        man_append_data <"ce, and is designed with the flexibility to meet e">
+        man_append_data <"xpanding live online support needs.\r\n\r\nBENEFIT:   ">
+        man_append_data <"Will provide an easier-to-use interface for both R">
+        man_append_data <"eps and Members as well as tools for tracking memb">
+        man_append_data <"er visits to the area and Rep productivity.  The t">
+        man_append_data <"racking function will enable more effective planni">
+        man_append_data <"ng for Member Services.\r\n\r\nSTART DATE:   02/12/96\r">
+        man_append_data <"\n\r\nMILESTONES:\r\nFirst Quarter:  QA passed.  Tucson">
+        man_append_data <" Reps introduced to the interactive piece of the t">
+        man_append_data <"ool and have spent one week using it.  Their input">
+        man_append_data <" was invaluable in finding bugs and determining ot">
+        man_append_data <"her features to be added.  Development was origina">
+        man_append_data <"lly planned to span 14 weeks (ending June 14), but">
+        man_append_data <" due to developer delays and the addition of new f">
+        man_append_data <"unctions, development will enter at least week 15.">
+        man_append_data <"\r\n\r\nSecond Quarter:   Complete the front end inter">
+        man_append_data <"face, install servers, provide an extended beta te">
+        man_append_data <"st for the product and launch by Oct. 1.\r\n\r\nCONTAC">
+        man_append_data <"T:  Jeff Wagg and Jonathan Allen\r\n\r\nCURRENT STATUS">
+        man_append_data <":   Is now in Beta with the Reps.  Will be fully o">
+        man_append_data <"perational by Oct. 15. Initial feedback from membe">
+        man_append_data <"rs very positive.\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

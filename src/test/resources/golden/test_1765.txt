@@ -1,0 +1,207 @@
+uni_start_stream
+  man_start_object <ind_group, "Mailbox Capacity (**internal only**)">
+    mat_orientation <vff>
+    mat_precise_width <315>
+    mat_precise_height <330>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-8832>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Change mailbox capacity">
+      mat_precise_width <300>
+      mat_precise_height <31>
+      mat_precise_x <5>
+      mat_precise_y <0>
+      mat_font_sis <arial, 18, bold>
+      mat_color_text <100, 100, 150>
+      mat_color_text_shadow <1, 1, 1>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "\r">
+      mat_precise_width <300>
+      mat_precise_height <2>
+      mat_precise_x <5>
+      mat_precise_y <35>
+      mat_color_face <1, 1, 1>
+      mat_font_sis <arial, 9, normal>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_precise_width <65>
+      mat_precise_height <23>
+      mat_precise_x <238>
+      mat_precise_y <301>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <1>
+    man_start_sibling <ornament, "Hidden Text Removed">
+      mat_bool_invisible <yes>
+      mat_precise_width <82>
+      mat_precise_height <15>
+      mat_precise_x <33>
+      mat_precise_y <39>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <75>
+      mat_precise_height <24>
+      mat_precise_x <33>
+      mat_precise_y <54>
+      mat_bool_resize_vertical <no>
+      mat_color_frame_shadow <255, 0, 0>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <7>
+      man_append_data <"Hidden ">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <2>
+    man_start_sibling <ornament, "Hidden Text Removed">
+      mat_bool_hidden <yes>
+      mat_precise_width <100>
+      mat_precise_height <16>
+      mat_precise_x <35>
+      mat_precise_y <40>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <149>
+      mat_precise_height <24>
+      mat_precise_x <35>
+      mat_precise_y <55>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <16>
+      man_append_data <"Hidden Text Remo">
+      man_end_data
+      mat_bool_hidden <yes>
+      mat_relative_tag <3>
+    man_start_sibling <ornament, "Incoming Mail Capacity*">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <33>
+      mat_precise_y <50>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <33>
+      mat_precise_y <65>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <32>
+      mat_relative_tag <21>
+    man_start_sibling <ornament, "Outgoing Mail Capacity*">
+      mat_precise_width <161>
+      mat_precise_height <16>
+      mat_precise_x <33>
+      mat_precise_y <104>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <33>
+      mat_precise_y <119>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <32>
+      mat_relative_tag <20>
+    man_start_sibling <ornament, "Screen Name to be Changed">
+      mat_precise_width <170>
+      mat_precise_height <16>
+      mat_precise_x <33>
+      mat_precise_y <151>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <33>
+      mat_precise_y <167>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <16>
+      mat_relative_tag <12>
+    man_start_sibling <trigger, "SEND">
+      act_replace_select_action
+          <
+          uni_start_stream
+          de_ez_send_form <"ef", 6176>
+        uni_end_stream
+        >
+      mat_font_sis <ms_sans_serif, 8, bold>
+      mat_color_text <255, 255, 255>
+      mat_color_text_shadow <1, 1, 1>
+      mat_precise_width <82>
+      mat_precise_height <22>
+      mat_precise_x <59>
+      mat_precise_y <298>
+      mat_bool_default <yes>
+      mat_color_selected <109, 109, 255>
+      mat_color_top_edge <214, 213, 247>
+      mat_color_bottom_edge <62, 41, 132>
+      mat_color_face <109, 109, 170>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream <00x>
+            man_close_update
+          uni_end_stream
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <77>
+        mat_precise_height <25>
+        mat_precise_x <168>
+        mat_precise_y <297>
+        mat_art_id <1-0-33373>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "">
+        mat_precise_width <290>
+        mat_precise_height <40>
+        mat_precise_x <10>
+        mat_precise_y <200>
+        mat_font_sis <arial, 10, bold | italic>
+        mat_color_text <0, 72, 170>
+        man_append_data <"*Note:  Incoming and outgoing mail cannot exceed m">
+        man_append_data <"ore than 2,000 messages combined.">
+        man_end_data
+        mat_orientation <hcf>
+      man_start_sibling <ornament, "">
+        mat_precise_width <290>
+        mat_precise_height <50>
+        mat_precise_x <10>
+        mat_precise_y <240>
+        mat_font_sis <arial, 10, bold | italic>
+        mat_color_text <255, 0, 0>
+        man_append_data <"Data in the incoming and outgoing mail capacity fi">
+        man_append_data <"elds must be numeric only. No text, commas or peri">
+        man_append_data <"ods please.">
+        man_end_data
+        mat_orientation <hlf>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

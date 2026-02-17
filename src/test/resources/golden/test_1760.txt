@@ -1,0 +1,79 @@
+uni_start_stream
+  man_start_object <ind_group, "Manuals">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <240>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-62589>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_precise_width <500>
+      mat_precise_height <75>
+      mat_precise_x <25>
+      mat_precise_y <25>
+      mat_font_sis <arial, 12, bold>
+      man_append_data <"Documentation written by the Technical Documentati">
+      man_append_data <"on department is divided into three categories.  P">
+      man_append_data <"lease select one of the following for a list of do">
+      man_append_data <"cumentation in that category.">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "Application Software">
+      mat_title_pos <below | center>
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-13149>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <50>
+      mat_precise_height <50>
+      mat_precise_x <50>
+      mat_precise_y <125>
+      mat_art_hint_title_font_size <7>
+      mat_art_hint_width <32>
+      mat_art_hint_height <32>
+      mat_art_id <1-0-1297>
+      mat_color_face <218, 218, 255>
+    man_start_sibling <trigger, "Online Service">
+      mat_title_pos <below | center>
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-13240>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <55>
+      mat_precise_height <50>
+      mat_precise_x <225>
+      mat_precise_y <125>
+      mat_art_hint_title_font_size <7>
+      mat_art_hint_width <32>
+      mat_art_hint_height <32>
+      mat_art_id <1-0-1489>
+      mat_color_face <218, 218, 255>
+    man_start_sibling <trigger, "Operations">
+      mat_title_pos <below | center>
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-25508>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <50>
+      mat_precise_height <50>
+      mat_precise_x <400>
+      mat_precise_y <125>
+      mat_art_hint_title_font_size <7>
+      mat_art_hint_width <53>
+      mat_art_hint_height <47>
+      mat_art_id <1-0-1847>
+      mat_color_face <218, 218, 255>
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

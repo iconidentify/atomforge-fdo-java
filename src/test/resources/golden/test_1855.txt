@@ -1,0 +1,101 @@
+uni_start_stream
+  man_start_object <ind_group, "Icon and Picture Libraries">
+    mat_orientation <vft>
+    mat_color_face <255, 1, 1>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_relative_tag <15>
+        mat_art_id <1-0-1854>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Icon & Picture Libraries">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <68>
+      mat_height <11>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Mini-Icon Library">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-1-7757>
+            >
+          mat_art_id <1-0-37493>
+        man_start_sibling <trigger, "List of PICT 12 & up Global IDs">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-127-13643>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Icons vs. Picts: The Great Debate">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-100-51587>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "SystemArt: Invisible Art">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-127-13044>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "SystemArt: Icons (Visual)">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-127-5608>
+                    >
+                  mat_art_id <1-0-37493>
+                man_start_sibling <trigger, "SystemArt: Picts (Visual)">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-127-5620>
+                      >
+                    mat_art_id <1-0-37493>
+                  man_start_sibling <trigger, "SystemArt: Tiles (Visual)">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-127-5609>
+                        >
+                      mat_art_id <1-0-37493>
+                    man_start_sibling <trigger, "Go To System Art">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-1-58117>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hef>
+                      mat_vertical_spacing <2>
+                      man_start_object <trigger, "Open">
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                            sm_do_list_action <30>
+                            >
+                          mat_font_sis <system, 12, normal>
+                          mat_bool_default <yes>
+                        man_start_sibling <trigger, "More">
+                          mat_bool_disabled <yes>
+                          mat_relative_tag <26>
+                          mat_font_sis <system, 12, normal>
+                        man_end_object
+                      man_end_object
+                      man_update_display
+                    man_update_woff_end_stream

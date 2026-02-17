@@ -1,0 +1,737 @@
+uni_start_stream
+  man_start_object <ind_group, "System Calendar for April 1998">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <330>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-49644>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "April 1998">
+      mat_relative_tag <3>
+      mat_precise_width <180>
+      mat_precise_height <28>
+      mat_precise_x <190>
+      mat_precise_y <5>
+      mat_font_sis <times_roman, 18, bold>
+      mat_orientation <hcf>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <56>
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_x <0>
+      mat_precise_y <51>
+      mat_art_id <1-0-23738>
+      mat_trigger_style <plain_picture>
+      mat_bool_default <yes>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <57>
+      mat_precise_width <18>
+      mat_precise_height <15>
+      mat_precise_x <57>
+      mat_precise_y <51>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <58>
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_x <78>
+      mat_precise_y <51>
+      mat_art_id <1-0-23738>
+      mat_trigger_style <plain_picture>
+      mat_bool_default <yes>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <59>
+      mat_precise_width <18>
+      mat_precise_height <15>
+      mat_precise_x <140>
+      mat_precise_y <52>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <60>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"U2", 0-74-355>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_x <158>
+        mat_precise_y <51>
+        mat_art_id <1-0-23738>
+        mat_trigger_style <plain_picture>
+        mat_bool_default <yes>
+      man_start_sibling <ornament, "\r">
+        mat_relative_tag <61>
+        mat_precise_width <18>
+        mat_precise_height <15>
+        mat_precise_x <220>
+        mat_precise_y <52>
+        mat_font_sis <arial, 9, bold>
+        mat_orientation <hlf>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <62>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U2", 0-74-355>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_x <237>
+          mat_precise_y <51>
+          mat_art_id <1-0-19928>
+          mat_trigger_style <plain_picture>
+          mat_bool_default <yes>
+        man_start_sibling <ornament, "1">
+          mat_relative_tag <63>
+          mat_precise_width <18>
+          mat_precise_height <15>
+          mat_precise_x <295>
+          mat_precise_y <52>
+          mat_font_sis <arial, 9, bold>
+          mat_orientation <hlf>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <64>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U2", 0-74-356>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_x <316>
+            mat_precise_y <52>
+            mat_art_id <1-0-19928>
+            mat_trigger_style <plain_picture>
+            mat_bool_default <yes>
+          man_start_sibling <ornament, "2">
+            mat_relative_tag <65>
+            mat_precise_width <18>
+            mat_precise_height <15>
+            mat_precise_x <375>
+            mat_precise_y <52>
+            mat_font_sis <arial, 9, bold>
+            mat_orientation <hlf>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <66>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U2", 0-74-357>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_x <395>
+              mat_precise_y <52>
+              mat_art_id <1-0-19928>
+              mat_trigger_style <plain_picture>
+              mat_bool_default <yes>
+            man_start_sibling <ornament, "3">
+              mat_relative_tag <67>
+              mat_precise_width <18>
+              mat_precise_height <15>
+              mat_precise_x <453>
+              mat_precise_y <52>
+              mat_font_sis <arial, 9, bold>
+              mat_orientation <hlf>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <68>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U2", 0-74-358>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_x <473>
+                mat_precise_y <52>
+                mat_art_id <1-0-19928>
+                mat_trigger_style <plain_picture>
+                mat_bool_default <yes>
+              man_start_sibling <ornament, "4">
+                mat_relative_tag <69>
+                mat_precise_width <18>
+                mat_precise_height <15>
+                mat_precise_x <532>
+                mat_precise_y <52>
+                mat_font_sis <arial, 9, bold>
+                mat_orientation <hlf>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <70>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U2", 0-74-359>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_x <0>
+                  mat_precise_y <108>
+                  mat_art_id <1-0-19928>
+                  mat_trigger_style <plain_picture>
+                  mat_bool_default <yes>
+                man_start_sibling <ornament, "5">
+                  mat_relative_tag <71>
+                  mat_precise_width <18>
+                  mat_precise_height <15>
+                  mat_precise_x <59>
+                  mat_precise_y <108>
+                  mat_font_sis <arial, 9, bold>
+                  mat_orientation <hlf>
+                man_start_sibling <trigger, "">
+                  mat_relative_tag <72>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U2", 0-74-360>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_precise_x <81>
+                    mat_precise_y <109>
+                    mat_art_id <1-0-19928>
+                    mat_trigger_style <plain_picture>
+                    mat_bool_default <yes>
+                  man_start_sibling <ornament, "6">
+                    mat_relative_tag <73>
+                    mat_precise_width <18>
+                    mat_precise_height <15>
+                    mat_precise_x <138>
+                    mat_precise_y <108>
+                    mat_font_sis <arial, 9, bold>
+                    mat_orientation <hlf>
+                  man_start_sibling <trigger, "">
+                    mat_relative_tag <74>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U2", 0-74-361>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_precise_x <159>
+                      mat_precise_y <109>
+                      mat_art_id <1-0-19928>
+                      mat_trigger_style <plain_picture>
+                      mat_bool_default <yes>
+                    man_start_sibling <ornament, "7">
+                      mat_relative_tag <75>
+                      mat_precise_width <18>
+                      mat_precise_height <15>
+                      mat_precise_x <216>
+                      mat_precise_y <109>
+                      mat_font_sis <arial, 9, bold>
+                      mat_orientation <hlf>
+                    man_start_sibling <trigger, "">
+                      mat_relative_tag <76>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U2", 0-74-362>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_precise_x <238>
+                        mat_precise_y <109>
+                        mat_art_id <1-0-19928>
+                        mat_trigger_style <plain_picture>
+                        mat_bool_default <yes>
+                      man_start_sibling <ornament, "8">
+                        mat_relative_tag <77>
+                        mat_precise_width <18>
+                        mat_precise_height <15>
+                        mat_precise_x <296>
+                        mat_precise_y <109>
+                        mat_font_sis <arial, 9, bold>
+                        mat_orientation <hlf>
+                      man_start_sibling <trigger, "">
+                        mat_relative_tag <78>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U2", 0-74-363>
+                            >
+                          mat_font_sis <small_fonts, 7, normal>
+                          mat_precise_x <317>
+                          mat_precise_y <109>
+                          mat_art_id <1-0-19928>
+                          mat_trigger_style <plain_picture>
+                          mat_bool_default <yes>
+                        man_start_sibling <ornament, "9">
+                          mat_relative_tag <79>
+                          mat_precise_width <18>
+                          mat_precise_height <15>
+                          mat_precise_x <374>
+                          mat_precise_y <109>
+                          mat_font_sis <arial, 9, bold>
+                          mat_orientation <hlf>
+                        man_start_sibling <trigger, "">
+                          mat_relative_tag <80>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U2", 0-74-364>
+                              >
+                            mat_font_sis <small_fonts, 7, normal>
+                            mat_precise_x <396>
+                            mat_precise_y <109>
+                            mat_art_id <1-0-19928>
+                            mat_trigger_style <plain_picture>
+                            mat_bool_default <yes>
+                          man_start_sibling <ornament, "10">
+                            mat_relative_tag <81>
+                            mat_precise_width <18>
+                            mat_precise_height <15>
+                            mat_precise_x <452>
+                            mat_precise_y <109>
+                            mat_font_sis <arial, 9, bold>
+                            mat_orientation <hlf>
+                          man_start_sibling <trigger, "">
+                            mat_relative_tag <82>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U2", 0-74-365>
+                                >
+                              mat_font_sis <small_fonts, 7, normal>
+                              mat_precise_x <474>
+                              mat_precise_y <109>
+                              mat_art_id <1-0-19928>
+                              mat_trigger_style <plain_picture>
+                              mat_bool_default <yes>
+                            man_start_sibling <ornament, "11">
+                              mat_relative_tag <83>
+                              mat_precise_width <18>
+                              mat_precise_height <15>
+                              mat_precise_x <532>
+                              mat_precise_y <109>
+                              mat_font_sis <arial, 9, bold>
+                              mat_orientation <hlf>
+                            man_start_sibling <trigger, "">
+                              mat_relative_tag <84>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U2", 0-74-366>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_precise_x <1>
+                                mat_precise_y <164>
+                                mat_art_id <1-0-19928>
+                                mat_trigger_style <plain_picture>
+                                mat_bool_default <yes>
+                              man_start_sibling <ornament, "12">
+                                mat_relative_tag <85>
+                                mat_precise_width <18>
+                                mat_precise_height <15>
+                                mat_precise_x <58>
+                                mat_precise_y <164>
+                                mat_font_sis <arial, 9, bold>
+                                mat_orientation <hlf>
+                              man_start_sibling <trigger, "">
+                                mat_relative_tag <86>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U2", 0-74-367>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_precise_x <80>
+                                  mat_precise_y <164>
+                                  mat_art_id <1-0-19928>
+                                  mat_trigger_style <plain_picture>
+                                  mat_bool_default <yes>
+                                man_start_sibling <ornament, "13">
+                                  mat_relative_tag <87>
+                                  mat_precise_width <18>
+                                  mat_precise_height <15>
+                                  mat_precise_x <137>
+                                  mat_precise_y <164>
+                                  mat_font_sis <arial, 9, bold>
+                                  mat_orientation <hlf>
+                                man_start_sibling <trigger, "">
+                                  mat_relative_tag <88>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U2", 0-74-368>
+                                      >
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_precise_x <158>
+                                    mat_precise_y <164>
+                                    mat_art_id <1-0-19928>
+                                    mat_trigger_style <plain_picture>
+                                    mat_bool_default <yes>
+                                  man_start_sibling <ornament, "14">
+                                    mat_relative_tag <89>
+                                    mat_precise_width <18>
+                                    mat_precise_height <15>
+                                    mat_precise_x <216>
+                                    mat_precise_y <164>
+                                    mat_font_sis <arial, 9, bold>
+                                    mat_orientation <hlf>
+                                  man_start_sibling <trigger, "">
+                                    mat_relative_tag <90>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"U2", 0-74-369>
+                                        >
+                                      mat_font_sis <small_fonts, 7, normal>
+                                      mat_precise_x <238>
+                                      mat_precise_y <164>
+                                      mat_art_id <1-0-19928>
+                                      mat_trigger_style <plain_picture>
+                                      mat_bool_default <yes>
+                                    man_start_sibling <ornament, "15">
+                                      mat_relative_tag <91>
+                                      mat_precise_width <18>
+                                      mat_precise_height <15>
+                                      mat_precise_x <295>
+                                      mat_precise_y <164>
+                                      mat_font_sis <arial, 9, bold>
+                                      mat_orientation <hlf>
+                                    man_start_sibling <trigger, "">
+                                      mat_relative_tag <92>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"U2", 0-74-370>
+                                          >
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_precise_x <317>
+                                        mat_precise_y <164>
+                                        mat_art_id <1-0-19928>
+                                        mat_trigger_style <plain_picture>
+                                        mat_bool_default <yes>
+                                      man_start_sibling <ornament, "16">
+                                        mat_relative_tag <93>
+                                        mat_precise_width <18>
+                                        mat_precise_height <15>
+                                        mat_precise_x <374>
+                                        mat_precise_y <164>
+                                        mat_font_sis <arial, 9, bold>
+                                        mat_orientation <hlf>
+                                      man_start_sibling <trigger, "">
+                                        mat_relative_tag <94>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"U2", 0-74-371>
+                                            >
+                                          mat_font_sis <small_fonts, 7, normal>
+                                          mat_precise_x <397>
+                                          mat_precise_y <164>
+                                          mat_art_id <1-0-19928>
+                                          mat_trigger_style <plain_picture>
+                                          mat_bool_default <yes>
+                                        man_start_sibling <ornament, "17">
+                                          mat_relative_tag <95>
+                                          mat_precise_width <18>
+                                          mat_precise_height <15>
+                                          mat_precise_x <452>
+                                          mat_precise_y <164>
+                                          mat_font_sis <arial, 9, bold>
+                                          mat_orientation <hlf>
+                                        man_start_sibling <trigger, "">
+                                          mat_relative_tag <96>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"U2", 0-74-372>
+                                              >
+                                            mat_font_sis <small_fonts, 7, normal>
+                                            mat_precise_x <474>
+                                            mat_precise_y <164>
+                                            mat_art_id <1-0-19928>
+                                            mat_trigger_style <plain_picture>
+                                            mat_bool_default <yes>
+                                          man_start_sibling <ornament, "18">
+                                            mat_relative_tag <97>
+                                            mat_precise_width <18>
+                                            mat_precise_height <15>
+                                            mat_precise_x <531>
+                                            mat_precise_y <164>
+                                            mat_font_sis <arial, 9, bold>
+                                            mat_orientation <hlf>
+                                          man_start_sibling <trigger, "">
+                                            mat_relative_tag <98>
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"U2", 0-74-373>
+                                                >
+                                              mat_font_sis <small_fonts, 7, normal>
+                                              mat_precise_x <1>
+                                              mat_precise_y <220>
+                                              mat_art_id <1-0-19928>
+                                              mat_trigger_style <plain_picture>
+                                              mat_bool_default <yes>
+                                            man_start_sibling <ornament, "19">
+                                              mat_relative_tag <99>
+                                              mat_precise_width <18>
+                                              mat_precise_height <15>
+                                              mat_precise_x <58>
+                                              mat_precise_y <220>
+                                              mat_font_sis <arial, 9, bold>
+                                              mat_orientation <hlf>
+                                            man_start_sibling <trigger, "">
+                                              mat_relative_tag <100>
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"U2", 0-74-374>
+                                                  >
+                                                mat_font_sis <small_fonts, 7, normal>
+                                                mat_precise_x <80>
+                                                mat_precise_y <220>
+                                                mat_art_id <1-0-19928>
+                                                mat_trigger_style <plain_picture>
+                                                mat_bool_default <yes>
+                                              man_start_sibling <ornament, "20">
+                                                mat_relative_tag <101>
+                                                mat_precise_width <18>
+                                                mat_precise_height <15>
+                                                mat_precise_x <137>
+                                                mat_precise_y <220>
+                                                mat_font_sis <arial, 9, bold>
+                                                mat_orientation <hlf>
+                                              man_start_sibling <trigger, "">
+                                                mat_relative_tag <102>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"U2", 0-74-375>
+                                                    >
+                                                  mat_font_sis <small_fonts, 7, normal>
+                                                  mat_precise_x <158>
+                                                  mat_precise_y <220>
+                                                  mat_art_id <1-0-19928>
+                                                  mat_trigger_style <plain_picture>
+                                                  mat_bool_default <yes>
+                                                man_start_sibling <ornament, "21">
+                                                  mat_relative_tag <103>
+                                                  mat_precise_width <18>
+                                                  mat_precise_height <15>
+                                                  mat_precise_x <216>
+                                                  mat_precise_y <220>
+                                                  mat_font_sis <arial, 9, bold>
+                                                  mat_orientation <hlf>
+                                                man_start_sibling <trigger, "">
+                                                  mat_relative_tag <104>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"U2", 0-74-376>
+                                                      >
+                                                    mat_font_sis <small_fonts, 7, normal>
+                                                    mat_precise_x <238>
+                                                    mat_precise_y <220>
+                                                    mat_art_id <1-0-19928>
+                                                    mat_trigger_style <plain_picture>
+                                                    mat_bool_default <yes>
+                                                  man_start_sibling <ornament, "22">
+                                                    mat_relative_tag <105>
+                                                    mat_precise_width <18>
+                                                    mat_precise_height <15>
+                                                    mat_precise_x <295>
+                                                    mat_precise_y <220>
+                                                    mat_font_sis <arial, 9, bold>
+                                                    mat_orientation <hlf>
+                                                  man_start_sibling <trigger, "">
+                                                    mat_relative_tag <106>
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"U2", 0-74-377>
+                                                        >
+                                                      mat_font_sis <small_fonts, 7, normal>
+                                                      mat_precise_x <317>
+                                                      mat_precise_y <220>
+                                                      mat_art_id <1-0-19928>
+                                                      mat_trigger_style <plain_picture>
+                                                      mat_bool_default <yes>
+                                                    man_start_sibling <ornament, "23">
+                                                      mat_relative_tag <107>
+                                                      mat_precise_width <18>
+                                                      mat_precise_height <15>
+                                                      mat_precise_x <374>
+                                                      mat_precise_y <220>
+                                                      mat_font_sis <arial, 9, bold>
+                                                      mat_orientation <hlf>
+                                                    man_start_sibling <trigger, "">
+                                                      mat_relative_tag <108>
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"U2", 0-74-378>
+                                                          >
+                                                        mat_font_sis <small_fonts, 7, normal>
+                                                        mat_precise_x <397>
+                                                        mat_precise_y <220>
+                                                        mat_art_id <1-0-19928>
+                                                        mat_trigger_style <plain_picture>
+                                                        mat_bool_default <yes>
+                                                      man_start_sibling <ornament, "24">
+                                                        mat_relative_tag <109>
+                                                        mat_precise_width <18>
+                                                        mat_precise_height <15>
+                                                        mat_precise_x <452>
+                                                        mat_precise_y <220>
+                                                        mat_font_sis <arial, 9, bold>
+                                                        mat_orientation <hlf>
+                                                      man_start_sibling <trigger, "">
+                                                        mat_relative_tag <110>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"U2", 0-74-379>
+                                                            >
+                                                          mat_font_sis <small_fonts, 7, normal>
+                                                          mat_precise_x <474>
+                                                          mat_precise_y <220>
+                                                          mat_art_id <1-0-19928>
+                                                          mat_trigger_style <plain_picture>
+                                                          mat_bool_default <yes>
+                                                        man_start_sibling <ornament, "25">
+                                                          mat_relative_tag <111>
+                                                          mat_precise_width <18>
+                                                          mat_precise_height <15>
+                                                          mat_precise_x <531>
+                                                          mat_precise_y <220>
+                                                          mat_font_sis <arial, 9, bold>
+                                                          mat_orientation <hlf>
+                                                        man_start_sibling <trigger, "">
+                                                          mat_relative_tag <112>
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"U2", 0-74-380>
+                                                              >
+                                                            mat_font_sis <small_fonts, 7, normal>
+                                                            mat_precise_x <2>
+                                                            mat_precise_y <277>
+                                                            mat_art_id <1-0-19928>
+                                                            mat_trigger_style <plain_picture>
+                                                            mat_bool_default <yes>
+                                                          man_start_sibling <ornament, "26">
+                                                            mat_relative_tag <113>
+                                                            mat_precise_width <18>
+                                                            mat_precise_height <15>
+                                                            mat_precise_x <59>
+                                                            mat_precise_y <277>
+                                                            mat_font_sis <arial, 9, bold>
+                                                            mat_orientation <hlf>
+                                                          man_start_sibling <trigger, "">
+                                                            mat_relative_tag <114>
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"U2", 0-74-381>
+                                                                >
+                                                              mat_font_sis <small_fonts, 7, normal>
+                                                              mat_precise_x <81>
+                                                              mat_precise_y <277>
+                                                              mat_art_id <1-0-19928>
+                                                              mat_trigger_style <plain_picture>
+                                                              mat_bool_default <yes>
+                                                            man_start_sibling <ornament, "27">
+                                                              mat_relative_tag <115>
+                                                              mat_precise_width <18>
+                                                              mat_precise_height <15>
+                                                              mat_precise_x <138>
+                                                              mat_precise_y <277>
+                                                              mat_font_sis <arial, 9, bold>
+                                                              mat_orientation <hlf>
+                                                            man_start_sibling <trigger, "">
+                                                              mat_relative_tag <116>
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"U2", 0-74-382>
+                                                                  >
+                                                                mat_font_sis <small_fonts, 7, normal>
+                                                                mat_precise_x <159>
+                                                                mat_precise_y <277>
+                                                                mat_art_id <1-0-19928>
+                                                                mat_trigger_style <plain_picture>
+                                                                mat_bool_default <yes>
+                                                              man_start_sibling <ornament, "28">
+                                                                mat_relative_tag <117>
+                                                                mat_precise_width <18>
+                                                                mat_precise_height <15>
+                                                                mat_precise_x <217>
+                                                                mat_precise_y <277>
+                                                                mat_font_sis <arial, 9, bold>
+                                                                mat_orientation <hlf>
+                                                              man_start_sibling <trigger, "">
+                                                                mat_relative_tag <118>
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"U2", 0-74-383>
+                                                                    >
+                                                                  mat_font_sis <small_fonts, 7, normal>
+                                                                  mat_precise_x <239>
+                                                                  mat_precise_y <277>
+                                                                  mat_art_id <1-0-19928>
+                                                                  mat_trigger_style <plain_picture>
+                                                                  mat_bool_default <yes>
+                                                                man_start_sibling <ornament, "29">
+                                                                  mat_relative_tag <119>
+                                                                  mat_precise_width <18>
+                                                                  mat_precise_height <15>
+                                                                  mat_precise_x <296>
+                                                                  mat_precise_y <277>
+                                                                  mat_font_sis <arial, 9, bold>
+                                                                  mat_orientation <hlf>
+                                                                man_start_sibling <trigger, "">
+                                                                  mat_relative_tag <120>
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"U2", 0-74-384>
+                                                                      >
+                                                                    mat_font_sis <small_fonts, 7, normal>
+                                                                    mat_precise_x <318>
+                                                                    mat_precise_y <277>
+                                                                    mat_art_id <1-0-19928>
+                                                                    mat_trigger_style <plain_picture>
+                                                                    mat_bool_default <yes>
+                                                                  man_start_sibling <ornament, "30\r\r">
+                                                                    mat_relative_tag <121>
+                                                                    mat_precise_width <18>
+                                                                    mat_precise_height <15>
+                                                                    mat_precise_x <375>
+                                                                    mat_precise_y <277>
+                                                                    mat_font_sis <arial, 9, bold>
+                                                                    mat_orientation <hlf>
+                                                                  man_start_sibling <trigger, "">
+                                                                    mat_relative_tag <122>
+                                                                    mat_font_sis <small_fonts, 7, normal>
+                                                                    mat_precise_x <398>
+                                                                    mat_precise_y <277>
+                                                                    mat_art_id <1-0-23738>
+                                                                    mat_trigger_style <plain_picture>
+                                                                    mat_bool_default <yes>
+                                                                  man_start_sibling <ornament, "">
+                                                                    mat_relative_tag <123>
+                                                                    mat_precise_width <18>
+                                                                    mat_precise_height <15>
+                                                                    mat_precise_x <453>
+                                                                    mat_precise_y <277>
+                                                                    mat_font_sis <arial, 9, bold>
+                                                                    mat_orientation <hlf>
+                                                                  man_start_sibling <trigger, "">
+                                                                    mat_relative_tag <124>
+                                                                    mat_font_sis <small_fonts, 7, normal>
+                                                                    mat_precise_x <475>
+                                                                    mat_precise_y <277>
+                                                                    mat_art_id <1-0-23738>
+                                                                    mat_trigger_style <plain_picture>
+                                                                    mat_bool_default <yes>
+                                                                  man_start_sibling <ornament, "">
+                                                                    mat_relative_tag <125>
+                                                                    mat_precise_width <18>
+                                                                    mat_precise_height <15>
+                                                                    mat_precise_x <532>
+                                                                    mat_precise_y <277>
+                                                                    mat_font_sis <arial, 9, bold>
+                                                                    mat_orientation <hlf>
+                                                                  man_end_object
+                                                                  man_update_display
+                                                                man_update_woff_end_stream

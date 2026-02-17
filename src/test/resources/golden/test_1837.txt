@@ -1,0 +1,208 @@
+uni_start_stream
+  man_start_object <ind_group, "Visual Publisher Designer">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-27256>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "VISUAL PUBLISHER DESIGNER">
+      mat_precise_width <484>
+      mat_precise_height <30>
+      mat_precise_x <5>
+      mat_precise_y <6>
+      mat_font_sis <arial, 18, bold>
+      mat_color_text <100, 100, 150>
+      mat_color_text_shadow <0, 0, 0>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <485>
+      mat_precise_height <2>
+      mat_precise_x <5>
+      mat_precise_y <40>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <2>
+      mat_precise_height <159>
+      mat_precise_x <240>
+      mat_precise_y <112>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+    man_start_sibling <trigger, "FAQs">
+      mat_context_help <"Frequently Asked Questions">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U2", 111-16>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <160>
+      mat_precise_height <38>
+      mat_precise_x <21>
+      mat_precise_y <105>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "DOCUMENTATION">
+      mat_context_help <"Download the latest documentation">
+      act_replace_select_action
+          <
+          uni_start_stream <00x>
+          sm_send_token_arg <"U2", 111-63>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <163>
+      mat_precise_height <38>
+      mat_precise_x <21>
+      mat_precise_y <152>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "DOWNLOAD AREA">
+      mat_context_help <"Download the latest tools">
+      act_replace_select_action
+          <
+          uni_start_stream <00x>
+          sm_send_token_arg <"U2", 111-64>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <162>
+      mat_precise_height <38>
+      mat_precise_x <21>
+      mat_precise_y <198>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "MESSAGE BOARDS">
+      mat_context_help <"VPD Message Boards">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U2", 111-162>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <162>
+      mat_precise_height <38>
+      mat_precise_x <23>
+      mat_precise_y <248>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "REPORT A BUG">
+      mat_context_help <"Click here to report a bug with VPD">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <40-45134>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <160>
+      mat_precise_height <38>
+      mat_precise_x <309>
+      mat_precise_y <105>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "TUTORIAL">
+      mat_context_help <"Click here for a tutorial on VPD">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U2", 111-65>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <160>
+      mat_precise_height <38>
+      mat_precise_x <309>
+      mat_precise_y <154>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "VPD FORMS CATALOG">
+      mat_context_help <"Forms you can download and use with VPD">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_k1 <40-43598>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <160>
+      mat_precise_height <38>
+      mat_precise_x <310>
+      mat_precise_y <200>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "HELP REQUEST">
+      mat_context_help <"ARC Help pager form">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-8224>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_color_text <255, 255, 255>
+      mat_precise_width <162>
+      mat_precise_height <38>
+      mat_precise_x <310>
+      mat_precise_y <250>
+      mat_trigger_style <rectangle>
+      mat_color_top_edge <255, 255, 255>
+      mat_color_bottom_edge <1, 1, 1>
+      mat_color_face <100, 100, 150>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U2", 111-64>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_width <55>
+      mat_precise_height <55>
+      mat_precise_x <103>
+      mat_precise_y <45>
+      mat_art_id <1-0-34196>
+      mat_trigger_style <rectangle>
+      mat_color_face <255, 255, 255>
+    man_start_sibling <ornament, "">
+      mat_precise_width <227>
+      mat_precise_height <40>
+      mat_precise_x <171>
+      mat_precise_y <52>
+      mat_font_sis <arial, 10, bold>
+      mat_color_text <255, 0, 0>
+      man_append_data <"Click here to download the new Designer 1.0 for Ma">
+      man_append_data <"cintosh!">
+      man_end_data
+      mat_orientation <hlf>
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

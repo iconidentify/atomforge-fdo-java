@@ -1,0 +1,43 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "Affinity Groups">
+    mat_orientation <vfe>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_position <cascade>
+    man_start_object <ornament, "">
+      mat_art_id <1-0-3005>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        man_start_object <org_group, "">
+          mat_orientation <vff>
+        man_end_object
+        man_start_object <org_group, "">
+          mat_orientation <vff>
+          man_start_object <trigger, "Click Here for AG List">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"t1", 0-100-673>
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_end_object
+          man_start_object <org_group, "">
+            mat_orientation <vff>
+          man_end_object
+        man_end_object
+      man_end_object
+      man_start_object <ornament, "">
+        mat_width <20>
+        mat_height <3>
+        man_append_data <"\r      E-mail PROMOS with\r         changes/updates">
+        mat_orientation <hlf>
+        mat_font_sis <arial, 9, normal>
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream

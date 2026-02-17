@@ -1,0 +1,55 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Development directories (not for distribution)
+docs/
+docs/**
+
+# Publish script environment
+.publish.env
+
+# Publish script (local development tool)
+publish
+
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Doc extraction tool outputs (large JSON files)
+tools/doc-extractor/output/
+/README-PUBLISH.md
+/requirements-publish.txt
+/setup-venv.sh
+/PUBLISH.md
+/img.png
+/.publish.env.example
+/.venvnsource/
+/.venv/

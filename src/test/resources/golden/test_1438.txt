@@ -1,0 +1,54 @@
+uni_start_stream <00x>
+  man_preset_gid <32-224>
+  if_last_return_true_then <1>
+  man_make_focus <32-224>
+  man_update_display <32-224>
+uni_abort_stream
+uni_sync_skip <1>
+man_start_object <ind_group, "Previous Frame Theta">
+  mat_object_id <32-224>
+  mat_style_id <32-224>
+  mat_orientation <vff>
+the_unknown <16, 204, 01x>
+  mat_position <center_center>
+  mat_bool_resize_vertical <no>
+  mat_bool_background_flood <yes>
+  man_start_object <org_group, "">
+    mat_orientation <hff>
+    man_start_object <ornament, "">
+      mat_art_id <1-0-1389>
+      mat_horizontal_spacing <5>
+      mat_vertical_spacing <3>
+      mat_bool_disabled <yes>
+    man_start_sibling <ornament, "">
+      mat_size <30, 3>
+      mat_horizontal_spacing <0>
+      mat_vertical_spacing <3>
+      man_append_data <"Second Form Widget\x7fStatic Item Delta\x7fDynamic Area Main">
+    man_end_object
+  man_start_sibling <org_group, "">
+    mat_orientation <vcc>
+    man_start_object <edit_view, "">
+      mat_size <25, 1, 97>
+      mat_relative_tag <1>
+      mat_vertical_spacing <3>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_validation <128>
+    man_start_sibling <trigger, "OK">
+      mat_trigger_style <14>
+      mat_horizontal_spacing <0>
+      mat_precise_width <70>
+      mat_precise_height <24>
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          de_ez_send_form <"Ln">
+          >
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

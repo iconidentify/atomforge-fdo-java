@@ -1,0 +1,77 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Automatic AOL Walk-Through">
+    mat_object_id <32-2515>
+    mat_style_id <32-2515>
+    mat_orientation <vft>
+    mat_precise_width <423>
+    mat_precise_height <225>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Congratulations!">
+      mat_precise_x <130>
+      mat_precise_y <8>
+      mat_size <11, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <80>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <80>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"That's it. Automatic AOL is set up!  Remember, if you scheduled Automatic AOL, AOL must be running (but not signed on) at the scheduled time.\x7f\x7fIf you want to review or change the selections you have made for Automatic AOL, click <B>Set Up Automatic AOL</B> on the <B>Post Room</B> menu.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <205>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <185>
+        mat_precise_y <145>
+        mat_precise_width <36>
+        mat_precise_height <36>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_trigger_style <plain_picture>
+        mat_font_size <8>
+        mat_title <"OK">
+        mat_art_id <1-1-56506>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_start_sibling <ornament, "">
+          mat_precise_x <192>
+          mat_precise_y <185>
+          mat_size <20, 1>
+          mat_title <" OK ">
+          mat_font_sis <arial, 8, bold>
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

@@ -1,0 +1,88 @@
+uni_start_stream
+  man_start_object <ind_group, "Casa - Designer 1.1 084 32bit">
+    mat_orientation <vff>
+    man_start_object <view, "">
+      mat_bool_writeable <yes>
+      mat_width <64>
+      mat_height <12>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Subject:  Casa - Designer 1.1 084 32bit\r\nAuthor:  ">
+      man_append_data <"IP Tools\r\nUploaded By:  JKimball\r\nDate:  12/11/97\r">
+      man_append_data <"\n\r\nFile:  DT32C_84.EXE (1574140 bytes) \r\nEstimated">
+      man_append_data <" Download Time (28800 baud):  < 14 minutes\r\nDownlo">
+      man_append_data <"ad Count:  159\r\n\r\nNeeds:  AOL 4.0 for Win95\r\n\r\n\r\nC">
+      man_append_data <"asa - Designer 1.1 084 32bit\r\n\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <edit_view, "">
+      mat_bool_exportable <no>
+      mat_width <60>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <7>
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <trigger, "Download Now">
+        mat_relative_tag <3>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"mD", 0-31-39546>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Download Later">
+          mat_relative_tag <2>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_send_token_arg <"mq", 0-31-39546>
+              >
+            mat_font_sis <system, 12, normal>
+          man_start_sibling <trigger, "Ask The Staff">
+            mat_relative_tag <4>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_send_token_arg <"mY", 0-31-39546>
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hcf>
+            man_start_object <trigger, "Delete">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <8>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Hide">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <9>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Release">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <10>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Move">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <11>
+              mat_font_sis <system, 12, normal>
+            man_start_sibling <trigger, "Edit">
+              mat_bool_disabled <yes>
+              mat_bool_invisible <yes>
+              mat_relative_tag <12>
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

@@ -1,0 +1,139 @@
+uni_start_stream <00x>
+  uni_next_atom_typed <latin1>
+  man_start_object <ind_group, "Installationsprogramm: H�ufigkeit">
+    mat_object_id <32-2518>
+    mat_style_id <32-2518>
+    mat_orientation <vft>
+    mat_precise_width <368>
+    mat_precise_height <161>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <343>
+      mat_precise_height <18>
+      mat_font_size <8>
+      mat_font_id <arial>
+      uni_next_atom_typed <latin1>
+      man_append_data <"Klicken Sie an, wie oft Sie die Sitzungen abhalten m�chten.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      mat_precise_x <50>
+      mat_precise_y <96>
+      mat_precise_width <301>
+      mat_precise_height <80>
+      man_start_object <sss_list, "">
+        mat_orientation <vlf>
+        mat_relative_tag <10>
+        uni_next_atom_typed <latin1>
+        man_start_object <trigger, "Jede halbe Stunde">
+          mat_precise_x <50>
+          mat_precise_y <41>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Jede Stunde">
+          mat_precise_x <50>
+          mat_precise_y <69>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_value <1>
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Alle 2 Stunden">
+          mat_precise_x <50>
+          mat_precise_y <97>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Alle 4 Stunden">
+          mat_precise_x <205>
+          mat_precise_y <41>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Alle 8 Stunden">
+          mat_precise_x <205>
+          mat_precise_y <69>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Einmal t�glich">
+          mat_precise_x <205>
+          mat_precise_y <97>
+          mat_font_sis <arial, 9, bold>
+          mat_vertical_spacing <5>
+          mat_bool_default_send <no>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_x <423>
+      mat_precise_y <248>
+      mat_precise_width <301>
+      mat_precise_height <30>
+      uni_next_atom_typed <latin1>
+      man_start_object <trigger, "Weiter">
+        mat_title_width <7>
+        mat_precise_x <96>
+        mat_precise_y <130>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              idb_set_context <20-0-54>
+              idb_atr_offset <36>
+              man_set_context_relative <10>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_end_context
+              idb_end_context
+              de_end_extraction
+              man_close_update
+              uni_invoke_no_context <32-2519>
+            uni_end_stream
+            >
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Abbrechen">
+          mat_title_width <7>
+          mat_precise_x <183>
+          mat_precise_y <130>
+          mat_color_face <0, 51, 153>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <102, 153, 204>
+          mat_color_bottom_edge <0, 0, 102>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        idb_set_context <20-0-54>
+        man_set_context_relative <10>
+        idb_atr_offset <36>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        idb_end_context
+        man_update_display
+        man_end_context
+        uni_wait_off
+      uni_end_stream

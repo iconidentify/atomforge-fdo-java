@@ -1,0 +1,64 @@
+uni_start_stream <00x>
+  uni_start_typed_data <ascii>
+  man_start_object <ind_group, "Third Area Region">
+    mat_object_id <32-2514>
+    mat_style_id <32-2514>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <225>
+    mat_color_face <255, 251, 240>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "New Sub View">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <267>
+      mat_precise_height <24>
+      mat_vertical_spacing <6>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_font_sis <arial, 8, normal>
+      mat_vertical_spacing <2>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      man_append_data <"process execute send thing fourth fourth thing send. box close static open send static execute thing. invoke edge delete standard module start invoke sigma. bottom load secondary third process theta\x7f\x7fcreate widget execute start execute handle load old. left delta static new gamma open south region. basic dynamic unit load second send left default. right custom default basic">
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      mat_precise_width <100>
+      mat_precise_height <25>
+      man_start_object <trigger, "OK">
+        mat_title_width <9>
+        mat_precise_x <183>
+        mat_precise_y <183>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <255, 153, 0>
+        mat_color_top_edge <255, 204, 0>
+        mat_color_bottom_edge <255, 204, 0>
+        mat_trigger_style <rectangle>
+        mat_font_sis <arial, 8, normal>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_end_typed_data
+      uni_wait_off
+    uni_end_stream <00x>

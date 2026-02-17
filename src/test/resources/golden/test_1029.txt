@@ -1,0 +1,117 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Main Omega View">
+    mat_object_id <32-2589>
+    mat_style_id <32-2589>
+    mat_orientation <vff>
+    mat_precise_width <370>
+    mat_precise_height <244>
+    mat_color_face <255, 255, 255>
+    mat_art_id <1-1-8832>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <360>
+      mat_precise_height <71>
+      mat_font_size <8>
+      mat_font_id <arial>
+      uni_start_typed_data <ascii>
+      man_append_data <"primary invoke special button load dynamic view block. second previous first default third third sigma main. open process old handle load start secondary fourth. refresh edge widget start secondary form open advanced. new main complex delta edge center open item. previous previous delete update left third main omega. area">
+    man_start_sibling <sss_list, "">
+      mat_orientation <vlf>
+      mat_precise_y <85>
+      mat_precise_width <180>
+      mat_precise_height <130>
+      mat_relative_tag <1>
+      uni_next_atom_typed <ascii>
+      man_start_object <trigger, "Primary Right Top">
+        mat_precise_x <110>
+        mat_precise_y <93>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <trigger, "Current Back">
+        mat_precise_x <110>
+        mat_precise_y <117>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        uni_next_atom_typed <ascii>
+      man_start_sibling <trigger, "Fourth Omega Gadget">
+        mat_precise_x <110>
+        mat_precise_y <141>
+        mat_font_sis <arial, 9, bold>
+        mat_vertical_spacing <5>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <171>
+      mat_precise_width <330>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <130>
+        mat_precise_y <175>
+        mat_precise_width <36>
+        mat_precise_height <36>
+        mat_trigger_style <plain_picture>
+        mat_art_id <1-1-56506>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <205>
+          mat_precise_y <175>
+          mat_precise_width <36>
+          mat_precise_height <36>
+          mat_trigger_style <plain_picture>
+          mat_art_id <1-1-56737>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_start_sibling <ornament, "">
+            mat_precise_x <140>
+            mat_precise_y <215>
+            mat_size <10, 1>
+            mat_font_sis <arial, 8, bold>
+            uni_next_atom_typed <ascii>
+            man_append_data <"OK">
+          man_start_sibling <ornament, "">
+            mat_precise_x <204>
+            mat_precise_y <215>
+            mat_size <10, 1>
+            mat_font_sis <arial, 8, bold>
+            uni_next_atom_typed <ascii>
+            man_append_data <"Old Dialog">
+          man_end_object
+        man_end_object
+        man_update_display
+        man_set_context_relative <1>
+        fm_start
+        fm_item_type <ini_file>
+        fm_item_set <"AOL.INI">
+        fm_item_type <ini_data_type>
+        fm_item_set <01x>
+        fm_item_type <ini_group>
+        fm_item_set <"WAOL">
+        fm_item_type <ini_key>
+        fm_item_set <"COLORMODE">
+        fm_ini_read_data
+        var_number_set_from_atom <A>
+        var_number_increment <A>
+        var_number_get <A>
+        uni_use_last_atom_value <mat_value>
+        fm_end
+        man_end_context
+        man_update_display
+        uni_end_typed_data
+        uni_wait_off
+      uni_end_stream <00x>

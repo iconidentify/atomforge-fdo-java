@@ -1,0 +1,355 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL Legal Online Resource Center">
+    mat_orientation <vff>
+    mat_precise_width <540>
+    mat_precise_height <373>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-28257>
+    mat_bool_background_pic <yes>
+    act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+        sm_send_f1 <43-10288>
+      uni_end_stream
+      >
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <40>
+      mat_precise_height <370>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <ornament, "\r">
+        mat_precise_width <10>
+        mat_precise_height <370>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        mat_font_sis <system, 9, normal>
+        mat_color_text <0, 210, 255>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <40>
+      mat_precise_height <370>
+      mat_precise_x <500>
+      mat_precise_y <0>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <ornament, "\r">
+        mat_precise_width <40>
+        mat_precise_height <370>
+        mat_precise_x <500>
+        mat_precise_y <0>
+        mat_font_sis <system, 9, normal>
+        mat_color_text <0, 210, 255>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <540>
+      mat_precise_height <40>
+      mat_precise_x <3>
+      mat_precise_y <3>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <trigger, "Thanks for taking part in the Resource Center Survey !!!">
+        mat_font_sis <arial, 12, bold | italic>
+        mat_color_text <255, 255, 255>
+        mat_precise_x <48>
+        mat_precise_y <8>
+        mat_color_frame_hilight <255, 255, 255>
+        mat_trigger_style <place>
+        mat_color_face <72, 0, 170>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <540>
+      mat_precise_height <40>
+      mat_precise_x <0>
+      mat_precise_y <330>
+      mat_color_face <0, 210, 255>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <trigger, "">
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <40>
+        mat_precise_height <40>
+        mat_precise_x <70>
+        mat_precise_y <330>
+        mat_art_id <1-0-28252>
+        mat_trigger_style <plain_picture>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "">
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <300>
+        mat_precise_height <40>
+        mat_precise_x <115>
+        mat_precise_y <330>
+        mat_art_id <1-0-28256>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "">
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <40>
+        mat_precise_height <40>
+        mat_precise_x <420>
+        mat_precise_y <330>
+        mat_art_id <1-0-28252>
+        mat_trigger_style <plain_picture>
+      man_end_object
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"U1", 0-209-224>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_x <83>
+        mat_precise_y <72>
+        mat_art_id <1-0-28253>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "opening">
+        mat_precise_x <85>
+        mat_precise_y <132>
+        mat_font_sis <ms_sans_serif, 12, bold>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_start_sibling <ornament, "statement">
+        mat_precise_x <78>
+        mat_precise_y <152>
+        mat_font_sis <ms_sans_serif, 12, bold>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_start_sibling <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"U1", 0-209-225>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_x <240>
+          mat_precise_y <50>
+          mat_art_id <1-0-11328>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <ornament, "faces">
+          mat_precise_x <245>
+          mat_precise_y <120>
+          mat_font_sis <ms_sans_serif, 12, bold>
+          mat_color_text <255, 255, 255>
+          mat_orientation <hlf>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <43-28326>
+            uni_end_stream
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_x <395>
+          mat_precise_y <73>
+          mat_art_id <1-0-28254>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <ornament, "ask">
+          mat_precise_x <407>
+          mat_precise_y <133>
+          mat_font_sis <ms_sans_serif, 12, bold>
+          mat_color_text <255, 255, 255>
+          mat_orientation <hlf>
+        man_start_sibling <ornament, "legal">
+          mat_precise_x <400>
+          mat_precise_y <153>
+          mat_font_sis <ms_sans_serif, 12, bold>
+          mat_color_text <255, 255, 255>
+          mat_orientation <hlf>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"U1", 0-209-299>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_x <240>
+            mat_precise_y <155>
+            mat_art_id <1-0-28259>
+            mat_trigger_style <plain_picture>
+            mat_art_animation_rate <75>
+          man_start_sibling <ornament, "stuff">
+            mat_precise_x <315>
+            mat_precise_y <175>
+            mat_font_sis <ms_sans_serif, 12, bold>
+            mat_color_text <255, 255, 255>
+            mat_orientation <hlf>
+          man_start_sibling <ornament, "new">
+            mat_precise_x <190>
+            mat_precise_y <175>
+            mat_font_sis <ms_sans_serif, 12, bold>
+            mat_color_text <255, 255, 255>
+            mat_orientation <hlf>
+          man_start_sibling <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"U1", 0-209-311>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_x <72>
+              mat_precise_y <187>
+              mat_art_id <1-0-11333>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <ornament, "contracts">
+              mat_precise_x <62>
+              mat_precise_y <252>
+              mat_font_sis <ms_sans_serif, 12, bold>
+              mat_color_text <255, 255, 255>
+              mat_orientation <hlf>
+            man_start_sibling <trigger, "">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"U1", 0-209-427>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_x <318>
+                mat_precise_y <220>
+                mat_art_id <1-0-11334>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <ornament, "department">
+                mat_precise_x <298>
+                mat_precise_y <280>
+                mat_font_sis <ms_sans_serif, 12, bold>
+                mat_color_text <255, 255, 255>
+                mat_orientation <hlf>
+              man_start_sibling <ornament, "areas">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <43-14059>
+                  uni_end_stream
+                  >
+                mat_precise_x <318>
+                mat_precise_y <300>
+                mat_font_sis <ms_sans_serif, 12, bold>
+                mat_color_text <255, 255, 255>
+                mat_orientation <hlf>
+              man_start_sibling <trigger, "">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"U1", 0-209-474>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_x <413>
+                  mat_precise_y <186>
+                  mat_art_id <1-0-28251>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <ornament, "library">
+                  mat_precise_x <413>
+                  mat_precise_y <251>
+                  mat_font_sis <ms_sans_serif, 12, bold>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <540>
+                  mat_precise_height <3>
+                  mat_precise_x <0>
+                  mat_precise_y <370>
+                  mat_color_face <100, 0, 175>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <100, 0, 175>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <540>
+                  mat_precise_height <3>
+                  mat_precise_x <0>
+                  mat_precise_y <0>
+                  mat_color_face <100, 0, 175>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <100, 0, 175>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <3>
+                  mat_precise_height <373>
+                  mat_precise_x <0>
+                  mat_precise_y <0>
+                  mat_color_face <100, 0, 175>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <100, 0, 175>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <3>
+                  mat_precise_height <373>
+                  mat_precise_x <537>
+                  mat_precise_y <0>
+                  mat_color_face <100, 0, 175>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <100, 0, 175>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <460>
+                  mat_precise_height <2>
+                  mat_precise_x <40>
+                  mat_precise_y <328>
+                  mat_color_face <255, 255, 255>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <460>
+                  mat_precise_height <2>
+                  mat_precise_x <40>
+                  mat_precise_y <40>
+                  mat_color_face <255, 255, 255>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <2>
+                  mat_precise_height <290>
+                  mat_precise_x <40>
+                  mat_precise_y <40>
+                  mat_color_face <255, 255, 255>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "yo">
+                  mat_precise_width <2>
+                  mat_precise_height <290>
+                  mat_precise_x <498>
+                  mat_precise_y <40>
+                  mat_color_face <255, 255, 255>
+                  mat_font_sis <arial, 9, normal>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hlf>
+                man_start_sibling <trigger, "">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <43-14059>
+                    uni_end_stream
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_x <179>
+                  mat_precise_y <221>
+                  mat_art_id <1-0-11331>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <ornament, "international">
+                  mat_width <10>
+                  mat_height <1>
+                  mat_precise_x <163>
+                  mat_precise_y <282>
+                  mat_font_sis <ms_sans_serif, 12, bold>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hlf>
+                man_start_sibling <ornament, "area">
+                  mat_precise_x <183>
+                  mat_precise_y <302>
+                  mat_font_sis <ms_sans_serif, 12, bold>
+                  mat_color_text <255, 255, 255>
+                  mat_orientation <hcf>
+                man_end_object
+                man_update_display
+              man_update_woff_end_stream

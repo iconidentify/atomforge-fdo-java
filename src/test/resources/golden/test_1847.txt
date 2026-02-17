@@ -1,0 +1,76 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "ST 101">
+    mat_orientation <hff>
+    mat_relative_tag <15>
+    mat_art_id <1-2-10942>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <120>
+      mat_art_id <1-0-61343>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <30>
+      mat_height <10>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Protocol">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-67-301>
+            >
+          mat_art_id <1-0-1472>
+        man_start_sibling <trigger, "The Community Leader Organization Support Team">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-67-302>
+              >
+            mat_art_id <1-0-1472>
+          man_start_sibling <trigger, "Community Leaders Organization">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-67-303>
+                >
+              mat_art_id <1-0-1472>
+            man_start_sibling <trigger, "Guidelines for Online Behavior">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-67-304>
+                  >
+                mat_art_id <1-0-1472>
+              man_start_sibling <trigger, "CLOST Goals and Objectives">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U3", 0-67-305>
+                    >
+                  mat_art_id <1-0-1472>
+                man_start_sibling <trigger, "Confidentiality">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-67-306>
+                      >
+                    mat_art_id <1-0-1472>
+                  man_start_sibling <trigger, "Non-Disclosure Agreement">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-67-307>
+                        >
+                      mat_art_id <1-0-1472>
+                    man_start_sibling <trigger, "Security">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-67-308>
+                          >
+                        mat_art_id <1-0-1472>
+                      man_end_object
+                    man_end_object
+                  hfs_attr_end_object
+                man_update_woff_end_stream

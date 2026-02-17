@@ -1,0 +1,105 @@
+uni_start_stream
+  man_start_object <ind_group, "New Direct Debit - FAQ's">
+    mat_orientation <vff>
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-1305>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "New Direct Debit - FAQ's">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Member loses mandate">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-36-20475>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Member claims they have not received the mandate yet?">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-36-20765>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "If a member has changed their banking details?">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-36-20770>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Member does not fully complete the mandate?">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-36-20772>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "Member has lost the freepost envelope supplied?">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-36-20775>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "Expected length of time before they receive their mandate?">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-36-20777>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "Timeframe to Return Mandate">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-36-20830>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "Banks and Building Societies accepted by AOL">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-36-20831>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hec>
+                      man_start_object <trigger, "Open">
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                            sm_do_list_action <1>
+                            >
+                          mat_font_sis <system, 12, normal>
+                          mat_title_width <6>
+                          mat_bool_default <yes>
+                        man_start_sibling <trigger, "More">
+                          mat_bool_disabled <yes>
+                          mat_relative_tag <3>
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_token_arg <"Cb">
+                              >
+                            mat_font_sis <system, 12, normal>
+                            mat_title_width <6>
+                          man_end_object
+                        man_end_object
+                        man_update_display
+                      man_update_woff_end_stream

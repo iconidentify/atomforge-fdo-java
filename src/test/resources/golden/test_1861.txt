@@ -1,0 +1,131 @@
+uni_start_stream
+  man_start_object <ind_group, "Active Public Rooms">
+    mat_orientation <hfe>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hlf>
+        man_start_object <ornament, "">
+          mat_art_id <1-0-1329>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "  Public Rooms">
+          mat_width <18>
+          mat_height <1>
+          mat_font_sis <times_roman, 14, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <dss_list, "">
+        mat_bool_default_send <no>
+        mat_relative_tag <3>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+            sm_do_list_action <3>
+            >
+          mat_width <25>
+          mat_height <1>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "No Category yet, sorry">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"LU", 0-2-21>
+                >
+            man_end_object
+          man_start_sibling <dss_list, "Members\tRoom Name">
+            mat_bool_default_send <no>
+            mat_relative_tag <1>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                de_ez_send_list_text <"cQ", 02x, 00x, 00x, 00x, 01x>
+                >
+              mat_width <30>
+              mat_height <10>
+              mat_title_pos <above | top_or_left>
+              mat_font_sis <arial, 9, normal>
+              mat_sort_order <normal>
+              mat_ruler <10>
+            man_start_sibling <org_group, "">
+              mat_orientation <hef>
+              man_start_object <trigger, "Go">
+                mat_relative_tag <7>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    de_ez_send_list_text <"cQ", 02x, 00x, 00x, 00x, 01x>
+                    >
+                  mat_font_sis <system, 12, normal>
+                  mat_bool_default <yes>
+                man_start_sibling <trigger, "People">
+                  mat_relative_tag <8>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      de_ez_send_list_text <"cd", 02x, 00x, 00x, 00x, 01x>
+                      >
+                    mat_font_sis <system, 12, normal>
+                  man_start_sibling <trigger, "More">
+                    mat_bool_disabled <yes>
+                    mat_relative_tag <2>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_token_raw <"LV">
+                        >
+                      mat_font_sis <system, 12, normal>
+                    man_end_object
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <vec>
+                  man_start_object <trigger, "Member Rooms">
+                    mat_shortcut_key <"@">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_token_raw <"L$">
+                        >
+                      mat_font_sis <system, 12, normal>
+                      mat_title_width <11>
+                    man_start_sibling <trigger, "Private Room">
+                      mat_shortcut_key <"@">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_token_arg <"L1", 0-0-28>
+                          >
+                        mat_font_sis <system, 12, normal>
+                        mat_title_width <11>
+                      man_start_sibling <trigger, "Help">
+                        mat_shortcut_key <"@">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_k1 <2-17134>
+                            >
+                          mat_font_sis <system, 12, normal>
+                          mat_title_width <11>
+                        man_start_sibling <trigger, "Desanction Room">
+                          act_replace_select_action
+                              <
+                              uni_start_stream <00x>
+                              de_ez_send_list_text <"ML", 02x, 00x, 00x, 00x, 01x>
+                              >
+                            mat_font_sis <system, 12, normal>
+                            mat_title_width <11>
+                          man_start_sibling <trigger, "Sanction Room">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_send_f1 <32-5051>
+                                >
+                              mat_font_sis <system, 12, normal>
+                              mat_title_width <11>
+                              mat_bool_default <yes>
+                            man_end_object
+                          man_end_object
+                          man_update_display
+                        man_update_woff_end_stream

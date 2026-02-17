@@ -1,0 +1,23 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Conference Area">
+    mat_orientation <vff>
+    man_start_object <edit_view, "Enter Area Number">
+      mat_bool_importable <yes>
+      mat_width <60>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_title_pos <left | center>
+      mat_bool_vertical_scroll <yes>
+      mat_capacity <60>
+      mat_relative_tag <1>
+    man_start_sibling <trigger, "Enter">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          de_ez_send_form <"MR", 0-0-1>
+          >
+        mat_bool_default <yes>
+      man_end_object
+    hfs_attr_end_object
+  man_update_woff_end_stream

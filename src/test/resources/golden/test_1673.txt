@@ -1,0 +1,183 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "NEA Online">
+    mat_orientation <vff>
+    mat_precise_width <505>
+    mat_precise_height <335>
+    mat_bool_precise <yes>
+    mat_context_help <"Like what you see here\rand want to come back?\r\rJust click here to\radd this area to your\rFavorite Places.">
+    mat_color_face <192, 192, 192>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_width <106>
+      mat_precise_height <56>
+      mat_precise_x <8>
+      mat_precise_y <10>
+      mat_art_id <1-0-6148>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <ornament, "">
+      mat_precise_width <251>
+      mat_precise_height <22>
+      mat_precise_x <8>
+      mat_precise_y <76>
+      mat_art_id <1-0-6150>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <dss_list, "">
+      mat_width <29>
+      mat_height <11>
+      mat_precise_x <10>
+      mat_precise_y <98>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "NEA What's New">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"t1", 0-13-5130>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "NEA on the Web!">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"t1", 0-13-8338>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "NEA Online Help & Information">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"t1", 0-13-7755>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "NEA Online Directory">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"t1", 0-13-5319>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "About NEA">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"t1", 0-13-4491>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Grants">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"t1", 0-13-5132>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "NEA Local Leader Update & Exchange">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"t1", 0-13-1103>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Legislative & Political Arena">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"t1", 0-13-5204>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "NEA Today">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"t1", 0-13-5226>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "NEA Professional Library">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_m_send_token_arg <"t1", 0-13-5331>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "The NEA Online Conference Room">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_m_send_token_arg <"t1", 0-13-6750>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_end_object
+                          man_start_sibling <ornament, "Keyword: NEA">
+                            mat_width <35>
+                            mat_height <1>
+                            mat_precise_x <10>
+                            mat_precise_y <300>
+                            mat_font_sis <times_roman, 12, bold>
+                            mat_orientation <hlf>
+                          man_start_sibling <trigger, "">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_m_send_token_arg <"Ca", 0-13-5496>
+                                >
+                              mat_font_sis <small_fonts, 7, normal>
+                              mat_precise_x <270>
+                              mat_precise_y <12>
+                              mat_art_id <1-0-6152>
+                            man_start_sibling <trigger, "">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_m_send_token_arg <"t1", 0-13-631>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_precise_x <270>
+                                mat_precise_y <75>
+                                mat_art_id <1-0-9798>
+                              man_start_sibling <trigger, "">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_m_send_token_arg <"t1", 0-13-45733>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_precise_x <270>
+                                  mat_precise_y <138>
+                                  mat_art_id <1-0-6153>
+                                man_start_sibling <trigger, "">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_m_send_token_arg <"t1", 0-13-7908>
+                                      >
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_precise_x <270>
+                                    mat_precise_y <202>
+                                    mat_art_id <1-0-6154>
+                                  man_start_sibling <trigger, "Making News">
+                                    mat_title_pos <below | center>
+                                    mat_title_width <10>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_m_send_token_arg <"Ca", 0-13-5196>
+                                        >
+                                      mat_font_sis <times_roman, 12, bold>
+                                      mat_precise_x <285>
+                                      mat_precise_y <270>
+                                      mat_art_id <1-0-1857>
+                                    man_start_sibling <trigger, "Search">
+                                      mat_title_pos <below | center>
+                                      mat_title_width <6>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_k1 <8-51>
+                                          >
+                                        mat_font_sis <times_roman, 12, bold>
+                                        mat_precise_x <390>
+                                        mat_precise_y <270>
+                                        mat_art_id <1-0-1324>
+                                      man_end_object
+                                    hfs_attr_end_object
+                                  man_update_woff_end_stream

@@ -1,0 +1,66 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_art_id <1-0-38936>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <6>
+      mat_width <40>
+      mat_color_text <1, 1, 1>
+      uni_next_atom_typed <latin1>
+      man_append_data <"Die gew�nschte Datei wurde in den Archiv-Manager �bernommen. Mit dem Button ARCHIV-MANAGER k�nnen Sie die Liste Ihrer gew�hlten Dateien ansehen. Sie k�nnen Ihren Archiv-Manager auch �ber den Men�punkt "Organizer" in der AOL-Symbolleiste aufrufen.">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_title_width <7>
+        mat_font_sis <arial, 9, bold>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <36, 36, 85>
+        mat_color_frame_hilight <182, 182, 255>
+        mat_color_frame_shadow <1, 36, 85>
+        mat_color_selected <218, 218, 218>
+        mat_color_top_edge <182, 182, 255>
+        mat_color_bottom_edge <36, 36, 85>
+        mat_color_face <72, 109, 170>
+        uni_next_atom_typed <latin1>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_title_width <17>
+        mat_font_sis <arial, 9, bold>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <36, 36, 85>
+        mat_color_frame_hilight <182, 182, 255>
+        mat_color_frame_shadow <1, 36, 85>
+        mat_color_selected <218, 218, 218>
+        mat_color_top_edge <182, 182, 255>
+        mat_color_bottom_edge <36, 36, 85>
+        mat_color_face <72, 109, 170>
+        uni_next_atom_typed <latin1>
+        mat_title <"Archiv-Manager">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

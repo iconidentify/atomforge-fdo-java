@@ -1,0 +1,395 @@
+uni_start_stream
+  man_start_object <ind_group, "Int'l Library">
+    mat_orientation <vff>
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+        sm_send_token_arg <"uB", 0-0-14156>
+        >
+      man_start_object <dss_list, "\tUpld\tSubject\t\tCount\tDownload">
+        mat_bool_default_send <no>
+        mat_relative_tag <7>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_list_var <"mF", 0-0-7>
+            >
+          mat_width <72>
+          mat_height <12>
+          mat_vertical_spacing <2>
+          mat_title_pos <above | top_or_left>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          mat_ruler <3, 3, 10, 45, 57, 64, 71>
+          man_start_object <trigger, "\t03/31/98\tCanadian Web Linking Agreement\t\t1\t03/31/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/17/98\tCanadian Brokerage Agreement\t\t2\t03/18/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/17/98\tCanadian Interactive Mktg Agr\t\t1\t03/17/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/16/98\tCanadian TOS\t\t1\t03/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/16/98\tCanadian TOS (french) \t\t1\t03/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t03/05/98\tAustralian Consulting Agreement\t\t1\t03/05/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/24/98\tAustralia Publication\t\t3\t03/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/24/98\tAustralia OEM\t\t2\t03/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/23/98\tAustralia Web Linking\t\t2\t03/30/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/23/98\tAustralia ICP Agreement\t\t2\t03/04/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/23/98\tAustralia Corp NDA\t\t6\t04/01/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/23/98\tAustralia Employment Agr\t\t1\t02/23/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/23/98\tAustralia Employment Offer\t\t1\t02/23/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/16/98\tAttachment A: Community Leader\t\t3\t03/30/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/16/98\tAttachment B: Consulting Agreem\t\t3\t03/05/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/09/98\tAustralia Authorizatio Agreement\t\t2\t02/09/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t02/09/98\tCanadian Community Leader NDA\t\t1\t02/09/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/22/98\tTrademark Dos & Donts\t\t6\t03/20/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/20/98\tUK Short Form ICP Agr\t\t4\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/16/98\tMaterial Letter\t\t2\t03/17/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/16/98\tOffender Letter\t\t4\t03/17/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/16/98\tCOS Breach Letter\t\t1\t01/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/16/98\tDefam Letter\t\t2\t02/09/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/16/98\tCopy/Trade Letter\t\t5\t03/17/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/08/97\tTrademark Guidelines\t\t11\t04/02/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/04/97\tCanadian ISP Agreement\t\t3\t01/23/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/03/97\tCanadian ICP 8.6\t\t5\t01/23/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/02/97\tCanadian Short Form ICP\t\t2\t03/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/02/97\tCanadian Addendum ICP\t\t1\t12/02/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/02/97\tCanadian ISP 8.5\t\t2\t12/04/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/02/97\tCanadian Interactive Services Ag\t\t2\t12/04/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/12/97\tUK COS\t\t5\t03/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/12/97\tUK ROR\t\t4\t03/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/12/97\tUK Consulting Agreement\t\t3\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/12/97\tUK NDA (2 way)\t\t6\t03/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/12/97\tUK NDA (1 way)\t\t6\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/10/97\tUK ICP Agreement\t\t4\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/10/97\tUK Short Form ICP Agreement\t\t4\t01/13/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/10/97\tUK Interactive Merchant Agr\t\t4\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/30/97\tAustralian Consulting Agreement\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/30/97\tAustralian NDA (2 way)\t\t7\t02/11/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/30/97\tAustralia Consulting Agreement\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/30/97\tAustralia Form Confidentiality\t\t5\t01/21/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/30/97\tAustralia Offer Letter\t\t8\t01/19/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/21/97\tCanadian Advertising Agreement\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/21/97\tCanadian Rules of the Road\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/20/97\tCanadian Terms of Service\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/07/97\tEC Paper\t\t9\t12/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/07/97\tNetlaw3\t\t8\t03/17/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/07/97\tCrisis Management (Launch)\t\t7\t02/02/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/07/97\tReg Strat Attachments\t\t4\t11/30/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/07/97\tRegulatory Strategy\t\t7\t12/29/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/07/97\tAOL Trademark Adm (Launch)\t\t7\t03/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tTerms of Service (Launch)\t\t8\t02/27/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tRules of the Road (Launch)\t\t10\t02/27/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tDisclosures\t\t6\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tMarketplace Policies\t\t8\t01/18/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tContests\t\t6\t03/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tAOL Advertising Guidelines\t\t22\t03/05/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tExtension of AOL US Strategic Pa\t\t8\t02/26/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/06/97\tCore Business Trans\t\t5\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t08/05/97\tContacts: Embassies and JVs\t\t5\t03/03/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/21/97\tInteractive Services Agr v. 8.0\t\t6\t02/23/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/21/97\tInteractive Services Agr (v 8.5)\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/19/97\tCanadian Letter of Intent\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/18/97\tAOL Standard Terms & Conditions\t\t48\t02/27/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/16/97\tCanadian A & A Agreement\t\t13\t03/04/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/14/97\tCanadian LOI\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/10/97\tCanadian Contest Rules\t\t9\t04/08/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/09/97\tCanadian Online Brokerage Agr\t\t5\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/09/97\tCanadian Mutual Fund  \t\t6\t03/18/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/09/97\tCanadian NDA (1 way)\t\t7\t03/17/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/08/97\tCanadian NDA (2 way)\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/02/97\tCanadian ISA v 8.5\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/29/97\tCanadian Online Banking Agr\t\t8\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/27/97\tUK AOL/B Terms For Corporate\t\t6\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t01/27/97\tEmply Online Comm/Conduct Policy\t\t70\t03/31/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada Web Site Linking\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada Bundling - Modem\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada Bundling - Computer\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada Bundling - CD-ROM\t\t4\t02/09/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada Letter of Intent\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada ICP Addendum\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada ICP (Short Form)\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada CP Agreement\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada ICP Agreement\t\t5\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada TOS - French\t\t5\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t12/17/96\tCanada ROR - French\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/21/96\tCanada Terms of Service\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/21/96\tCanada Rules of the Road\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/21/96\tCanada Interactive Store Agr\t\t6\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t11/01/96\tRecords Mgmt Policy Statement\t\t20\t03/05/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/10/96\tAOL Internatl Chart\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/10/96\tAOL Europe Chart\t\t3\t11/20/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/10/96\tAOL Global Chart\t\t4\t11/20/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/10/96\tAOL Australia Chart\t\t3\t11/20/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/10/96\tAOL North America Chart\t\t2\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t10/10/96\tAOL Asia Chart\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t09/12/96\tAssignment & Authorization Agree\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/26/96\tContest Checklist\t\t44\t03/12/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/03/96\tECPA and Hackers\t\t22\t03/30/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/03/96\tReading Member Records\t\t15\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/03/96\tPartner Present. on Defamation\t\t12\t12/08/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/03/96\tDefamation Policy Memo\t\t1\t07/03/96">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/03/96\tCopyright Law\t\t25\t03/16/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/03/96\tEmail Policy\t\t33\t02/25/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/01/96\tFrench IP Agreement\t\t5\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/01/96\tPhotographic Release\t\t24\t03/30/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t07/01/96\tIssues and Contracts Re. Photos\t\t15\t01/05/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tFrance CGU\t\t4\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tUK Rules of the Road\t\t7\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tUK COS\t\t7\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tGermany Bundling Agreement\t\t5\t01/02/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tGermany IP Agreement\t\t9\t02/13/98">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tGermany TOS\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tGermany ROR\t\t3\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/24/96\tUK IP Agreement\t\t5\t11/18/97">
+            mat_art_id <1-0-1482>
+          man_start_sibling <trigger, "\t06/14/96\tCDA Decision\t\t12\t11/30/97">
+            mat_art_id <1-0-1482>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <hee>
+          man_start_object <trigger, "Read Description">
+            mat_relative_tag <1>
+            mat_shortcut_key <"@">
+            mat_title_pos <below | center>
+            mat_title_width <10>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_send_list_var <"mF", 0-0-7>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-1467>
+              mat_bool_default <yes>
+            man_start_sibling <trigger, "Download Now">
+              mat_relative_tag <2>
+              mat_shortcut_key <"@">
+              mat_title_pos <below | center>
+              mat_title_width <10>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_send_list_var <"mD", 0-0-7>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-1292>
+              man_start_sibling <trigger, "Download Later">
+                mat_bool_disabled <yes>
+                mat_relative_tag <3>
+                mat_shortcut_key <"@">
+                mat_title_pos <below | center>
+                mat_title_width <10>
+                mat_font_sis <small_fonts, 7, normal>
+                mat_art_id <1-0-1288>
+              man_start_sibling <trigger, "Upload">
+                mat_bool_disabled <yes>
+                mat_relative_tag <4>
+                mat_shortcut_key <"@">
+                mat_title_pos <below | center>
+                mat_title_width <10>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_send_token_arg <"es", 0-0-14156>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_art_id <1-0-1310>
+                man_start_sibling <trigger, "List More File">
+                  mat_bool_disabled <yes>
+                  mat_relative_tag <5>
+                  mat_shortcut_key <"@">
+                  mat_title_pos <below | center>
+                  mat_title_width <10>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_send_token_arg <"mM", 0-0-14156>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_art_id <1-0-1326>
+                  man_start_sibling <trigger, "View">
+                    mat_relative_tag <6>
+                    mat_shortcut_key <"@">
+                    mat_title_pos <below | center>
+                    mat_title_width <10>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_send_list_var <"vD", 0-0-7>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_art_id <1-0-1292>
+                    man_end_object
+                  man_start_sibling <org_group, "">
+                    mat_orientation <hee>
+                    mat_bool_resize_vertical <yes>
+                    man_start_object <dss_list, "Sort Order:">
+                      mat_relative_tag <10>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            de_start_extraction <0>
+                            de_set_data_type <index>
+                            de_get_data_value
+                            uni_save_result
+                            de_end_extraction
+                            uni_get_result
+                            var_number_set_from_atom <A>
+                            var_lookup_by_id <B, 192>
+                            if_numa_neq_numb_then <1>
+                            var_number_get <A>
+                            var_number_save <A, 192>
+                          sm_do_list_action <10>
+                          >
+                        mat_width <17>
+                        mat_height <1>
+                        mat_bool_resize_horizontal <no>
+                        mat_title_pos <left | top_or_left>
+                        mat_font_sis <arial, 9, normal>
+                        mat_sort_order <normal>
+                        man_start_object <trigger, "Upload Date">
+                          mat_relative_tag <11>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_send_token_arg <"*B", 0-2-10496>
+                              >
+                          man_start_sibling <trigger, "Subject">
+                            mat_relative_tag <12>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_send_token_arg <"*B", 0-2-10494>
+                                >
+                            man_start_sibling <trigger, "Download Count">
+                              mat_relative_tag <13>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_send_token_arg <"*B", 0-2-10491>
+                                  >
+                              man_start_sibling <trigger, "Download Date">
+                                mat_relative_tag <14>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_send_token_arg <"*B", 0-2-10489>
+                                    >
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            man_update_display
+                          man_update_woff_end_stream

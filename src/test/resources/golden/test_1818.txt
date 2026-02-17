@@ -1,0 +1,53 @@
+uni_start_stream
+  man_start_object <ind_group, "(SD018)  CAT PAssword Solicitation Screening (CAT PASS)">
+    mat_orientation <vff>
+    mat_art_id <1-0-51710>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <27>
+        mat_height <1>
+        mat_font_sis <ms_serif, 18, bold>
+        mat_color_text <136, 120, 160>
+        man_append_data <"CAT PAssword Solicitation Screening (CAT PASS)">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE>PROJECT ID:  SD018\x7f\x7fPROJECT NAME:  CAT ">
+    man_append_data <"PAssword Solicitation Screening (CAT PASS)\x7f\x7fDESCRI">
+    man_append_data <"PTION:  The CAT personnel dealing with password vi">
+    man_append_data <"olations have approximately 90,000 member response">
+    man_append_data <"s a week to review.  This process provides a means">
+    man_append_data <" of capturing, sorting and forwarding all the mail">
+    man_append_data <" that can be used to deal with the solicitor's AOL">
+    man_append_data <" account.\x7f\x7fBENEFIT:  The amount of time required t">
+    man_append_data <"o review the targeted mail will be reduced, allowi">
+    man_append_data <"ng more mail to be processed and acted upon in a t">
+    man_append_data <"imely manner.\x7f\x7fSTART DATE:  11/04/96\x7f\x7fMILESTONES: ">
+    man_append_data <" <I>Second Quarter</I> -  Requirements, proposal p">
+    man_append_data <"reparation, start development.\x7f<I>Third Quarter -<">
+    man_append_data <"/I> Complete development, test and launch product.">
+    man_append_data <"\x7f\x7fCONTACT:  Dave McCord\x7f\x7fCURRENT STATUS:  The proj">
+    man_append_data <"ect was launched on schedule.  It is performing as">
+    man_append_data <" desired and designed.  Future updates and enhance">
+    man_append_data <"ments are planned to further automate the CAT proc">
+    man_append_data <"essing.\x7f</PRE></HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

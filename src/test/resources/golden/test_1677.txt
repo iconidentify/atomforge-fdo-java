@@ -1,0 +1,555 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "O0O's Quick Links [Chat Rooms]">
+    mat_orientation <vff>
+    mat_precise_width <586>
+    mat_precise_height <362>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "TCB Chat Rooms">
+      mat_width <14>
+      mat_height <1>
+      mat_precise_x <222>
+      mat_precise_y <13>
+      mat_font_sis <times_roman, 14, bold | italic>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "Beta Chat">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"MR", 1977>
+          >
+        mat_font_sis <arial, 10, bold>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <1, 1, 1>
+        mat_precise_width <125>
+        mat_precise_height <29>
+        mat_precise_x <420>
+        mat_precise_y <61>
+        mat_trigger_style <place>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_color_face <72, 72, 255>
+      man_start_sibling <trigger, "CL ECR">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"9W", 204>
+            >
+          mat_font_sis <arial, 10, bold>
+          mat_color_text <255, 255, 255>
+          mat_color_text_shadow <1, 1, 1>
+          mat_precise_width <125>
+          mat_precise_height <29>
+          mat_precise_x <219>
+          mat_precise_y <178>
+          mat_trigger_style <place>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_color_face <100, 100, 178>
+        man_start_sibling <ornament, "Beta Central">
+          mat_precise_width <103>
+          mat_precise_height <30>
+          mat_precise_x <432>
+          mat_precise_y <13>
+          mat_font_sis <times_roman, 14, bold | italic>
+          mat_orientation <hlf>
+        man_start_sibling <ornament, "COST Chat Rooms">
+          mat_width <12>
+          mat_height <1>
+          mat_precise_x <23>
+          mat_precise_y <11>
+          mat_font_sis <times_roman, 14, bold | italic>
+          mat_orientation <hlf>
+        man_start_sibling <trigger, "Fountain of Youth">
+          mat_relative_tag <56>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"MR", 0-0-2222>
+              >
+            mat_font_sis <arial, 10, bold>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <1, 1, 1>
+            mat_precise_width <125>
+            mat_precise_height <29>
+            mat_precise_x <25>
+            mat_precise_y <56>
+            mat_trigger_style <place>
+            mat_color_bottom_edge <1, 1, 1>
+            mat_color_face <109, 109, 255>
+          man_start_sibling <trigger, "Garden">
+            mat_relative_tag <58>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"MR", 0-0-2224>
+                >
+              mat_font_sis <arial, 10, bold>
+              mat_color_text <255, 255, 255>
+              mat_color_text_shadow <1, 1, 1>
+              mat_precise_width <125>
+              mat_precise_height <29>
+              mat_precise_x <25>
+              mat_precise_y <91>
+              mat_trigger_style <place>
+              mat_color_bottom_edge <1, 1, 1>
+              mat_color_face <109, 109, 255>
+            man_start_sibling <trigger, "The Seashore">
+              mat_relative_tag <60>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"MR", 0-0-2223>
+                  >
+                mat_font_sis <arial, 10, bold>
+                mat_color_text <255, 255, 255>
+                mat_color_text_shadow <1, 1, 1>
+                mat_precise_width <125>
+                mat_precise_height <29>
+                mat_precise_x <25>
+                mat_precise_y <128>
+                mat_trigger_style <place>
+                mat_color_bottom_edge <1, 1, 1>
+                mat_color_face <109, 109, 255>
+              man_start_sibling <trigger, "The Waterfall">
+                mat_relative_tag <62>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"MR", 0-0-2225>
+                    >
+                  mat_font_sis <arial, 10, bold>
+                  mat_color_text <255, 255, 255>
+                  mat_color_text_shadow <1, 1, 1>
+                  mat_precise_width <125>
+                  mat_precise_height <29>
+                  mat_precise_x <25>
+                  mat_precise_y <164>
+                  mat_trigger_style <place>
+                  mat_color_bottom_edge <1, 1, 1>
+                  mat_color_face <109, 109, 255>
+                man_start_sibling <trigger, "The Nest">
+                  mat_relative_tag <64>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"MR", 0-0-2220>
+                      >
+                    mat_font_sis <arial, 10, bold>
+                    mat_color_text <255, 255, 255>
+                    mat_color_text_shadow <1, 1, 1>
+                    mat_precise_width <125>
+                    mat_precise_height <29>
+                    mat_precise_x <25>
+                    mat_precise_y <200>
+                    mat_trigger_style <place>
+                    mat_color_bottom_edge <1, 1, 1>
+                    mat_color_face <109, 109, 255>
+                  man_start_sibling <trigger, "The Tool Shed">
+                    mat_relative_tag <58>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"MR", 0-0-2221>
+                        >
+                      mat_font_sis <arial, 10, bold>
+                      mat_color_text <255, 255, 255>
+                      mat_color_text_shadow <1, 1, 1>
+                      mat_precise_width <125>
+                      mat_precise_height <29>
+                      mat_precise_x <25>
+                      mat_precise_y <237>
+                      mat_trigger_style <place>
+                      mat_color_bottom_edge <1, 1, 1>
+                      mat_color_face <109, 109, 255>
+                    man_start_sibling <trigger, "CL Chat (2)">
+                      mat_relative_tag <60>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"MR", 0-0-2196>
+                          >
+                        mat_font_sis <arial, 10, bold>
+                        mat_color_text <255, 255, 255>
+                        mat_color_text_shadow <1, 1, 1>
+                        mat_precise_width <125>
+                        mat_precise_height <29>
+                        mat_precise_x <219>
+                        mat_precise_y <102>
+                        mat_trigger_style <place>
+                        mat_bool_default <yes>
+                        mat_color_bottom_edge <1, 1, 1>
+                        mat_color_face <100, 100, 178>
+                      man_start_sibling <trigger, "CL Chat (1)">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"MR", 2051>
+                            >
+                          mat_font_sis <arial, 10, bold>
+                          mat_color_text <255, 255, 255>
+                          mat_color_text_shadow <1, 1, 1>
+                          mat_precise_width <125>
+                          mat_precise_height <29>
+                          mat_precise_x <219>
+                          mat_precise_y <65>
+                          mat_trigger_style <place>
+                          mat_color_bottom_edge <1, 1, 1>
+                          mat_color_face <100, 100, 178>
+                        man_start_sibling <trigger, "CL Auditorium  ">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_send_token_arg <"cG", 17>
+                            uni_end_stream
+                            >
+                          mat_font_sis <arial, 10, bold>
+                          mat_color_text <255, 251, 240>
+                          mat_color_text_shadow <1, 1, 1>
+                          mat_precise_width <125>
+                          mat_precise_height <29>
+                          mat_precise_x <219>
+                          mat_precise_y <140>
+                          mat_trigger_style <place>
+                          mat_color_bottom_edge <1, 1, 1>
+                          mat_color_face <100, 100, 178>
+                        man_start_sibling <ornament, "RCRT Rooms">
+                          mat_width <11>
+                          mat_height <1>
+                          mat_precise_x <423>
+                          mat_precise_y <100>
+                          mat_font_sis <times_roman, 14, bold | italic>
+                          mat_orientation <hlf>
+                        man_start_sibling <trigger, "The Locker Room">
+                          mat_relative_tag <56>
+                          mat_shortcut_key <"@">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"MR", 0-0-2112>
+                              >
+                            mat_font_sis <arial, 10, bold>
+                            mat_color_text <255, 255, 255>
+                            mat_color_text_shadow <1, 1, 1>
+                            mat_precise_width <125>
+                            mat_precise_height <29>
+                            mat_precise_x <420>
+                            mat_precise_y <133>
+                            mat_trigger_style <place>
+                            mat_color_bottom_edge <1, 1, 1>
+                            mat_color_face <0, 0, 170>
+                          man_start_sibling <trigger, "The Alpha Abode">
+                            mat_relative_tag <58>
+                            mat_shortcut_key <"@">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"MR", 0-0-2113>
+                                >
+                              mat_font_sis <arial, 10, bold>
+                              mat_color_text <255, 255, 255>
+                              mat_color_text_shadow <1, 1, 1>
+                              mat_precise_width <125>
+                              mat_precise_height <29>
+                              mat_precise_x <420>
+                              mat_precise_y <170>
+                              mat_trigger_style <place>
+                              mat_color_bottom_edge <1, 1, 1>
+                              mat_color_face <0, 0, 170>
+                            man_start_sibling <trigger, "RST Chat">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"MR", 1915>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_color_text <255, 255, 255>
+                                mat_color_text_shadow <1, 1, 1>
+                                mat_precise_width <125>
+                                mat_precise_height <29>
+                                mat_precise_x <420>
+                                mat_precise_y <237>
+                                mat_trigger_style <place>
+                                mat_color_bottom_edge <1, 1, 1>
+                                mat_color_face <0, 72, 255>
+                              man_start_sibling <ornament, " RST Chat Room">
+                                mat_width <10>
+                                mat_height <1>
+                                mat_precise_x <434>
+                                mat_precise_y <207>
+                                mat_font_sis <times_roman, 14, bold | italic>
+                                mat_orientation <hlf>
+                              man_start_sibling <ornament, "CLC Class Rooms">
+                                mat_precise_x <216>
+                                mat_precise_y <237>
+                                mat_font_sis <times_roman, 14, bold | italic>
+                                mat_orientation <hlf>
+                              man_start_sibling <trigger, "The Learning Lab">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"MR", 0-0-1440>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_precise_width <79>
+                                  mat_precise_height <21>
+                                  mat_precise_x <0>
+                                  mat_precise_y <280>
+                                  mat_trigger_style <place>
+                                man_start_sibling <trigger, "Scholar's Corner">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"MR", 0-0-2119>
+                                      >
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_precise_width <79>
+                                    mat_precise_height <21>
+                                    mat_precise_x <81>
+                                    mat_precise_y <280>
+                                    mat_trigger_style <place>
+                                  man_start_sibling <trigger, "The Quad">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"MR", 0-0-1617>
+                                        >
+                                      mat_font_sis <small_fonts, 7, normal>
+                                      mat_precise_width <49>
+                                      mat_precise_height <21>
+                                      mat_precise_x <161>
+                                      mat_precise_y <280>
+                                      mat_trigger_style <place>
+                                    man_start_sibling <trigger, "The Study Hall">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"MR", 0-0-735>
+                                          >
+                                        mat_font_sis <small_fonts, 7, normal>
+                                        mat_precise_width <69>
+                                        mat_precise_height <21>
+                                        mat_precise_x <212>
+                                        mat_precise_y <280>
+                                        mat_trigger_style <place>
+                                      man_start_sibling <trigger, "The Bleachers">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"MR", 0-0-2117>
+                                            >
+                                          mat_font_sis <small_fonts, 7, normal>
+                                          mat_precise_width <71>
+                                          mat_precise_height <21>
+                                          mat_precise_x <282>
+                                          mat_precise_y <280>
+                                          mat_trigger_style <place>
+                                        man_start_sibling <trigger, "The Dean's Office">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"MR", 0-0-1213>
+                                              >
+                                            mat_font_sis <small_fonts, 7, normal>
+                                            mat_precise_width <80>
+                                            mat_precise_height <21>
+                                            mat_precise_x <354>
+                                            mat_precise_y <280>
+                                            mat_trigger_style <place>
+                                          man_start_sibling <trigger, "The Campus">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"MR", 0-0-733>
+                                                >
+                                              mat_font_sis <small_fonts, 7, normal>
+                                              mat_precise_width <71>
+                                              mat_precise_height <21>
+                                              mat_precise_x <436>
+                                              mat_precise_y <280>
+                                              mat_trigger_style <place>
+                                            man_start_sibling <trigger, "The Gymnasium">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"MR", 0-0-2118>
+                                                  >
+                                                mat_font_sis <small_fonts, 7, normal>
+                                                mat_precise_width <79>
+                                                mat_precise_height <21>
+                                                mat_precise_x <508>
+                                                mat_precise_y <280>
+                                                mat_trigger_style <place>
+                                              man_start_sibling <trigger, "Breakfast Club">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"MR", 0-0-2121>
+                                                    >
+                                                  mat_font_sis <small_fonts, 7, normal>
+                                                  mat_precise_width <71>
+                                                  mat_precise_height <21>
+                                                  mat_precise_x <19>
+                                                  mat_precise_y <305>
+                                                  mat_trigger_style <place>
+                                                man_start_sibling <trigger, "Study Corner">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"MR", 0-0-2120>
+                                                      >
+                                                    mat_font_sis <small_fonts, 7, normal>
+                                                    mat_precise_width <63>
+                                                    mat_precise_height <21>
+                                                    mat_precise_x <92>
+                                                    mat_precise_y <305>
+                                                    mat_trigger_style <place>
+                                                  man_start_sibling <trigger, "College Hall">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"MR", 0-0-1858>
+                                                        >
+                                                      mat_font_sis <small_fonts, 7, normal>
+                                                      mat_precise_width <59>
+                                                      mat_precise_height <21>
+                                                      mat_precise_x <157>
+                                                      mat_precise_y <305>
+                                                      mat_trigger_style <place>
+                                                    man_start_sibling <trigger, "The Cafe">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"MR", 0-0-1437>
+                                                          >
+                                                        mat_font_sis <small_fonts, 7, normal>
+                                                        mat_precise_width <47>
+                                                        mat_precise_height <21>
+                                                        mat_precise_x <218>
+                                                        mat_precise_y <305>
+                                                        mat_trigger_style <place>
+                                                      man_start_sibling <trigger, "Fellowship Hall">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"MR", 0-0-2153>
+                                                            >
+                                                          mat_font_sis <small_fonts, 7, normal>
+                                                          mat_precise_width <71>
+                                                          mat_precise_height <21>
+                                                          mat_precise_x <268>
+                                                          mat_precise_y <305>
+                                                          mat_trigger_style <place>
+                                                        man_start_sibling <trigger, "Sorority Suite">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"MR", 0-0-2152>
+                                                              >
+                                                            mat_font_sis <small_fonts, 7, normal>
+                                                            mat_precise_width <65>
+                                                            mat_precise_height <21>
+                                                            mat_precise_x <342>
+                                                            mat_precise_y <305>
+                                                            mat_trigger_style <place>
+                                                          man_start_sibling <trigger, "The Board Room">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"MR", 0-0-1889>
+                                                                >
+                                                              mat_font_sis <small_fonts, 7, normal>
+                                                              mat_precise_width <82>
+                                                              mat_precise_height <21>
+                                                              mat_precise_x <410>
+                                                              mat_precise_y <305>
+                                                              mat_trigger_style <place>
+                                                            man_start_sibling <trigger, "Fraternity Row">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"MR", 0-0-2151>
+                                                                  >
+                                                                mat_font_sis <small_fonts, 7, normal>
+                                                                mat_precise_width <69>
+                                                                mat_precise_height <21>
+                                                                mat_precise_x <494>
+                                                                mat_precise_y <305>
+                                                                mat_trigger_style <place>
+                                                              man_start_sibling <trigger, "Brainstorm Barn">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"MR", 0-0-2122>
+                                                                    >
+                                                                  mat_font_sis <small_fonts, 7, normal>
+                                                                  mat_precise_width <78>
+                                                                  mat_precise_height <21>
+                                                                  mat_precise_x <85>
+                                                                  mat_precise_y <332>
+                                                                  mat_trigger_style <place>
+                                                                man_start_sibling <trigger, "The Dining Hall">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"MR", 0-0-2150>
+                                                                      >
+                                                                    mat_font_sis <small_fonts, 7, normal>
+                                                                    mat_precise_width <71>
+                                                                    mat_precise_height <21>
+                                                                    mat_precise_x <165>
+                                                                    mat_precise_y <332>
+                                                                    mat_trigger_style <place>
+                                                                  man_start_sibling <trigger, "The Library">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"MR", 0-0-2123>
+                                                                        >
+                                                                      mat_font_sis <small_fonts, 7, normal>
+                                                                      mat_precise_width <54>
+                                                                      mat_precise_height <21>
+                                                                      mat_precise_x <238>
+                                                                      mat_precise_y <332>
+                                                                      mat_trigger_style <place>
+                                                                    man_start_sibling <trigger, "The Caboose">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"MR", 0-0-1888>
+                                                                          >
+                                                                        mat_font_sis <small_fonts, 7, normal>
+                                                                        mat_precise_width <66>
+                                                                        mat_precise_height <21>
+                                                                        mat_precise_x <293>
+                                                                        mat_precise_y <332>
+                                                                        mat_trigger_style <place>
+                                                                      man_start_sibling <trigger, "Think Tank">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"MR", 0-0-1618>
+                                                                            >
+                                                                          mat_font_sis <small_fonts, 7, normal>
+                                                                          mat_precise_width <55>
+                                                                          mat_precise_height <21>
+                                                                          mat_precise_x <362>
+                                                                          mat_precise_y <332>
+                                                                          mat_trigger_style <place>
+                                                                        man_start_sibling <trigger, "The Observatory">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"MR", 0-0-1439>
+                                                                              >
+                                                                            mat_font_sis <small_fonts, 7, normal>
+                                                                            mat_precise_width <78>
+                                                                            mat_precise_height <21>
+                                                                            mat_precise_x <420>
+                                                                            mat_precise_y <332>
+                                                                            mat_trigger_style <place>
+                                                                          man_end_object
+                                                                        hfs_attr_end_object
+                                                                      man_update_woff_end_stream

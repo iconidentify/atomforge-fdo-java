@@ -1,0 +1,156 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "The Cool LSI Tool:">
+    mat_orientation <hff>
+    mat_precise_width <550>
+    mat_precise_height <23>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <1, 1, 1>
+    mat_art_id <1-0-27256>
+    mat_bool_background_tile <yes>
+    mat_position <top_left>
+    man_start_object <trigger, "ARC">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_k1 <19-63091>
+          >
+        mat_font_sis <times_roman, 9, bold>
+        mat_color_text <255, 255, 255>
+        mat_precise_width <34>
+        mat_precise_height <26>
+        mat_precise_x <0>
+        mat_precise_y <1>
+        mat_trigger_style <bottom_tab>
+        mat_color_face <0, 36, 170>
+      man_start_sibling <trigger, "AMER">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <40-10552>
+            >
+          mat_font_sis <times_roman, 9, bold>
+          mat_color_text <255, 255, 255>
+          mat_precise_width <43>
+          mat_precise_height <26>
+          mat_precise_x <34>
+          mat_precise_y <1>
+          mat_trigger_style <bottom_tab>
+          mat_color_face <0, 36, 170>
+        man_start_sibling <trigger, "Can Me!">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <40-61109>
+              >
+            mat_font_sis <times_roman, 9, bold>
+            mat_color_text <255, 255, 255>
+            mat_precise_width <55>
+            mat_precise_height <26>
+            mat_precise_x <77>
+            mat_precise_y <1>
+            mat_trigger_style <bottom_tab>
+            mat_color_face <0, 36, 170>
+          man_start_sibling <trigger, "Clerk2">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_k1 <17-20560>
+                >
+              mat_font_sis <times_roman, 9, bold>
+              mat_color_text <255, 255, 255>
+              mat_precise_width <55>
+              mat_precise_height <26>
+              mat_precise_x <132>
+              mat_precise_y <1>
+              mat_trigger_style <bottom_tab>
+              mat_color_face <0, 36, 170>
+            man_start_sibling <trigger, "CRIS">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_k1 <17-35239>
+                  >
+                mat_font_sis <times_roman, 9, bold>
+                mat_color_text <255, 255, 255>
+                mat_precise_width <38>
+                mat_precise_height <26>
+                mat_precise_x <187>
+                mat_precise_y <1>
+                mat_trigger_style <bottom_tab>
+                mat_color_face <0, 36, 170>
+              man_start_sibling <trigger, "Manage Boards">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-17227>
+                    >
+                  mat_font_sis <times_roman, 9, bold>
+                  mat_color_text <255, 255, 255>
+                  mat_precise_width <90>
+                  mat_precise_height <26>
+                  mat_precise_x <225>
+                  mat_precise_y <1>
+                  mat_trigger_style <bottom_tab>
+                  mat_color_face <0, 36, 170>
+                man_start_sibling <trigger, "Manage Clubs">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_k1 <8-60658>
+                      >
+                    mat_font_sis <times_roman, 10, bold>
+                    mat_color_text <255, 255, 255>
+                    mat_precise_width <85>
+                    mat_precise_height <26>
+                    mat_precise_x <315>
+                    mat_precise_y <1>
+                    mat_trigger_style <bottom_tab>
+                    mat_color_face <0, 36, 170>
+                  man_start_sibling <trigger, "Phone">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-51075>
+                        >
+                      mat_font_sis <times_roman, 9, bold>
+                      mat_color_text <255, 255, 255>
+                      mat_precise_width <42>
+                      mat_precise_height <26>
+                      mat_precise_x <400>
+                      mat_precise_y <1>
+                      mat_trigger_style <bottom_tab>
+                      mat_color_face <0, 36, 170>
+                    man_start_sibling <trigger, "Press">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_k1 <17-22103>
+                          >
+                        mat_font_sis <times_roman, 9, bold>
+                        mat_color_text <255, 255, 255>
+                        mat_precise_width <37>
+                        mat_precise_height <26>
+                        mat_precise_x <442>
+                        mat_precise_y <1>
+                        mat_trigger_style <bottom_tab>
+                        mat_color_face <0, 36, 170>
+                      man_start_sibling <trigger, "RM Interact">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_f1 <40-14601>
+                            >
+                          mat_font_sis <times_roman, 9, bold>
+                          mat_color_text <255, 255, 255>
+                          mat_precise_width <72>
+                          mat_precise_height <26>
+                          mat_precise_x <479>
+                          mat_precise_y <1>
+                          mat_trigger_style <bottom_tab>
+                          mat_color_face <0, 36, 170>
+                        man_end_object
+                      hfs_attr_end_object
+                    man_update_woff_end_stream

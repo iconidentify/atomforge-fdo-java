@@ -1,0 +1,50 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Custom Left Delta">
+    mat_object_id <40-35297>
+    mat_orientation <vff>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <ornament, "">
+        mat_size <10, 1>
+        mat_font_id <times_roman>
+        mat_font_size <12>
+        man_append_data <"Main Box">
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <ornament, "">
+        mat_size <45, 16>
+        man_append_data <"invoke dynamic second process back open close zone. front main sub refresh secondary start module view. new section main beta form handle simple special. alpha front receive\x7f\x7fupdate save static open handle section static delete. update secondary zone simple button save sub standard. custom button default stop second load send send. thing stop button previous screen sub refresh top. top old gadget\x7f\x7fback invoke form omega button update center panel. main west execute refresh">
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      man_start_object <ornament, "">
+        mat_size <20, 2>
+        man_append_data <"Advanced Frame Frame">
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Dynamic Omega">
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              man_close_update <32-4621>
+              morg_pfc_compress_database
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Custom South">
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+              uni_end_stream
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        uni_wait_off
+      uni_end_stream <00x>

@@ -1,0 +1,60 @@
+uni_start_stream
+  man_start_object <ind_group, "Holding Zone">
+    mat_orientation <hff>
+    man_start_object <ornament, "">
+      mat_relative_tag <15>
+      mat_art_id <1-0-1305>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <30>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Mini-icon Library">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"K1", 0-17-26197>
+            >
+          mat_art_id <1-0-1477>
+        man_start_sibling <trigger, "System Art">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"K1", 0-40-31893>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "Interact with Rainman">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"K1", 0-43-18787>
+                >
+              mat_art_id <1-0-1477>
+            man_start_sibling <trigger, "Examine Object Info (EOI)">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"K1", 0-40-708>
+                  >
+                mat_art_id <1-0-1477>
+              man_start_sibling <trigger, "GrittySoft Support Area">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-91-2988>
+                    >
+                  mat_art_id <1-0-1477>
+                man_start_sibling <trigger, "Links to Reference Information">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-56-24314>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_end_object
+                man_end_object
+                man_update_display
+              man_update_woff_end_stream

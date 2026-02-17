@@ -1,0 +1,42 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "How To Make A Picture Selectable">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_color_face <208, 208, 208>
+    mat_bool_background_flood <yes>
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <38>
+        mat_height <2>
+        man_append_data <"How to Make a RM Picture Selectable">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        mat_bool_writeable <yes>
+        mat_width <62>
+        mat_height <14>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"Create image field the same, but make it selectabl">
+        man_append_data <"e.\r\n\r\n\r\nPlace this atom stream in the Instream.\r\n\r">
+        man_append_data <"\n\r\natom$mat_bool_graphic_view <yes>\r\natom$mat_bool">
+        man_append_data <"_no_border yes\r\natom$image_attr_dynamic_display ye">
+        man_append_data <"s\r\n\r\n\r\n;creates hotspot/hotspot grid <1x1>\r\natom$i">
+        man_append_data <"mage_attr_show_hotspot yes\r\natom$image_attr_hotspo">
+        man_append_data <"t_grid 00x 01x 00x 01x\r\n\r\n\r\n;Sets grid hotspot/hig">
+        man_append_data <"hlight type/reference hotspot action id\r\natom$imag">
+        man_append_data <"e_attr_hotspot 00x 1x 00x 1x\r\natom$image_attr_hili">
+        man_append_data <"ght_type 0\r\natom$image_attr_hotspot_action_id 1\r\n\r">
+        man_append_data <"\n\r\n;action for hotspot\r\natom$act_set_criterion <1>">
+        man_append_data <"\r\n\r\n\r\nTransmitted: 04/09/96 08:55 (ghotspo)">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    hfs_attr_end_object
+  man_update_woff_end_stream

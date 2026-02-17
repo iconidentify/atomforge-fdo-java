@@ -1,0 +1,528 @@
+uni_start_stream
+  man_start_object <ind_group, "Form Driven Mailbox Request">
+    mat_orientation <vff>
+    mat_precise_width <525>
+    mat_precise_height <312>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-8832>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Request form-driven mailbox">
+      mat_width <30>
+      mat_height <1>
+      mat_precise_x <5>
+      mat_precise_y <0>
+      mat_font_sis <arial, 18, bold>
+      mat_color_text <100, 100, 150>
+      mat_color_text_shadow <1, 1, 1>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_precise_width <62>
+      mat_precise_height <23>
+      mat_precise_x <386>
+      mat_precise_y <6>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <1>
+    man_start_sibling <ornament, "\r">
+      mat_precise_width <515>
+      mat_precise_height <2>
+      mat_precise_x <5>
+      mat_precise_y <35>
+      mat_color_face <1, 1, 1>
+      mat_font_sis <arial, 9, normal>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "Hidden Text Removed">
+      mat_bool_invisible <yes>
+      mat_width <11>
+      mat_height <1>
+      mat_precise_x <12>
+      mat_precise_y <42>
+      mat_font_sis <arial, 9, bold>
+      mat_color_text <255, 0, 0>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <90>
+      mat_precise_height <24>
+      mat_precise_x <12>
+      mat_precise_y <57>
+      mat_bool_resize_vertical <no>
+      mat_color_frame_shadow <255, 0, 0>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <7>
+      man_append_data <"Hidden ">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <2>
+    man_start_sibling <ornament, "Group ID">
+      mat_relative_tag <103>
+      mat_precise_width <89>
+      mat_precise_height <16>
+      mat_precise_x <12>
+      mat_precise_y <42>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <110>
+      mat_precise_height <24>
+      mat_precise_x <12>
+      mat_precise_y <57>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <16>
+      mat_relative_tag <3>
+    man_start_sibling <ornament, "FDM Request Type">
+      mat_relative_tag <116>
+      mat_precise_x <12>
+      mat_precise_y <88>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <16>
+      mat_precise_width <208>
+      mat_precise_height <15>
+      mat_precise_x <12>
+      mat_precise_y <106>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "New">
+      man_start_sibling <trigger, "Modify">
+      man_start_sibling <trigger, "Delete">
+      man_end_object
+    man_start_sibling <ornament, "If Modification, Mailbox #(s)">
+      mat_relative_tag <115>
+      mat_precise_width <176>
+      mat_precise_height <16>
+      mat_precise_x <12>
+      mat_precise_y <135>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <12>
+      mat_precise_y <153>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <32>
+      mat_relative_tag <15>
+    man_start_sibling <ornament, "Your Name">
+      mat_relative_tag <113>
+      mat_precise_width <103>
+      mat_precise_height <16>
+      mat_precise_x <12>
+      mat_precise_y <185>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <12>
+      mat_precise_y <202>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <13>
+    man_start_sibling <ornament, "Your Phone #">
+      mat_relative_tag <114>
+      mat_precise_width <103>
+      mat_precise_height <16>
+      mat_precise_x <12>
+      mat_precise_y <237>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <12>
+      mat_precise_y <254>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <14>
+    man_start_sibling <ornament, "Internal Contact if Partner">
+      mat_relative_tag <109>
+      mat_precise_x <283>
+      mat_precise_y <41>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <283>
+      mat_precise_y <58>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <64>
+      mat_relative_tag <9>
+    man_start_sibling <ornament, "AOL Contact Screen Name">
+      mat_relative_tag <104>
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <283>
+      mat_precise_y <88>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_writeable <yes>
+      mat_bool_importable <yes>
+      mat_precise_width <227>
+      mat_precise_height <24>
+      mat_precise_x <283>
+      mat_precise_y <106>
+      mat_bool_resize_vertical <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <16>
+      mat_relative_tag <4>
+    man_start_sibling <ornament, "Set Field Delimiters?">
+      mat_relative_tag <117>
+      mat_precise_width <219>
+      mat_precise_height <17>
+      mat_precise_x <283>
+      mat_precise_y <135>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <17>
+      mat_precise_width <208>
+      mat_precise_height <15>
+      mat_precise_x <283>
+      mat_precise_y <153>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Yes">
+      man_start_sibling <trigger, "No">
+      man_start_sibling <trigger, "Same">
+      man_end_object
+    man_start_sibling <ornament, "Copy in Sender's Outbox? ">
+      mat_relative_tag <112>
+      mat_precise_width <191>
+      mat_precise_height <17>
+      mat_precise_x <283>
+      mat_precise_y <185>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <12>
+      mat_precise_width <208>
+      mat_precise_height <15>
+      mat_precise_x <283>
+      mat_precise_y <202>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "No">
+      man_start_sibling <trigger, "Yes">
+      man_start_sibling <trigger, "Same">
+      man_end_object
+    man_start_sibling <ornament, "Fallback Language(s)">
+      mat_relative_tag <106>
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <283>
+      mat_precise_y <237>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <6>
+      mat_precise_width <208>
+      mat_precise_height <15>
+      mat_precise_x <283>
+      mat_precise_y <254>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "English">
+      man_start_sibling <trigger, "French">
+      man_start_sibling <trigger, "German">
+      man_start_sibling <trigger, "Japanese">
+      man_start_sibling <trigger, "Swedish">
+      man_start_sibling <trigger, "Same">
+      man_end_object
+    man_start_sibling <trigger, "Next Page">
+      mat_relative_tag <50>
+      act_replace_select_action
+          <
+          act_replace_select_action
+              <
+              >
+            uni_start_stream
+              man_set_context_relative <103>
+              mat_bool_hidden <yes>
+              man_change_context_relative <3>
+              mat_bool_hidden <yes>
+              man_change_context_relative <116>
+              mat_bool_hidden <yes>
+              man_change_context_relative <16>
+              mat_bool_hidden <yes>
+              man_change_context_relative <115>
+              mat_bool_hidden <yes>
+              man_change_context_relative <15>
+              mat_bool_hidden <yes>
+              man_change_context_relative <113>
+              mat_bool_hidden <yes>
+              man_change_context_relative <13>
+              mat_bool_hidden <yes>
+              man_change_context_relative <114>
+              mat_bool_hidden <yes>
+              man_change_context_relative <14>
+              mat_bool_hidden <yes>
+              man_change_context_relative <104>
+              mat_bool_hidden <yes>
+              man_change_context_relative <4>
+              mat_bool_hidden <yes>
+              man_change_context_relative <117>
+              mat_bool_hidden <yes>
+              man_change_context_relative <17>
+              mat_bool_hidden <yes>
+              man_change_context_relative <112>
+              mat_bool_hidden <yes>
+              man_change_context_relative <12>
+              mat_bool_hidden <yes>
+              man_change_context_relative <106>
+              mat_bool_hidden <yes>
+              man_change_context_relative <6>
+              mat_bool_hidden <yes>
+              man_change_context_relative <50>
+              mat_bool_hidden <yes>
+              man_change_context_relative <109>
+              mat_bool_hidden <yes>
+              man_change_context_relative <9>
+              mat_bool_hidden <yes>
+              man_change_context_relative <105>
+              mat_bool_hidden <no>
+              man_change_context_relative <5>
+              mat_bool_hidden <no>
+              man_change_context_relative <128>
+              mat_bool_hidden <no>
+              man_change_context_relative <28>
+              mat_bool_hidden <no>
+              man_change_context_relative <107>
+              mat_bool_hidden <no>
+              man_change_context_relative <7>
+              mat_bool_hidden <no>
+              man_change_context_relative <130>
+              mat_bool_hidden <no>
+              man_change_context_relative <30>
+              mat_bool_hidden <no>
+              man_change_context_relative <51>
+              mat_bool_hidden <no>
+              man_change_context_relative <52>
+              mat_bool_hidden <no>
+              man_end_context
+              man_update_display
+            uni_end_stream
+            >
+          mat_font_sis <arial, 8, bold>
+          mat_color_text <255, 255, 255>
+          mat_color_text_shadow <1, 1, 1>
+          mat_precise_width <103>
+          mat_precise_height <24>
+          mat_precise_x <395>
+          mat_precise_y <286>
+          mat_color_selected <109, 109, 255>
+          mat_color_top_edge <214, 213, 247>
+          mat_color_bottom_edge <62, 41, 132>
+          mat_color_face <109, 109, 170>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <77>
+            mat_precise_height <25>
+            mat_precise_x <157>
+            mat_precise_y <284>
+            mat_art_id <1-0-33373>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                sm_send_token_arg <"U2", 97-37>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <77>
+            mat_precise_height <25>
+            mat_precise_x <276>
+            mat_precise_y <285>
+            mat_art_id <1-0-32816>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "Search FDMs">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-18160>
+              uni_end_stream
+              >
+            mat_font_sis <arial, 8, bold>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <1, 1, 1>
+            mat_precise_width <103>
+            mat_precise_height <24>
+            mat_precise_x <12>
+            mat_precise_y <284>
+            mat_color_selected <109, 109, 255>
+            mat_color_top_edge <145, 182, 0>
+            mat_color_bottom_edge <109, 109, 85>
+            mat_color_face <36, 109, 0>
+          man_start_sibling <edit_view, "">
+            mat_bool_importable <yes>
+            mat_precise_width <28>
+            mat_precise_height <26>
+            mat_precise_x <57>
+            mat_precise_y <263>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_vertical_scroll <no>
+            man_append_data <"Hidden Text Removed">
+            man_end_data
+            mat_bool_hidden <yes>
+            mat_bool_invisible <yes>
+            mat_relative_tag <29>
+          man_start_sibling <edit_view, "">
+            mat_bool_importable <yes>
+            mat_precise_width <28>
+            mat_precise_height <26>
+            mat_precise_x <133>
+            mat_precise_y <209>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_vertical_scroll <no>
+            man_append_data <"Hidden Text Removed">
+            man_end_data
+            mat_bool_hidden <yes>
+            mat_relative_tag <31>
+          man_start_sibling <ornament, "Hidden Text Removed">
+            mat_bool_hidden <yes>
+            mat_relative_tag <105>
+            mat_precise_x <12>
+            mat_precise_y <45>
+            mat_font_sis <arial, 9, bold>
+            mat_orientation <hlf>
+          man_start_sibling <edit_view, "">
+            mat_bool_importable <yes>
+            mat_precise_width <500>
+            mat_precise_height <24>
+            mat_precise_x <12>
+            mat_precise_y <60>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_vertical_scroll <no>
+            mat_validation <128>
+            mat_capacity <64>
+            man_append_data <"Hidden Text Removed">
+            man_end_data
+            mat_bool_hidden <yes>
+            mat_relative_tag <5>
+          man_start_sibling <ornament, "Hidden Text Removed">
+            mat_bool_hidden <yes>
+            mat_relative_tag <128>
+            mat_precise_x <12>
+            mat_precise_y <94>
+            mat_font_sis <arial, 9, bold>
+            mat_orientation <hlf>
+          man_start_sibling <edit_view, "">
+            mat_bool_importable <yes>
+            mat_precise_width <500>
+            mat_precise_height <24>
+            mat_precise_x <12>
+            mat_precise_y <108>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_vertical_scroll <no>
+            mat_validation <128>
+            mat_capacity <500>
+            man_append_data <"Hidden Text Removed">
+            man_end_data
+            mat_bool_hidden <yes>
+            mat_relative_tag <28>
+          man_start_sibling <ornament, "Hidden Text Removed">
+            mat_bool_hidden <yes>
+            mat_relative_tag <107>
+            mat_precise_x <12>
+            mat_precise_y <146>
+            mat_font_sis <arial, 9, bold>
+            mat_orientation <hlf>
+          man_start_sibling <edit_view, "">
+            mat_bool_importable <yes>
+            mat_precise_width <503>
+            mat_precise_height <24>
+            mat_precise_x <12>
+            mat_precise_y <164>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_vertical_scroll <no>
+            mat_validation <128>
+            mat_capacity <64>
+            man_append_data <"Hidden Text Removed">
+            man_end_data
+            mat_bool_hidden <yes>
+            mat_relative_tag <7>
+          man_start_sibling <ornament, "Hidden Text Removed">
+            mat_bool_hidden <yes>
+            mat_relative_tag <130>
+            mat_precise_x <12>
+            mat_precise_y <206>
+            mat_font_sis <arial, 9, bold>
+            mat_orientation <hlf>
+          man_start_sibling <edit_view, "">
+            mat_bool_importable <yes>
+            mat_precise_width <500>
+            mat_precise_height <24>
+            mat_precise_x <12>
+            mat_precise_y <221>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_vertical_scroll <no>
+            mat_validation <128>
+            mat_capacity <80>
+            man_append_data <"Hidden Text Removed">
+            man_end_data
+            mat_bool_hidden <yes>
+            mat_relative_tag <30>
+          man_start_sibling <trigger, "SEND FORM">
+            mat_bool_hidden <yes>
+            mat_relative_tag <52>
+            mat_font_sis <arial, 9, bold>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <1, 1, 1>
+            mat_precise_width <108>
+            mat_precise_height <23>
+            mat_precise_x <202>
+            mat_precise_y <255>
+            mat_color_top_edge <218, 218, 255>
+            mat_color_bottom_edge <62, 41, 132>
+            mat_color_face <100, 100, 150>
+          man_start_sibling <trigger, "Previous Page">
+            mat_bool_hidden <yes>
+            mat_relative_tag <51>
+            mat_font_sis <arial, 8, bold>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <1, 1, 1>
+            mat_precise_width <103>
+            mat_precise_height <24>
+            mat_precise_x <395>
+            mat_precise_y <286>
+            mat_color_selected <109, 109, 255>
+            mat_color_top_edge <214, 213, 247>
+            mat_color_bottom_edge <62, 41, 132>
+            mat_color_face <109, 109, 170>
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

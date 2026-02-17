@@ -1,0 +1,189 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " Updates">
+    mat_orientation <vff>
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-17102>
+      man_start_sibling <ornament, "Updates">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Updates and changes for online areas 01/04/99">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-36-7484>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Nat West & Air Miles Promotion 30/03/99">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-36-7483>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Big Money Prize Draw">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-36-49562>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "March Air Miles Promotion">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-36-49230>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "SOAF ON-LINE PROMOTION 16/03/99">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-36-49560>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "Year 2000 CALLS :Updated: 09/03/1999">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-36-49155>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "You've Got Mail Promotion">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-36-46493>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "Feb '99 Price Testing - Direct mail">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-36-46492>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "Airmiles Offer 23/02/99">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-36-22425>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "Voila Magazine Advert">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-36-22424>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "UCI Tickets">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-36-22420>
+                                >
+                              mat_art_id <1-0-1478>
+                            man_start_sibling <trigger, "Direct Debit Incentives 02/03/99">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-36-46842>
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_start_sibling <trigger, "Ordering AOL 4.0">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-36-45773>
+                                    >
+                                  mat_art_id <1-0-1478>
+                                man_start_sibling <trigger, "Internet Access Made Easy Guide to AOL Issue 3">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-36-45768>
+                                      >
+                                    mat_art_id <1-0-1478>
+                                  man_start_sibling <trigger, "Collection Agency">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-36-44818>
+                                        >
+                                      mat_art_id <1-0-1478>
+                                    man_start_sibling <trigger, "Go4Gold Prize draw -  small rules change">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-36-44816>
+                                          >
+                                        mat_art_id <1-0-1478>
+                                      man_start_sibling <trigger, "AOL 4.0 goes to some CSI 2000 Beta Testers">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-36-44204>
+                                            >
+                                          mat_art_id <1-0-1478>
+                                        man_start_sibling <trigger, "MODEM OFFER -16/02/99">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-36-45767>
+                                              >
+                                            mat_art_id <1-0-1478>
+                                          man_start_sibling <trigger, "AMEX & Daily telegraph offer">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-36-43390>
+                                                >
+                                              mat_art_id <1-0-1478>
+                                            man_start_sibling <trigger, "Irish Direct Debits">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-36-45763>
+                                                  >
+                                                mat_art_id <1-0-1478>
+                                              man_end_object
+                                            man_start_sibling <org_group, "">
+                                              mat_orientation <hec>
+                                              man_start_object <trigger, "Open">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream <00x>
+                                                    sm_do_list_action <1>
+                                                    >
+                                                  mat_title_width <6>
+                                                  mat_bool_default <yes>
+                                                man_start_sibling <trigger, "More">
+                                                  mat_relative_tag <3>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_wait_on
+                                                      uni_start_stream
+                                                        buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                        buf_set_token <"Cc">
+                                                        buf_add_atom_pointer <01x, 00x, 24x, 1bx, 43x, 00x, 14x>
+                                                        buf_close_buffer
+                                                      uni_end_stream
+                                                      >
+                                                    mat_title_width <6>
+                                                  man_end_object
+                                                man_end_object
+                                              hfs_attr_end_object
+                                            man_update_woff_end_stream

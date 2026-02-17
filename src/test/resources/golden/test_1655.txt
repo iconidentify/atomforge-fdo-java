@@ -1,0 +1,237 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Software & Beta">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <550>
+      mat_precise_height <320>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_relative_tag <126>
+      mat_art_id <1-2-63056>
+      mat_bool_background_tile <yes>
+      man_start_object <view, "">
+        rich_manage
+        rich_set_static
+        mat_precise_width <215>
+        mat_precise_height <35>
+        mat_precise_x <330>
+        mat_precise_y <75>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_font_sis <arial, 9, normal>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <63>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_set_static
+        mat_precise_width <215>
+        mat_precise_height <35>
+        mat_precise_x <330>
+        mat_precise_y <115>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_font_sis <arial, 9, normal>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <65>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_set_static
+        mat_precise_width <215>
+        mat_precise_height <35>
+        mat_precise_x <330>
+        mat_precise_y <155>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_font_sis <arial, 9, normal>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <67>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_set_static
+        mat_precise_width <215>
+        mat_precise_height <35>
+        mat_precise_x <330>
+        mat_precise_y <195>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_font_sis <arial, 9, normal>
+        mat_bool_vertical_scroll <no>
+        mat_relative_tag <69>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_set_static
+        mat_precise_width <234>
+        mat_precise_height <220>
+        mat_precise_x <15>
+        mat_precise_y <75>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <62>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-63-1552>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <26>
+          mat_precise_height <20>
+          mat_precise_x <302>
+          mat_precise_y <80>
+          mat_art_id <1-2-63062>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <64>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-63-2765>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <26>
+            mat_precise_height <20>
+            mat_precise_x <302>
+            mat_precise_y <120>
+            mat_art_id <1-2-63062>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <66>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"K1", 0-43-3499>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <26>
+              mat_precise_height <20>
+              mat_precise_x <302>
+              mat_precise_y <160>
+              mat_art_id <1-2-63062>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <68>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-22-100>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_width <26>
+                mat_precise_height <20>
+                mat_precise_x <302>
+                mat_precise_y <200>
+                mat_art_id <1-2-63062>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <view, "">
+                rich_manage
+                rich_set_static
+                mat_precise_width <228>
+                mat_precise_height <18>
+                mat_precise_x <302>
+                mat_precise_y <298>
+                mat_font_sis <arial, 8, normal>
+                mat_bool_vertical_scroll <no>
+                mat_relative_tag <101>
+              man_start_sibling <ornament, "">
+                mat_relative_tag <98>
+                mat_precise_width <275>
+                mat_precise_height <55>
+                mat_precise_x <275>
+                mat_precise_y <0>
+                mat_art_id <1-2-62952>
+              man_start_sibling <view, "">
+                mat_bool_no_border <yes>
+                mat_bool_graphic_view <yes>
+                image_attr_hotspot_def_action <00x>
+                image_attr_hotspot_grid <00x, 01x, 00x, 01x>
+                image_attr_show_hotspot <01x>
+                image_attr_hotspot <00x, 01x, 00x, 01x>
+                image_attr_hotspot_type <00x>
+                image_attr_hilight_type <00x>
+                image_attr_hotspot_action_id <01x>
+                mat_width <234>
+                mat_height <60>
+                mat_precise_x <302>
+                mat_precise_y <233>
+                mat_bool_vertical_scroll <no>
+                mat_relative_tag <100>
+              man_start_sibling <org_group, "">
+                mat_orientation <hff>
+                mat_precise_width <275>
+                mat_precise_height <20>
+                mat_precise_x <0>
+                mat_precise_y <0>
+                mat_relative_tag <95>
+                mat_art_id <1-2-62961>
+                mat_bool_background_tile <yes>
+                man_start_object <trigger, "">
+                  mat_relative_tag <96>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-63-2761>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_precise_width <40>
+                    mat_precise_height <20>
+                    mat_precise_x <185>
+                    mat_precise_y <0>
+                    mat_art_id <1-2-62962>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <trigger, "">
+                    mat_relative_tag <97>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-63-2768>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_precise_width <40>
+                      mat_precise_height <20>
+                      mat_precise_x <230>
+                      mat_precise_y <0>
+                      mat_art_id <1-2-62960>
+                      mat_trigger_style <plain_picture>
+                    man_end_object
+                  man_end_object
+                man_end_object
+              hfs_attr_end_object
+              man_update_display
+              man_set_context_relative <63>
+              man_append_data <"<HTML>Beta Announcements <FONT  SIZE=2 PTSIZE=9>(l">
+              man_append_data <"ast update: 9/14/98)</HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <65>
+              man_append_data <"<HTML>We need the token/arg for the beta area, to ">
+              man_append_data <"go here.</HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <67>
+              man_append_data <"<HTML>Dr. Solomon's Area</HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <69>
+              man_append_data <"<HTML>Betazoid Area</HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <1>
+              man_append_data <"<HTML>The buttons on the right are just examples o">
+              man_append_data <"f what can go there. There may be some that we wan">
+              man_append_data <"t to get rid of, and others that we want to add.</">
+              man_append_data <"HTML>">
+              man_end_data
+              man_end_context
+              man_set_context_relative <101>
+              man_append_data <"<HTML><B>Keyword</B> (ad above)<BR></HTML>">
+              man_end_data
+              man_end_context
+            man_update_woff_end_stream

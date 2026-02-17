@@ -1,0 +1,319 @@
+uni_start_stream
+  man_start_object <ind_group, "SUPPORT: General">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-23724>
+    mat_bool_background_pic <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <417>
+      mat_precise_height <60>
+      mat_precise_x <102>
+      mat_precise_y <6>
+      mat_color_face <182, 182, 170>
+      mat_bool_background_flood <yes>
+      man_start_object <trigger, "">
+        mat_context_help <"Click here for the \r\nARC Main screen">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"K1", 17-62069>
+          uni_end_stream
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <82>
+        mat_precise_height <65>
+        mat_precise_x <102>
+        mat_precise_y <5>
+        mat_art_hint_title <"ARC Online">
+        mat_art_hint_width <79>
+        mat_art_hint_height <60>
+        mat_art_id <1-1-23019>
+      man_start_sibling <trigger, "">
+        mat_context_help <"Click here for Access information">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_p_send_token_arg <"K1", 17-62070>
+          uni_end_stream
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <85>
+        mat_precise_height <65>
+        mat_precise_x <184>
+        mat_precise_y <5>
+        mat_art_hint_title <"Access">
+        mat_art_hint_width <84>
+        mat_art_hint_height <60>
+        mat_art_id <1-1-23017>
+      man_start_sibling <trigger, "">
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <83>
+        mat_precise_height <65>
+        mat_precise_x <269>
+        mat_precise_y <5>
+        mat_art_hint_title <"Support">
+        mat_art_hint_width <81>
+        mat_art_hint_height <60>
+        mat_art_id <1-1-23721>
+      man_start_sibling <trigger, "">
+        mat_context_help <"Click here for Tools information">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_p_send_token_arg <"K1", 17-62072>
+          uni_end_stream
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <86>
+        mat_precise_height <65>
+        mat_precise_x <352>
+        mat_precise_y <5>
+        mat_art_hint_title <"Tools">
+        mat_art_hint_width <86>
+        mat_art_hint_height <60>
+        mat_art_id <1-1-23015>
+      man_start_sibling <trigger, "">
+        mat_context_help <"Click here for Training information">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_p_send_token_arg <"K1", 17-62073>
+          uni_end_stream
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <83>
+        mat_precise_height <65>
+        mat_precise_x <438>
+        mat_precise_y <5>
+        mat_art_hint_title <"Training">
+        mat_art_hint_width <81>
+        mat_art_hint_height <60>
+        mat_art_id <1-1-23016>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_relative_tag <1>
+      mat_precise_width <394>
+      mat_precise_height <50>
+      mat_precise_x <112>
+      mat_precise_y <77>
+      mat_font_sis <arial, 9, normal>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <70>
+      mat_context_help <"Click for General info">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"K1", 0-17-62355>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_width <18>
+        mat_precise_height <18>
+        mat_precise_x <6>
+        mat_precise_y <140>
+        mat_art_hint_title <"General">
+        mat_art_hint_width <12>
+        mat_art_hint_height <12>
+        mat_art_id <1-0-6838>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <ornament, "General">
+        mat_relative_tag <71>
+        mat_precise_width <205>
+        mat_precise_height <21>
+        mat_precise_x <31>
+        mat_precise_y <140>
+        mat_font_sis <arial, 12, bold>
+        mat_orientation <hlf>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <72>
+        mat_context_help <"Click for Art Press Tools info">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"U3", 0-8-5>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <18>
+          mat_precise_height <18>
+          mat_precise_x <6>
+          mat_precise_y <167>
+          mat_art_hint_title <"Art Press Tools">
+          mat_art_hint_width <12>
+          mat_art_hint_height <12>
+          mat_art_id <1-0-6837>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <ornament, "Art Press Tools\r">
+          mat_relative_tag <73>
+          mat_precise_width <205>
+          mat_precise_height <21>
+          mat_precise_x <31>
+          mat_precise_y <167>
+          mat_font_sis <arial, 12, bold>
+          mat_orientation <hlf>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <74>
+          mat_context_help <"Click for Rainman & Clerk2 info">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"U3", 0-8-11>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <18>
+            mat_precise_height <18>
+            mat_precise_x <6>
+            mat_precise_y <194>
+            mat_art_hint_title <"Rainman & Clerk 2">
+            mat_art_hint_width <12>
+            mat_art_hint_height <12>
+            mat_art_id <1-0-6837>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <ornament, "Rainman & Clerk 2">
+            mat_relative_tag <75>
+            mat_precise_width <205>
+            mat_precise_height <21>
+            mat_precise_x <31>
+            mat_precise_y <194>
+            mat_font_sis <arial, 12, bold>
+            mat_orientation <hlf>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <76>
+            mat_context_help <"Click for Stratus info">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"U3", 0-8-6>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_precise_x <6>
+              mat_precise_y <223>
+              mat_art_hint_title <"Stratus Tools">
+              mat_art_hint_width <12>
+              mat_art_hint_height <12>
+              mat_art_id <1-0-6837>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <ornament, "Stratus Tools">
+              mat_relative_tag <77>
+              mat_precise_width <205>
+              mat_precise_height <21>
+              mat_precise_x <31>
+              mat_precise_y <223>
+              mat_font_sis <arial, 12, bold>
+              mat_orientation <hlf>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <78>
+              mat_context_help <"Click for VPD info">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"U3", 0-8-8>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_width <18>
+                mat_precise_height <18>
+                mat_precise_x <6>
+                mat_precise_y <252>
+                mat_art_hint_title <"Visual Publisher Designer">
+                mat_art_hint_width <12>
+                mat_art_hint_height <12>
+                mat_art_id <1-0-6837>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <ornament, "Visual Publisher Designer">
+                mat_relative_tag <79>
+                mat_precise_width <205>
+                mat_precise_height <21>
+                mat_precise_x <31>
+                mat_precise_y <252>
+                mat_font_sis <arial, 12, bold>
+                mat_orientation <hlf>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <80>
+                mat_context_help <"Click for Miscellaneous info">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"U3", 0-8-10>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_width <18>
+                  mat_precise_height <18>
+                  mat_precise_x <6>
+                  mat_precise_y <281>
+                  mat_art_hint_title <"Miscellaneous">
+                  mat_art_hint_width <12>
+                  mat_art_hint_height <12>
+                  mat_art_id <1-0-6837>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <ornament, "Miscellaneous">
+                  mat_relative_tag <81>
+                  mat_precise_width <205>
+                  mat_precise_height <21>
+                  mat_precise_x <31>
+                  mat_precise_y <281>
+                  mat_font_sis <arial, 12, bold>
+                  mat_orientation <hlf>
+                man_start_sibling <dss_list, "">
+                  mat_relative_tag <30>
+                  mat_precise_width <300>
+                  mat_precise_height <154>
+                  mat_precise_x <244>
+                  mat_precise_y <155>
+                  mat_font_sis <arial, 9, normal>
+                  mat_bool_list_icons <yes>
+                  mat_sort_order <normal>
+                  man_start_object <trigger, "ARC Service Level Agreement">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"U3", 0-8-496>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "ARC Software Library">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"eB", 0-0-27080>
+                          >
+                        mat_art_id <1-0-1482>
+                      man_start_sibling <trigger, "Email Scams & Safety Tips">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"U3", 0-8-619>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "Message Board Conversion Information">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_m_send_token_arg <"U3", 0-8-357>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <hff>
+                          mat_precise_width <300>
+                          mat_precise_height <20>
+                          mat_precise_x <244>
+                          mat_precise_y <134>
+                          mat_color_face <182, 182, 170>
+                          mat_bool_background_flood <yes>
+                          man_start_object <ornament, "General">
+                            mat_relative_tag <3>
+                            mat_precise_width <300>
+                            mat_precise_height <20>
+                            mat_precise_x <244>
+                            mat_precise_y <134>
+                            mat_font_sis <arial, 12, bold>
+                            mat_orientation <hcf>
+                          man_end_object
+                        man_end_object
+                        man_update_display
+                      man_update_woff_end_stream

@@ -1,0 +1,53 @@
+uni_start_stream
+  man_start_object <ind_group, "RST Contact List">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-16519>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+        man_append_data <"The following is the RST Contact List\r">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE>\x7fThe Representative Support Team Manage">
+    man_append_data <"ment Staff is composed of the following people:\x7f\x7fN">
+    man_append_data <"ame                           Location            ">
+    man_append_data <"       ScreenName\x7f\x7f<U><B>Tech RST</U></B>\x7fKevin Ad">
+    man_append_data <"ams                 Utah                        Ke">
+    man_append_data <"vin Adams\x7fZoe Midyett                   Ok C      ">
+    man_append_data <"                 ZoeMidyett\x7fCharles Thomas        ">
+    man_append_data <"    Jax                          CThomasJX\x7fSean Au">
+    man_append_data <"stin                  Albuquerque             Sast">
+    man_append_data <"in\x7fMike Bielat                   Arizona          ">
+    man_append_data <"          MTBielat\x7f\x7f<U><B>A&P RST</U></B>\x7fBryan Th">
+    man_append_data <"omson             Utah                        BTho">
+    man_append_data <"mUt\x7fZoe Midyett                   Ok C            ">
+    man_append_data <"           ZoeMidyett\x7fJohnnie Johnson            J">
+    man_append_data <"ax                         SSCJohnnie\x7fSean Austin ">
+    man_append_data <"                 Albuquerque             Sastin\x7f\x7f\x7f">
+    man_append_data <"Report any change requests to ScreenName: MTBielat">
+    man_append_data <"\x7f</PRE></HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

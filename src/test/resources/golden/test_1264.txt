@@ -1,0 +1,241 @@
+uni_start_stream <00x>
+  man_preset_gid <32-4619>
+  if_last_return_true_then <1>
+  man_make_focus
+  man_update_display
+uni_abort_stream
+uni_sync_skip <1>
+async_is_known_subaccount
+if_last_return_false_then <1>
+async_alert <info, "item refresh process update start top invoke close. delta component edge load delete">
+uni_abort_stream
+uni_sync_skip <1>
+man_set_context_globalid <1>
+man_start_object <ind_group, "Current South View">
+  mat_object_id <32-4619>
+  mat_style_id <32-4619>
+  mat_orientation <vff>
+  mat_color_face <255, 251, 240>
+  mat_bool_auto_closeable <no>
+  act_set_criterion <200>
+  act_replace_action
+      <
+      uni_start_stream
+        man_set_context_relative <1>
+        morg_view_has_mult_selections
+        if_last_return_true_then <1, 2>
+        man_set_context_relative <13>
+        mat_bool_disabled <yes>
+        man_change_context_relative <16>
+        mat_bool_disabled <yes>
+        man_change_context_relative <18>
+        mat_bool_disabled <yes>
+        man_change_context_relative <11>
+        mat_bool_disabled <no>
+        man_end_context
+        uni_sync_skip <1>
+        morg_obj_set_context_selection
+        man_set_context_relative <13>
+        mat_bool_disabled <no>
+        man_change_context_relative <18>
+        morg_obj_can_rename
+        if_last_return_true_then <3, 4>
+        mat_bool_disabled <no>
+        uni_sync_skip <3>
+        mat_bool_disabled <yes>
+        uni_sync_skip <4>
+        man_change_context_relative <16>
+        morg_obj_get_class
+        var_number_set_from_atom <A>
+        var_number_set <B, 2>
+        if_numa_eq_numb_then <3, 4>
+        mat_bool_disabled <no>
+        uni_sync_skip <3>
+        mat_bool_disabled <yes>
+        uni_sync_skip <4>
+        man_change_context_relative <11>
+        morg_obj_can_delete
+        if_last_return_true_then <3, 4>
+        mat_bool_disabled <no>
+        uni_sync_skip <3>
+        mat_bool_disabled <yes>
+        uni_sync_skip <4>
+        man_end_context
+        uni_sync_skip <2>
+        man_end_context
+        man_update_display
+      uni_end_stream
+      >
+    mat_position <center_left>
+    mat_bool_background_flood <yes>
+    man_start_object <view, "">
+      mat_size <20, 15>
+      mat_relative_tag <1>
+      mat_frame_style <pop_in>
+      morg_manage
+      mat_font_sis <arial, 9, normal>
+      morg_view_path <"Current South View">
+      morg_view_include_root <yes>
+      act_set_criterion <129>
+      act_replace_action
+          <
+          uni_start_stream
+            man_close_update
+          uni_end_stream
+          >
+        act_set_criterion <130>
+        act_replace_action
+            <
+            uni_start_stream
+              act_do_action <200>
+            uni_end_stream
+            >
+          mat_bool_writeable <yes>
+        man_start_sibling <org_group, "">
+          mat_orientation <hff>
+          man_start_object <org_group, "">
+            mat_orientation <hlf>
+            mat_precise_width <40>
+            mat_precise_height <50>
+            mat_bool_precise <yes>
+            man_start_object <trigger, "">
+              mat_precise_x <5>
+              mat_precise_width <33>
+              mat_precise_height <33>
+              mat_relative_tag <16>
+              mat_color_face <0, 102, 153>
+              mat_color_text <255, 255, 255>
+              mat_color_top_edge <1, 1, 1>
+              mat_color_bottom_edge <1, 1, 1>
+              mat_trigger_style <rectangle>
+              mat_font_size <8>
+              mat_art_id <1-1-23366>
+              mat_horizontal_spacing <4>
+              mat_bool_default <yes>
+              mat_font_id <arial>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    man_set_context_relative <1>
+                    morg_jump_bookmark
+                    man_end_context
+                  uni_end_stream
+                  >
+              man_start_sibling <ornament, "">
+                mat_precise_x <11>
+                mat_precise_y <32>
+                mat_size <2, 1>
+                mat_font_sis <arial, 8, normal>
+                man_append_data <"Go">
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <hrf>
+              mat_precise_width <140>
+              mat_precise_height <50>
+              mat_bool_precise <yes>
+              man_start_object <trigger, "">
+                mat_precise_x <18>
+                mat_precise_width <32>
+                mat_precise_height <32>
+                mat_relative_tag <13>
+                mat_color_face <0, 102, 153>
+                mat_color_text <255, 255, 255>
+                mat_color_top_edge <1, 1, 1>
+                mat_color_bottom_edge <1, 1, 1>
+                mat_trigger_style <rectangle>
+                mat_font_size <8>
+                mat_art_id <1-1-23367>
+                mat_horizontal_spacing <4>
+                mat_font_id <arial>
+                act_replace_select_action
+                    <
+                    uni_start_stream <00x>
+                      man_preset_gid <41-17465>
+                      if_last_return_true_then <1, 2>
+                      man_make_focus
+                      man_update_display
+                      uni_sync_skip <1>
+                      uni_wait_on
+                      uni_invoke_no_context <41-17465>
+                      uni_sync_skip <2>
+                    uni_end_stream <00x>
+                    >
+                man_start_sibling <ornament, "">
+                  mat_precise_x <21>
+                  mat_precise_y <32>
+                  mat_size <4, 1>
+                  mat_font_sis <arial, 8, normal>
+                  man_append_data <"lef">
+                man_start_sibling <trigger, "">
+                  mat_precise_x <60>
+                  mat_precise_width <32>
+                  mat_precise_height <32>
+                  mat_relative_tag <18>
+                  mat_color_face <0, 102, 153>
+                  mat_color_text <255, 255, 255>
+                  mat_color_top_edge <1, 1, 1>
+                  mat_color_bottom_edge <1, 1, 1>
+                  mat_trigger_style <rectangle>
+                  mat_font_size <8>
+                  mat_art_id <1-1-23364>
+                  mat_horizontal_spacing <4>
+                  mat_font_id <arial>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        man_set_context_relative <1>
+                        morg_obj_set_context_selection
+                        morg_obj_get_class
+                        var_number_set_from_atom <A>
+                        var_number_set <B, 2>
+                        if_numa_eq_numb_then <17, 18>
+                        morg_edit_bookmark
+                        uni_sync_skip <17>
+                        morg_prompt_rename_object
+                        uni_sync_skip <18>
+                        man_end_context
+                      uni_end_stream
+                      >
+                  man_start_sibling <ornament, "">
+                    mat_precise_x <67>
+                    mat_precise_y <32>
+                    mat_size <4, 1>
+                    mat_font_sis <arial, 8, normal>
+                    man_append_data <"fron">
+                  man_start_sibling <trigger, "">
+                    mat_precise_x <102>
+                    mat_precise_width <32>
+                    mat_precise_height <32>
+                    mat_relative_tag <11>
+                    mat_color_face <0, 102, 153>
+                    mat_color_text <255, 255, 255>
+                    mat_color_top_edge <1, 1, 1>
+                    mat_color_bottom_edge <1, 1, 1>
+                    mat_trigger_style <rectangle>
+                    mat_font_size <8>
+                    mat_art_id <1-1-23365>
+                    mat_horizontal_spacing <0>
+                    mat_font_id <arial>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          man_set_context_relative <1>
+                          morg_delete_current_object
+                          man_end_context
+                        uni_end_stream
+                        >
+                    man_start_sibling <ornament, "">
+                      mat_precise_x <102>
+                      mat_precise_y <32>
+                      mat_size <5, 1>
+                      mat_font_sis <arial, 8, normal>
+                      man_append_data <"Previous Frame">
+                    man_end_object
+                  man_end_object
+                man_end_object
+                man_update_display
+                act_do_action <200>
+                uni_sync_skip <48>
+                man_end_context
+                uni_wait_off
+              uni_end_stream <00x>

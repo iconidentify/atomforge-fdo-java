@@ -1,0 +1,25 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Software Update">
+    mat_object_id <32-135>
+    mat_orientation <vff>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 21>
+      mat_relative_tag <1>
+      man_append_data <"The area you are entering requires the AOL World Wide Web browser. For you to access the browser, we need to add some additional files to your AOL software. We can do this automatically for you at this time.\x7f\x7fSelect "Update" below to begin adding the web browser. This process will take approximately 9 minutes at 9600 baud, 6 minutes at 14,400 baud, or 3 minutes at 28,000 baud. Immediately after the update completes, you will enter the area you have requested.\x7f\x7fIf you would prefer to update your software at another time, select "Cancel" below.\x7f\x7fIf for any reason this update is interrupted, please completely exit and restart AOL. This will allow us to complete adding the new functionality.\x7f\x7fYou will not incur any regular hourly charges during this update.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Update">
+        mat_trigger_style <14>
+        mat_relative_tag <2>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "Cancel">
+        mat_trigger_style <14>
+        mat_relative_tag <3>
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

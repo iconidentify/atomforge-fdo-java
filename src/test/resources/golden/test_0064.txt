@@ -1,0 +1,28 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Old Element Main">
+    mat_object_id <32-2409>
+    mat_orientation <vff>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 21>
+      mat_relative_tag <1>
+      man_append_data <"west side corner unit default send create create. form handle save center view new main current. gamma">
+      man_append_data <"second simple current save advanced update create close. simple advanced\x7f\x7fThird Right\"Custom North\"Third Top Object">
+      man_append_data <"secondary open center block primary execute form handle. beta frame close receive sub create static sub. old edge">
+      man_append_data <"center component view save object execute basic open. sigma back update create send delete previous delete. alpha">
+      man_append_data <"\x7f\x7fstop dialog alpha current view view process previous. process create\"Current Left\"Current South\x7f\x7fMain Sub Top">
+      man_append_data <"receive item refresh save stop side advanced static. section receive execute epsilon custom omega execute process.">
+      man_append_data <"Second South Gamma\x7f\x7fcorner default first button label static second simple. custom gadget\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Current Gamma">
+        mat_relative_tag <2>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "Third East">
+        mat_relative_tag <3>
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

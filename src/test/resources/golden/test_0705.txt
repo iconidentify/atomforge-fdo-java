@@ -1,0 +1,32 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Basic Dialog Screen">
+    mat_object_id <32-2501>
+the_unknown <16, 204, 01x>
+    mat_orientation <vcf>
+    mat_position <center_center>
+    man_start_object <edit_view, "Default Section West">
+      mat_size <30, 1>
+      mat_relative_tag <1>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_exportable <no>
+      mat_bool_importable <no>
+    man_start_sibling <trigger, "OK">
+      mat_trigger_style <14>
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream
+            de_start_extraction <0>
+            man_set_context_relative <1>
+            de_get_data_pointer
+            uni_use_last_atom_string <mt_string_to_gid>
+            uni_use_last_atom_value <uni_invoke_no_context>
+            man_end_context
+            de_end_extraction
+          uni_end_stream
+          >
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

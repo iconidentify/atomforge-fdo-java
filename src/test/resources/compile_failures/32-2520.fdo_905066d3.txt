@@ -1,0 +1,72 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Visite guid�e des Sessions Express">
+    mat_object_id <32-2520>
+    mat_style_id <32-2520>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <225>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Vous avez fini !">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <19, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <80>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <105>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"Vos Sessions Express sont configur�es ! N'oubliez pas que votre ordinateur doit �tre sous tension, et l'application AOL ouverte, pour que les Sessions Express planifi�es puissent �tre r�alis�es.\x7f\x7fVous pouvez � tout instant v�rifier ou modifier la configuration des Sessions Express en s�lectionnant l'option <B>Configurer les Sessions Express</B> du menu\x7f<B>E-mail</B>.\x7f\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_x <183>
+      mat_precise_y <227>
+      mat_precise_width <50>
+      mat_precise_height <23>
+      man_start_object <trigger, "">
+        mat_title_width <9>
+        mat_precise_x <183>
+        mat_precise_y <183>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <204, 204, 255>
+        mat_color_text <1, 1, 1>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <153, 153, 204>
+        mat_trigger_style <default>
+        mat_font_size <8>
+        mat_title <"OK">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

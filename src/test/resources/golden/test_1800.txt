@@ -1,0 +1,299 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "CL Placement Center">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_relative_tag <15>
+    mat_art_id <1-1-44850>
+    mat_bool_background_tile <yes>
+    mat_position <cascade>
+    man_start_object <ornament, "">
+      mat_relative_tag <120>
+      mat_precise_width <42>
+      mat_precise_height <42>
+      mat_precise_x <15>
+      mat_precise_y <10>
+      mat_art_id <1-0-61351>
+    man_end_object
+    man_start_object <trigger, "">
+      mat_relative_tag <56>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"U3", 0-45-1804>
+          >
+        mat_precise_width <18>
+        mat_precise_height <18>
+        mat_precise_x <15>
+        mat_precise_y <138>
+        mat_font_sis <system, 12, normal>
+        mat_art_id <1-1-26358>
+        mat_trigger_style <plain_picture>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_relative_tag <66>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-45-160>
+            >
+          mat_precise_width <18>
+          mat_precise_height <18>
+          mat_precise_x <15>
+          mat_precise_y <278>
+          mat_font_sis <system, 12, normal>
+          mat_art_id <1-1-26358>
+          mat_trigger_style <plain_picture>
+        man_end_object
+        man_start_object <trigger, "">
+          mat_relative_tag <64>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-45-2613>
+              >
+            mat_precise_width <18>
+            mat_precise_height <18>
+            mat_precise_x <15>
+            mat_precise_y <250>
+            mat_font_sis <system, 12, normal>
+            mat_art_id <1-1-26358>
+            mat_trigger_style <plain_picture>
+          man_end_object
+          man_start_object <trigger, "">
+            mat_relative_tag <62>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-45-821>
+                >
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_precise_x <15>
+              mat_precise_y <222>
+              mat_font_sis <system, 12, normal>
+              mat_art_id <1-1-26358>
+              mat_trigger_style <plain_picture>
+            man_end_object
+            man_start_object <trigger, "">
+              mat_relative_tag <60>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-45-1498>
+                  >
+                mat_precise_width <18>
+                mat_precise_height <18>
+                mat_precise_x <15>
+                mat_precise_y <194>
+                mat_font_sis <system, 12, normal>
+                mat_art_id <1-1-26358>
+                mat_trigger_style <plain_picture>
+              man_end_object
+              man_start_object <trigger, "">
+                mat_relative_tag <58>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U3", 0-45-1500>
+                    >
+                  mat_precise_width <18>
+                  mat_precise_height <18>
+                  mat_precise_x <15>
+                  mat_precise_y <166>
+                  mat_font_sis <system, 12, normal>
+                  mat_art_id <1-1-26358>
+                  mat_trigger_style <plain_picture>
+                man_end_object
+                man_start_object <dss_list, "">
+                  mat_precise_width <252>
+                  mat_precise_height <131>
+                  mat_precise_x <278>
+                  mat_precise_y <165>
+                  mat_relative_tag <30>
+                  mat_font_sis <arial, 9, normal>
+                  mat_bool_list_icons <yes>
+                  mat_sort_order <normal>
+                  man_start_object <trigger, "*About RCRT - Who We Are*">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-45-476>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_end_object
+                    man_start_object <trigger, "What's Hot This Week!">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-45-1598>
+                          >
+                        mat_art_id <1-0-53721>
+                      man_end_object
+                      man_start_object <trigger, "Help Wanted: New & Updated">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-45-2559>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_end_object
+                        man_start_object <trigger, "Help Wanted: ACI & Contract Positions">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U3", 0-45-2268>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_end_object
+                          man_start_object <trigger, "Help Wanted: The Listings">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U3", 0-45-1502>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_end_object
+                            man_start_object <trigger, "Talent Available: The Listings">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U3", 0-45-1505>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_end_object
+                              man_start_object <trigger, "Tips for Job Hunters">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U3", 0-45-1514>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_end_object
+                                man_start_object <trigger, "AOL Careers (WEB)">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U3", 0-45-323>
+                                      >
+                                    mat_art_id <1-0-32650>
+                                  man_end_object
+                                man_end_object
+                                man_start_object <ornament, "Welcome to the CLPC\r">
+                                  mat_relative_tag <57>
+                                  mat_precise_width <209>
+                                  mat_precise_height <19>
+                                  mat_precise_x <43>
+                                  mat_precise_y <138>
+                                  mat_orientation <hlf>
+                                  mat_font_sis <arial, 9, normal>
+                                man_end_object
+                                man_start_object <ornament, "List an Open Position\r">
+                                  mat_relative_tag <59>
+                                  mat_precise_width <209>
+                                  mat_precise_height <19>
+                                  mat_precise_x <43>
+                                  mat_precise_y <166>
+                                  mat_orientation <hlf>
+                                  mat_font_sis <arial, 9, normal>
+                                man_end_object
+                                man_start_object <ornament, "?'s, Comments, Feedback\r\r">
+                                  mat_relative_tag <67>
+                                  mat_precise_width <209>
+                                  mat_precise_height <18>
+                                  mat_precise_x <43>
+                                  mat_precise_y <278>
+                                  mat_orientation <hlf>
+                                  mat_font_sis <arial, 9, normal>
+                                man_end_object
+                                man_start_object <ornament, "Public Placement Center\r">
+                                  mat_relative_tag <65>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U3", 0-45-1062>
+                                      >
+                                    mat_precise_width <209>
+                                    mat_precise_height <18>
+                                    mat_precise_x <43>
+                                    mat_precise_y <250>
+                                    mat_orientation <hlf>
+                                    mat_font_sis <arial, 9, normal>
+                                  man_end_object
+                                  man_start_object <ornament, "CL Resources\r">
+                                    mat_relative_tag <63>
+                                    mat_precise_width <209>
+                                    mat_precise_height <19>
+                                    mat_precise_x <43>
+                                    mat_precise_y <222>
+                                    mat_orientation <hlf>
+                                    mat_font_sis <arial, 9, normal>
+                                  man_end_object
+                                  man_start_object <ornament, "List a Talent Available\r">
+                                    mat_relative_tag <61>
+                                    mat_precise_width <209>
+                                    mat_precise_height <19>
+                                    mat_precise_x <43>
+                                    mat_precise_y <194>
+                                    mat_orientation <hlf>
+                                    mat_font_sis <arial, 9, normal>
+                                  man_end_object
+                                  man_start_object <ornament, "CL Placement Center\r">
+                                    mat_relative_tag <3>
+                                    mat_precise_width <400>
+                                    mat_precise_height <42>
+                                    mat_precise_x <75>
+                                    mat_precise_y <13>
+                                    mat_orientation <hlf>
+                                    mat_font_sis <arial, 24, normal>
+                                  man_end_object
+                                  man_start_object <view, "">
+                                    rich_manage
+                                    rich_set_static
+                                    mat_precise_width <450>
+                                    mat_precise_height <45>
+                                    mat_precise_x <50>
+                                    mat_precise_y <69>
+                                    mat_bool_resize_vertical <no>
+                                    mat_bool_resize_horizontal <no>
+                                    mat_relative_tag <1>
+                                    mat_font_sis <arial, 10, normal>
+                                    mat_bool_vertical_scroll <no>
+                                    man_append_data <"<HTML><PRE><B>AOL Community Leaders Listings\x7fKeywo">
+                                    man_append_data <"rds: CLPC, CL PLACEMENT</B>\x7f\x7f</PRE></HTML>">
+                                  man_end_object
+                                  man_start_object <org_group, "">
+                                    mat_orientation <hff>
+                                    mat_precise_width <515>
+                                    mat_precise_height <4>
+                                    mat_precise_x <15>
+                                    mat_precise_y <123>
+                                    mat_color_face <182, 182, 170>
+                                    mat_bool_background_flood <yes>
+                                  man_end_object
+                                  man_start_object <org_group, "">
+                                    mat_orientation <hff>
+                                    mat_precise_width <252>
+                                    mat_precise_height <27>
+                                    mat_precise_x <278>
+                                    mat_precise_y <138>
+                                    mat_color_face <182, 182, 170>
+                                    mat_bool_background_flood <yes>
+                                    man_start_object <ornament, "CL Listings & Info\r">
+                                      mat_relative_tag <11>
+                                      mat_precise_width <252>
+                                      mat_precise_height <27>
+                                      mat_precise_x <278>
+                                      mat_precise_y <138>
+                                      mat_orientation <hcc>
+                                      mat_font_sis <arial, 14, normal>
+                                    man_end_object
+                                  man_end_object
+                                man_end_object
+                                man_update_display
+                                uni_wait_off
+                              uni_end_stream

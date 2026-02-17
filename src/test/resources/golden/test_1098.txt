@@ -1,0 +1,343 @@
+uni_start_stream
+  man_set_context_globalid <1>
+  var_number_set <A, 0>
+  var_number_save <A, 160>
+  var_number_set <A, 0>
+  var_number_save <A, 161>
+  var_number_set <A, 0>
+  var_number_save <A, 193>
+  var_number_set <A, 0>
+  var_number_save <A, 16>
+  var_number_set <A, 0>
+  var_number_save <A, 17>
+  var_number_set <A, 0>
+  var_number_save <A, 18>
+  uni_start_stream
+    fm_start
+    fm_item_type <ini_file>
+    fm_item_set <"version.inf">
+    fm_open_file <05x>
+    fm_item_type <ini_group>
+    fm_item_set <"Goodies">
+    fm_item_type <ini_key>
+    fm_item_set <"Temp">
+    fm_ini_read_data
+    var_string_set_from_atom <A>
+    var_string_save <A, 35>
+    if_stra_neq_null_then <1>
+    fm_item_type <ini_key>
+    fm_item_set <"Temp">
+    fm_ini_write_data <00x>
+    fm_item_type <ini_key>
+    fm_item_set <"InstallCount">
+    var_lookup_by_id <A, 35>
+    uni_save_result
+    uni_get_result
+    uni_use_last_atom_string <fm_ini_write_data>
+    uni_sync_skip <1>
+    fm_end
+  uni_end_stream
+  act_set_criterion <127>
+  act_replace_action
+      <
+      uni_start_stream
+        man_set_context_globalid <1>
+        var_lookup_by_id <A, 161>
+        var_number_get <A>
+        var_number_set <B, 2>
+        if_numa_lt_numb_then <10>
+        var_number_set <A, 2>
+        var_number_save <A, 161>
+        man_set_context_globalid <3>
+        man_set_context_relative <21>
+        var_lookup_by_id <C, 501>
+        man_end_context
+        man_end_context
+        man_set_context_globalid <3>
+        man_set_context_relative <1>
+        uni_start_stream
+          var_number_get <C>
+          if_last_return_false_then <1>
+          mat_title_access <"Complex Beta Beta">
+          idb_set_context <20-255-619>
+          idb_atr_offset <0>
+          idb_get_string
+          uni_use_last_atom_string <uni_string_to_gid>
+          uni_use_last_atom_value <mat_art_id>
+          idb_end_context
+          mat_bool_invisible <no>
+          man_update_display
+          uni_sync_skip <1>
+        uni_end_stream
+        man_end_context
+        man_end_context
+        man_update_display
+        man_set_context_globalid <32-30>
+        act_do_action <61>
+        man_end_context
+        uni_sync_skip <10>
+        man_end_context
+      uni_end_stream
+      >
+    act_set_criterion <128>
+    act_replace_action
+        <
+        uni_start_stream
+          man_set_context_globalid <1>
+          var_lookup_by_id <A, 161>
+          man_end_context
+          var_number_get <A>
+          var_number_set <B, 1>
+          if_numa_neq_numb_then <10>
+          man_set_context_globalid <3>
+          man_set_context_relative <21>
+          var_lookup_by_id <C, 501>
+          man_end_context
+          man_end_context
+          man_set_context_globalid <3>
+          man_set_context_relative <1>
+          mat_bool_disabled <no>
+          uni_start_stream
+            var_number_get <C>
+            if_last_return_false_then <1>
+            mat_title_access <"Complex Beta Beta">
+            idb_set_context <20-255-619>
+            idb_atr_offset <0>
+            idb_get_string
+            uni_use_last_atom_string <uni_string_to_gid>
+            uni_use_last_atom_value <mat_art_id>
+            idb_end_context
+            mat_bool_invisible <no>
+            man_update_display
+            uni_sync_skip <1>
+          uni_end_stream
+          man_end_context
+          man_end_context
+          man_update_display
+          man_set_context_globalid <32-30>
+          act_do_action <59>
+          man_end_context
+          man_set_context_globalid <1>
+          var_number_set <A, 1>
+          var_number_save <A, 161>
+          uni_sync_skip <10>
+          man_end_context
+        uni_end_stream
+        >
+      act_set_criterion <129>
+      act_replace_action
+          <
+          uni_start_stream
+            man_set_context_globalid <3>
+            man_set_context_relative <21>
+            var_lookup_by_id <C, 501>
+            man_end_context
+            man_end_context
+            man_set_context_globalid <3>
+            man_set_context_relative <1>
+            uni_start_stream
+              var_number_get <C>
+              if_last_return_false_then <1>
+              mat_title_access <"Dynamic Epsilon">
+              idb_set_context <20-255-620>
+              idb_atr_offset <0>
+              idb_get_string
+              uni_use_last_atom_string <uni_string_to_gid>
+              uni_use_last_atom_value <mat_art_id>
+              idb_end_context
+              mat_bool_invisible <no>
+              man_update_display
+              uni_sync_skip <1>
+            uni_end_stream
+            man_end_context
+            man_end_context
+            man_update_display
+            man_set_context_globalid <32-30>
+            act_do_action <62>
+            man_end_context
+            man_set_context_globalid <1>
+            var_numa_zero
+            var_number_save <A, 161>
+            man_end_context
+          uni_end_stream
+          >
+        act_set_criterion <130>
+        act_replace_action
+            <
+            uni_start_stream
+              lm_table_use_table <20-255-1051>
+              async_get_screen_name
+              uni_use_last_atom_string <lm_table_get_item>
+              if_last_return_false_then <100, 101>
+              async_play_sound_dammit <"Primary Zone">
+              uni_sync_skip <100>
+              async_get_screen_name
+              uni_use_last_atom_string <lm_table_use_key>
+              lm_table_get_item
+              uni_convert_last_atom_string
+              if_last_return_true_then <1>
+              async_play_sound_dammit <"Primary Zone">
+              uni_sync_skip <1>
+              uni_sync_skip <101>
+            uni_end_stream
+            >
+          act_set_criterion <131>
+          act_replace_action
+              <
+              uni_start_stream
+                man_is_rendered <29x, 14x, 97x>
+                if_last_return_true_then <1>
+                man_set_context_globalid <41-5271>
+                mip_action_command <5bx>
+                man_end_context
+                uni_sync_skip <1>
+              uni_end_stream
+              >
+            man_set_context_globalid <1>
+            act_get_db_value <14x, 00x, 00x, 25x>
+            var_number_set_from_atom <A>
+            var_number_save <A, 67>
+            act_get_db_value <14x, 00x, 00x, 26x>
+            var_number_set_from_atom <A>
+            var_number_save <A, 68>
+            act_get_db_value <14x, 00x, 00x, 27x>
+            var_number_set_from_atom <A>
+            var_number_save <A, 71>
+            act_get_db_value <14x, 00x, 00x, 28x>
+            var_number_set_from_atom <A>
+            var_number_save <A, 70>
+            man_end_context
+            var_number_clear_id <A>
+            man_set_context_globalid <53>
+            act_set_criterion <9>
+            act_replace_action
+                <
+                uni_start_stream
+                  man_set_context_globalid <1>
+                  var_lookup_by_id <A, 192>
+                  var_lookup_by_id <B, 193>
+                  man_end_context
+                  var_number_save <A, 192>
+                  var_number_save <B, 193>
+                uni_end_stream
+                >
+              man_end_context
+              man_set_context_globalid <53>
+              act_set_criterion <7>
+              act_replace_action
+                  <
+                  uni_start_stream
+                    mat_bool_invisible <yes>
+                  uni_end_stream
+                  >
+                man_end_context
+                man_set_context_globalid <53>
+                act_set_criterion <8>
+                act_replace_action
+                    <
+                    uni_start_stream
+                      var_lookup_by_id <A, 192>
+                      if_numa_false_then <1, 2>
+                      mat_bool_invisible <no>
+                      uni_sync_skip <1>
+                      act_do_action <close>
+                      man_close
+                      uni_sync_skip <2>
+                    uni_end_stream
+                    >
+                  man_end_context
+                  man_set_context_globalid <53>
+                  act_set_criterion <11>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        mat_bool_non_closeable <no>
+                        man_close
+                      uni_end_stream
+                      >
+                    man_end_context
+                    man_set_context_globalid <53>
+                    act_set_criterion <12>
+                    act_replace_action
+                        <
+                        uni_start_stream
+                          man_set_context_globalid <1>
+                          var_lookup_by_id <A, 192>
+                          man_end_context
+                          if_numa_true_then <1>
+                          var_lookup_by_id <A, 192>
+                          if_numa_false_then <1>
+                          sm_enter_paid
+                          uni_wait_off
+                          uni_sync_skip <1>
+                        uni_end_stream
+                        >
+                      man_end_context
+                      man_set_context_globalid <53>
+                      act_set_criterion <17>
+                      act_replace_action
+                          <
+                          uni_start_stream
+                            uni_get_first_stream
+                            uni_save_result
+                            uni_start_loop
+                            uni_get_result
+                            if_last_return_true_then <3>
+                            uni_get_result
+                            var_number_set_from_atom <A>
+                            uni_get_current_stream_id
+                            var_number_set_from_atom <B>
+                            if_numa_neq_numb_then <2>
+                            var_number_get <A>
+                            uni_save_result
+                            uni_use_last_atom_value <uni_get_stream_window>
+                            var_number_set_from_atom <B>
+                            man_get_top_window
+                            var_number_set_from_atom <A>
+                            if_numa_neq_numb_then <1>
+                            uni_sync_skip <2>
+                            uni_get_next_stream
+                            uni_save_result
+                            uni_end_loop
+                            uni_sync_skip <3>
+                            uni_wait_clear
+                            async_alert <error, "left sub standard receive west create load center. close\x7f\x7factive fourth epsilon edge front static simple current.\x7f\x7fprocess first stop secondary south delete button previous. static start block refresh">
+                            uni_sync_skip <1>
+                          uni_end_stream
+                          >
+                        man_end_context
+                        man_set_context_globalid <53>
+                        act_set_criterion <6>
+                        act_replace_action
+                            <
+                            uni_start_stream
+                              uni_get_first_stream
+                              uni_save_result
+                              uni_start_loop
+                              uni_get_result
+                              if_last_return_true_then <1>
+                              uni_get_result
+                              var_number_set_from_atom <A>
+                              uni_get_current_stream_id
+                              var_number_set_from_atom <B>
+                              if_numa_neq_numb_then <2>
+                              var_number_get <A>
+                              uni_save_result
+                              uni_use_last_atom_value <uni_get_stream_window>
+                              var_number_set_from_atom <B>
+                              man_get_top_window
+                              var_number_set_from_atom <A>
+                              if_numa_eq_numb_then <2>
+                              uni_get_result
+                              uni_use_last_atom_value <uni_abort_stream>
+                              uni_wait_clear
+                              uni_sync_skip <2>
+                              uni_get_next_stream
+                              uni_save_result
+                              uni_end_loop
+                              uni_sync_skip <1>
+                            uni_end_stream
+                            >
+                          man_end_context
+                          man_end_context
+                        uni_end_stream

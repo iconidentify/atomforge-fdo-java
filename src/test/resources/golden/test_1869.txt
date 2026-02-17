@@ -1,0 +1,61 @@
+uni_start_stream
+  man_start_object <ind_group, "Form">
+    mat_orientation <vff>
+    mat_precise_width <213>
+    mat_precise_height <132>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <1, 0, 0>
+    mat_bool_background_flood <yes>
+    man_start_object <trigger, "Rainman Tool 16-Bit">
+      mat_relative_tag <23>
+      mat_shortcut_key <"@">
+      mat_title_pos <below | center>
+      mat_title_width <12>
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"mD", 0-19-1615>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_color_text <255, 255, 255>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        mat_art_id <1-0-1292>
+      man_start_sibling <trigger, "Rainman Tool 32-Bit">
+        mat_relative_tag <23>
+        mat_shortcut_key <"@">
+        mat_title_pos <below | center>
+        mat_title_width <12>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"mD", 0-19-1611>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_color_text <255, 255, 255>
+          mat_precise_x <105>
+          mat_precise_y <0>
+          mat_art_id <1-0-1292>
+        man_start_sibling <trigger, "Rainman Tool 1.95 r58, 32-bit">
+          mat_relative_tag <3>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_send_token_arg <"mD", 0-23-15822>
+              >
+            mat_font_sis <system, 12, normal>
+            mat_precise_x <3>
+            mat_precise_y <67>
+            mat_bool_default <yes>
+          man_start_sibling <ornament, "Satan Mike's\rRainman Tools">
+            mat_precise_x <57>
+            mat_precise_y <99>
+            mat_font_sis <arial, 9, bold>
+            mat_color_text <255, 0, 0>
+            mat_color_text_shadow <102, 102, 102>
+            mat_orientation <hcf>
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

@@ -1,0 +1,62 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_title <"Secondary Button">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 255, 204>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <5>
+      mat_width <45>
+      mat_color_text <1, 1, 1>
+      rich_manage
+      rich_bool_read_only <yes>
+      mat_font_sis <arial, 8, normal>
+      man_append_data <"element third special center load component primary back. send first refresh\x7fopen refresh start update module complex special standard. widget complex\x7fopen beta process side object button load sub. main window stop refresh window gamma fourth sub. complex screen invoke">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_color_face <0, 102, 153>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_frame_shadow <0, 0, 0>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_title_width <5>
+        mat_font_id <arial>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_color_face <0, 102, 153>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_frame_shadow <0, 0, 0>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_title_width <17>
+        mat_title <"Basic Edge South">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

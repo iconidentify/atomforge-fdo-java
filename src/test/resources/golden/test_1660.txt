@@ -1,0 +1,351 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Convenience Community Leaders">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <315>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <255, 255, 255>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <175>
+      mat_precise_height <299>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_color_face <115, 115, 180>
+      mat_bool_background_flood <yes>
+      man_start_object <trigger, "">
+        mat_relative_tag <56>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"77", 0-0-13058>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <42>
+          mat_precise_height <42>
+          mat_precise_x <10>
+          mat_precise_y <15>
+          mat_art_id <1-0-35991>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <11>
+          mat_precise_width <117>
+          mat_precise_height <48>
+          mat_precise_x <57>
+          mat_precise_y <12>
+          mat_color_face <115, 115, 180>
+          mat_font_sis <arial, 10, normal>
+          mat_color_text <255, 255, 255>
+          man_append_data <"Drop in and get \rto know your \rcolleagues.\r">
+          man_end_data
+          mat_orientation <hlf>
+        man_start_sibling <ornament, "Message\r Board\r">
+          mat_relative_tag <12>
+          mat_precise_width <165>
+          mat_precise_height <33>
+          mat_precise_x <10>
+          mat_precise_y <60>
+          mat_color_face <115, 115, 180>
+          mat_font_sis <arial, 10, normal>
+          mat_color_text <255, 255, 255>
+          mat_orientation <hlf>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <58>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U1", 0-126-7729>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <42>
+            mat_precise_height <42>
+            mat_precise_x <10>
+            mat_precise_y <110>
+            mat_art_id <1-0-40002>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <ornament, "File Processing \rand CL Libs">
+            mat_relative_tag <13>
+            mat_precise_width <117>
+            mat_precise_height <48>
+            mat_precise_x <57>
+            mat_precise_y <107>
+            mat_color_face <115, 115, 180>
+            mat_font_sis <arial, 10, normal>
+            mat_color_text <255, 255, 255>
+            mat_orientation <hlf>
+          man_start_sibling <ornament, "Software\rLibraries">
+            mat_relative_tag <14>
+            mat_precise_width <165>
+            mat_precise_height <33>
+            mat_precise_x <10>
+            mat_precise_y <155>
+            mat_color_face <115, 115, 180>
+            mat_font_sis <arial, 10, normal>
+            mat_color_text <255, 255, 255>
+            mat_orientation <hlf>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <60>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-126-6168>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <42>
+              mat_precise_height <42>
+              mat_precise_x <10>
+              mat_precise_y <205>
+              mat_art_id <1-0-35990>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <ornament, "">
+              mat_relative_tag <15>
+              mat_precise_width <117>
+              mat_precise_height <48>
+              mat_precise_x <57>
+              mat_precise_y <202>
+              mat_color_face <115, 115, 180>
+              mat_font_sis <arial, 10, normal>
+              mat_color_text <255, 255, 255>
+              man_append_data <"Stop in and \rschmooze with \rother leaders.\r">
+              man_end_data
+              mat_orientation <hlf>
+            man_start_sibling <ornament, "  Chat\r Room\r">
+              mat_relative_tag <16>
+              mat_precise_width <165>
+              mat_precise_height <33>
+              mat_precise_x <10>
+              mat_precise_y <250>
+              mat_color_face <115, 115, 180>
+              mat_font_sis <arial, 10, normal>
+              mat_color_text <255, 255, 255>
+              mat_orientation <hlf>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hff>
+            mat_precise_width <325>
+            mat_precise_height <56>
+            mat_precise_x <175>
+            mat_precise_y <0>
+            mat_color_face <0, 0, 1>
+            mat_bool_background_flood <yes>
+            man_start_object <ornament, "">
+              mat_precise_x <182>
+              mat_precise_y <5>
+              mat_art_id <1-0-23128>
+              mat_font_sis <small_fonts, 7, normal>
+            man_start_sibling <ornament, "Paper or Plastic?">
+              mat_relative_tag <3>
+              mat_precise_width <250>
+              mat_precise_height <20>
+              mat_precise_x <235>
+              mat_precise_y <15>
+              mat_color_face <0, 0, 1>
+              mat_font_sis <arial, 14, bold>
+              mat_color_text <109, 109, 180>
+              mat_orientation <hlf>
+            man_end_object
+          man_start_sibling <dss_list, "">
+            mat_relative_tag <30>
+            mat_precise_width <260>
+            mat_precise_height <150>
+            mat_precise_x <210>
+            mat_precise_y <155>
+            mat_font_sis <arial, 9, normal>
+            mat_sort_order <normal>
+            man_start_object <trigger, "CL of the Quarter: WPLC Ceg">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-126-10708>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "CL of the Month: Jeffrey Billings">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U1", 0-126-11257>
+                    >
+                  mat_art_id <1-0-1477>
+                man_start_sibling <trigger, "Announcements 12/2">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U1", 0-126-1105>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Community Leader Roster">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U1", 0-126-1374>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "File Checking Bootcamp Schedule">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-20-46379>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "Password Trojan Help">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U1", 0-126-8225>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "New Message Board Help">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-20-37590>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "Computing Channel Info, updated 8/2">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U1", 0-126-6559>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Publishing Info">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U1", 0-126-1304>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Work Areas">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U1", 0-126-1101>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "Non-Disclosure Agreement">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U1", 0-126-834>
+                                      >
+                                    mat_art_id <1-0-1478>
+                                  man_start_sibling <trigger, "Sprint Numbers">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"U1", 0-126-7012>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "CLO Newsletter">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"U1", 0-126-914>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "Links to Other Areas">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"U1", 0-126-1489>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_end_object
+                                      man_start_sibling <trigger, "">
+                                        mat_relative_tag <62>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"U1", 0-126-225>
+                                            >
+                                          mat_font_sis <small_fonts, 7, normal>
+                                          mat_precise_width <17>
+                                          mat_precise_height <17>
+                                          mat_precise_x <205>
+                                          mat_precise_y <65>
+                                          mat_trigger_style <place>
+                                          mat_color_face <162, 0, 36>
+                                        man_start_sibling <ornament, "About This Area\r">
+                                          mat_relative_tag <63>
+                                          mat_precise_width <250>
+                                          mat_precise_height <18>
+                                          mat_precise_x <227>
+                                          mat_precise_y <65>
+                                          mat_font_sis <arial, 10, normal>
+                                          mat_color_text <62, 62, 255>
+                                          mat_orientation <hlf>
+                                        man_start_sibling <trigger, "">
+                                          mat_relative_tag <64>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-20-24077>
+                                              >
+                                            mat_font_sis <small_fonts, 7, normal>
+                                            mat_precise_width <17>
+                                            mat_precise_height <17>
+                                            mat_precise_x <205>
+                                            mat_precise_y <95>
+                                            mat_trigger_style <place>
+                                            mat_color_face <162, 0, 36>
+                                          man_start_sibling <ornament, "The Giggle Gallery\r">
+                                            mat_relative_tag <65>
+                                            mat_precise_width <250>
+                                            mat_precise_height <18>
+                                            mat_precise_x <227>
+                                            mat_precise_y <95>
+                                            mat_font_sis <arial, 10, normal>
+                                            mat_color_text <62, 62, 255>
+                                            mat_orientation <hlf>
+                                          man_start_sibling <trigger, "">
+                                            mat_relative_tag <66>
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"U1", 0-126-1373>
+                                                >
+                                              mat_font_sis <small_fonts, 7, normal>
+                                              mat_precise_width <17>
+                                              mat_precise_height <17>
+                                              mat_precise_x <205>
+                                              mat_precise_y <125>
+                                              mat_trigger_style <place>
+                                              mat_color_face <162, 0, 36>
+                                            man_start_sibling <ornament, "Inspirations">
+                                              mat_relative_tag <67>
+                                              mat_precise_width <250>
+                                              mat_precise_height <20>
+                                              mat_precise_x <227>
+                                              mat_precise_y <125>
+                                              mat_font_sis <arial, 10, normal>
+                                              mat_color_text <62, 62, 255>
+                                              mat_orientation <hlf>
+                                            man_start_sibling <org_group, "">
+                                              mat_orientation <hff>
+                                              mat_precise_width <500>
+                                              mat_precise_height <16>
+                                              mat_precise_x <0>
+                                              mat_precise_y <299>
+                                              mat_color_face <191, 191, 191>
+                                              mat_bool_background_flood <yes>
+                                              man_start_object <ornament, "">
+                                                mat_precise_x <5>
+                                                mat_precise_y <300>
+                                                mat_art_id <1-0-26650>
+                                                mat_font_sis <small_fonts, 7, normal>
+                                              man_start_sibling <ornament, "Keyword:  blah blah blah">
+                                                mat_relative_tag <70>
+                                                mat_precise_x <340>
+                                                mat_precise_y <299>
+                                                mat_color_face <191, 191, 191>
+                                                mat_font_sis <arial, 10, normal>
+                                                mat_color_text <0, 0, 1>
+                                                mat_orientation <hlf>
+                                              man_end_object
+                                            man_end_object
+                                          hfs_attr_end_object
+                                        man_update_woff_end_stream

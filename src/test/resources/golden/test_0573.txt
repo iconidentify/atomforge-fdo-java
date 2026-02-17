@@ -1,0 +1,109 @@
+uni_start_stream
+  uni_wait_on
+  man_preset_gid <32-231>
+  man_start_object <ind_group, "">
+    mat_bool_sane <yes>
+    mat_position <top_left>
+    mat_object_id <32-231>
+    mat_title <"Fourth Window">
+    mat_bool_modal <no>
+    mat_bool_non_closeable <yes>
+    mat_orientation <vcf>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_width <35>
+      mat_height <1>
+    man_end_object
+    man_start_object <range, "">
+      mat_relative_tag <2>
+      mat_width <35>
+      mat_object_color <144, 255, 255, 255, 128, 0, 0>
+    man_end_object
+    man_start_object <range, "">
+      mat_relative_tag <3>
+      mat_width <35>
+      mat_bool_invisible <yes>
+      mat_object_color <144, 255, 255, 255, 0, 0, 128>
+    man_end_object
+    man_start_object <ornament, "">
+      mat_relative_tag <4>
+      mat_width <35>
+      mat_height <1>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hfb>
+      mat_bool_resize_vertical <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vff>
+        man_start_object <sms_list, "">
+          mat_orientation <vcf>
+          man_start_object <trigger, "">
+            mat_title <"Dynamic West Unit">
+            mat_relative_tag <5>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  xfer_toggle_signoff
+                uni_end_stream
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hcf>
+            man_start_object <trigger, "">
+              mat_title <"Previous Corner">
+              mat_relative_tag <6>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    xfer_finish_later
+                  uni_end_stream
+                  >
+                mat_trigger_style <default>
+                mat_color_face <0, 51, 153>
+                mat_color_top_edge <102, 153, 204>
+                mat_color_bottom_edge <0, 0, 102>
+                mat_font_sis <arial, 8, normal>
+                mat_color_text <255, 255, 255>
+              man_start_sibling <trigger, "">
+                mat_title <"Old Dialog">
+                mat_relative_tag <6>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      xfer_abort
+                    uni_end_stream
+                    >
+                  mat_trigger_style <default>
+                  mat_color_face <0, 51, 153>
+                  mat_color_top_edge <102, 153, 204>
+                  mat_color_bottom_edge <0, 0, 102>
+                  mat_font_sis <arial, 8, normal>
+                  mat_color_text <255, 255, 255>
+                man_end_object
+              man_end_object
+            man_start_sibling <view, "">
+              mat_bool_no_border <yes>
+              mat_precise_width <176>
+              mat_precise_height <45>
+              mat_font_sis <arial, 8, normal>
+              mat_bool_exportable <no>
+              mat_bool_vertical_scroll <no>
+              mat_relative_tag <10>
+              mat_bool_graphic_view <yes>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_end_object
+        uni_start_stream
+          buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+          buf_set_token <"aS">
+          buf_add_atom_pointer <"Static Label">
+          buf_set_data_atom <man_set_context_globalid>
+          var_number_set <A, 2097383>
+          var_number_get <A>
+          uni_use_last_atom_value <buf_add_atom_data>
+          buf_close_buffer
+        uni_end_stream
+        uni_wait_off
+      uni_end_stream

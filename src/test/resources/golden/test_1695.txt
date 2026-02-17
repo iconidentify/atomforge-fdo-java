@@ -1,0 +1,134 @@
+uni_start_stream
+  man_start_object <ind_group, "Tutorial Master Playground">
+    mat_orientation <vff>
+    mat_precise_width <300>
+    mat_precise_height <250>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <145, 145, 170>
+    mat_art_id <1-0-2264>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <500>
+      mat_precise_height <50>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_color_face <14, 17, 62>
+      mat_bool_background_flood <yes>
+      man_start_object <ornament, "training RMPT">
+        mat_relative_tag <3>
+        mat_precise_width <270>
+        mat_precise_height <30>
+        mat_precise_x <18>
+        mat_precise_y <12>
+        mat_color_face <14, 17, 62>
+        mat_font_sis <arial, 18, normal>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hcf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <30>
+      mat_height <11>
+      mat_precise_x <15>
+      mat_precise_y <60>
+      mat_font_sis <arial, 9, normal>
+      mat_frame_style <single_line_pop_out>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Play Areas A - B">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U2", 0-119-1755>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Play Areas C - D">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U2", 0-119-1759>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Play Areas E - F">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U2", 0-119-1761>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Play Areas G - H">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U2", 0-119-1763>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Play Areas I - J">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U2", 0-119-1764>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Play Areas K - L">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U2", 0-119-1765>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Play Areas M - N">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U2", 0-119-1766>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Play Areas O - P">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U2", 0-119-1767>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Play Areas Q - R">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U2", 0-119-1768>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Play Areas S - T">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U2", 0-119-1769>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "Play Areas U - V">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U2", 0-119-1770>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Play Areas W - X">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U2", 0-119-1771>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Play Areas Y - Z">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U2", 0-119-1772>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_end_object
+                              man_end_object
+                              man_update_display
+                            man_update_woff_end_stream

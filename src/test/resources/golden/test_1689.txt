@@ -1,0 +1,146 @@
+uni_start_stream
+  man_start_object <ind_group, "*PA Central*">
+    mat_orientation <hff>
+    mat_art_id <1-0-3386>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <15>
+      mat_art_id <1-0-28809>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <30>
+      mat_height <22>
+      mat_font_sis <arial, 9, normal>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "___About PA Central___">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-127-27492>
+            >
+          mat_art_id <1-0-17548>
+        man_start_sibling <trigger, "PA Center Zone: A - B">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-100-57238>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "PA Center Zone: C - D">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-100-57869>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "PA Center Zone: E - F">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-100-61224>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "PA Center Zone: G - H">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-100-63696>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "PA Center Zone: I - J">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-127-995>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "PA Center Zone: K - L">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-127-7162>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "PA Center Zone: M - N">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-127-8427>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "PA Center Zone: O - P">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-127-8511>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "PA Center Zone: Q - R">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-127-9633>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "PA Center Zone: S - T">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-127-9643>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "PA Center Zone: U - V">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-127-10488>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "PA Center Zone: W - X">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-127-10504>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "PA Center Zone: Y - Z">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-127-10576>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "Tutorial Playground">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-100-60119>
+                                        >
+                                      mat_art_id <1-0-19933>
+                                    man_start_sibling <trigger, "Team Area Archives">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-1-27326>
+                                          >
+                                        mat_art_id <1-0-19933>
+                                      man_start_sibling <trigger, "Play Area Archives">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-1-63929>
+                                            >
+                                          mat_art_id <1-0-19933>
+                                        man_start_sibling <trigger, "Expiration Area">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-100-60145>
+                                              >
+                                            mat_art_id <1-0-19933>
+                                          man_end_object
+                                        man_end_object
+                                        man_update_display
+                                      man_update_woff_end_stream

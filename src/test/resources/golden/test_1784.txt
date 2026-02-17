@@ -1,0 +1,57 @@
+uni_start_stream
+  man_start_object <ind_group, "PIN Number">
+    mat_orientation <vff>
+    man_start_object <ornament, "Registering for PIN number\r">
+      mat_relative_tag <3>
+      mat_width <36>
+      mat_height <1>
+      mat_font_sis <times_roman, 18, bold>
+      mat_orientation <hlf>
+    man_start_sibling <view, "">
+      mat_width <65>
+      mat_height <8>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Hi, folks...\r\n\r\nAs you may have seen in regard to ">
+      man_append_data <"the new 24 hour, 7 day a week Help Desk that is be">
+      man_append_data <"ing set up for leaders. You may have also noticed ">
+      man_append_data <"that about half way through the Registration proce">
+      man_append_data <"ss we started asking leaders to provide the last 4">
+      man_append_data <" digits of the Social Security number. The reason ">
+      man_append_data <"for this number is to provide each leader with a P">
+      man_append_data <"IN type number that will allow them to be identifi">
+      man_append_data <"ed at the Call Center. \r\n\r\nBecause you were among ">
+      man_append_data <"the first to register, You were not asked to profi">
+      man_append_data <"de this information. We now need to rectify this. ">
+      man_append_data <"You need to fill this out ONLY if they have not ye">
+      man_append_data <"t provided this information as part of their regis">
+      man_append_data <"tration. If you registered after this information ">
+      man_append_data <"was asked for on the registration, then you don't ">
+      man_append_data <"need to ... and shouldn't... send the information ">
+      man_append_data <"in a second time.\r\n\r\nThanks!\r\n\r\nBob\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_start_sibling <org_group, "">
+      mat_orientation <hcc>
+      man_start_object <trigger, "">
+        mat_relative_tag <56>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"f1", 0-41-24626>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-5238>
+          mat_trigger_style <picture>
+        man_start_sibling <ornament, "Enter your PIN here\r">
+          mat_relative_tag <57>
+          mat_width <13>
+          mat_height <3>
+          mat_font_sis <times_roman, 9, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

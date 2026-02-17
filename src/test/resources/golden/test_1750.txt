@@ -1,0 +1,122 @@
+uni_start_stream
+  man_start_object <ind_group, "ISA CyberBrief - March 1998 Archives">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hlf>
+        man_start_object <ornament, "">
+          mat_relative_tag <15>
+          mat_art_id <1-0-61351>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "March 1998 Archives\r">
+          mat_relative_tag <3>
+          mat_width <30>
+          mat_height <1>
+          mat_font_sis <arial, 18, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <68>
+          mat_height <10>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "ISA CyberBrief - 03/02/1998">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U2", 0-26-754>
+                >
+              mat_art_id <1-0-1472>
+            man_start_sibling <trigger, "ISA CyberBrief - 03/03/1998">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U2", 0-26-755>
+                  >
+                mat_art_id <1-0-1472>
+              man_start_sibling <trigger, "ISA CyberBrief - 03/04/1998">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U2", 0-26-756>
+                    >
+                  mat_art_id <1-0-1472>
+                man_start_sibling <trigger, "ISA CyberBrief - 03/05/1998">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U2", 0-26-757>
+                      >
+                    mat_art_id <1-0-1472>
+                  man_start_sibling <trigger, "ISA CyberBrief - 03/06/1998">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U2", 0-26-759>
+                        >
+                      mat_art_id <1-0-1472>
+                    man_start_sibling <trigger, "ISA CyberBrief - 03/09/1998">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U2", 0-26-760>
+                          >
+                        mat_art_id <1-0-1472>
+                      man_start_sibling <trigger, "ISA CyberBrief - 03/10/1998">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U2", 0-26-762>
+                            >
+                          mat_art_id <1-0-1472>
+                        man_start_sibling <trigger, "ISA CyberBrief - 03/11/1998">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U2", 0-26-765>
+                              >
+                            mat_art_id <1-0-1472>
+                          man_start_sibling <trigger, "ISA CyberBrief - 03/12/1998">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U2", 0-26-766>
+                                >
+                              mat_art_id <1-0-1472>
+                            man_start_sibling <trigger, "ISA CyberBrief - 03/13/1998">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U2", 0-26-768>
+                                  >
+                                mat_art_id <1-0-1472>
+                              man_end_object
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hef>
+                            man_start_object <trigger, "Open">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream <00x>
+                                  sm_do_list_action <30>
+                                  >
+                                mat_font_sis <system, 12, normal>
+                                mat_bool_default <yes>
+                              man_start_sibling <trigger, "More">
+                                mat_bool_disabled <yes>
+                                mat_relative_tag <26>
+                                mat_font_sis <system, 12, normal>
+                              man_end_object
+                            man_end_object
+                          man_end_object
+                          man_update_display
+                        man_update_woff_end_stream

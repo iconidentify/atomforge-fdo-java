@@ -1,0 +1,82 @@
+uni_start_stream
+  man_start_object <ind_group, "Static Form Epsilon">
+    mat_orientation <vce>
+    mat_precise_width <325>
+    mat_precise_height <115>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-5-34664>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <0>
+      mat_precise_height <0>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      man_start_object <ornament, "">
+        mat_precise_x <5>
+        mat_precise_y <19>
+        mat_art_id <1-0-40053>
+      man_start_sibling <ornament, "">
+        mat_precise_width <234>
+        mat_precise_height <50>
+        mat_precise_x <83>
+        mat_precise_y <13>
+        man_append_data <"epsilon save execute alpha dialog process sigma main.">
+        man_append_data <"static first start secondary handle create handle front.">
+        man_append_data <"Default Object">
+        man_end_data
+        uni_end_typed_data
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <ornament, "Primary Right">
+      mat_precise_x <11>
+      mat_precise_y <81>
+      mat_font_sis <arial, 9, bold>
+      mat_orientation <hlf>
+    man_start_sibling <edit_view, "">
+      mat_bool_importable <yes>
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <83>
+      mat_precise_y <77>
+      mat_bool_resize_vertical <no>
+      mat_bool_vertical_scroll <no>
+      mat_capacity <16>
+      mat_field_script <any>
+      mat_validation <128>
+      mat_relative_tag <1>
+    man_start_sibling <trigger, "OK">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <03x>
+            de_start_extraction
+            de_validate <display_msg>
+            if_last_return_true_then <1, 2>
+            uni_wait_off
+          uni_abort_stream
+          uni_sync_skip <1>
+          buf_set_token <"Ln">
+          de_get_data
+          de_end_extraction
+          buf_close_buffer
+          uni_sync_skip <2>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 8, bold>
+      mat_color_text <255, 255, 255>
+      mat_color_text_shadow <36, 36, 85>
+      mat_precise_width <55>
+      mat_precise_height <23>
+      mat_precise_x <252>
+      mat_precise_y <78>
+      mat_color_frame_hilight <182, 182, 255>
+      mat_color_frame_shadow <1, 36, 85>
+      mat_bool_default <yes>
+      mat_color_selected <218, 218, 218>
+      mat_color_top_edge <182, 182, 255>
+      mat_color_bottom_edge <36, 36, 85>
+      mat_color_face <72, 109, 170>
+    man_end_object
+  man_update_woff_end_stream

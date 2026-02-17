@@ -1,0 +1,435 @@
+uni_start_stream
+  man_insert_object_before <31>
+  mat_title <"*">
+  man_start_object <dss_list, "Advanced Dialog">
+    man_start_object <trigger, "Basic Dialog Screen">
+      act_replace_select_action
+          <
+          uni_start_stream
+            uni_invoke_no_context <32-2501>
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "Dynamic Section Sub">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"f7", 4>
+            >
+        man_end_object
+        man_start_object <trigger, "Fourth Form South">
+          act_replace_select_action
+              <
+              uni_start_stream
+                uni_invoke_no_context <32-2502>
+              uni_end_stream
+              >
+          man_end_object
+          man_start_object <trigger, "Simple Window Bottom">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  uni_invoke_no_context <32-2557>
+                uni_end_stream
+                >
+            man_end_object
+            man_start_object <trigger, "Advanced Widget\\Off">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    act_get_db_value <14x, ffx, 00x, 40x>
+                    if_last_return_false_then <80, 81>
+                    idb_start_obj <"b">
+                    idb_atr_globalid <20-255-64>
+                    idb_atr_offset <0>
+                    idb_append_data <01x>
+                    idb_end_obj
+                    async_error_box <"Custom South">
+                    uni_sync_skip <80>
+                    idb_start_obj <"b">
+                    idb_atr_globalid <20-255-64>
+                    idb_atr_offset <1>
+                    idb_append_data <00x>
+                    idb_end_obj
+                    async_error_box <"Primary Gadget">
+                    uni_sync_skip <81>
+                  uni_end_stream
+                  >
+              man_end_object
+            man_end_object
+            man_start_object <ornament, "">
+            man_end_object
+            man_start_object <dss_list, "Default Area">
+              man_start_object <trigger, "Custom View Corner">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_send_token_arg <"f7", 3>
+                    >
+                man_end_object
+                man_start_object <trigger, "Old Frame">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_send_token_arg <"f7", 2>
+                      >
+                  man_end_object
+                  man_start_object <trigger, "Dynamic Corner">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_send_token_arg <"f7", 1>
+                        >
+                    man_end_object
+                  man_end_object
+                  man_start_object <ornament, "">
+                  man_end_object
+                  man_start_object <trigger, "Custom South Omega">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          mt_start_atomdebug
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_start_object <trigger, "Special Block">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            mt_super_snoop
+                          uni_end_stream
+                          >
+                      man_end_object
+                      man_start_object <trigger, "First East">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              mt_set_spy_mode
+                            uni_end_stream
+                            >
+                        man_end_object
+                        man_start_object <trigger, "Second Top Gamma">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                mt_open_diag
+                              uni_end_stream
+                              >
+                          man_end_object
+                          man_start_object <trigger, "New Beta">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  mt_break
+                                uni_end_stream
+                                >
+                            man_end_object
+                            man_start_object <trigger, "Primary Component\\Static Main Top">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    act_get_db_value <14x, 00x, 01x, 2ex>
+                                    if_last_return_false_then <12, 14>
+                                    idb_start_obj <"b">
+                                    idb_atr_globalid <20-0-302>
+                                    idb_atr_offset <0>
+                                    idb_append_data <01x>
+                                    idb_end_obj
+                                    async_error_box <"Simple Item Item">
+                                    uni_sync_skip <12>
+                                    idb_start_obj <"b">
+                                    idb_atr_globalid <20-0-302>
+                                    idb_atr_offset <0>
+                                    idb_append_data <00x>
+                                    idb_end_obj
+                                    async_error_box <"Complex Unit Delta">
+                                    uni_sync_skip <14>
+                                  uni_end_stream
+                                  >
+                              man_end_object
+                              man_start_object <trigger, "Standard Epsilon\\Old Window Center">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      uni_invoke_no_context <40-62194>
+                                    uni_end_stream
+                                    >
+                                man_end_object
+                                man_start_object <ornament, "">
+                                man_end_object
+                                man_start_object <trigger, "Primary Right Box">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        mt_play_binary
+                                      uni_end_stream
+                                      >
+                                  man_end_object
+                                  man_start_object <trigger, "Primary Box East">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          mt_play_text
+                                        uni_end_stream
+                                        >
+                                    man_end_object
+                                    man_start_object <trigger, "Secondary Top South">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            mt_start_edit_text
+                                          uni_end_stream
+                                          >
+                                      man_end_object
+                                      man_start_object <ornament, "">
+                                      man_end_object
+                                      man_start_object <trigger, "First Gadget Element">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                              uni_invoke_local <32-503>
+                                              async_alert <info, "Previous Block Sigma">
+                                            uni_end_stream
+                                            >
+                                        man_end_object
+                                        man_start_object <trigger, "Special Item View">
+                                          mat_shortcut_key <"V">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                uni_invoke_no_context <32-2411>
+                                              uni_end_stream
+                                              >
+                                          man_end_object
+                                          man_start_object <trigger, "Custom Side Unit">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                  idb_delete_obj <85>
+                                                  async_alert <info, "Old Label Center">
+                                                uni_end_stream
+                                                >
+                                            man_end_object
+                                            man_start_object <trigger, "Custom Sigma Panel">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                    mt_hilight_groups_in_top_form
+                                                  uni_end_stream
+                                                  >
+                                              man_end_object
+                                              man_start_object <trigger, "Standard Sub Area">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                      mt_delete_art_in_top_form
+                                                    uni_end_stream
+                                                    >
+                                                man_end_object
+                                                man_start_object <trigger, "Active Sub Main">
+                                                  mat_shortcut_key <"M">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                        mt_manage_tools
+                                                      uni_end_stream
+                                                      >
+                                                  man_end_object
+                                                  man_start_object <ornament, "">
+                                                  man_end_object
+                                                  man_start_object <dss_list, "Active Corner">
+                                                    man_start_object <dss_list, "Current Alpha">
+                                                      man_start_object <trigger, "Standard South Sigma">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              idb_start_obj <"b">
+                                                              idb_atr_globalid <20-0-207>
+                                                              idb_atr_offset <0>
+                                                              idb_append_data <01x>
+                                                              idb_end_obj
+                                                            uni_end_stream
+                                                            >
+                                                        man_end_object
+                                                        man_start_object <trigger, "Old Right Right">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                                idb_delete_obj <20-0-207>
+                                                              uni_end_stream
+                                                              >
+                                                          man_end_object
+                                                          man_start_object <ornament, "">
+                                                          man_end_object
+                                                          man_start_object <trigger, "Sub Center Box">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                  mt_set_timeout_mode <01x>
+                                                                uni_end_stream
+                                                                >
+                                                            man_end_object
+                                                            man_start_object <trigger, "New West Label">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                    mt_set_timeout_mode <00x>
+                                                                  uni_end_stream
+                                                                  >
+                                                              man_end_object
+                                                            man_end_object
+                                                            man_start_object <trigger, "Standard Bottom">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                    ccl_reload_networks
+                                                                    async_alert <info, "Custom Block">
+                                                                  uni_end_stream
+                                                                  >
+                                                              man_end_object
+                                                              man_start_object <dss_list, "Basic Sub">
+                                                                man_start_object <trigger, "Current Side">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                        mt_waolsock_debug <1>
+                                                                      uni_end_stream
+                                                                      >
+                                                                  man_end_object
+                                                                  man_start_object <trigger, "Previous Center">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                          mt_waolsock_debug <2>
+                                                                        uni_end_stream
+                                                                        >
+                                                                    man_end_object
+                                                                    man_start_object <trigger, "Active Gamma">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                            mt_waolsock_debug <3>
+                                                                          uni_end_stream
+                                                                          >
+                                                                      man_end_object
+                                                                    man_end_object
+                                                                    man_start_object <dss_list, "Main Center Corner">
+                                                                      man_start_object <trigger, "Primary Bottom">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                              mt_test_crash
+                                                                            uni_end_stream
+                                                                            >
+                                                                        man_end_object
+                                                                        man_start_object <trigger, "Special Item">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                                mt_test_crash <1>
+                                                                              uni_end_stream
+                                                                              >
+                                                                          man_end_object
+                                                                          man_start_object <trigger, "Custom Right">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                  mt_test_crash <2>
+                                                                                uni_end_stream
+                                                                                >
+                                                                            man_end_object
+                                                                          man_end_object
+                                                                          man_start_object <ornament, "">
+                                                                          man_end_object
+                                                                          man_start_object <dss_list, "Previous Widget">
+                                                                            man_start_object <trigger, "Static Box Block">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                    uni_invoke_no_context <32-2539>
+                                                                                  uni_end_stream
+                                                                                  >
+                                                                              man_end_object
+                                                                              man_start_object <trigger, "Second Widget Object">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                      idb_delete_obj <20-0-54>
+                                                                                      idb_delete_obj <20-0-55>
+                                                                                      idb_delete_obj <20-0-56>
+                                                                                      idb_delete_obj <20-0-61>
+                                                                                    uni_end_stream
+                                                                                    >
+                                                                                man_end_object
+                                                                                man_start_object <ornament, "">
+                                                                                man_end_object
+                                                                                man_start_object <trigger, "Primary Button Object">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream
+                                                                                        idb_start_obj <"b">
+                                                                                        idb_atr_globalid <20-0-86>
+                                                                                        idb_atr_offset <0>
+                                                                                        idb_append_data <01x>
+                                                                                        idb_end_obj
+                                                                                      uni_end_stream
+                                                                                      >
+                                                                                  man_end_object
+                                                                                  man_start_object <trigger, "Secondary Label Gamma">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream
+                                                                                          idb_delete_obj <20-0-86>
+                                                                                        uni_end_stream
+                                                                                        >
+                                                                                    man_end_object
+                                                                                  man_end_object
+                                                                                  man_start_object <ornament, "">
+                                                                                  man_end_object
+                                                                                  man_start_object <trigger, "Second View Frame">
+                                                                                    mat_shortcut_key <"S">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream
+                                                                                          uni_invoke_no_context <32-478>
+                                                                                        uni_end_stream
+                                                                                        >
+                                                                                    man_end_object
+                                                                                    man_start_object <trigger, "New Alpha Button">
+                                                                                      mat_shortcut_key <"V">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream
+                                                                                            uni_invoke_no_context <32-4603>
+                                                                                          uni_end_stream
+                                                                                          >
+                                                                                      man_end_object
+                                                                                      man_start_object <trigger, "Fourth Right Alpha">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream
+                                                                                              uni_invoke_no_context <32-1640>
+                                                                                            uni_end_stream
+                                                                                            >
+                                                                                        man_end_object
+                                                                                        man_start_object <trigger, "Previous Sub Form">
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_start_stream
+                                                                                                uni_invoke_no_context <32-4674>
+                                                                                              uni_end_stream
+                                                                                              >
+                                                                                          man_end_object
+                                                                                          man_start_object <ornament, "">
+                                                                                          man_end_object
+                                                                                          man_start_object <trigger, "Main Side Area">
+                                                                                            act_replace_select_action
+                                                                                                <
+                                                                                                uni_start_stream
+                                                                                                  uni_invoke_no_context <32-5869>
+                                                                                                uni_end_stream
+                                                                                                >
+                                                                                            man_end_object
+                                                                                          man_end_object
+                                                                                        man_update_end_object
+                                                                                      uni_end_stream

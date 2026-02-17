@@ -1,0 +1,96 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Second Area Button">
+    mat_object_id <32-8655>
+    mat_style_id <32-8655>
+    mat_orientation <vft>
+    mat_precise_width <370>
+    mat_precise_height <155>
+    mat_color_face <255, 255, 255>
+    mat_style_id <32-2508>
+    mat_object_id <32-2508>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <345>
+      mat_precise_height <100>
+      mat_font_size <8>
+      mat_precise_width <345>
+      mat_precise_height <100>
+      mat_font_id <arial>
+      man_append_data <"primary new main invoke main create handle primary. close region view special\x7f\x7frefresh handle refresh beta center receive item handle. sub stop element module">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <157>
+      mat_precise_width <409>
+      mat_precise_height <29>
+      man_start_object <trigger, "Yes">
+        mat_title_width <7>
+        mat_precise_x <82>
+        mat_precise_y <120>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-57>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-2509>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "No">
+          mat_title_width <7>
+          mat_precise_x <150>
+          mat_precise_y <120>
+          mat_color_face <0, 51, 153>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <102, 153, 204>
+          mat_color_bottom_edge <0, 0, 102>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-57>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-2510>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Old Dialog">
+            mat_title_width <7>
+            mat_precise_x <218>
+            mat_precise_y <120>
+            mat_color_face <0, 51, 153>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <102, 153, 204>
+            mat_color_bottom_edge <0, 0, 102>
+            mat_font_size <8>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

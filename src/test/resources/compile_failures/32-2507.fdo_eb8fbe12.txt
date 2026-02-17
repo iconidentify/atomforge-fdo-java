@@ -1,0 +1,167 @@
+uni_start_stream <00x>
+  idb_set_context <20-0-16>
+  idb_atr_offset <1>
+  idb_get_string
+  var_string_set_from_atom <A>
+  var_string_set <B,"New User  ">
+  idb_end_context
+  if_stra_eq_strb_then <10, 99>
+  uni_next_atom_typed <ascii>
+  async_alert <info, "Please register an account to use this feature."">
+  uni_sync_skip <10>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Kurierdienst-Einstellungen">
+    mat_object_id <32-2507>
+    mat_style_id <32-2507>
+    mat_orientation <vft>
+    mat_precise_width <480>
+    mat_precise_height <350>
+    mat_color_face <255, 251, 240>
+    mat_art_id <1-0-38936>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_precise <yes>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Der Kurierdienst">
+      mat_precise_x <44>
+      mat_precise_y <19>
+      mat_precise_width <350>
+      mat_precise_height <21>
+      mat_font_id <arial>
+      mat_font_size <12>
+      mat_font_style <bold>
+    man_start_sibling <ornament, "">
+      mat_precise_x <21>
+      mat_precise_y <21>
+      mat_trigger_style <plain_picture>
+      mat_art_id <1-1-52891>
+      mat_bool_disabled <yes>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_x <45>
+      mat_precise_y <40>
+      mat_precise_width <390>
+      mat_precise_height <1>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+    man_start_sibling <ornament, "">
+      mat_precise_x <44>
+      mat_precise_y <57>
+      mat_precise_width <388>
+      mat_precise_height <250>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <250>
+      mat_font_id <arial>
+      man_append_data <"Der AOL Kurierdienst gibt Ihnen die M�glichkeit, sich sofort oder zu bestimmten Zeiten bei AOL anzumelden, um wahlweise folgende Aufgaben auszuf�hren:\x7f\x7f- eMail offline lesen und beantworten\x7f- Mitteilungen in Newsgroups und Pinboards offline verwalten\x7f- Bilder, Texte und Dateien aus dem Archiv-Manager herunterladen\x7f\x7fDabei hilft Ihnen der AOL Kurierdienst, Zeit und Geld zu sparen, denn er erledigt die von Ihnen festgelegten Aufgaben automatisch, auch ohne Ihre Anwesenheit am Computer.\x7f\x7fDie folgende kurze Einf�hrung soll Ihnen helfen, die Aufgaben f�r Ihren Kurierdienst zu bestimmen. Falls Sie sich schon mit dem AOL Kurierdienst auskennen, klicken Sie bitte auf "Profi" und nehmen dann die gew�nschten �nderungen vor.\x7f\x7fW�hlen Sie "Weiter", um die Einstellungen f�r Ihren AOL Kurierdienst festzulegen.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_x <6>
+      mat_precise_y <283>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <104>
+        mat_precise_y <315>
+        mat_precise_width <73>
+        mat_precise_height <23>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        uni_next_atom_typed <ascii>
+        mat_title <"Weiter">
+        mat_precise_width <73>
+        mat_precise_height <23>
+        mat_font_sis <arial, 8, bold>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <36, 36, 85>
+        mat_color_frame_hilight <182, 182, 255>
+        mat_color_frame_shadow <1, 36, 85>
+        mat_color_selected <218, 218, 218>
+        mat_color_top_edge <182, 182, 255>
+        mat_color_bottom_edge <36, 36, 85>
+        mat_color_face <72, 109, 170>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_invoke_no_context <32-2508>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <207>
+          mat_precise_y <314>
+          mat_precise_width <75>
+          mat_precise_height <25>
+          mat_color_face <0, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_bottom_edge <1, 1, 1>
+          uni_next_atom_typed <ascii>
+          mat_title <"Profi">
+          mat_precise_width <75>
+          mat_precise_height <25>
+          mat_font_sis <arial, 8, bold>
+          mat_color_text <255, 255, 255>
+          mat_color_text_shadow <36, 36, 85>
+          mat_color_frame_hilight <182, 182, 255>
+          mat_color_frame_shadow <1, 36, 85>
+          mat_color_selected <218, 218, 218>
+          mat_color_top_edge <182, 182, 255>
+          mat_color_bottom_edge <36, 36, 85>
+          mat_color_face <72, 109, 170>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                uni_next_atom_typed <ascii>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-62>
+                idb_append_data <01x>
+                idb_end_obj
+                man_do_magic_response_id <2099658>
+                uni_invoke_no_context <32-2506>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_title_width <7>
+            mat_precise_x <305>
+            mat_precise_y <314>
+            mat_precise_width <75>
+            mat_precise_height <25>
+            mat_color_face <0, 109, 170>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <145, 182, 255>
+            mat_color_bottom_edge <1, 1, 1>
+            uni_next_atom_typed <ascii>
+            mat_title <"Abbrechen">
+            mat_precise_width <75>
+            mat_precise_height <25>
+            mat_font_sis <arial, 8, bold>
+            mat_color_text <255, 255, 255>
+            mat_color_text_shadow <36, 36, 85>
+            mat_color_frame_hilight <182, 182, 255>
+            mat_color_frame_shadow <1, 36, 85>
+            mat_color_selected <218, 218, 218>
+            mat_color_top_edge <182, 182, 255>
+            mat_color_bottom_edge <36, 36, 85>
+            mat_color_face <72, 109, 170>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          uni_wait_off
+          man_update_display
+          man_end_context
+          uni_sync_skip <99>
+          uni_end_typed_data
+        uni_end_stream <00x>

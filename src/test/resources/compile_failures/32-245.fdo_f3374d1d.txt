@@ -1,0 +1,195 @@
+uni_start_stream <00x>
+  uni_start_typed_data <latin1>
+  man_start_object <ind_group, "Pr�f�rences - Discussion">
+    mat_object_id <32-245>
+    mat_style_id <32-245>
+    mat_orientation <vff>
+    mat_precise_width <310>
+    mat_precise_height <170>
+    mat_color_face <255, 251, 240>
+    mat_position <cascade>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <235>
+      mat_precise_height <130>
+      man_start_object <sms_list, "">
+        mat_orientation <vff>
+        man_start_object <trigger, "Signaler l'arriv�e d'un membre">
+          mat_precise_x <10>
+          mat_precise_y <11>
+          mat_relative_tag <1>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Signaler le d�part d'un membre">
+          mat_precise_x <10>
+          mat_precise_y <36>
+          mat_relative_tag <2>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Messages avec double interlignage">
+          mat_precise_x <10>
+          mat_precise_y <61>
+          mat_relative_tag <3>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Classer alphab�tiquement la liste des membres">
+          mat_precise_x <10>
+          mat_precise_y <86>
+          mat_precise_width <55>
+          mat_relative_tag <4>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Activer les sons des salons">
+          mat_precise_x <10>
+          mat_precise_y <111>
+          mat_relative_tag <5>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_y <130>
+      mat_precise_width <346>
+      mat_precise_height <40>
+      man_start_object <trigger, "OK">
+        mat_title_width <9>
+        mat_precise_x <63>
+        mat_precise_y <138>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <255, 153, 0>
+        mat_color_top_edge <255, 240, 0>
+        mat_color_bottom_edge <255, 240, 0>
+        mat_trigger_style <rectangle>
+        mat_font_size <8>
+        mat_horizontal_spacing <7>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        mat_shortcut_key <"\x00">
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction
+              man_set_context_relative <1>
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-37>
+              de_get_data_value
+              var_number_set_from_atom <A>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_globalid <1>
+              var_number_save <A, 67>
+              man_end_context
+              man_set_context_relative <2>
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-38>
+              de_get_data_value
+              var_number_set_from_atom <A>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_globalid <1>
+              var_number_save <A, 68>
+              man_end_context
+              man_set_context_relative <3>
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-39>
+              de_get_data_value
+              var_number_set_from_atom <A>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_globalid <1>
+              var_number_save <A, 71>
+              man_end_context
+              man_set_context_relative <4>
+              act_get_db_value <14x, 00x, 00x, 28x>
+              var_number_set_from_atom <B>
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-40>
+              de_get_data_value
+              var_number_set_from_atom <A>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_globalid <1>
+              var_number_save <A, 70>
+              if_numa_neq_numb_then <1>
+              uni_next_atom_typed <ascii>
+              async_alert <info, "Pour que le classement choisi prenne effet, entrez de nouveau dans le salon actuel ou dans un autre salon.">
+              uni_sync_skip <1>
+              man_end_context
+              man_set_context_relative <5>
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-44>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              chat_refresh_pref
+              de_end_extraction
+              man_close
+              man_update_display
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Annuler">
+          mat_title_width <9>
+          mat_precise_x <174>
+          mat_precise_y <138>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_face <255, 153, 0>
+          mat_color_top_edge <255, 240, 0>
+          mat_color_bottom_edge <255, 240, 0>
+          mat_trigger_style <rectangle>
+          mat_font_size <8>
+          mat_font_id <arial>
+          mat_shortcut_key <"\x00">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        man_set_context_relative <1>
+        act_get_db_value <14x, 00x, 00x, 25x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <2>
+        act_get_db_value <14x, 00x, 00x, 26x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <3>
+        act_get_db_value <14x, 00x, 00x, 27x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <4>
+        act_get_db_value <14x, 00x, 00x, 28x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <5>
+        act_get_db_value <14x, 00x, 00x, 2cx>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_update_display
+        uni_end_typed_data
+        uni_wait_off
+      uni_end_stream <00x>

@@ -1,0 +1,58 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Current Theta Omega">
+    mat_object_id <32-2514>
+    mat_style_id <32-2514>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <225>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Current Sub Object">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <267>
+      mat_precise_height <24>
+      mat_vertical_spacing <6>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <80>
+      mat_font_sis <arial, 8, normal>
+      mat_vertical_spacing <2>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      man_append_data <"dialog receive advanced bottom primary handle east third. component standard alpha front delete frame primary frame. stop open area\x7f\x7fsection previous primary receive default invoke gadget default. main handle fourth second receive open start current. refresh alpha previous button">
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      mat_precise_width <100>
+      mat_precise_height <25>
+      man_start_object <trigger, "OK">
+        mat_title_width <9>
+        mat_precise_x <183>
+        mat_precise_y <183>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

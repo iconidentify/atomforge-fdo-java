@@ -1,0 +1,417 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "[392-25.2500.t_rmp] TOOLS: Rainman">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-22982>
+    mat_bool_background_pic <yes>
+    mat_position <cascade>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <417>
+      mat_precise_height <60>
+      mat_precise_x <108>
+      mat_precise_y <8>
+      mat_color_face <182, 182, 170>
+      mat_bool_background_flood <yes>
+      man_start_object <trigger, "">
+        mat_context_help <"Click here to go to the\r\nARC Main screen">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_send_token_arg <"K1", 17-62069>
+          uni_end_stream
+          >
+        mat_precise_width <82>
+        mat_precise_height <65>
+        mat_precise_x <108>
+        mat_precise_y <7>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-1-23019>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_context_help <"Click here for Access info">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_p_send_token_arg <"K1", 17-62070>
+          uni_end_stream
+          >
+        mat_precise_width <85>
+        mat_precise_height <65>
+        mat_precise_x <190>
+        mat_precise_y <7>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-1-23017>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_context_help <"Click here for Support info">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_p_send_token_arg <"K1", 17-62071>
+          uni_end_stream
+          >
+        mat_precise_width <83>
+        mat_precise_height <65>
+        mat_precise_x <275>
+        mat_precise_y <7>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-1-23723>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_precise_width <86>
+        mat_precise_height <65>
+        mat_precise_x <358>
+        mat_precise_y <7>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-1-23004>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_context_help <"Click here for Training info">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_p_send_token_arg <"K1", 17-62073>
+          uni_end_stream
+          >
+        mat_precise_width <83>
+        mat_precise_height <65>
+        mat_precise_x <444>
+        mat_precise_y <7>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-1-23016>
+      man_end_object
+    man_end_object
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_precise_width <394>
+      mat_precise_height <47>
+      mat_precise_x <121>
+      mat_precise_y <77>
+      mat_orientation <hlf>
+      mat_font_sis <arial, 9, normal>
+    man_end_object
+    man_start_object <trigger, "">
+      mat_relative_tag <70>
+      mat_context_help <"Click for General info">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"K1", 0-17-62378>
+          >
+        mat_precise_width <18>
+        mat_precise_height <18>
+        mat_precise_x <6>
+        mat_precise_y <140>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-0-6837>
+        mat_trigger_style <plain_picture>
+      man_end_object
+      man_start_object <ornament, "General">
+        mat_relative_tag <71>
+        mat_precise_width <205>
+        mat_precise_height <21>
+        mat_precise_x <31>
+        mat_precise_y <140>
+        mat_orientation <hlf>
+        mat_font_sis <arial, 12, bold>
+      man_end_object
+      man_start_object <trigger, "">
+        mat_relative_tag <72>
+        mat_context_help <"Click for Art Press info">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-8-20>
+            >
+          mat_precise_width <18>
+          mat_precise_height <18>
+          mat_precise_x <6>
+          mat_precise_y <167>
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-6837>
+          mat_trigger_style <plain_picture>
+        man_end_object
+        man_start_object <ornament, "Rainman & Clerk 2">
+          mat_relative_tag <75>
+          mat_precise_width <205>
+          mat_precise_height <21>
+          mat_precise_x <31>
+          mat_precise_y <194>
+          mat_orientation <hlf>
+          mat_font_sis <arial, 12, bold>
+        man_end_object
+        man_start_object <trigger, "">
+          mat_relative_tag <74>
+          mat_context_help <"Click for Rainman & Clerk2 info">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-8-25>
+              >
+            mat_precise_width <18>
+            mat_precise_height <18>
+            mat_precise_x <6>
+            mat_precise_y <194>
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-6838>
+            mat_trigger_style <plain_picture>
+          man_end_object
+          man_start_object <ornament, "Visual Publisher Designer">
+            mat_relative_tag <79>
+            mat_precise_width <205>
+            mat_precise_height <21>
+            mat_precise_x <31>
+            mat_precise_y <252>
+            mat_orientation <hlf>
+            mat_font_sis <arial, 12, bold>
+          man_end_object
+          man_start_object <trigger, "">
+            mat_relative_tag <76>
+            mat_context_help <"Click for Stratus info">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-8-21>
+                >
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_precise_x <6>
+              mat_precise_y <223>
+              mat_font_sis <small_fonts, 7, normal>
+              mat_art_id <1-0-6837>
+              mat_trigger_style <plain_picture>
+            man_end_object
+            man_start_object <ornament, "ART Press Tools\r">
+              mat_relative_tag <73>
+              mat_precise_width <205>
+              mat_precise_height <21>
+              mat_precise_x <31>
+              mat_precise_y <167>
+              mat_orientation <hlf>
+              mat_font_sis <arial, 12, bold>
+            man_end_object
+            man_start_object <ornament, "Stratus Tools">
+              mat_relative_tag <77>
+              mat_precise_width <205>
+              mat_precise_height <21>
+              mat_precise_x <31>
+              mat_precise_y <223>
+              mat_orientation <hlf>
+              mat_font_sis <arial, 12, bold>
+            man_end_object
+            man_start_object <ornament, "Miscellaneous">
+              mat_relative_tag <81>
+              mat_precise_width <205>
+              mat_precise_height <21>
+              mat_precise_x <31>
+              mat_precise_y <281>
+              mat_orientation <hlf>
+              mat_font_sis <arial, 12, bold>
+            man_end_object
+            man_start_object <dss_list, "">
+              mat_precise_width <300>
+              mat_precise_height <154>
+              mat_precise_x <242>
+              mat_precise_y <155>
+              mat_relative_tag <30>
+              mat_font_sis <arial, 9, normal>
+              mat_bool_list_icons <yes>
+              mat_sort_order <normal>
+              mat_ruler <14>
+              man_start_object <trigger, "[t_1001  ]\tBug Report Form">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"f1", 0-41-27878>
+                    >
+                  mat_art_id <1-0-1479>
+                man_end_object
+                man_start_object <trigger, "[tz_req  ]\tTools Suggestions and Feedback">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"f1", 0-43-17914>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_end_object
+                  man_start_object <trigger, "[t_rmp   ]\t======WINDOWS======">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-8-25>
+                        >
+                      mat_art_id <1-0-53845>
+                    man_end_object
+                    man_start_object <trigger, "[tz_3001 ]\tUsing the RM Grinder for Windows">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-8-536>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_end_object
+                      man_start_object <trigger, "[tz_15000]\tGM: AOL 2.5 RM Grinder 1.20">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-8-32>
+                            >
+                          mat_art_id <1-0-1482>
+                        man_end_object
+                        man_start_object <trigger, "[tz_15007]\tGM:  AOL 3.0 16 bit RM Grinder 1.3">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U3", 0-8-48>
+                              >
+                            mat_art_id <1-0-1482>
+                          man_end_object
+                          man_start_object <trigger, "[tz_15008]\tGM:  AOL 3.0 32 bit RM Grinder 1.3">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U3", 0-8-836>
+                                >
+                              mat_art_id <1-0-1482>
+                            man_end_object
+                            man_start_object <trigger, "[tz_15005]\tGM:  16 bit Rainman Tool 1.8">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U3", 0-8-45>
+                                  >
+                                mat_art_id <1-0-1482>
+                              man_end_object
+                              man_start_object <trigger, "[tz_15006]\tGM:  32 bit Rainman Tool 1.8">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U3", 0-8-835>
+                                    >
+                                  mat_art_id <1-0-1482>
+                                man_end_object
+                                man_start_object <trigger, "[tz_15025]\tBETA: VP Rainman 1.95 ver 058">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U3", 0-8-530>
+                                      >
+                                    mat_art_id <1-0-1482>
+                                  man_end_object
+                                  man_start_object <trigger, "[t_rmp   ]\t======MAC======">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"U3", 0-8-25>
+                                        >
+                                      mat_art_id <1-0-53845>
+                                    man_end_object
+                                    man_start_object <trigger, "[tz_3002 ]\tUsing the MAC RM Grinder">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"U3", 0-8-535>
+                                          >
+                                        mat_art_id <1-0-1478>
+                                      man_end_object
+                                      man_start_object <trigger, "[tz_15018]\tGM: RM Grinder 2.1.2">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"U3", 0-8-53>
+                                            >
+                                          mat_art_id <1-0-1482>
+                                        man_end_object
+                                        man_start_object <trigger, "[tz_15017]\tBETA: Rainman Tool 2.0 ver 021">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"U3", 0-8-316>
+                                              >
+                                            mat_art_id <1-0-1482>
+                                          man_end_object
+                                          man_start_object <trigger, "[tz_15019]\tGM: RMP Mailer">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"U3", 0-8-342>
+                                                >
+                                              mat_art_id <1-0-1482>
+                                            man_end_object
+                                            man_start_object <trigger, "[t_rmp   ]\t=====INTERNATIONAL=====">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"U3", 0-8-25>
+                                                  >
+                                                mat_art_id <1-0-53845>
+                                              man_end_object
+                                              man_start_object <trigger, "[t_intl  ]\tInternational Rainman Tools">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"f1", 0-43-7560>
+                                                    >
+                                                  mat_art_id <1-0-1477>
+                                                man_end_object
+                                              man_end_object
+                                              man_start_object <org_group, "">
+                                                mat_orientation <hff>
+                                                mat_precise_width <300>
+                                                mat_precise_height <20>
+                                                mat_precise_x <242>
+                                                mat_precise_y <134>
+                                                mat_color_face <182, 182, 170>
+                                                mat_bool_background_flood <yes>
+                                                man_start_object <ornament, "Rainman & Clerk 2">
+                                                  mat_relative_tag <3>
+                                                  mat_precise_width <300>
+                                                  mat_precise_height <20>
+                                                  mat_precise_x <242>
+                                                  mat_precise_y <134>
+                                                  mat_orientation <hcf>
+                                                  mat_font_sis <arial, 12, bold>
+                                                man_end_object
+                                              man_end_object
+                                              man_start_object <trigger, "">
+                                                mat_relative_tag <78>
+                                                mat_context_help <"Click for VPD info">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"U3", 0-8-22>
+                                                    >
+                                                  mat_precise_width <18>
+                                                  mat_precise_height <18>
+                                                  mat_precise_x <6>
+                                                  mat_precise_y <252>
+                                                  mat_font_sis <small_fonts, 7, normal>
+                                                  mat_art_id <1-0-6837>
+                                                  mat_trigger_style <plain_picture>
+                                                man_end_object
+                                                man_start_object <trigger, "">
+                                                  mat_relative_tag <80>
+                                                  mat_context_help <"Click for Miscellaneous info">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"U3", 0-8-24>
+                                                      >
+                                                    mat_precise_width <18>
+                                                    mat_precise_height <18>
+                                                    mat_precise_x <6>
+                                                    mat_precise_y <281>
+                                                    mat_font_sis <small_fonts, 7, normal>
+                                                    mat_art_id <1-0-6837>
+                                                    mat_trigger_style <plain_picture>
+                                                  man_end_object
+                                                man_end_object
+                                                man_update_display
+                                                uni_wait_off
+                                              uni_end_stream

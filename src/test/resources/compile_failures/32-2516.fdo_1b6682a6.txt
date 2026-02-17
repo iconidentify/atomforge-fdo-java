@@ -1,0 +1,81 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Automactic AOL Walk-Through">
+    mat_object_id <32-8976>
+    mat_style_id <32-8976>
+    mat_orientation <vft>
+    mat_color_face <255, 255, 255>
+    mat_object_id <32-2516>
+    mat_style_id <32-2516>
+    mat_title <"Visite guid�e des Sessions Express">
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Planifier des Sessions Express">
+      mat_size <25, 1>
+      mat_vertical_spacing <5>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <70>
+      mat_vertical_spacing <5>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"Souhaitez-vous planifier des Sessions Express ?\x7f\x7fVous pouvez lancer une Session Express sans la planifier : il vous suffit de s�lectionner <B>Ouvrir une Session Express</B> dans le menu <B>E-mail</B>">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_color_face <204, 204, 255>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <153, 153, 204>
+        mat_font_size <8>
+        mat_title <"   Oui   ">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_invoke_no_context <32-2517>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_color_face <204, 204, 255>
+          mat_color_top_edge <255, 255, 255>
+          mat_color_bottom_edge <153, 153, 204>
+          mat_font_size <8>
+          mat_title <"   Non   ">
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                uni_invoke_no_context <32-2515>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_color_face <204, 204, 255>
+            mat_color_top_edge <255, 255, 255>
+            mat_color_bottom_edge <153, 153, 204>
+            mat_font_size <8>
+            mat_title <" Annuler ">
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

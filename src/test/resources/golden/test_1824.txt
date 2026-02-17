@@ -1,0 +1,61 @@
+uni_start_stream
+  man_start_object <ind_group, "Surf Vegas">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <290>
+    mat_bool_precise <yes>
+    mat_art_id <1-0-7853>
+    mat_bool_background_pic <yes>
+    man_start_object <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"t1", 0-22-22247>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_x <59>
+        mat_precise_y <23>
+        mat_art_id <1-0-8640>
+      man_start_sibling <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"K1", 0-40-20342>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_x <24>
+          mat_precise_y <111>
+          mat_art_id <1-0-8639>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"t1", 0-1-60>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_x <62>
+            mat_precise_y <195>
+            mat_art_id <1-0-8643>
+          man_start_sibling <ornament, "Yuk, this sucks!">
+            mat_precise_x <316>
+            mat_precise_y <220>
+            mat_font_sis <arial, 14, normal>
+            mat_orientation <hlf>
+          man_start_sibling <ornament, "Mad Creator">
+            mat_precise_x <115>
+            mat_precise_y <30>
+            mat_font_sis <arial, 24, normal>
+            mat_orientation <hlf>
+          man_start_sibling <ornament, "Buc's stop here">
+            mat_precise_x <75>
+            mat_precise_y <118>
+            mat_font_sis <arial, 24, normal>
+            mat_orientation <hlf>
+          man_start_sibling <ornament, "Top Secret">
+            mat_precise_x <115>
+            mat_precise_y <200>
+            mat_font_sis <arial, 24, normal>
+            mat_orientation <hlf>
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

@@ -1,0 +1,429 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Internal Computing: Your Problem Solving Partner">
+    mat_orientation <vff>
+    mat_precise_width <577>
+    mat_precise_height <343>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\rand want to come back?\r\rJust click here to\radd this area to your\rFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <261>
+      mat_precise_height <408>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_color_face <109, 0, 85>
+      mat_bool_background_flood <yes>
+      man_start_object <trigger, "Emergency Help">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-1538>
+          uni_end_stream
+          >
+        mat_font_sis <arial, 9, bold>
+        mat_color_text <72, 255, 255>
+        mat_precise_width <100>
+        mat_precise_height <21>
+        mat_precise_x <130>
+        mat_precise_y <321>
+        mat_color_frame_hilight <109, 0, 85>
+        mat_color_top_edge <109, 36, 85>
+        mat_color_bottom_edge <109, 0, 85>
+        mat_color_face <109, 36, 85>
+      man_start_sibling <trigger, "Message Boards">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"^8", 17569>
+          uni_end_stream
+          >
+        mat_font_sis <arial, 9, bold>
+        mat_color_text <72, 255, 255>
+        mat_precise_width <100>
+        mat_precise_height <21>
+        mat_precise_x <14>
+        mat_precise_y <320>
+        mat_color_frame_hilight <109, 0, 85>
+        mat_color_top_edge <109, 36, 85>
+        mat_color_bottom_edge <109, 0, 85>
+        mat_color_face <109, 36, 85>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <0>
+      mat_precise_height <0>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <0>
+        mat_precise_height <0>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        man_start_object <org_group, "">
+          mat_orientation <hff>
+          mat_precise_width <0>
+          mat_precise_height <0>
+          mat_precise_x <0>
+          mat_precise_y <0>
+        man_end_object
+      man_end_object
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-6792>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 12, bold>
+      mat_precise_width <100>
+      mat_precise_height <74>
+      mat_precise_x <359>
+      mat_precise_y <49>
+      mat_art_id <1-1-40577>
+      mat_trigger_style <picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-3584>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 12, bold>
+      mat_color_text <1, 0, 0>
+      mat_precise_width <56>
+      mat_precise_height <58>
+      mat_precise_x <291>
+      mat_precise_y <166>
+      mat_art_id <1-1-40574>
+      mat_trigger_style <picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-3340>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 12, bold>
+      mat_precise_width <99>
+      mat_precise_height <41>
+      mat_precise_x <461>
+      mat_precise_y <162>
+      mat_art_id <1-1-40575>
+      mat_trigger_style <picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-3499>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 12, bold>
+      mat_precise_width <78>
+      mat_precise_height <49>
+      mat_precise_x <480>
+      mat_precise_y <76>
+      mat_art_id <1-1-40570>
+      mat_trigger_style <picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-3556>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 12, bold>
+      mat_precise_width <154>
+      mat_precise_height <84>
+      mat_precise_x <400>
+      mat_precise_y <229>
+      mat_art_id <1-1-40571>
+      mat_trigger_style <picture>
+    man_start_sibling <ornament, "IC Buzz">
+      mat_precise_width <174>
+      mat_precise_height <45>
+      mat_precise_x <39>
+      mat_precise_y <4>
+      mat_color_face <109, 0, 85>
+      mat_bool_background_flood <yes>
+      mat_font_sis <times_roman, 30, bold | italic>
+      mat_color_text <72, 255, 255>
+      mat_orientation <hcc>
+    man_start_sibling <dss_list, "">
+      mat_precise_width <253>
+      mat_precise_height <207>
+      mat_precise_x <5>
+      mat_precise_y <67>
+      mat_color_face <109, 0, 85>
+      mat_bool_background_flood <yes>
+      mat_font_sis <ms_sans_serif, 9, bold>
+      mat_color_text <72, 255, 255>
+      mat_color_text_shadow <109, 0, 85>
+      mat_sort_order <normal>
+      mat_ruler <14>
+      man_start_object <trigger, "Help Central">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4744>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Computer Moves">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4751>
+          uni_end_stream
+          >
+        mat_art_id <1-0-19928>
+      man_start_sibling <trigger, "Conference Rooms">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4757>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "IC Provides Products">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4763>
+          uni_end_stream
+          >
+        mat_art_id <1-0-19928>
+      man_start_sibling <trigger, "IC Provides you a Computer">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4745>
+          uni_end_stream
+          >
+        mat_art_id <1-0-19928>
+      man_start_sibling <trigger, "Connect your Computer to the LAN">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4748>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Cellular Phones and Pagers">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4755>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Excess Computer Equipment">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4746>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Servers as Application Platforms">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4750>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Space on File Servers">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4758>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Audio Conferencing Information">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-9286>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21221>
+      man_start_sibling <trigger, "Video Conference Network">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-3211>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Meeting Maker Servers">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4756>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Network Printers">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4747>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Server Backups">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4759>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Voice Mail Accounts">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4754>
+          uni_end_stream
+          >
+        mat_art_id <1-0-19928>
+      man_start_sibling <trigger, "Your Telephone">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4753>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_start_sibling <trigger, "Remote Access">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-4749>
+          uni_end_stream
+          >
+        mat_art_id <1-0-1478>
+      man_end_object
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-3151>
+        uni_end_stream
+        >
+      mat_font_sis <arial, 12, bold>
+      mat_precise_width <103>
+      mat_precise_height <31>
+      mat_precise_x <73>
+      mat_precise_y <284>
+      mat_art_id <1-0-19578>
+      mat_color_top_edge <109, 0, 85>
+      mat_color_face <109, 0, 85>
+      mat_art_animation_rate <1000>
+      mat_art_animation_seq <0, 1, 1, 1>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-20437>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_x <337>
+      mat_precise_y <1>
+      mat_art_id <1-1-40581>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"eB", 15872>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_x <272>
+      mat_precise_y <60>
+      mat_art_id <1-1-40576>
+      mat_trigger_style <picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-6931>
+        uni_end_stream
+        >
+      mat_font_sis <system, 12, normal>
+      mat_precise_x <379>
+      mat_precise_y <154>
+      mat_art_id <1-1-40573>
+      mat_trigger_style <picture>
+    man_start_sibling <ornament, "System Status">
+      mat_precise_x <367>
+      mat_precise_y <126>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Downloads">
+      mat_precise_x <275>
+      mat_precise_y <129>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Virus">
+      mat_precise_x <496>
+      mat_precise_y <128>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "FAQ'S">
+      mat_precise_x <488>
+      mat_precise_y <207>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Purchasing">
+      mat_precise_x <286>
+      mat_precise_y <226>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Meetings">
+      mat_precise_x <440>
+      mat_precise_y <315>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Strategy">
+      mat_precise_x <298>
+      mat_precise_y <318>
+      mat_font_sis <times_roman, 9, bold>
+      mat_orientation <hcf>
+    man_start_sibling <view, "">
+      mat_bool_no_border <yes>
+      mat_bool_graphic_view <yes>
+      image_attr_hotspot_def_action <00x>
+      image_attr_hotspot_grid <00x, 01x, 00x, 01x>
+      image_attr_show_hotspot <01x>
+      image_attr_hotspot <00x, 01x, 00x, 01x>
+      image_attr_hotspot_type <00x>
+      image_attr_hilight_type <00x>
+      image_attr_hotspot_action_id <00x>
+      image_attr_hotspot <00x, 01x, 00x, 01x>
+      image_attr_hotspot_type <00x>
+      image_attr_hilight_type <00x>
+      image_attr_hotspot_action_id <00x>
+      mat_width <68>
+      mat_height <49>
+      mat_precise_x <294>
+      mat_precise_y <259>
+      act_set_criterion <void>
+      act_replace_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_f1 <43-2234>
+        uni_end_stream
+        >
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <1>
+    man_end_object
+  hfs_attr_end_object
+man_update_woff_end_stream

@@ -1,0 +1,53 @@
+uni_start_stream
+  man_start_object <ind_group, "AFT">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+        man_append_data <"American Federation of Teachers(AFT)\r">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"                              AFT  America Federat">
+        man_append_data <"ion of Teachers\r\n\r\nOnly teachers belong to the AFT">
+        man_append_data <". The AFT area online contains a public area and a">
+        man_append_data <" private area.  To gain access to the private AFT ">
+        man_append_data <"area, members must be an AFT member.  The public a">
+        man_append_data <"nd private AFT area can be accessed using the keyw">
+        man_append_data <"ord AFT.   Please note that these customers are NO">
+        man_append_data <"T invoice customers. They will pay by the normal b">
+        man_append_data <"illing methods.\r\n\r\nRATES\r\n\r\nThe membership fee is ">
+        man_append_data <"$8.95 with 5 free hours, and the connect rate is $">
+        man_append_data <"2.95 per hour.\r\n\r\nAction Needed:\r\n\r\nCurrent AOL Me">
+        man_append_data <"mbers:  Customer fills out the AFT application for">
+        man_append_data <"m online using the keyword AFT.  They may use keyw">
+        man_append_data <"ord AFT and then select Member Services.  An appli">
+        man_append_data <"cation will come up on their screen.  The member s">
+        man_append_data <"hould fill out this application.   After their mem">
+        man_append_data <"bership is verified, AFT will contact AOL to proce">
+        man_append_data <"ss the price change.\r\n\r\nNon AOL Members:  Rep orde">
+        man_append_data <"rs a new member kit using the promo 9356 or the pr">
+        man_append_data <"omo # offered by the caller.\r\n\r\nThe affinity group">
+        man_append_data <" number is 46.  Reps should not change affinity gr">
+        man_append_data <"oup numbers.\r\n\r\n\r\nTransmitted: 05/07/96 23:03">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

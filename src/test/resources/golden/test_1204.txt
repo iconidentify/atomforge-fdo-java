@@ -1,0 +1,16 @@
+uni_start_stream
+  lm_table_use_table <20-255-1055>
+  async_get_screen_name
+  uni_use_last_atom_string <lm_table_get_item>
+  if_last_return_false_then <100, 101>
+  man_response_pop
+  uni_sync_skip <100>
+  async_get_screen_name
+  uni_use_last_atom_string <lm_table_use_key>
+  lm_table_get_item
+  uni_convert_last_atom_string
+  if_last_return_true_then <1>
+  man_response_pop
+  uni_sync_skip <1>
+  uni_sync_skip <101>
+uni_end_stream

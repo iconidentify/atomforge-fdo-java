@@ -1,0 +1,64 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "New Label Delta">
+    mat_object_id <32-2509>
+    mat_orientation <vft>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      man_start_object <ornament, "">
+        mat_art_id <1-0-1288>
+        mat_bool_disabled <yes>
+      man_start_sibling <ornament, "Static Window Dialog">
+        mat_size <21, 1>
+        mat_font_id <times_roman>
+        mat_font_size <14>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_art_id <1-0-1369>
+      mat_bool_disabled <yes>
+    man_start_sibling <ornament, "">
+      man_append_data <"close beta old static second start open close. active region primary gadget\x7f\x7falpha stop fourth basic third create stop primary. active refresh special sigma current edge region static. edge view fourth update main execute back process. update south secondary process create secondary current west. old open send process dialog fourth previous view. standard send zone process item delete old epsilon. invoke second east process save send receive primary. region left thing load theta dialog update static. side block block update execute static simple alpha.\x7f\x7ffront item button region first open invoke element. process">
+      mat_precise_width <400>
+      mat_precise_height <240>
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Yes">
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-58>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-2510>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "No">
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-58>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-2510>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Old Dialog">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

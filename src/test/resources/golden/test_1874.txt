@@ -1,0 +1,132 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "Account Hold Plan">
+    mat_orientation <vff>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    mat_position <cascade>
+    man_start_object <org_group, "">
+      mat_orientation <vcc>
+      mat_art_id <1-0-25506>
+      mat_bool_background_tile <yes>
+      man_start_object <ornament, "">
+        mat_width <38>
+        mat_height <6>
+        man_append_data <"Use this form to convert members' accounts to the ">
+        man_append_data <"Account Hold Plan of $2.95/0/$2.50. Paste the Memb">
+        man_append_data <"er Account Number in the field below. The account ">
+        man_append_data <"will be converted to this plan at the beginning of">
+        man_append_data <" the member's next billing cycle. \r\r">
+        mat_orientation <hlf>
+        mat_font_sis <arial, 10, bold>
+      man_end_object
+      man_start_object <org_group, "">
+        mat_orientation <hcf>
+        man_start_object <edit_view, "">
+          mat_width <30>
+          mat_height <1>
+          mat_bool_resize_vertical <no>
+          mat_bool_resize_horizontal <no>
+          mat_relative_tag <1>
+          mat_font_sis <arial, 10, normal>
+          mat_bool_writeable <yes>
+          mat_bool_importable <yes>
+          mat_bool_exportable <yes>
+          mat_bool_vertical_scroll <no>
+          mat_validation <128>
+          mat_capacity <10>
+        man_end_object
+      man_end_object
+      man_start_object <org_group, "">
+        mat_orientation <hcf>
+        man_start_object <ornament, "">
+          mat_width <35>
+          mat_height <1>
+          man_append_data <"      **No dashes or spaces in the box above**">
+          mat_orientation <hlf>
+          mat_font_sis <arial, 10, bold>
+        man_end_object
+      man_end_object
+      man_start_object <org_group, "">
+        mat_orientation <hcc>
+        man_start_object <trigger, "Send">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+                uni_wait_on
+                de_validate <display_msg | terminate>
+                var_number_set_id_one_value <20x>
+                de_start_extraction
+                buf_set_token <"CO">
+                de_get_data
+                de_set_data_type <var>
+                de_set_variable_id <1>
+                de_get_data <current_object>
+                de_end_extraction
+                buf_close_buffer
+                man_close_update
+              uni_end_stream <00x>
+              >
+            mat_font_sis <arial, 12, bold>
+            mat_color_text <255, 255, 255>
+            mat_trigger_style <rectangle>
+            mat_color_face <32, 104, 80>
+          man_end_object
+          man_start_object <ornament, "">
+            mat_width <10>
+            mat_height <1>
+            mat_orientation <hlf>
+            mat_font_sis <arial, 9, normal>
+          man_end_object
+          man_start_object <trigger, "Cancel">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+              mat_font_sis <arial, 12, bold>
+              mat_color_text <255, 255, 255>
+              mat_trigger_style <rectangle>
+              mat_color_face <32, 104, 80>
+            man_end_object
+          man_end_object
+        man_end_object
+        man_start_object <org_group, "">
+          mat_orientation <hcb>
+          man_start_object <edit_view, "">
+            mat_width <60>
+            mat_height <14>
+            mat_bool_resize_vertical <no>
+            mat_bool_resize_horizontal <no>
+            mat_bool_invisible <yes>
+            mat_relative_tag <3>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_writeable <yes>
+            mat_bool_importable <yes>
+            mat_bool_exportable <yes>
+            mat_bool_vertical_scroll <no>
+            man_append_data <"Pending">
+          man_end_object
+          man_start_object <edit_view, "">
+            mat_width <60>
+            mat_height <14>
+            mat_bool_resize_vertical <no>
+            mat_bool_resize_horizontal <no>
+            mat_bool_invisible <yes>
+            mat_relative_tag <2>
+            mat_font_sis <arial, 10, normal>
+            mat_bool_writeable <yes>
+            mat_bool_importable <yes>
+            mat_bool_exportable <yes>
+            mat_bool_vertical_scroll <no>
+            man_append_data <"181">
+          man_end_object
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream

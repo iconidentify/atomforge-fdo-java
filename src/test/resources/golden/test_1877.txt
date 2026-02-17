@@ -1,0 +1,253 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "AOL Bump Request">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <339>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-16519>
+    mat_bool_background_tile <yes>
+    mat_position <cascade>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <530>
+      mat_precise_height <145>
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_color_face <255, 255, 255>
+      mat_bool_background_flood <yes>
+      mat_color_frame_shadow <1, 1, 150>
+      mat_frame_style <shadow>
+      man_start_object <ornament, "">
+        mat_precise_width <520>
+        mat_precise_height <30>
+        mat_precise_x <15>
+        mat_precise_y <12>
+        man_append_data <"Use this form to submit a bump request. Please do ">
+        man_append_data <"not submit a bump request unless the customer has ">
+        man_append_data <"been stuck online more than 30 minutes.">
+        mat_color_face <255, 255, 255>
+        mat_orientation <hlf>
+        mat_font_sis <arial, 9, bold>
+      man_end_object
+      man_start_object <ornament, "">
+        mat_precise_width <520>
+        mat_precise_height <15>
+        mat_precise_x <15>
+        mat_precise_y <43>
+        man_append_data <"It is up to you to provide NOC with the proper inf">
+        man_append_data <"ormation needed to perform your request. \r\r\r\r">
+        mat_color_face <255, 255, 255>
+        mat_orientation <hlf>
+        mat_font_sis <arial, 9, bold>
+        mat_color_text <255, 1, 1>
+      man_end_object
+      man_start_object <ornament, "">
+        mat_precise_width <520>
+        mat_precise_height <90>
+        mat_precise_x <15>
+        mat_precise_y <59>
+        man_append_data <"Once this request is submitted, it will flag the N">
+        man_append_data <"OC personnel and they will immediately check to se">
+        man_append_data <"e if this is an isolated problem or if it is a sys">
+        man_append_data <"tem wide problem. If they don't have the Terminal ">
+        man_append_data <"Handler and Port it makes their job much more diff">
+        man_append_data <"icult and causes the request to take much longer. ">
+        man_append_data <"To make this as quick as possible please supply al">
+        man_append_data <"l requested information. If this is done right, NO">
+        man_append_data <"C should be able to provide a 2-5 minute turn arou">
+        man_append_data <"nd unless there is a system wide problem.\r\r">
+        mat_color_face <255, 255, 255>
+        mat_orientation <hlf>
+        mat_font_sis <arial, 9, bold>
+      man_end_object
+    man_end_object
+    man_start_object <edit_view, "Screen Name:">
+      mat_precise_width <130>
+      mat_precise_height <24>
+      mat_precise_x <10>
+      mat_precise_y <165>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <1>
+      mat_title_pos <left | center>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <10>
+    man_end_object
+    man_start_object <edit_view, "Billing Information Verified [yes]?">
+      mat_precise_width <66>
+      mat_precise_height <24>
+      mat_precise_x <250>
+      mat_precise_y <165>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <2>
+      mat_title_pos <left | center>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <3>
+    man_end_object
+    man_start_object <edit_view, "How Long Stuck Online?">
+      mat_precise_width <125>
+      mat_precise_height <24>
+      mat_precise_x <10>
+      mat_precise_y <196>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <3>
+      mat_title_pos <left | center>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <10>
+    man_end_object
+    man_start_object <edit_view, "Verified via CRIS [yes]?">
+      mat_precise_width <66>
+      mat_precise_height <24>
+      mat_precise_x <313>
+      mat_precise_y <196>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <4>
+      mat_title_pos <left | center>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <3>
+    man_end_object
+    man_start_object <ornament, "">
+      mat_precise_width <465>
+      mat_precise_height <17>
+      mat_precise_x <9>
+      mat_precise_y <231>
+      man_append_data <"Have you verified that the member still shows up o">
+      man_append_data <"n the service [yes]?">
+      mat_orientation <hlf>
+      mat_font_sis <system, 10, bold>
+    man_end_object
+    man_start_object <edit_view, "">
+      mat_precise_width <66>
+      mat_precise_height <24>
+      mat_precise_x <474>
+      mat_precise_y <227>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <5>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <3>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <530>
+      mat_precise_height <35>
+      mat_precise_x <10>
+      mat_precise_y <259>
+      mat_color_face <255, 255, 255>
+      mat_bool_background_flood <yes>
+      mat_color_frame_shadow <1, 1, 150>
+      mat_frame_style <shadow>
+      man_start_object <ornament, "">
+        mat_precise_width <520>
+        mat_precise_height <30>
+        mat_precise_x <15>
+        mat_precise_y <261>
+        man_append_data <"To find out what TIH and Port number the customer ">
+        man_append_data <"is stuck on, use Keyword CRIS, search for their sc">
+        man_append_data <"reen name, and click on the Online? button.">
+        mat_color_face <255, 255, 255>
+        mat_orientation <hlf>
+        mat_font_sis <arial, 9, bold>
+      man_end_object
+    man_end_object
+    man_start_object <edit_view, "Terminal Handler [TIH]:">
+      mat_precise_width <132>
+      mat_precise_height <24>
+      mat_precise_x <10>
+      mat_precise_y <304>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <6>
+      mat_title_pos <left | center>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <10>
+    man_end_object
+    man_start_object <edit_view, "Port:">
+      mat_precise_width <40>
+      mat_precise_height <24>
+      mat_precise_x <311>
+      mat_precise_y <304>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_relative_tag <7>
+      mat_title_pos <left | center>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_importable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <3>
+    man_end_object
+    man_start_object <trigger, "SEND">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+            uni_wait_on
+            de_validate <display_msg | terminate>
+            var_number_set_id_one_value <14x, e4x>
+            de_start_extraction
+            buf_set_token <"ef">
+            de_get_data
+            de_set_data_type <var>
+            de_set_variable_id <1>
+            de_get_data <current_object>
+            de_end_extraction
+            buf_close_buffer
+            man_close_update
+          uni_end_stream <00x>
+          >
+        mat_precise_width <60>
+        mat_precise_height <25>
+        mat_precise_x <406>
+        mat_precise_y <304>
+        mat_font_sis <arial, 9, bold>
+        mat_trigger_style <rectangle>
+      man_end_object
+      man_start_object <trigger, " CANCEL">
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+          mat_precise_width <69>
+          mat_precise_height <25>
+          mat_precise_x <475>
+          mat_precise_y <304>
+          mat_font_sis <arial, 9, bold>
+          mat_trigger_style <rectangle>
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream

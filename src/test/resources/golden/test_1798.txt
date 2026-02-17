@@ -1,0 +1,22 @@
+uni_start_stream_wait_on
+  man_start_object <ind_group, "Here natas">
+    mat_orientation <vff>
+    mat_precise_width <396>
+    mat_precise_height <50>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    man_start_object <trigger, "Hey, You Better Not Give this Shit Out. This was hard to get!!!!!">
+      mat_title_pos <below | center>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"f1", 0-40-39754>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_x <0>
+        mat_precise_y <0>
+        mat_art_id <1-0-38049>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

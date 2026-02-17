@@ -1,0 +1,318 @@
+uni_start_stream
+  idb_set_context <20-0-16>
+  idb_atr_offset <1>
+  idb_get_string
+  var_string_set_from_atom <A>
+  var_string_set <B,"Secondary Widget">
+  idb_end_context
+  if_stra_eq_strb_then <10, 99>
+  async_error_box <"Main Object Left">
+  uni_sync_skip <10>
+  lm_table_use_table <20-0-65>
+  lm_table_encrypt_table <14x, 00x, 00x, 41x>
+  man_start_object <ind_group, "Custom Object Top">
+    mat_orientation <vff>
+    mat_precise_width <494>
+    mat_precise_height <325>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_bool_modal <yes>
+    act_set_criterion <37>
+    act_replace_action
+        <
+        uni_diagnostic_msg <0, "Special Omega Front">
+        uni_start_stream
+          man_set_context_globalid <32-2164>
+          var_lookup_by_id <C, 330>
+          man_set_context_relative <2>
+          man_start_object <trigger, "">
+            var_string_get <C>
+            uni_use_last_atom_string <mat_title>
+          man_end_object
+          man_end_context
+          man_set_context_relative <1>
+          var_string_get <C>
+          uni_use_last_atom_string <man_get_index_by_title>
+          uni_save_result
+          uni_get_result
+          uni_use_last_atom_value <man_set_context_index>
+          man_close
+          man_end_context
+          man_end_context
+          man_update_display
+          man_end_context
+        uni_end_stream
+        uni_diagnostic_msg <0, "New Sub">
+        >
+      act_set_criterion <36>
+      act_replace_action
+          <
+          uni_start_stream
+            man_set_context_globalid <32-2164>
+            var_lookup_by_id <D, 1096111183>
+            lm_table_use_table <20-0-65>
+            var_string_get <D>
+            uni_use_last_atom_string <lm_table_get_item>
+            if_last_return_false_then <1, 2>
+            uni_diagnostic_msg <0, "Current Center">
+            man_set_context_relative <1>
+            man_start_object <trigger, "">
+              var_string_get <D>
+              uni_use_last_atom_string <mat_title>
+            man_end_object
+            man_end_context
+            uni_sync_skip <1>
+            uni_diagnostic_msg <0, "Old Theta">
+            man_set_context_relative <2>
+            man_start_object <trigger, "">
+              var_string_get <D>
+              uni_use_last_atom_string <mat_title>
+            man_end_object
+            man_end_context
+            uni_sync_skip <2>
+            man_end_context
+          uni_end_stream
+          >
+        act_set_criterion <38>
+        act_replace_action
+            <
+            uni_start_stream
+              man_set_context_globalid <32-2164>
+              man_set_context_relative <2>
+              man_start_object <trigger, "">
+                var_string_get <A>
+                uni_use_last_atom_string <mat_title>
+              man_end_object
+              man_end_context
+              man_set_context_relative <1>
+              var_string_get <A>
+              uni_use_last_atom_string <man_get_index_by_title>
+              uni_save_result
+              uni_get_result
+              uni_use_last_atom_value <man_set_context_index>
+              man_close
+              man_end_context
+              man_end_context
+              man_update_display
+              man_end_context
+            uni_end_stream
+            >
+          mat_object_id <32-2164>
+the_unknown <16, 204, 01x>
+          man_start_object <ornament, "">
+            mat_width <52>
+            mat_height <4>
+            mat_precise_x <10>
+            mat_precise_y <10>
+            mat_font_sis <arial, 10, normal>
+            man_append_data <"block invoke south current execute start basic label.">
+            man_append_data <"send edge north panel standard create alpha close.">
+            man_append_data <"create stop special default secondary bottom south">
+            man_append_data <"simple region execute receive left label sub advanced.">
+            man_append_data <"update current save sub process basic update previous.">
+            man_append_data <"Main Section Section">
+            man_end_data
+            mat_orientation <hlf>
+          man_start_sibling <org_group, "">
+            mat_orientation <hff>
+            mat_precise_width <0>
+            mat_precise_height <0>
+            mat_precise_x <0>
+            mat_precise_y <0>
+            man_start_object <dss_list, "Basic Sub">
+              mat_relative_tag <1>
+              mat_width <20>
+              mat_height <8>
+              mat_precise_x <10>
+              mat_precise_y <104>
+              mat_bool_resize_horizontal <no>
+              mat_title_pos <above | center>
+              mat_bool_list_icons <yes>
+              mat_sort_order <normal>
+            man_start_sibling <org_group, "">
+              mat_orientation <hff>
+              mat_precise_width <0>
+              mat_precise_height <0>
+              mat_precise_x <0>
+              mat_precise_y <0>
+              man_start_object <trigger, "Secondary Main">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      uni_diagnostic_msg <0, "New Omega">
+                      man_set_context_globalid <32-2164>
+                      var_reset
+                      man_set_context_relative <1>
+                      de_start_extraction <0>
+                      de_set_data_type <text>
+                      de_set_extraction_type <current_object>
+                      de_get_data_pointer
+                      uni_save_result
+                      de_end_extraction
+                      man_end_context
+                      lm_table_use_table <20-0-65>
+                      lm_table_encrypt_table <14x, 00x, 00x, 41x>
+                      uni_get_result
+                      var_string_set_from_atom <A>
+                      if_stra_neq_null_then <2>
+                      uni_get_result
+                      var_string_set_from_atom <C>
+                      var_string_save <C, 330>
+                      uni_use_last_atom_string <lm_table_get_item>
+                      if_last_return_false_then <1, 2>
+                      uni_diagnostic_msg <0, "Basic Thing Gadget">
+                      uni_start_stream
+                        uni_invoke_no_context <46-51299>
+                        man_set_context_globalid <46-51299>
+                        var_string_get <C>
+                        var_string_save <C, 331>
+                        man_end_context
+                        man_update_display
+                      uni_end_stream
+                      uni_diagnostic_msg <0, "Dynamic Epsilon Widget">
+                      man_end_context
+                      uni_sync_skip <1>
+                      async_alert <info, "Current Edge North">
+                      man_set_context_globalid <32-2164>
+                      act_do_action <37>
+                      man_end_context
+                      uni_sync_skip <2>
+                      man_end_context
+                      man_update_display <32-2164>
+                    uni_end_stream
+                    uni_diagnostic_msg <0, "Standard Left Unit">
+                    >
+                  mat_font_sis <arial, 12, normal>
+                  mat_precise_width <74>
+                  mat_precise_height <24>
+                  mat_precise_x <201>
+                  mat_precise_y <130>
+                  mat_bool_draw_focus <yes>
+                  mat_trigger_style <14>
+                man_start_sibling <trigger, "Standard Element">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        var_reset
+                        man_set_context_relative <2>
+                        de_start_extraction <0>
+                        de_set_data_type <text>
+                        de_set_extraction_type <current_object>
+                        de_get_data_pointer
+                        uni_save_result
+                        var_string_set_from_atom <A>
+                        de_end_extraction
+                        var_string_get <A>
+                        uni_use_last_atom_string <man_get_index_by_title>
+                        uni_save_result
+                        uni_get_result
+                        uni_use_last_atom_value <man_set_context_index>
+                        man_close
+                        man_end_context
+                        man_end_context
+                        man_update_display
+                        man_set_context_relative <1>
+                        man_start_object <trigger, "">
+                          var_string_get <A>
+                          uni_use_last_atom_string <mat_title>
+                        man_end_object
+                        man_update_display
+                        man_end_context
+                        man_update_display
+                        lm_table_use_table <20-0-65>
+                        lm_table_encrypt_table <14x, 00x, 00x, 41x>
+                        var_string_get <A>
+                        uni_use_last_atom_string <lm_table_delete_item>
+                        lm_table_use_table <20-0-64>
+                        lm_table_encrypt_table <14x, 00x, 00x, 32x>
+                        var_string_get <A>
+                        uni_use_last_atom_string <lm_table_delete_item>
+                      uni_end_stream
+                      >
+                    mat_font_sis <arial, 0, normal>
+                    mat_precise_x <201>
+                    mat_precise_y <176>
+                    mat_bool_draw_focus <yes>
+                    mat_trigger_style <14>
+                  man_end_object
+                man_start_sibling <dss_list, "Static Frame Edge">
+                  mat_relative_tag <2>
+                  mat_width <20>
+                  mat_height <8>
+                  mat_precise_x <291>
+                  mat_precise_y <108>
+                  mat_bool_resize_horizontal <no>
+                  mat_title_pos <above | center>
+                  mat_font_sis <arial, 9, normal>
+                  mat_bool_list_icons <yes>
+                  mat_sort_order <normal>
+                man_end_object
+              man_start_sibling <trigger, "OK">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_close_update
+                    uni_end_stream
+                    >
+                  mat_width <20>
+                  mat_height <0>
+                  mat_font_sis <arial, 0, normal>
+                  mat_precise_x <170>
+                  mat_precise_y <262>
+                  mat_bool_draw_focus <yes>
+                  mat_trigger_style <14>
+                man_start_sibling <trigger, "Old Dialog">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        man_close_update
+                      uni_end_stream
+                      >
+                    mat_font_sis <arial, 0, normal>
+                    mat_precise_x <262>
+                    mat_precise_y <262>
+                    mat_bool_draw_focus <yes>
+                    mat_trigger_style <14>
+                  man_end_object
+                  man_update_display
+                  man_set_context_globalid <32-2164>
+                  var_reset
+                  man_set_context_relative <1>
+                  man_close_children
+                  man_change_context_relative <2>
+                  man_close_children
+                  man_end_context
+                  var_string_set <B,"Static Side">
+                  idb_set_context <20-0-16>
+                  idb_atr_offset <0>
+                  idb_get_value <01x>
+                  var_number_set_from_atom <B>
+                  var_number_set <A, 1>
+                  uni_start_loop
+                  var_number_get <B>
+                  var_number_get <A>
+                  uni_use_last_atom_value <idb_atr_offset>
+                  idb_get_string
+                  var_string_trim_spaces
+                  var_string_set_from_atom <A>
+                  var_string_save <A, 1096111183>
+                  if_stra_neq_null_then <4>
+                  if_stra_neq_strb_then <4>
+                  act_do_action <36>
+                  uni_sync_skip <4>
+                  man_update_display
+                  var_number_decrement_save <B>
+                  var_number_get <B>
+                  if_numb_true_then <15>
+                  var_number_add <22>
+                  uni_end_loop
+                  uni_sync_skip <15>
+                  idb_end_context
+                  man_update_display
+                  man_end_context
+                man_update_woff_end_stream
+                man_update_display
+                uni_sync_skip <99>
+                uni_wait_off
+              uni_end_stream

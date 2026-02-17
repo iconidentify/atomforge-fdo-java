@@ -1,0 +1,238 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Shortcuts to UK chatrooms">
+    mat_orientation <vcc>
+    mat_color_face <0, 0, 255>
+    mat_art_id <1-0-15917>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vcc>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_color_face <255, 255, 255>
+        mat_font_sis <arial, 9, normal>
+        mat_color_text <29, 86, 215>
+        mat_frame_style <shadow>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Tech Chat">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"MR", 0-0-574>
+              >
+            mat_art_id <1-0-1480>
+          man_start_sibling <trigger, "AOL Chat">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"MR", 0-0-564>
+                >
+              mat_art_id <1-0-1480>
+            man_start_sibling <trigger, "Business in London">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"MR", 0-0-1137>
+                  >
+                mat_art_id <1-0-1480>
+              man_start_sibling <trigger, "ClubCall">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"MR", 0-0-589>
+                    >
+                  mat_art_id <1-0-1480>
+                man_start_sibling <trigger, "Computing Chat">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"MR", 0-0-1185>
+                      >
+                    mat_art_id <1-0-1480>
+                  man_start_sibling <trigger, "Craft Corner">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"MR", 0-0-916>
+                        >
+                      mat_art_id <1-0-1480>
+                    man_start_sibling <trigger, "Diadem">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"MR", 0-0-1093>
+                          >
+                        mat_art_id <1-0-1480>
+                      man_start_sibling <trigger, "Digital City Chat">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"MR", 0-0-562>
+                            >
+                          mat_art_id <1-0-1480>
+                        man_start_sibling <trigger, "Dun and Bradstreet">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_m_send_token_arg <"MR", 0-0-776>
+                              >
+                            mat_art_id <1-0-1480>
+                          man_start_sibling <trigger, "The Groove (Teenage Chat)">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_m_send_token_arg <"MR", 0-0-674>
+                                >
+                              mat_art_id <1-0-1480>
+                            man_start_sibling <trigger, "Hopo Chat">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_m_send_token_arg <"MR", 0-0-1043>
+                                  >
+                                mat_art_id <1-0-1480>
+                              man_start_sibling <trigger, "Kids Chat Room">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_m_send_token_arg <"MR", 0-0-665>
+                                    >
+                                  mat_art_id <1-0-1480>
+                                man_start_sibling <trigger, "Learning Chat">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_m_send_token_arg <"MR", 0-0-1212>
+                                      >
+                                    mat_art_id <1-0-1480>
+                                  man_start_sibling <trigger, "Mirror Group">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_m_send_token_arg <"MR", 0-0-644>
+                                        >
+                                      mat_art_id <1-0-1480>
+                                    man_start_sibling <trigger, "Mystic Gardens">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_m_send_token_arg <"MR", 0-0-592>
+                                          >
+                                        mat_art_id <1-0-1480>
+                                      man_start_sibling <trigger, "New Members Lobby">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_m_send_token_arg <"MR", 0-0-773>
+                                            >
+                                          mat_art_id <1-0-1480>
+                                        man_start_sibling <trigger, "Newschat">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_m_send_token_arg <"MR", 0-0-692>
+                                              >
+                                            mat_art_id <1-0-1480>
+                                          man_start_sibling <trigger, "Parents Chat">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_m_send_token_arg <"MR", 0-0-783>
+                                                >
+                                              mat_art_id <1-0-1480>
+                                            man_start_sibling <trigger, "PC Pro Chat">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_m_send_token_arg <"MR", 0-0-676>
+                                                  >
+                                                mat_art_id <1-0-1480>
+                                              man_start_sibling <trigger, "Russell Grant Chat">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                    sm_m_send_token_arg <"MR", 0-0-1086>
+                                                    >
+                                                  mat_art_id <1-0-1480>
+                                                man_start_sibling <trigger, "Shake the Shack (Love Shack chat)">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                      sm_m_send_token_arg <"MR", 0-0-777>
+                                                      >
+                                                    mat_art_id <1-0-1480>
+                                                  man_start_sibling <trigger, "Sport Chat">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream_wait_on <00x>
+                                                        sm_m_send_token_arg <"MR", 0-0-727>
+                                                        >
+                                                      mat_art_id <1-0-1480>
+                                                    man_start_sibling <trigger, "Terris Chat">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream_wait_on <00x>
+                                                          sm_m_send_token_arg <"MR", 0-0-872>
+                                                          >
+                                                        mat_art_id <1-0-1480>
+                                                      man_start_sibling <trigger, "Thirtysomething UK">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream_wait_on <00x>
+                                                            sm_m_send_token_arg <"MR", 0-0-1187>
+                                                            >
+                                                          mat_art_id <1-0-1480>
+                                                        man_start_sibling <trigger, "Travel">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream_wait_on <00x>
+                                                              sm_m_send_token_arg <"MR", 0-0-567>
+                                                              >
+                                                            mat_art_id <1-0-1480>
+                                                          man_start_sibling <trigger, "The Topic Room">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream_wait_on <00x>
+                                                                sm_m_send_token_arg <"MR", 0-0-778>
+                                                                >
+                                                              mat_art_id <1-0-1480>
+                                                            man_start_sibling <trigger, "Utopia (Gay & Lesbian Chat)">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream_wait_on <00x>
+                                                                  sm_m_send_token_arg <"MR", 0-0-649>
+                                                                  >
+                                                                mat_art_id <1-0-1480>
+                                                              man_start_sibling <trigger, "Utopia Women">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream_wait_on <00x>
+                                                                    sm_m_send_token_arg <"MR", 0-0-1062>
+                                                                    >
+                                                                  mat_art_id <1-0-1480>
+                                                                man_start_sibling <trigger, "What Car?">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream_wait_on <00x>
+                                                                      sm_m_send_token_arg <"MR", 0-0-922>
+                                                                      >
+                                                                    mat_art_id <1-0-1480>
+                                                                  man_start_sibling <trigger, "Wimbledon">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream_wait_on <00x>
+                                                                        sm_m_send_token_arg <"MR", 0-0-921>
+                                                                        >
+                                                                      mat_art_id <1-0-1480>
+                                                                    man_end_object
+                                                                  man_start_sibling <ornament, "Keywords: QuickChat, QC ">
+                                                                    mat_precise_width <180>
+                                                                    mat_precise_height <21>
+                                                                    mat_font_sis <times_roman, 12, bold>
+                                                                    mat_color_text <255, 255, 255>
+                                                                    mat_orientation <hlf>
+                                                                  man_end_object
+                                                                man_end_object
+                                                              hfs_attr_end_object
+                                                            man_update_woff_end_stream

@@ -1,0 +1,29 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Old Element Main">
+    mat_object_id <32-135>
+    mat_orientation <vff>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 21>
+      mat_relative_tag <1>
+      man_append_data <"receive south theta basic element custom form east. invoke handle front beta epsilon refresh standard third.">
+      man_append_data <"custom previous stop refresh first active center gamma. sub handle bottom window close dynamic delete custom. close">
+      man_append_data <"Secondary Sub East\x7f\x7fPrimary Form\"Custom Section\"process start execute previous west update secondary back. invoke section second">
+      man_append_data <"static main close edge gamma component send advanced. old standard widget button dynamic receive thing complex.">
+      man_append_data <"side south third current active sub save region. north window\x7f\x7fsimple send module complex start previous thing create.">
+      man_append_data <"Secondary Element Thing\"Secondary Object\"Dynamic Bottom\x7f\x7fsub gamma box area send refresh previous secondary. execute frame current standard">
+      man_append_data <"main process item load default new component label. module simple third back open side\x7f\x7fStandard Top Label">
+      man_append_data <"Special North Element">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Current Gamma">
+        mat_relative_tag <2>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "Third East">
+        mat_relative_tag <3>
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

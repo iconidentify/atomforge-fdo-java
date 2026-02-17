@@ -1,0 +1,68 @@
+uni_start_stream
+  man_start_object <ind_group, "Resolved Issues">
+    mat_orientation <vff>
+    mat_precise_width <350>
+    mat_precise_height <330>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Resolved Issues\r">
+      mat_relative_tag <3>
+      mat_precise_width <325>
+      mat_precise_height <30>
+      mat_precise_x <13>
+      mat_precise_y <15>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 18, bold>
+      mat_color_text <0, 0, 1>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <38>
+      mat_height <14>
+      mat_precise_x <16>
+      mat_precise_y <60>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Packard Bell Issues">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-127-53510>
+            >
+          mat_art_id <1-0-1477>
+        man_start_sibling <trigger, "November Checking Billing Error">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-127-53511>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "Promo 52229">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-127-52402>
+                >
+              mat_art_id <1-0-1477>
+            man_end_object
+          man_start_sibling <trigger, "Continue To APLog">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"K1", 0-17-60340>
+                >
+              mat_font_sis <arial, 12, bold>
+              mat_color_text <255, 255, 255>
+              mat_precise_width <160>
+              mat_precise_height <30>
+              mat_precise_x <95>
+              mat_precise_y <290>
+              mat_trigger_style <place>
+              mat_bool_default <yes>
+              mat_color_face <36, 109, 85>
+            man_end_object
+            man_update_display
+          man_update_woff_end_stream

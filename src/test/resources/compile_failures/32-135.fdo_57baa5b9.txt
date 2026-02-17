@@ -1,0 +1,32 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Software-Aktualisierung">
+    mat_object_id <32-135>
+    mat_orientation <vff>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 21>
+      mat_relative_tag <1>
+      man_append_data <"F�r diesen Bereich ben�tigen Sie einen AOL-Browser. Um Zugriff auf diesen Browser zu erlangen, ">
+      man_append_data <"muss Ihre Software aktualisiert werden. Folgen Sie den Anweisungen, um automatisch zu aktualisieren.">
+      man_append_data <"\x7f\x7fKlicken Sie auf "Aktualisieren". Der Vorgang wird bei ">
+      man_append_data <"9600 Baud etwa 9 Minuten, bei 14.400 Baud etwa 6 Minuten und bei 28.000 Baud etwa 3 Minuten dauern. ">
+      man_append_data <"Sofort nach der Aktualisierung haben Sie Zugang zu dem gew�nschten Bereich. \x7f\x7fFalls Sie Ihre Software nicht aktualisieren m�chten, klicken Sie auf "Abbrechen".">
+      man_append_data <"\x7f\x7fSollte die Aktualisierung unterbrochen werden, beenden Sie AOL, und starten Sie den Vorgang bitte erneut.">
+      man_append_data <"\x7f\x7fF�r die Zeit der Aktualisierung werden Ihnen keine Extra-Geb�hren berechnet.">
+      man_append_data
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Aktualisieren">
+        mat_trigger_style <14>
+        mat_relative_tag <2>
+        mat_bool_default <yes>
+      man_start_sibling <trigger, "Abbrechen">
+        mat_trigger_style <14>
+        mat_relative_tag <3>
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

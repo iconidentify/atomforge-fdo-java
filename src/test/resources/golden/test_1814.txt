@@ -1,0 +1,28 @@
+uni_start_stream
+  man_start_object <ind_group, "Geotel Upgrade">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <15>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"\r\nPROJECT ID:  TL018\r\n\r\nPROJECT NAME:  Geotel Upgr">
+        man_append_data <"ade\r\n\r\nDESCRIPTION:  Upgrade the existing Geotel s">
+        man_append_data <"oftware to Version 1.4.\r\n\r\nBENEFIT:  More flexibil">
+        man_append_data <"ity and greater processing power through upgraded ">
+        man_append_data <"software.\r\n\r\nSTART DATE:  07/01/96\r\n\r\nMILESTONES: ">
+        man_append_data <" The project was completed on schedule.\r\n\r\nCONTACT">
+        man_append_data <":  Malcolm Hawker\r\n\r\nCURRENT STATUS:  Completed.\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

@@ -1,0 +1,107 @@
+uni_start_stream
+  man_start_object <ind_group, "Artshop">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <290>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-6740>
+    mat_bool_background_tile <yes>
+    man_start_object <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"eB", 0-0-10844>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_precise_x <142>
+        mat_precise_y <1>
+        mat_art_id <1-0-11573>
+        mat_trigger_style <picture>
+      man_start_sibling <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"Ca", 0-1-44430>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_x <135>
+          mat_precise_y <140>
+          mat_art_id <1-0-11574>
+          mat_trigger_style <picture>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"Ca", 0-1-38136>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <130>
+            mat_precise_height <130>
+            mat_precise_x <3>
+            mat_precise_y <158>
+            mat_art_id <1-0-11575>
+            mat_trigger_style <picture>
+          man_start_sibling <dss_list, "">
+            mat_width <23>
+            mat_height <8>
+            mat_precise_x <288>
+            mat_precise_y <151>
+            mat_font_sis <arial, 9, normal>
+            mat_bool_list_icons <yes>
+            mat_sort_order <normal>
+            man_start_object <trigger, "System Art">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-31893>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Colored Text">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-10016>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "Button Styles">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-9739>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "Frame Styles">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_k1 <32-4602>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "Sample Tiling">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-9796>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "Software Library">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"eB", 0-0-10844>
+                            >
+                          mat_art_id <1-0-1482>
+                        man_end_object
+                      man_start_sibling <ornament, "Keyword: Artshop">
+                        mat_width <20>
+                        mat_height <1>
+                        mat_precise_x <385>
+                        mat_precise_y <270>
+                        mat_font_sis <arial, 9, bold | italic>
+                        mat_color_text <255, 255, 255>
+                        mat_orientation <hlf>
+                      man_end_object
+                      man_update_display
+                    man_update_woff_end_stream

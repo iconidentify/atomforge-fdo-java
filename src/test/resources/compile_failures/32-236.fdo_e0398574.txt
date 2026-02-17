@@ -1,0 +1,59 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 255, 255>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <6>
+      mat_width <40>
+      mat_color_text <1, 1, 1>
+      man_append_data <"The file has been added to your list of files to be downloaded later. To see all files to be downloaded later, click Download Manager. You can also get to the  Download Manager by clicking the File menu on the AOL menu bar.">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_title_width <3>
+        mat_color_face <153, 204, 255>
+        mat_color_text <0, 0, 153>
+        mat_color_top_edge <0, 0, 102>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <9>
+        mat_font_id <arial>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_title_width <17>
+        mat_color_face <153, 204, 255>
+        mat_color_text <0, 0, 153>
+        mat_color_top_edge <0, 0, 102>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <9>
+        mat_font_id <arial>
+        mat_title <"Download Manager">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

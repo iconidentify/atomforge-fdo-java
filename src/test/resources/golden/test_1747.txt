@@ -1,0 +1,52 @@
+uni_start_stream
+  man_start_object <ind_group, "Useful Phone Numbers">
+    mat_orientation <vff>
+    man_start_object <ornament, "Contact numbers and addresses\r">
+      mat_relative_tag <3>
+      mat_width <30>
+      mat_height <1>
+      mat_vertical_spacing <0>
+      mat_font_sis <times_roman, 18, bold>
+      mat_orientation <hlf>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_bool_read_only <yes>
+      mat_bool_writeable <yes>
+      mat_width <50>
+      mat_height <14>
+      mat_font_sis <courier, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      mat_relative_tag <1>
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE><B>Internal contacts</B>\x7fSueBerger     ">
+    man_append_data <"      806 9923   [<I>Susanne Berger</I>]\x7fJCA FR   ">
+    man_append_data <"           806 9922   [<I>Jean-Christophe</I>]\x7fMCl">
+    man_append_data <"ementFR          806 9921   [<I>Marie Clement</I>]">
+    man_append_data <"\x7fJuttaFiene          806 9924\x7fDidiHering          ">
+    man_append_data <"806 9906    [<I>Didi Hering</I>]\x7fSANDRAJFR        ">
+    man_append_data <"   806 9932\x7fAJeromin            806 9907   [<I>And">
+    man_append_data <"rea Jeromin</I>]\x7fSineadUK            806 9915\x7fAaro">
+    man_append_data <"nUK             806 9910\x7fMylesUK             806 9">
+    man_append_data <"917\x7fDCurleyUK           806 9913\x7f\x7f<B>External Cont">
+    man_append_data <"acts</B>\x7fContact our Support Staff by phone using ">
+    man_append_data <"the following numbers:\x7f\x7fGeneral         0800 376 5">
+    man_append_data <"432\x7fBilling         0800 376 7444\x7fSales           ">
+    man_append_data <"0800 279 1234\x7fTechnical       0800 279 7444\x7fFax   ">
+    man_append_data <"          0800 279 7446\x7fOutside UK      001 353 1 ">
+    man_append_data <"806 9015\x7f                001 353 1 704 9000\x7f\x7fConta">
+    man_append_data <"ct our Support Staff by post using the following a">
+    man_append_data <"ddress:\x7f\x7fAOL / Bertlesmann Service Operations Ltd\x7f">
+    man_append_data <"Gilde House,\x7fEastpoint Business Park,\x7fFairview,\x7fDu">
+    man_append_data <"blin 3.\x7f\x7fContact our Support Staff by email using ">
+    man_append_data <"the following email addresses:\x7f\x7fGeneral       ukge">
+    man_append_data <"n@mail.tech.aol.com\x7fTechnical     uktech@mail.tech">
+    man_append_data <".aol.com\x7fBeta Mail     ukbeta@mail.tech.aol.com\x7f\x7fC">
+    man_append_data <"ontact our Head Office at:\x7f\x7f20 Fulham Broadway,\x7fFu">
+    man_append_data <"lham,\x7fLondon,\x7fLondon SW6 1AH\x7f\x7fTelephone   0171 385">
+    man_append_data <" 9404\x7fFax         0171 386 8086\x7f\x7f\x7fTransmitted: 06/">
+    man_append_data <"05/97 10:25 (contact)</PRE></HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

@@ -1,0 +1,317 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "Sfondo's Art Shop">
+    mat_orientation <vff>
+    mat_precise_width <529>
+    mat_precise_height <291>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_relative_tag <21>
+    mat_context_help <"Anything you need to design your own form can be found here.">
+    mat_art_id <1-0-6740>
+    mat_bool_background_tile <yes>
+    mat_position <cascade>
+    man_start_object <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"eB", 0-0-10844>
+          >
+        mat_precise_x <142>
+        mat_precise_y <1>
+        mat_font_sis <small_fonts, 7, normal>
+        mat_art_id <1-0-11573>
+        mat_trigger_style <picture>
+      man_end_object
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"Ca", 0-1-44430>
+            >
+          mat_precise_x <135>
+          mat_precise_y <140>
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-11574>
+          mat_trigger_style <picture>
+        man_end_object
+        man_start_object <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"Ca", 0-1-38136>
+              >
+            mat_precise_width <130>
+            mat_precise_height <130>
+            mat_precise_x <3>
+            mat_precise_y <158>
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-11575>
+            mat_trigger_style <picture>
+          man_end_object
+          man_start_object <ornament, "Keyword: Artshop">
+            mat_width <20>
+            mat_height <1>
+            mat_precise_x <369>
+            mat_precise_y <274>
+            mat_orientation <hlf>
+            mat_font_sis <arial, 9, bold | italic>
+            mat_color_text <255, 255, 255>
+          man_end_object
+          man_start_object <dss_list, "">
+            mat_precise_width <225>
+            mat_precise_height <120>
+            mat_precise_x <304>
+            mat_precise_y <153>
+            mat_relative_tag <1>
+            mat_font_sis <arial, 9, normal>
+            mat_bool_list_icons <yes>
+            mat_sort_order <normal>
+            mat_ruler <23>
+            man_start_object <trigger, "~~^~~RM+ Reference Stuff~~^~~">
+              mat_art_id <1-0-23996>
+            man_end_object
+            man_start_object <trigger, "Documentation">
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://4344:204.ipdoc.74075.476233292">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_art_id <1-0-19928>
+              man_end_object
+              man_start_object <trigger, "RM Desktop Helper">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 57-15634>
+                    >
+                  mat_art_id <1-0-19928>
+                man_end_object
+                man_start_object <trigger, "Doc's Semi-Secret Place">
+                  act_replace_select_action
+                      <
+                      uni_start_stream <00x>
+                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_clear_buffer
+                        buf_set_token <"ur">
+                        buf_add_atom_pointer <"aol://4344:204.FC$_mASt.1858852.498253945">
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    mat_art_id <1-0-19928>
+                  man_end_object
+                  man_start_object <trigger, "Ultimate RM Reference">
+                    act_replace_select_action
+                        <
+                        uni_start_stream <00x>
+                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                          buf_clear_buffer
+                          buf_set_token <"ur">
+                          buf_add_atom_pointer <"aol://4344:1165.rm_guide.3350178.518472098">
+                          buf_close_buffer
+                        uni_end_stream
+                        >
+                      mat_art_id <1-0-19928>
+                    man_end_object
+                    man_start_object <trigger, "RMplus Command Interface">
+                      act_replace_select_action
+                          <
+                          uni_start_stream <00x>
+                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                            buf_clear_buffer
+                            buf_set_token <"ur">
+                            buf_add_atom_pointer <"aol://1722:interact">
+                            buf_close_buffer
+                          uni_end_stream
+                          >
+                        mat_art_id <1-0-19928>
+                      man_end_object
+                      man_start_object <trigger, "Technical Documentation">
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                              buf_clear_buffer
+                              buf_set_token <"ur">
+                              buf_add_atom_pointer <"aol://4344:20.gdocs.122306.513521616">
+                              buf_close_buffer
+                            uni_end_stream
+                            >
+                          mat_art_id <1-0-19928>
+                        man_end_object
+                        man_start_object <trigger, "Setting up the RM+ Area">
+                          act_replace_select_action
+                              <
+                              uni_start_stream <00x>
+                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                buf_clear_buffer
+                                buf_set_token <"ur">
+                                buf_add_atom_pointer <"aol://4344:432.rmsetup.1331126.523343729">
+                                buf_close_buffer
+                              uni_end_stream
+                              >
+                            mat_art_id <1-0-19928>
+                          man_end_object
+                          man_start_object <trigger, "Rainman Guidelines">
+                            act_replace_select_action
+                                <
+                                uni_start_stream <00x>
+                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                  buf_clear_buffer
+                                  buf_set_token <"ur">
+                                  buf_add_atom_pointer <"aol://4344:432.rm_info.1374743.521426346">
+                                  buf_close_buffer
+                                uni_end_stream
+                                >
+                              mat_art_id <1-0-19928>
+                            man_end_object
+                            man_start_object <trigger, "Forms Catalog">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream <00x>
+                                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    buf_clear_buffer
+                                    buf_set_token <"ur">
+                                    buf_add_atom_pointer <"aol://4344:1.formscat.71914.474386750">
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                                mat_art_id <1-0-19928>
+                              man_end_object
+                              man_start_object <trigger, "Work Room">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream <00x>
+                                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                      buf_clear_buffer
+                                      buf_set_token <"ur">
+                                      buf_add_atom_pointer <"aol://4344:431.toolz.1350564.556306759">
+                                      buf_close_buffer
+                                    uni_end_stream
+                                    >
+                                  mat_art_id <1-0-19928>
+                                man_end_object
+                                man_start_object <trigger, "Mini Icons">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream <00x>
+                                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                        buf_clear_buffer
+                                        buf_set_token <"ur">
+                                        buf_add_atom_pointer <"aol://4344:431.m_icons.1334055.524932098">
+                                        buf_close_buffer
+                                      uni_end_stream
+                                      >
+                                    mat_art_id <1-0-19928>
+                                  man_end_object
+                                  man_start_object <trigger, "Icons 299-999">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream <00x>
+                                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                          buf_clear_buffer
+                                          buf_set_token <"ur">
+                                          buf_add_atom_pointer <"aol://4344:219.icons.89493.481499712">
+                                          buf_close_buffer
+                                        uni_end_stream
+                                        >
+                                      mat_art_id <1-0-19928>
+                                    man_end_object
+                                    man_start_object <trigger, "Icons 1000-4000">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream <00x>
+                                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                            buf_clear_buffer
+                                            buf_set_token <"ur">
+                                            buf_add_atom_pointer <"aol://4344:219.icons2.89458.481499966">
+                                            buf_close_buffer
+                                          uni_end_stream
+                                          >
+                                        mat_art_id <1-0-19928>
+                                      man_end_object
+                                      man_start_object <trigger, "Mini-Icon Guide">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream <00x>
+                                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                              buf_clear_buffer
+                                              buf_set_token <"ur">
+                                              buf_add_atom_pointer <"aol://4344:432.minicons.1374723.521426559">
+                                              buf_close_buffer
+                                            uni_end_stream
+                                            >
+                                          mat_art_id <1-0-19928>
+                                        man_end_object
+                                        man_start_object <trigger, "Icon / PICTs that Work">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream <00x>
+                                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                buf_clear_buffer
+                                                buf_set_token <"ur">
+                                                buf_add_atom_pointer <"aol://4344:432.iconguid.1374725.521426694">
+                                                buf_close_buffer
+                                              uni_end_stream
+                                              >
+                                            mat_art_id <1-0-19928>
+                                          man_end_object
+                                          man_start_object <trigger, "System Art">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_f1 <40-31893>
+                                                >
+                                              mat_art_id <1-0-19928>
+                                            man_end_object
+                                            man_start_object <trigger, "Colored Text">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_send_f1 <40-10016>
+                                                  >
+                                                mat_art_id <1-0-19928>
+                                              man_end_object
+                                              man_start_object <trigger, "Button Styles">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                    sm_send_f1 <40-9739>
+                                                    >
+                                                  mat_art_id <1-0-19928>
+                                                man_end_object
+                                                man_start_object <trigger, "Frame Styles">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                      sm_send_k1 <32-4602>
+                                                      >
+                                                    mat_art_id <1-0-19928>
+                                                  man_end_object
+                                                  man_start_object <trigger, "Sample Tiling">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream_wait_on <00x>
+                                                        sm_send_f1 <40-9796>
+                                                        >
+                                                      mat_art_id <1-0-19928>
+                                                    man_end_object
+                                                    man_start_object <trigger, "Software Library">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream_wait_on <00x>
+                                                          sm_m_send_token_arg <"eb", 0-10844>
+                                                          >
+                                                        mat_art_id <1-0-1482>
+                                                      man_end_object
+                                                    man_end_object
+                                                  man_end_object
+                                                  man_update_display
+                                                  uni_wait_off
+                                                uni_end_stream

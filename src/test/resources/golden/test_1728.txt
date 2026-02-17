@@ -1,0 +1,93 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "AOL 5.0 Alpha Test">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-1-44850>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hle>
+      man_start_object <ornament, "">
+        mat_relative_tag <120>
+        mat_art_id <1-0-34723>
+      man_start_sibling <ornament, "AOL 5.0 Alpha Test">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_orientation <hlt>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <54>
+        mat_height <10>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hfc>
+      man_start_object <org_group, "">
+        mat_orientation <vcb>
+        man_start_object <trigger, "">
+          mat_relative_tag <56>
+          mat_art_id <1-0-14004>
+          mat_trigger_style <picture>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <57>
+          mat_width <20>
+          mat_height <1>
+          mat_orientation <hcc>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <vcf>
+        man_start_object <trigger, "">
+          mat_relative_tag <58>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <44-13156>
+            uni_end_stream
+            >
+          mat_art_id <1-1-44853>
+          mat_trigger_style <picture>
+        man_start_sibling <ornament, "Get AOL 5.0">
+          mat_relative_tag <59>
+          mat_width <20>
+          mat_height <1>
+          mat_orientation <hcc>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <vcf>
+        man_start_object <trigger, "">
+          mat_relative_tag <60>
+          mat_art_id <1-0-14004>
+          mat_trigger_style <picture>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <61>
+          mat_width <20>
+          mat_height <1>
+          mat_orientation <hcc>
+        man_end_object
+      man_end_object
+    man_end_object
+  hfs_attr_end_object
+  man_update_display
+  man_set_context_relative <1>
+  man_append_data <"<HTML></P><P ALIGN=CENTER><FONT  SIZE=3 PTSIZE=10>">
+  man_append_data <"<BR><B><U>AOL 5.0 System Requirements</B></U><BR><">
+  man_append_data <"/P><P ALIGN=LEFT>\n<BR>* Windows 95 or Windows 98<B">
+  man_append_data <"R>* 16 megabytes RAM<BR>* Pentium-class PC<BR>* 30">
+  man_append_data <" Megabytes available hard disk space<BR>* 640x480,">
+  man_append_data <" 256 colors or better display (Optimized for 800X6">
+  man_append_data <"00)<BR>* 14.4 Kbps or faster modem<BR><BR><BR></P>">
+  man_append_data <"<P ALIGN=CENTER>\n<BR><BR><BR><BR><BR><BR><BR><BR><">
+  man_append_data <"BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR">
+  man_append_data <"><BR><BR><BR><BR></P></HTML>">
+  man_end_data
+  man_end_context
+man_update_woff_end_stream

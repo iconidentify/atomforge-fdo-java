@@ -1,0 +1,91 @@
+uni_start_stream
+  man_start_object <ind_group, "Policies and Procedures">
+    mat_orientation <vff>
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-39473>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Policies and Procedures">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Verification Procedures">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-36-14272>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Credits">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-36-12868>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Billing">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-36-14340>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Credit Card Fraud & unauthorised usage">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-36-14365>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "General Procedures">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-36-14367>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Policies on Timeframes">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-36-14372>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hec>
+                  man_start_object <trigger, "Open">
+                    act_replace_select_action
+                        <
+                        uni_start_stream <00x>
+                        sm_do_list_action <1>
+                        >
+                      mat_font_sis <system, 12, normal>
+                      mat_title_width <6>
+                      mat_bool_default <yes>
+                    man_start_sibling <trigger, "More">
+                      mat_bool_disabled <yes>
+                      mat_relative_tag <3>
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_token_arg <"Cb">
+                          >
+                        mat_font_sis <system, 12, normal>
+                        mat_title_width <6>
+                      man_end_object
+                    man_end_object
+                    man_update_display
+                  man_update_woff_end_stream

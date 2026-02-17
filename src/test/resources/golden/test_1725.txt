@@ -1,0 +1,82 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "AOL 5.0 for Windows">
+    mat_orientation <vff>
+    mat_precise_width <400>
+    mat_precise_height <230>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-1-44850>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "AOL 5.0 for Windows">
+      mat_relative_tag <3>
+      mat_precise_width <371>
+      mat_precise_height <28>
+      mat_precise_x <15>
+      mat_precise_y <12>
+      mat_orientation <hct>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_bool_read_only <yes>
+      rich_allow_embeds <no>
+      mat_precise_width <345>
+      mat_precise_height <69>
+      mat_precise_x <28>
+      mat_precise_y <55>
+      mat_bool_vertical_scroll <no>
+      mat_bool_disabled <yes>
+      mat_relative_tag <1>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <57>
+      mat_precise_width <121>
+      mat_precise_height <16>
+      mat_precise_x <8>
+      mat_precise_y <438>
+      mat_orientation <hcc>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <58>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_send_token_arg <"gy", 5403>
+        uni_end_stream
+        >
+      mat_precise_width <58>
+      mat_precise_height <58>
+      mat_precise_x <171>
+      mat_precise_y <135>
+      mat_art_id <1-0-40002>
+      mat_trigger_style <picture>
+    man_start_sibling <ornament, "Download Now">
+      mat_relative_tag <59>
+      mat_precise_width <121>
+      mat_precise_height <16>
+      mat_precise_x <140>
+      mat_precise_y <200>
+      mat_orientation <hcc>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <62>
+      mat_precise_width <58>
+      mat_precise_height <58>
+      mat_precise_x <543>
+      mat_precise_y <376>
+      mat_art_id <1-0-14004>
+      mat_trigger_style <picture>
+    man_start_sibling <ornament, "">
+      mat_relative_tag <63>
+      mat_precise_width <121>
+      mat_precise_height <16>
+      mat_precise_x <512>
+      mat_precise_y <438>
+      mat_orientation <hcc>
+    man_end_object
+  hfs_attr_end_object
+  man_update_display
+  man_set_context_relative <1>
+  man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>You are about to ">
+  man_append_data <"download AOL 5.0</B>. Select Download Now to conti">
+  man_append_data <"nue the download.<BR></HTML>">
+  man_end_data
+  man_end_context
+man_update_woff_end_stream

@@ -1,0 +1,68 @@
+uni_start_stream
+  man_start_object <ind_group, "Status BERT">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_bool_background_tile <yes>
+    man_start_object <view, "">
+      mat_width <55>
+      mat_height <14>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"Mon Mar 23 08:13:51 1998 (bert): PROC       dpacpy">
+      man_append_data <" (n=0)                   -> ERROR\r\nMon Mar 23 08:1">
+      man_append_data <"3:51 1998 (bert): PROC       b2day (n=1)          ">
+      man_append_data <"          -> OK\r\nMon Mar 23 08:13:51 1998 (bert): ">
+      man_append_data <"PROC       reuter (n=1)                   -> OK\r\nM">
+      man_append_data <"on Mar 23 08:13:51 1998 (bert): PROC       afpsrv ">
+      man_append_data <"(n=1)                   -> OK\r\nMon Mar 23 08:23:54">
+      man_append_data <" 1998 (bert): PROC       dctcpserver (n=1)        ">
+      man_append_data <"      -> OK\r\nMon Mar 23 08:23:54 1998 (bert): PROC">
+      man_append_data <"       dckamp (n=4)                   -> OK\r\nMon M">
+      man_append_data <"ar 23 08:23:54 1998 (bert): PROC       dcthesaur (">
+      man_append_data <"n=1)                -> OK\r\nMon Mar 23 08:23:54 199">
+      man_append_data <"8 (bert): PROC       dcbuild (n=1)                ">
+      man_append_data <"  -> OK\r\nMon Mar 23 08:23:54 1998 (bert): PROC    ">
+      man_append_data <"   dcpictiptc (n=1)               -> OK\r\nMon Mar 2">
+      man_append_data <"3 08:23:54 1998 (bert): PROC       dcmixer (n=1)  ">
+      man_append_data <"                -> OK\r\nMon Mar 23 08:23:54 1998 (b">
+      man_append_data <"ert): PROC       dctrasher (n=1)                ->">
+      man_append_data <" OK\r\nMon Mar 23 08:23:54 1998 (bert): PROC       d">
+      man_append_data <"cphoto (n=1)                  -> OK\r\nMon Mar 23 08">
+      man_append_data <":23:54 1998 (bert): PROC       dcforward (n=1)    ">
+      man_append_data <"            -> OK\r\nMon Mar 23 08:23:54 1998 (bert)">
+      man_append_data <": PROC       dpacpy (n=0)                   -> ERR">
+      man_append_data <"OR\r\nMon Mar 23 08:23:54 1998 (bert): PROC       b2">
+      man_append_data <"day (n=1)                    -> OK\r\nMon Mar 23 08:">
+      man_append_data <"23:54 1998 (bert): PROC       reuter (n=1)        ">
+      man_append_data <"           -> OK\r\nMon Mar 23 08:23:54 1998 (bert):">
+      man_append_data <" PROC       afpsrv (n=1)                   -> OK\r\n">
+      man_append_data <"Mon Mar 23 08:33:56 1998 (bert): PROC       dctcps">
+      man_append_data <"erver (n=1)              -> OK\r\nMon Mar 23 08:33:5">
+      man_append_data <"6 1998 (bert): PROC       dckamp (n=4)            ">
+      man_append_data <"       -> OK\r\nMon Mar 23 08:33:56 1998 (bert): PRO">
+      man_append_data <"C       dcthesaur (n=1)                -> OK\r\nMon ">
+      man_append_data <"Mar 23 08:33:56 1998 (bert): PROC       dcbuild (n">
+      man_append_data <"=1)                  -> OK\r\nMon Mar 23 08:33:56 19">
+      man_append_data <"98 (bert): PROC       dcpictiptc (n=1)            ">
+      man_append_data <"   -> OK\r\nMon Mar 23 08:33:56 1998 (bert): PROC   ">
+      man_append_data <"    dcmixer (n=1)                  -> OK\r\nMon Mar ">
+      man_append_data <"23 08:33:56 1998 (bert): PROC       dctrasher (n=1">
+      man_append_data <")                -> OK\r\nMon Mar 23 08:33:56 1998 (">
+      man_append_data <"bert): PROC       dcphoto (n=1)                  -">
+      man_append_data <"> OK\r\nMon Mar 23 08:33:56 1998 (bert): PROC       ">
+      man_append_data <"dcforward (n=1)                -> OK\r\nMon Mar 23 0">
+      man_append_data <"8:33:56 1998 (bert): PROC       dpacpy (n=0)      ">
+      man_append_data <"             -> ERROR\r\nMon Mar 23 08:33:56 1998 (b">
+      man_append_data <"ert): PROC       b2day (n=1)                    ->">
+      man_append_data <" OK\r\nMon Mar 23 08:33:56 1998 (bert): PROC       r">
+      man_append_data <"euter (n=1)                   -> OK\r\nMon Mar 23 08">
+      man_append_data <":33:56 1998 (bert): PROC       afpsrv (n=1)       ">
+      man_append_data <"            -> OK\r\n">
+      man_end_data
+      mat_relative_tag <1>
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

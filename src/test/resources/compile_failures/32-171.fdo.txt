@@ -1,0 +1,141 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_object_id <32-171>
+    mat_style_id <32-171>
+    mat_orientation <hff>
+    mat_precise_width <400>
+    mat_precise_height <280>
+    mat_art_id <1-2-15496>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_precise <yes>
+    mat_bool_background_pic <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <330>
+      mat_precise_y <28>
+      mat_size <4, 1>
+      mat_relative_tag <5>
+      mat_font_id <arial>
+      mat_font_size <10>
+      mat_font_style <bold>
+    man_start_sibling <dss_list, "">
+      mat_orientation <vee>
+      mat_precise_x <6>
+      mat_precise_y <47>
+      mat_precise_width <174>
+      mat_precise_height <226>
+      mat_relative_tag <1>
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          de_ez_send_list_text <"id", 01x, 00x, 00x, 00x, 01x>
+          >
+      man_start_sibling <trigger, "">
+        mat_precise_x <199>
+        mat_precise_y <179>
+        mat_precise_width <100>
+        mat_precise_height <16>
+        mat_relative_tag <3>
+        mat_trigger_style <plain_picture>
+        mat_art_id <1-2-15490>
+        mat_shortcut_key <"\x00">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_list_text <"id", 01x, 00x, 00x, 00x, 01x>
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <199>
+          mat_precise_y <197>
+          mat_precise_width <100>
+          mat_precise_height <16>
+          mat_relative_tag <2>
+          mat_trigger_style <plain_picture>
+          mat_art_id <1-2-15492>
+          mat_bool_default <yes>
+          act_set_criterion <select>
+          act_append_action
+            <
+            uni_start_stream
+              uni_wait_on
+              de_start_extraction <0>
+              man_set_context_relative <1>
+              de_get_data_pointer
+              uni_save_result
+              de_end_extraction
+              uni_invoke_no_context <32-225>
+              man_set_context_globalid <32-225>
+              man_set_context_relative <1>
+              uni_get_result
+              uni_use_last_atom_string <man_append_data>
+              man_end_context
+              man_update_display
+              buf_close_buffer
+              uni_wait_off
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <199>
+          mat_precise_y <215>
+          mat_precise_width <100>
+          mat_precise_height <16>
+          mat_relative_tag <4>
+          mat_trigger_style <plain_picture>
+          mat_art_id <1-2-15493>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_token_raw <"cR">
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <199>
+            mat_precise_y <233>
+            mat_precise_width <100>
+            mat_precise_height <16>
+            mat_trigger_style <plain_picture>
+            mat_art_id <1-2-15494>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_token_arg <"cO", 0-0-1>
+                >
+            man_start_sibling <trigger, "">
+              mat_precise_x <199>
+              mat_precise_y <251>
+              mat_precise_width <100>
+              mat_precise_height <16>
+              mat_trigger_style <plain_picture>
+              mat_art_hint_title <""find member"">
+              mat_art_hint_width <99>
+              mat_art_hint_height <13>
+              mat_art_id <1-2-15489>
+              mat_shortcut_key <"\x00">
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    man_preset_gid <43-16802>
+                    if_last_return_true_then <1, 2>
+                    man_make_focus
+                    man_update_display
+                    uni_sync_skip <1>
+                    uni_wait_on
+                    uni_invoke_no_context <43-16802>
+                    uni_sync_skip <2>
+                  uni_end_stream <00x>
+                  >
+              man_start_sibling <trigger, "">
+                mat_precise_x <339>
+                mat_precise_y <219>
+                mat_precise_width <54>
+                mat_precise_height <60>
+                mat_trigger_style <plain_picture>
+                mat_context_help <"Click here for help">
+                mat_art_id <1-2-15491>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"t1", 0-57-11757>
+                    >
+                man_end_object
+                man_update_display
+              uni_end_stream <00x>

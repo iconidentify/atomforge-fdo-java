@@ -1,0 +1,58 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <0, 0, 0>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <6>
+      mat_width <40>
+      mat_color_text <1, 1, 1>
+      man_append_data <"close sigma simple delta basic receive object process. handle old old north stop back item delete. widget old receive box side back block sub. custom main omega sub process process delete component. invoke open close corner load">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_art_id <1-1-56506>
+        mat_precise_width <37>
+        mat_precise_height <37>
+        mat_title_width <3>
+        mat_font_size <8>
+        mat_font_id <arial>
+        mat_font_style <bold>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_art_id <1-1-56466>
+        mat_precise_width <37>
+        mat_precise_height <37>
+        mat_font_size <8>
+        mat_font_id <arial>
+        mat_font_style <bold>
+        mat_title <"Basic Edge South">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

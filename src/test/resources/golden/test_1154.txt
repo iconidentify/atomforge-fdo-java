@@ -1,0 +1,42 @@
+uni_start_stream
+  man_set_context_globalid <1>
+  act_do_action <129>
+  man_end_context
+  man_close_update <32-5483>
+  uni_invoke_no_context <32-482>
+  uni_invoke_no_context <32-484>
+  act_get_db_value <14x, 00x, 00x, 2bx>
+  if_last_return_true_then <1>
+  async_playsound <"Primary Sigma">
+  uni_sync_skip <1>
+  man_set_context_globalid <2>
+  man_set_context_relative <98>
+  mat_title <"Sub Bottom">
+  mat_shortcut_key <"O">
+  man_change_context_relative <91>
+  mat_title <"Primary View">
+  mat_shortcut_key <"O">
+  act_replace_select_action
+      <
+      uni_start_stream_wait_on
+        man_do_magic_response_id <8413>
+        uni_invoke_no_context <32-221>
+      uni_wait_off_end_stream
+      >
+    man_change_context_relative <118>
+    man_close
+    man_end_context
+    man_end_context
+    man_set_context_globalid <3>
+    man_set_context_relative <890>
+    mat_bool_disabled <yes>
+    man_end_context
+    man_set_context_relative <86>
+    async_is_guest
+    if_last_return_false_then <3>
+    mat_bool_disabled <no>
+    uni_sync_skip <3>
+    man_end_context
+    man_end_context
+    man_update_display
+  uni_end_stream

@@ -1,0 +1,277 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Current Window Main">
+    mat_object_id <41-42991>
+    mat_style_id <41-42991>
+    mat_orientation <vff>
+    mat_relative_tag <113>
+    mat_color_face <255, 255, 204>
+    mat_object_id <32-291>
+    mat_precise_width <387>
+    mat_precise_height <295>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Old Window Area">
+        mat_relative_tag <7>
+        mat_bool_invisible <yes>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Second Zone Alpha">
+        mat_relative_tag <1>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_shortcut_key <"\x00">
+        mat_value <1>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_size <30, 2>
+        mat_font_id <arial>
+        mat_font_size <9>
+        mat_font_style <bold>
+        man_append_data <"Default Form Frame">
+      man_start_sibling <sss_list, "">
+        mat_orientation <vlf>
+        mat_relative_tag <2>
+        man_start_object <trigger, "Complex Beta">
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Fourth Omega">
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Secondary Element">
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_end_object
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Custom Left Block">
+        mat_relative_tag <8>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "New Front Region">
+        mat_relative_tag <4>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Special Form Top">
+        mat_relative_tag <5>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "load element secondary screen handle static invoke gamma.">
+        mat_relative_tag <6>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "new label current second secondary left main previous.">
+        mat_relative_tag <9>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "OK">
+        mat_title_width <9>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_trigger_style <rectangle>
+        mat_trigger_style <rectangle>
+        mat_color_face <0, 102, 153>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_frame_shadow <0, 0, 0>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_horizontal_spacing <7>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction
+              man_set_context_relative <8>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-96>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <7>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-66>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <9>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-332>
+              de_get_data_value
+              if_last_return_true_then <1, 2>
+              idb_append_data <00x, 00x, 00x, 00x>
+              uni_sync_skip <1>
+              idb_append_data <00x, 00x, 00x, 01x>
+              uni_sync_skip <2>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <1>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-35>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <2>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-36>
+              de_get_data_value
+              var_number_set_from_atom <B>
+              man_set_item_type <7>
+              var_number_set <A, 1>
+              if_numa_eq_numb_then <1>
+              man_item_set <08x>
+              var_number_set <C, 8>
+              uni_sync_skip <1>
+              var_numa_increment
+              if_numa_eq_numb_then <2>
+              man_item_set <0ax>
+              var_number_set <C, 10>
+              uni_sync_skip <2>
+              var_numa_increment
+              if_numa_eq_numb_then <3>
+              man_item_set <0cx>
+              var_number_set <C, 12>
+              uni_sync_skip <3>
+              var_number_get <C>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              idb_start_obj <"b">
+              idb_atr_globalid <20-3-23>
+              var_number_get <B>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <4>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-43>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <5>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-44>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <6>
+              man_set_item_type <8>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-48>
+              de_get_data_value
+              uni_save_result
+              uni_use_last_atom_value <idb_append_data>
+              uni_get_result
+              uni_use_last_atom_value <man_item_set>
+              idb_end_obj
+              man_end_context
+              de_end_extraction
+              man_close
+              man_update_display
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Old Dialog">
+          mat_title_width <9>
+          mat_color_face <0, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_trigger_style <rectangle>
+          mat_trigger_style <rectangle>
+          mat_color_face <0, 102, 153>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_frame_shadow <0, 0, 0>
+          mat_font_sis <arial, 8, normal>
+          mat_color_text <255, 255, 255>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        man_set_context_relative <6>
+        act_get_db_value <14x, 00x, 00x, 30x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <8>
+        act_get_db_value <14x, 00x, 00x, 60x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <7>
+        act_get_db_value <14x, ffx, 00x, 70x>
+        if_last_return_true_then <1>
+        mat_bool_invisible <no>
+        uni_sync_skip <1>
+        act_get_db_value <14x, 00x, 00x, 42x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <1>
+        act_get_db_value <14x, 00x, 00x, 23x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <2>
+        act_get_db_value <14x, 03x, 00x, 17x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <4>
+        act_get_db_value <14x, 00x, 00x, 2bx>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <5>
+        act_get_db_value <14x, 00x, 00x, 2cx>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <9>
+        act_get_db_value <14x, 00x, 01x, 4cx>
+        if_last_return_true_then <1, 2>
+        mat_value <0>
+        uni_sync_skip <1>
+        mat_value <1>
+        uni_sync_skip <2>
+        man_end_context
+        man_set_context_globalid <32-291>
+        man_update_display
+        man_end_context
+        uni_wait_off
+      uni_end_stream <00x>

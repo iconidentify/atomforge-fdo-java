@@ -1,0 +1,48 @@
+name: Build and Publish
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+        server-id: github
+        server-username: GITHUB_ACTOR
+        server-password: GITHUB_TOKEN
+
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
+
+    - name: Run tests
+      run: mvn -B test --file pom.xml
+
+    - name: Set version from commit
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      run: |
+        # Use date + short SHA for version
+        VERSION="1.0.$(date +%Y%m%d%H%M%S)-${GITHUB_SHA::7}"
+        mvn versions:set -DnewVersion=$VERSION -DgenerateBackupPoms=false
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+    - name: Publish to GitHub Packages
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      run: mvn -B deploy -DskipTests --file pom.xml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_ACTOR: ${{ github.actor }}

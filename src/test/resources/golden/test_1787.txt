@@ -1,0 +1,96 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, " UK SOAF - Direct Marketing and Online campaigns">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-52731>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Sign on a friend Queries">
+      mat_relative_tag <3>
+      mat_width <20>
+      mat_height <1>
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vfc>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <view, "">
+          rich_manage
+          rich_bool_read_only <yes>
+          mat_bool_writeable <yes>
+          mat_width <30>
+          mat_height <13>
+          mat_bool_vertical_scroll <yes>
+          mat_relative_tag <1>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <vef>
+        man_start_object <org_group, "">
+          mat_orientation <vcf>
+          man_start_object <trigger, "">
+            mat_relative_tag <56>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-36-46596>
+                >
+              mat_art_id <1-0-34709>
+              mat_trigger_style <picture>
+              mat_bool_default <yes>
+            man_start_sibling <ornament, "DM SOAF">
+              mat_relative_tag <57>
+              mat_width <20>
+              mat_height <1>
+              mat_orientation <hcc>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <vcf>
+            man_start_object <trigger, "">
+              mat_relative_tag <58>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-36-46851>
+                  >
+                mat_art_id <1-0-34709>
+                mat_trigger_style <picture>
+              man_start_sibling <ornament, "Online SOAF">
+                mat_relative_tag <59>
+                mat_width <20>
+                mat_height <1>
+                mat_orientation <hcc>
+              man_end_object
+            man_start_sibling <org_group, "">
+              mat_orientation <vcf>
+              man_start_object <trigger, "">
+                mat_relative_tag <60>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"f1", 0-44-4771>
+                    >
+                  mat_art_id <1-0-35990>
+                  mat_trigger_style <picture>
+                  mat_bool_default <yes>
+                man_start_sibling <ornament, "Send Queries">
+                  mat_relative_tag <61>
+                  mat_width <20>
+                  mat_height <1>
+                  mat_orientation <hcc>
+                man_end_object
+              man_end_object
+            man_end_object
+          man_end_object
+        hfs_attr_end_object
+        man_update_display
+        man_set_context_relative <1>
+        man_append_data <"\x7fPlease check that the member is using a SOAF cert">
+        man_append_data <" and password?\x7f\x7fDon't forget to check CRIS?\x7f\x7f03/08">
+        man_append_data <"/99 09:09">
+        man_end_data
+        man_end_context
+      man_update_woff_end_stream

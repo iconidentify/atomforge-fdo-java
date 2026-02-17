@@ -1,0 +1,76 @@
+uni_start_stream
+  man_start_object <ind_group, "Kids Only Shift Procedures">
+    mat_orientation <vff>
+    man_start_object <ornament, "Kids Only Shift Procedures">
+      mat_relative_tag <2>
+      mat_width <32>
+      mat_height <1>
+      mat_font_sis <arial, 18, normal>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <65>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Current KO Rooms Schedule 07/21/97">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-56-24614>
+            >
+          mat_art_id <1-0-1478>
+        man_start_sibling <trigger, "Dealing with Adults in KO 07/21/97">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-56-24613>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Guide Duties in Kids Only 07/21/97">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-56-24615>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Kids Only TOS Rules 07/21/97">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-56-24616>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "Opening & Closing Procedures 07/21/97">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-56-22221>
+                    >
+                  mat_art_id <1-0-1478>
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <hec>
+                man_start_object <trigger, "Open">
+                  act_replace_select_action
+                      <
+                      uni_start_stream <00x>
+                      sm_do_list_action <1>
+                      >
+                    mat_font_sis <system, 12, normal>
+                    mat_title_width <6>
+                    mat_bool_default <yes>
+                  man_start_sibling <trigger, "More">
+                    mat_bool_disabled <yes>
+                    mat_relative_tag <3>
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_token_raw <"Cb">
+                        >
+                      mat_font_sis <system, 12, normal>
+                      mat_title_width <6>
+                    man_end_object
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

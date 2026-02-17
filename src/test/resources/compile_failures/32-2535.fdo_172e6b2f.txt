@@ -1,0 +1,87 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Ouvrir une Session Express">
+    mat_object_id <32-8945>
+    mat_style_id <32-8945>
+    mat_orientation <vff>
+    mat_precise_width <337>
+    mat_precise_height <250>
+    mat_color_face <255, 251, 240>
+    mat_style_id <32-2535>
+    mat_object_id <32-2535>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <320>
+      mat_precise_height <200>
+      mat_font_sis <arial, 8, normal>
+      mat_vertical_spacing <5>
+      man_append_data <"S�lectionnez "Ouvrir" pour ouvrir imm�diatement une Session\x7fExpress pour le pseudonyme en cours. Les activit�s d�finies\x7fseront r�alis�es. Pour v�rifier ou modifier la configuration des\x7fSessions, s�lectionnez "Configurer".\x7f\x7fAttention, un fichier peut contenir des virus. Si vos E-mails\x7fre�us contiennent des e-mails  avec fichiers joints, v�rifiez que\x7fvous connaissez leur exp�diteur avant de lancer une Session\x7fExpress. Pour r�cup�rer vos e-mails sans t�l�charger les\x7ffichiers joints, cliquez sur le bouton "Configurer" et d�sactivez\x7fl'option de t�l�chargement des fichiers joints. Pour plus\x7fd'informations, allez au mot cl� : SECURITE.\x7f\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      man_start_object <trigger, "Ouvrir">
+        mat_precise_x <36>
+        mat_precise_y <210>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <204, 204, 255>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <153, 153, 204>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              mip_action_command <09x>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Configurer">
+          mat_precise_x <129>
+          mat_precise_y <210>
+          mat_precise_width <90>
+          mat_precise_height <23>
+          mat_color_face <204, 204, 255>
+          mat_color_top_edge <255, 255, 255>
+          mat_color_bottom_edge <153, 153, 204>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Annuler">
+            mat_precise_x <240>
+            mat_precise_y <210>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <204, 204, 255>
+            mat_color_top_edge <255, 255, 255>
+            mat_color_bottom_edge <153, 153, 204>
+            mat_font_size <8>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

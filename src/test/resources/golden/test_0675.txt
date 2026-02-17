@@ -1,0 +1,96 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Default Alpha Item">
+    mat_object_id <32-2411>
+    mat_orientation <vcf>
+    mat_position <center_center>
+    man_start_object <edit_view, "Current Component Button">
+      mat_title_width <18>
+      mat_size <10, 1>
+      mat_relative_tag <1>
+      mat_title_pos <left | center>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_exportable <no>
+      mat_bool_importable <no>
+      idb_set_context <20-0-6>
+      idb_atr_offset <1>
+      idb_get_value <01x>
+      uni_convert_last_atom_data
+      uni_use_last_atom_string <man_replace_data>
+      idb_end_context
+    man_start_sibling <edit_view, "New Delta Region">
+      mat_title_width <18>
+      mat_size <10, 1>
+      mat_relative_tag <2>
+      mat_title_pos <left | center>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_exportable <no>
+      mat_bool_importable <no>
+      idb_set_context <20-0-6>
+      idb_atr_offset <2>
+      idb_get_value <01x>
+      uni_convert_last_atom_data
+      uni_use_last_atom_string <man_replace_data>
+      idb_end_context
+    man_start_sibling <edit_view, "Secondary Button">
+      mat_title_width <18>
+      mat_size <10, 1, 31>
+      mat_relative_tag <3>
+      mat_title_pos <left | center>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_exportable <no>
+      mat_bool_importable <no>
+      idb_exists <20-0-68>
+      if_last_return_true_then <1>
+      idb_set_context <20-0-68>
+      idb_atr_offset <0>
+      idb_get_data
+      uni_use_last_atom_string <man_replace_data>
+      idb_end_context
+      uni_sync_skip <1>
+    man_start_sibling <trigger, "Custom Area">
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream
+            de_start_extraction <0>
+            man_set_context_relative <1>
+            de_get_data_pointer
+            uni_convert_last_atom_string
+            mt_flip_value
+            var_number_set_from_atom <A>
+            man_end_context
+            man_set_context_relative <2>
+            de_get_data_pointer
+            uni_convert_last_atom_string
+            mt_flip_value
+            var_number_set_from_atom <B>
+            man_end_context
+            idb_set_context <20-0-6>
+            idb_atr_offset <1>
+            idb_append_data <00x, 00x>
+            idb_atr_offset <1>
+            var_number_get <A>
+            uni_use_last_atom_value <idb_append_data>
+            idb_atr_offset <2>
+            var_number_get <B>
+            uni_use_last_atom_value <idb_append_data>
+            idb_end_context
+            idb_start_obj <"t">
+            idb_atr_globalid <20-0-68>
+            man_set_context_relative <3>
+            de_get_data_pointer
+            uni_use_last_atom_string <idb_append_data>
+            man_end_context
+            idb_end_obj
+            de_end_extraction
+            man_close_update
+            async_alert <info, "Current Theta Gadget">
+          uni_end_stream
+          >
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

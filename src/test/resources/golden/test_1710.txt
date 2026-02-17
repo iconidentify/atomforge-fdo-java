@@ -1,0 +1,193 @@
+uni_start_stream
+  man_start_object <ind_group, "Test Areas">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-1385>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Test Areas">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "AOL In-House Collections">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-100-46181>
+            >
+        man_start_sibling <trigger, "AOL International">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"Ca", 0-61-1>
+              >
+          man_start_sibling <trigger, "Clubs & Interests">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"Ca", 0-0-36202>
+                >
+            man_start_sibling <trigger, "Computing">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"Ca", 0-0-36203>
+                  >
+              man_start_sibling <trigger, "Education">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"Ca", 0-0-3770>
+                    >
+                man_start_sibling <trigger, "Entertainment">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"Ca", 0-0-36211>
+                      >
+                  man_start_sibling <trigger, "Games Channel ">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"Ca", 0-0-29285>
+                        >
+                    man_start_sibling <trigger, "Greenhouse">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"K1", 0-19-5089>
+                          >
+                      man_start_sibling <trigger, "Health & Fitness">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-1-20447>
+                            >
+                        man_start_sibling <trigger, "Internet Connection">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"Ca", 0-0-36209>
+                              >
+                          man_start_sibling <trigger, "Kids Only">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"Ca", 0-0-36212>
+                                >
+                            man_start_sibling <trigger, "Market Place">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"Ca", 0-0-36205>
+                                  >
+                              man_start_sibling <trigger, "New Technology Services">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-100-4908>
+                                    >
+                                man_start_sibling <trigger, "News Stand">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"Ca", 0-0-36207>
+                                      >
+                                  man_start_sibling <trigger, "People Connection">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"Ca", 0-0-36206>
+                                        >
+                                    man_start_sibling <trigger, "Personal Finance">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"Ca", 0-0-36201>
+                                          >
+                                      man_start_sibling <trigger, "Politics">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-100-22078>
+                                            >
+                                        man_start_sibling <trigger, "Product Marketing">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-100-42701>
+                                              >
+                                          man_start_sibling <trigger, "Reference Desk">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"Ca", 0-0-36208>
+                                                >
+                                            man_start_sibling <trigger, "Sports">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"Ca", 0-0-36210>
+                                                  >
+                                              man_start_sibling <trigger, "Today's News">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"Ca", 0-0-36204>
+                                                    >
+                                                man_start_sibling <trigger, "Travel">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"Ca", 0-0-36213>
+                                                      >
+                                                  man_start_sibling <trigger, "Women's Channel">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"t1", 0-100-4565>
+                                                        >
+                                                    man_end_object
+                                                  man_start_sibling <org_group, "">
+                                                    mat_orientation <hec>
+                                                    man_start_object <trigger, "Open">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream <00x>
+                                                          sm_do_list_action <1>
+                                                          >
+                                                        mat_font_sis <system, 12, normal>
+                                                        mat_title_width <6>
+                                                        mat_bool_default <yes>
+                                                      man_start_sibling <trigger, "More">
+                                                        mat_bool_disabled <yes>
+                                                        mat_relative_tag <3>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_wait_on
+                                                            uni_start_stream
+                                                              buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                              buf_set_token <"Cc">
+                                                              buf_add_atom_pointer <01x, 00x, 01x, 22x, 10x, 00x, 15x>
+                                                              buf_close_buffer
+                                                            uni_end_stream
+                                                            >
+                                                          mat_font_sis <system, 12, normal>
+                                                          mat_title_width <6>
+                                                        man_end_object
+                                                      man_end_object
+                                                      man_update_display
+                                                    man_update_woff_end_stream

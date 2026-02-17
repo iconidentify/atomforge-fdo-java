@@ -1,0 +1,62 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 251, 240>
+    man_start_object <ornament, "">
+      mat_relative_tag <1>
+      mat_height <6>
+      mat_width <40>
+      mat_color_text <1, 1, 1>
+      uni_next_atom_typed <latin1>
+      man_append_data <"Ce fichier a �t� ajout� � la liste des fichiers � t�l�charger. Pour afficher cette liste ou d�marrer le t�l�chargement, cliquez sur le bouton "Gestionnaire de t�l�chargement". Vous pouvez � tout moment revenir au Gestionnaire de t�l�chargement en cliquant sur l'ic�ne "Mes fichiers" de la barre d'outils.">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_title_width <4>
+        mat_color_face <255, 153, 0>
+        mat_color_text <0, 0, 0>
+        mat_color_top_edge <255, 204, 0>
+        mat_color_bottom_edge <255, 204, 0>
+        mat_font_size <9>
+        mat_font_id <arial>
+        uni_next_atom_typed <latin1>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <rectangle>
+        mat_title_width <23>
+        mat_color_face <255, 153, 0>
+        mat_color_text <0, 0, 0>
+        mat_color_top_edge <255, 204, 0>
+        mat_color_bottom_edge <255, 204, 0>
+        mat_font_size <9>
+        mat_font_id <arial>
+        uni_next_atom_typed <latin1>
+        mat_title <"Gestionnaire de t�l�chargement">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

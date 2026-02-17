@@ -1,0 +1,186 @@
+uni_start_stream
+  man_start_object <ind_group, "mindBLOW">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <275>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-16167>
+    mat_bool_background_pic <yes>
+    man_start_object <dss_list, "">
+      mat_relative_tag <30>
+      mat_precise_width <200>
+      mat_precise_height <100>
+      mat_precise_x <250>
+      mat_precise_y <130>
+      mat_color_face <1, 1, 1>
+      mat_font_sis <times_roman, 9, bold>
+      mat_color_text <30, 110, 30>
+      mat_bool_no_border <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "ENTER Security">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-42-3162>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "The absolute worst area on AOL">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"f1", 0-40-26085>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "WAOL, Get it?">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-42-2869>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Comments or Suggestions">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"f1", 0-40-56046>
+                  >
+                mat_art_id <1-0-1477>
+              man_end_object
+            man_start_sibling <trigger, "">
+              mat_relative_tag <56>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"f1", 0-40-31083>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_x <32>
+                mat_precise_y <107>
+                mat_art_id <1-0-18006>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <58>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"f1", 0-40-30390>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_x <32>
+                  mat_precise_y <154>
+                  mat_art_id <1-0-18006>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <trigger, "">
+                  mat_relative_tag <60>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-42-2905>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_precise_x <32>
+                    mat_precise_y <201>
+                    mat_art_id <1-0-18006>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <ornament, "ReTro AOL (1993)">
+                    mat_relative_tag <57>
+                    mat_precise_width <99>
+                    mat_precise_height <28>
+                    mat_precise_x <134>
+                    mat_precise_y <115>
+                    mat_font_sis <ms_sans_serif, 9, bold>
+                    mat_orientation <hlf>
+                  man_start_sibling <ornament, "Pentiums Only!">
+                    mat_relative_tag <59>
+                    mat_precise_width <99>
+                    mat_precise_height <28>
+                    mat_precise_x <133>
+                    mat_precise_y <162>
+                    mat_font_sis <ms_sans_serif, 9, bold>
+                    mat_orientation <hlf>
+                  man_start_sibling <ornament, "QUAKE\r">
+                    mat_relative_tag <61>
+                    mat_precise_width <99>
+                    mat_precise_height <28>
+                    mat_precise_x <132>
+                    mat_precise_y <209>
+                    mat_font_sis <ms_sans_serif, 9, bold>
+                    mat_orientation <hlf>
+                  man_start_sibling <ornament, "">
+                    mat_precise_x <218>
+                    mat_precise_y <49>
+                    mat_art_id <1-0-34535>
+                    mat_font_sis <small_fonts, 7, normal>
+                  man_start_sibling <trigger, "">
+                    mat_relative_tag <62>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-42-2251>
+                        >
+                      mat_font_sis <small_fonts, 7, normal>
+                      mat_precise_width <20>
+                      mat_precise_height <20>
+                      mat_precise_x <75>
+                      mat_precise_y <5>
+                      mat_art_id <1-0-12636>
+                      mat_trigger_style <plain_picture>
+                    man_start_sibling <trigger, "">
+                      mat_relative_tag <64>
+                      mat_context_help <"Don't Look Here">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"f1", 0-40-31139>
+                          >
+                        mat_font_sis <small_fonts, 7, normal>
+                        mat_precise_width <20>
+                        mat_precise_height <20>
+                        mat_precise_x <242>
+                        mat_precise_y <5>
+                        mat_art_id <1-0-12636>
+                        mat_trigger_style <plain_picture>
+                      man_start_sibling <trigger, "">
+                        mat_relative_tag <66>
+                        mat_context_help <"ChOmSkY">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-42-2992>
+                            >
+                          mat_font_sis <small_fonts, 7, normal>
+                          mat_precise_width <20>
+                          mat_precise_height <20>
+                          mat_precise_x <477>
+                          mat_precise_y <130>
+                          mat_art_id <1-0-12636>
+                          mat_trigger_style <plain_picture>
+                        man_start_sibling <trigger, "">
+                          mat_relative_tag <68>
+                          mat_context_help <"Gray Matter">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-42-2942>
+                              >
+                            mat_font_sis <small_fonts, 7, normal>
+                            mat_precise_width <20>
+                            mat_precise_height <20>
+                            mat_precise_x <322>
+                            mat_precise_y <253>
+                            mat_art_id <1-0-12636>
+                            mat_trigger_style <plain_picture>
+                          man_start_sibling <trigger, "">
+                            mat_relative_tag <70>
+                            mat_font_sis <small_fonts, 7, normal>
+                            mat_precise_width <20>
+                            mat_precise_height <20>
+                            mat_precise_x <5>
+                            mat_precise_y <190>
+                            mat_art_id <1-0-12636>
+                            mat_trigger_style <plain_picture>
+                          man_end_object
+                          man_update_display
+                        man_update_woff_end_stream

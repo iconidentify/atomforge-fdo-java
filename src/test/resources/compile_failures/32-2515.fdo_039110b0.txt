@@ -1,0 +1,62 @@
+uni_start_stream <00x>
+  uni_next_atom_typed <ascii>
+  man_start_object <ind_group, "Installationsprogramm: Gratuliere!">
+    mat_object_id <32-2515>
+    mat_style_id <32-2515>
+    mat_orientation <vft>
+    mat_precise_width <368>
+    mat_precise_height <190>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <345>
+      mat_precise_height <135>
+      mat_font_size <8>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      uni_next_atom_typed <ascii>
+      man_append_data <"CompuServe Autopilot ist installiert!\x7f\x7fHINWEIS: CompuServe muss ge�ffnet werden, um Sitzungen in CompuServe Autpilot zu starten\x7f\x7fWenn Sie die Aufgaben, die Sie in CompuServe Autopilot gew�hlt haben, ansehen oder �ndern m�chten, klicken Sie in der Symbolleiste auf <B>CompuServe Post</B> und anschlie�end im Dropdown-Men� auf <B>CompuServe Autopilot</B>.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <235>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      uni_next_atom_typed <ascii>
+      man_start_object <trigger, "OK">
+        mat_title_width <7>
+        mat_precise_x <150>
+        mat_precise_y <155>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_next_atom_typed <ascii>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream

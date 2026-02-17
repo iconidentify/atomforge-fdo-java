@@ -1,0 +1,93 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Default Front Area">
+    mat_style_id <32-2514>
+    mat_orientation <vft>
+    mat_precise_width <450>
+    mat_precise_height <230>
+    mat_color_face <255, 251, 240>
+    mat_object_id <32-2514>
+    man_start_object <ornament, "">
+      mat_precise_x <21>
+      mat_precise_y <21>
+      mat_art_id <1-1-52891>
+      mat_bool_disabled <yes>
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_precise_width <360>
+      mat_precise_height <1>
+      mat_precise_x <45>
+      mat_precise_y <42>
+      mat_color_face <1, 1, 1>
+      mat_bool_background_flood <yes>
+    man_end_object
+    mat_art_id <1-5-34664>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <45>
+      mat_precise_y <20>
+      mat_size <11, 1>
+      mat_font_sis <arial, 12, bold>
+      man_append_data <"Secondary South">
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <44>
+      mat_precise_y <57>
+      mat_precise_width <360>
+      mat_precise_height <80>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"element frame element execute main static complex simple. close stop execute previous\x7fstop advanced send old stop handle default label. side refresh fourth\x7f\x7ffourth simple advanced refresh unit third stop item. load invoke east dynamic beta\x7fdelete basic standard receive region top north create. load close secondary region\x7f\x7f">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <205>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <188>
+        mat_precise_y <189>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_title <"OK">
+        mat_precise_width <80>
+        mat_precise_height <23>
+        mat_font_sis <arial, 8, bold>
+        mat_color_text <255, 255, 255>
+        mat_color_text_shadow <36, 36, 85>
+        mat_color_frame_hilight <182, 182, 255>
+        mat_color_frame_shadow <1, 36, 85>
+        mat_color_selected <218, 218, 218>
+        mat_color_top_edge <182, 182, 255>
+        mat_color_bottom_edge <36, 36, 85>
+        mat_color_face <72, 109, 170>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+            uni_end_stream
+            >
+        man_end_object
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

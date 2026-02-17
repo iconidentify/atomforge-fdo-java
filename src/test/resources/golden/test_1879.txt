@@ -1,0 +1,193 @@
+uni_start_stream
+  hfs_attr_database_type <host>
+  man_start_object <ind_group, "Member Services Forms.">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <350>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    mat_position <cascade>
+    man_start_object <ornament, "Member Services Forms">
+      mat_precise_width <220>
+      mat_precise_height <27>
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 14, bold>
+      mat_color_text <0, 32, 0>
+    man_end_object
+    man_start_object <dss_list, "">
+      mat_precise_width <255>
+      mat_precise_height <290>
+      mat_precise_x <10>
+      mat_precise_y <40>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "**ORDERS and ORDER INQUIRIES">
+      man_end_object
+      man_start_object <trigger, "Catalog Orders">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_k1 <40-63681>
+            >
+          mat_art_id <1-0-1477>
+        man_end_object
+        man_start_object <trigger, "Tour / Internet Guide Orders">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <40-43207>
+              >
+            mat_art_id <1-0-1477>
+          man_end_object
+          man_start_object <trigger, "Visa Application Request">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-52354>
+                >
+              mat_art_id <1-0-1477>
+            man_end_object
+            man_start_object <trigger, "Fulfillment Inquiry">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-43551>
+                  >
+                mat_art_id <1-0-1477>
+              man_end_object
+              man_start_object <trigger, "SOAF Reward and Premium Orders">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_send_token_arg <"K1", 17-59022>
+                  uni_end_stream
+                  >
+                mat_art_id <1-0-1477>
+              man_end_object
+              man_start_object <trigger, "">
+              man_end_object
+              man_start_object <trigger, "**REMOVAL REQUESTS">
+              man_end_object
+              man_start_object <trigger, "Credit Card Database Removal">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-43168>
+                    >
+                  mat_art_id <1-0-1477>
+                man_end_object
+                man_start_object <trigger, "Marketing List Removals">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-41498>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_end_object
+                  man_start_object <trigger, "">
+                  man_end_object
+                  man_start_object <trigger, "**PROBLEM REPORTING">
+                  man_end_object
+                  man_start_object <trigger, "APLog Reporting">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_m_send_token_arg <"t1", 0-127-53513>
+                        >
+                      mat_art_id <1-0-1477>
+                    man_end_object
+                    man_start_object <trigger, "Telemarketing Complaints -- US">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-44130>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_end_object
+                      man_start_object <trigger, "Invoice Inquiries">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_f1 <40-42165>
+                            >
+                          mat_art_id <1-0-1477>
+                        man_end_object
+                        man_start_object <trigger, "Community Leader/Partner Escalations">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_m_send_token_arg <"K1", 0-17-60835>
+                              >
+                            mat_art_id <1-0-1477>
+                          man_end_object
+                        man_end_object
+                        man_start_object <dss_list, "">
+                          mat_precise_width <255>
+                          mat_precise_height <290>
+                          mat_precise_x <280>
+                          mat_precise_y <40>
+                          mat_font_sis <arial, 9, normal>
+                          mat_sort_order <normal>
+                          man_start_object <trigger, "**BILLING REQUESTS">
+                          man_end_object
+                          man_start_object <trigger, "Billing Detail Request">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_send_f1 <43-12029>
+                                >
+                              mat_art_id <1-0-1477>
+                            man_end_object
+                            man_start_object <trigger, "Account Hold Plan ">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <41-23111>
+                                uni_end_stream
+                                >
+                              mat_art_id <1-0-1477>
+                            man_end_object
+                            man_start_object <trigger, "">
+                            man_end_object
+                            man_start_object <trigger, "**CREDIT REQUESTS">
+                            man_end_object
+                            man_start_object <trigger, "AG Agreement Credit Requests">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <43-10432>
+                                  >
+                                mat_art_id <1-0-1477>
+                              man_end_object
+                              man_start_object <trigger, "">
+                              man_end_object
+                              man_start_object <trigger, "**AOL CANADA">
+                              man_end_object
+                              man_start_object <trigger, "Telemarketing Complaints -- Canada">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      man_preset_gid <43-14309>
+                                      if_last_return_true_then <1, 2>
+                                      man_make_focus
+                                      man_update_display
+                                      uni_sync_skip <1>
+                                      uni_wait_on
+                                      uni_invoke_no_context <43-14309>
+                                      uni_sync_skip <2>
+                                    uni_end_stream
+                                    >
+                                  mat_art_id <1-0-1477>
+                                man_end_object
+                                man_start_object <trigger, "">
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            man_update_display
+                            uni_wait_off
+                          uni_end_stream

@@ -1,0 +1,56 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_style_id <32-1781>
+    mat_orientation <vff>
+    mat_color_face <255, 255, 207>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 3>
+      mat_font_id <arial>
+      mat_font_size <9>
+      man_append_data <"refresh center section gamma start secondary send beta. static back theta simple static">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "No">
+        mat_trigger_style <rectangle>
+        mat_color_face <1, 109, 170>
+        mat_color_frame_hilight <145, 182, 255>
+        mat_color_frame_shadow <1, 1, 1>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_width <25>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_start_sibling <trigger, "Yes">
+          mat_trigger_style <rectangle>
+          mat_color_face <1, 109, 170>
+          mat_color_frame_hilight <145, 182, 255>
+          mat_color_frame_shadow <1, 1, 1>
+          mat_font_sis <arial, 8, normal>
+          mat_color_text <255, 255, 255>
+          mat_width <25>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              de_ez_send_form <"oU">
+              >
+          man_start_sibling <edit_view, "">
+            mat_size <1, 1>
+            mat_relative_tag <1>
+            mat_bool_vertical_scroll <no>
+            mat_bool_resize_vertical <no>
+            mat_bool_resize_horizontal <no>
+            mat_bool_invisible <yes>
+            mat_bool_exportable <no>
+            mat_bool_importable <no>
+          man_end_object
+        man_end_object
+        man_update_display
+      uni_end_stream <00x>

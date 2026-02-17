@@ -1,0 +1,45 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Third Frame Back">
+    mat_object_id <32-2535>
+    mat_orientation <vff>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 6>
+      man_append_data <"Old West\"Advanced Box\"left current advanced bottom widget execute right update. block dialog static stop screen default complex create. main theta dialog refresh north third refresh item. invoke sub current refresh component\"Advanced Label\"Advanced Module">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Third Front">
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              mip_action_command <09x>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Special Gadget">
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Third East">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

@@ -1,0 +1,108 @@
+uni_start_stream
+  man_start_object <ind_group, "Welcome to Member Help Interactive">
+    mat_orientation <vff>
+    mat_art_id <1-0-21743>
+    mat_bool_background_tile <yes>
+    act_set_criterion <close>
+    act_replace_action
+        <
+        uni_start_stream
+          man_set_context_globalid <4-0-0>
+          man_get_child_count
+          var_number_set_from_atom <A>
+          if_numa_gt_one_then <1, 2>
+          uni_sync_skip <1>
+          uni_start_stream
+          sm_send_token_arg <"YS">
+          uni_sync_skip <2>
+        uni_end_stream
+        >
+      man_start_object <view, "">
+        mat_log_object <chat_log>
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <10>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_force_scroll <yes>
+        mat_paragraph <yes>
+        mat_bool_vertical_scroll <yes>
+        mat_capacity <20000>
+        mat_scroll_threshold <4096>
+        mat_ruler <14>
+        man_append_data <"MHIRHONDA:\tWelcome to Member Help Interactive.  Pl">
+        man_append_data <"ease present your \tquestion, and I will be with yo">
+        man_append_data <"u in just a moment.   :)\r\n">
+        man_end_data
+        mat_relative_tag <1>
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <edit_view, "">
+          mat_bool_writeable <yes>
+          mat_bool_importable <yes>
+          mat_width <50>
+          mat_height <1>
+          mat_bool_resize_vertical <no>
+          mat_font_sis <arial, 10, normal>
+          mat_bool_vertical_scroll <no>
+          mat_capacity <320>
+          mat_relative_tag <2>
+        man_start_sibling <trigger, "Send">
+          mat_relative_tag <3>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_set_context_relative <3>
+                act_do_action <200>
+                uni_wait_off
+                man_end_context
+                man_set_context_relative <2>
+                man_clear_object
+                man_place_cursor <2>
+                man_update_display
+                man_end_context
+              uni_end_stream
+              >
+            act_set_criterion <200>
+            act_replace_action
+                <
+                uni_start_stream
+                de_ez_send_form <"YC", 0-0-4704>
+                >
+              mat_font_sis <system, 12, normal>
+              mat_bool_default <yes>
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hcf>
+            man_start_object <trigger, "Save">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    fm_start
+                    fm_broadcast <04x>
+                    fm_end
+                  uni_end_stream
+                  >
+                mat_font_sis <system, 12, normal>
+              man_start_sibling <trigger, "Print">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      fm_start
+                      fm_broadcast <09x>
+                      fm_end
+                    uni_end_stream
+                    >
+                  mat_font_sis <system, 12, normal>
+                man_start_sibling <trigger, "Exit Member Help Interactive">
+                  mat_relative_tag <4>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"YB", 0-0-10005>
+                      >
+                    mat_font_sis <system, 12, normal>
+                  man_end_object
+                man_end_object
+                man_update_display
+              man_update_woff_end_stream

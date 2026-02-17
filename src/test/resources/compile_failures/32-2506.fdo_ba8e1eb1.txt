@@ -1,0 +1,489 @@
+uni_start_stream <00x>
+  man_set_response_id <2099658>
+  idb_set_context <20-0-16>
+  idb_atr_offset <1>
+  idb_get_string
+  var_string_set_from_atom <A>
+  var_string_set <B,"New User  ">
+  idb_end_context
+  if_stra_eq_strb_then <10, 99>
+  uni_next_atom_typed <latin1>
+  async_alert <info, "Bitte melden Sie ein Konto an, wenn Sie diese Funktion verwenden m�chten.">
+  uni_sync_skip <10>
+  uni_next_atom_typed <latin1>
+  man_start_object <ind_group, "CompuServe Autopilot-Einstellungen">
+    mat_object_id <32-2506>
+    mat_style_id <32-2506>
+    sm_set_plus_group <45x, b1x>
+    mat_orientation <hff>
+    mat_precise_width <620>
+    mat_precise_height <350>
+    mat_color_face <255, 255, 255>
+    act_set_criterion <131>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      mat_position <center_center>
+      mat_bool_resize_vertical <no>
+      mat_bool_precise <yes>
+      mat_bool_background_flood <yes>
+      man_start_object <org_group, "">
+        mat_orientation <vft>
+        mat_precise_width <150>
+        mat_precise_height <220>
+        man_start_object <org_group, "">
+          mat_orientation <hff>
+          mat_precise_x <5>
+          mat_precise_y <5>
+          mat_precise_width <145>
+          mat_precise_height <105>
+          man_start_object <ornament, "">
+            mat_precise_x <10>
+            mat_precise_y <65>
+            mat_precise_width <226>
+            mat_precise_height <15>
+            mat_font_style <bold>
+            uni_next_atom_typed <latin1>
+            man_append_data <"2. Tag, Uhrzeit und H�ufigkeit festlegen:">
+            uni_next_atom_typed <latin1>
+          man_start_sibling <trigger, "Namen w�hlen">
+            mat_title_width <8>
+            mat_precise_x <270>
+            mat_precise_y <36>
+            mat_precise_width <106>
+            mat_precise_height <24>
+            mat_color_face <0, 51, 153>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <102, 153, 204>
+            mat_color_bottom_edge <0, 0, 102>
+            mat_font_size <8>
+            mat_bool_default <yes>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_preset_gid <32-2164>
+                  if_last_return_true_then <1, 2>
+                  man_make_focus
+                  man_update_display
+                  uni_sync_skip <1>
+                  uni_wait_on
+                  uni_invoke_no_context <32-2164>
+                  uni_sync_skip <2>
+                uni_end_stream
+                >
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <hff>
+            mat_precise_x <5>
+            mat_precise_y <115>
+            mat_precise_width <145>
+            mat_precise_height <100>
+            man_start_object <ornament, "">
+              mat_precise_x <10>
+              mat_precise_y <40>
+              mat_precise_width <250>
+              mat_precise_height <15>
+              mat_font_style <bold>
+              uni_next_atom_typed <latin1>
+              man_append_data <"1. Benutzernamen und Passw�rter w�hlen:">
+              uni_next_atom_typed <latin1>
+            man_start_sibling <trigger, "Termin eintragen">
+              mat_title_width <8>
+              mat_precise_x <247>
+              mat_precise_y <61>
+              mat_precise_width <100>
+              mat_precise_height <24>
+              mat_color_face <0, 51, 153>
+              mat_color_text <255, 255, 255>
+              mat_color_top_edge <102, 153, 204>
+              mat_color_bottom_edge <0, 0, 102>
+              mat_font_size <8>
+              mat_font_id <arial>
+              act_replace_select_action
+                  <
+                  uni_start_stream <00x>
+                    man_preset_gid <32-2101>
+                    if_last_return_true_then <1, 2>
+                    man_make_focus
+                    man_update_display
+                    uni_sync_skip <1>
+                    uni_wait_on
+                    uni_invoke_no_context <32-2101>
+                    uni_sync_skip <2>
+                  uni_end_stream
+                  >
+              man_end_object
+            man_end_object
+          man_start_sibling <org_group, "">
+            mat_orientation <vft>
+            mat_precise_x <150>
+            mat_precise_width <375>
+            mat_precise_height <155>
+            man_start_object <ornament, "">
+              mat_precise_x <10>
+              mat_precise_y <89>
+              mat_precise_width <247>
+              mat_precise_height <15>
+              mat_font_style <bold>
+              uni_next_atom_typed <latin1>
+              man_append_data <"3. Aufgaben w�hlen:">
+            man_start_sibling <sms_list, "">
+              mat_orientation <hff>
+              uni_next_atom_typed <latin1>
+              man_start_object <trigger, "Nachrichten aus dem Ordner "Postausgang" senden">
+                mat_precise_x <26>
+                mat_precise_y <110>
+                mat_relative_tag <3>
+                mat_font_sis <arial, 8, bold>
+                mat_bool_default_send <no>
+              man_end_object
+            man_start_sibling <sms_list, "">
+              mat_orientation <hff>
+              uni_next_atom_typed <latin1>
+              man_start_object <trigger, "Ungelesene Nachrichten empfangen und im Ordner ->"Posteingang" ablegen">
+                mat_precise_x <26>
+                mat_precise_y <129>
+                mat_relative_tag <1>
+                mat_font_sis <arial, 8, bold>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_set_context_relative <1>
+                      de_start_extraction
+                      de_get_data_value
+                      uni_save_result
+                      man_change_context_relative <2>
+                      uni_get_result
+                      if_last_return_true_then <1, 2>
+                      mat_bool_disabled <no>
+                      uni_sync_skip <1>
+                      mat_bool_disabled <yes>
+                      mat_value <0>
+                      uni_sync_skip <2>
+                      man_end_context
+                      man_update_display
+                      de_end_extraction
+                    uni_end_stream
+                    >
+                  mat_bool_default_send <no>
+                man_end_object
+              man_start_sibling <sms_list, "">
+                mat_orientation <hcf>
+                uni_next_atom_typed <latin1>
+                man_start_object <trigger, "Dateien empfangen, die an ungelesene Nachrichten angeh�ngt sind*">
+                  mat_precise_x <26>
+                  mat_precise_y <148>
+                  mat_relative_tag <2>
+                  mat_font_sis <arial, 8, bold>
+                  mat_bool_default_send <no>
+                man_end_object
+              man_start_sibling <sms_list, "">
+                mat_orientation <hff>
+                man_start_object <trigger, "">
+                  mat_precise_x <26>
+                  mat_precise_y <167>
+                  mat_relative_tag <6>
+                  mat_font_sis <arial, 8, bold>
+                  uni_next_atom_typed <latin1>
+                  mat_title <"Newsgroup-Artikel aus dem Ordner "Mitteilungen (Ausgang)" senden">
+                  mat_vertical_spacing <6>
+                  mat_bool_default_send <no>
+                man_end_object
+              man_start_sibling <sms_list, "">
+                mat_orientation <hff>
+                man_start_object <trigger, "">
+                  mat_precise_x <26>
+                  mat_precise_y <186>
+                  mat_relative_tag <5>
+                  mat_font_sis <arial, 8, bold>
+                  uni_next_atom_typed <latin1>
+                  mat_title <"Ungelesene Newsgroup-Artikel aus dem Order -> Posteingang/Gespeicherter Mitteilungen empfangen">
+                  mat_bool_default_send <no>
+                man_end_object
+              man_start_sibling <sms_list, "">
+                mat_orientation <hff>
+                uni_next_atom_typed <latin1>
+                man_start_object <trigger, "Dateien herunterladen, die f�r einen sp�teren Download markiert sind*">
+                  mat_precise_x <26>
+                  mat_precise_y <205>
+                  mat_relative_tag <4>
+                  mat_font_sis <arial, 8, bold>
+                  mat_bool_default_send <no>
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <vcf>
+                mat_precise_x <150>
+                mat_precise_y <160>
+                mat_precise_width <375>
+                mat_precise_height <60>
+                man_start_object <ornament, "">
+                  mat_precise_x <26>
+                  mat_precise_y <230>
+                  mat_precise_width <435>
+                  mat_precise_height <76>
+                  mat_font_size <8>
+                  mat_font_id <arial>
+                  uni_next_atom_typed <latin1>
+                  man_append_data <"*HINWEIS: Die heruntergeladenen Dateien werden in dem im Download Manager angegebenen Verzeichnis abgelegt.\x7f            Dateien k�nnen unerw�nschte Grafiken oder Viren enthalten, die Ihr\x7f            System oder Ihr CompuServe Konto besch�digen k�nnen.">
+                man_start_sibling <view, "">
+                  rich_manage
+                  rich_set_static
+                  mat_title_width <16>
+                  mat_precise_x <10>
+                  mat_precise_y <5>
+                  mat_precise_width <450>
+                  mat_precise_height <31>
+                  mat_relative_tag <20>
+                  mat_color_text <255, 1, 1>
+                  idb_set_context <20-0-55>
+                  idb_atr_offset <0>
+                  idb_get_value <04x>
+                  if_last_return_true_then <1, 2>
+                  uni_next_atom_typed <latin1>
+                  man_append_data <"<B></FONT><FONT  COLOR="#ff0000" SIZE=3PTSIZE=10>Sitzungen sind eingetragen:</FONT><FONT  COLOR="#000000" SIZE=3PTSIZE=10></B> (Informationen �ber das �ndern der Autopilot-Optionen finden Sie weiter unten in Schritt 2.)<BR>">
+                  uni_sync_skip <1>
+                  uni_next_atom_typed <latin1>
+                  man_append_data <"<B></FONT><FONT  COLOR="#ff0000" SIZE=3PTSIZE=10>Es sind keine Sitzungen eingetragen:</FONT><FONT  COLOR="#061020" SIZE=3PTSIZE=10></B></FONT><FONT  COLOR="#000000" SIZE=3 PTSIZE=10> (Informationen �ber das �ndern der Autopilot-Optionen finden Sie weiter unten in Schritt 2.)<BR>">
+                  uni_sync_skip <2>
+                  idb_end_context
+                  mat_bool_vertical_scroll <no>
+                  mat_bool_resize_vertical <no>
+                  mat_bool_resize_horizontal <no>
+                  mat_bool_exportable <no>
+                  mat_font_id <arial>
+                  mat_font_size <9>
+                man_start_sibling <ornament, "">
+                  mat_precise_x <26>
+                  mat_precise_y <26>
+                  mat_precise_width <268>
+                  mat_precise_height <14>
+                  mat_font_sis <arial, 8, normal>
+                  mat_bool_disabled <yes>
+                  mat_bool_invisible <yes>
+                  uni_next_atom_typed <latin1>
+                  man_append_data <"HINWEIS: Informationen �ber das �ndern der Autopilot-Optionen finden Sie weiter unten in Schritt 2.">
+                  uni_next_atom_typed <latin1>
+                man_start_sibling <trigger, "OK">
+                  mat_title_width <6>
+                  mat_precise_x <46>
+                  mat_precise_y <310>
+                  mat_precise_width <70>
+                  mat_precise_height <24>
+                  mat_color_face <0, 51, 153>
+                  mat_color_text <255, 255, 255>
+                  mat_color_top_edge <102, 153, 204>
+                  mat_color_bottom_edge <0, 0, 102>
+                  mat_font_size <8>
+                  mat_font_id <arial>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        de_start_extraction
+                        man_set_context_relative <3>
+                        uni_next_atom_typed <ascii>
+                        idb_start_obj <"b">
+                        idb_atr_globalid <20-0-59>
+                        de_get_data_value
+                        uni_use_last_atom_value <idb_append_data>
+                        idb_end_obj
+                        man_change_context_relative <1>
+                        uni_next_atom_typed <ascii>
+                        idb_start_obj <"b">
+                        idb_atr_globalid <20-0-57>
+                        de_get_data_value
+                        uni_use_last_atom_value <idb_append_data>
+                        idb_end_obj
+                        man_change_context_relative <2>
+                        uni_next_atom_typed <ascii>
+                        idb_start_obj <"b">
+                        idb_atr_globalid <20-0-58>
+                        de_get_data_value
+                        uni_use_last_atom_value <idb_append_data>
+                        idb_end_obj
+                        man_change_context_relative <6>
+                        uni_next_atom_typed <ascii>
+                        idb_start_obj <"b">
+                        idb_atr_globalid <20-0-85>
+                        de_get_data_value
+                        uni_use_last_atom_value <idb_append_data>
+                        idb_end_obj
+                        man_change_context_relative <5>
+                        uni_next_atom_typed <ascii>
+                        idb_start_obj <"b">
+                        idb_atr_globalid <20-0-84>
+                        de_get_data_value
+                        uni_use_last_atom_value <idb_append_data>
+                        idb_end_obj
+                        man_change_context_relative <4>
+                        uni_next_atom_typed <ascii>
+                        idb_start_obj <"b">
+                        idb_atr_globalid <20-0-60>
+                        de_get_data_value
+                        uni_use_last_atom_value <idb_append_data>
+                        idb_end_obj
+                        man_end_context
+                        de_end_extraction
+                        man_close_update
+                      uni_end_stream
+                      >
+                    uni_next_atom_typed <latin1>
+                  man_start_sibling <trigger, "Setup Wizard">
+                    mat_title_width <8>
+                    mat_precise_x <140>
+                    mat_precise_y <310>
+                    mat_precise_width <91>
+                    mat_precise_height <24>
+                    mat_color_face <0, 51, 153>
+                    mat_color_text <255, 255, 255>
+                    mat_color_top_edge <102, 153, 204>
+                    mat_color_bottom_edge <0, 0, 102>
+                    mat_font_size <8>
+                    mat_font_id <arial>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          man_close_update
+                          uni_invoke_no_context <32-2507>
+                        uni_end_stream
+                        >
+                      uni_next_atom_typed <latin1>
+                    man_start_sibling <trigger, "Sitzung starten">
+                      mat_title_width <8>
+                      mat_precise_x <255>
+                      mat_precise_y <310>
+                      mat_precise_width <99>
+                      mat_precise_height <24>
+                      mat_color_face <0, 51, 153>
+                      mat_color_text <255, 255, 255>
+                      mat_color_top_edge <102, 153, 204>
+                      mat_color_bottom_edge <0, 0, 102>
+                      mat_font_size <8>
+                      mat_vertical_spacing <5>
+                      mat_font_id <arial>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            de_start_extraction
+                            man_set_context_relative <3>
+                            uni_next_atom_typed <ascii>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-59>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_change_context_relative <1>
+                            uni_next_atom_typed <ascii>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-57>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_change_context_relative <2>
+                            uni_next_atom_typed <ascii>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-58>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_change_context_relative <6>
+                            uni_next_atom_typed <ascii>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-85>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_change_context_relative <5>
+                            uni_next_atom_typed <ascii>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-84>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_change_context_relative <4>
+                            uni_next_atom_typed <ascii>
+                            idb_start_obj <"b">
+                            idb_atr_globalid <20-0-60>
+                            de_get_data_value
+                            uni_use_last_atom_value <idb_append_data>
+                            idb_end_obj
+                            man_end_context
+                            de_end_extraction
+                            man_close_update
+                            sm_enter_paid
+                            uni_invoke_no_context <32-2522>
+                          uni_end_stream
+                          >
+                        uni_next_atom_typed <latin1>
+                      man_start_sibling <trigger, "Abbrechen">
+                        mat_title_width <7>
+                        mat_precise_x <379>
+                        mat_precise_y <310>
+                        mat_precise_width <70>
+                        mat_precise_height <24>
+                        mat_color_face <0, 51, 153>
+                        mat_color_text <255, 255, 255>
+                        mat_color_top_edge <102, 153, 204>
+                        mat_color_bottom_edge <0, 0, 102>
+                        mat_font_size <8>
+                        mat_font_id <arial>
+                        act_replace_select_action
+                            <
+                            uni_start_stream <00x>
+                              man_close_update
+                            uni_end_stream
+                            >
+                          uni_next_atom_typed <latin1>
+                        man_start_sibling <trigger, "Hilfe">
+                          mat_title_width <7>
+                          mat_precise_x <473>
+                          mat_precise_y <310>
+                          mat_precise_width <70>
+                          mat_precise_height <24>
+                          mat_color_face <0, 51, 153>
+                          mat_color_text <255, 255, 255>
+                          mat_color_top_edge <102, 153, 204>
+                          mat_color_bottom_edge <0, 0, 102>
+                          mat_font_size <8>
+                          mat_font_id <arial>
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on
+                                uni_next_atom_typed <latin1>
+                                async_exec_context_help <43x, 6fx, 6dx, 70x, 75x, 53x, 65x, 72x, 76x, 65x, 20x, 41x, 75x, 74x, 6fx, 70x, 69x, 6cx, 6fx, 74x>
+                              uni_wait_off_end_stream
+                              >
+                          man_end_object
+                        man_end_object
+                      man_end_object
+                      uni_wait_off
+                      man_update_display
+                      man_set_context_relative <1>
+                      act_get_db_value <14x, 00x, 00x, 39x>
+                      uni_save_result
+                      uni_use_last_atom_value <mat_value>
+                      man_change_context_relative <2>
+                      act_get_db_value <14x, 00x, 00x, 3ax>
+                      uni_use_last_atom_value <mat_value>
+                      uni_get_result
+                      if_last_return_false_then <1>
+                      mat_bool_disabled <yes>
+                      uni_sync_skip <1>
+                      man_change_context_relative <3>
+                      act_get_db_value <14x, 00x, 00x, 3bx>
+                      uni_use_last_atom_value <mat_value>
+                      man_change_context_relative <4>
+                      act_get_db_value <14x, 00x, 00x, 3cx>
+                      uni_use_last_atom_value <mat_value>
+                      man_change_context_relative <5>
+                      act_get_db_value <14x, 00x, 00x, 54x>
+                      uni_use_last_atom_value <mat_value>
+                      man_change_context_relative <6>
+                      act_get_db_value <14x, 00x, 00x, 55x>
+                      uni_use_last_atom_value <mat_value>
+                      man_end_context
+                      man_update_display
+                      uni_sync_skip <99>
+                    uni_end_stream

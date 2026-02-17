@@ -1,0 +1,118 @@
+uni_start_stream
+  man_start_object <ind_group, "Finance Codes">
+    mat_orientation <vfc>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <ornament, "">
+        mat_relative_tag <1>
+        mat_width <33>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, normal>
+        man_append_data <"Finance Codes in numerical order\r">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <59>
+        mat_height <17>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <2>
+      man_end_object
+      man_update_display
+      man_set_context_relative <2>
+      man_append_data <"<HTML><PRE>     0  Unknown\x7f     100  Corporate\x7f   ">
+      man_append_data <"  110  Accounting & Administration\x7f     111  Finan">
+      man_append_data <"ce & Planning\x7f     115  Investor Relations\x7f     12">
+      man_append_data <"0  Corporate Development\x7f     130  Corporate Commu">
+      man_append_data <"nications\x7f     133  International Marketing\x7f     1">
+      man_append_data <"34  Canada\x7f     135  International Channel\x7f     13">
+      man_append_data <"6  Japan\x7f     137  Europe\x7f     138  International ">
+      man_append_data <"Marketing Development\x7f     139  Product Management">
+      man_append_data <"\x7f     140  AOL International Management\x7f     141  ">
+      man_append_data <"International JV Admin\x7f     142  International JV ">
+      man_append_data <"- Germany\x7f     143  International JV - France\x7f    ">
+      man_append_data <" 144  International JV - Japan\x7f     145  Internati">
+      man_append_data <"onal JV - England\x7f     146  International JV - Cal">
+      man_append_data <"l Centers\x7f     150  Legal\x7f     160  Facilities\x7f   ">
+      man_append_data <"  165  Security\x7f     170  Human Resources\x7f     210">
+      man_append_data <"  Marketing\x7f     211  Partner Marketing\x7f     212  ">
+      man_append_data <"New Media Marketing\x7f     213  Traditional Operatio">
+      man_append_data <"ns\x7f     214  Marketing Operations\x7f     215  Financ">
+      man_append_data <"ial & Marketing Analysis\x7f     220  Sales and Servi">
+      man_append_data <"ce\x7f     300  Market Support\x7f     302  VA - Deliver">
+      man_append_data <"y\x7f     305  VA - Planning\x7f     306  VA - System Ve">
+      man_append_data <"rification\x7f     307  Member Services\x7f     308  Con">
+      man_append_data <"nectivity Support\x7f     309  QA\x7f     310  CAT - Rep">
+      man_append_data <"s\x7f     311  JAX - DELIVERY SUPPORT\x7f     312  JAX -">
+      man_append_data <" DELIVERY\x7f     315  ALBQ Delivery Support\x7f     316">
+      man_append_data <"  ALBQ Support\x7f     321  OGDEN - DELIVERY SUPPORT\x7f">
+      man_append_data <"     322  OGDEN - DELIVERY\x7f     331  SITE5 - DELIV">
+      man_append_data <"ERY SUPPORT\x7f     332  SITE5 - DELIVERY\x7f     381  A">
+      man_append_data <"Z - DELIVERY SUPPORT\x7f     382  AZ - DELIVERY\x7f     ">
+      man_append_data <"384  AZ - OEM\x7f     400  AOL Technologies\x7f     410 ">
+      man_append_data <" TECHNOLOGY PROJECTS\x7f     419  Technical Developme">
+      man_append_data <"nt\x7f     420  MULTIMEDIA PLATFORM DEVELOPMENT\x7f     ">
+      man_append_data <"421  INTERNET PLATFORM DEV\x7f     422  Compression A">
+      man_append_data <"lgorithms\x7f     430  SYSTEMS PROGRAMMING\x7f     440  ">
+      man_append_data <"SYSTEMS OPERATIONS\x7f     450  SYSTEMS & ADVANCED TE">
+      man_append_data <"CHNOLOGY\x7f     460  NETWORK OPERATIONS\x7f     470  OP">
+      man_append_data <"ERATIONS\x7f     471  AOLNET OPERATIONS\x7f     472  INT">
+      man_append_data <"ERNATIONAL OPERATIONS\x7f     473  WEB OPERATIONS\x7f   ">
+      man_append_data <"  474  Operations Security\x7f     480  OFFICE COMPUT">
+      man_append_data <"ING OPERATIONS\x7f     490  MIS\x7f     495  Operations ">
+      man_append_data <"Database\x7f     600  AOL Services\x7f     601  Concept ">
+      man_append_data <"Group\x7f     602  Retention Group\x7f     605  National">
+      man_append_data <" Accounts\x7f     606  Research\x7f     610  AOL PRODUCT">
+      man_append_data <"IONS EAST\x7f     611  COOL TEAM\x7f     612  Terms of S">
+      man_append_data <"ervice\x7f     613  INTERFACE DESIGN\x7f     614  Online">
+      man_append_data <" Promotions\x7f     615  People Connection\x7f     616  ">
+      man_append_data <"AOLP/E Project Mngt\x7f     617  Design Dept.\x7f     62">
+      man_append_data <"9  Community Leaders\x7f     630  Computing\x7f     631 ">
+      man_append_data <" Games\x7f     650  Personal Finance\x7f     651  Small ">
+      man_append_data <"Business\x7f     670  AOL BRAND ADMIN\x7f     671  Healt">
+      man_append_data <"h\x7f     672  Reference\x7f     673  AOL RESOURCE CENTE">
+      man_append_data <"R\x7f     674  Travel\x7f     680  Entertainment\x7f     68">
+      man_append_data <"1  Special Events\x7f     685  AOL Live\x7f     690  New">
+      man_append_data <"s & Politics\x7f     700  Sports\x7f     710  Special In">
+      man_append_data <"terests\x7f     715  Women's Channel\x7f     730  Kids/E">
+      man_append_data <"ducation/Music\x7f     740  Product Marketing\x7f     75">
+      man_append_data <"0  Developers Studio\x7f     751  NEW TECHNOLOGY SERV">
+      man_append_data <"ICES\x7f     752  Internet Connection\x7f     753  Web T">
+      man_append_data <"eam\x7f     754  Community\x7f     755  Internet & Commu">
+      man_append_data <"nity\x7f     760  The AOL Greenhouse\x7f     770  GENERA">
+      man_append_data <"L CONTENT\x7f     780  TECH CONTENT\x7f     790  AOL Pub">
+      man_append_data <"lishing Group\x7f     800  Interactive Marketing\x7f    ">
+      man_append_data <" 801  Digital Marketing Ventures\x7f     810  Adverti">
+      man_append_data <"sing\x7f     850  New Enterprises\x7f     852  NAVISOFT\x7f">
+      man_append_data <"     853  NAVISOFT SALES AND MARKETING\x7f     854  W">
+      man_append_data <"EB Hosting\x7f     860  WEBSOFT\x7f     870  GNN - ISP\x7f ">
+      man_append_data <"    875  ENTERPRISE SOLUTIONS\x7f     880  Digital Ci">
+      man_append_data <"ty Admin\x7f     881  Digital City Washington\x7f     88">
+      man_append_data <"2  Digital City Boston\x7f     883  Digital City Atla">
+      man_append_data <"nta\x7f     884  Digital City L.A.\x7f     885  Digital ">
+      man_append_data <"City Philadelphia\x7f     886  Digital City San Franc">
+      man_append_data <"isco\x7f     887  Digital City Seattle\x7f     888  Digi">
+      man_append_data <"tal City Dallas\x7f     889  Digital City Denver\x7f    ">
+      man_append_data <" 890  Digital City Toronto\x7f     891  Digital City ">
+      man_append_data <"San Diego\x7f     892  Digital City Detriot\x7f     893 ">
+      man_append_data <" Digital City Houston\x7f     894  Digital City Minne">
+      man_append_data <"apolis\x7f     895  Digital City Miami\x7f     896  Digi">
+      man_append_data <"tal City Tampa\x7f     897  Digital City Cleveland\x7f  ">
+      man_append_data <"   898  Digital City New York\x7f     902  NAVISOFT-W">
+      man_append_data <"EST\x7f     903  NAVISOFT-EAST\x7f     904  ANS\x7f     905">
+      man_append_data <"  WAIS - WIDE AREA INFORMATION SERVICE\x7f     906  M">
+      man_append_data <"EDIOR\x7f     907  BERKELEY STUDIO\x7f     908  UBIQUE\x7f ">
+      man_append_data <"    909  WEBCRAWLER\x7f     931  UK News Department\x7f ">
+      man_append_data <"    992  Canada\x7f     999  Main Screen / etc.\x7f</PRE">
+      man_append_data <"></HTML>">
+      man_end_data
+      man_end_context
+    man_update_woff_end_stream

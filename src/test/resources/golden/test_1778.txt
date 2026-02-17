@@ -1,0 +1,73 @@
+uni_start_stream
+  man_start_object <ind_group, "ProjectTalk">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <ornament, "ProjectTalk">
+      mat_relative_tag <3>
+      mat_width <23>
+      mat_height <1>
+      mat_font_sis <arial, 24, normal>
+      mat_orientation <hlf>
+    man_start_sibling <view, "">
+      mat_width <54>
+      mat_height <7>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_relative_tag <1>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <org_group, "">
+        mat_orientation <vcf>
+        man_start_object <trigger, "">
+          mat_relative_tag <56>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"f1", 0-41-22087>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-40082>
+            mat_trigger_style <picture>
+            mat_bool_repeat_animation <no>
+          man_start_sibling <ornament, "">
+            mat_relative_tag <57>
+            mat_width <14>
+            mat_height <1>
+            mat_font_sis <arial, 9, normal>
+            mat_orientation <hcc>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <vcf>
+          man_start_object <trigger, "">
+            mat_relative_tag <58>
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-14004>
+            mat_trigger_style <picture>
+          man_start_sibling <ornament, "">
+            mat_relative_tag <59>
+            mat_width <14>
+            mat_height <1>
+            mat_font_sis <arial, 9, normal>
+            mat_orientation <hcc>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <vcf>
+          man_start_object <trigger, "">
+            mat_relative_tag <60>
+            mat_font_sis <small_fonts, 7, normal>
+            mat_art_id <1-0-14004>
+            mat_trigger_style <picture>
+          man_start_sibling <ornament, "">
+            mat_relative_tag <61>
+            mat_width <14>
+            mat_height <1>
+            mat_font_sis <arial, 9, normal>
+            mat_orientation <hcc>
+          man_end_object
+        man_end_object
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

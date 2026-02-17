@@ -1,0 +1,128 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Screen Object">
+    mat_object_id <32-2516>
+    mat_style_id <32-2516>
+    mat_orientation <vft>
+    mat_precise_width <380>
+    mat_precise_height <195>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Static Epsilon View">
+      mat_precise_x <70>
+      mat_precise_y <8>
+      mat_size <18, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <43>
+      mat_precise_width <360>
+      mat_precise_height <70>
+      mat_font_size <8>
+      mat_precise_width <360>
+      mat_precise_height <70>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      uni_next_atom_typed <ascii>
+      man_append_data <"complex block open start widget delete handle close. execute element\x7f\x7fsimple beta save form main section gamma handle. old window block handle open right old create. epsilon frame front delete active left custom basic. sigma thing">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <255>
+      mat_precise_width <410>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <70>
+        mat_precise_y <130>
+        mat_precise_width <36>
+        mat_precise_height <36>
+        mat_color_face <0, 109, 170>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <145, 182, 255>
+        mat_color_bottom_edge <1, 1, 1>
+        mat_trigger_style <plain_picture>
+        mat_font_size <8>
+        mat_title <"Yes">
+        mat_art_id <1-1-56506>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_invoke_no_context <32-2517>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <170>
+          mat_precise_y <130>
+          mat_precise_width <36>
+          mat_precise_height <36>
+          mat_color_face <0, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_bottom_edge <1, 1, 1>
+          mat_trigger_style <plain_picture>
+          mat_font_size <8>
+          mat_title <"No">
+          mat_art_id <1-1-56737>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                uni_invoke_no_context <32-2515>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <265>
+            mat_precise_y <130>
+            mat_precise_width <36>
+            mat_precise_height <36>
+            mat_color_face <0, 109, 170>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <145, 182, 255>
+            mat_color_bottom_edge <1, 1, 1>
+            mat_trigger_style <plain_picture>
+            mat_font_size <8>
+            mat_title <"Old Dialog">
+            mat_art_id <1-1-60879>
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_start_sibling <ornament, "">
+              mat_precise_x <78>
+              mat_precise_y <170>
+              mat_size <5, 1>
+              mat_title <"Yes">
+              mat_font_sis <arial, 8, bold>
+            man_start_sibling <ornament, "">
+              mat_precise_x <182>
+              mat_precise_y <170>
+              mat_size <5, 1>
+              mat_title <"No">
+              mat_font_sis <arial, 8, bold>
+            man_start_sibling <ornament, "">
+              mat_precise_x <273>
+              mat_precise_y <170>
+              mat_size <10, 1>
+              mat_title <"Old Dialog">
+              mat_font_sis <arial, 8, bold>
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

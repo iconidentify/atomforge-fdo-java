@@ -1,0 +1,84 @@
+uni_start_stream
+  man_start_object <ind_group, "Ranger Home Pages">
+    mat_orientation <vft>
+    man_start_object <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_relative_tag <15>
+        mat_art_id <1-0-2258>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Rangers\r">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <68>
+      mat_height <11>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Rnger DAZ     |     DazzleLady        ">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-16-5856>
+            >
+          mat_art_id <1-0-32650>
+        man_start_sibling <trigger, "Rnger JDI">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-16-1360>
+              >
+            mat_art_id <1-0-32650>
+          man_start_sibling <trigger, "Rnger LOW">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-16-1915>
+                >
+              mat_art_id <1-0-32650>
+            man_start_sibling <trigger, "Rnger MGS     |     Randus62        ">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-16-5862>
+                  >
+                mat_art_id <1-0-32650>
+              man_start_sibling <trigger, "Rnger PUP     |     Zelartist        ">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U3", 0-16-5858>
+                    >
+                  mat_art_id <1-0-32650>
+                man_start_sibling <trigger, "Rnger WLF">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-16-5861>
+                      >
+                    mat_art_id <1-0-32650>
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hef>
+                  mat_vertical_spacing <2>
+                  man_start_object <trigger, "Open">
+                    act_replace_select_action
+                        <
+                        uni_start_stream <00x>
+                        sm_do_list_action <30>
+                        >
+                      mat_font_sis <system, 12, normal>
+                      mat_bool_default <yes>
+                    man_start_sibling <trigger, "More">
+                      mat_bool_disabled <yes>
+                      mat_relative_tag <26>
+                      mat_font_sis <system, 12, normal>
+                    man_end_object
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

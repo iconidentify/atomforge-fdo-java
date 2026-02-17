@@ -1,0 +1,49 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Fourth Corner">
+    mat_object_id <32-4603>
+    mat_orientation <vcf>
+    mat_position <center_center>
+the_unknown <16, 204, 01x>
+    man_start_object <edit_view, "Complex Element Center">
+      mat_title_width <18>
+      mat_size <10, 1, 15>
+      mat_relative_tag <4>
+      mat_title_pos <left | center>
+      mat_bool_writeable <yes>
+      idb_exists <20-0-70>
+      if_last_return_true_then <1>
+      idb_set_context <20-0-70>
+      idb_atr_offset <0>
+      idb_get_data
+      uni_use_last_atom_string <man_replace_data>
+      idb_end_context
+      uni_sync_skip <1>
+    man_start_sibling <trigger, "Custom Area">
+      mat_trigger_style <14>
+      mat_bool_default <yes>
+      act_replace_select_action
+          <
+          uni_start_stream
+            de_start_extraction <0>
+            man_set_context_relative <4>
+            de_get_data_pointer
+            var_string_set_from_atom <A>
+            if_stra_eq_null_then <1, 2>
+            idb_delete_obj <20-0-70>
+            uni_sync_skip <1>
+            idb_start_obj <"t">
+            idb_atr_globalid <20-0-70>
+            var_string_get <A>
+            uni_use_last_atom_string <idb_append_data>
+            idb_end_obj
+            uni_sync_skip <2>
+            man_end_context
+            de_end_extraction
+            man_close_update
+            async_alert <info, "Standard East Block">
+          uni_end_stream
+          >
+      man_end_object
+      man_update_display
+      uni_wait_off
+    uni_end_stream <00x>

@@ -1,0 +1,20 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "New Module Item">
+    mat_object_id <32-729>
+    mat_orientation <vff>
+    man_start_object <view, "">
+      mat_height <11>
+      mat_horizontal_spacing <0>
+      mat_vertical_spacing <0>
+      mat_bool_writeable <yes>
+      man_append_data <"area main bottom third advanced static process corner. receive bottom create dynamic primary start old custom. east special handle static epsilon execute process\x7fprimary previous invoke west process side theta secondary. send handle receive delete dynamic refresh corner sigma. special\x7fhandle back delete open update first simple refresh. secondary load stop close refresh object\"Secondary West\"active corner epsilon label side west sub sub. section north view create dynamic start first form. previous refresh second handle execute bottom create\"Primary Right South\"send delta secondary center old south save receive. default view update\"Third Side Side\"Old Epsilon\x7fsub save third back east main send start. module special label module stop epsilon primary back. main frame create\"Previous Alpha South\"Custom Button Component">
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "Second Edge">
+      man_start_sibling <trigger, "Dynamic Thing Sigma">
+      man_start_sibling <trigger, "Sub View Right">
+      man_end_object
+    man_end_object
+    man_update_display
+    uni_wait_off
+  uni_end_stream <00x>

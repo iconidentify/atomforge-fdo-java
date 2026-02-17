@@ -1,0 +1,331 @@
+uni_start_stream
+  man_start_object <ind_group, "Custom Module Section">
+    mat_style_id <44-42317>
+    mat_orientation <vff>
+    mat_precise_width <411>
+    mat_precise_height <364>
+    mat_bool_precise <yes>
+    mat_color_face <255, 255, 255>
+    mat_bool_background_flood <yes>
+    mat_bool_modal <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <16>
+      mat_precise_y <70>
+      mat_font_sis <arial, 8, bold>
+      man_append_data <"current invoke beta item default primary handle">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <sss_list, "">
+      mat_orientation <vff>
+      mat_relative_tag <99>
+      man_start_object <trigger, "Complex Section Edge">
+        mat_relative_tag <1>
+        mat_font_sis <arial, 8, normal>
+        mat_precise_width <150>
+        mat_precise_height <20>
+        mat_precise_x <23>
+        mat_precise_y <85>
+      man_start_sibling <trigger, "Current Panel Edge">
+        mat_relative_tag <2>
+        mat_font_sis <arial, 8, normal>
+        mat_precise_width <105>
+        mat_precise_height <20>
+        mat_precise_x <23>
+        mat_precise_y <106>
+        mat_value <1>
+      man_start_sibling <trigger, "Complex Epsilon Epsilon">
+        mat_relative_tag <3>
+        mat_font_sis <arial, 8, normal>
+        mat_precise_width <180>
+        mat_precise_height <20>
+        mat_precise_x <23>
+        mat_precise_y <127>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <vff>
+      man_start_object <trigger, "right dynamic basic standard start gadget save box.">
+        mat_relative_tag <4>
+        mat_font_sis <arial, 8, bold>
+        mat_precise_x <16>
+        mat_precise_y <177>
+        mat_bool_default <yes>
+        mat_value <1>
+      man_start_sibling <trigger, "second static label area save west open custom.">
+        mat_relative_tag <5>
+        mat_font_sis <arial, 8, bold>
+        mat_precise_x <16>
+        mat_precise_y <200>
+      man_start_sibling <trigger, "complex top refresh refresh gamma send gamma">
+        mat_relative_tag <6>
+        mat_font_sis <arial, 8, bold>
+        mat_precise_x <16>
+        mat_precise_y <223>
+        mat_bool_default <yes>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlc>
+      mat_precise_width <342>
+      mat_precise_height <26>
+      mat_precise_x <16>
+      mat_precise_y <247>
+      man_start_object <sms_list, "">
+        mat_orientation <vff>
+        man_start_object <trigger, "Special Right Unit">
+          mat_relative_tag <7>
+          mat_font_sis <arial, 8, bold>
+          mat_precise_x <16>
+          mat_precise_y <247>
+          mat_bool_default <yes>
+          mat_value <1>
+        man_end_object
+      man_start_sibling <select_range, "">
+        mat_precise_width <60>
+        mat_precise_height <24>
+        mat_precise_x <216>
+        mat_precise_y <247>
+        mat_relative_tag <8>
+        mat_value <100>
+        mat_maximum <1000>
+        mat_minimum <1>
+        mat_increment <10>
+      man_start_sibling <ornament, "Custom Screen">
+        mat_precise_width <65>
+        mat_precise_height <16>
+        mat_precise_x <284>
+        mat_precise_y <250>
+        mat_font_sis <arial, 8, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_precise_width <325>
+      mat_precise_height <16>
+      mat_precise_x <16>
+      mat_precise_y <282>
+      mat_font_sis <arial, 8, bold>
+      man_append_data <"sub open button new process save process main. element">
+      man_append_data <"Dynamic Epsilon">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hlc>
+      mat_precise_width <330>
+      mat_precise_height <26>
+      mat_precise_x <16>
+      mat_precise_y <299>
+      man_start_object <edit_view, "">
+        mat_bool_importable <yes>
+        mat_width <27>
+        mat_height <1>
+        mat_precise_x <16>
+        mat_precise_y <299>
+        mat_bool_resize_vertical <no>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <255>
+        mat_field_script <any>
+        man_append_data <"D:\\Basic Panel\\Old Alpha">
+        man_end_data
+        mat_relative_tag <9>
+        idb_set_context <20-2-14>
+        idb_atr_offset <0>
+        idb_get_string
+        uni_use_last_atom_string <man_replace_data>
+        idb_end_context
+      man_start_sibling <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream
+              fm_start
+              fm_item_type <filename>
+              fm_item_set <"Path">
+              fm_add_file_type_mask
+              fm_dialog_put_file <"Previous Label">
+              fm_handle_error <display_msg | terminate>
+              fm_item_get <42>
+              uni_save_result
+              man_set_context_relative <9>
+              uni_get_result
+              uni_use_last_atom_string <man_replace_data>
+              man_update_display
+            uni_end_stream
+            >
+          mat_precise_width <50>
+          mat_precise_height <26>
+          mat_precise_x <265>
+          mat_precise_y <299>
+          mat_color_frame_shadow <1, 1, 1>
+          mat_art_id <1-5-21216>
+          mat_trigger_style <plain_picture>
+          mat_color_top_edge <145, 182, 255>
+          mat_color_face <0, 109, 170>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hlc>
+        mat_precise_width <158>
+        mat_precise_height <25>
+        mat_precise_x <107>
+        mat_precise_y <327>
+        man_start_object <trigger, "">
+          mat_relative_tag <100>
+          act_replace_select_action
+              <
+              uni_start_stream
+                de_start_extraction <0>
+                man_set_context_relative <99>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-30>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <4>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-267>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <5>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-31>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <6>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-34>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <7>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-32>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <8>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-33>
+                de_get_data_value
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <9>
+                de_get_data_pointer <current_object>
+                var_string_set_from_atom <A>
+                de_validate <display_msg | terminate | 4>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-2-14>
+                de_get_data_pointer <current_object>
+                uni_use_last_atom_string <idb_append_data>
+                idb_end_obj
+                man_end_context
+                man_set_context_relative <10>
+                idb_start_obj <"b">
+                idb_atr_globalid <20-255-23>
+                de_get_data_value
+                if_last_return_true_then <1, 2>
+                idb_append_data <00x, 00x, 00x, 00x>
+                uni_sync_skip <1>
+                idb_append_data <00x, 00x, 00x, 01x>
+                uni_sync_skip <2>
+                idb_end_obj
+                man_end_context
+                de_end_extraction
+                xfer_refresh_prefs
+                man_close
+                man_update_display
+              uni_end_stream
+              >
+            mat_precise_width <70>
+            mat_precise_height <31>
+            mat_precise_x <107>
+            mat_precise_y <327>
+            mat_color_frame_shadow <1, 1, 1>
+            mat_art_id <1-5-21175>
+            mat_trigger_style <plain_picture>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream
+                >
+              mat_color_text <255, 255, 255>
+              mat_precise_width <70>
+              mat_precise_height <31>
+              mat_precise_x <194>
+              mat_precise_y <327>
+              mat_color_frame_shadow <1, 1, 1>
+              mat_art_id <1-5-21181>
+              mat_trigger_style <plain_picture>
+              mat_color_top_edge <145, 182, 255>
+              mat_color_face <0, 109, 170>
+            man_end_object
+          man_start_sibling <ornament, "">
+            mat_width <55>
+            mat_height <2>
+            mat_precise_x <16>
+            mat_precise_y <33>
+            mat_font_sis <arial, 8, normal>
+            man_append_data <"send complex beta invoke epsilon beta special section.">
+            man_append_data <"process label receive dynamic form top west second.">
+            man_append_data <"Basic Gadget Bottom">
+            man_end_data
+            mat_orientation <hlf>
+          man_start_sibling <ornament, "Custom Module Section">
+            mat_width <22>
+            mat_height <1>
+            mat_precise_x <16>
+            mat_precise_y <4>
+            mat_font_sis <arial, 14, bold>
+            mat_orientation <hlf>
+          man_start_sibling <sms_list, "">
+            mat_orientation <hff>
+            man_start_object <trigger, "invoke module receive fourth first standard handle stop. section">
+              mat_relative_tag <10>
+              mat_font_sis <arial, 8, bold>
+              mat_precise_x <16>
+              mat_precise_y <152>
+            man_end_object
+          man_end_object
+          man_place_cursor <100>
+          man_update_display
+          man_set_context_relative <99>
+          act_get_db_value <14x, 00x, 00x, 1ex>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <4>
+          act_get_db_value <14x, 00x, 01x, 0bx>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <5>
+          act_get_db_value <14x, 00x, 00x, 1fx>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <6>
+          act_get_db_value <14x, 00x, 00x, 22x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <7>
+          act_get_db_value <14x, 00x, 00x, 20x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <8>
+          act_get_db_value <14x, 00x, 00x, 21x>
+          uni_use_last_atom_value <mat_value>
+          man_end_context
+          man_set_context_relative <10>
+          act_get_db_value <14x, ffx, 00x, 17x>
+          if_last_return_true_then <1, 2>
+          mat_value <0>
+          uni_sync_skip <1>
+          mat_value <1>
+          uni_sync_skip <2>
+          man_end_context
+          man_update_display
+        man_update_woff_end_stream

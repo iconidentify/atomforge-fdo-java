@@ -1,0 +1,372 @@
+uni_start_stream
+  man_insert_object_before <31>
+  mat_title <"New Screen">
+  mat_shortcut_key <"D">
+  mat_object_id <20-0-49>
+  man_start_object <trigger, "ite">
+    mat_relative_tag <1>
+    mat_shortcut_key <"N">
+    mat_command_key <4ex>
+    act_replace_select_action
+        <
+        uni_start_stream
+          fm_start
+          fm_broadcast <05x>
+          fm_broadcast <06x>
+          fm_end
+        uni_end_stream
+        >
+    man_end_object
+    man_start_object <trigger, "Primary Side">
+      mat_shortcut_key <"�">
+      mat_command_key <4fx>
+      mat_relative_tag <2>
+      act_replace_select_action
+          <
+          uni_start_stream
+            fm_start
+            fm_item_type <persistent_path>
+            fm_item_set <14x, 00x, 01x, 1bx>
+            fm_item_type <xor_mask>
+            fm_item_set <"��">
+            fm_add_file_type_mask
+            fm_dialog_get_file <"First Region">
+            fm_handle_error <display_msg | terminate>
+            fm_broadcast <01x>
+            fm_end
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "Previous Block Element">
+        mat_shortcut_key <"A">
+        act_replace_select_action
+            <
+            uni_start_stream
+              gallery_open
+            uni_end_stream
+            >
+        man_end_object
+        man_start_object <ornament, "">
+          mat_relative_tag <5>
+        man_end_object
+        man_start_object <trigger, "Custom Block">
+          mat_shortcut_key <"S">
+          mat_command_key <53x>
+          mat_relative_tag <3>
+          act_replace_select_action
+              <
+              uni_start_stream
+                fm_start
+                fm_broadcast <04x>
+                fm_handle_error <display_msg | terminate>
+                fm_end
+              uni_end_stream
+              >
+          man_end_object
+          man_start_object <trigger, "Static Zone North">
+            mat_shortcut_key <"U">
+            mat_relative_tag <4>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  fm_start
+                  fm_broadcast <03x>
+                  fm_handle_error <display_msg | terminate>
+                  fm_end
+                uni_end_stream
+                >
+            man_end_object
+            man_start_object <dss_list, "Static Component Screen">
+              mat_shortcut_key <"O">
+              mat_relative_tag <14>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    man_set_context_relative <14>
+                    man_build_savemail_menu
+                    man_end_context
+                  uni_end_stream
+                  >
+                man_start_object <ornament, "">
+                man_end_object
+              man_end_object
+              man_start_object <ornament, "">
+                mat_relative_tag <13>
+              man_end_object
+              man_start_object <trigger, "Active Alpha Gadget">
+                mat_shortcut_key <"E">
+                mat_relative_tag <7>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      fm_start
+                      fm_dialog_print <01x>
+                      fm_end
+                    uni_end_stream
+                    >
+                man_end_object
+                man_start_object <trigger, "Fourth Center">
+                  mat_shortcut_key <"D">
+                  mat_command_key <44x>
+                  mat_relative_tag <6>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        fm_start
+                        fm_broadcast <09x>
+                        fm_handle_error <display_msg | terminate>
+                        fm_end
+                      uni_end_stream
+                      >
+                  man_end_object
+                  man_start_object <ornament, "">
+                    mat_relative_tag <13>
+                  man_end_object
+                  man_start_object <trigger, "First Region Sigma">
+                    mat_shortcut_key <"T">
+                    mat_command_key <1bx, 00x>
+                    mat_relative_tag <11>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          uni_cancel_action
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_start_object <trigger, "Main Zone">
+                      mat_shortcut_key <"B">
+                      mat_relative_tag <12>
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on
+                            async_exit
+                          uni_end_stream
+                          >
+                      man_end_object
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            man_get_top_window
+                            uni_use_last_atom_value <man_set_context_globalid>
+                            man_get_attribute <mat_bool_savable_to_pfc>
+                            man_end_context
+                            if_last_return_true_then <11, 12>
+                            async_is_known_subaccount
+                            if_last_return_true_then <11, 12>
+                            man_set_context_relative <14>
+                            mat_bool_disabled <no>
+                            man_update_display
+                            man_end_context
+                            uni_sync_skip <11>
+                            man_set_context_relative <14>
+                            mat_bool_disabled <yes>
+                            man_update_display
+                            man_end_context
+                            uni_sync_skip <12>
+                          uni_end_stream
+                          >
+                      man_end_object
+                      man_insert_object_before <31>
+                      mat_title <"Old Item">
+                      mat_shortcut_key <"B">
+                      mat_object_id <57>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            man_do_edit_menu <0>
+                          uni_end_stream
+                          >
+                        man_start_object <trigger, "Basic Side">
+                          mat_shortcut_key <"R">
+                          mat_command_key <5ax>
+                          mat_relative_tag <5>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                man_do_edit_menu <5>
+                              uni_end_stream
+                              >
+                          man_end_object
+                          man_start_object <ornament, "">
+                            mat_relative_tag <6>
+                          man_end_object
+                          man_start_object <trigger, "Old Object">
+                            mat_shortcut_key <"A">
+                            mat_command_key <58x>
+                            mat_relative_tag <1>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  man_do_edit_menu <1>
+                                uni_end_stream
+                                >
+                            man_end_object
+                            man_start_object <trigger, "Primary Thing">
+                              mat_shortcut_key <"K">
+                              mat_command_key <43x>
+                              mat_relative_tag <2>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    man_do_edit_menu <2>
+                                  uni_end_stream
+                                  >
+                              man_end_object
+                              man_start_object <trigger, "Dynamic Top">
+                                mat_shortcut_key <"F">
+                                mat_command_key <56x>
+                                mat_relative_tag <3>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      man_do_edit_menu <3>
+                                    uni_end_stream
+                                    >
+                                man_end_object
+                                man_start_object <trigger, "Sub Bottom Unit">
+                                  mat_shortcut_key <"M">
+                                  mat_command_key <41x>
+                                  mat_relative_tag <4>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                        man_do_edit_menu <4>
+                                      uni_end_stream
+                                      >
+                                  man_end_object
+                                  man_start_object <ornament, "">
+                                    mat_relative_tag <7>
+                                  man_end_object
+                                  man_start_object <trigger, "Simple Window East">
+                                    mat_shortcut_key <"I">
+                                    mat_command_key <49x>
+                                    mat_relative_tag <20>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          man_do_edit_menu <9>
+                                        uni_end_stream
+                                        >
+                                    man_end_object
+                                    man_start_object <ornament, "">
+                                      mat_relative_tag <6>
+                                    man_end_object
+                                    man_start_object <trigger, "Secondary Gamma Item">
+                                      mat_shortcut_key <"P">
+                                      mat_relative_tag <25>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                            man_do_edit_menu <11>
+                                          uni_end_stream
+                                          >
+                                      man_end_object
+                                      man_start_object <trigger, "Custom Left Component">
+                                        mat_shortcut_key <"W">
+                                        mat_bool_disabled <yes>
+                                        mat_bool_active_online <yes>
+                                        mat_relative_tag <16>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on
+                                            sm_send_f1 <41-33573>
+                                            >
+                                        man_end_object
+                                        man_start_object <ornament, "">
+                                          mat_relative_tag <7>
+                                        man_end_object
+                                        man_start_object <trigger, "Special Front">
+                                          mat_shortcut_key <"N">
+                                          vid_is_available
+                                          var_number_set_from_atom <B>
+                                          if_numb_true_then <3, 4>
+                                          mat_bool_disabled <no>
+                                          uni_sync_skip <3>
+                                          mat_bool_disabled <yes>
+                                          uni_sync_skip <4>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                uni_invoke_no_context <40-64604>
+                                              uni_end_stream
+                                              >
+                                          man_end_object
+                                        man_end_object
+                                        man_insert_object_after <31>
+                                        mat_object_type <dss_list, "">
+                                        mat_title <"Second Box">
+                                        mat_object_id <20-0-51>
+                                        mat_shortcut_key <"H">
+                                        act_get_db_value <14x, 00x, 00x, d1x>
+                                        man_start_object <trigger, "Old East">
+                                          mat_shortcut_key <"S">
+                                          mat_command_key <48x>
+                                          mat_bool_active_online <yes>
+                                          mat_bool_disabled <yes>
+                                          mat_relative_tag <50>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_send_f1 <40-25864>
+                                              >
+                                          man_end_object
+                                          man_start_object <ornament, "">
+                                            mat_relative_tag <6>
+                                          man_end_object
+                                          man_start_object <trigger, "Active Object Center">
+                                            mat_shortcut_key <"H">
+                                            mat_command_key <80x, 00x>
+                                            mat_relative_tag <17>
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                  async_exec_help
+                                                uni_end_stream
+                                                >
+                                            man_end_object
+                                            man_start_object <trigger, "Old Omega">
+                                              mat_shortcut_key <"W">
+                                              mat_bool_disabled <yes>
+                                              mat_bool_active_online <yes>
+                                              mat_relative_tag <36>
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_send_f1 <41-33574>
+                                                  >
+                                              man_end_object
+                                              man_start_object <ornament, "">
+                                                mat_relative_tag <6>
+                                              man_end_object
+                                              man_start_object <trigger, "New Sigma">
+                                                mat_shortcut_key <"�">
+                                                mat_relative_tag <34>
+                                                mat_bool_disabled <no>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                      uni_invoke_no_context <32-2618>
+                                                    uni_end_stream
+                                                    >
+                                                man_end_object
+                                              man_end_object
+                                              man_insert_object_after <31>
+                                              mat_object_type <dss_list, "">
+                                              mat_relative_tag <98>
+                                              mat_title <"Basic Omega">
+                                              mat_shortcut_key <"E">
+                                              man_start_object <trigger, "Basic Omega">
+                                                mat_relative_tag <91>
+                                                mat_shortcut_key <"E">
+                                                mat_bool_invisible <no>
+                                                mat_bool_disabled <no>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on
+                                                      man_do_magic_response_id <8413>
+                                                      uni_invoke_no_context <32-221>
+                                                    uni_wait_off_end_stream
+                                                    >
+                                                man_end_object
+                                              man_end_object
+                                              man_update_display <2>

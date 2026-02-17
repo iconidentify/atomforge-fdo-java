@@ -1,0 +1,144 @@
+uni_start_stream
+  man_start_object <ind_group, "Warren's Secret Playground">
+    mat_orientation <hff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <vfc>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "Warren's Secret Playground">
+        mat_relative_tag <2>
+        mat_width <18>
+        mat_height <1>
+        mat_font_sis <times_roman, 14, bold>
+        mat_orientation <hlf>
+      man_start_sibling <dss_list, "">
+        mat_relative_tag <1>
+        mat_width <35>
+        mat_height <12>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Warren's Playground">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-1-34652>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "*About Your VirtuaLink Play Area">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-127-1798>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Token/Arg Collection">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-100-56312>
+                  >
+                mat_art_id <1-0-19225>
+              man_start_sibling <trigger, "Send Mail to Warren">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-1-55267>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Forms Catalog">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-127-12131>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Test of 27675">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-127-12135>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Send Mail to Warren">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-1-2686>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "CafeWarren">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-1-54013>
+                            >
+                          mat_art_id <1-0-1480>
+                        man_start_sibling <trigger, "My Home Page">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-1-54053>
+                              >
+                            mat_art_id <1-0-32650>
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <hec>
+                          man_start_object <trigger, "Open">
+                            act_replace_select_action
+                                <
+                                uni_start_stream <00x>
+                                sm_do_list_action <1>
+                                >
+                              mat_font_sis <system, 12, normal>
+                              mat_bool_default <yes>
+                            man_start_sibling <trigger, "More">
+                              mat_bool_disabled <yes>
+                              mat_relative_tag <3>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_token_raw <"Cb">
+                                  >
+                                mat_font_sis <system, 12, normal>
+                                mat_title_width <5>
+                              man_end_object
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <vcf>
+                            mat_horizontal_spacing <0>
+                            mat_vertical_spacing <0>
+                            man_start_object <trigger, "Interactive\rRainman">
+                              mat_title_pos <below | center>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <40-411>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_vertical_spacing <0>
+                                mat_art_id <1-0-1314>
+                              man_start_sibling <trigger, "Manage Groups\r(Restricted)">
+                                mat_title_pos <below | center>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_send_k1 <4-44278>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_vertical_spacing <0>
+                                  mat_art_id <1-0-1489>
+                                man_start_sibling <trigger, "Examine Object\rInformation">
+                                  mat_title_pos <below | center>
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_f1 <40-708>
+                                      >
+                                    mat_font_sis <small_fonts, 7, normal>
+                                    mat_vertical_spacing <0>
+                                    mat_art_id <1-0-1780>
+                                  man_end_object
+                                man_end_object
+                                man_update_display
+                              man_update_woff_end_stream

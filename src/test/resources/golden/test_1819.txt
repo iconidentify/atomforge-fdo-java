@@ -1,0 +1,93 @@
+uni_start_stream
+  man_start_object <ind_group, "NAA Private Area">
+    mat_orientation <vcf>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <36>
+      mat_height <12>
+      mat_font_sis <arial, 9, normal>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "About Text Collection              ">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"C1", 0-0-518>
+            >
+          mat_art_id <1-0-1477>
+        man_start_sibling <trigger, "Lost Articles Collection           ">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"C1", 0-0-521>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "Services Collection                ">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"C1", 0-0-519>
+                >
+              mat_art_id <1-0-1477>
+            man_start_sibling <trigger, "Calendar of Events Collection      ">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"C1", 0-0-520>
+                  >
+                mat_art_id <1-0-1477>
+              man_start_sibling <trigger, "Tools                              ">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_k1 <5-19400>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Association Managers Forum         ">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_k1 <3-49507>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "NAA Services - 1/13/93             ">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_k1 <2-21424>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Media Index                        ">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"eB", 0-0-3867>
+                          >
+                        mat_art_id <1-0-1482>
+                      man_start_sibling <trigger, "General Discussion                 ">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_m_send_token_arg <"bE", 0-0-1271>
+                            >
+                          mat_art_id <1-0-1483>
+                        man_start_sibling <trigger, "More...                            ">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_k1 <2-40209>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_end_object
+                        man_start_sibling <trigger, "Open">
+                          act_replace_select_action
+                              <
+                              uni_start_stream <00x>
+                              sm_do_list_action <1>
+                              >
+                            mat_font_sis <system, 12, normal>
+                            mat_bool_default <yes>
+                          man_end_object
+                          man_update_display
+                        man_update_woff_end_stream

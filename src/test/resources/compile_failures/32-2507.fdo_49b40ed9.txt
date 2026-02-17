@@ -1,0 +1,120 @@
+uni_start_stream <00x>
+  idb_exists <22-0-8>
+  if_last_return_true_then <100>
+  async_alert <info, "This feature is not available when signed on using a Kiosk client.">
+uni_abort_stream
+uni_sync_skip <100>
+idb_set_context <20-0-16>
+idb_atr_offset <1>
+idb_get_string
+var_string_set_from_atom <A>
+var_string_set <B,"New User  ">
+idb_end_context
+if_stra_eq_strb_then <10, 99>
+async_alert <info, "Please register an account to use this feature.">
+uni_sync_skip <10>
+man_start_object <ind_group, "AOL Flash Passo a Passo">
+  mat_style_id <32-2507>
+  mat_orientation <vft>
+  mat_precise_width <422>
+  mat_precise_height <320>
+  mat_color_face <255, 251, 240>
+  mat_object_id <32-2507>
+  mat_position <center_center>
+  mat_bool_resize_vertical <no>
+  mat_bool_modal <yes>
+  mat_bool_precise <yes>
+  mat_bool_background_flood <yes>
+  man_start_object <ornament, "Bem-vindo ao AOL Flash!">
+    mat_precise_x <8>
+    mat_precise_y <8>
+    mat_size <19, 1>
+    mat_font_id <arial>
+    mat_font_size <14>
+    mat_font_style <bold>
+  man_start_sibling <ornament, "">
+    mat_precise_x <8>
+    mat_precise_y <53>
+    mat_precise_width <400>
+    mat_precise_height <200>
+    mat_font_size <8>
+    mat_precise_width <400>
+    mat_precise_height <200>
+    mat_font_id <arial>
+    man_append_data <"O AOL Flash permite que voc� se conecte imediatamente ou em hor�rios pr�-determinados, para:\x7f- ler e responder offline �s suas mensagens;\x7f- ler e responder offline ao newsgroup ou aos artigos do mural; e\x7f- fazer download dos arquivos retirados do seu Gerenciador de Downloads.\x7f\x7fVoc� economiza tempo utilizando o AOL Flash, pois pode deixar seu computador enquanto o AOL Flash faz todo o trabalho.\x7f\x7fEste guia passo a passo lhe ajudar� a configurar o AOL Flash pela rimeira vez. Caso voc� j� conhe�a o AOL Flash, clique em "Configura��o Personalizada", e fa�a as altera��es necess�rias para a configura��o do seu AOL Flash.\x7f\x7fClique em Continuar para iniciar a configura��o do AOL Flash.\x7f">
+  man_start_sibling <org_group, "">
+    mat_orientation <hef>
+    mat_precise_x <6>
+    mat_precise_y <283>
+    mat_precise_width <408>
+    mat_precise_height <29>
+    man_start_object <trigger, "">
+      mat_precise_x <50>
+      mat_precise_y <276>
+      mat_precise_width <73>
+      mat_precise_height <23>
+      mat_color_face <0, 102, 102>
+      mat_color_text <255, 255, 255>
+      mat_color_top_edge <153, 204, 204>
+      mat_color_bottom_edge <1, 51, 51>
+      mat_font_size <8>
+      mat_title <"    Continuar    ">
+      mat_bool_default <yes>
+      mat_font_id <arial>
+      act_replace_select_action
+          <
+          uni_start_stream
+            man_close_update
+            uni_invoke_no_context <32-2508>
+          uni_end_stream
+          >
+      man_start_sibling <trigger, "">
+        mat_precise_x <140>
+        mat_precise_y <276>
+        mat_precise_width <152>
+        mat_precise_height <23>
+        mat_color_face <0, 102, 102>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <153, 204, 204>
+        mat_color_bottom_edge <1, 51, 51>
+        mat_font_size <8>
+        mat_title <" Configura��o Personalizada ">
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-62>
+              idb_append_data <01x>
+              idb_end_obj
+              man_do_magic_response_id <2099658>
+              uni_invoke_no_context <32-2506>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_title_width <7>
+          mat_precise_x <309>
+          mat_precise_y <276>
+          mat_precise_width <73>
+          mat_precise_height <23>
+          mat_color_face <0, 102, 102>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <153, 204, 204>
+          mat_color_bottom_edge <1, 51, 51>
+          mat_font_size <8>
+          mat_title <"Cancelar">
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        uni_wait_off
+        man_update_display
+        man_end_context
+        uni_sync_skip <99>
+      uni_end_stream <00x>

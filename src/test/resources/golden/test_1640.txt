@@ -1,0 +1,146 @@
+uni_start_stream <00x>
+  async_is_known_subaccount
+  if_last_return_false_then <10, 99>
+  uni_next_atom_typed <latin1>
+  async_alert <info, "handle create delete old south advanced open component. open region current primary">
+  uni_sync_skip <10>
+  uni_next_atom_typed <latin1>
+  man_start_object <ind_group, "custom load button delete open update delete">
+    mat_object_id <32-2537>
+    mat_style_id <32-2537>
+    mat_orientation <vff>
+    mat_precise_width <337>
+    mat_precise_height <310>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_precise_width <40>
+      mat_precise_height <10>
+      mat_bool_precise <yes>
+      man_start_object <view, "">
+        rich_manage
+        rich_set_static
+        mat_precise_x <8>
+        mat_precise_y <8>
+        mat_size <60, 6>
+        mat_font_sis <arial, 8, normal>
+        mat_precise_width <320>
+        mat_precise_height <224>
+        mat_bool_vertical_scroll <no>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_bool_exportable <no>
+        uni_next_atom_typed <latin1>
+        man_append_data <"epsilon save handle unit dynamic load fourth save. stop button start open stop invoke third start. advanced side label refresh stop center current send. theta save edge second delete dialog sub standard. active third main load fourth invoke east back. unit gadget corner item screen delta standard active. open stop custom\x7f\x7fold send old custom current close open thing. south default beta third start load static panel. box update north invoke current simple beta current. handle basic previous simple gadget invoke custom stop. dynamic create current front complex current second right. handle create receive sigma stop previous send thing. thing gadget start zone primary back handle dialog. basic first zone process open alpha receive create. left back receive previous secondary sub primary open. advanced delta receive receive second active">
+      man_start_sibling <sms_list, "">
+        mat_orientation <hff>
+        mat_precise_x <8>
+        mat_precise_y <20>
+        uni_next_atom_typed <latin1>
+        man_start_object <trigger, "third stop simple omega fourth form top create.">
+          mat_precise_x <8>
+          mat_precise_y <240>
+          mat_relative_tag <1>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      uni_next_atom_typed <latin1>
+      man_start_object <trigger, "Special Screen">
+        mat_precise_x <36>
+        mat_precise_y <273>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              man_set_context_relative <1>
+              de_set_data_type <default>
+              de_get_data_value
+              uni_save_result
+              man_end_context
+              man_close_update
+              de_end_extraction
+              uni_get_result
+              if_last_return_true_then <1, 2>
+              if_online_then <3, 4>
+              mip_action_command <0cx>
+              uni_sync_skip <3>
+              mip_action_command <09x>
+              uni_sync_skip <4>
+              if_newuser_then <2>
+              uni_sync_skip <1>
+              if_online_then <5, 6>
+              mip_action_command <0bx>
+              uni_sync_skip <5>
+              mip_action_command <0ex>
+              uni_sync_skip <6>
+              uni_sync_skip <2>
+            uni_end_stream
+            >
+          uni_next_atom_typed <latin1>
+        man_start_sibling <trigger, "Second Panel South">
+          mat_precise_x <119>
+          mat_precise_y <273>
+          mat_precise_width <110>
+          mat_precise_height <23>
+          mat_color_face <0, 51, 153>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <102, 153, 204>
+          mat_color_bottom_edge <0, 0, 102>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+            uni_next_atom_typed <latin1>
+          man_start_sibling <trigger, "Special Corner">
+            mat_precise_x <240>
+            mat_precise_y <273>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <0, 51, 153>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <102, 153, 204>
+            mat_color_bottom_edge <0, 0, 102>
+            mat_font_size <8>
+            mat_font_id <arial>
+            mat_command_key <1bx, 00x>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream
+                >
+            man_end_object
+          man_end_object
+          uni_wait_off
+          man_update_display
+          man_end_context
+          uni_sync_skip <99>
+        uni_end_stream

@@ -1,0 +1,48 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Kids Teams">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-33083>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Kids Teams Information Area\r">
+      mat_relative_tag <3>
+      mat_width <29>
+      mat_height <1>
+      mat_orientation <hlt>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_width <22>
+        mat_height <10>
+        mat_horizontal_spacing <5>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_start_sibling <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <22>
+        mat_height <12>
+        mat_bool_list_icons <yes>
+        mat_sort_order <normal>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_relative_tag <11>
+      mat_width <50>
+      mat_height <2>
+      man_append_data <"ENGAGE Dad, welcome to the area designed specifica">
+      man_append_data <"lly for the Kids Teams!\r">
+      man_end_data
+      mat_orientation <hlf>
+    man_end_object
+  hfs_attr_end_object
+  man_update_display
+  man_set_context_relative <1>
+  man_append_data <"<HTML><PRE>\x7f</P><P ALIGN=CENTER><B>Kids Teams</B>\x7f">
+  man_append_data <"</P><P ALIGN=LEFT>\x7f</PRE></HTML>">
+  man_end_data
+  man_end_context
+man_update_woff_end_stream

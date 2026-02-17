@@ -1,0 +1,309 @@
+uni_start_stream
+  man_start_object <ind_group, "Art Shop">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_color_face <121, 109, 145>
+    mat_art_id <1-0-2383>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_art_id <1-0-2382>
+      man_start_sibling <ornament, "System Art">
+        mat_width <8>
+        mat_height <0>
+        mat_orientation <hcf>
+        mat_font_sis <times_roman, 24, bold>
+        mat_color_text <40, 110, 200>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_width <40>
+      mat_height <13>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Icons 1">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <40-28424>
+            >
+        man_start_sibling <trigger, "Icons 2">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_f1 <40-28462>
+              >
+          man_start_sibling <trigger, "Icons 3">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-28475>
+                >
+            man_start_sibling <trigger, "Icons 4">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <40-28554>
+                  >
+              man_start_sibling <trigger, "Icons 5 - Numbers/Alphabet">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_f1 <40-28566>
+                    >
+                man_start_sibling <trigger, "Icons 6 - Alphabet">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_f1 <40-28586>
+                      >
+                  man_start_sibling <trigger, "Icons 7 - Movie Genres">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-28606>
+                        >
+                    man_start_sibling <trigger, "Icons 8">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_f1 <40-29172>
+                          >
+                      man_start_sibling <trigger, "Icons 9">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_f1 <40-30988>
+                            >
+                        man_start_sibling <trigger, "Icons 10">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_f1 <40-30997>
+                              >
+                          man_start_sibling <trigger, "Picts 1">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_send_f1 <40-28683>
+                                >
+                            man_start_sibling <trigger, "Picts 2">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <40-28688>
+                                  >
+                              man_start_sibling <trigger, "Picts 3">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_send_f1 <40-28838>
+                                    >
+                                man_start_sibling <trigger, "Picts 4">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_f1 <40-28860>
+                                      >
+                                  man_start_sibling <trigger, "Picts 5 - Lines">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_send_f1 <40-28866>
+                                        >
+                                    man_start_sibling <trigger, "Picts 6 - Holiday art">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_f1 <40-29062>
+                                          >
+                                      man_start_sibling <trigger, "Picts 7 - Movie Genres">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_send_f1 <40-29188>
+                                            >
+                                        man_start_sibling <trigger, "Picts 8">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_send_f1 <40-30856>
+                                              >
+                                          man_start_sibling <trigger, "Picts 9">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_f1 <40-30860>
+                                                >
+                                            man_start_sibling <trigger, "Picts 10 - Halloween Art">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_send_f1 <40-31930>
+                                                  >
+                                              man_start_sibling <trigger, "Picts 11">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                    sm_send_f1 <40-33974>
+                                                    >
+                                                man_start_sibling <trigger, "Picts 12 - New System Art">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                      sm_send_f1 <40-54575>
+                                                      >
+                                                  man_start_sibling <trigger, "Picts 13 - New System Art">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream_wait_on <00x>
+                                                        sm_send_f1 <40-54582>
+                                                        >
+                                                    man_start_sibling <trigger, "Picts 14 - New System Art">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream_wait_on <00x>
+                                                          sm_send_f1 <40-56951>
+                                                          >
+                                                      man_start_sibling <trigger, "Picts 15 - New System Art">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream_wait_on <00x>
+                                                            sm_send_f1 <40-64531>
+                                                            >
+                                                        man_start_sibling <trigger, "Picts 16 - New System Art">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream_wait_on <00x>
+                                                              sm_send_f1 <40-64536>
+                                                              >
+                                                          man_start_sibling <trigger, "Picts 17 - New System Art">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream_wait_on <00x>
+                                                                sm_send_f1 <41-1958>
+                                                                >
+                                                            man_start_sibling <trigger, "Picts 18 - New System Art">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream_wait_on <00x>
+                                                                  sm_send_f1 <41-5681>
+                                                                  >
+                                                              man_start_sibling <trigger, "Picts 19 - New System Art 1997">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream_wait_on <00x>
+                                                                    sm_send_f1 <41-13927>
+                                                                    >
+                                                                man_start_sibling <trigger, "Picts 20 - New System Art 1997">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream_wait_on <00x>
+                                                                      sm_send_f1 <41-15074>
+                                                                      >
+                                                                  man_start_sibling <trigger, "Picts 21 - New System Art 1997">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream_wait_on <00x>
+                                                                        sm_send_f1 <41-15905>
+                                                                        >
+                                                                    man_start_sibling <trigger, "Picts 22 - New System Art 1997">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream_wait_on <00x>
+                                                                          sm_send_f1 <41-21209>
+                                                                          >
+                                                                      man_start_sibling <trigger, "Invisible Art">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream_wait_on <00x>
+                                                                            sm_send_f1 <40-60103>
+                                                                            >
+                                                                        man_start_sibling <trigger, "July 4 Background">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream_wait_on <00x>
+                                                                              sm_send_f1 <40-31946>
+                                                                              >
+                                                                          man_start_sibling <trigger, "WAOL only - Movie Genres">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream_wait_on <00x>
+                                                                                sm_send_f1 <40-29183>
+                                                                                >
+                                                                            man_start_sibling <trigger, "WAOL only - Holiday Buttons">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream_wait_on <00x>
+                                                                                  sm_send_f1 <40-31805>
+                                                                                  >
+                                                                              man_start_sibling <trigger, "WAOL only - Miscellaneous Buttons">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream_wait_on <00x>
+                                                                                    sm_send_f1 <40-31940>
+                                                                                    >
+                                                                                man_start_sibling <trigger, "WAOL only - Press Background">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream_wait_on <00x>
+                                                                                      sm_send_f1 <40-31947>
+                                                                                      >
+                                                                                  man_start_sibling <trigger, "WAOL only - New Tiles 1997">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream_wait_on <00x>
+                                                                                        sm_send_f1 <41-23146>
+                                                                                        >
+                                                                                    man_start_sibling <trigger, "WAOL only - More New Tiles 1997">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream_wait_on <00x>
+                                                                                          sm_send_f1 <41-23249>
+                                                                                          >
+                                                                                      man_start_sibling <trigger, "WAOL Only - Even More New Tiles 1997">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream_wait_on <00x>
+                                                                                            sm_send_f1 <41-24203>
+                                                                                            >
+                                                                                        man_start_sibling <trigger, "WAOL Only - Still More New Tiles 1997">
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_start_stream_wait_on <00x>
+                                                                                              sm_send_f1 <41-24215>
+                                                                                              >
+                                                                                          man_start_sibling <trigger, "WAOL Only - Yet More New Tiles 1997">
+                                                                                            act_replace_select_action
+                                                                                                <
+                                                                                                uni_start_stream_wait_on <00x>
+                                                                                                sm_send_f1 <41-24216>
+                                                                                                >
+                                                                                            man_start_sibling <trigger, "WAOL Only - New Large Tiles 1997">
+                                                                                              act_replace_select_action
+                                                                                                  <
+                                                                                                  uni_start_stream_wait_on <00x>
+                                                                                                  sm_send_f1 <41-23264>
+                                                                                                  >
+                                                                                              man_start_sibling <trigger, "Tiles 1">
+                                                                                                act_replace_select_action
+                                                                                                    <
+                                                                                                    uni_start_stream_wait_on <00x>
+                                                                                                    sm_send_f1 <40-28874>
+                                                                                                    >
+                                                                                                man_start_sibling <trigger, "Tiles 2">
+                                                                                                  act_replace_select_action
+                                                                                                      <
+                                                                                                      uni_start_stream_wait_on <00x>
+                                                                                                      sm_send_f1 <40-29113>
+                                                                                                      >
+                                                                                                  man_end_object
+                                                                                                man_start_sibling <ornament, "Keyword: system art">
+                                                                                                  mat_width <20>
+                                                                                                  mat_height <1>
+                                                                                                  mat_orientation <hlf>
+                                                                                                  mat_font_sis <arial, 9, normal>
+                                                                                                  mat_color_text <40, 110, 200>
+                                                                                                man_end_object
+                                                                                                man_update_display
+                                                                                              man_update_woff_end_stream

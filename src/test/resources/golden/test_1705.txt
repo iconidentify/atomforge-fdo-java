@@ -1,0 +1,335 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL In-House Collections">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "">
+        mat_relative_tag <4>
+        mat_art_id <1-0-1305>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "AOL In-House Collections">
+        mat_relative_tag <2>
+        mat_width <33>
+        mat_height <1>
+        mat_horizontal_spacing <0>
+        mat_font_sis <arial, 18, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <1>
+      mat_width <68>
+      mat_height <10>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Ads & Marketing">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"Ca", 0-0-5850>
+            >
+          mat_art_id <1-0-1477>
+        man_start_sibling <trigger, "AOL Business Directory">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"Ca", 0-0-49431>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "AOL Enterprises">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-189-26>
+                >
+              mat_art_id <1-0-1477>
+            man_start_sibling <trigger, "AOL MailRoom">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"Ca", 0-111-1>
+                  >
+                mat_art_id <1-0-1477>
+              man_start_sibling <trigger, "AOL Marketing">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-127-1011>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "AOL Press Releases">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"Ca", 0-1-30914>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_start_sibling <trigger, "AOL Productions - West">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U1", 0-129-14158>
+                        >
+                      mat_art_id <1-0-1477>
+                    man_start_sibling <trigger, "AOL Purchasing">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"Ca", 0-102-12>
+                          >
+                        mat_art_id <1-0-1477>
+                      man_start_sibling <trigger, "AOL Sports">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"Ca", 0-0-28807>
+                            >
+                          mat_art_id <1-0-1477>
+                        man_start_sibling <trigger, "AOL Store">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"Ca", 0-0-17342>
+                              >
+                            mat_art_id <1-0-1477>
+                          man_start_sibling <trigger, "Clubs & Interests">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"Ca", 0-1-33260>
+                                >
+                              mat_art_id <1-0-1477>
+                            man_start_sibling <trigger, "Computing & Software">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"Ca", 0-0-59>
+                                  >
+                                mat_art_id <1-0-1477>
+                              man_start_sibling <trigger, "Cool Stuff">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"Ca", 0-0-58374>
+                                    >
+                                  mat_art_id <1-0-1477>
+                                man_start_sibling <trigger, "Developers">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"Ca", 0-0-112>
+                                      >
+                                    mat_art_id <1-0-1477>
+                                  man_start_sibling <trigger, "Directory of Services">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"Ca", 0-0-14710>
+                                        >
+                                      mat_art_id <1-0-1477>
+                                    man_start_sibling <trigger, "Documentation Group">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"Ca", 0-0-104>
+                                          >
+                                        mat_art_id <1-0-1477>
+                                      man_start_sibling <trigger, "Editorial">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"Ca", 0-0-50>
+                                            >
+                                          mat_art_id <1-0-1477>
+                                        man_start_sibling <trigger, "Education and Associations">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"Ca", 0-0-62860>
+                                              >
+                                            mat_art_id <1-0-1477>
+                                          man_start_sibling <trigger, "Entertainment">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"Ca", 0-0-49923>
+                                                >
+                                              mat_art_id <1-0-1477>
+                                            man_start_sibling <trigger, "Games Channel">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"Ca", 0-1-31684>
+                                                  >
+                                                mat_art_id <1-0-1477>
+                                              man_start_sibling <trigger, "GNN">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"t1", 0-47-28>
+                                                    >
+                                                  mat_art_id <1-0-1477>
+                                                man_start_sibling <trigger, "Greenhouse">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"K1", 0-19-5089>
+                                                      >
+                                                    mat_art_id <1-0-1479>
+                                                  man_start_sibling <trigger, "Health">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"Ca", 0-0-62859>
+                                                        >
+                                                      mat_art_id <1-0-1477>
+                                                    man_start_sibling <trigger, "Health & Fitness Channel">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"U1", 0-189-24>
+                                                          >
+                                                        mat_art_id <1-0-1477>
+                                                      man_start_sibling <trigger, "Human Resources">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"t1", 0-36-4555>
+                                                            >
+                                                          mat_art_id <1-0-1477>
+                                                        man_start_sibling <trigger, "Media">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"Ca", 0-0-91>
+                                                              >
+                                                            mat_art_id <1-0-1477>
+                                                          man_start_sibling <trigger, "Member Services">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"Ca", 0-0-50985>
+                                                                >
+                                                              mat_art_id <1-0-1477>
+                                                            man_start_sibling <trigger, "Miscellaneous">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"t1", 0-1-40892>
+                                                                  >
+                                                                mat_art_id <1-0-1477>
+                                                              man_start_sibling <trigger, "Multimedia and New Technologies">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"Ca", 0-0-54725>
+                                                                    >
+                                                                  mat_art_id <1-0-1477>
+                                                                man_start_sibling <trigger, "Operations">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"Ca", 0-0-3632>
+                                                                      >
+                                                                    mat_art_id <1-0-1477>
+                                                                  man_start_sibling <trigger, "Partner's Plaza">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"Ca", 0-0-49695>
+                                                                        >
+                                                                      mat_art_id <1-0-1477>
+                                                                    man_start_sibling <trigger, "PCLC">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"Ca", 0-0-136>
+                                                                          >
+                                                                        mat_art_id <1-0-1477>
+                                                                      man_start_sibling <trigger, "Personal Finance">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"Ca", 0-0-118>
+                                                                            >
+                                                                          mat_art_id <1-0-1477>
+                                                                        man_start_sibling <trigger, "Picture Talk">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"t1", 0-100-10399>
+                                                                              >
+                                                                            mat_art_id <1-0-1479>
+                                                                          man_start_sibling <trigger, "QA People">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                sm_m_send_token_arg <"Ca", 0-0-108>
+                                                                                >
+                                                                              mat_art_id <1-0-1477>
+                                                                            man_start_sibling <trigger, "Sales & Services">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                  sm_m_send_token_arg <"Ca", 0-0-58481>
+                                                                                  >
+                                                                                mat_art_id <1-0-1477>
+                                                                              man_start_sibling <trigger, "Steve Case Letter">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                    sm_m_send_token_arg <"Ca", 0-105-4>
+                                                                                    >
+                                                                                  mat_art_id <1-0-1477>
+                                                                                man_start_sibling <trigger, "Terms of Service">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream
+                                                                                      sm_m_send_token_arg <"Ca", 0-0-49120>
+                                                                                      >
+                                                                                    mat_art_id <1-0-1477>
+                                                                                  man_start_sibling <trigger, "Test Systems">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream
+                                                                                        sm_m_send_token_arg <"t1", 0-1-30958>
+                                                                                        >
+                                                                                      mat_art_id <1-0-1477>
+                                                                                    man_start_sibling <trigger, "Travel">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream
+                                                                                          sm_m_send_token_arg <"Ca", 0-0-62861>
+                                                                                          >
+                                                                                        mat_art_id <1-0-1477>
+                                                                                      man_end_object
+                                                                                    man_start_sibling <org_group, "">
+                                                                                      mat_orientation <hec>
+                                                                                      man_start_object <trigger, "Open">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream <00x>
+                                                                                            sm_do_list_action <1>
+                                                                                            >
+                                                                                          mat_font_sis <system, 12, normal>
+                                                                                          mat_title_width <6>
+                                                                                          mat_bool_default <yes>
+                                                                                        man_start_sibling <trigger, "More">
+                                                                                          mat_bool_disabled <yes>
+                                                                                          mat_relative_tag <3>
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_wait_on
+                                                                                              uni_start_stream
+                                                                                                buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                                                buf_set_token <"Cc">
+                                                                                                buf_add_atom_pointer <01x, 00x, 64x, b4x, 65x, 00x, 14x>
+                                                                                                buf_close_buffer
+                                                                                              uni_end_stream
+                                                                                              >
+                                                                                            mat_font_sis <system, 12, normal>
+                                                                                            mat_title_width <6>
+                                                                                          man_end_object
+                                                                                        man_end_object
+                                                                                        man_update_display
+                                                                                      man_update_woff_end_stream

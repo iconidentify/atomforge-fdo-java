@@ -1,0 +1,117 @@
+uni_start_stream
+  man_start_object <ind_group, "THE COMMUNITY BUILDING">
+    mat_orientation <vff>
+    mat_precise_width <626>
+    mat_precise_height <380>
+    mat_bool_precise <yes>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_bool_background_pic <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <633>
+      mat_precise_height <383>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_art_id <1-0-14269>
+      mat_bool_background_pic <yes>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <298>
+      mat_precise_height <383>
+      mat_precise_x <330>
+      mat_precise_y <0>
+      mat_art_id <1-0-14270>
+      mat_bool_background_pic <yes>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_m_send_token_arg <"t1", 0-63-30579>
+          >
+        mat_font_sis <small_fonts, 7, normal>
+        mat_bool_resize_vertical <yes>
+        mat_precise_x <20>
+        mat_precise_y <132>
+        mat_art_id <1-0-14271>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"t1", 0-63-771>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <70>
+          mat_precise_height <30>
+          mat_precise_x <132>
+          mat_precise_y <151>
+          mat_art_id <1-0-14273>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"t1", 0-63-766>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <73>
+            mat_precise_height <17>
+            mat_precise_x <240>
+            mat_precise_y <116>
+            mat_art_id <1-0-14272>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"t1", 0-63-770>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <54>
+              mat_precise_height <24>
+              mat_precise_x <353>
+              mat_precise_y <245>
+              mat_art_id <1-0-14275>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"K1", 0-19-63082>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_width <25>
+                mat_precise_height <20>
+                mat_precise_x <461>
+                mat_precise_y <182>
+                mat_art_id <1-0-14277>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <trigger, "">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"t1", 0-63-426>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_width <42>
+                  mat_precise_height <40>
+                  mat_precise_x <454>
+                  mat_precise_y <262>
+                  mat_art_id <1-0-14276>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <trigger, "">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"t1", 0-63-13154>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_precise_width <95>
+                    mat_precise_height <11>
+                    mat_precise_x <528>
+                    mat_precise_y <109>
+                    mat_art_id <1-0-14274>
+                    mat_trigger_style <plain_picture>
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

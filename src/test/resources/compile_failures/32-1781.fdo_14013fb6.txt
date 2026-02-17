@@ -1,0 +1,54 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_style_id <32-6960>
+    mat_orientation <vff>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_size <40, 3>
+      mat_font_id <arial>
+      man_append_data <"Are you sure you want to unsend this message?  No copy will remain in your outbox.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "No">
+        mat_color_face <0, 51, 153>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_width <25>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream <00x>
+              man_close_update
+            uni_end_stream <00x>
+            >
+        man_start_sibling <trigger, "Yes">
+          mat_color_face <0, 51, 153>
+          mat_color_top_edge <102, 153, 204>
+          mat_color_bottom_edge <0, 0, 102>
+          mat_font_sis <arial, 8, normal>
+          mat_color_text <255, 255, 255>
+          mat_width <25>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              de_ez_send_form <"oU">
+              >
+          man_start_sibling <edit_view, "">
+            mat_size <1, 1>
+            mat_relative_tag <1>
+            mat_bool_vertical_scroll <no>
+            mat_bool_resize_vertical <no>
+            mat_bool_resize_horizontal <no>
+            mat_bool_invisible <yes>
+            mat_bool_exportable <no>
+            mat_bool_importable <no>
+          man_end_object
+        man_end_object
+        man_update_display
+        uni_wait_off
+      uni_end_stream <00x>

@@ -1,0 +1,61 @@
+uni_start_stream
+  man_start_object <ind_group, "Member Rooms in People Connection">
+    mat_orientation <vcf>
+    act_set_criterion <7>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        man_start_object <ornament, "">
+          mat_art_id <1-0-1329>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "">
+          mat_width <50>
+          mat_height <4>
+          mat_horizontal_spacing <3>
+          mat_font_sis <arial, 9, normal>
+          man_append_data <"All People Connection rooms are empty.  To create ">
+          man_append_data <"a new public room or enter a private room, enter t">
+          man_append_data <"he room name in the box below and click the approp">
+          man_append_data <"riate button.">
+          man_end_data
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <edit_view, "Room name:">
+        rich_manage
+        mat_bool_writeable <yes>
+        mat_bool_exportable <no>
+        mat_width <20>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <left | center>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <20>
+        mat_bool_default_send <no>
+        mat_relative_tag <1>
+      man_start_sibling <org_group, "">
+        mat_orientation <hef>
+        man_start_object <trigger, "Create Room">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              de_ez_send_form <"cQ">
+              >
+            mat_font_sis <system, 12, normal>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "Enter Private">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                de_ez_send_form <"cV">
+                >
+              mat_font_sis <system, 12, normal>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

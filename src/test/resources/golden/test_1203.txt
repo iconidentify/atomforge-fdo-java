@@ -1,0 +1,92 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "">
+    mat_object_id <32-383>
+    mat_style_id <32-383>
+    mat_orientation <vff>
+    mat_precise_width <402>
+    mat_precise_height <251>
+    mat_color_face <255, 255, 207>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <10>
+      mat_precise_height <10>
+      man_start_object <trigger, "Old Theta Screen">
+        mat_title_width <14>
+        mat_precise_x <10>
+        mat_precise_y <198>
+        mat_precise_width <110>
+        mat_precise_height <23>
+        mat_relative_tag <1>
+        mat_color_frame_hilight <145, 182, 255>
+        mat_color_frame_shadow <128, 128, 128>
+        mat_trigger_style <rectangle>
+        mat_trigger_style <rectangle>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_color_face <0, 109, 170>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_token_raw <"Da">
+            >
+        man_start_sibling <trigger, "Old Dialog">
+          mat_title_width <14>
+          mat_precise_x <322>
+          mat_precise_y <198>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_frame_hilight <145, 182, 255>
+          mat_color_frame_shadow <128, 128, 128>
+          mat_trigger_style <rectangle>
+          mat_trigger_style <rectangle>
+          mat_font_sis <arial, 8, normal>
+          mat_color_text <255, 255, 255>
+          mat_color_face <0, 109, 170>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_start_sibling <ornament, "">
+          mat_precise_x <10>
+          mat_precise_y <8>
+          mat_size <20, 1>
+          mat_font_sis <arial, 14, normal>
+          mat_font_size <14>
+          man_append_data <"Previous Corner Right">
+        man_start_sibling <view, "">
+          rich_manage
+          rich_set_static
+          mat_precise_x <10>
+          mat_precise_y <42>
+          mat_precise_width <381>
+          mat_precise_height <150>
+          mat_font_sis <arial, 9, normal>
+          mat_bool_vertical_scroll <no>
+          mat_bool_resize_vertical <no>
+          mat_bool_resize_horizontal <no>
+          mat_bool_exportable <no>
+          mat_font_id <arial>
+          mat_font_size <9>
+          man_append_data <"default delete handle first close save module simple. alpha back active open invoke view active delta. delete send current second right south button south. delete block alpha update omega start right stop. default delete fourth area epsilon send button stop. object custom\x7f\x7fcreate section handle handle create form element process. start execute basic custom primary execute open box. old create zone old start thing side primary. screen east previous start dialog process second standard. process">
+        man_start_sibling <view, "">
+          rich_manage
+          rich_set_static
+          mat_precise_x <289>
+          mat_precise_y <230>
+          mat_size <13, 1>
+          mat_font_sis <arial, 8, normal>
+          mat_horizontal_spacing <0>
+          mat_vertical_spacing <0>
+          man_append_data <"Active Back Button">
+        man_end_object
+        man_update_display
+        uni_wait_off
+      uni_end_stream <00x>

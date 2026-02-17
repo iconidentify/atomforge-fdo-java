@@ -1,0 +1,311 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Left">
+    mat_object_id <32-291>
+    mat_style_id <32-291>
+    mat_orientation <vff>
+    mat_precise_width <501>
+    mat_precise_height <320>
+the_unknown <16, 204, 01x>
+    mat_precise_width <501>
+    mat_precise_height <295>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Active Beta Component">
+        mat_precise_x <10>
+        mat_precise_y <10>
+        mat_relative_tag <7>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_invisible <yes>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Custom Component Front">
+        mat_precise_x <10>
+        mat_precise_y <35>
+        mat_relative_tag <1>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_shortcut_key <"\x00">
+        mat_value <1>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hlt>
+      mat_precise_x <10>
+      mat_precise_y <53>
+      mat_precise_width <330>
+      mat_precise_height <84>
+      man_start_object <ornament, "">
+        mat_precise_x <25>
+        mat_precise_y <60>
+        mat_precise_width <187>
+        mat_precise_height <16>
+        mat_font_id <arial>
+        mat_font_size <9>
+        mat_font_style <bold>
+        man_append_data <"Previous Front Item">
+      man_start_sibling <sss_list, "">
+        mat_orientation <vlf>
+        mat_relative_tag <2>
+        man_start_object <trigger, "Second Beta">
+          mat_precise_x <180>
+          mat_precise_y <57>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "Basic Front">
+          mat_precise_x <180>
+          mat_precise_y <74>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_start_sibling <trigger, "cent">
+          mat_precise_x <180>
+          mat_precise_y <91>
+          mat_font_sis <arial, 9, bold>
+          mat_bool_default_send <no>
+          mat_shortcut_key <"\x00">
+        man_end_object
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Dynamic Zone North">
+        mat_precise_x <10>
+        mat_precise_y <116>
+        mat_relative_tag <8>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Special Back Theta">
+        mat_precise_x <10>
+        mat_precise_y <166>
+        mat_relative_tag <4>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Old Panel Area">
+        mat_precise_x <10>
+        mat_precise_y <191>
+        mat_relative_tag <5>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hlf>
+      man_start_object <trigger, "Main North Dialog">
+        mat_precise_x <10>
+        mat_precise_y <141>
+        mat_relative_tag <6>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "start window main epsilon delta delete east side. execute main refresh back section">
+        mat_precise_x <10>
+        mat_precise_y <216>
+        mat_relative_tag <9>
+        mat_font_sis <arial, 9, bold>
+        mat_bool_default_send <no>
+        mat_value <1>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hre>
+      mat_precise_x <15>
+      mat_precise_y <260>
+      mat_precise_width <345>
+      mat_precise_height <30>
+      mat_bool_invisible <yes>
+      man_start_object <trigger, "OK">
+        mat_title_width <9>
+        mat_precise_x <172>
+        mat_precise_y <263>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_horizontal_spacing <7>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction
+              man_set_context_relative <8>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-96>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <7>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-66>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              lm_table_use_table <20-255-1057>
+              async_get_screen_name
+              uni_use_last_atom_string <lm_table_use_key>
+              de_start_extraction <0>
+              man_set_context_relative <9>
+              man_get_attribute <mat_value>
+              uni_save_result
+              man_end_context
+              de_end_extraction
+              uni_get_result
+              if_last_return_true_then <1, 2>
+              lm_table_set_item <"0">
+              uni_sync_skip <1>
+              lm_table_set_item <"1">
+              uni_sync_skip <2>
+              man_set_context_relative <1>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-35>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <2>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-36>
+              de_get_data_value
+              var_number_set_from_atom <B>
+              man_set_item_type <7>
+              var_number_set <A, 1>
+              if_numa_eq_numb_then <1>
+              man_item_set <08x>
+              var_number_set <C, 8>
+              uni_sync_skip <1>
+              var_numa_increment
+              if_numa_eq_numb_then <2>
+              man_item_set <0ax>
+              var_number_set <C, 10>
+              uni_sync_skip <2>
+              var_numa_increment
+              if_numa_eq_numb_then <3>
+              man_item_set <0cx>
+              var_number_set <C, 12>
+              uni_sync_skip <3>
+              var_number_get <C>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              idb_start_obj <"b">
+              idb_atr_globalid <20-3-23>
+              var_number_get <B>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <4>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-43>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <5>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-44>
+              de_get_data_value
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              man_end_context
+              man_set_context_relative <6>
+              man_set_item_type <8>
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-48>
+              de_get_data_value
+              uni_save_result
+              uni_use_last_atom_value <idb_append_data>
+              uni_get_result
+              uni_use_last_atom_value <man_item_set>
+              idb_end_obj
+              man_end_context
+              de_end_extraction
+              man_close
+              man_update_display
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Advanced Window">
+          mat_title_width <9>
+          mat_precise_x <255>
+          mat_precise_y <263>
+          mat_precise_width <80>
+          mat_precise_height <23>
+          mat_trigger_style <14>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        man_set_context_relative <6>
+        act_get_db_value <14x, 00x, 00x, 30x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <8>
+        act_get_db_value <14x, 00x, 00x, 60x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <7>
+        act_get_db_value <14x, ffx, 00x, 70x>
+        if_last_return_true_then <1>
+        mat_bool_invisible <no>
+        act_get_db_value <14x, 00x, 00x, 42x>
+        uni_use_last_atom_value <mat_value>
+        uni_sync_skip <1>
+        man_end_context
+        man_set_context_relative <1>
+        act_get_db_value <14x, 00x, 00x, 23x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <2>
+        act_get_db_value <14x, 03x, 00x, 17x>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <4>
+        act_get_db_value <14x, 00x, 00x, 2bx>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        man_set_context_relative <5>
+        act_get_db_value <14x, 00x, 00x, 2cx>
+        uni_use_last_atom_value <mat_value>
+        man_end_context
+        lm_table_use_table <20-255-1057>
+        async_get_screen_name
+        uni_use_last_atom_string <lm_table_get_item>
+        if_last_return_false_then <100, 101>
+        man_set_context_relative <9>
+        mat_value <1>
+        uni_sync_skip <100>
+        man_set_context_relative <9>
+        async_get_screen_name
+        uni_use_last_atom_string <lm_table_use_key>
+        lm_table_get_item
+        uni_convert_last_atom_string
+        if_last_return_true_then <1, 2>
+        mat_value <0>
+        uni_sync_skip <1>
+        mat_value <1>
+        uni_sync_skip <2>
+        uni_sync_skip <101>
+        man_end_context
+        man_set_context_globalid <32-291>
+        man_update_display
+        man_end_context
+        uni_wait_off
+      uni_end_stream <00x>

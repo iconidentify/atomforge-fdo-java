@@ -1,0 +1,178 @@
+uni_start_stream
+  man_start_object <ind_group, "training3 Bridge">
+    mat_orientation <vff>
+    mat_precise_width <400>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <145, 145, 170>
+    mat_art_id <1-0-2264>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <450>
+      mat_precise_height <50>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_color_face <14, 17, 62>
+      mat_bool_background_flood <yes>
+      man_start_object <ornament, "training3 PA Bridge\r">
+        mat_relative_tag <3>
+        mat_precise_width <325>
+        mat_precise_height <30>
+        mat_precise_x <10>
+        mat_precise_y <10>
+        mat_font_sis <arial, 18, normal>
+        mat_color_text <255, 255, 255>
+        mat_orientation <hlf>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <60>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"t1", 0-100-52928>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <48>
+          mat_precise_height <48>
+          mat_precise_x <350>
+          mat_precise_y <0>
+          mat_art_id <1-0-28809>
+          mat_trigger_style <plain_picture>
+        man_end_object
+      man_start_sibling <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <30>
+        mat_height <15>
+        mat_precise_x <10>
+        mat_precise_y <62>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "PA Downtown">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-2-7>
+              >
+            mat_art_id <1-0-19936>
+          man_start_sibling <trigger, "Team Master Playground">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-2-21>
+                >
+              mat_art_id <1-0-19928>
+            man_start_sibling <trigger, "Tutorial Master Playground">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-2-30>
+                  >
+                mat_art_id <1-0-19928>
+              man_start_sibling <trigger, "Sunset Drive">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U3", 0-2-44>
+                    >
+                  mat_art_id <1-0-19933>
+                man_start_sibling <trigger, "Graveyard Shift3">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-2-45>
+                      >
+                    mat_art_id <1-0-19933>
+                  man_start_sibling <trigger, "Power Company">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-2-46>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Team Collections Cabin">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-2-47>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Dupe Mall (extras)">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-2-48>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "*The Cadre Keep">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U3", 0-2-50>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "PA Dissecting Lab">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U3", 0-2-8098>
+                                >
+                              mat_art_id <1-0-1472>
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <vff>
+                            mat_precise_width <1>
+                            mat_precise_height <1>
+                            mat_precise_x <0>
+                            mat_precise_y <0>
+                            man_start_object <trigger, "">
+                              mat_relative_tag <56>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-100-60119>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_precise_width <48>
+                                mat_precise_height <48>
+                                mat_precise_x <302>
+                                mat_precise_y <75>
+                                mat_frame_style <single_line_pop_out>
+                                mat_art_id <1-0-8657>
+                                mat_trigger_style <plain_picture>
+                              man_start_sibling <ornament, "Tutorial\r">
+                                mat_relative_tag <57>
+                                mat_precise_width <80>
+                                mat_precise_height <15>
+                                mat_precise_x <294>
+                                mat_precise_y <145>
+                                mat_font_sis <times_roman, 9, bold>
+                                mat_orientation <hlf>
+                              man_start_sibling <trigger, "">
+                                mat_relative_tag <58>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-1-27326>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_precise_width <48>
+                                  mat_precise_height <48>
+                                  mat_precise_x <302>
+                                  mat_precise_y <185>
+                                  mat_frame_style <single_line_pop_out>
+                                  mat_art_id <1-0-8659>
+                                  mat_trigger_style <plain_picture>
+                                man_start_sibling <ornament, "Team Area\r">
+                                  mat_relative_tag <59>
+                                  mat_precise_width <80>
+                                  mat_precise_height <15>
+                                  mat_precise_x <294>
+                                  mat_precise_y <255>
+                                  mat_font_sis <times_roman, 9, bold>
+                                  mat_orientation <hlf>
+                                man_end_object
+                              man_end_object
+                              man_update_display
+                            man_update_woff_end_stream

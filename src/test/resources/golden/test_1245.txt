@@ -1,0 +1,144 @@
+uni_start_stream <00x>
+  man_preset_gid <59>
+  if_last_return_false_then <1>
+  man_set_context_globalid <1>
+  man_start_object <org_group, "">
+    uni_sync_skip <1>
+    man_use_default_title
+    man_start_object <ind_group, "">
+      mat_style_id <32-4607>
+the_unknown <16, 204, 01x>
+      mat_orientation <hfb>
+      mat_context_help <"Static Widget Top\x7fSimple Box Sub">
+      mat_style_id <32-4607>
+      mat_position <center_center>
+      man_start_object <org_group, "">
+        mat_orientation <vcf>
+        man_start_object <ornament, "Previous Frame">
+          mat_size <60, 1>
+          mat_relative_tag <16>
+          mat_font_id <ms_gothic>
+          mat_font_size <10>
+          mat_font_style <bold>
+        man_start_sibling <view, "">
+          mat_size <62, 14>
+          mat_relative_tag <1>
+          mat_frame_style <single_line_pop_in>
+          rich_manage
+          rich_bool_read_only <yes>
+          mat_ruler <7>
+          mat_bool_writeable <yes>
+        man_start_sibling <org_group, "">
+          mat_orientation <hec>
+          man_start_object <trigger, "Second Screen">
+            mat_trigger_style <14>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  mip_action_command <22x>
+                uni_end_stream
+                >
+            man_start_sibling <trigger, "Custom Omega East">
+              mat_relative_tag <20>
+              mat_trigger_style <14>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    mip_action_command <23x>
+                  uni_end_stream
+                  >
+              man_start_sibling <trigger, "Primary Region">
+                mat_trigger_style <14>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      mip_action_command <2ex>
+                    uni_end_stream
+                    >
+                man_start_sibling <trigger, "Fourth Right">
+                  mat_trigger_style <14>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        mip_action_command <24x>
+                      uni_end_stream
+                      >
+                  man_end_object
+                man_start_sibling <org_group, "">
+                  mat_orientation <hfc>
+                  man_start_object <org_group, "">
+                    mat_orientation <hec>
+                    man_start_object <trigger, "New Bottom">
+                      mat_relative_tag <12>
+                      mat_trigger_style <14>
+                      mat_bool_disabled <yes>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            mip_get_prev_typed <1>
+                          uni_end_stream
+                          >
+                      man_start_sibling <trigger, "Special Panel">
+                        mat_relative_tag <14>
+                        mat_trigger_style <14>
+                        mat_bool_disabled <yes>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              mip_get_prev_typed <2>
+                            uni_end_stream
+                            >
+                        man_start_sibling <trigger, "First Gamma">
+                          mat_relative_tag <10>
+                          mat_trigger_style <14>
+                          mat_bool_disabled <yes>
+                          mat_command_key <98x, 00x>
+                          mat_bool_disabled <yes>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                mip_action_command <13x>
+                              uni_end_stream
+                              >
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <hec>
+                          man_start_object <trigger, "Advanced Object">
+                            mat_relative_tag <11>
+                            mat_trigger_style <14>
+                            mat_bool_disabled <yes>
+                            mat_command_key <99x, 00x>
+                            mat_bool_disabled <yes>
+                            mat_bool_default <yes>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  mip_action_command <12x>
+                                uni_end_stream
+                                >
+                            man_start_sibling <trigger, "Special South">
+                              mat_relative_tag <15>
+                              mat_trigger_style <14>
+                              mat_bool_disabled <yes>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    mip_get_next_typed <2>
+                                  uni_end_stream
+                                  >
+                              man_start_sibling <trigger, "Static Dialog">
+                                mat_relative_tag <13>
+                                mat_trigger_style <14>
+                                mat_bool_disabled <yes>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      mip_get_next_typed <1>
+                                    uni_end_stream
+                                    >
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                          man_end_object
+                          man_update_display
+                        uni_end_stream <00x>

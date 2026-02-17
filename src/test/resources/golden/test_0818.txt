@@ -1,0 +1,371 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Previous Omega Element">
+    mat_object_id <32-2512>
+    mat_style_id <32-2512>
+    mat_orientation <vft>
+    mat_precise_width <428>
+    mat_precise_height <291>
+    mat_color_face <255, 255, 255>
+    mat_object_id <32-2512>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <407>
+      mat_precise_height <72>
+      mat_font_size <8>
+      mat_font_id <arial>
+      man_append_data <"open first new start fourth stop invoke box. west start new save corner invoke static south. fourth top west secondary invoke simple execute create. center static\x7f\x7fopen previous delete center advanced stop thing close. label view block active refresh primary corner receive. widget">
+    man_end_object
+    lm_table_use_table <20-0-50>
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <ornament, "">
+        mat_title <"Dynamic Form">
+        mat_font_sis <arial, 9, bold>
+        mat_precise_x <10>
+        mat_precise_y <96>
+      man_end_object
+      man_start_object <ornament, "">
+        mat_title <"Secondary Frame">
+        mat_font_sis <arial, 9, bold>
+        mat_precise_x <278>
+        mat_precise_y <96>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <sms_list, "">
+        man_start_object <trigger, "">
+          mat_bool_hidden <yes>
+          mat_relative_tag <1>
+          mat_precise_x <10>
+          mat_precise_y <116>
+          mat_precise_width <245>
+          mat_precise_height <24>
+        man_end_object
+      man_end_object
+      man_start_object <edit_view, "">
+        mat_precise_height <27>
+        mat_precise_width <92>
+        mat_precise_x <278>
+        mat_precise_y <117>
+        mat_frame_style <pop_in>
+        mat_capacity <8>
+        mat_bool_hidden <yes>
+        mat_bool_protected_input <yes>
+        mat_relative_tag <2>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <sms_list, "">
+        man_start_object <trigger, "">
+          mat_bool_hidden <yes>
+          mat_relative_tag <3>
+          mat_precise_x <10>
+          mat_precise_y <144>
+          mat_precise_width <245>
+          mat_precise_height <24>
+        man_end_object
+      man_end_object
+      man_start_object <edit_view, "">
+        mat_bool_hidden <yes>
+        mat_relative_tag <4>
+        mat_precise_x <278>
+        mat_precise_y <145>
+        mat_precise_width <92>
+        mat_precise_height <24>
+        mat_frame_style <pop_in>
+        mat_capacity <8>
+        mat_bool_protected_input <yes>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <sms_list, "">
+        man_start_object <trigger, "">
+          mat_bool_hidden <yes>
+          mat_relative_tag <5>
+          mat_precise_x <10>
+          mat_precise_y <172>
+          mat_precise_width <245>
+          mat_precise_height <24>
+        man_end_object
+      man_end_object
+      man_start_object <edit_view, "">
+        mat_height <1>
+        mat_width <10>
+        mat_capacity <8>
+        mat_bool_hidden <yes>
+        mat_bool_protected_input <yes>
+        mat_precise_x <278>
+        mat_precise_y <173>
+        mat_precise_width <92>
+        mat_precise_height <24>
+        mat_frame_style <pop_in>
+        mat_relative_tag <6>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <sms_list, "">
+        man_start_object <trigger, "">
+          mat_bool_hidden <yes>
+          mat_relative_tag <7>
+          mat_precise_x <10>
+          mat_precise_y <200>
+          mat_precise_width <245>
+          mat_precise_height <24>
+        man_end_object
+      man_end_object
+      man_start_object <edit_view, "">
+        mat_height <1>
+        mat_width <10>
+        mat_capacity <8>
+        mat_bool_protected_input <yes>
+        mat_bool_hidden <yes>
+        mat_relative_tag <8>
+        mat_precise_x <278>
+        mat_precise_y <201>
+        mat_precise_width <92>
+        mat_precise_height <24>
+        mat_frame_style <pop_in>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <sms_list, "">
+        man_start_object <trigger, "">
+          mat_bool_hidden <yes>
+          mat_precise_x <10>
+          mat_precise_y <228>
+          mat_precise_width <245>
+          mat_precise_height <24>
+          mat_relative_tag <9>
+        man_end_object
+      man_end_object
+      man_start_object <edit_view, "">
+        mat_height <1>
+        mat_width <10>
+        mat_capacity <8>
+        mat_bool_protected_input <yes>
+        mat_bool_hidden <yes>
+        mat_precise_x <278>
+        mat_precise_y <229>
+        mat_precise_width <92>
+        mat_precise_height <24>
+        mat_frame_style <pop_in>
+        mat_relative_tag <10>
+      man_end_object
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_bool_hidden <yes>
+        mat_trigger_style <default>
+        mat_color_face <0, 51, 153>
+        mat_color_frame_hilight <102, 153, 204>
+        mat_color_frame_shadow <0, 0, 102>
+        mat_font_sis <arial, 8, normal>
+        mat_color_text <255, 255, 255>
+        mat_precise_x <242>
+        mat_precise_y <261>
+        mat_title_width <7>
+        mat_bool_default <yes>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream
+            lm_table_use_table <20-0-50>
+            lm_table_clear
+            de_start_extraction <0>
+            var_number_set <A, 1>
+            var_number_set <B, 10>
+            uni_start_loop
+            var_number_get <A>
+            uni_use_last_atom_value <man_set_context_relative>
+            man_get_attribute <mat_bool_hidden>
+            if_last_return_true_then <7>
+            man_end_context
+            var_number_set <C, 0>
+            if_last_return_true_then <20>
+            uni_sync_skip <7>
+            de_set_data_type <text>
+            de_get_data_pointer
+            uni_use_last_atom_string <lm_table_use_key>
+            man_end_context
+            var_number_increment <A>
+            var_number_get <A>
+            uni_use_last_atom_value <man_set_context_relative>
+            man_get_attribute <mat_bool_hidden>
+            if_last_return_false_then <14>
+            de_get_data_pointer
+            uni_use_last_atom_string <lm_table_set_item>
+            uni_sync_skip <14>
+            man_end_context
+            var_number_increment <A>
+            if_numa_lt_numb_then <20>
+            uni_end_loop
+            uni_sync_skip <20>
+            de_end_extraction
+            de_start_extraction <0>
+            idb_set_context <20-0-56>
+            var_number_set <C, 1>
+            var_number_set <B, 5>
+            var_number_set <A, 12>
+            uni_single_step
+            uni_save_result
+            uni_start_loop
+            uni_get_result
+            uni_use_last_atom_value <idb_atr_offset>
+            var_number_get <C>
+            uni_use_last_atom_value <man_set_context_relative>
+            de_get_data_value
+            if_last_return_true_then <10, 20>
+            idb_append_data <01x>
+            uni_sync_skip <10>
+            idb_append_data <00x>
+            uni_sync_skip <20>
+            man_end_context
+            var_number_decrement <B>
+            if_numb_true_then <25>
+            var_number_increment <C>
+            var_number_increment <C>
+            var_number_add <12>
+            uni_save_result
+            uni_end_loop
+            uni_sync_skip <25>
+            de_end_extraction
+            man_close
+            man_update_display
+            idb_end_context
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+    var_number_set <A, 6>
+    idb_set_context <20-0-16>
+    idb_atr_offset <0>
+    idb_get_value
+    var_number_set_from_atom <B>
+    if_numa_lte_numb_then <1>
+    var_number_set <B, 5>
+    uni_sync_skip <1>
+    var_number_set <C, 0>
+    var_number_set <D, 0>
+    var_string_set <B,"Complex Panel">
+    var_number_set <A, 1>
+    uni_start_loop
+    uni_use_last_atom_value <idb_atr_offset>
+    var_number_increment <C>
+    var_number_get <C>
+    uni_use_last_atom_value <man_set_context_relative>
+    idb_get_string
+    var_string_set_from_atom <A>
+    if_stra_eq_strb_then <5>
+    var_number_set <D, 1>
+    uni_sync_skip <5>
+    var_string_get <A>
+    uni_use_last_atom_string <mat_title>
+    var_number_get <D>
+    uni_use_last_atom_value <mat_bool_hidden>
+    man_end_context
+    var_number_increment <C>
+    var_number_get <C>
+    uni_use_last_atom_value <man_set_context_relative>
+    var_string_get <A>
+    uni_use_last_atom_string <lm_table_get_item>
+    uni_save_result
+    if_last_return_true_then <15>
+    uni_get_result
+    uni_use_last_atom_string <man_replace_data>
+    uni_sync_skip <15>
+    var_number_get <D>
+    uni_use_last_atom_value <mat_bool_hidden>
+    man_end_context
+    var_number_decrement <B>
+    if_numb_true_then <2>
+    var_number_add <22>
+    uni_end_loop
+    uni_sync_skip <2>
+    idb_end_context
+    man_set_context_globalid <32-2512>
+    idb_set_context <20-0-56>
+    idb_atr_offset <0>
+    idb_get_value
+    var_number_set_from_atom <B>
+    var_number_set <A, 6>
+    if_numa_lte_numb_then <1>
+    var_number_set <B, 5>
+    uni_sync_skip <1>
+    var_number_set <C, 1>
+    var_number_set <A, 12>
+    uni_start_loop
+    var_number_get <C>
+    uni_use_last_atom_value <man_set_context_relative>
+    mat_bool_hidden <no>
+    var_number_get <A>
+    uni_use_last_atom_value <idb_atr_offset>
+    idb_get_value
+    uni_use_last_atom_value <mat_value>
+    var_number_add <12>
+    man_end_context
+    var_number_decrement <B>
+    var_number_increment <C>
+    var_number_increment <C>
+    if_numb_true_then <2>
+    uni_end_loop
+    uni_sync_skip <2>
+    man_update_display
+    idb_end_context
+    man_end_context
+    uni_sync_skip <99>
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <290>
+      mat_precise_width <540>
+      mat_precise_height <25>
+      man_start_object <trigger, "Standard Item">
+        mat_title_width <7>
+        mat_precise_x <158>
+        mat_precise_y <261>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Old Dialog">
+          mat_title_width <7>
+          mat_precise_x <226>
+          mat_precise_y <261>
+          mat_color_face <0, 51, 153>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <102, 153, 204>
+          mat_color_bottom_edge <0, 0, 102>
+          mat_font_size <8>
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        uni_wait_off
+      uni_end_stream <00x>

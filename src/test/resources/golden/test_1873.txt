@@ -1,0 +1,74 @@
+uni_start_stream
+  man_start_object <ind_group, "Ver 1.0">
+    mat_orientation <vff>
+    mat_precise_width <131>
+    mat_precise_height <157>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_color_face <1, 0, 0>
+    mat_bool_background_flood <yes>
+    man_start_object <trigger, "Wicker Basket">
+      act_replace_select_action
+          <
+          cm_get_tid_from_wid <2ex>
+          cm_use_proto <1>
+          async_send_clientstatus <02x>
+          uni_void <b6x, 10x, 0dx, 0ax>
+          >
+the_unknown <10, 3, 07x, 00x, 10x>
+the_unknown <19, 3, 00x>
+the_unknown <112, 111, 14x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 113, 64x>
+the_unknown <112, 114, 01x, 00x, 00x>
+the_unknown <97, 97, 06x, 54x, 43x, 42x, 20x, 43x, 68x, 61x, 74x>
+the_unknown <112, 107, 38x>
+the_unknown <98, 100, 0ax, 20x, 01x, 2ex, d8x, 74x, 31x, 00x, 3fx, 05x, 73x, 10x, 0dx>
+the_unknown <106, 99, 07x, 00x, 10x>
+the_unknown <115, 99, 00x>
+the_unknown <112, 111, 36x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 113, 4bx>
+the_unknown <112, 114, 01x, 00x, 00x>
+the_unknown <97, 97, 0ax, 06x, 54x, 68x, 65x, 20x, 42x, 65x, 61x, 63x, 68x, 10x, 0bx>
+the_unknown <97, 124, 04x, 0dx>
+the_unknown <106, 96, 2ex>
+the_unknown <106, 120, 01x>
+the_unknown <109, 114, 02x>
+the_unknown <96, 96>
+the_unknown <96, 127>
+the_unknown <112, 109, 03x, 03x, 07x, 00x, 10x, 53x, 03x, ffx, ffx, ffx>
+the_unknown <112, 111, 2dx>
+the_unknown <112, 112, 00x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 113, 19x>
+the_unknown <112, 114, 01x, 00x, 00x>
+the_unknown <97, 97, 06x, 43x, 4cx, 4fx, 20x, 43x, 68x, 61x, 74x>
+the_unknown <112, 107, 3cx>
+the_unknown <98, 100, 0ax, 20x, 01x, 2ex, d8x, 55x, 31x, 00x, 7ex, 18x, 18x, 10x, 0dx>
+the_unknown <106, 99, 07x, 00x, 10x>
+the_unknown <115, 99, 00x>
+the_unknown <112, 110, 7fx>
+the_unknown <112, 111, 1ax>
+the_unknown <112, 112, 00x>
+the_unknown <112, 113, 32x>
+the_unknown <112, 114, 01x, 00x, 00x>
+the_unknown <97, 97, 06x, 41x, 52x, 43x, 20x, 43x, 68x, 61x, 74x>
+the_unknown <98, 100, 0ax, 20x, 01x, 2ex, d8x, 4dx, 52x, 00x, 00x, 01x, 6dx, 10x, 0dx>
+the_unknown <106, 99, 07x, 00x, 10x>
+the_unknown <115, 99, 00x>
+the_unknown <112, 111, 36x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 113, 00x>
+the_unknown <112, 114, 01x, 00x, 00x>
+the_unknown <97, 97, 07x, 41x, 6bx, 75x, 73x, 68x, 69x, 74x, 73x, 75x, 20x, 6ex, 61x, 20x, 59x, fax, 75x, 73x, 68x, 69x, 0dx, 49x, 6ex, 76x, 61x, 64x, 65x, 72x, 20x, 31x, 2ex, 30x>
+the_unknown <112, 111, 0ex>
+the_unknown <112, 112, 02x>
+the_unknown <112, 112, 00x>
+the_unknown <112, 113, 7cx>
+the_unknown <112, 109, 03x, 06x, 0dx, 0ax, 00x, 10x, 53x, 03x, ffx, 00x>
+the_unknown <96, 112, 03x, b6x, 00x, 00x, 76x, 65x, 5fx, 74x, 61x, 12x, 00x, 00x, 00x, 00x, 00x, 46x, 01x, 68x, 01x, 3fx, 00x, 58x, 01x, 3fx, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 00x, 58x, 01x, 3fx, 00x, 0ex, 00x, 00x, 00x, 00x, 00x, 46x, 01x, 40x, 36x, 8dx, 02x, 48x, 01x, 3fx, 00x, d0x, 36x, 95x, 02x, 38x, 01x, 3fx, 00x, 6ex, 64x, 5fx, 64x, 61x, 74x, 61x, 0dx, 0ax, 20x, 20x, 20x, 20x, 20x, 20x, 6dx, 61x, 74x, 5fx, 6fx, 72x, 69x, 65x, 6ex, 74x>

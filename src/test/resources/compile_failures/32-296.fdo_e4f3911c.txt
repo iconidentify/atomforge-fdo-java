@@ -1,0 +1,92 @@
+uni_start_stream
+  uni_wait_on
+  man_set_context_globalid <1>
+  var_number_set <A, 0>
+  var_number_save <A, 192>
+  var_number_set <A, 16321>
+  var_number_save <A, 193>
+  man_end_context
+  act_get_db_value <14x, 00x, 00x, 2bx>
+  if_last_return_true_then <1>
+  async_playsound <"Welcome">
+  uni_sync_skip <1>
+  man_set_context_globalid <2>
+  man_set_context_relative <98>
+  mat_title <"Sign Off">
+  mat_shortcut_key <"S">
+  act_replace_select_action
+      <
+      uni_start_stream
+      uni_end_stream
+      >
+    man_change_context_relative <91>
+    mat_title <"Sign Off">
+    uni_start_stream
+      sm_send_selection_code <32165>
+      mat_bool_signoff_menu <yes>
+      mat_shortcut_key <"S">
+      act_replace_select_action
+          <
+          uni_start_stream
+            man_is_rendered <28x, 24x, c3x>
+            if_last_return_true_then <1, 10>
+            async_error_box <"Please finish or cancel your file upload before signing off">
+            uni_sync_skip <1>
+            man_is_rendered <20x, 00x, e7x>
+            if_last_return_true_then <2, 10>
+            async_error_box <"Please finish or cancel your file download before signing off">
+            uni_sync_skip <2>
+            man_is_rendered <28x, 04x, e8x>
+            if_last_return_true_then <3, 10>
+            async_error_box <"Please finish or cancel your Image download before signing off">
+            uni_sync_skip <3>
+            man_is_rendered <28x, 89x, 50x>
+            if_last_return_true_then <4, 10>
+            async_error_box <"Please finish or cancel your file dowbload before signing off">
+            uni_sync_skip <4>
+            man_is_rendered <29x, 3ex, 14x>
+            if_last_return_true_then <5, 10>
+            async_error_box <""Please finish or cancel your file upload before signing off"">
+            uni_sync_skip <5>
+            sm_send_selection_code <32165>
+            uni_wait_on
+            buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+            buf_set_token <"f1">
+            buf_add_atom_data <2731587>
+            buf_close_buffer
+            uni_sync_skip <10>
+          uni_end_stream
+          >
+        man_check_and_set_context_rid <118>
+        if_last_return_false_then <1>
+        man_change_context_relative <91>
+        man_insert_object_before
+        mat_object_type <trigger, "">
+        mat_title <"Switch Screen Name">
+        mat_relative_tag <118>
+        mat_shortcut_key <"N">
+        async_is_guest
+        if_last_return_true_then <1, 2>
+        mat_bool_disabled <yes>
+        uni_sync_skip <1>
+        act_replace_select_action
+            <
+            uni_start_stream
+              sm_enter_paid
+              async_allow_switch_screen_names
+              if_last_return_false_then <3, 4>
+              uni_invoke_no_context <41-42465>
+              uni_sync_skip <3>
+            sm_send_token_arg <"nt">
+            >
+          uni_sync_skip <4>
+        man_end_object
+        man_end_context
+        uni_sync_skip <2>
+        uni_sync_skip <1>
+        man_update_display
+        man_end_context
+        man_end_context
+        man_update_display <2>
+        uni_wait_off
+      uni_end_stream

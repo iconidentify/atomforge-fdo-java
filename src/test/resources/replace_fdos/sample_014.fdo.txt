@@ -1,0 +1,101 @@
+uni_start_stream
+  uni_wait_on
+  uni_invoke_local <32-5447>
+
+  mat_title <"Primary Alpha Sub">
+
+  man_set_context_globalid <32-30>
+  man_make_focus
+
+  man_set_context_relative <3>
+    man_replace_data <"fourth current secondary stop static label center side. active side start process active execute stop load. dialog send third fourth simple open load dialog.">
+  man_end_context
+
+  man_set_context_relative <21>
+    mat_art_id <1-0-21029>
+  man_end_context
+
+  man_set_context_relative <21>
+      act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"NX5">
+        uni_end_stream <00x>
+        >
+  man_end_context
+
+  man_set_context_relative <10>
+    man_replace_data <"dynamic main thing process start simple process button. simple stop refresh epsilon unit execute execute new. west process special fourth stop button">
+  man_end_context
+
+  man_set_context_relative <12>
+    man_replace_data <"west new invoke gamma omega main refresh beta. static create advanced west corner invoke main edge. new previous invoke delete invoke update custom simple. top start component">
+  man_end_context
+
+  man_set_context_relative <14>
+    man_replace_data <"refresh create section window standard process epsilon bottom. epsilon view send sigma view invoke zone current. right default beta box simple theta module bottom. send">
+  man_end_context
+
+  man_set_context_relative <16>
+    man_replace_data <"create basic alpha save third gadget south custom. save start top stop receive execute top invoke. new close close receive theta new omega process.">
+  man_end_context
+
+  man_set_context_relative <17>
+      mat_art_id <1-0-21030>
+  man_end_context
+
+ man_set_context_relative <17>
+    act_replace_select_action
+      <
+      uni_start_stream_wait_on <00x>
+        sm_send_token_arg <"NX1">
+      uni_end_stream <00x>
+      >
+  man_end_context
+
+  man_set_context_relative <18>
+    mat_art_id <1-0-21016>
+  man_end_context
+
+  man_set_context_relative <18>
+      act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"NX3">
+        uni_end_stream <00x>
+        >
+    man_end_context
+
+  man_set_context_relative <19>
+    mat_art_id <1-0-21031>
+  man_end_context
+
+    man_set_context_relative <19>
+        act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+            sm_send_token_arg <"NX2">
+          uni_end_stream <00x>
+          >
+      man_end_context
+
+  man_set_context_relative <20>
+    mat_art_id <1-0-21025>
+  man_end_context
+
+  man_set_context_relative <20>
+      act_replace_select_action
+        <
+        uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"NX4">
+        uni_end_stream <00x>
+        >
+  man_end_context
+
+  man_force_update
+  man_update_display
+
+    uni_start_stream
+        sm_send_token_raw <"TO">
+      uni_end_stream
+uni_wait_off_end_stream

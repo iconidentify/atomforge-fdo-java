@@ -1,0 +1,33 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    mat_orientation <vef>
+the_unknown <16, 204, 01x>
+    man_start_object <ornament, "">
+      mat_height <4>
+      mat_width <50>
+      man_append_data <"south frame close second west main create epsilon. invoke">
+      act_set_criterion <void>
+      man_start_object <view, "\x01#\x01\x00\x01\x06\x10\r\x02OK\x02\x00\x01\x01">
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <14>
+        mat_title <"First East Block">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <09x>
+            lm_open_window <32-234>
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+uni_end_stream

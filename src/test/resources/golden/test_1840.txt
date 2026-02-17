@@ -1,0 +1,165 @@
+uni_start_stream
+  man_start_object <ind_group, "Rainman Tool Center">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-2264>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      man_start_object <ornament, "Rainman Tool Center">
+        mat_relative_tag <3>
+        mat_width <22>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <60>
+        mat_height <10>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "About this area...">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"t1", 0-28-7410>
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "ARC Bar">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"f1", 0-43-12477>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Examine Object Info">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"f1", 0-40-708>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Form Catalog">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-28-7406>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Rainman Command Interface">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"f1", 0-40-411>
+                      >
+                    mat_art_id <1-0-1477>
+                  man_start_sibling <trigger, "Standard Mini Icons">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"f1", 0-41-25965>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "System Art">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"f1", 0-40-31893>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Visual Publisher Designer">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"f1", 0-41-18128>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_end_object
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <hff>
+                      man_start_object <org_group, "">
+                        mat_orientation <vcf>
+                        man_start_object <trigger, "">
+                          mat_relative_tag <56>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"f1", 0-40-411>
+                              >
+                            mat_font_sis <small_fonts, 7, normal>
+                            mat_art_id <1-0-40005>
+                            mat_trigger_style <picture>
+                          man_start_sibling <ornament, "Rainman Interface">
+                            mat_relative_tag <57>
+                            mat_width <15>
+                            mat_height <1>
+                            mat_font_sis <arial, 9, normal>
+                            mat_orientation <hcc>
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <vcf>
+                          man_start_object <trigger, "">
+                            mat_relative_tag <58>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-1-6159>
+                                >
+                              mat_font_sis <small_fonts, 7, normal>
+                              mat_art_id <1-0-34709>
+                              mat_trigger_style <picture>
+                            man_start_sibling <ornament, "Reference Materials">
+                              mat_relative_tag <59>
+                              mat_width <15>
+                              mat_height <1>
+                              mat_font_sis <arial, 9, normal>
+                              mat_orientation <hcc>
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <vcf>
+                            man_start_object <trigger, "">
+                              mat_relative_tag <60>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-28-7406>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_art_id <1-0-35992>
+                                mat_trigger_style <picture>
+                              man_start_sibling <ornament, "Form Catalog">
+                                mat_relative_tag <61>
+                                mat_width <15>
+                                mat_height <1>
+                                mat_font_sis <arial, 9, normal>
+                                mat_orientation <hcc>
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <vcf>
+                              man_start_object <trigger, "">
+                                mat_relative_tag <62>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"f1", 0-40-31893>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_art_id <1-0-34723>
+                                  mat_trigger_style <picture>
+                                man_start_sibling <ornament, "System Art">
+                                  mat_relative_tag <63>
+                                  mat_width <15>
+                                  mat_height <1>
+                                  mat_font_sis <arial, 9, normal>
+                                  mat_orientation <hcc>
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            man_update_display
+                          man_update_woff_end_stream

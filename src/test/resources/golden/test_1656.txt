@@ -1,0 +1,320 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "COSTeam Area">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_relative_tag <15>
+    mat_art_id <1-0-17932>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <120>
+      mat_precise_width <42>
+      mat_precise_height <42>
+      mat_precise_x <15>
+      mat_precise_y <10>
+      mat_art_id <1-0-2635>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <56>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"U3", 0-13-14097>
+          >
+        mat_precise_width <18>
+        mat_precise_height <18>
+        mat_precise_x <15>
+        mat_precise_y <138>
+        mat_art_id <1-0-53721>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <66>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-67-87>
+            >
+          mat_precise_width <18>
+          mat_precise_height <18>
+          mat_precise_x <15>
+          mat_precise_y <278>
+          mat_art_id <1-0-31101>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <64>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-67-790>
+              >
+            mat_precise_width <18>
+            mat_precise_height <18>
+            mat_precise_x <15>
+            mat_precise_y <250>
+            mat_art_id <1-0-29018>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <62>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-67-1066>
+                >
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_precise_x <15>
+              mat_precise_y <222>
+              mat_art_id <1-0-34846>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <60>
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_precise_x <15>
+              mat_precise_y <194>
+              mat_art_id <1-0-1482>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <58>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-67-886>
+                  >
+                mat_precise_width <18>
+                mat_precise_height <18>
+                mat_precise_x <15>
+                mat_precise_y <166>
+                mat_art_id <1-0-53719>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <dss_list, "">
+                mat_relative_tag <30>
+                mat_precise_width <252>
+                mat_precise_height <131>
+                mat_precise_x <278>
+                mat_precise_y <165>
+                mat_bool_list_icons <yes>
+                mat_sort_order <normal>
+                man_start_object <trigger, "Our Area Map">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-67-93>
+                      >
+                    mat_art_id <1-0-34395>
+                  man_start_sibling <trigger, "Announcements">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-67-65>
+                        >
+                      mat_art_id <1-0-53720>
+                    man_start_sibling <trigger, "Guidelines">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-67-67>
+                          >
+                        mat_art_id <1-0-21811>
+                      man_start_sibling <trigger, "CL Procedures">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-67-284>
+                            >
+                          mat_art_id <1-0-21771>
+                        man_start_sibling <trigger, "CL Training Center">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U3", 0-67-54>
+                              >
+                            mat_art_id <1-0-30990>
+                          man_start_sibling <trigger, "Schedules">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U3", 0-67-53>
+                                >
+                              mat_art_id <1-0-19218>
+                            man_start_sibling <trigger, "CL Rest Area">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U3", 0-67-77>
+                                  >
+                                mat_art_id <1-0-37495>
+                              man_start_sibling <trigger, "CL Gateways">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U3", 0-67-72>
+                                    >
+                                  mat_art_id <1-0-19935>
+                                man_start_sibling <trigger, "CL Info Center">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U3", 0-67-791>
+                                      >
+                                    mat_art_id <1-1-37663>
+                                  man_end_object
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <209>
+                                  mat_precise_height <19>
+                                  mat_precise_x <43>
+                                  mat_precise_y <138>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <57>
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <209>
+                                  mat_precise_height <19>
+                                  mat_precise_x <43>
+                                  mat_precise_y <166>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <59>
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <209>
+                                  mat_precise_height <18>
+                                  mat_precise_x <43>
+                                  mat_precise_y <278>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <67>
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <209>
+                                  mat_precise_height <18>
+                                  mat_precise_x <43>
+                                  mat_precise_y <250>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <65>
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <209>
+                                  mat_precise_height <19>
+                                  mat_precise_x <43>
+                                  mat_precise_y <222>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <63>
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <209>
+                                  mat_precise_height <19>
+                                  mat_precise_x <43>
+                                  mat_precise_y <194>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <61>
+                                man_start_sibling <ornament, "COSTeam Area\r">
+                                  mat_relative_tag <3>
+                                  mat_precise_width <400>
+                                  mat_precise_height <42>
+                                  mat_precise_x <75>
+                                  mat_precise_y <13>
+                                  mat_orientation <hlf>
+                                man_start_sibling <view, "">
+                                  rich_manage
+                                  rich_bool_read_only <yes>
+                                  mat_bool_exportable <no>
+                                  mat_precise_width <450>
+                                  mat_precise_height <45>
+                                  mat_precise_x <50>
+                                  mat_precise_y <69>
+                                  mat_bool_resize_vertical <no>
+                                  mat_bool_resize_horizontal <no>
+                                  mat_bool_vertical_scroll <no>
+                                  mat_relative_tag <1>
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hff>
+                                  mat_precise_width <515>
+                                  mat_precise_height <4>
+                                  mat_precise_x <15>
+                                  mat_precise_y <123>
+                                  mat_color_face <182, 182, 170>
+                                  mat_bool_background_flood <yes>
+                                man_start_sibling <org_group, "">
+                                  mat_orientation <hff>
+                                  mat_precise_width <252>
+                                  mat_precise_height <27>
+                                  mat_precise_x <278>
+                                  mat_precise_y <138>
+                                  mat_color_face <182, 182, 170>
+                                  mat_bool_background_flood <yes>
+                                  man_start_object <ornament, "Supporting You\r">
+                                    mat_relative_tag <11>
+                                    mat_precise_width <252>
+                                    mat_precise_height <27>
+                                    mat_precise_x <278>
+                                    mat_precise_y <138>
+                                    mat_orientation <hcc>
+                                  man_end_object
+                                man_end_object
+                              hfs_attr_end_object
+                              man_update_display
+                              man_set_context_relative <57>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>NDA/Privacy Polic">
+                              man_append_data <"y (7/8/98)</B></HTML>">
+                              man_end_data
+                              man_end_context
+                              man_set_context_relative <59>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>Message Center</B">
+                              man_append_data <"><BR></HTML>">
+                              man_end_data
+                              man_end_context
+                              man_set_context_relative <67>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>Weekly Snapshot -">
+                              man_append_data <" July 27</B><BR></HTML>">
+                              man_end_data
+                              man_end_context
+                              man_set_context_relative <65>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>Team Specific Inf">
+                              man_append_data <"o</B><BR></HTML>">
+                              man_end_data
+                              man_end_context
+                              man_set_context_relative <63>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>Conference Center">
+                              man_append_data <"</B><BR></HTML>">
+                              man_end_data
+                              man_end_context
+                              man_set_context_relative <61>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>Our File Librarie">
+                              man_append_data <"s (soon)</B></HTML>">
+                              man_end_data
+                              man_end_context
+                              man_set_context_relative <1>
+                              man_append_data <"<HTML><FONT  SIZE=3 PTSIZE=10><B>Welcome!  This is">
+                              man_append_data <" our new home.  Remember, this area and everything">
+                              man_append_data <" in it is confidential.  Please help us keep it th">
+                              man_append_data <"at way.<BR></B></HTML>">
+                              man_end_data
+                              man_end_context
+                            man_update_woff_end_stream

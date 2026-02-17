@@ -1,0 +1,12 @@
+uni_start_stream <00x>
+  man_start_object <org_group, "">
+    mat_style_id <32-190>
+    mat_orientation <hcc>
+    man_start_object <ornament, "">
+      mat_size <19, 1, 19>
+      man_append_data <"Date of Last Visit:">
+    man_start_sibling <ornament, "">
+      mat_size <24, 1, 24>
+      mat_relative_tag <24>
+    man_end_object
+  uni_end_stream <00x>

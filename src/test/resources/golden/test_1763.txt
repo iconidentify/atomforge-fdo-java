@@ -1,0 +1,513 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL Germany Preview">
+    mat_orientation <vff>
+    mat_precise_width <550>
+    mat_precise_height <320>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_relative_tag <15>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-1-36749>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <120>
+      mat_precise_width <42>
+      mat_precise_height <42>
+      mat_precise_x <15>
+      mat_precise_y <10>
+      mat_art_id <1-0-44406>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <trigger, "">
+      mat_relative_tag <56>
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_m_send_token_arg <"K1", 0-17-46721>
+          >
+        mat_font_sis <system, 12, normal>
+        mat_precise_width <18>
+        mat_precise_height <18>
+        mat_precise_x <15>
+        mat_precise_y <138>
+        mat_art_id <1-0-21216>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "">
+        mat_relative_tag <66>
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U2", 0-94-8573>
+            >
+          mat_font_sis <system, 12, normal>
+          mat_precise_width <18>
+          mat_precise_height <18>
+          mat_precise_x <15>
+          mat_precise_y <278>
+          mat_art_id <1-0-1482>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "">
+          mat_relative_tag <64>
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"K1", 0-17-43316>
+              >
+            mat_font_sis <system, 12, normal>
+            mat_precise_width <18>
+            mat_precise_height <18>
+            mat_precise_x <15>
+            mat_precise_y <250>
+            mat_art_id <1-0-21216>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "">
+            mat_relative_tag <62>
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"K1", 0-17-56542>
+                >
+              mat_font_sis <system, 12, normal>
+              mat_precise_width <18>
+              mat_precise_height <18>
+              mat_precise_x <15>
+              mat_precise_y <222>
+              mat_art_id <1-0-21216>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              mat_relative_tag <60>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"f1", 0-40-60152>
+                  >
+                mat_font_sis <system, 12, normal>
+                mat_precise_width <18>
+                mat_precise_height <18>
+                mat_precise_x <15>
+                mat_precise_y <194>
+                mat_art_id <1-0-21216>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <58>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"f1", 0-40-43122>
+                    >
+                  mat_font_sis <system, 12, normal>
+                  mat_precise_width <18>
+                  mat_precise_height <18>
+                  mat_precise_x <15>
+                  mat_precise_y <166>
+                  mat_art_id <1-0-21216>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <dss_list, "">
+                  mat_relative_tag <30>
+                  mat_precise_width <252>
+                  mat_precise_height <131>
+                  mat_precise_x <278>
+                  mat_precise_y <165>
+                  mat_font_sis <arial, 9, normal>
+                  mat_bool_list_icons <yes>
+                  mat_sort_order <normal>
+                  man_start_object <trigger, "International Access">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"K1", 0-17-56907>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "AOL 3.0i - International Software">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U2", 0-94-8573>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "11er - German Fussball">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"K1", 0-17-50836>
+                            >
+                          mat_art_id <1-0-21216>
+                        man_start_sibling <trigger, "AOL Germany Live Events">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"K1", 0-17-25152>
+                              >
+                            mat_art_id <1-0-21216>
+                          man_start_sibling <trigger, "ARD-Reise-Ratgeber">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"K1", 0-17-40238>
+                                >
+                              mat_art_id <1-0-21216>
+                            man_start_sibling <trigger, "Area 51 (UFOs)">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"K1", 0-17-49435>
+                                  >
+                                mat_art_id <1-0-21216>
+                              man_start_sibling <trigger, "Autoforum">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U2", 0-94-12829>
+                                    >
+                                  mat_art_id <1-0-21216>
+                                man_start_sibling <trigger, "Bernecker & CIE">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"f1", 0-40-53784>
+                                      >
+                                    mat_art_id <1-0-21216>
+                                  man_start_sibling <trigger, "Blitz">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"K1", 0-17-46071>
+                                        >
+                                      mat_art_id <1-0-21216>
+                                    man_start_sibling <trigger, "Bravo Street">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"K1", 0-17-46721>
+                                          >
+                                        mat_art_id <1-0-21216>
+                                      man_start_sibling <trigger, "Casting Online (German)">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"K1", 0-17-49102>
+                                            >
+                                          mat_art_id <1-0-21216>
+                                        man_start_sibling <trigger, "City-Info (Germany)">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"f1", 0-40-43122>
+                                              >
+                                            mat_art_id <1-0-21216>
+                                          man_start_sibling <trigger, "Culture Base">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"K1", 0-17-45453>
+                                                >
+                                              mat_art_id <1-0-21216>
+                                            man_start_sibling <trigger, "Datastream (German)">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"K1", 0-17-46675>
+                                                  >
+                                                mat_art_id <1-0-21216>
+                                              man_start_sibling <trigger, "E-GO">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"K1", 0-17-49105>
+                                                    >
+                                                  mat_art_id <1-0-21216>
+                                                man_start_sibling <trigger, "Essen und Trinken">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"f1", 0-40-60152>
+                                                      >
+                                                    mat_art_id <1-0-21216>
+                                                  man_start_sibling <trigger, "Euromail">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"f1", 0-40-39264>
+                                                        >
+                                                      mat_art_id <1-0-21216>
+                                                    man_start_sibling <trigger, "FC Bayern Online">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"t1", 0-104-63505>
+                                                          >
+                                                        mat_art_id <1-0-21216>
+                                                      man_start_sibling <trigger, "Formel 1">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"K1", 0-17-56542>
+                                                            >
+                                                          mat_art_id <1-0-21216>
+                                                        man_start_sibling <trigger, "German Chat Room!">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"MR", 0-0-891>
+                                                              >
+                                                            mat_art_id <1-0-1480>
+                                                          man_start_sibling <trigger, "German Motoring Club, ADAC">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"K1", 0-17-40151>
+                                                                >
+                                                              mat_art_id <1-0-21216>
+                                                            man_start_sibling <trigger, "Germany Stock Report">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"t1", 0-5-18731>
+                                                                  >
+                                                                mat_art_id <1-0-1478>
+                                                              man_start_sibling <trigger, "GZSZ - German TV Soap">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"K1", 0-17-47589>
+                                                                    >
+                                                                  mat_art_id <1-0-21216>
+                                                                man_start_sibling <trigger, "Heute">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"K1", 0-17-43316>
+                                                                      >
+                                                                    mat_art_id <1-0-21216>
+                                                                  man_start_sibling <trigger, "Jobworld">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"K1", 0-17-59424>
+                                                                        >
+                                                                      mat_art_id <1-0-21216>
+                                                                    man_start_sibling <trigger, "Kleinanzeigen (Classifieds)">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"K1", 0-17-55465>
+                                                                          >
+                                                                        mat_art_id <1-0-21216>
+                                                                      man_start_sibling <trigger, "Langenscheidts Eurowoerterbuch Englisch">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"U2", 0-94-26552>
+                                                                            >
+                                                                          mat_art_id <1-0-21216>
+                                                                        man_start_sibling <trigger, "Langenscheidts Eurowoerterbuch Englisch">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"U2", 0-94-26554>
+                                                                              >
+                                                                            mat_art_id <1-0-21216>
+                                                                          man_start_sibling <trigger, "Lifeline">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                sm_m_send_token_arg <"K1", 0-17-54307>
+                                                                                >
+                                                                              mat_art_id <1-0-21216>
+                                                                            man_start_sibling <trigger, "Mallorca Online">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                  sm_m_send_token_arg <"K1", 0-17-61891>
+                                                                                  >
+                                                                                mat_art_id <1-0-21216>
+                                                                              man_start_sibling <trigger, "Motorrad Online">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                    sm_m_send_token_arg <"f1", 0-40-51496>
+                                                                                    >
+                                                                                  mat_art_id <1-0-21216>
+                                                                                man_start_sibling <trigger, "News -- Germany">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream
+                                                                                      sm_m_send_token_arg <"t1", 0-5-2235>
+                                                                                      >
+                                                                                    mat_art_id <1-0-1478>
+                                                                                  man_start_sibling <trigger, "Newseum">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream
+                                                                                        sm_m_send_token_arg <"K1", 0-17-51042>
+                                                                                        >
+                                                                                      mat_art_id <1-0-21216>
+                                                                                    man_start_sibling <trigger, "Online OWL (in German)">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream
+                                                                                          sm_m_send_token_arg <"K1", 0-5-36291>
+                                                                                          >
+                                                                                        mat_art_id <1-0-21216>
+                                                                                      man_start_sibling <trigger, "Polyglott">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream
+                                                                                            sm_m_send_token_arg <"K1", 0-17-56493>
+                                                                                            >
+                                                                                          mat_art_id <1-0-21216>
+                                                                                        man_start_sibling <trigger, "Reisen">
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_start_stream
+                                                                                              sm_m_send_token_arg <"K1", 0-17-58382>
+                                                                                              >
+                                                                                            mat_art_id <1-0-21216>
+                                                                                          man_start_sibling <trigger, "RTL-Aktuell (news in German)">
+                                                                                            act_replace_select_action
+                                                                                                <
+                                                                                                uni_start_stream
+                                                                                                sm_m_send_token_arg <"U2", 0-94-9690>
+                                                                                                >
+                                                                                              mat_art_id <1-0-21216>
+                                                                                            man_start_sibling <trigger, "Sign on a Friend!">
+                                                                                              act_replace_select_action
+                                                                                                  <
+                                                                                                  uni_start_stream
+                                                                                                  sm_m_send_token_arg <"K1", 0-40-54106>
+                                                                                                  >
+                                                                                                mat_art_id <1-0-1477>
+                                                                                              man_start_sibling <trigger, "Skatforum">
+                                                                                                act_replace_select_action
+                                                                                                    <
+                                                                                                    uni_start_stream
+                                                                                                    sm_m_send_token_arg <"K1", 0-17-44414>
+                                                                                                    >
+                                                                                                  mat_art_id <1-0-21216>
+                                                                                                man_start_sibling <trigger, "Viva">
+                                                                                                  act_replace_select_action
+                                                                                                      <
+                                                                                                      uni_start_stream
+                                                                                                      sm_m_send_token_arg <"K1", 0-17-50748>
+                                                                                                      >
+                                                                                                    mat_art_id <1-0-21216>
+                                                                                                  man_start_sibling <trigger, "Weather Report">
+                                                                                                    act_replace_select_action
+                                                                                                        <
+                                                                                                        uni_start_stream
+                                                                                                        sm_m_send_token_arg <"K1", 0-17-27231>
+                                                                                                        >
+                                                                                                      mat_art_id <1-0-21216>
+                                                                                                    man_start_sibling <trigger, "Wintersport Austria">
+                                                                                                      act_replace_select_action
+                                                                                                          <
+                                                                                                          uni_start_stream
+                                                                                                          sm_m_send_token_arg <"t1", 0-104-60015>
+                                                                                                          >
+                                                                                                        mat_art_id <1-0-21216>
+                                                                                                      man_start_sibling <trigger, "Yahoo Germany Listings">
+                                                                                                        act_replace_select_action
+                                                                                                            <
+                                                                                                            uni_start_stream
+                                                                                                            sm_m_send_token_arg <"t1", 0-104-12873>
+                                                                                                            >
+                                                                                                          mat_art_id <1-0-17203>
+                                                                                                        man_end_object
+                                                                                                      man_start_sibling <ornament, "Bravo Street\r">
+                                                                                                        mat_relative_tag <57>
+                                                                                                        mat_precise_width <209>
+                                                                                                        mat_precise_height <19>
+                                                                                                        mat_precise_x <43>
+                                                                                                        mat_precise_y <138>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "City-Info\r">
+                                                                                                        mat_relative_tag <59>
+                                                                                                        mat_precise_width <209>
+                                                                                                        mat_precise_height <19>
+                                                                                                        mat_precise_x <43>
+                                                                                                        mat_precise_y <166>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "Download 3.0i Software\r">
+                                                                                                        mat_relative_tag <67>
+                                                                                                        mat_precise_width <209>
+                                                                                                        mat_precise_height <18>
+                                                                                                        mat_precise_x <43>
+                                                                                                        mat_precise_y <278>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "Heute\r">
+                                                                                                        mat_relative_tag <65>
+                                                                                                        mat_precise_width <209>
+                                                                                                        mat_precise_height <18>
+                                                                                                        mat_precise_x <43>
+                                                                                                        mat_precise_y <250>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "Formel 1\r">
+                                                                                                        mat_relative_tag <63>
+                                                                                                        mat_precise_width <209>
+                                                                                                        mat_precise_height <19>
+                                                                                                        mat_precise_x <43>
+                                                                                                        mat_precise_y <222>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "Essen und Trinken\r">
+                                                                                                        mat_relative_tag <61>
+                                                                                                        mat_precise_width <209>
+                                                                                                        mat_precise_height <19>
+                                                                                                        mat_precise_x <43>
+                                                                                                        mat_precise_y <194>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "AOL Germany Preview\r">
+                                                                                                        mat_relative_tag <3>
+                                                                                                        mat_precise_width <400>
+                                                                                                        mat_precise_height <42>
+                                                                                                        mat_precise_x <75>
+                                                                                                        mat_precise_y <13>
+                                                                                                        mat_font_sis <arial, 24, normal>
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <ornament, "">
+                                                                                                        mat_relative_tag <1>
+                                                                                                        mat_precise_width <450>
+                                                                                                        mat_precise_height <45>
+                                                                                                        mat_precise_x <50>
+                                                                                                        mat_precise_y <69>
+                                                                                                        mat_font_sis <arial, 9, normal>
+                                                                                                        man_append_data <"Welcome to the International Channel's preview pag">
+                                                                                                        man_append_data <"e for AOL Germany! We've brought together selected">
+                                                                                                        man_append_data <" AOL Germany sites for your enjoyment. If you'd li">
+                                                                                                        man_append_data <"ke to see all of AOL Germany, please download and ">
+                                                                                                        man_append_data <"install the 3.0i software below. ">
+                                                                                                        man_end_data
+                                                                                                        mat_orientation <hlf>
+                                                                                                      man_start_sibling <org_group, "">
+                                                                                                        mat_orientation <hff>
+                                                                                                        mat_precise_width <515>
+                                                                                                        mat_precise_height <4>
+                                                                                                        mat_precise_x <15>
+                                                                                                        mat_precise_y <123>
+                                                                                                        mat_color_face <182, 182, 170>
+                                                                                                        mat_bool_background_flood <yes>
+                                                                                                      man_start_sibling <org_group, "">
+                                                                                                        mat_orientation <hff>
+                                                                                                        mat_precise_width <252>
+                                                                                                        mat_precise_height <27>
+                                                                                                        mat_precise_x <278>
+                                                                                                        mat_precise_y <138>
+                                                                                                        mat_color_face <182, 182, 170>
+                                                                                                        mat_bool_background_flood <yes>
+                                                                                                        man_start_object <ornament, "Explore AOL Germany">
+                                                                                                          mat_relative_tag <11>
+                                                                                                          mat_precise_width <252>
+                                                                                                          mat_precise_height <27>
+                                                                                                          mat_precise_x <278>
+                                                                                                          mat_precise_y <138>
+                                                                                                          mat_font_sis <arial, 14, normal>
+                                                                                                          mat_orientation <hcc>
+                                                                                                        man_end_object
+                                                                                                      man_end_object
+                                                                                                      man_update_display
+                                                                                                    man_update_woff_end_stream

@@ -1,0 +1,110 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Complex Delta Item">
+    mat_object_id <32-2511>
+    mat_style_id <32-2511>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <195>
+    mat_color_face <255, 255, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "invoke process open advanced send first advanced object.">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <25, 2>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <76>
+      mat_precise_width <400>
+      mat_precise_height <75>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <75>
+      mat_font_id <arial>
+      man_append_data <"load stop alpha save zone update widget update. side create sub stop update previous standard dynamic. save box first\x7f\x7fspecial previous west close form south form section. gamma element old edge gadget old left unit. button close front special west custom delta">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <181>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <50>
+        mat_precise_y <160>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <204, 204, 255>
+        mat_color_text <1, 1, 1>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <153, 153, 204>
+        mat_trigger_style <default>
+        mat_font_size <8>
+        mat_title <"ele">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-60>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-4711>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <181>
+          mat_precise_y <160>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_face <204, 204, 255>
+          mat_color_text <1, 1, 1>
+          mat_color_top_edge <255, 255, 255>
+          mat_color_bottom_edge <153, 153, 204>
+          mat_trigger_style <default>
+          mat_font_size <8>
+          mat_title <"cor">
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-60>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-4711>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <309>
+            mat_precise_y <160>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <204, 204, 255>
+            mat_color_text <1, 1, 1>
+            mat_color_top_edge <255, 255, 255>
+            mat_color_bottom_edge <153, 153, 204>
+            mat_trigger_style <default>
+            mat_font_size <8>
+            mat_title <"Second West">
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

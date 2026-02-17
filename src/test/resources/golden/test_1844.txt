@@ -1,0 +1,55 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Online Support Team">
+    mat_orientation <vft>
+    mat_relative_tag <15>
+    mat_art_id <1-0-2264>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlt>
+      man_start_object <ornament, "">
+        mat_relative_tag <120>
+        mat_art_id <1-1-7615>
+      man_start_sibling <ornament, "Online Support Team">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <60>
+      mat_height <11>
+      mat_sort_order <normal>
+      man_start_object <trigger, "The Leaders Reader">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-67-432>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Weekly Snapshot">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-67-433>
+              >
+            mat_art_id <1-0-1479>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <hef>
+          mat_vertical_spacing <2>
+          man_start_object <trigger, "Open">
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                sm_do_list_action <30>
+                >
+              mat_bool_default <yes>
+            man_start_sibling <trigger, "More">
+              mat_bool_disabled <yes>
+              mat_relative_tag <26>
+            man_end_object
+          man_end_object
+        hfs_attr_end_object
+      man_update_woff_end_stream

@@ -1,0 +1,35 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Examine Object Info">
+    mat_orientation <vcf>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see\x7fand want to come back?\x7f\x7fJust click here.  You\x7fcan also send this Favorite\x7fPlace to a friend in E-mail\x7for an Instant Message.\r\n">
+    man_start_object <edit_view, "Internal or External Object ID:">
+      mat_bool_importable <yes>
+      mat_width <13>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_title_pos <left | center>
+      mat_bool_vertical_scroll <yes>
+      mat_relative_tag <1>
+    man_start_sibling <org_group, "">
+      mat_orientation <hee>
+      man_start_object <trigger, "Show Info">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"R$">
+            >
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "CANCEL">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+      hfs_attr_end_object
+    man_update_woff_end_stream

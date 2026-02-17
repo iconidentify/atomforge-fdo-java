@@ -1,0 +1,40 @@
+uni_start_stream
+  man_start_object <ind_group, "(Desk003)  Internal Inventory">
+    mat_orientation <vff>
+    mat_art_id <1-0-51710>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "Internal Inventory\r">
+        mat_relative_tag <3>
+        mat_width <27>
+        mat_height <1>
+        mat_font_sis <ms_serif, 18, bold>
+        mat_color_text <136, 120, 160>
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE>PROJECT ID:  Desk003\x7f\x7fPROJECT NAME:  In">
+    man_append_data <"ternal Inventory\x7f\x7fDESCRIPTION:  A detailed report ">
+    man_append_data <"of all hardware/software within the group. \x7f\x7fBENEF">
+    man_append_data <"IT:  This is beneficial for budget purposes.\x7f\x7fSTAR">
+    man_append_data <"T DATE:  11/20/96\x7f\x7fMILESTONES:  Ongoing.\x7f\x7fCONTACT:">
+    man_append_data <"  Richard Becker\x7f\x7fCURRENT STATUS:  This is a month">
+    man_append_data <"ly report, which will be completed at the end of e">
+    man_append_data <"very month.\x7f</PRE></HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

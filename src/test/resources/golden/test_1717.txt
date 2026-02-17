@@ -1,0 +1,200 @@
+uni_start_stream
+  man_start_object <ind_group, "Phone List Changes">
+    mat_orientation <vcf>
+    mat_art_id <1-0-7223>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_vertical_spacing <2>
+      man_start_object <ornament, "">
+        mat_art_id <1-0-1367>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "Employee Phone List">
+        mat_width <14>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, normal>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <ornament, "">
+      mat_width <10>
+      mat_height <1>
+      mat_font_sis <arial, 9, normal>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "">
+      mat_width <50>
+      mat_height <5>
+      mat_font_sis <arial, 9, bold>
+      man_append_data <"Below is the form for updates for the AOL Employee">
+      man_append_data <" Phone List.  Please complete all fields as you wo">
+      man_append_data <"uld like the information appear on the phone list.">
+      man_append_data <"  Abbreviate when necessary.  In the status field,">
+      man_append_data <" please enter new, delete, or change to indicate s">
+      man_append_data <"tatus.  Note: Your AOL File# will not show up in t">
+      man_append_data <"he listings.  Thank you!! ">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <edit_view, "Last Name">
+        mat_bool_exportable <no>
+        mat_width <15>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <15>
+        mat_relative_tag <1>
+      man_start_sibling <edit_view, "First Name">
+        mat_bool_exportable <no>
+        mat_width <10>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <10>
+        mat_relative_tag <2>
+      man_start_sibling <edit_view, "Office Phone #">
+        mat_bool_exportable <no>
+        mat_width <12>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <20>
+        mat_relative_tag <3>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <edit_view, "Screenname">
+        mat_bool_exportable <no>
+        mat_width <10>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <30>
+        mat_relative_tag <4>
+      man_start_sibling <edit_view, "AOL File#">
+        mat_bool_writeable <yes>
+        mat_bool_importable <yes>
+        mat_width <7>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_validation <128>
+        mat_capacity <6>
+        mat_relative_tag <10>
+      man_start_sibling <edit_view, "Title">
+        mat_bool_exportable <no>
+        mat_width <15>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <35>
+        mat_relative_tag <5>
+      man_start_sibling <edit_view, "Dept#">
+        mat_bool_exportable <no>
+        mat_width <3>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <3>
+        mat_relative_tag <6>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <edit_view, "Building">
+        mat_bool_exportable <no>
+        mat_width <10>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <10>
+        mat_relative_tag <7>
+      man_start_sibling <edit_view, "Room#/Pod#">
+        mat_bool_exportable <no>
+        mat_width <13>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <no>
+        mat_validation <128>
+        mat_capacity <13>
+        mat_relative_tag <8>
+      man_start_sibling <dss_list, "Status">
+        mat_relative_tag <9>
+        mat_width <9>
+        mat_height <1>
+        mat_title_pos <left | top_or_left>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Delete">
+        man_start_sibling <trigger, "Change">
+        man_start_sibling <trigger, "New">
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Send">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"ef", 0-0-1245>
+            >
+          mat_font_sis <system, 12, normal>
+        man_start_sibling <trigger, "Cancel">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+            mat_font_sis <system, 12, normal>
+          man_end_object
+        man_start_sibling <org_group, "">
+          mat_orientation <hcc>
+          man_start_object <ornament, "">
+            mat_width <40>
+            mat_height <4>
+            mat_font_sis <system, 12, bold>
+            man_append_data <"Note: The New On-line phone area will be updated b">
+            man_append_data <"ased on your AOL File#. This information must be c">
+            man_append_data <"orrect.  Your File# is located on the top left cor">
+            man_append_data <"ner of your pay stub.">
+            man_end_data
+            mat_orientation <hlf>
+          man_end_object
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

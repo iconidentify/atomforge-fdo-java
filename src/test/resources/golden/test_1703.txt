@@ -1,0 +1,46 @@
+uni_start_stream
+  man_start_object <ind_group, "Affinity Groups Changing to Standard Unlimited Pricing">
+    mat_orientation <vff>
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+        man_append_data <" Affinity Groups Changing to Standard Unlimited Pr">
+        man_append_data <"icing">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE><U>Affinity Groups changing to standard">
+    man_append_data <" unlimited pricing.</U>\x7f\x7f<B>Both NEA and AFT membe">
+    man_append_data <"rs members CAN upgrade to the standard unlimited r">
+    man_append_data <"ate of $19.95/Unlimited. \x7f</B>\x7fPlease do NOT tell ">
+    man_append_data <"NEA or AFT people to remove themselves from their ">
+    man_append_data <"affinity groups.  Both NEA and AFT and AARP can ha">
+    man_append_data <"ve any rate we advertise online; refer them to key">
+    man_append_data <"word BILLING.\x7f\x7fNEA is short for National Education">
+    man_append_data <" Association\x7fAFT  is short for American Federation">
+    man_append_data <" of Teachers\x7f\x7f\x7fTransmitted: 05/06/97 18:08</PRE></">
+    man_append_data <"HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

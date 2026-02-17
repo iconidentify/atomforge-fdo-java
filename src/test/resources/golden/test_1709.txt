@@ -1,0 +1,403 @@
+uni_start_stream
+  man_start_object <ind_group, "PA Dissecting Lab">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-25775>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlc>
+      man_start_object <ornament, "Dissecting Lab\r">
+        mat_relative_tag <3>
+        mat_width <24>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <het>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <view, "">
+        rich_manage
+        rich_bool_read_only <yes>
+        mat_bool_writeable <yes>
+        mat_width <28>
+        mat_height <10>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        mat_relative_tag <1>
+      man_start_sibling <dss_list, "">
+        mat_relative_tag <30>
+        mat_width <30>
+        mat_height <13>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "AACProfSTP(t01)">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U1", 0-36-10069>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "AudreyYT (h48) - NAKU">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-36-463>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "AW KNugent (t04)">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-36-10087>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Ballfan (k47)- NAKU">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U1", 0-36-2518>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "BookpgKev (t41)">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U1", 0-36-11151>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "BV Naomi (t06)">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U1", 0-36-10595>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "CHill68564 (t07)">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U1", 0-36-10688>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Damage111 (t09)">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U1", 0-36-10722>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Dare to Dream">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U1", 0-36-11290>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "DPitzelyJX (t62)">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U1", 0-36-11302>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "DWO Kate (t10)">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U1", 0-36-10728>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "EAMC Jena (t11)">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U1", 0-36-10734>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "GCHost Zat (t13)">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"U1", 0-36-10746>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "GFH Byron (l11) - NAKU">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"U1", 0-36-5396>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "GSFS Puck (t63)">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"U1", 0-36-11308>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "HostWWFRef (t64)">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"U1", 0-36-11314>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_start_sibling <trigger, "INNrMel  (k59) - NAKU">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"U1", 0-36-4683>
+                                              >
+                                            mat_art_id <1-0-1479>
+                                          man_start_sibling <trigger, "IntfWo (t17)">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"U1", 0-36-10770>
+                                                >
+                                              mat_art_id <1-0-1479>
+                                            man_start_sibling <trigger, "JTSmagic (t18)">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"U1", 0-36-10776>
+                                                  >
+                                                mat_art_id <1-0-1479>
+                                              man_start_sibling <trigger, "LDRS Devon  (bq7) - NAKU">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"U1", 0-36-8823>
+                                                    >
+                                                  mat_art_id <1-0-1479>
+                                                man_start_sibling <trigger, "LDRS Tim (t65)">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"U1", 0-36-11320>
+                                                      >
+                                                    mat_art_id <1-0-1479>
+                                                  man_start_sibling <trigger, "Mbedrick (t20)">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"U1", 0-36-10788>
+                                                        >
+                                                      mat_art_id <1-0-1479>
+                                                    man_start_sibling <trigger, "MsKarate (t21)">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"U1", 0-36-10794>
+                                                          >
+                                                        mat_art_id <1-0-1479>
+                                                      man_start_sibling <trigger, "NickOpBird (t66)">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"U1", 0-36-11326>
+                                                            >
+                                                          mat_art_id <1-0-1479>
+                                                        man_start_sibling <trigger, "NickOpBuny (t67)">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"U1", 0-36-11332>
+                                                              >
+                                                            mat_art_id <1-0-1479>
+                                                          man_start_sibling <trigger, "NOVL Eric (t25)">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"U1", 0-36-10818>
+                                                                >
+                                                              mat_art_id <1-0-1479>
+                                                            man_start_sibling <trigger, "NOVL Est (t26)">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"U1", 0-36-10824>
+                                                                  >
+                                                                mat_art_id <1-0-1479>
+                                                              man_start_sibling <trigger, "NOVL Kitty (t43)">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"U1", 0-36-11169>
+                                                                    >
+                                                                  mat_art_id <1-0-1479>
+                                                                man_start_sibling <trigger, "NOVL tGift (t27)">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"U1", 0-36-10830>
+                                                                      >
+                                                                    mat_art_id <1-0-1479>
+                                                                  man_start_sibling <trigger, "NOVL Tyme (t28)">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"U1", 0-36-10836>
+                                                                        >
+                                                                      mat_art_id <1-0-1479>
+                                                                    man_start_sibling <trigger, "OGF Atrix (t44)">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"U1", 0-36-11176>
+                                                                          >
+                                                                        mat_art_id <1-0-1479>
+                                                                      man_start_sibling <trigger, "OLPsyAngel (t30)">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"U1", 0-36-10848>
+                                                                            >
+                                                                          mat_art_id <1-0-1479>
+                                                                        man_start_sibling <trigger, "OLPsych007 (t31)">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"U1", 0-36-10854>
+                                                                              >
+                                                                            mat_art_id <1-0-1479>
+                                                                          man_start_sibling <trigger, "On Q Coco (t32)">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                sm_m_send_token_arg <"U1", 0-36-10860>
+                                                                                >
+                                                                              mat_art_id <1-0-1479>
+                                                                            man_start_sibling <trigger, "Oshram (t33)">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                  sm_m_send_token_arg <"U1", 0-36-10866>
+                                                                                  >
+                                                                                mat_art_id <1-0-1479>
+                                                                              man_start_sibling <trigger, "PCA Lee (t70)">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                    sm_m_send_token_arg <"U1", 0-36-11350>
+                                                                                    >
+                                                                                  mat_art_id <1-0-1479>
+                                                                                man_start_sibling <trigger, "PCC Bob (t46)">
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream
+                                                                                      sm_m_send_token_arg <"U1", 0-36-11188>
+                                                                                      >
+                                                                                    mat_art_id <1-0-1479>
+                                                                                  man_start_sibling <trigger, "PDC Warren (t35)">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream
+                                                                                        sm_m_send_token_arg <"U1", 0-36-10878>
+                                                                                        >
+                                                                                      mat_art_id <1-0-1479>
+                                                                                    man_start_sibling <trigger, "QRJ Dale (t48)">
+                                                                                      act_replace_select_action
+                                                                                          <
+                                                                                          uni_start_stream
+                                                                                          sm_m_send_token_arg <"U1", 0-36-11200>
+                                                                                          >
+                                                                                        mat_art_id <1-0-1479>
+                                                                                      man_start_sibling <trigger, "RDI Ringo (t51)">
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream
+                                                                                            sm_m_send_token_arg <"U1", 0-36-11222>
+                                                                                            >
+                                                                                          mat_art_id <1-0-1479>
+                                                                                        man_start_sibling <trigger, "RDI Tizzah (t37)">
+                                                                                          act_replace_select_action
+                                                                                              <
+                                                                                              uni_start_stream
+                                                                                              sm_m_send_token_arg <"U1", 0-36-10890>
+                                                                                              >
+                                                                                            mat_art_id <1-0-1479>
+                                                                                          man_start_sibling <trigger, "SaintJAVA (t54)">
+                                                                                            act_replace_select_action
+                                                                                                <
+                                                                                                uni_start_stream
+                                                                                                sm_m_send_token_arg <"U1", 0-36-11240>
+                                                                                                >
+                                                                                              mat_art_id <1-0-1479>
+                                                                                            man_start_sibling <trigger, "SchoonCR (t38)">
+                                                                                              act_replace_select_action
+                                                                                                  <
+                                                                                                  uni_start_stream
+                                                                                                  sm_m_send_token_arg <"U1", 0-36-10896>
+                                                                                                  >
+                                                                                                mat_art_id <1-0-1479>
+                                                                                              man_start_sibling <trigger, "SFC JulieD  (k82) - NAKU">
+                                                                                                act_replace_select_action
+                                                                                                    <
+                                                                                                    uni_start_stream
+                                                                                                    sm_m_send_token_arg <"U1", 0-36-4821>
+                                                                                                    >
+                                                                                                  mat_art_id <1-0-1479>
+                                                                                                man_start_sibling <trigger, "SFC Peggie  (j06) - NAKU">
+                                                                                                  act_replace_select_action
+                                                                                                      <
+                                                                                                      uni_start_stream
+                                                                                                      sm_m_send_token_arg <"U1", 0-36-2148>
+                                                                                                      >
+                                                                                                    mat_art_id <1-0-1479>
+                                                                                                  man_start_sibling <trigger, "Shockvaiue (t55)">
+                                                                                                    act_replace_select_action
+                                                                                                        <
+                                                                                                        uni_start_stream
+                                                                                                        sm_m_send_token_arg <"U1", 0-36-11246>
+                                                                                                        >
+                                                                                                      mat_art_id <1-0-1479>
+                                                                                                    man_start_sibling <trigger, "SPRKS Lisa (t39)">
+                                                                                                      act_replace_select_action
+                                                                                                          <
+                                                                                                          uni_start_stream
+                                                                                                          sm_m_send_token_arg <"U1", 0-36-10902>
+                                                                                                          >
+                                                                                                        mat_art_id <1-0-1479>
+                                                                                                      man_start_sibling <trigger, "SvcsFlyer (t56)">
+                                                                                                        act_replace_select_action
+                                                                                                            <
+                                                                                                            uni_start_stream
+                                                                                                            sm_m_send_token_arg <"U1", 0-36-11252>
+                                                                                                            >
+                                                                                                          mat_art_id <1-0-1479>
+                                                                                                        man_start_sibling <trigger, "TaraPielke (t57)">
+                                                                                                          act_replace_select_action
+                                                                                                              <
+                                                                                                              uni_start_stream
+                                                                                                              sm_m_send_token_arg <"U1", 0-36-11258>
+                                                                                                              >
+                                                                                                            mat_art_id <1-0-1479>
+                                                                                                          man_start_sibling <trigger, "WRTR Witch (k38) - NAKU">
+                                                                                                            act_replace_select_action
+                                                                                                                <
+                                                                                                                uni_start_stream
+                                                                                                                sm_m_send_token_arg <"U1", 0-36-3962>
+                                                                                                                >
+                                                                                                              mat_art_id <1-0-1479>
+                                                                                                            man_start_sibling <trigger, "YTCC CPU (t59)">
+                                                                                                              act_replace_select_action
+                                                                                                                  <
+                                                                                                                  uni_start_stream
+                                                                                                                  sm_m_send_token_arg <"U1", 0-36-11270>
+                                                                                                                  >
+                                                                                                                mat_art_id <1-0-1479>
+                                                                                                              man_end_object
+                                                                                                            man_end_object
+                                                                                                          man_end_object
+                                                                                                          man_update_display
+                                                                                                          man_set_context_relative <1>
+                                                                                                          man_append_data <"<HTML><PRE>These PAs have spent their time at the ">
+                                                                                                          man_append_data <"utility companies and are ready to be dissected an">
+                                                                                                          man_append_data <"d access removed. \x7f\x7f\x7fDocument ID: PAlab</PRE></HTM">
+                                                                                                          man_append_data <"L>">
+                                                                                                          man_end_data
+                                                                                                          man_end_context
+                                                                                                        man_update_woff_end_stream

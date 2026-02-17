@@ -1,0 +1,78 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Beta Testing Libraries">
+    mat_orientation <vcc>
+    mat_art_id <1-0-3381>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_width <40>
+      mat_height <6>
+      mat_color_text <100, 100, 200>
+      man_append_data <"Here are several libraries of different file types">
+      man_append_data <" (graphics, sounds, etc.) that can be opened by AO">
+      man_append_data <"L 3.0 for Windows. Please feel free to upload to t">
+      man_append_data <"hese libraries. Only upload uncompressed files so ">
+      man_append_data <"that FILE | OPEN or the auto-view feature will ope">
+      man_append_data <"n the file. ">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "AVI">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"eB", 0-0-8350>
+            >
+          mat_bool_resize_vertical <yes>
+          mat_art_id <1-0-3670>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "WAV">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"eB", 0-0-8351>
+              >
+            mat_bool_resize_vertical <yes>
+            mat_art_id <1-0-3673>
+          man_start_sibling <trigger, "GIF">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"eB", 0-0-5513>
+                >
+              mat_bool_resize_vertical <yes>
+              mat_art_id <1-0-2034>
+            man_start_sibling <trigger, "JPEG">
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"eB", 0-0-5510>
+                  >
+                mat_bool_resize_vertical <yes>
+                mat_art_id <1-0-1981>
+              man_start_sibling <trigger, "BMP">
+                mat_title_pos <below | center>
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"eB", 0-0-5514>
+                    >
+                  mat_bool_resize_vertical <yes>
+                  mat_art_id <1-0-1871>
+                man_start_sibling <trigger, "MIDI">
+                  mat_title_pos <below | center>
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"eB", 0-0-8342>
+                      >
+                    mat_art_id <1-0-1852>
+                  man_end_object
+                man_end_object
+              hfs_attr_end_object
+            man_update_woff_end_stream

@@ -1,0 +1,62 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "First Right">
+    mat_orientation <vff>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_precise_width <600>
+    mat_precise_height <450>
+
+    man_start_object <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <10>
+      mat_precise_width <580>
+      mat_precise_height <25>
+      mat_title_pos <left>
+      mat_font_sis <arial, 14, bold>
+      man_append_data <"Old Panel Theta">
+      man_end_data
+    man_end_object
+
+    man_start_object <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <35>
+      mat_precise_width <580>
+      mat_precise_height <20>
+      mat_title_pos <left>
+      mat_font_sis <arial, 10>
+      man_append_data <"Active Beta East">
+      man_end_data
+    man_end_object
+
+    man_start_object <view, "">
+      mat_precise_x <10>
+      mat_precise_y <60>
+      mat_precise_width <580>
+      mat_precise_height <350>
+      mat_font_sis <courier, 9>
+      mat_bool_writeable <yes>
+      mat_scroll_threshold <4096>
+      mat_paragraph <yes>
+      mat_bool_force_scroll <yes>
+      man_append_data <"Special South Element">
+      man_end_data
+    man_end_object
+
+    man_start_object <org_group, "">
+      mat_orientation <hcf>
+      mat_precise_y <420>
+      man_start_object <trigger, "OK">
+        mat_bool_default <yes>
+        act_replace_select_action
+          <
+          uni_start_stream
+            man_close_update
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+
+  man_end_object
+  man_update_display
+  uni_wait_off_end_stream
+uni_end_stream <00x>

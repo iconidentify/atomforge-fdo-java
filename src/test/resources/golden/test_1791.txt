@@ -1,0 +1,87 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Requests">
+    mat_orientation <vcc>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-40629>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "For New Atoms and Protocols: ">
+      mat_width <30>
+      mat_height <2>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "">
+      mat_width <60>
+      mat_height <12>
+      man_append_data <"Please build a few days into your development sche">
+      man_append_data <"dule for the creation of new atoms and protocols. ">
+      man_append_data <" The time delay is necessary, as all proposals are">
+      man_append_data <" reviewed.\r\rPlease keep in mind: (1) Proposed atom">
+      man_append_data <"s must go through committee for approval, (2) You ">
+      man_append_data <"may be asked to slightly modify the atom to make i">
+      man_append_data <"t more feasible, and (3) The atom may be turned do">
+      man_append_data <"wn.  Among other reasons, it may be turned down be">
+      man_append_data <"cause the actions proposed may be handled by an at">
+      man_append_data <"om already in existence.  Approval takes anywhere ">
+      man_append_data <"from 2-7 working days, and you will be notified pr">
+      man_append_data <"omptly.\r\rPlease provide as much information as you">
+      man_append_data <" can, as this new process is to help us with docum">
+      man_append_data <"entation, as well as to keep everyone better infor">
+      man_append_data <"med.  If you have any questions or concerns, pleas">
+      man_append_data <"e email ReneeSOK.  Thank you!">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "New Atom">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+              uni_wait_on
+              man_close_update
+              man_preset_gid <41-21929>
+              if_last_return_true_then <1, 2>
+              man_make_focus
+              man_update_display
+              uni_sync_skip <1>
+              idb_exists <41-21929>
+              if_last_return_true_then <1, 2>
+              uni_invoke_no_context <41-21929>
+              uni_sync_skip <1>
+              buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+              buf_set_token <"f1">
+              buf_add_atom_data <2708905>
+              buf_close_buffer
+              uni_sync_skip <2>
+            uni_end_stream <00x>
+            >
+          mat_trigger_style <plain_picture>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "New Protocol">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+                uni_wait_on
+                man_close_update
+                man_preset_gid <41-22340>
+                if_last_return_true_then <1, 2>
+                man_make_focus
+                man_update_display
+                uni_sync_skip <1>
+                idb_exists <41-22340>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <41-22340>
+                uni_sync_skip <1>
+                buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                buf_set_token <"f1">
+                buf_add_atom_data <2709316>
+                buf_close_buffer
+                uni_sync_skip <2>
+              uni_end_stream <00x>
+              >
+            mat_trigger_style <plain_picture>
+          man_end_object
+        man_end_object
+      hfs_attr_end_object
+    man_update_woff_end_stream

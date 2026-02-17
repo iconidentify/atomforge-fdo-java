@@ -1,0 +1,82 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "Favorite Form">
+    mat_orientation <vcf>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-2264>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vlf>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <edit_view, "Name:">
+        mat_bool_importable <yes>
+        mat_width <40>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <100>
+        mat_field_script <any>
+        mat_relative_tag <3>
+      man_start_sibling <edit_view, "Rainman Form Number:">
+        mat_bool_importable <yes>
+        mat_width <20>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_title_pos <above | top_or_left>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <20>
+        mat_relative_tag <1>
+      man_start_sibling <org_group, "">
+        mat_orientation <vlt>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <ornament, "For Custom Forms Only -">
+          mat_width <20>
+          mat_height <1>
+          mat_orientation <hlf>
+        man_start_sibling <org_group, "">
+          mat_orientation <hlf>
+          mat_bool_resize_vertical <yes>
+          mat_bool_resize_horizontal <yes>
+          man_start_object <dss_list, "Token:">
+            mat_relative_tag <4>
+            mat_width <5>
+            mat_height <1>
+            mat_title_pos <above | top_or_left>
+            mat_sort_order <normal>
+            man_start_object <trigger, "t1">
+            man_start_sibling <trigger, "U1">
+            man_start_sibling <trigger, "U2">
+            man_start_sibling <trigger, "U3">
+            man_start_sibling <trigger, "U4">
+            man_end_object
+          man_start_sibling <edit_view, "Internal Id:">
+            mat_bool_importable <yes>
+            mat_width <20>
+            mat_height <1>
+            mat_bool_resize_vertical <no>
+            mat_bool_resize_horizontal <no>
+            mat_title_pos <above | top_or_left>
+            mat_bool_vertical_scroll <no>
+            mat_capacity <20>
+            mat_relative_tag <2>
+          man_end_object
+        man_end_object
+      man_end_object
+    man_start_sibling <trigger, "OK">
+      act_replace_select_action
+          <
+          uni_start_stream
+            vrm_action_command <353>
+            man_close_update
+          uni_end_stream
+          >
+        mat_bool_default <yes>
+      man_end_object
+    hfs_attr_end_object
+  man_update_woff_end_stream

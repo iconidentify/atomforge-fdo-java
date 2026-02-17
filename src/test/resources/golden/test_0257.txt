@@ -1,0 +1,781 @@
+uni_start_stream
+  idb_exists <1-12-37269>
+  if_last_return_false_then <1>
+  buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+  buf_set_token <"f0">
+  buf_add_atom_data <17600917>
+  buf_close_buffer
+  uni_sync_skip <1>
+  man_start_object <dss_list, "">
+    mat_bool_invisible <yes>
+    mat_bool_hidden <yes>
+    mat_relative_tag <201>
+    mat_bool_popup_menu <yes>
+    mat_precise_x <0>
+    mat_precise_y <0>
+    mat_sort_order <normal>
+    man_start_object <trigger, "Complex Side Region">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on
+            man_is_rendered <2bx, 27x, 2dx>
+            if_last_return_true_then <1, 2>
+            man_make_focus <43-10029>
+            man_update_display <43-10029>
+            uni_wait_off
+            uni_sync_skip <1>
+          sm_m_send_token_arg <"CJ", 0-0-2>
+          >
+        uni_sync_skip <2>
+      man_start_sibling <ornament, "">
+      man_start_sibling <trigger, "Basic North Back">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_token_raw <"L&">
+            >
+        man_start_sibling <trigger, "Static Top">
+          mat_relative_tag <282>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"L1", 0-0-28>
+              >
+          man_start_sibling <trigger, "Simple Form">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_set_token <"ur">
+                  buf_add_atom_pointer <"Fourth South Front">
+                  buf_close_buffer
+                uni_end_stream
+                >
+            man_start_sibling <trigger, "Complex Form">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"Dynamic Epsilon Delta">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+              man_start_sibling <trigger, "Custom Box Zone">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                      buf_set_token <"ur">
+                      buf_add_atom_pointer <"Sub Object Corner">
+                      buf_close_buffer
+                    uni_end_stream
+                    >
+                man_start_sibling <ornament, "">
+                man_start_sibling <trigger, "Sub Sigma Edge">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        uni_invoke_no_context <32-245>
+                      uni_end_stream
+                      >
+                  man_end_object
+                man_end_object
+                man_set_context_relative <300>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      var_lookup_by_id <A, 306>
+                      uni_use_last_atom_value <man_set_context_relative>
+                      man_get_child_count
+                      if_last_return_false_then <1>
+                    uni_abort_stream
+                    uni_sync_skip <1>
+                    man_end_context
+                    act_do_action <297>
+                    man_set_context_relative <1002>
+                    act_do_action <select>
+                    man_end_context
+                  uni_end_stream
+                  >
+                man_end_context
+                man_set_context_relative <301>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      var_lookup_by_id <A, 306>
+                      uni_use_last_atom_value <man_set_context_relative>
+                      man_get_child_count
+                      if_last_return_false_then <1>
+                    uni_abort_stream
+                    uni_sync_skip <1>
+                    man_end_context
+                    act_do_action <297>
+                    act_do_action <299>
+                    act_do_action <296>
+                    man_set_context_relative <1000>
+                    act_do_action <select>
+                    man_end_context
+                  uni_end_stream
+                  >
+                man_end_context
+                man_set_context_relative <302>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_set_context_relative <107>
+                      man_get_child_count
+                      if_last_return_false_then <1>
+                    uni_abort_stream
+                    uni_sync_skip <1>
+                    man_end_context
+                    act_do_action <297>
+                    act_do_action <296>
+                    man_set_context_relative <1001>
+                    act_do_action <select>
+                    man_end_context
+                  uni_end_stream
+                  >
+                man_end_context
+                man_set_context_relative <303>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      man_set_context_relative <106>
+                      man_get_child_count
+                      if_last_return_false_then <1>
+                    uni_abort_stream
+                    uni_sync_skip <1>
+                    man_end_context
+                    act_do_action <297>
+                    act_do_action <295>
+                    man_set_context_relative <1001>
+                    act_do_action <select>
+                    man_end_context
+                  uni_end_stream
+                  >
+                man_end_context
+                act_set_criterion <210>
+                act_replace_action
+                    <
+                    uni_start_stream
+                      man_set_context_relative <108>
+                      rich_get_font
+                      var_string_set_from_atom <A>
+                      man_end_context
+                      man_set_context_relative <22>
+                      var_string_get <A>
+                      uni_use_last_atom_string <man_get_index_by_title>
+                      uni_use_last_atom_value <mat_value>
+                      man_end_context
+                      man_set_context_relative <108>
+                      rich_get_text_style
+                      var_number_set_from_atom <A>
+                      man_change_context_relative <42>
+                      var_number_get <A>
+                      var_number_set <B, 1>
+                      if_numa_and_numb_then <1, 2>
+                      mat_value <1>
+                      uni_sync_skip <1>
+                      mat_value <0>
+                      uni_sync_skip <2>
+                      man_change_context_relative <43>
+                      var_number_get <A>
+                      var_number_set <B, 2>
+                      if_numa_and_numb_then <1, 2>
+                      mat_value <1>
+                      uni_sync_skip <1>
+                      mat_value <0>
+                      uni_sync_skip <2>
+                      man_change_context_relative <44>
+                      var_number_get <A>
+                      var_number_set <B, 4>
+                      if_numa_and_numb_then <1, 2>
+                      mat_value <1>
+                      uni_sync_skip <1>
+                      mat_value <0>
+                      uni_sync_skip <2>
+                      man_end_context
+                      man_update_display
+                    uni_end_stream
+                    >
+                  act_set_criterion <290>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        man_check_and_set_context_rid <200>
+                        if_last_return_true_then <1>
+                        man_close_update
+                        uni_sync_skip <1>
+                        man_start_object <dss_list, "">
+                          mat_bool_invisible <yes>
+                          mat_relative_tag <200>
+                          mat_bool_popup_menu <yes>
+                          man_start_object <trigger, "">
+                            mat_relative_tag <1004>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  man_set_context_relative <1002>
+                                  act_do_action <select>
+                                  man_end_context
+                                uni_end_stream
+                                >
+                            man_end_object
+                            man_start_object <ornament, "">
+                            man_end_object
+                            man_start_object <trigger, "Second Main">
+                              mat_relative_tag <1002>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on
+                                    sm_send_selection_code <95555>
+                                    buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    buf_set_token <"id">
+                                    var_lookup_by_id <A, 305>
+                                    uni_use_last_atom_string <buf_add_atom_pointer>
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                              man_end_object
+                              man_start_object <trigger, "">
+                                mat_relative_tag <1000>
+                              man_end_object
+                              man_start_object <trigger, "Current Back">
+                                mat_relative_tag <1003>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      sm_send_selection_code <79403>
+                                      var_string_set <A,"Current Widget">
+                                      var_lookup_by_id <B, 305>
+                                      var_string_concatenate_regs <A, B>
+                                      buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                      buf_set_token <"ur">
+                                      var_string_get <A>
+                                      uni_use_last_atom_string <buf_add_atom_pointer>
+                                      buf_close_buffer
+                                    uni_end_stream
+                                    >
+                                man_end_object
+                              man_end_object
+                              var_number_set <A, 107>
+                              var_number_save <A, 306>
+                              man_set_context_relative <461>
+                              mat_bool_hidden <yes>
+                              man_change_context_relative <361>
+                              mat_bool_hidden <yes>
+                              man_change_context_relative <26>
+                              mat_bool_hidden <yes>
+                              man_change_context_relative <28>
+                              mat_bool_hidden <yes>
+                              man_change_context_relative <29>
+                              mat_bool_hidden <yes>
+                              man_change_context_relative <106>
+                              man_close_children
+                              mat_bool_invisible <yes>
+                              man_change_context_relative <302>
+                              mat_bool_invisible <yes>
+                              man_change_context_relative <303>
+                              mat_bool_invisible <yes>
+                              man_change_context_relative <110>
+                              mat_bool_invisible <yes>
+                              man_change_context_relative <460>
+                              mat_bool_hidden <no>
+                              man_change_context_relative <261>
+                              mat_bool_hidden <no>
+                              man_change_context_relative <27>
+                              mat_bool_hidden <no>
+                              man_change_context_relative <107>
+                              mat_bool_invisible <no>
+                              man_change_context_relative <300>
+                              mat_bool_disabled <no>
+                              man_change_context_relative <301>
+                              mat_bool_disabled <no>
+                              mat_bool_invisible <no>
+                              man_end_context
+                              man_update_display
+                            uni_end_stream
+                            >
+                          act_set_criterion <291>
+                          act_replace_action
+                              <
+                              uni_start_stream
+                                man_check_and_set_context_rid <200>
+                                if_last_return_true_then <1>
+                                man_close_update
+                                uni_sync_skip <1>
+                                man_start_object <dss_list, "">
+                                  mat_bool_invisible <yes>
+                                  mat_relative_tag <200>
+                                  mat_bool_popup_menu <yes>
+                                  man_start_object <trigger, "">
+                                    mat_relative_tag <1004>
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                          man_set_context_relative <1002>
+                                          act_do_action <select>
+                                          man_end_context
+                                        uni_end_stream
+                                        >
+                                    man_end_object
+                                    man_start_object <ornament, "">
+                                    man_end_object
+                                    man_start_object <trigger, "Second Main">
+                                      mat_relative_tag <1002>
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on
+                                            sm_send_selection_code <95555>
+                                            buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                            buf_set_token <"id">
+                                            var_lookup_by_id <A, 305>
+                                            uni_use_last_atom_string <buf_add_atom_pointer>
+                                            buf_close_buffer
+                                          uni_end_stream
+                                          >
+                                      man_end_object
+                                      man_start_object <trigger, "">
+                                        mat_relative_tag <1000>
+                                      man_end_object
+                                      man_start_object <trigger, "First Item">
+                                        mat_relative_tag <1001>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                              sm_send_selection_code <95552>
+                                              act_do_action <297>
+                                              buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                              buf_set_token <"AE">
+                                              buf_set_data_atom <de_custom_data>
+                                              var_lookup_by_id <A, 100>
+                                              var_number_add <6>
+                                              uni_use_last_atom_value <buf_add_atom_data>
+                                              buf_set_data_atom <man_set_context_relative>
+                                              buf_add_atom_data <1>
+                                              buf_set_data_atom <de_data>
+                                              var_lookup_by_id <A, 305>
+                                              uni_use_last_atom_string <buf_add_atom_pointer>
+                                              buf_close_buffer
+                                            uni_end_stream
+                                            >
+                                        man_end_object
+                                        man_start_object <trigger, "Current Back">
+                                          mat_relative_tag <1003>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                sm_send_selection_code <79403>
+                                                var_string_set <A,"Current Widget">
+                                                var_lookup_by_id <B, 305>
+                                                var_string_concatenate_regs <A, B>
+                                                buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                buf_set_token <"ur">
+                                                var_string_get <A>
+                                                uni_use_last_atom_string <buf_add_atom_pointer>
+                                                buf_close_buffer
+                                              uni_end_stream
+                                              >
+                                          man_end_object
+                                        man_end_object
+                                        var_number_set <A, 107>
+                                        var_number_save <A, 306>
+                                        man_set_context_relative <461>
+                                        mat_bool_hidden <yes>
+                                        man_change_context_relative <361>
+                                        mat_bool_hidden <yes>
+                                        man_change_context_relative <26>
+                                        mat_bool_hidden <yes>
+                                        man_change_context_relative <28>
+                                        mat_bool_hidden <no>
+                                        man_change_context_relative <29>
+                                        mat_bool_hidden <yes>
+                                        man_change_context_relative <106>
+                                        man_close_children
+                                        mat_bool_invisible <yes>
+                                        man_change_context_relative <302>
+                                        mat_bool_disabled <no>
+                                        mat_bool_invisible <no>
+                                        man_change_context_relative <301>
+                                        mat_bool_invisible <no>
+                                        mat_bool_disabled <no>
+                                        man_change_context_relative <303>
+                                        mat_bool_invisible <yes>
+                                        man_change_context_relative <110>
+                                        mat_bool_invisible <no>
+                                        man_change_context_relative <460>
+                                        mat_bool_hidden <no>
+                                        man_change_context_relative <261>
+                                        mat_bool_hidden <no>
+                                        man_change_context_relative <27>
+                                        mat_bool_hidden <no>
+                                        man_change_context_relative <107>
+                                        mat_bool_invisible <no>
+                                        man_end_context
+                                        man_update_display
+                                      uni_end_stream
+                                      >
+                                    act_set_criterion <292>
+                                    act_replace_action
+                                        <
+                                        uni_start_stream
+                                          var_number_set <A, 107>
+                                          var_number_save <A, 306>
+                                          man_set_context_relative <26>
+                                          mat_bool_hidden <yes>
+                                          mat_bool_disabled <yes>
+                                          man_change_context_relative <27>
+                                          mat_bool_hidden <no>
+                                          man_change_context_relative <28>
+                                          mat_bool_hidden <no>
+                                          man_change_context_relative <29>
+                                          mat_bool_hidden <yes>
+                                          man_change_context_relative <30>
+                                          mat_bool_hidden <no>
+                                          man_change_context_relative <107>
+                                          mat_bool_invisible <no>
+                                          man_change_context_relative <106>
+                                          mat_bool_invisible <yes>
+                                          man_change_context_relative <460>
+                                          mat_bool_hidden <no>
+                                          man_change_context_relative <461>
+                                          mat_bool_hidden <yes>
+                                          man_change_context_relative <261>
+                                          mat_bool_hidden <no>
+                                          man_change_context_relative <361>
+                                          mat_bool_hidden <yes>
+                                          man_change_context_relative <302>
+                                          mat_bool_disabled <no>
+                                          mat_bool_invisible <no>
+                                          man_change_context_relative <303>
+                                          mat_bool_invisible <yes>
+                                          man_change_context_relative <300>
+                                          mat_bool_disabled <no>
+                                          man_change_context_relative <301>
+                                          mat_bool_invisible <no>
+                                          man_end_context
+                                          man_update_display
+                                          act_do_action <297>
+                                        uni_end_stream
+                                        >
+                                      act_set_criterion <293>
+                                      act_replace_action
+                                          <
+                                          uni_start_stream
+                                            var_number_set <A, 106>
+                                            var_number_save <A, 306>
+                                            man_set_context_relative <26>
+                                            mat_bool_hidden <no>
+                                            mat_bool_disabled <no>
+                                            man_change_context_relative <27>
+                                            mat_bool_hidden <yes>
+                                            man_change_context_relative <28>
+                                            mat_bool_hidden <yes>
+                                            man_change_context_relative <29>
+                                            mat_bool_hidden <no>
+                                            man_change_context_relative <30>
+                                            mat_bool_hidden <yes>
+                                            man_change_context_relative <107>
+                                            mat_bool_invisible <yes>
+                                            man_change_context_relative <106>
+                                            mat_bool_invisible <no>
+                                            man_change_context_relative <460>
+                                            mat_bool_hidden <yes>
+                                            man_change_context_relative <461>
+                                            mat_bool_hidden <no>
+                                            man_change_context_relative <261>
+                                            mat_bool_hidden <yes>
+                                            man_change_context_relative <361>
+                                            mat_bool_hidden <no>
+                                            man_change_context_relative <302>
+                                            mat_bool_invisible <yes>
+                                            man_change_context_relative <303>
+                                            mat_bool_invisible <no>
+                                            mat_bool_disabled <no>
+                                            man_change_context_relative <301>
+                                            mat_bool_invisible <yes>
+                                            man_end_context
+                                            act_do_action <307>
+                                            act_do_action <297>
+                                          uni_end_stream
+                                          >
+                                        act_set_criterion <295>
+                                        act_replace_action
+                                            <
+                                            uni_start_stream
+                                              var_lookup_by_id <A, 305>
+                                              man_set_context_relative <1004>
+                                              var_string_get <A>
+                                              uni_use_last_atom_string <mat_title>
+                                              man_change_context_relative <1000>
+                                              mat_bool_disabled <yes>
+                                              mat_title <"Main South">
+                                              man_change_context_relative <1001>
+                                              mat_title <"Secondary Block">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                    sm_send_selection_code <95553>
+                                                    act_do_action <297>
+                                                    buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                    buf_set_token <"AE">
+                                                    buf_set_data_atom <de_custom_data>
+                                                    var_lookup_by_id <A, 100>
+                                                    var_number_add <7>
+                                                    uni_use_last_atom_value <buf_add_atom_data>
+                                                    buf_set_data_atom <man_set_context_relative>
+                                                    buf_add_atom_data <1>
+                                                    buf_set_data_atom <de_data>
+                                                    var_lookup_by_id <A, 305>
+                                                    uni_use_last_atom_string <buf_add_atom_pointer>
+                                                    buf_close_buffer
+                                                  uni_end_stream
+                                                  >
+                                                man_end_context
+                                              uni_end_stream
+                                              >
+                                            act_set_criterion <296>
+                                            act_replace_action
+                                                <
+                                                uni_start_stream
+                                                  man_set_context_relative <1000>
+                                                  mat_bool_disabled <no>
+                                                  man_end_context
+                                                  man_check_and_set_context_rid <1001>
+                                                  if_last_return_true_then <1>
+                                                  mat_title <"First Item">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                        sm_send_selection_code <95552>
+                                                        act_do_action <297>
+                                                        buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                        buf_set_token <"AE">
+                                                        buf_set_data_atom <de_custom_data>
+                                                        var_lookup_by_id <A, 100>
+                                                        var_number_add <6>
+                                                        uni_use_last_atom_value <buf_add_atom_data>
+                                                        buf_set_data_atom <man_set_context_relative>
+                                                        buf_add_atom_data <1>
+                                                        buf_set_data_atom <de_data>
+                                                        var_lookup_by_id <A, 305>
+                                                        uni_use_last_atom_string <buf_add_atom_pointer>
+                                                        buf_close_buffer
+                                                      uni_end_stream
+                                                      >
+                                                    man_end_context
+                                                    uni_sync_skip <1>
+                                                  uni_end_stream
+                                                  >
+                                                act_set_criterion <297>
+                                                act_replace_action
+                                                    <
+                                                    uni_start_stream
+                                                      de_start_extraction <0>
+                                                      var_lookup_by_id <A, 306>
+                                                      uni_use_last_atom_value <man_set_context_relative>
+                                                      de_get_data_pointer
+                                                      uni_save_result
+                                                      man_end_context
+                                                      uni_get_result
+                                                      var_string_set_from_atom <A>
+                                                      var_string_save <A, 305>
+                                                      de_end_extraction
+                                                    uni_end_stream
+                                                    >
+                                                  act_set_criterion <299>
+                                                  act_replace_action
+                                                      <
+                                                      uni_start_stream
+                                                        var_lookup_by_id <B, 301>
+                                                        de_start_extraction <0>
+                                                        man_set_context_relative <107>
+                                                        de_set_data_type <index>
+                                                        de_get_data_value
+                                                        uni_use_last_atom_value <man_set_context_index>
+                                                        man_get_attribute <mat_art_id>
+                                                        var_number_set_from_atom <A>
+                                                        man_end_context
+                                                        man_end_context
+                                                        var_number_get <B>
+                                                        var_number_get <A>
+                                                        var_lookup_by_id <A, 305>
+                                                        if_numa_eq_numb_then <1>
+                                                        var_number_set <A, 4>
+                                                        var_number_save <A, 307>
+                                                        man_set_context_relative <1004>
+                                                        var_string_get <A>
+                                                        uni_use_last_atom_string <mat_title>
+                                                        man_end_context
+                                                        man_set_context_relative <1000>
+                                                        mat_title <"Special Button Back">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              var_lookup_by_id <A, 305>
+                                                              sm_send_selection_code <79402>
+                                                              buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                              de_start_extraction
+                                                              buf_set_token <"AE">
+                                                              buf_set_data_atom <de_custom_data>
+                                                              var_lookup_by_id <A, 100>
+                                                              var_number_add <4>
+                                                              uni_use_last_atom_value <buf_add_atom_data>
+                                                              buf_set_data_atom <man_set_context_relative>
+                                                              buf_add_atom_data <1>
+                                                              buf_set_data_atom <de_data>
+                                                              var_string_get <A>
+                                                              uni_use_last_atom_string <buf_add_atom_pointer>
+                                                              de_end_extraction
+                                                              buf_close_buffer
+                                                            uni_end_stream
+                                                            >
+                                                          man_end_context
+                                                          de_end_extraction
+                                                        uni_abort_stream
+                                                        uni_sync_skip <1>
+                                                        var_number_set <A, 3>
+                                                        var_number_save <A, 307>
+                                                        man_set_context_relative <1004>
+                                                        var_string_get <A>
+                                                        uni_use_last_atom_string <mat_title>
+                                                        man_end_context
+                                                        man_set_context_relative <1000>
+                                                        mat_title <"Main South">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              var_lookup_by_id <A, 305>
+                                                              sm_send_selection_code <79401>
+                                                              buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                              de_start_extraction
+                                                              buf_set_token <"AE">
+                                                              buf_set_data_atom <de_custom_data>
+                                                              var_lookup_by_id <A, 100>
+                                                              var_number_add <3>
+                                                              uni_use_last_atom_value <buf_add_atom_data>
+                                                              buf_set_data_atom <man_set_context_relative>
+                                                              buf_add_atom_data <1>
+                                                              buf_set_data_atom <de_data>
+                                                              var_string_get <A>
+                                                              uni_use_last_atom_string <buf_add_atom_pointer>
+                                                              de_end_extraction
+                                                              buf_close_buffer
+                                                            uni_end_stream
+                                                            >
+                                                          man_end_context
+                                                          de_end_extraction
+                                                        uni_end_stream
+                                                        >
+                                                      act_set_criterion <300>
+                                                      act_replace_action
+                                                          <
+                                                          uni_start_stream
+                                                            var_lookup_by_id <A, 304>
+                                                            var_lookup_by_id <B, 303>
+                                                            man_set_context_relative <107>
+                                                            var_string_get <A>
+                                                            uni_use_last_atom_string <man_get_index_by_title>
+                                                            uni_use_last_atom_value <man_set_context_index>
+                                                            var_number_get <B>
+                                                            uni_use_last_atom_value <mat_art_id>
+                                                            man_end_context
+                                                            man_end_context
+                                                            man_update_display
+                                                          uni_end_stream
+                                                          >
+                                                        act_set_criterion <302>
+                                                        act_replace_action
+                                                            <
+                                                            uni_start_stream
+                                                              man_set_context_relative <28>
+                                                              mat_art_id <1-12-37269>
+                                                              man_update_display
+                                                              man_end_context
+                                                              mat_timer_duration <1000>
+                                                              mat_timer_event <303>
+                                                              man_enable_one_shot_timer
+                                                            uni_end_stream
+                                                            >
+                                                          act_set_criterion <303>
+                                                          act_replace_action
+                                                              <
+                                                              uni_start_stream
+                                                                man_set_context_relative <28>
+                                                                mat_art_id <1-12-19976>
+                                                                man_update_display
+                                                              uni_end_stream
+                                                              >
+                                                            act_set_criterion <306>
+                                                            act_replace_action
+                                                                <
+                                                                uni_start_stream
+                                                                  var_lookup_by_id <A, 304>
+                                                                  man_set_context_relative <106>
+                                                                  var_string_get <A>
+                                                                  uni_use_last_atom_string <man_get_index_by_title>
+                                                                  uni_use_last_atom_value <man_set_context_index>
+                                                                  man_close
+                                                                  man_end_context
+                                                                  man_end_context
+                                                                  man_update_display <0>
+                                                                  act_do_action <307>
+                                                                uni_end_stream
+                                                                >
+                                                              act_set_criterion <307>
+                                                              act_replace_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                    man_set_context_relative <106>
+                                                                    man_get_child_count
+                                                                    uni_save_result
+                                                                    man_change_context_relative <361>
+                                                                    uni_get_result
+                                                                    uni_convert_last_atom_data
+                                                                    uni_use_last_atom_string <man_replace_data>
+                                                                    man_end_context
+                                                                    uni_get_result
+                                                                    if_last_return_false_then <1, 2>
+                                                                    man_set_context_relative <300>
+                                                                    mat_bool_disabled <yes>
+                                                                    man_change_context_relative <303>
+                                                                    mat_bool_disabled <yes>
+                                                                    man_end_context
+                                                                    uni_sync_skip <1>
+                                                                    man_set_context_relative <300>
+                                                                    mat_bool_disabled <no>
+                                                                    man_change_context_relative <303>
+                                                                    mat_bool_disabled <no>
+                                                                    man_end_context
+                                                                    uni_sync_skip <2>
+                                                                    man_update_display <0>
+                                                                  uni_end_stream
+                                                                  >
+                                                                act_set_criterion <308>
+                                                                act_replace_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                      man_set_context_relative <282>
+                                                                      mat_title <"Static Top">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream_wait_on <00x>
+                                                                          sm_m_send_token_arg <"L1", 0-0-28>
+                                                                          >
+                                                                      uni_end_stream
+                                                                      >
+                                                                    act_set_criterion <309>
+                                                                    act_replace_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                          man_set_context_relative <282>
+                                                                          mat_title <"Basic East">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream_wait_on <00x>
+                                                                              sm_m_send_token_arg <"AD", 0-0-7>
+                                                                              >
+                                                                          uni_end_stream
+                                                                          >
+                                                                      uni_end_stream

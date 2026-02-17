@@ -1,0 +1,6 @@
+uni_start_stream
+  idb_delete_obj <32-117>
+  idb_delete_obj <32-5447>
+  idb_delete_obj <32-168>
+  idb_delete_obj <32-225>
+uni_end_stream

@@ -1,0 +1,156 @@
+uni_start_stream
+  man_start_object <ind_group, "KARES Staff Area">
+    mat_orientation <vlt>
+    mat_precise_width <600>
+    mat_precise_height <360>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-3386>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "">
+      mat_relative_tag <3>
+      mat_precise_width <580>
+      mat_precise_height <36>
+      mat_precise_x <10>
+      mat_precise_y <5>
+      mat_font_sis <times_roman, 24, bold>
+      mat_color_text <1, 1, 170>
+      man_append_data <"~*~*~*~* KARES Staff area ~*~*~*~*">
+      man_end_data
+      mat_orientation <hlf>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <314>
+      mat_precise_height <245>
+      mat_precise_x <9>
+      mat_precise_y <47>
+      mat_color_face <0, 0, 170>
+      mat_bool_background_flood <yes>
+      man_start_object <view, "">
+        mat_precise_width <310>
+        mat_precise_height <241>
+        mat_precise_x <11>
+        mat_precise_y <49>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_font_sis <times_roman, 10, normal>
+        mat_bool_writeable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"Brand new clean walls to write all over :))  This ">
+        man_append_data <"is a great place to check out what we were up to t">
+        man_append_data <"his week!\r\n">
+        man_end_data
+        mat_color_face <255, 255, 255>
+        mat_relative_tag <2>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <254>
+      mat_precise_height <245>
+      mat_precise_x <337>
+      mat_precise_y <47>
+      mat_color_face <0, 0, 170>
+      mat_bool_background_flood <yes>
+      man_start_object <dss_list, "">
+        mat_relative_tag <30>
+        mat_precise_width <250>
+        mat_precise_height <250>
+        mat_precise_x <339>
+        mat_precise_y <49>
+        mat_font_sis <arial, 9, normal>
+        mat_sort_order <normal>
+        man_start_object <trigger, "Backdoors to Chat Rooms">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U1", 0-22-5800>
+              >
+            mat_art_id <1-0-1477>
+          man_start_sibling <trigger, "KARES Playground">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U1", 0-22-4900>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "KARES Staff Boards">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"^8", 0-0-17214>
+                  >
+                mat_art_id <1-0-1483>
+              man_start_sibling <trigger, "KARES Staff Private Library">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"eB", 0-0-14914>
+                    >
+                  mat_art_id <1-0-1482>
+                man_end_object
+              man_end_object
+            man_start_sibling <trigger, "">
+              mat_relative_tag <56>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U1", 0-22-4574>
+                  >
+                mat_font_sis <small_fonts, 7, normal>
+                mat_precise_x <2>
+                mat_precise_y <302>
+                mat_art_id <1-0-10708>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <ornament, "GO TO KARES Area\r">
+                mat_relative_tag <57>
+                mat_precise_width <120>
+                mat_precise_height <30>
+                mat_precise_x <72>
+                mat_precise_y <315>
+                mat_font_sis <arial, 9, normal>
+                mat_orientation <hlf>
+              man_start_sibling <trigger, "">
+                mat_relative_tag <58>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U1", 0-22-5090>
+                    >
+                  mat_font_sis <small_fonts, 7, normal>
+                  mat_precise_x <200>
+                  mat_precise_y <302>
+                  mat_art_id <1-0-1813>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <ornament, "KARES Staff Rainman Play areas">
+                  mat_relative_tag <59>
+                  mat_precise_width <120>
+                  mat_precise_height <30>
+                  mat_precise_x <270>
+                  mat_precise_y <315>
+                  mat_font_sis <arial, 9, normal>
+                  mat_orientation <hlf>
+                man_start_sibling <trigger, "">
+                  mat_relative_tag <60>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U1", 0-22-7482>
+                      >
+                    mat_font_sis <small_fonts, 7, normal>
+                    mat_precise_x <398>
+                    mat_precise_y <302>
+                    mat_art_id <1-0-1305>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <ornament, "DOES NOTHING!!!\r">
+                    mat_relative_tag <61>
+                    mat_precise_width <120>
+                    mat_precise_height <30>
+                    mat_precise_x <468>
+                    mat_precise_y <315>
+                    mat_font_sis <arial, 9, normal>
+                    mat_orientation <hlf>
+                  man_end_object
+                  man_update_display
+                man_update_woff_end_stream

@@ -1,0 +1,46 @@
+uni_start_stream
+  hfs_attr_flags <update_display>
+  man_start_object <ind_group, "10/17 - Member Password Changes (Special Cases)  (P047)">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_color_face <208, 208, 208>
+    mat_bool_background_flood <yes>
+    act_set_criterion <11>
+    act_replace_action
+        <
+        uni_start_stream
+        uni_end_stream
+        >
+      man_start_object <ornament, "">
+        mat_relative_tag <3>
+        mat_width <38>
+        mat_height <2>
+        man_append_data <"Member Password Changes (Special Cases)\r">
+        man_end_data
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        mat_bool_writeable <yes>
+        mat_width <62>
+        mat_height <14>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"The procedure for changing a password for an accou">
+        man_append_data <"nt for which a member has called another site wher">
+        man_append_data <"e they don't have access to change passwords, or, ">
+        man_append_data <"to help with a TTY or relay type call, rotary phon">
+        man_append_data <"e call, or an escallated call is as follows:\r\n\r\n1)">
+        man_append_data <" Verify the account info just as if you could chan">
+        man_append_data <"ge the password.\r\n\r\n2) Determine from the member t">
+        man_append_data <"he screen name for which the password needs changi">
+        man_append_data <"ng & the password the member wants.  \r\n\r\n3) Inform">
+        man_append_data <" the member that it will take about 10-15 minutes ">
+        man_append_data <"to make the change and for them to try signing on ">
+        man_append_data <"then.  Advise the member to change their password ">
+        man_append_data <"at that time. \r\n\r\n4) Give the information to the c">
+        man_append_data <"ontrol desk  who will have a supervisor coordinate">
+        man_append_data <" with the MSR section to get the password(s) chang">
+        man_append_data <"ed.\r\n\r\n\r\n\r\n\r\n\r\nTransmitted: 10/17/95 11:29 (P047)">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    hfs_attr_end_object
+  man_update_woff_end_stream

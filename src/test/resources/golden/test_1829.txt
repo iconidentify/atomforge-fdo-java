@@ -1,0 +1,199 @@
+uni_start_stream
+  man_start_object <ind_group, "WaterWorld - Entertainment">
+    mat_orientation <vff>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-3395>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_m_send_token_arg <"t1", 0-1-43096>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_art_id <1-0-4349>
+          mat_trigger_style <picture>
+          mat_bool_default <yes>
+        man_start_sibling <ornament, "">
+          mat_width <1>
+          mat_height <1>
+          mat_font_sis <arial, 9, normal>
+          mat_orientation <hlf>
+        man_start_sibling <dss_list, "">
+          mat_bool_default_send <no>
+          mat_width <18>
+          mat_height <11>
+          mat_font_sis <arial, 9, normal>
+          mat_frame_style <single_line_pop_out>
+          mat_bool_list_icons <yes>
+          mat_sort_order <normal>
+          man_start_object <trigger, "AEN">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_k1 <17-148>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Eugene's Test Area">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_k1 <3-8231>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Cyberjustice">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_k1 <17-19106>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Movie Reviews">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_send_k1 <3-8233>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "NBC/ASAP Sports">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_f1 <40-15672>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "The SciFi Channel">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_m_send_token_arg <"Ca", 0-65-118>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Jon Stewart">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_f1 <40-15798>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Nick @ Nite">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_k1 <17-2374>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "Castle Rock">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_send_k1 <17-15792>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Lisa's Test Area">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_m_send_token_arg <"Ca", 0-1-11748>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "drrowley">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_m_send_token_arg <"Ca", 0-0-95>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "Image Exchange">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_k1 <17-3920>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "CinemaPOV Top">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_m_send_token_arg <"t1", 0-46-2539>
+                                        >
+                                      mat_art_id <1-0-1478>
+                                    man_start_sibling <trigger, "SciFi/Fantasy Forum">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_k1 <17-8434>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "Comedy Forum">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_send_k1 <17-14628>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_start_sibling <trigger, "Critics' Choice">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_send_k1 <19-13397>
+                                              >
+                                            mat_art_id <1-0-1479>
+                                          man_start_sibling <trigger, "The Improv">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_k1 <17-19268>
+                                                >
+                                              mat_art_id <1-0-1479>
+                                            man_end_object
+                                          man_end_object
+                                        man_start_sibling <org_group, "">
+                                          mat_orientation <hff>
+                                          man_start_object <trigger, "Producer's\rLounge">
+                                            mat_title_pos <below | center>
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_k1 <19-11731>
+                                                >
+                                              mat_font_sis <small_fonts, 7, normal>
+                                              mat_art_id <1-0-2532>
+                                            man_start_sibling <trigger, "Art\rShop">
+                                              mat_title_pos <below | center>
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_send_f1 <40-11416>
+                                                  >
+                                                mat_font_sis <small_fonts, 7, normal>
+                                                mat_bool_resize_vertical <yes>
+                                                mat_art_id <1-0-3366>
+                                              man_start_sibling <trigger, "AOLParc">
+                                                mat_title_pos <below | center>
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                    sm_send_k1 <4-51193>
+                                                    >
+                                                  mat_font_sis <small_fonts, 7, normal>
+                                                  mat_bool_resize_vertical <yes>
+                                                  mat_art_id <1-0-2633>
+                                                man_start_sibling <trigger, "Skunk\rWorks">
+                                                  mat_title_pos <below | center>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                      sm_send_k1 <2-60951>
+                                                      >
+                                                    mat_font_sis <small_fonts, 7, normal>
+                                                    mat_art_id <1-0-5613>
+                                                  man_end_object
+                                                man_end_object
+                                                man_update_display
+                                              man_update_woff_end_stream

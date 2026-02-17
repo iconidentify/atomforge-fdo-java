@@ -1,0 +1,251 @@
+uni_start_stream
+  man_start_object <ind_group, "International">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-28257>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <540>
+      mat_precise_height <40>
+      mat_precise_x <0>
+      mat_precise_y <258>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <540>
+        mat_precise_height <40>
+        mat_precise_x <2>
+        mat_precise_y <1>
+        mat_art_id <1-0-16518>
+        mat_bool_background_tile <yes>
+        man_start_object <ornament, "AOL International Legal">
+          mat_precise_width <365>
+          mat_precise_height <31>
+          mat_precise_x <72>
+          mat_precise_y <5>
+          mat_font_sis <arial, 18, bold>
+          mat_color_text <72, 0, 170>
+          mat_color_text_shadow <255, 255, 255>
+          mat_orientation <hcf>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <40>
+      mat_precise_height <370>
+      mat_precise_x <462>
+      mat_precise_y <0>
+      mat_art_id <1-0-16518>
+      mat_bool_background_tile <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <40>
+        mat_precise_height <370>
+        mat_precise_x <2>
+        mat_precise_y <0>
+        mat_art_id <1-0-16518>
+        mat_bool_background_tile <yes>
+      man_end_object
+    man_start_sibling <ornament, "yo">
+      mat_precise_width <418>
+      mat_precise_height <2>
+      mat_precise_x <41>
+      mat_precise_y <256>
+      mat_color_face <255, 255, 255>
+      mat_font_sis <arial, 9, normal>
+      mat_color_text <255, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "yo">
+      mat_precise_width <418>
+      mat_precise_height <2>
+      mat_precise_x <42>
+      mat_precise_y <40>
+      mat_color_face <255, 255, 255>
+      mat_font_sis <arial, 9, normal>
+      mat_color_text <255, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "yo">
+      mat_precise_width <2>
+      mat_precise_height <219>
+      mat_precise_x <460>
+      mat_precise_y <39>
+      mat_color_face <255, 255, 255>
+      mat_font_sis <arial, 9, normal>
+      mat_color_text <255, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <ornament, "yo">
+      mat_precise_width <2>
+      mat_precise_height <219>
+      mat_precise_x <40>
+      mat_precise_y <38>
+      mat_color_face <255, 255, 255>
+      mat_font_sis <arial, 9, normal>
+      mat_color_text <255, 255, 255>
+      mat_orientation <hlf>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_send_token_arg <"U1", 209-8631>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_x <378>
+      mat_precise_y <152>
+      mat_art_id <1-0-11334>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_send_token_arg <"U1", 209-8681>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_x <270>
+      mat_precise_y <154>
+      mat_art_id <1-0-11333>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U1", 209-38>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_x <377>
+      mat_precise_y <46>
+      mat_art_id <1-0-11328>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <trigger, "">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          sm_send_token_arg <"U1", 209-7697>
+        uni_end_stream
+        >
+      mat_font_sis <small_fonts, 7, normal>
+      mat_precise_x <275>
+      mat_precise_y <50>
+      mat_art_id <1-0-28254>
+      mat_trigger_style <plain_picture>
+    man_start_sibling <ornament, "What We \rDo">
+      mat_precise_width <111>
+      mat_precise_height <34>
+      mat_precise_x <239>
+      mat_precise_y <109>
+      mat_font_sis <script, 10, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "How To Find\rEach Other\r ">
+      mat_precise_width <111>
+      mat_precise_height <34>
+      mat_precise_x <349>
+      mat_precise_y <108>
+      mat_font_sis <script, 10, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Cool \rReading\r">
+      mat_precise_width <111>
+      mat_precise_height <34>
+      mat_precise_x <240>
+      mat_precise_y <217>
+      mat_font_sis <script, 10, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_start_sibling <ornament, "Need Help?\rCLICK HERE">
+      mat_precise_width <111>
+      mat_precise_height <34>
+      mat_precise_x <349>
+      mat_precise_y <219>
+      mat_font_sis <script, 10, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_orientation <hcf>
+    man_start_sibling <dss_list, "AOL International Services:">
+      act_replace_select_action
+          <
+          uni_start_stream
+          sm_send_token_arg <"U1", 209-238>
+        uni_end_stream
+        >
+      mat_precise_width <170>
+      mat_precise_height <172>
+      mat_precise_x <53>
+      mat_precise_y <62>
+      mat_title_pos <above | top_or_left>
+      mat_font_sis <system, 10, bold>
+      mat_color_text <72, 0, 170>
+      mat_color_text_shadow <255, 255, 255>
+      mat_bool_list_icons <yes>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Australia">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-22693>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21221>
+      man_start_sibling <trigger, "Canada">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-22993>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21215>
+      man_start_sibling <trigger, "France">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-33700>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21218>
+      man_start_sibling <trigger, "Germany">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-33792>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21216>
+      man_start_sibling <trigger, "Japan">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-23661>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21220>
+      man_start_sibling <trigger, "UK">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-24104>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21219>
+      man_start_sibling <trigger, "US">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <43-10289>
+          uni_end_stream
+          >
+        mat_art_id <1-0-21223>
+      man_end_object
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

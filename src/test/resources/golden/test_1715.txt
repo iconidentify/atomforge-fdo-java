@@ -1,0 +1,123 @@
+uni_start_stream
+  man_start_object <ind_group, "Phone List I">
+    mat_orientation <vff>
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hlf>
+        man_start_object <ornament, "">
+          mat_relative_tag <120>
+          mat_art_id <1-0-23737>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <3>
+          mat_width <29>
+          mat_height <1>
+          mat_font_sis <arial, 18, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <63>
+          mat_height <10>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "INABNIT, LEE - 904-357-7327 - InabnitL">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-60-7837>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "INCH, ALEXIS - 703-265-3866 - Alexis101">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-60-7838>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "INGRAM, RHEA - 703-265-2837 - Rvingram">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-60-7839>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "IRAIA, TONY - 703-265-5784 - IRAIA97">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-60-7841>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "IRELAND, STEVE - 703-918-1018 - Ssireland">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-60-7842>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "ISRAEL, ROBERT - 703-265-4662 - RGIsrael">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-60-7844>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "ISSA, HALIMA - 703-265-4965 - HAIssa">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-60-7847>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "ITSCHNER, SETH - 703-265-0911 - seth@aol.net">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-60-7848>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "ITSCHNER, SHAD - 520-733-7538 - SItschner">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-60-7849>
+                                >
+                              mat_art_id <1-0-1478>
+                            man_start_sibling <trigger, "IVEY, BILLIE - 405-440-6603 - BJIvey">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-60-7851>
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_end_object
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <hef>
+                            man_start_object <trigger, "Open">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream <00x>
+                                  sm_do_list_action <30>
+                                  >
+                                mat_font_sis <system, 12, normal>
+                                mat_bool_default <yes>
+                              man_start_sibling <trigger, "More">
+                                mat_bool_disabled <yes>
+                                mat_relative_tag <26>
+                                mat_font_sis <system, 12, normal>
+                              man_end_object
+                            man_end_object
+                          man_end_object
+                          man_update_display
+                        man_update_woff_end_stream

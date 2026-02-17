@@ -1,0 +1,323 @@
+uni_start_stream
+  man_start_object <ind_group, "MARKETING OPERATIONS (MOPS)">
+    mat_orientation <vff>
+    mat_precise_width <553>
+    mat_precise_height <308>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-54467>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <557>
+      mat_precise_height <107>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      man_start_object <ornament, "Marketing\r OPerationS">
+        mat_relative_tag <3>
+        mat_precise_width <501>
+        mat_precise_height <69>
+        mat_precise_x <16>
+        mat_precise_y <6>
+        mat_frame_style <single_line_pop_out>
+        mat_font_sis <times_roman, 24, normal>
+        mat_color_text <255, 255, 0>
+        mat_orientation <hcf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <546>
+      mat_precise_height <99>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      man_start_object <dss_list, "">
+        mat_precise_width <329>
+        mat_precise_height <66>
+        mat_precise_x <8>
+        mat_precise_y <101>
+        mat_bool_resize_vertical <no>
+        mat_bool_resize_horizontal <no>
+        mat_color_face <0, 0, 85>
+        mat_bool_background_flood <yes>
+        mat_font_sis <ms_sans_serif, 7, bold>
+        mat_color_text <255, 255, 0>
+        mat_color_text_shadow <218, 255, 85>
+        mat_color_frame_hilight <1, 0, 0>
+        mat_color_frame_shadow <1, 0, 0>
+        mat_frame_style <single_line_pop_out>
+        mat_bool_no_border <yes>
+        mat_sort_order <normal>
+        man_start_object <trigger, "General Utilities Software Library">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"eB", 26161>
+            uni_end_stream
+            >
+          mat_art_id <1-0-1482>
+        man_start_sibling <trigger, "Office Supply Request Form">
+          act_replace_select_action
+              <
+              uni_start_stream
+                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                buf_clear_buffer
+                buf_set_token <"ur">
+                buf_add_atom_pointer <"aol://4401:26161:2135253">
+                buf_close_buffer
+              uni_end_stream
+              >
+            mat_art_id <1-0-1478>
+          man_start_sibling <trigger, "Non-Exempt Time Sheet">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_clear_buffer
+                  buf_set_token <"ur">
+                  buf_add_atom_pointer <"aol://4344:1043.f05_011.2370338.534113791">
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "Your Comment Counts!!">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <43-6434>
+                uni_end_stream
+                >
+              mat_art_id <1-0-1477>
+            man_start_sibling <trigger, "Leave Request Form">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://4401:26161:2348024">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_art_id <1-0-1478>
+              man_end_object
+            man_start_sibling <ornament, "Keyword: MOPS">
+              mat_precise_width <115>
+              mat_precise_height <17>
+              mat_precise_x <438>
+              mat_precise_y <289>
+              mat_frame_style <pop_in>
+              mat_color_face <0, 72, 85>
+              mat_bool_background_flood <yes>
+              mat_font_sis <system, 9, normal>
+              mat_color_text <255, 255, 0>
+              mat_color_text_shadow <72, 72, 170>
+              mat_orientation <hlf>
+            man_end_object
+          man_start_sibling <trigger, " \rMedia">
+            mat_relative_tag <6>
+            mat_context_help <"Media Area">
+            mat_title_pos <below | center>
+            mat_title_width <9>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <43-11252>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_color_text <255, 255, 0>
+            mat_precise_width <58>
+            mat_precise_height <58>
+            mat_precise_x <5>
+            mat_precise_y <193>
+            mat_art_id <1-0-61345>
+            mat_trigger_style <plain_picture>
+            mat_bool_gradual_shadow <yes>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "\rProduct\rFulfillment">
+            mat_relative_tag <7>
+            mat_context_help <"Product Fulfillment Area">
+            mat_title_pos <below | center>
+            mat_title_width <10>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <43-6534>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_color_text <255, 255, 0>
+            mat_precise_width <58>
+            mat_precise_height <58>
+            mat_precise_x <92>
+            mat_precise_y <193>
+            mat_art_id <1-0-13649>
+            mat_trigger_style <plain_picture>
+            mat_bool_gradual_shadow <yes>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "\rAcquisition\r Mail">
+            mat_relative_tag <8>
+            mat_context_help <"Acquisition Mail Area">
+            mat_title_pos <below | center>
+            mat_title_width <10>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <43-11258>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_color_text <255, 255, 0>
+            mat_precise_width <57>
+            mat_precise_height <56>
+            mat_precise_x <183>
+            mat_precise_y <193>
+            mat_art_id <1-0-9215>
+            mat_trigger_style <plain_picture>
+            mat_bool_gradual_shadow <yes>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "\rHouse Mail">
+            mat_relative_tag <9>
+            mat_context_help <"House Mail Area">
+            mat_title_pos <below | center>
+            mat_title_width <9>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <43-11256>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_color_text <255, 255, 0>
+            mat_precise_width <58>
+            mat_precise_height <58>
+            mat_precise_x <270>
+            mat_precise_y <193>
+            mat_art_id <1-0-35994>
+            mat_trigger_style <plain_picture>
+            mat_bool_gradual_shadow <yes>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "\rPartner,Print &\r    Alt. Media">
+            mat_relative_tag <10>
+            mat_context_help <"Partner, Print &\r Alt.Media Area">
+            mat_title_pos <below | center>
+            mat_title_width <9>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <43-8575>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_color_text <255, 255, 0>
+            mat_precise_width <58>
+            mat_precise_height <58>
+            mat_precise_x <353>
+            mat_precise_y <193>
+            mat_art_id <1-0-61344>
+            mat_trigger_style <plain_picture>
+            mat_bool_gradual_shadow <yes>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "\rTelemarketing">
+            mat_relative_tag <11>
+            mat_context_help <"Telemarketing Area">
+            mat_title_pos <below | center>
+            mat_title_width <12>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <43-8380>
+              uni_end_stream
+              >
+            mat_font_sis <small_fonts, 7, bold>
+            mat_color_text <255, 255, 0>
+            mat_precise_width <58>
+            mat_precise_height <58>
+            mat_precise_x <437>
+            mat_precise_y <193>
+            mat_art_id <1-0-42245>
+            mat_trigger_style <plain_picture>
+            mat_bool_gradual_shadow <yes>
+            mat_bool_default <yes>
+          man_start_sibling <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream
+                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_clear_buffer
+                  buf_set_token <"ur">
+                  buf_add_atom_pointer <"aol://1722:ABCErase">
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_font_sis <system, 12, normal>
+              mat_precise_x <36>
+              mat_precise_y <283>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "Please read">
+              mat_relative_tag <12>
+              mat_context_help <"Please be sure to read this\r ">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <43-10194>
+                uni_end_stream
+                >
+              mat_font_sis <ms_sans_serif, 12, bold>
+              mat_color_text <153, 255, 0>
+              mat_precise_width <110>
+              mat_precise_height <30>
+              mat_precise_x <434>
+              mat_precise_y <112>
+              mat_trigger_style <rectangle>
+              mat_bool_gradual_shadow <yes>
+              mat_color_face <51, 51, 153>
+            man_start_sibling <trigger, "">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_send_f1 <43-26299>
+                uni_end_stream
+                >
+              mat_font_sis <system, 12, normal>
+              mat_precise_x <359>
+              mat_precise_y <115>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://1391:43-28273">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_font_sis <system, 12, normal>
+                mat_precise_x <0>
+                mat_precise_y <21>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <trigger, "Current AOL System Status">
+                mat_relative_tag <13>
+                mat_context_help <"Click here to view current\r AOL system Status">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_send_token_arg <"t1", 1-9727>
+                  uni_end_stream
+                  >
+                mat_font_sis <ms_sans_serif, 7, bold>
+                mat_color_text <255, 0, 0>
+                mat_precise_width <169>
+                mat_precise_height <29>
+                mat_precise_x <372>
+                mat_precise_y <152>
+                mat_trigger_style <rectangle>
+                mat_bool_gradual_shadow <yes>
+                mat_color_face <255, 255, 255>
+              man_end_object
+              man_update_display
+            man_update_woff_end_stream

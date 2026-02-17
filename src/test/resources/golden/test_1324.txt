@@ -1,0 +1,272 @@
+uni_start_stream
+  uni_wait_off
+  man_preset_gid <32-4625>
+  if_last_return_false_then <210, 211>
+  man_start_object <ind_group, "">
+    if_online_then <1>
+    var_number_set <A, 1>
+    var_number_save <A, 41>
+    uni_sync_skip <1>
+    act_set_criterion <10>
+    act_replace_action
+        <
+        uni_start_stream
+          var_number_set <A, 1>
+          var_number_save <A, 41>
+          act_do_action <140>
+        uni_end_stream
+        >
+      act_set_criterion <11>
+      act_replace_action
+          <
+          uni_start_stream
+            var_number_set <A, 0>
+            var_number_save <A, 41>
+            act_do_action <140>
+          uni_end_stream
+          >
+        act_set_criterion <140>
+        act_replace_action
+            <
+            uni_start_stream
+              var_lookup_by_id <A, 41>
+              man_set_context_relative <1>
+              morg_view_has_mult_selections
+              var_number_set_from_atom <B>
+              morg_obj_count_children
+              if_last_return_false_then <1, 2>
+              man_set_context_relative <2>
+              mat_bool_disabled <yes>
+              man_change_context_relative <3>
+              mat_bool_disabled <yes>
+              man_change_context_relative <4>
+              mat_bool_disabled <yes>
+              man_change_context_relative <5>
+              mat_bool_disabled <yes>
+              man_end_context
+              uni_sync_skip <1>
+              man_set_context_relative <2>
+              mat_bool_disabled <yes>
+              man_change_context_relative <4>
+              mat_bool_disabled <yes>
+              man_change_context_relative <5>
+              mat_bool_disabled <yes>
+              man_end_context
+              if_numb_false_then <17>
+              if_numa_true_then <17>
+              man_set_context_relative <2>
+              mat_bool_disabled <no>
+              man_end_context
+              uni_sync_skip <17>
+              man_set_context_relative <3>
+              mat_bool_disabled <no>
+              man_end_context
+              if_numb_false_then <18>
+              man_set_context_relative <4>
+              mat_bool_disabled <no>
+              man_change_context_relative <5>
+              mat_bool_disabled <no>
+              man_end_context
+              uni_sync_skip <18>
+              uni_sync_skip <2>
+              man_end_context
+              man_update_display
+            uni_end_stream
+            >
+          uni_next_atom_typed <latin1>
+          mat_title <"Active Unit Beta">
+          mat_bool_background_flood <yes>
+          mat_color_face <255, 255, 255>
+          man_start_object <org_group, "">
+            mat_orientation <vef>
+            man_start_object <view, "">
+              mat_relative_tag <1>
+              mat_managed_by <70>
+              mat_width <63>
+              mat_height <9>
+              mat_font_sis <arial, 9, normal>
+              uni_next_atom_typed <latin1>
+              morg_view_path <"Main Area Right\\Primary Gamma Thing">
+              var_number_set_from_atom <A>
+              morg_view_highlight_full_line <yes>
+              var_number_set_from_atom <A>
+              act_set_criterion <129>
+              act_replace_action
+                  <
+                  uni_start_stream
+                    man_close_update
+                  uni_end_stream
+                  >
+                act_set_criterion <128>
+                act_replace_action
+                    <
+                    uni_start_stream
+                      act_do_action <140>
+                    uni_end_stream
+                    >
+                  act_set_criterion <130>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        act_do_action <140>
+                      uni_end_stream
+                      >
+                  man_end_object
+                  man_start_object <ornament, "">
+                    mat_height <1>
+                    mat_width <64>
+                  man_end_object
+                  man_start_object <org_group, "">
+                    mat_orientation <hft>
+                    man_start_object <trigger, "">
+                      mat_art_id <1-2-9196>
+                      uni_next_atom_typed <latin1>
+                      mat_title <"Third South\x7fPrevious Sigma">
+                      mat_relative_tag <2>
+                      mat_trigger_style <9>
+                      mat_bool_draw_focus <yes>
+                      mat_font_sis <arial, 8, normal>
+                      mat_precise_width <38>
+                      mat_precise_height <38>
+                      act_set_criterion <select>
+                      act_append_action
+                        <
+                        uni_start_stream
+                          uni_wait_on
+                          man_set_context_relative <1>
+                          xfer_show_file_description
+                          man_end_context
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_start_object <trigger, "">
+                      mat_art_id <1-2-9189>
+                      uni_next_atom_typed <latin1>
+                      mat_title <"Main East\x7fCurrent Screen">
+                      mat_relative_tag <4>
+                      mat_trigger_style <9>
+                      mat_bool_draw_focus <yes>
+                      mat_font_sis <arial, 8, normal>
+                      mat_precise_width <38>
+                      mat_precise_height <38>
+                      act_set_criterion <select>
+                      act_append_action
+                        <
+                        uni_start_stream
+                          man_set_context_relative <1>
+                          xfer_show_file_status
+                          man_end_context
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_start_object <trigger, "">
+                      mat_art_id <1-2-9188>
+                      uni_next_atom_typed <latin1>
+                      mat_title <"Old Back">
+                      mat_relative_tag <5>
+                      mat_trigger_style <9>
+                      mat_bool_draw_focus <yes>
+                      mat_font_sis <arial, 8, normal>
+                      mat_precise_width <38>
+                      mat_precise_height <38>
+                      act_set_criterion <select>
+                      act_append_action
+                        <
+                        uni_start_stream
+                          man_set_context_relative <1>
+                          xfer_decompress_file
+                          man_end_context
+                        uni_end_stream
+                        >
+                    man_end_object
+                    man_start_object <trigger, "">
+                      mat_art_id <1-2-9193>
+                      uni_next_atom_typed <latin1>
+                      mat_title <"Current View\x7fFourth Bottom">
+                      mat_relative_tag <3>
+                      mat_trigger_style <9>
+                      mat_bool_draw_focus <yes>
+                      mat_font_sis <arial, 8, normal>
+                      mat_precise_width <38>
+                      mat_precise_height <38>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            man_set_context_relative <1>
+                            morg_delete_current_object
+                            man_end_context
+                          uni_end_stream
+                          >
+                      man_end_object
+                      man_start_object <trigger, "">
+                        mat_art_id <1-2-9187>
+                        uni_next_atom_typed <latin1>
+                        mat_title <"Standard Gadget\x7fActive Front">
+                        mat_relative_tag <6>
+                        mat_trigger_style <9>
+                        mat_bool_draw_focus <yes>
+                        mat_font_sis <arial, 8, normal>
+                        mat_precise_width <38>
+                        mat_precise_height <38>
+                        act_set_criterion <select>
+                        act_append_action
+                          <
+                          uni_start_stream
+                            sm_enter_paid
+                            xfer_invoke_dl_manager
+                          uni_end_stream
+                          >
+                      man_end_object
+                      man_start_object <trigger, "">
+                        mat_art_id <1-2-9191>
+                        uni_next_atom_typed <latin1>
+                        mat_title <"First Left\x7fStandard Block">
+                        mat_relative_tag <8>
+                        mat_trigger_style <9>
+                        mat_bool_draw_focus <yes>
+                        mat_font_sis <arial, 8, normal>
+                        mat_precise_width <38>
+                        mat_precise_height <38>
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                              man_preset_gid <32-280>
+                              if_last_return_true_then <1, 2>
+                              man_make_focus
+                              man_update_display
+                              uni_sync_skip <1>
+                              uni_invoke_no_context <32-280>
+                              uni_sync_skip <2>
+                            uni_wait_off_end_stream
+                            >
+                        man_end_object
+                        man_start_object <trigger, "">
+                          mat_art_id <1-2-9190>
+                          uni_next_atom_typed <latin1>
+                          mat_title <"Second Box">
+                          mat_relative_tag <7>
+                          mat_trigger_style <9>
+                          mat_bool_draw_focus <yes>
+                          mat_font_sis <arial, 8, normal>
+                          mat_precise_width <38>
+                          mat_precise_height <38>
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                                uni_next_atom_typed <latin1>
+                                async_exec_context_help <48x, 65x, 72x, 75x, 6ex, 74x, 65x, 72x, 6cx, 61x, 64x, 65x, 6ex>
+                              uni_wait_off_end_stream
+                              >
+                          man_end_object
+                        man_end_object
+                      man_end_object
+                      man_update_display
+                      man_set_context_relative <1>
+                      act_do_action <128>
+                      man_end_context
+                    man_end_object
+                    uni_sync_skip <210>
+                    man_make_focus
+                    man_update_display
+                    uni_sync_skip <211>
+                  uni_end_stream

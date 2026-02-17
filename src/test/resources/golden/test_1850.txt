@@ -1,0 +1,319 @@
+uni_start_stream
+  man_start_object <ind_group, "Production Hints & Tips">
+    mat_orientation <vff>
+    mat_precise_width <500>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-15900>
+    mat_bool_background_pic <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <9>
+      mat_precise_y <158>
+      mat_art_id <1-0-15896>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_precise_width <45>
+      mat_precise_height <44>
+      mat_precise_x <100>
+      mat_precise_y <134>
+      mat_art_id <1-0-15897>
+      mat_bool_background_pic <yes>
+      man_start_object <trigger, "">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            sm_send_f1 <40-17546>
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_precise_width <45>
+          mat_precise_height <44>
+          mat_precise_x <100>
+          mat_precise_y <134>
+          mat_trigger_style <plain_picture>
+        man_end_object
+      man_start_sibling <ornament, "">
+        mat_precise_x <86>
+        mat_precise_y <250>
+        mat_art_id <1-0-15898>
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_precise_width <45>
+        mat_precise_height <44>
+        mat_precise_x <32>
+        mat_precise_y <238>
+        mat_art_id <1-0-15897>
+        mat_bool_background_pic <yes>
+        man_start_object <trigger, "">
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_send_k1 <17-40864>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_precise_width <45>
+            mat_precise_height <44>
+            mat_precise_x <32>
+            mat_precise_y <238>
+            mat_trigger_style <plain_picture>
+          man_end_object
+        man_start_sibling <ornament, "">
+          mat_precise_x <81>
+          mat_precise_y <76>
+          mat_art_id <1-0-15899>
+        man_start_sibling <org_group, "">
+          mat_orientation <hff>
+          mat_precise_width <45>
+          mat_precise_height <44>
+          mat_precise_x <19>
+          mat_precise_y <78>
+          mat_art_id <1-0-15897>
+          mat_bool_background_pic <yes>
+          man_start_object <trigger, "">
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_send_f1 <40-21555>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_precise_width <45>
+              mat_precise_height <44>
+              mat_precise_x <19>
+              mat_precise_y <78>
+              mat_trigger_style <plain_picture>
+            man_end_object
+          man_start_sibling <dss_list, "">
+            mat_precise_width <189>
+            mat_precise_height <172>
+            mat_precise_x <170>
+            mat_precise_y <81>
+            mat_bool_resize_vertical <no>
+            mat_bool_resize_horizontal <no>
+            mat_color_face <20, 30, 150>
+            mat_font_sis <times_roman, 9, bold>
+            mat_color_text <150, 150, 240>
+            mat_bool_no_border <yes>
+            mat_sort_order <normal>
+            man_start_object <trigger, "Test Collection">
+              act_replace_select_action
+                  <
+                  uni_start_stream_wait_on <00x>
+                  sm_m_send_token_arg <"t1", 0-42-825>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Test Areas">
+                act_replace_select_action
+                    <
+                    uni_start_stream_wait_on <00x>
+                    sm_m_send_token_arg <"t1", 0-42-4159>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Testing Technologies">
+                  act_replace_select_action
+                      <
+                      uni_start_stream_wait_on <00x>
+                      sm_m_send_token_arg <"t1", 0-42-4164>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "ARC">
+                    act_replace_select_action
+                        <
+                        uni_start_stream_wait_on <00x>
+                        sm_send_k1 <19-63091>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Tekleader">
+                      act_replace_select_action
+                          <
+                          uni_start_stream_wait_on <00x>
+                          sm_send_k1 <17-3280>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Devtest">
+                        act_replace_select_action
+                            <
+                            uni_start_stream_wait_on <00x>
+                            sm_send_k1 <17-18688>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Keyword Manager">
+                          act_replace_select_action
+                              <
+                              uni_start_stream_wait_on <00x>
+                              sm_send_k1 <17-46759>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "FDM Manager">
+                            act_replace_select_action
+                                <
+                                uni_start_stream_wait_on <00x>
+                                sm_send_f1 <40-18158>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Software Libraries">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <40-17227>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Interactive Rainman">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream_wait_on <00x>
+                                    sm_send_f1 <40-14601>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_start_sibling <trigger, "EOI">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream_wait_on <00x>
+                                      sm_send_f1 <40-708>
+                                      >
+                                    mat_art_id <1-0-1479>
+                                  man_start_sibling <trigger, "I Want">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream_wait_on <00x>
+                                        sm_send_f1 <43-4111>
+                                        >
+                                      mat_art_id <1-0-1479>
+                                    man_start_sibling <trigger, "Mini-Icons">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream_wait_on <00x>
+                                          sm_send_f1 <40-40527>
+                                          >
+                                        mat_art_id <1-0-1479>
+                                      man_start_sibling <trigger, "PLusgroup Request">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream_wait_on <00x>
+                                            sm_send_f1 <40-54227>
+                                            >
+                                          mat_art_id <1-0-1479>
+                                        man_start_sibling <trigger, "Max Form Sizes">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream_wait_on <00x>
+                                              sm_send_k1 <3-330>
+                                              >
+                                            mat_art_id <1-0-1479>
+                                          man_start_sibling <trigger, "Trax">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream_wait_on <00x>
+                                                sm_send_k1 <17-21288>
+                                                >
+                                              mat_art_id <1-0-1479>
+                                            man_start_sibling <trigger, "Rainman">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream_wait_on <00x>
+                                                  sm_send_k1 <19-61556>
+                                                  >
+                                                mat_art_id <1-0-1479>
+                                              man_start_sibling <trigger, "The Guild">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream_wait_on <00x>
+                                                    sm_send_f1 <43-1083>
+                                                    >
+                                                  mat_art_id <1-0-1479>
+                                                man_start_sibling <trigger, "Viewrules">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream_wait_on <00x>
+                                                      sm_m_send_token_arg <"t1", 0-13-7071>
+                                                      >
+                                                    mat_art_id <1-0-1479>
+                                                  man_start_sibling <trigger, "Mapping Fields">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream_wait_on <00x>
+                                                        sm_m_send_token_arg <"t1", 0-13-11552>
+                                                        >
+                                                      mat_art_id <1-0-1479>
+                                                    man_start_sibling <trigger, "Phone Search">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream_wait_on <00x>
+                                                          sm_send_k1 <17-44754>
+                                                          >
+                                                        mat_art_id <1-0-1479>
+                                                      man_start_sibling <trigger, "RM Forms">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream_wait_on <00x>
+                                                            sm_send_k1 <19-44128>
+                                                            >
+                                                          mat_art_id <1-0-1479>
+                                                        man_end_object
+                                                      man_start_sibling <trigger, "">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream_wait_on <00x>
+                                                            sm_send_f1 <40-14601>
+                                                            >
+                                                          mat_font_sis <small_fonts, 7, normal>
+                                                          mat_precise_width <21>
+                                                          mat_precise_height <22>
+                                                          mat_precise_x <465>
+                                                          mat_precise_y <120>
+                                                          mat_art_id <1-0-6840>
+                                                          mat_trigger_style <plain_picture>
+                                                        man_start_sibling <ornament, "Interact">
+                                                          mat_precise_width <57>
+                                                          mat_precise_height <16>
+                                                          mat_precise_x <405>
+                                                          mat_precise_y <124>
+                                                          mat_orientation <hcf>
+                                                          mat_font_sis <arial, 9, normal>
+                                                          mat_color_text <109, 109, 255>
+                                                        man_start_sibling <trigger, "">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream_wait_on <00x>
+                                                              sm_m_send_token_arg <"t1", 0-13-10025>
+                                                              >
+                                                            mat_font_sis <small_fonts, 7, normal>
+                                                            mat_precise_width <21>
+                                                            mat_precise_height <22>
+                                                            mat_precise_x <465>
+                                                            mat_precise_y <152>
+                                                            mat_art_id <1-0-6840>
+                                                            mat_trigger_style <plain_picture>
+                                                          man_start_sibling <ornament, "Rainman">
+                                                            mat_precise_width <57>
+                                                            mat_precise_height <16>
+                                                            mat_precise_x <406>
+                                                            mat_precise_y <156>
+                                                            mat_orientation <hcf>
+                                                            mat_font_sis <arial, 9, normal>
+                                                            mat_color_text <109, 109, 255>
+                                                          man_start_sibling <trigger, "">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream_wait_on <00x>
+                                                                sm_send_f1 <40-708>
+                                                                >
+                                                              mat_font_sis <small_fonts, 7, normal>
+                                                              mat_precise_width <21>
+                                                              mat_precise_height <22>
+                                                              mat_precise_x <465>
+                                                              mat_precise_y <186>
+                                                              mat_art_id <1-0-6840>
+                                                              mat_trigger_style <plain_picture>
+                                                            man_start_sibling <ornament, "EOI">
+                                                              mat_precise_width <57>
+                                                              mat_precise_height <16>
+                                                              mat_precise_x <406>
+                                                              mat_precise_y <189>
+                                                              mat_orientation <hcf>
+                                                              mat_font_sis <arial, 9, normal>
+                                                              mat_color_text <109, 109, 255>
+                                                            man_end_object
+                                                            man_update_display
+                                                          man_update_woff_end_stream

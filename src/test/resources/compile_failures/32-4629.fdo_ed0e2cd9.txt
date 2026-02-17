@@ -1,0 +1,1137 @@
+uni_start_stream <00x>
+  man_set_context_globalid <53>
+  man_start_object <ind_group, "Write Email">
+    mat_style_id <32-7697>
+    mat_orientation <hff>
+    mat_dirty_query <yes>
+    mat_color_face <255, 255, 255>
+    mat_bool_auto_closeable <no>
+    var_number_set <A, 1>
+    var_number_save <A, 101>
+    mat_dirty_query <yes>
+    act_set_criterion <111>
+    act_replace_action
+        <
+        uni_start_stream
+          man_set_context_globalid <1>
+          var_lookup_by_id <C, 16>
+          man_end_context
+          if_last_return_true_then <1, 2>
+          man_set_context_relative <17>
+          mat_bool_disabled <yes>
+          man_change_context_relative <65>
+          mat_bool_disabled <yes>
+          uni_sync_skip <1>
+          man_set_context_globalid <1>
+          var_lookup_by_id <C, 17>
+          man_end_context
+          if_last_return_true_then <6, 2>
+          uni_sync_skip <6>
+          async_is_known_subaccount
+          if_last_return_true_then <1, 3>
+          man_set_context_relative <17>
+          mat_bool_disabled <no>
+          man_change_context_relative <65>
+          mat_bool_disabled <no>
+          man_change_context_relative <85>
+          mat_bool_disabled <no>
+          uni_sync_skip <1>
+          man_set_context_relative <17>
+          mat_bool_disabled <yes>
+          man_change_context_relative <85>
+          mat_bool_disabled <yes>
+          man_change_context_relative <65>
+          mat_bool_disabled <yes>
+          man_end_context
+          uni_sync_skip <3>
+          uni_sync_skip <2>
+        uni_end_stream
+        >
+      act_set_criterion <gain_focus>
+      act_replace_action
+          <
+          uni_start_stream
+            act_do_action <111>
+          uni_end_stream
+          >
+        act_set_criterion <10>
+        act_replace_action
+            <
+            uni_start_stream
+              man_set_context_relative <19>
+              mat_bool_disabled <no>
+              man_is_rendered
+              if_last_return_true_then <1>
+              man_update_display
+              uni_sync_skip <1>
+              man_end_context
+              man_is_rendered
+              if_last_return_true_then <1>
+              man_update_display
+              uni_sync_skip <1>
+              man_end_context
+              man_set_context_relative <16>
+              mat_bool_disabled <no>
+              man_is_rendered
+              if_last_return_true_then <2>
+              man_update_display
+              uni_sync_skip <2>
+              man_end_context
+              man_set_context_relative <18>
+              mat_bool_disabled <no>
+              man_is_rendered
+              if_last_return_true_then <2>
+              man_update_display
+              uni_sync_skip <2>
+              man_end_context
+              act_do_action <111>
+            uni_end_stream
+            >
+          act_set_criterion <11>
+          act_replace_action
+              <
+              uni_start_stream
+                man_set_context_relative <19>
+                mat_bool_disabled <yes>
+                man_is_rendered
+                if_last_return_true_then <1>
+                man_update_display
+                uni_sync_skip <1>
+                man_end_context
+                man_update_display
+                man_end_context
+                man_set_context_relative <16>
+                mat_bool_disabled <yes>
+                man_is_rendered
+                if_last_return_true_then <2>
+                man_update_display
+                uni_sync_skip <2>
+                man_end_context
+                man_set_context_relative <18>
+                async_is_guest
+                if_last_return_true_then <3>
+                mat_bool_disabled <yes>
+                man_is_rendered
+                if_last_return_true_then <2>
+                man_update_display
+                uni_sync_skip <2>
+                uni_sync_skip <3>
+                man_end_context
+                act_do_action <111>
+              uni_end_stream
+              >
+            act_set_criterion <18>
+            act_replace_action
+                <
+                uni_start_stream
+                  man_set_context_relative <17>
+                  async_is_known_subaccount
+                  if_last_return_true_then <1, 2>
+                  mat_bool_disabled <no>
+                  uni_sync_skip <1>
+                  mat_bool_disabled <yes>
+                  uni_sync_skip <2>
+                  man_update_display
+                  man_end_context
+                  man_set_context_relative <18>
+                  async_is_known_subaccount
+                  if_last_return_true_then <1, 2>
+                  mat_bool_disabled <no>
+                  uni_sync_skip <1>
+                  mat_bool_disabled <yes>
+                  uni_sync_skip <2>
+                  man_update_display
+                  man_end_context
+                  act_do_action <111>
+                uni_end_stream
+                >
+              act_set_criterion <130>
+              act_replace_action
+                  <
+                  uni_start_stream
+                    de_validate <display_msg | terminate>
+                    sm_enter_paid
+                    fm_start
+                    fm_item_get <46>
+                    uni_save_result
+                    if_last_return_true_then <2>
+                    fm_dialog_end_get
+                    if_last_return_false_then <4>
+                    fm_item_get <44>
+                    uni_save_result
+                    man_set_context_relative <10>
+                    uni_get_result
+                    uni_use_last_atom_string <man_replace_data>
+                    man_end_context
+                    var_number_set <A, 0>
+                    if_numa_eq_one_then <3>
+                    uni_sync_skip <2>
+                    man_clear_relative <10>
+                    uni_sync_skip <3>
+                    mip_action_command <18x>
+                    uni_sync_skip <4>
+                    fm_end
+                  uni_end_stream
+                  >
+                act_set_criterion <131>
+                act_replace_action
+                    <
+                    uni_start_stream
+                      de_validate <display_msg | terminate>
+                      fm_start
+                      fm_item_get <46>
+                      uni_save_result
+                      if_last_return_true_then <2>
+                      fm_dialog_end_get
+                      if_last_return_false_then <4>
+                      fm_item_get <filespec>
+                      uni_save_result
+                      man_set_context_relative <10>
+                      uni_get_result
+                      uni_use_last_atom_string <man_replace_data>
+                      man_end_context
+                      var_number_set <A, 0>
+                      if_numa_eq_one_then <3>
+                      uni_sync_skip <2>
+                      man_clear_relative <10>
+                      uni_sync_skip <3>
+                      mip_action_command <06x>
+                      uni_sync_skip <4>
+                      fm_end
+                    uni_end_stream
+                    >
+                  act_set_criterion <140>
+                  act_replace_action
+                      <
+                      uni_start_stream
+                        man_clear_relative <20>
+                        man_update_display
+                      uni_end_stream
+                      >
+                    act_set_criterion <27>
+                    act_replace_action
+                        <
+                        uni_start_stream
+                          fm_start
+                          fm_dialog_cancel_get
+                          fm_end
+                        uni_end_stream
+                        >
+                      man_start_object <dss_list, "">
+                        mat_relative_tag <500>
+                        mat_bool_popup_menu <yes>
+                        man_start_object <trigger, "Insert a Picture">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                rich_drop_picture
+                              uni_end_stream
+                              >
+                          man_end_object
+                          man_start_object <trigger, "Background Picture">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  rich_drop_back_picture
+                                uni_end_stream
+                                >
+                            man_end_object
+                            man_start_object <trigger, "Insert a Text File">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    rich_drop_text_file
+                                  uni_end_stream
+                                  >
+                              man_end_object
+                            man_end_object
+                            man_start_object <dss_list, "">
+                              mat_relative_tag <501>
+                              mat_bool_popup_menu <yes>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                    man_set_context_relative <501>
+                                    man_build_favorites_menu <01x>
+                                    man_end_context
+                                  uni_end_stream
+                                  >
+                                man_start_object <ornament, "">
+                                man_end_object
+                              man_end_object
+                              man_start_object <dss_list, "">
+                                mat_relative_tag <505>
+                                mat_bool_popup_menu <yes>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      man_set_context_relative <505>
+                                      man_build_signatures_menu
+                                      man_end_context
+                                    uni_end_stream
+                                    >
+                                man_end_object
+                                mat_position <center_center>
+                                mat_bool_background_flood <yes>
+                                man_start_object <org_group, "">
+                                  mat_orientation <vff>
+                                  man_start_object <org_group, "">
+                                    mat_orientation <hff>
+                                    man_start_object <org_group, "">
+                                      mat_orientation <hff>
+                                      mat_precise_width <34>
+                                      mat_precise_height <33>
+                                      mat_bool_precise <yes>
+                                      man_start_object <ornament, "">
+                                        mat_precise_width <34>
+                                        mat_precise_height <33>
+                                        mat_orientation <hrf>
+                                        mat_font_id <arial>
+                                        mat_font_size <10>
+                                        mat_font_style <bold>
+                                        man_append_data <"Send\x7fTo:">
+                                      man_start_sibling <trigger, "">
+                                        mat_relative_tag <2>
+                                        mat_trigger_style <9>
+                                        mat_precise_height <32>
+                                        mat_precise_width <32>
+                                        async_is_known_subaccount
+                                        if_last_return_true_then <1, 2>
+                                        mat_bool_disabled <no>
+                                        uni_sync_skip <1>
+                                        async_is_guest
+                                        if_last_return_true_then <3, 4>
+                                        mat_bool_disabled <no>
+                                        uni_sync_skip <3>
+                                        mat_bool_disabled <yes>
+                                        uni_sync_skip <4>
+                                        uni_sync_skip <2>
+                                        mat_bool_draw_focus <yes>
+                                        mat_title_access <"This is the send to button.  The next field you tab into will be an edit control where you type in email recipients.">
+                                        mat_art_id <1-5-2050>
+                                        mat_bool_disabled <yes>
+                                        mat_bool_invisible <yes>
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                              uni_invoke_no_context <41-6139>
+                                            uni_end_stream
+                                            >
+                                        man_end_object
+                                      man_start_sibling <edit_view, "">
+                                        mat_size <23, 2, 14000>
+                                        mat_relative_tag <3>
+                                        mat_frame_style <pop_in>
+                                        mat_auto_complete <address_list, std_sort_search>
+                                        man_make_focus
+                                        mat_size <22, 2>
+                                        mat_capacity <14000>
+                                        mat_bool_resize_vertical <no>
+                                        mat_bool_default_send <no>
+                                        mat_validation <128>
+                                      man_start_sibling <org_group, "">
+                                        mat_orientation <hff>
+                                        mat_precise_width <34>
+                                        mat_precise_height <33>
+                                        mat_bool_precise <yes>
+                                        man_start_object <ornament, "">
+                                          mat_precise_width <34>
+                                          mat_precise_height <33>
+                                          mat_orientation <hrf>
+                                          mat_font_id <arial>
+                                          mat_font_size <10>
+                                          mat_font_style <bold>
+                                          man_append_data <"Copy\x7fTo:">
+                                        man_start_sibling <trigger, "">
+                                          mat_relative_tag <4>
+                                          mat_trigger_style <9>
+                                          mat_precise_width <32>
+                                          mat_precise_height <32>
+                                          async_is_known_subaccount
+                                          if_last_return_true_then <1, 2>
+                                          mat_bool_disabled <no>
+                                          uni_sync_skip <1>
+                                          async_is_guest
+                                          if_last_return_true_then <3, 4>
+                                          mat_bool_disabled <no>
+                                          uni_sync_skip <3>
+                                          mat_bool_disabled <yes>
+                                          uni_sync_skip <4>
+                                          uni_sync_skip <2>
+                                          mat_bool_draw_focus <yes>
+                                          mat_title_access <"This is the copy to button.  The next field you tab into will be an edit control where you type in carbon copied email recipients.">
+                                          mat_art_id <1-5-2049>
+                                          mat_bool_disabled <yes>
+                                          mat_bool_invisible <yes>
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                                uni_invoke_no_context <41-6139>
+                                              uni_end_stream
+                                              >
+                                          man_end_object
+                                        man_start_sibling <edit_view, "">
+                                          mat_size <23, 2, 14000>
+                                          mat_relative_tag <5>
+                                          mat_frame_style <pop_in>
+                                          mat_auto_complete <address_list, std_sort_search>
+                                          mat_size <22, 2>
+                                          mat_capacity <14000>
+                                          mat_bool_resize_vertical <no>
+                                          mat_bool_default_send <no>
+                                          mat_font_id <system>
+                                        man_end_object
+                                      man_start_sibling <org_group, "">
+                                        mat_orientation <hfb>
+                                        man_start_object <org_group, "">
+                                          mat_orientation <hff>
+                                          mat_precise_width <54>
+                                          mat_precise_height <26>
+                                          mat_bool_precise <yes>
+                                          man_start_object <ornament, "">
+                                            mat_precise_y <7>
+                                            mat_precise_width <53>
+                                            mat_precise_height <19>
+                                            mat_orientation <hrf>
+                                            mat_font_id <arial>
+                                            mat_font_size <10>
+                                            mat_font_style <bold>
+                                            man_append_data <"Subject:">
+                                          man_end_object
+                                        man_start_sibling <edit_view, "">
+                                          mat_field_script <any>
+                                          mat_encode_type <00x>
+                                          mat_bool_first_script <no>
+                                          mat_size <50, 1, 80>
+                                          mat_relative_tag <8>
+                                          mat_frame_style <pop_in>
+                                          mat_capacity <80>
+                                          mat_title_pos <left | center>
+                                          mat_vertical_spacing <0>
+                                          mat_bool_vertical_scroll <no>
+                                          mat_bool_default_send <no>
+                                        man_end_object
+                                      man_start_sibling <org_group, "">
+                                        mat_orientation <vlt>
+                                        uni_start_stream
+                                          act_set_criterion <210>
+                                          act_replace_action
+                                              <
+                                              uni_start_stream
+                                                man_set_context_relative <12>
+                                                rich_get_text_font_size
+                                                var_number_set_from_atom <A>
+                                                man_end_context
+                                                man_set_context_relative <13>
+                                                var_number_get <A>
+                                                uni_convert_last_atom_data
+                                                uni_use_last_atom_string <man_get_index_by_title>
+                                                uni_use_last_atom_value <mat_value>
+                                                man_end_context
+                                                man_set_context_relative <12>
+                                                rich_get_font
+                                                var_string_set_from_atom <A>
+                                                man_end_context
+                                                man_set_context_relative <22>
+                                                var_string_get <A>
+                                                uni_use_last_atom_string <man_get_index_by_title>
+                                                uni_use_last_atom_value <mat_value>
+                                                man_end_context
+                                                man_set_context_relative <12>
+                                                rich_get_text_alignment
+                                                var_number_set_from_atom <A>
+                                                man_end_context
+                                                man_set_context_relative <50>
+                                                man_get_attribute <mat_value>
+                                                var_number_set_from_atom <B>
+                                                var_number_get <A>
+                                                if_numa_neq_numb_then <1>
+                                                var_number_get <A>
+                                                uni_use_last_atom_value <mat_value>
+                                                man_update_display
+                                                man_end_context
+                                                uni_sync_skip <1>
+                                                man_set_context_relative <12>
+                                                rich_get_text_style
+                                                var_number_set_from_atom <A>
+                                                man_end_context
+                                                man_set_context_relative <42>
+                                                var_number_get <A>
+                                                var_number_set <B, 1>
+                                                if_numa_and_numb_then <1, 2>
+                                                mat_value <1>
+                                                uni_sync_skip <1>
+                                                mat_value <0>
+                                                uni_sync_skip <2>
+                                                man_change_context_relative <43>
+                                                var_number_get <A>
+                                                var_number_set <B, 2>
+                                                if_numa_and_numb_then <1, 2>
+                                                mat_value <1>
+                                                uni_sync_skip <1>
+                                                mat_value <0>
+                                                uni_sync_skip <2>
+                                                man_change_context_relative <44>
+                                                var_number_get <A>
+                                                var_number_set <B, 4>
+                                                if_numa_and_numb_then <1, 2>
+                                                mat_value <1>
+                                                uni_sync_skip <1>
+                                                mat_value <0>
+                                                uni_sync_skip <2>
+                                                man_end_context
+                                                man_update_display
+                                              uni_end_stream
+                                              >
+                                            man_start_object <org_group, "">
+                                              mat_orientation <hlt>
+                                              mat_bool_tool_group <yes>
+                                              mat_bool_resize_horizontal <yes>
+                                              mat_bool_resize_vertical <no>
+                                              man_start_object <org_group, "">
+                                                mat_orientation <hlt>
+                                                man_start_object <20, "">
+                                                  mat_relative_tag <22>
+                                                  mat_title_pos <left | center>
+                                                  mat_height <1>
+                                                  mat_width <12>
+                                                  mat_horizontal_spacing <0>
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                        man_set_context_relative <22>
+                                                        de_start_extraction <0>
+                                                        de_get_data_pointer
+                                                        uni_use_last_atom_string <rich_font_select_face>
+                                                        de_end_extraction
+                                                        man_end_context
+                                                      uni_end_stream
+                                                      >
+                                                  man_end_object
+                                                  man_start_object <dss_list, "">
+                                                    mat_relative_tag <13>
+                                                    mat_horizontal_spacing <2>
+                                                    mat_title_pos <left | center>
+                                                    mat_title
+                                                    mat_height <1>
+                                                    mat_width <3>
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"8">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"9">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"10">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"11">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"12">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"14">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"16">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"18">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"20">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"22">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"24">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"26">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"28">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"36">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"48">
+                                                    man_end_object
+                                                    man_start_object <trigger, "">
+                                                      mat_title <"72">
+                                                    man_end_object
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                          man_set_context_relative <13>
+                                                          de_start_extraction <0>
+                                                          de_get_data_pointer
+                                                          uni_convert_last_atom_string
+                                                          uni_use_last_atom_value <rich_font_select_size>
+                                                          de_end_extraction
+                                                          man_end_context
+                                                        uni_end_stream
+                                                        >
+                                                    man_end_object
+                                                  man_end_object
+                                                  man_start_object <org_group, "">
+                                                    mat_orientation <hfc>
+                                                    man_start_object <sms_list, "">
+                                                      mat_bool_list_icons <yes>
+                                                      man_start_object <trigger, "">
+                                                        mat_bool_small_icon <yes>
+                                                        mat_context_help <"Bold">
+                                                        mat_relative_tag <42>
+                                                        mat_horizontal_spacing <0>
+                                                        mat_trigger_style <group_state>
+                                                        mat_art_id <1-1-13424>
+                                                        mat_precise_width <24>
+                                                        mat_precise_height <19>
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                              rich_font_attribute <1>
+                                                            uni_end_stream
+                                                            >
+                                                          act_set_criterion <23>
+                                                          act_replace_action
+                                                              <
+                                                              uni_start_stream
+                                                                rich_font_attribute <1>
+                                                              uni_end_stream
+                                                              >
+                                                          man_end_object
+                                                          man_start_object <trigger, "">
+                                                            mat_bool_small_icon <yes>
+                                                            mat_context_help <"Italics">
+                                                            mat_relative_tag <43>
+                                                            mat_horizontal_spacing <0>
+                                                            mat_trigger_style <group_state>
+                                                            mat_art_id <1-1-13422>
+                                                            mat_precise_width <24>
+                                                            mat_precise_height <19>
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                  rich_font_attribute <2>
+                                                                uni_end_stream
+                                                                >
+                                                              act_set_criterion <23>
+                                                              act_replace_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                    rich_font_attribute <2>
+                                                                  uni_end_stream
+                                                                  >
+                                                              man_end_object
+                                                              man_start_object <trigger, "">
+                                                                mat_bool_small_icon <yes>
+                                                                mat_context_help <"Underline">
+                                                                mat_relative_tag <44>
+                                                                mat_horizontal_spacing <2>
+                                                                mat_trigger_style <group_state>
+                                                                mat_art_id <1-1-13417>
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                      rich_font_attribute <4>
+                                                                    uni_end_stream
+                                                                    >
+                                                                  act_set_criterion <23>
+                                                                  act_replace_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                        rich_font_attribute <4>
+                                                                      uni_end_stream
+                                                                      >
+                                                                  man_end_object
+                                                                man_end_object
+                                                              man_end_object
+                                                              man_start_object <sss_list, "">
+                                                                mat_relative_tag <50>
+                                                                mat_bool_list_icons <yes>
+                                                                mat_value <1>
+                                                                man_start_object <trigger, "">
+                                                                  mat_bool_small_icon <yes>
+                                                                  mat_context_help <"Align Left">
+                                                                  mat_relative_tag <45>
+                                                                  mat_horizontal_spacing <0>
+                                                                  mat_trigger_style <group_state>
+                                                                  mat_art_id <1-1-13421>
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                        rich_font_justify <1>
+                                                                      uni_end_stream
+                                                                      >
+                                                                  man_end_object
+                                                                  man_start_object <trigger, "">
+                                                                    mat_bool_small_icon <yes>
+                                                                    mat_context_help <"Centre">
+                                                                    mat_relative_tag <46>
+                                                                    mat_horizontal_spacing <0>
+                                                                    mat_trigger_style <group_state>
+                                                                    mat_art_id <1-1-13418>
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                          rich_font_justify <2>
+                                                                        uni_end_stream
+                                                                        >
+                                                                    man_end_object
+                                                                    man_start_object <trigger, "">
+                                                                      mat_bool_small_icon <yes>
+                                                                      mat_context_help <"Align Right">
+                                                                      mat_relative_tag <47>
+                                                                      mat_horizontal_spacing <2>
+                                                                      mat_trigger_style <group_state>
+                                                                      mat_art_id <1-1-13420>
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                            rich_font_justify <3>
+                                                                          uni_end_stream
+                                                                          >
+                                                                      man_end_object
+                                                                    man_end_object
+                                                                    man_start_object <trigger, "">
+                                                                      mat_bool_small_icon <yes>
+                                                                      mat_context_help <"Text Colour">
+                                                                      mat_horizontal_spacing <0>
+                                                                      mat_relative_tag <60>
+                                                                      mat_art_id <1-1-13425>
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                            rich_text_color
+                                                                          uni_end_stream
+                                                                          >
+                                                                      man_end_object
+                                                                      man_start_object <trigger, "">
+                                                                        mat_bool_small_icon <yes>
+                                                                        mat_context_help <"Background Colour">
+                                                                        mat_relative_tag <61>
+                                                                        mat_horizontal_spacing <2>
+                                                                        mat_art_id <1-1-13427>
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                              rich_background_color
+                                                                            uni_end_stream
+                                                                            >
+                                                                        man_end_object
+                                                                        man_start_object <org_group, "">
+                                                                          mat_orientation <hft>
+                                                                          man_start_object <trigger, "">
+                                                                            mat_bool_small_icon <yes>
+                                                                            mat_bool_dropdown_button <yes>
+                                                                            mat_context_help <"Insert a Picture">
+                                                                            mat_relative_tag <64>
+                                                                            mat_horizontal_spacing <0>
+                                                                            mat_art_id <1-1-27606>
+                                                                            mat_precise_width <33>
+                                                                            mat_precise_height <19>
+                                                                            act_replace_popup_menu_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                                man_set_context_relative <12>
+                                                                                man_make_focus
+                                                                                man_update_display
+                                                                                man_change_context_relative <500>
+                                                                                man_display_popup_menu <0>
+                                                                                man_end_context
+                                                                              uni_end_stream
+                                                                              >
+                                                                          man_end_object
+                                                                        man_end_object
+                                                                        man_start_object <org_group, "">
+                                                                          mat_orientation <hft>
+                                                                          man_start_object <trigger, "">
+                                                                            mat_bool_small_icon <yes>
+                                                                            mat_bool_dropdown_button <yes>
+                                                                            mat_context_help <"Insert Favourite Place">
+                                                                            mat_precise_width <33>
+                                                                            mat_precise_height <19>
+                                                                            mat_horizontal_spacing <0>
+                                                                            mat_relative_tag <65>
+                                                                            mat_art_id <1-1-27607>
+                                                                            act_replace_popup_menu_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                                man_set_context_relative <12>
+                                                                                man_make_focus
+                                                                                man_update_display
+                                                                                man_change_context_relative <501>
+                                                                                man_display_popup_menu <0>
+                                                                                man_end_context
+                                                                              uni_end_stream
+                                                                              >
+                                                                          man_end_object
+                                                                          man_start_object <trigger, "">
+                                                                            mat_bool_small_icon <yes>
+                                                                            mat_horizontal_spacing <0>
+                                                                            mat_context_help <"Spell Check">
+                                                                            mat_art_id <1-1-13419>
+                                                                            mat_precise_width <33>
+                                                                            mat_precise_height <19>
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                  man_set_context_relative <12>
+                                                                                  man_spell_check
+                                                                                  man_end_context
+                                                                                uni_end_stream
+                                                                                >
+                                                                            man_end_object
+                                                                            man_start_object <trigger, "">
+                                                                              mat_bool_small_icon <yes>
+                                                                              mat_bool_dropdown_button <yes>
+                                                                              mat_context_help <"Insert Signature File">
+                                                                              mat_horizontal_spacing <0>
+                                                                              mat_art_id <1-4-351>
+                                                                              mat_relative_tag <85>
+                                                                              mat_precise_width <33>
+                                                                              mat_precise_height <19>
+                                                                              act_replace_popup_menu_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                  man_set_context_relative <12>
+                                                                                  man_make_focus
+                                                                                  man_update_display
+                                                                                  man_change_context_relative <505>
+                                                                                  man_display_popup_menu <0>
+                                                                                  man_end_context
+                                                                                uni_end_stream
+                                                                                >
+                                                                            man_end_object
+                                                                          man_end_object
+                                                                        man_end_object
+                                                                      uni_end_stream
+                                                                      man_start_object <edit_view, "">
+                                                                        mat_field_script <any>
+                                                                        mat_encode_type <00x>
+                                                                        mat_bool_first_script <no>
+                                                                        mat_size <51, 9, 32000>
+                                                                        mat_relative_tag <12>
+                                                                        mat_frame_style <pop_in>
+                                                                        rich_manage
+                                                                        rich_html_mode
+                                                                        mat_precise_width <510>
+                                                                        mat_precise_height <157>
+                                                                        mat_bool_expand_to_fit <yes>
+                                                                        rich_allow_attributes <16384>
+                                                                        rich_allow_attributes <32768>
+                                                                        mat_vertical_spacing <0>
+                                                                        mat_bool_writeable <yes>
+                                                                        mat_bool_default_send <no>
+                                                                      man_end_object
+                                                                    man_start_sibling <org_group, "">
+                                                                      mat_orientation <hfc>
+                                                                      man_start_object <org_group, "">
+                                                                        mat_orientation <hlc>
+                                                                        man_start_object <trigger, "Attach">
+                                                                          mat_title_width <8>
+                                                                          mat_relative_tag <11>
+                                                                          mat_color_face <0, 102, 153>
+                                                                          mat_color_text <255, 255, 255>
+                                                                          mat_color_top_edge <145, 182, 255>
+                                                                          mat_color_bottom_edge <1, 1, 1>
+                                                                          mat_trigger_style <rectangle>
+                                                                          mat_font_size <8>
+                                                                          mat_precise_width <50>
+                                                                          mat_drop_data_type <1>
+                                                                          mat_bool_draw_focus <yes>
+                                                                          act_set_criterion <20>
+                                                                          act_replace_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                                fm_start
+                                                                                man_set_context_relative <11>
+                                                                                var_lookup_by_id <A, 303>
+                                                                                uni_save_result
+                                                                                man_change_context_relative <10>
+                                                                                uni_get_result
+                                                                                uni_use_last_atom_string <man_replace_data>
+                                                                                man_end_context
+                                                                                man_change_context_relative <20>
+                                                                                fm_item_get <45>
+                                                                                uni_use_last_atom_string <man_replace_data>
+                                                                                man_end_context
+                                                                                man_update_display
+                                                                                var_number_set <A, 1>
+                                                                                var_number_save <A, 64>
+                                                                                fm_end
+                                                                              uni_end_stream
+                                                                              >
+                                                                            mat_horizontal_spacing <0>
+                                                                            mat_vertical_spacing <0>
+                                                                            mat_bool_disabled <yes>
+                                                                            mat_bool_invisible <yes>
+                                                                            mat_font_id <arial>
+                                                                            mat_shortcut_key <"\x00">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                  fm_start
+                                                                                  fm_item_type <persistent_path>
+                                                                                  fm_item_set <14x, 00x, 01x, 1bx>
+                                                                                  fm_dialog_get_file <"Attach File">
+                                                                                  fm_handle_error <display_msg | terminate>
+                                                                                  fm_item_get <filespec>
+                                                                                  uni_save_result
+                                                                                  man_set_context_relative <10>
+                                                                                  uni_get_result
+                                                                                  uni_use_last_atom_string <man_replace_data>
+                                                                                  man_end_context
+                                                                                  fm_item_get <45>
+                                                                                  uni_save_result
+                                                                                  man_set_context_relative <20>
+                                                                                  uni_get_result
+                                                                                  uni_use_last_atom_string <man_replace_data>
+                                                                                  man_end_context
+                                                                                  man_update_display
+                                                                                  var_number_set <A, 1>
+                                                                                  var_number_save <A, 64>
+                                                                                  fm_end
+                                                                                  act_do_action <20>
+                                                                                  man_set_context_relative <35>
+                                                                                  mat_bool_hidden <no>
+                                                                                  man_end_context
+                                                                                  man_update_display
+                                                                                uni_end_stream
+                                                                                >
+                                                                            man_start_sibling <trigger, "">
+                                                                              mat_trigger_style <plain_picture>
+                                                                              mat_font_size <8>
+                                                                              mat_precise_width <100>
+                                                                              mat_bool_draw_focus <yes>
+                                                                              mat_context_help <"Attach or Detach one\x7for more files from email">
+                                                                              mat_art_id <1-6-37692>
+                                                                              mat_horizontal_spacing <3>
+                                                                              mat_vertical_spacing <0>
+                                                                              mat_font_id <arial>
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                    fm_start
+                                                                                    fm_edit_attachment_command <00x>
+                                                                                    fm_end
+                                                                                    uni_wait_on
+                                                                                    uni_invoke_no_context <41-16415>
+                                                                                  uni_end_stream
+                                                                                  >
+                                                                              man_start_sibling <ornament, "">
+                                                                                mat_size <42, 1, 256>
+                                                                                mat_relative_tag <10>
+                                                                                mat_bool_invisible <yes>
+                                                                              man_start_sibling <ornament, "">
+                                                                                mat_size <16, 1, 256>
+                                                                                mat_relative_tag <20>
+                                                                                mat_drop_data_type <4>
+                                                                                act_set_criterion <20>
+                                                                                act_replace_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                      fm_start
+                                                                                      man_set_context_relative <10>
+                                                                                      var_lookup_by_id <A, 303>
+                                                                                      uni_use_last_atom_string <man_replace_data>
+                                                                                      man_end_context
+                                                                                      man_set_context_relative <20>
+                                                                                      fm_item_get <45>
+                                                                                      uni_use_last_atom_string <man_replace_data>
+                                                                                      man_end_context
+                                                                                      man_update_display
+                                                                                      fm_end
+                                                                                    uni_end_stream
+                                                                                    >
+                                                                                  mat_horizontal_spacing <2>
+                                                                                man_start_sibling <ornament, "">
+                                                                                  mat_relative_tag <35>
+                                                                                  mat_art_id <1-0-29687>
+                                                                                  mat_bool_disabled <yes>
+                                                                                  mat_bool_hidden <yes>
+                                                                                man_end_object
+                                                                              man_start_sibling <org_group, "">
+                                                                                mat_orientation <hrc>
+                                                                                man_start_object <sms_list, "">
+                                                                                  mat_orientation <hfc>
+                                                                                  mat_horizontal_spacing <4>
+                                                                                  man_start_object <trigger, "Request "Return Receipt" from AOL members">
+                                                                                    mat_relative_tag <21>
+                                                                                    mat_font_sis <small_fonts, 7, normal>
+                                                                                    mat_horizontal_spacing <0>
+                                                                                    mat_bool_default_send <no>
+                                                                                  man_end_object
+                                                                                man_end_object
+                                                                              man_end_object
+                                                                            man_end_object
+                                                                          man_start_sibling <org_group, "">
+                                                                            mat_orientation <vrf>
+                                                                            mat_horizontal_spacing <0>
+                                                                            var_number_set <A, 0>
+                                                                            var_number_save <A, 64>
+                                                                            man_start_object <org_group, "">
+                                                                              mat_orientation <vct>
+                                                                              mat_precise_width <60>
+                                                                              mat_precise_height <260>
+                                                                              mat_vertical_spacing <0>
+                                                                              mat_bool_precise <yes>
+                                                                              man_start_object <trigger, "">
+                                                                                mat_precise_x <8>
+                                                                                mat_relative_tag <16>
+                                                                                mat_trigger_style <plain_picture>
+                                                                                mat_title_access <"Send Now">
+                                                                                mat_font_size <8>
+                                                                                mat_bool_draw_focus <yes>
+                                                                                mat_command_key <0dx>
+                                                                                mat_art_id <1-5-47313>
+                                                                                mat_vertical_spacing <0>
+                                                                                mat_font_id <arial>
+                                                                                mat_shortcut_key <"\x00">
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_start_stream
+                                                                                      act_get_db_value <14x, 00x, 00x, 70x>
+                                                                                      if_last_return_true_then <5>
+                                                                                      mip_spell_check_send_now
+                                                                                      var_number_set <A, 0>
+                                                                                      if_numa_eq_one_then <10>
+                                                                                      uni_sync_skip <5>
+                                                                                      act_do_action <130>
+                                                                                      uni_sync_skip <10>
+                                                                                    uni_end_stream
+                                                                                    >
+                                                                                man_start_sibling <trigger, "">
+                                                                                  mat_precise_x <8>
+                                                                                  mat_precise_y <59>
+                                                                                  mat_relative_tag <17>
+                                                                                  mat_trigger_style <plain_picture>
+                                                                                  mat_title_access <"Send Later">
+                                                                                  mat_font_size <8>
+                                                                                  async_is_known_subaccount
+                                                                                  if_last_return_true_then <1, 2>
+                                                                                  mat_bool_disabled <no>
+                                                                                  uni_sync_skip <1>
+                                                                                  mat_bool_disabled <yes>
+                                                                                  uni_sync_skip <2>
+                                                                                  mat_bool_draw_focus <yes>
+                                                                                  mat_art_id <1-5-47310>
+                                                                                  mat_vertical_spacing <0>
+                                                                                  mat_font_id <arial>
+                                                                                  act_replace_select_action
+                                                                                      <
+                                                                                      uni_start_stream
+                                                                                        act_get_db_value <14x, 00x, 00x, 70x>
+                                                                                        if_last_return_true_then <5>
+                                                                                        mip_spell_check_send_later
+                                                                                        var_number_set <A, 0>
+                                                                                        if_numa_eq_one_then <10>
+                                                                                        uni_sync_skip <5>
+                                                                                        act_do_action <131>
+                                                                                        uni_sync_skip <10>
+                                                                                      uni_end_stream
+                                                                                      >
+                                                                                  man_start_sibling <trigger, "">
+                                                                                    mat_precise_y <120>
+                                                                                    mat_precise_width <75>
+                                                                                    mat_relative_tag <18>
+                                                                                    mat_trigger_style <plain_picture>
+                                                                                    mat_title_access <"Address Book">
+                                                                                    mat_font_size <8>
+                                                                                    async_is_known_subaccount
+                                                                                    if_last_return_true_then <1, 2>
+                                                                                    mat_bool_disabled <no>
+                                                                                    uni_sync_skip <1>
+                                                                                    async_is_guest
+                                                                                    if_last_return_true_then <3, 4>
+                                                                                    mat_bool_disabled <no>
+                                                                                    uni_sync_skip <3>
+                                                                                    mat_bool_disabled <yes>
+                                                                                    uni_sync_skip <4>
+                                                                                    uni_sync_skip <2>
+                                                                                    mat_bool_draw_focus <yes>
+                                                                                    mat_art_id <1-5-47311>
+                                                                                    mat_vertical_spacing <0>
+                                                                                    mat_font_id <arial>
+                                                                                    mat_shortcut_key <"\x00">
+                                                                                    act_replace_select_action
+                                                                                        <
+                                                                                        uni_start_stream <00x>
+                                                                                          man_preset_gid <41-6139>
+                                                                                          if_last_return_true_then <1, 2>
+                                                                                          man_make_focus
+                                                                                          man_update_display
+                                                                                          uni_sync_skip <1>
+                                                                                          uni_wait_on
+                                                                                          uni_invoke_no_context <41-6139>
+                                                                                          uni_sync_skip <2>
+                                                                                        uni_end_stream <00x>
+                                                                                        >
+                                                                                    man_start_sibling <trigger, "">
+                                                                                      mat_precise_x <5>
+                                                                                      mat_precise_y <180>
+                                                                                      mat_relative_tag <19>
+                                                                                      mat_trigger_style <plain_picture>
+                                                                                      mat_font_size <8>
+                                                                                      async_is_known_subaccount
+                                                                                      if_last_return_true_then <1, 2>
+                                                                                      mat_bool_disabled <no>
+                                                                                      uni_sync_skip <1>
+                                                                                      mat_bool_disabled <yes>
+                                                                                      uni_sync_skip <2>
+                                                                                      mat_bool_draw_focus <yes>
+                                                                                      mat_art_id <1-5-47312>
+                                                                                      mat_vertical_spacing <0>
+                                                                                      mat_font_id <arial>
+                                                                                      mat_shortcut_key <"\x00">
+                                                                                      uni_start_stream
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream
+                                                                                            sm_send_k1 <45-6971>
+                                                                                            >
+                                                                                        uni_end_stream
+                                                                                      man_start_sibling <trigger, "">
+                                                                                        mat_precise_x <9>
+                                                                                        mat_precise_y <253>
+                                                                                        mat_trigger_style <plain_picture>
+                                                                                        mat_font_size <8>
+                                                                                        mat_bool_draw_focus <yes>
+                                                                                        mat_art_id <1-5-5858>
+                                                                                        mat_vertical_spacing <0>
+                                                                                        mat_font_id <arial>
+                                                                                        act_replace_select_action
+                                                                                            <
+                                                                                            uni_start_stream_wait_on
+                                                                                              if_offline_then <1, 2>
+                                                                                              async_exec_context_help <45x, 6dx, 61x, 69x, 6cx>
+                                                                                              uni_sync_skip <1>
+                                                                                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                                              buf_clear_buffer
+                                                                                              buf_set_token <"ur">
+                                                                                              buf_add_atom_pointer <"aol://1722:email help">
+                                                                                              buf_close_buffer
+                                                                                              uni_sync_skip <2>
+                                                                                            uni_wait_off_end_stream
+                                                                                            >
+                                                                                        man_end_object
+                                                                                      man_end_object
+                                                                                    man_start_sibling <view, "">
+                                                                                      mat_bool_disabled <yes>
+                                                                                      mat_bool_invisible <yes>
+                                                                                      mat_bool_writeable <yes>
+                                                                                      mat_bool_hidden <yes>
+                                                                                    man_end_object
+                                                                                    man_update_display
+                                                                                    var_number_set <A, 0>
+                                                                                    var_number_save <A, 64>
+                                                                                    fm_start
+                                                                                    fm_dialog_init_get
+                                                                                    fm_end
+                                                                                    act_do_action <111>
+                                                                                    uni_wait_off
+                                                                                  uni_end_stream <00x>

@@ -1,0 +1,193 @@
+uni_start_stream
+  man_start_object <ind_group, "The Community Building">
+    mat_orientation <vff>
+    mat_relative_tag <15>
+    mat_art_id <1-0-25755>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <hlf>
+      man_start_object <ornament, "">
+        mat_relative_tag <120>
+        mat_art_id <1-0-40639>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "The Community Building\r\r\r">
+        mat_relative_tag <3>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <times_roman, 24, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <31>
+          mat_height <11>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "Mission Statement of the CLO">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-63-1206>
+                >
+              mat_art_id <1-0-37355>
+            man_start_sibling <trigger, "Dr. Solomon's Area">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"K1", 0-43-3499>
+                  >
+                mat_art_id <1-0-1477>
+              man_start_sibling <trigger, "Community Leader Information">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-63-1463>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "SECURITY! (Updated 12/24/97)">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-63-1460>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Current Week's Announcements (updated 3/30/98)">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-63-411>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Announcement Archives (updated 3/27/98)">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-63-37226>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "CL Placement Center (MAC 2.7)">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-45-1554>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Take a Breather!">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-63-1472>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_end_object
+                        man_end_object
+                      man_start_sibling <org_group, "">
+                        mat_orientation <vft>
+                        man_start_object <view, "">
+                          mat_bool_graphic_view <yes>
+                          image_attr_dynamic_display <01x>
+                          mat_bool_exportable <no>
+                          mat_width <195>
+                          mat_height <130>
+                          mat_bool_resize_vertical <no>
+                          mat_bool_resize_horizontal <no>
+                          mat_bool_vertical_scroll <no>
+                          mat_relative_tag <5>
+                        man_start_sibling <ornament, "Muskegon, Michigan by RCRT Vogue">
+                          mat_relative_tag <11>
+                          mat_width <26>
+                          mat_height <2>
+                          mat_font_sis <arial, 9, normal>
+                          mat_orientation <hlf>
+                        man_end_object
+                      man_end_object
+                    man_start_sibling <org_group, "">
+                      mat_orientation <het>
+                      man_start_object <org_group, "">
+                        mat_orientation <vcf>
+                        man_start_object <trigger, "">
+                          mat_relative_tag <56>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-63-1412>
+                              >
+                            mat_font_sis <small_fonts, 7, normal>
+                            mat_art_id <1-0-35990>
+                            mat_trigger_style <picture>
+                          man_start_sibling <ornament, "TCB Chat Area">
+                            mat_relative_tag <57>
+                            mat_width <15>
+                            mat_height <1>
+                            mat_font_sis <arial, 9, normal>
+                            mat_orientation <hcf>
+                          man_end_object
+                        man_start_sibling <org_group, "">
+                          mat_orientation <vcf>
+                          man_start_object <trigger, "">
+                            mat_relative_tag <58>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U3", 0-45-158>
+                                >
+                              mat_font_sis <small_fonts, 7, normal>
+                              mat_art_id <1-0-34713>
+                              mat_trigger_style <picture>
+                            man_start_sibling <ornament, "The CLPC\r">
+                              mat_relative_tag <59>
+                              mat_width <15>
+                              mat_height <1>
+                              mat_font_sis <arial, 9, normal>
+                              mat_orientation <hcf>
+                            man_end_object
+                          man_start_sibling <org_group, "">
+                            mat_orientation <vcf>
+                            man_start_object <trigger, "">
+                              mat_relative_tag <60>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-63-1409>
+                                  >
+                                mat_font_sis <small_fonts, 7, normal>
+                                mat_art_id <1-0-35991>
+                                mat_trigger_style <picture>
+                              man_start_sibling <ornament, "Messaging Center\r">
+                                mat_relative_tag <61>
+                                mat_width <15>
+                                mat_height <1>
+                                mat_font_sis <arial, 9, normal>
+                                mat_orientation <hcf>
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <vcf>
+                              man_start_object <trigger, "">
+                                mat_relative_tag <62>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-63-1543>
+                                    >
+                                  mat_font_sis <small_fonts, 7, normal>
+                                  mat_art_id <1-0-40002>
+                                  mat_trigger_style <picture>
+                                man_start_sibling <ornament, "Jeff Kimball Chat Log">
+                                  mat_relative_tag <63>
+                                  mat_width <15>
+                                  mat_height <1>
+                                  mat_font_sis <arial, 9, normal>
+                                  mat_orientation <hcf>
+                                man_end_object
+                              man_end_object
+                            man_end_object
+                            man_update_display
+                          man_update_woff_end_stream

@@ -1,0 +1,291 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL System Calendar of Upcoming Events">
+    mat_orientation <vff>
+    mat_precise_width <450>
+    mat_precise_height <300>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\rand want to come back?\r\rJust click here to\radd this area to your\rFavorite Places.">
+    mat_color_face <1, 0, 0>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <310>
+      mat_precise_y <15>
+      mat_art_id <1-1-13173>
+      mat_font_sis <small_fonts, 7, normal>
+    man_start_sibling <trigger, "January">
+      mat_title_pos <below | center>
+      act_replace_select_action
+          <
+          uni_start_stream
+            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+            buf_clear_buffer
+            buf_set_token <"ur">
+            buf_add_atom_pointer <"aol://4344:3206.jancal.21633027.559238299">
+            buf_close_buffer
+          uni_end_stream
+          >
+        mat_font_sis <times_roman, 8, bold>
+        mat_color_text <255, 255, 255>
+        mat_precise_width <48>
+        mat_precise_height <48>
+        mat_precise_x <20>
+        mat_precise_y <135>
+        mat_art_id <1-0-3450>
+        mat_trigger_style <plain_picture>
+      man_start_sibling <trigger, "February">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream
+              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+              buf_clear_buffer
+              buf_set_token <"ur">
+              buf_add_atom_pointer <"aol://4344:3206.febcal.21628170.537652853">
+              buf_close_buffer
+            uni_end_stream
+            >
+          mat_font_sis <times_roman, 8, bold>
+          mat_color_text <255, 255, 255>
+          mat_precise_width <48>
+          mat_precise_height <48>
+          mat_precise_x <85>
+          mat_precise_y <135>
+          mat_art_id <1-0-3469>
+          mat_trigger_style <plain_picture>
+        man_start_sibling <trigger, "March">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream
+                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                buf_clear_buffer
+                buf_set_token <"ur">
+                buf_add_atom_pointer <"aol://4344:3206.marcal.21627014.534827674">
+                buf_close_buffer
+              uni_end_stream
+              >
+            mat_font_sis <times_roman, 8, bold>
+            mat_color_text <255, 255, 255>
+            mat_precise_width <48>
+            mat_precise_height <48>
+            mat_precise_x <160>
+            mat_precise_y <135>
+            mat_art_id <1-0-3453>
+            mat_trigger_style <plain_picture>
+          man_start_sibling <trigger, "April">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream
+                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                  buf_clear_buffer
+                  buf_set_token <"ur">
+                  buf_add_atom_pointer <"aol://4344:3206.aprcal.21627015.534827675">
+                  buf_close_buffer
+                uni_end_stream
+                >
+              mat_font_sis <times_roman, 8, bold>
+              mat_color_text <255, 255, 255>
+              mat_precise_width <48>
+              mat_precise_height <48>
+              mat_precise_x <230>
+              mat_precise_y <135>
+              mat_art_id <1-0-3442>
+              mat_trigger_style <plain_picture>
+            man_start_sibling <trigger, "May">
+              mat_title_pos <below | center>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                    buf_clear_buffer
+                    buf_set_token <"ur">
+                    buf_add_atom_pointer <"aol://4344:3206.maycal.21631253.548523810">
+                    buf_close_buffer
+                  uni_end_stream
+                  >
+                mat_font_sis <times_roman, 8, bold>
+                mat_color_text <255, 255, 255>
+                mat_precise_width <48>
+                mat_precise_height <48>
+                mat_precise_x <300>
+                mat_precise_y <135>
+                mat_art_id <1-0-3453>
+                mat_trigger_style <plain_picture>
+              man_start_sibling <trigger, "June">
+                mat_title_pos <below | center>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                      buf_clear_buffer
+                      buf_set_token <"ur">
+                      buf_add_atom_pointer <"aol://4344:3206.juncal.21631403.549645487">
+                      buf_close_buffer
+                    uni_end_stream
+                    >
+                  mat_font_sis <times_roman, 8, bold>
+                  mat_color_text <255, 255, 255>
+                  mat_precise_width <48>
+                  mat_precise_height <48>
+                  mat_precise_x <370>
+                  mat_precise_y <135>
+                  mat_art_id <1-0-3450>
+                  mat_trigger_style <plain_picture>
+                man_start_sibling <trigger, "July">
+                  mat_title_pos <below | center>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                        buf_clear_buffer
+                        buf_set_token <"ur">
+                        buf_add_atom_pointer <"aol://4344:3206.julcal.21627018.534827677">
+                        buf_close_buffer
+                      uni_end_stream
+                      >
+                    mat_font_sis <times_roman, 8, bold>
+                    mat_color_text <255, 255, 255>
+                    mat_precise_width <48>
+                    mat_precise_height <48>
+                    mat_precise_x <25>
+                    mat_precise_y <210>
+                    mat_art_id <1-0-3450>
+                    mat_trigger_style <plain_picture>
+                  man_start_sibling <trigger, "August">
+                    mat_title_pos <below | center>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                          buf_clear_buffer
+                          buf_set_token <"ur">
+                          buf_add_atom_pointer <"aol://4344:3206.augcal.21627019.534827679">
+                          buf_close_buffer
+                        uni_end_stream
+                        >
+                      mat_font_sis <times_roman, 8, bold>
+                      mat_color_text <255, 255, 255>
+                      mat_precise_width <48>
+                      mat_precise_height <48>
+                      mat_precise_x <90>
+                      mat_precise_y <210>
+                      mat_art_id <1-0-3442>
+                      mat_trigger_style <plain_picture>
+                    man_start_sibling <trigger, "September">
+                      mat_title_pos <below | center>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                            buf_clear_buffer
+                            buf_set_token <"ur">
+                            buf_add_atom_pointer <"aol://4344:3206.sepcal.21633328.558441126">
+                            buf_close_buffer
+                          uni_end_stream
+                          >
+                        mat_font_sis <times_roman, 8, bold>
+                        mat_color_text <255, 255, 255>
+                        mat_precise_width <48>
+                        mat_precise_height <48>
+                        mat_precise_x <145>
+                        mat_precise_y <210>
+                        mat_art_id <1-0-3459>
+                        mat_trigger_style <plain_picture>
+                      man_start_sibling <trigger, "October">
+                        mat_title_pos <below | center>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                              buf_clear_buffer
+                              buf_set_token <"ur">
+                              buf_add_atom_pointer <"aol://4344:3206.octcal.21627021.534827680">
+                              buf_close_buffer
+                            uni_end_stream
+                            >
+                          mat_font_sis <times_roman, 8, bold>
+                          mat_color_text <255, 255, 255>
+                          mat_precise_width <48>
+                          mat_precise_height <48>
+                          mat_precise_x <225>
+                          mat_precise_y <210>
+                          mat_art_id <1-0-3455>
+                          mat_trigger_style <plain_picture>
+                        man_start_sibling <trigger, "November">
+                          mat_title_pos <below | center>
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                                buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                buf_clear_buffer
+                                buf_set_token <"ur">
+                                buf_add_atom_pointer <"aol://4344:3206.novcal.21627022.534827681">
+                                buf_close_buffer
+                              uni_end_stream
+                              >
+                            mat_font_sis <times_roman, 8, bold>
+                            mat_color_text <255, 255, 255>
+                            mat_precise_width <48>
+                            mat_precise_height <48>
+                            mat_precise_x <285>
+                            mat_precise_y <210>
+                            mat_art_id <1-0-3470>
+                            mat_trigger_style <plain_picture>
+                          man_start_sibling <trigger, "December">
+                            mat_title_pos <below | center>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  buf_use_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                  buf_clear_buffer
+                                  buf_set_token <"ur">
+                                  buf_add_atom_pointer <"aol://4344:3206.deccal.21633025.559236668">
+                                  buf_close_buffer
+                                uni_end_stream
+                                >
+                              mat_font_sis <times_roman, 8, bold>
+                              mat_color_text <255, 255, 255>
+                              mat_precise_width <48>
+                              mat_precise_height <48>
+                              mat_precise_x <355>
+                              mat_precise_y <210>
+                              mat_art_id <1-0-3445>
+                              mat_trigger_style <plain_picture>
+                            man_start_sibling <ornament, "AOL System Calendar">
+                              mat_precise_width <170>
+                              mat_precise_height <70>
+                              mat_precise_x <125>
+                              mat_precise_y <15>
+                              mat_font_sis <times_roman, 24, bold | italic>
+                              mat_color_text <72, 109, 255>
+                              mat_orientation <hcf>
+                            man_start_sibling <trigger, "Submit Request">
+                              mat_title_pos <right | center>
+                              mat_title_width <10>
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream_wait_on <00x>
+                                  sm_send_f1 <43-12947>
+                                uni_end_stream
+                                >
+                              mat_font_sis <times_roman, 8, bold>
+                              mat_color_text <255, 255, 255>
+                              mat_precise_width <34>
+                              mat_precise_height <45>
+                              mat_precise_x <90>
+                              mat_precise_y <90>
+                              mat_art_id <1-0-1289>
+                              mat_trigger_style <plain_picture>
+                            man_start_sibling <ornament, "">
+                              mat_precise_width <110>
+                              mat_precise_height <70>
+                              mat_precise_x <15>
+                              mat_precise_y <15>
+                              mat_art_id <1-0-2381>
+                              mat_font_sis <small_fonts, 7, normal>
+                            man_end_object
+                            man_update_display
+                          man_update_woff_end_stream

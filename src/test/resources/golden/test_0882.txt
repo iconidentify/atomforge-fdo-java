@@ -1,0 +1,106 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Default Front Area">
+    mat_object_id <32-2516>
+    mat_style_id <32-2516>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <195>
+    mat_color_face <250, 252, 255>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Static Left Item">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <18, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"gamma panel stop stop back default epsilon section. simple theta\x7fDefault Dialog Side\x7f\x7fnew component first front second open simple basic. first save execute previous\x7fcreate side form view create south zone new. custom close receive item\x7fright process corner fourth frame basic receive">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <255>
+      mat_precise_width <410>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <50>
+        mat_precise_y <160>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <205, 228, 248>
+        mat_color_text <0, 51, 102>
+        mat_color_top_edge <255, 255, 255>
+        mat_color_bottom_edge <96, 104, 163>
+        mat_trigger_style <default>
+        mat_font_size <8>
+        mat_title <"Ja">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              uni_invoke_no_context <32-2517>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <181>
+          mat_precise_y <160>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_face <72, 109, 170>
+          mat_color_text <255, 255, 255>
+          mat_color_top_edge <182, 182, 255>
+          mat_color_bottom_edge <36, 36, 85>
+          mat_trigger_style <default>
+          mat_font_size <8>
+          mat_title <"main">
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                uni_invoke_no_context <32-2515>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <309>
+            mat_precise_y <160>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <72, 109, 170>
+            mat_color_text <255, 255, 255>
+            mat_color_top_edge <182, 182, 255>
+            mat_color_bottom_edge <36, 36, 85>
+            mat_trigger_style <default>
+            mat_font_size <8>
+            mat_title <"Advanced Window">
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

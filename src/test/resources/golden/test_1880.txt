@@ -1,0 +1,346 @@
+uni_start_stream
+  man_start_object <ind_group, "OverHead/Internal Request">
+    mat_orientation <vff>
+    mat_precise_width <530>
+    mat_precise_height <440>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_art_id <1-0-7564>
+    mat_bool_background_tile <yes>
+    man_start_object <edit_view, "">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <0>
+      mat_precise_y <0>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_field_script <default>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_disabled <yes>
+      mat_bool_invisible <yes>
+      mat_relative_tag <1>
+    man_start_sibling <ornament, "">
+      mat_precise_width <500>
+      mat_precise_height <38>
+      mat_precise_x <30>
+      mat_precise_y <10>
+      man_append_data <"All information requested must be provided in orde">
+      man_append_data <"r for your request to be processed.">
+      man_end_data
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 10, bold>
+    man_start_sibling <ornament, "Sponsor Information">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <50>
+      mat_precise_y <40>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 10, bold | italic>
+    man_start_sibling <ornament, "Member Information">
+      mat_width <15>
+      mat_height <1>
+      mat_precise_x <320>
+      mat_precise_y <40>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 10, bold | italic>
+    man_start_sibling <ornament, "Screen Name">
+      mat_width <30>
+      mat_height <1>
+      mat_precise_x <10>
+      mat_precise_y <65>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+      mat_color_text <254, 1, 1>
+    man_start_sibling <ornament, "of In-house Contact:">
+      mat_width <30>
+      mat_height <1>
+      mat_precise_x <84>
+      mat_precise_y <65>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <25>
+      mat_height <1>
+      mat_precise_x <10>
+      mat_precise_y <85>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <40>
+      mat_field_script <default>
+      mat_relative_tag <2>
+    man_start_sibling <ornament, "Screen Name">
+      mat_precise_width <220>
+      mat_precise_height <19>
+      mat_precise_x <10>
+      mat_precise_y <115>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+      mat_color_text <255, 1, 1>
+    man_start_sibling <ornament, "of Contact's Manager:">
+      mat_precise_width <220>
+      mat_precise_height <19>
+      mat_precise_x <84>
+      mat_precise_y <115>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <25>
+      mat_height <1>
+      mat_precise_x <10>
+      mat_precise_y <135>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <50>
+      mat_field_script <default>
+      mat_relative_tag <3>
+    man_start_sibling <ornament, "Full Department Name:">
+      mat_precise_width <175>
+      mat_precise_height <19>
+      mat_precise_x <10>
+      mat_precise_y <165>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <17>
+      mat_height <1>
+      mat_precise_x <10>
+      mat_precise_y <185>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <50>
+      mat_field_script <default>
+      mat_relative_tag <4>
+    man_start_sibling <ornament, "Full Dept #:">
+      mat_precise_width <75>
+      mat_precise_height <19>
+      mat_precise_x <172>
+      mat_precise_y <165>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <7>
+      mat_height <1>
+      mat_precise_x <172>
+      mat_precise_y <185>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <10>
+      mat_field_script <default>
+      mat_relative_tag <5>
+    man_start_sibling <ornament, "Your Phone Number:">
+      mat_precise_width <200>
+      mat_precise_height <19>
+      mat_precise_x <10>
+      mat_precise_y <215>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <25>
+      mat_height <1>
+      mat_precise_x <10>
+      mat_precise_y <235>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_capacity <15>
+      mat_field_script <default>
+      mat_relative_tag <6>
+    man_start_sibling <ornament, "">
+      mat_precise_width <200>
+      mat_precise_height <19>
+      mat_precise_x <10>
+      mat_precise_y <265>
+      man_append_data <"Comments and/or Other Instructions:">
+      man_end_data
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <25>
+      mat_height <4>
+      mat_precise_x <10>
+      mat_precise_y <285>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      mat_capacity <300>
+      mat_field_script <default>
+      mat_relative_tag <12>
+    man_start_sibling <ornament, "Member's Full Name:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <270>
+      mat_precise_y <65>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <27>
+      mat_height <1>
+      mat_precise_x <270>
+      mat_precise_y <85>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <40>
+      mat_field_script <default>
+      mat_relative_tag <7>
+    man_start_sibling <ornament, "Member's Phone Number:">
+      mat_width <20>
+      mat_height <1>
+      mat_precise_x <270>
+      mat_precise_y <115>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <27>
+      mat_height <1>
+      mat_precise_x <270>
+      mat_precise_y <135>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_capacity <15>
+      mat_field_script <default>
+      mat_relative_tag <8>
+    man_start_sibling <ornament, "Members's AOL Screen Name:">
+      mat_precise_width <200>
+      mat_precise_height <19>
+      mat_precise_x <270>
+      mat_precise_y <165>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <27>
+      mat_height <1>
+      mat_precise_x <270>
+      mat_precise_y <185>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <no>
+      mat_validation <128>
+      mat_capacity <100>
+      mat_field_script <default>
+      mat_relative_tag <9>
+    man_start_sibling <ornament, "Choose Status Type:">
+      mat_width <15>
+      mat_height <1>
+      mat_precise_x <270>
+      mat_precise_y <215>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <dss_list, "\t">
+      mat_relative_tag <10>
+      mat_width <12>
+      mat_height <1>
+      mat_precise_x <260>
+      mat_precise_y <235>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_title_pos <left | top_or_left>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Overhead">
+      man_start_sibling <trigger, "Internal">
+      man_start_sibling <trigger, "Contest Winner">
+      man_start_sibling <trigger, "Donation">
+      man_start_sibling <trigger, "10-hour Demo">
+      man_start_sibling <trigger, "Carefree Account">
+      man_end_object
+    man_start_sibling <ornament, "Choose Exp. Date:">
+      mat_precise_width <100>
+      mat_precise_height <19>
+      mat_precise_x <422>
+      mat_precise_y <215>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <dss_list, "\t">
+      mat_relative_tag <11>
+      mat_width <8>
+      mat_height <1>
+      mat_precise_x <410>
+      mat_precise_y <235>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_title_pos <left | top_or_left>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "30 Days">
+      man_start_sibling <trigger, "90 Days">
+      man_start_sibling <trigger, "6 Months">
+      man_start_sibling <trigger, "1 Year">
+      man_end_object
+    man_start_sibling <ornament, "IP Name and Reason for Overhead:">
+      mat_precise_width <250>
+      mat_precise_height <19>
+      mat_precise_x <270>
+      mat_precise_y <265>
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 9, bold>
+    man_start_sibling <edit_view, "">
+      mat_width <27>
+      mat_height <4>
+      mat_precise_x <270>
+      mat_precise_y <285>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      mat_validation <128>
+      mat_capacity <300>
+      mat_field_script <default>
+      mat_relative_tag <13>
+    man_start_sibling <ornament, "">
+      mat_precise_x <10>
+      mat_precise_y <390>
+      man_append_data <"Click the appropriate type of account: ">
+      man_end_data
+      mat_orientation <hlf>
+      mat_font_sis <times_roman, 12, bold>
+    man_start_sibling <trigger, "Internal ONLY">
+      act_replace_select_action
+          <
+          uni_start_stream_wait_on <00x>
+          de_ez_send_form <"ef", 0-0-2646>
+          >
+        mat_font_sis <times_roman, 10, bold>
+        mat_precise_width <100>
+        mat_precise_height <25>
+        mat_precise_x <280>
+        mat_precise_y <390>
+        mat_trigger_style <rectangle>
+      man_start_sibling <trigger, "All Other">
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"ef", 0-0-29>
+            >
+          mat_font_sis <times_roman, 10, bold>
+          mat_precise_width <100>
+          mat_precise_height <25>
+          mat_precise_x <400>
+          mat_precise_y <390>
+          mat_trigger_style <rectangle>
+        man_end_object
+        man_update_display
+      man_update_woff_end_stream

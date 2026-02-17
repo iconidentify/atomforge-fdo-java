@@ -1,0 +1,48 @@
+uni_start_stream
+  man_start_object <ind_group, "Attach File">
+    mat_orientation <vcf>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    man_start_object <org_group, "">
+      mat_orientation <vlf>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <heb>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "Software Library #:">
+          mat_relative_tag <1>
+          mat_width <15>
+          mat_height <1>
+          mat_title_pos <above | top_or_left>
+          mat_font_sis <arial, 9, normal>
+          mat_bool_list_allow_entry <yes>
+          mat_sort_order <normal>
+        man_end_object
+      man_start_sibling <edit_view, "File (no apostrophes needed):">
+        rich_manage
+        mat_width <32>
+        mat_height <1>
+        mat_bool_resize_vertical <no>
+        mat_title_pos <above | top_or_left>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_importable <yes>
+        mat_bool_exportable <yes>
+        mat_bool_vertical_scroll <no>
+        mat_capacity <32>
+        mat_relative_tag <2>
+      man_end_object
+    man_start_sibling <trigger, "OK">
+      mat_relative_tag <3>
+      act_replace_select_action
+          <
+          uni_start_stream
+            vrm_action_command <20>
+          uni_end_stream
+          >
+        mat_font_sis <system, 12, normal>
+        mat_bool_default <yes>
+      man_end_object
+      man_update_display
+    man_update_woff_end_stream

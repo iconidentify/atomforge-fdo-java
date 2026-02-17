@@ -1,0 +1,110 @@
+uni_start_stream
+  man_start_object <ind_group, "PA Downtown">
+    mat_orientation <vff>
+    man_start_object <ornament, "training3 PA Downtown">
+      mat_relative_tag <3>
+      mat_width <20>
+      mat_height <1>
+      mat_font_sis <arial, 18, normal>
+      mat_orientation <hlf>
+    man_start_sibling <dss_list, "">
+      mat_relative_tag <30>
+      mat_width <40>
+      mat_height <15>
+      mat_font_sis <arial, 9, normal>
+      mat_sort_order <normal>
+      man_start_object <trigger, "Play Area Downtown A - B">
+        act_replace_select_action
+            <
+            uni_start_stream
+            sm_m_send_token_arg <"U3", 0-2-8>
+            >
+          mat_art_id <1-0-1479>
+        man_start_sibling <trigger, "Play Area Downtown C - D">
+          act_replace_select_action
+              <
+              uni_start_stream
+              sm_m_send_token_arg <"U3", 0-2-9>
+              >
+            mat_art_id <1-0-1479>
+          man_start_sibling <trigger, "Play Area Downtown E - F">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"U3", 0-2-10>
+                >
+              mat_art_id <1-0-1479>
+            man_start_sibling <trigger, "Play Area Downtown G - H">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"U3", 0-2-11>
+                  >
+                mat_art_id <1-0-1479>
+              man_start_sibling <trigger, "Play Area Downtown I - J">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"U3", 0-2-12>
+                    >
+                  mat_art_id <1-0-1479>
+                man_start_sibling <trigger, "Play Area Downtown K - L">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"U3", 0-2-13>
+                      >
+                    mat_art_id <1-0-1479>
+                  man_start_sibling <trigger, "Play Area Downtown M - N">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"U3", 0-2-14>
+                        >
+                      mat_art_id <1-0-1479>
+                    man_start_sibling <trigger, "Play Area Downtown O - P">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"U3", 0-2-15>
+                          >
+                        mat_art_id <1-0-1479>
+                      man_start_sibling <trigger, "Play Area Downtown Q - R">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"U3", 0-2-16>
+                            >
+                          mat_art_id <1-0-1479>
+                        man_start_sibling <trigger, "Play Area Downtown S - T">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"U3", 0-2-17>
+                              >
+                            mat_art_id <1-0-1479>
+                          man_start_sibling <trigger, "Play Area Downtown U - V">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"U3", 0-2-18>
+                                >
+                              mat_art_id <1-0-1479>
+                            man_start_sibling <trigger, "Play Area Downtown W - X">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"U3", 0-2-19>
+                                  >
+                                mat_art_id <1-0-1479>
+                              man_start_sibling <trigger, "Play Area Downtown Y - Z">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"U3", 0-2-20>
+                                    >
+                                  mat_art_id <1-0-1479>
+                                man_end_object
+                              man_end_object
+                              man_update_display
+                            man_update_woff_end_stream

@@ -1,0 +1,74 @@
+uni_start_stream
+  man_start_object <ind_group, "Data Storage Update">
+    mat_orientation <vff>
+    mat_precise_width <471>
+    mat_precise_height <322>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "Data Storage Update">
+      mat_precise_width <361>
+      mat_precise_height <35>
+      mat_precise_x <56>
+      mat_precise_y <7>
+      mat_font_sis <arial, 14, normal>
+      mat_orientation <hcc>
+    man_start_sibling <view, "">
+      mat_precise_width <426>
+      mat_precise_height <220>
+      mat_precise_x <30>
+      mat_precise_y <53>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      man_append_data <"One of the services provided to you by Internal Co">
+      man_append_data <"mputing is secure data file storage.  A number of ">
+      man_append_data <"servers have been configured throughout our networ">
+      man_append_data <"k environment to provide you with this service.  T">
+      man_append_data <"his space is made available to you for business pu">
+      man_append_data <"rposes only.  Each individual user of network file">
+      man_append_data <" services has the capability of storing business-r">
+      man_append_data <"elated files on these corporate resources.  \r\n\r\nBu">
+      man_append_data <"siness-related data files are stored primarily in ">
+      man_append_data <"one of two locations on a network file server, pre">
+      man_append_data <"ferably a departmental/workgroup folder or a user'">
+      man_append_data <"s personal folder.  These areas are not appropriat">
+      man_append_data <"e for storage of applications, games, or system fi">
+      man_append_data <"les like AOL, Doom, Quake or the Microsoft product">
+      man_append_data <"s.  These are all taking up valuable corporate res">
+      man_append_data <"ources:  disk space, backup resources, and adminis">
+      man_append_data <"tration.\r\n\r\nIC establishes storage areas for depar">
+      man_append_data <"tments/workgroups.  These areas are made visible o">
+      man_append_data <"nly to members of the group.  Many groups find sha">
+      man_append_data <"red network storage a very effective way to keep m">
+      man_append_data <"embers of the group coordinated.  They may store c">
+      man_append_data <"urrent drafts of work in progress, status informat">
+      man_append_data <"ion in a spreadsheet or database file, and may use">
+      man_append_data <" the shared space as part of a department specific">
+      man_append_data <" application.  It is expected that the majority of">
+      man_append_data <" file services that you will use will be stored in">
+      man_append_data <" departmental/workgroup storage areas.\r\n\r\nIn addit">
+      man_append_data <"ion, every user has a folder set aside for persona">
+      man_append_data <"l private file storage. This folder is limited to ">
+      man_append_data <"10 MB for each user.  If you have used more than t">
+      man_append_data <"hat amount, you will be unable to save files to yo">
+      man_append_data <"ur personal folder.  Existing servers are being cl">
+      man_append_data <"eaned up to conform to this structure.  Neither of">
+      man_append_data <" these two areas, departmental/workgroup directory">
+      man_append_data <"/folder or a user's personal directory/folder, sho">
+      man_append_data <"uld contain applications - unless you're a develop">
+      man_append_data <"er, in which case applications are your data. \r\n\r\n">
+      man_append_data <"Keep in mind - although prices of computer compone">
+      man_append_data <"nts continue to drop many other costs go into the ">
+      man_append_data <"overall cost of support of the network file server">
+      man_append_data <"s.  The backup, organization and restoral of files">
+      man_append_data <" is a major part of the price of all file storage ">
+      man_append_data <"costs.  As the continued success of AOL is importa">
+      man_append_data <"nt to each of us, please use corporate resources w">
+      man_append_data <"isely.\r\n">
+      man_end_data
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

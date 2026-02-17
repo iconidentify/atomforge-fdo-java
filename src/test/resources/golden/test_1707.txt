@@ -1,0 +1,36 @@
+uni_start_stream
+  man_start_object <ind_group, "Forums & IP's">
+    mat_orientation <vff>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-25506>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <ornament, "Forums and Information Providers">
+        mat_relative_tag <3>
+        mat_width <31>
+        mat_height <1>
+        mat_font_sis <times_roman, 18, bold>
+        mat_color_text <0, 0, 1>
+        mat_orientation <hlf>
+      man_start_sibling <view, "">
+        mat_bool_writeable <yes>
+        mat_width <55>
+        mat_height <14>
+        mat_font_sis <arial, 10, normal>
+        mat_bool_vertical_scroll <yes>
+        man_append_data <"f a member wants to become an information provider">
+        man_append_data <" or wants to start a forum, they should be transfe">
+        man_append_data <"rred to extension 7304. This is a voice mailbox cr">
+        man_append_data <"eated to handle such requests. Reps can refer call">
+        man_append_data <"ers to 703/448-8700 ext 7304.\r\n\r\nFor INTERNAL use ">
+        man_append_data <"only:   Inhouse contact is Toni Medeiros(TMedeiros">
+        man_append_data <"2)\r\n\r\nTransmitted: 05/04/96 14:22">
+        man_end_data
+        mat_relative_tag <1>
+      man_end_object
+    man_end_object
+    man_update_display
+  man_update_woff_end_stream

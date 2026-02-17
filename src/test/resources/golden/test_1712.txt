@@ -1,0 +1,301 @@
+uni_start_stream
+  man_start_object <ind_group, "Phone List O">
+    mat_orientation <vff>
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <org_group, "">
+      mat_orientation <vff>
+      mat_bool_resize_vertical <yes>
+      mat_bool_resize_horizontal <yes>
+      man_start_object <org_group, "">
+        mat_orientation <hlf>
+        man_start_object <ornament, "">
+          mat_relative_tag <120>
+          mat_art_id <1-0-23737>
+          mat_font_sis <small_fonts, 7, normal>
+        man_start_sibling <ornament, "">
+          mat_relative_tag <3>
+          mat_width <29>
+          mat_height <1>
+          mat_font_sis <arial, 18, normal>
+          mat_orientation <hlf>
+        man_end_object
+      man_start_sibling <org_group, "">
+        mat_orientation <hff>
+        mat_bool_resize_vertical <yes>
+        mat_bool_resize_horizontal <yes>
+        man_start_object <dss_list, "">
+          mat_relative_tag <30>
+          mat_width <63>
+          mat_height <10>
+          mat_font_sis <arial, 9, normal>
+          mat_sort_order <normal>
+          man_start_object <trigger, "O'BRIEN, J.D. - 904-357-7086 - JDOBrienJX">
+            act_replace_select_action
+                <
+                uni_start_stream
+                sm_m_send_token_arg <"t1", 0-60-12951>
+                >
+              mat_art_id <1-0-1478>
+            man_start_sibling <trigger, "O'BRIEN, MIKE - 703-265-3158 - JMOBrien1">
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                  sm_m_send_token_arg <"t1", 0-60-12952>
+                  >
+                mat_art_id <1-0-1478>
+              man_start_sibling <trigger, "O'CONNELL, DANIEL - 703-918-1928 - DanOConnl">
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                    sm_m_send_token_arg <"t1", 0-60-12953>
+                    >
+                  mat_art_id <1-0-1478>
+                man_start_sibling <trigger, "O'CONNELL, LORI - 703-265-2938 - LoriOCon">
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                      sm_m_send_token_arg <"t1", 0-60-12954>
+                      >
+                    mat_art_id <1-0-1478>
+                  man_start_sibling <trigger, "O'CONNELL, MATTHEW - 703-918-1994 - MJOConnell">
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                        sm_m_send_token_arg <"t1", 0-60-12955>
+                        >
+                      mat_art_id <1-0-1478>
+                    man_start_sibling <trigger, "O'DONOVAN, VERONICA - 650-356-5478 - vero@webcrawler.com">
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                          sm_m_send_token_arg <"t1", 0-60-12958>
+                          >
+                        mat_art_id <1-0-1478>
+                      man_start_sibling <trigger, "O'LAUGHLEN, ERIC - 703-918-2142 - EOLaughlen">
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                            sm_m_send_token_arg <"t1", 0-60-12959>
+                            >
+                          mat_art_id <1-0-1478>
+                        man_start_sibling <trigger, "O'LUANAIGH, BILL - 703-265-3842 - BillLooney">
+                          act_replace_select_action
+                              <
+                              uni_start_stream
+                              sm_m_send_token_arg <"t1", 0-60-12960>
+                              >
+                            mat_art_id <1-0-1478>
+                          man_start_sibling <trigger, "O'NEILL, AMY - 520-733-7564 - AmyHR">
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                sm_m_send_token_arg <"t1", 0-60-12961>
+                                >
+                              mat_art_id <1-0-1478>
+                            man_start_sibling <trigger, "OCKEY, MARK - 801-622-7802 - MOckeyUT">
+                              act_replace_select_action
+                                  <
+                                  uni_start_stream
+                                  sm_m_send_token_arg <"t1", 0-60-12962>
+                                  >
+                                mat_art_id <1-0-1478>
+                              man_start_sibling <trigger, "ODELL, JEFF - 714-823-4110 - JGO123">
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                    sm_m_send_token_arg <"t1", 0-60-12963>
+                                    >
+                                  mat_art_id <1-0-1478>
+                                man_start_sibling <trigger, "OGDEN, JOHN - 650-287-4205 - JOgden">
+                                  act_replace_select_action
+                                      <
+                                      uni_start_stream
+                                      sm_m_send_token_arg <"t1", 0-60-12964>
+                                      >
+                                    mat_art_id <1-0-1478>
+                                  man_start_sibling <trigger, "OGULIN, JOE - 703-265-5520 - JoeOgulin">
+                                    act_replace_select_action
+                                        <
+                                        uni_start_stream
+                                        sm_m_send_token_arg <"t1", 0-60-12965>
+                                        >
+                                      mat_art_id <1-0-1478>
+                                    man_start_sibling <trigger, "OLIVEAU, KEVIN - 703-918-2032 - Oliveau">
+                                      act_replace_select_action
+                                          <
+                                          uni_start_stream
+                                          sm_m_send_token_arg <"t1", 0-60-12968>
+                                          >
+                                        mat_art_id <1-0-1478>
+                                      man_start_sibling <trigger, "OLIVERES, JASON - 904-357-7124 - JFOliverJX">
+                                        act_replace_select_action
+                                            <
+                                            uni_start_stream
+                                            sm_m_send_token_arg <"t1", 0-60-13031>
+                                            >
+                                          mat_art_id <1-0-1478>
+                                        man_start_sibling <trigger, "OLMSTEAD, BRAD - 520-733-7575 - Byolmstead">
+                                          act_replace_select_action
+                                              <
+                                              uni_start_stream
+                                              sm_m_send_token_arg <"t1", 0-60-13032>
+                                              >
+                                            mat_art_id <1-0-1478>
+                                          man_start_sibling <trigger, "OLSEN, BECKY - 801-622-7821 - BOlsenUT">
+                                            act_replace_select_action
+                                                <
+                                                uni_start_stream
+                                                sm_m_send_token_arg <"t1", 0-60-13034>
+                                                >
+                                              mat_art_id <1-0-1478>
+                                            man_start_sibling <trigger, "ONG,  BILL - 650-525-4058 - BillOng">
+                                              act_replace_select_action
+                                                  <
+                                                  uni_start_stream
+                                                  sm_m_send_token_arg <"t1", 0-60-13035>
+                                                  >
+                                                mat_art_id <1-0-1478>
+                                              man_start_sibling <trigger, "ONG, MARK - 703-265-2974 - MarkOng1">
+                                                act_replace_select_action
+                                                    <
+                                                    uni_start_stream
+                                                    sm_m_send_token_arg <"t1", 0-60-13039>
+                                                    >
+                                                  mat_art_id <1-0-1478>
+                                                man_start_sibling <trigger, "ONUFREICZUK, CHRISTINE - 703-265-3423 - ChrisoHR">
+                                                  act_replace_select_action
+                                                      <
+                                                      uni_start_stream
+                                                      sm_m_send_token_arg <"t1", 0-60-13040>
+                                                      >
+                                                    mat_art_id <1-0-1478>
+                                                  man_start_sibling <trigger, "ORMSBY, RUDY - 520-733-7575 - RudyOrmsby">
+                                                    act_replace_select_action
+                                                        <
+                                                        uni_start_stream
+                                                        sm_m_send_token_arg <"t1", 0-60-13043>
+                                                        >
+                                                      mat_art_id <1-0-1478>
+                                                    man_start_sibling <trigger, "ORPHAL, JONATHAN - 505-342-6066 - Orphaljon">
+                                                      act_replace_select_action
+                                                          <
+                                                          uni_start_stream
+                                                          sm_m_send_token_arg <"t1", 0-60-13044>
+                                                          >
+                                                        mat_art_id <1-0-1478>
+                                                      man_start_sibling <trigger, "ORTEGA, JEFFERY - 405-440-6600 - JeffOrtega">
+                                                        act_replace_select_action
+                                                            <
+                                                            uni_start_stream
+                                                            sm_m_send_token_arg <"t1", 0-60-13045>
+                                                            >
+                                                          mat_art_id <1-0-1478>
+                                                        man_start_sibling <trigger, "OSBORN, AMY - 703-265-3743 - APOsborn">
+                                                          act_replace_select_action
+                                                              <
+                                                              uni_start_stream
+                                                              sm_m_send_token_arg <"t1", 0-60-13046>
+                                                              >
+                                                            mat_art_id <1-0-1478>
+                                                          man_start_sibling <trigger, "OSIO, KATRINA - 703-265-3763 - KMOsio">
+                                                            act_replace_select_action
+                                                                <
+                                                                uni_start_stream
+                                                                sm_m_send_token_arg <"t1", 0-60-13047>
+                                                                >
+                                                              mat_art_id <1-0-1478>
+                                                            man_start_sibling <trigger, "OSMUN, LAURA - 703-265-1926 - INDTemp">
+                                                              act_replace_select_action
+                                                                  <
+                                                                  uni_start_stream
+                                                                  sm_m_send_token_arg <"t1", 0-60-13048>
+                                                                  >
+                                                                mat_art_id <1-0-1478>
+                                                              man_start_sibling <trigger, "OSTER, DYLAN - 801-622-7802 - DylanOster">
+                                                                act_replace_select_action
+                                                                    <
+                                                                    uni_start_stream
+                                                                    sm_m_send_token_arg <"t1", 0-60-13049>
+                                                                    >
+                                                                  mat_art_id <1-0-1478>
+                                                                man_start_sibling <trigger, "OSWALD, PETER - 703-265-4578 - PJOswald">
+                                                                  act_replace_select_action
+                                                                      <
+                                                                      uni_start_stream
+                                                                      sm_m_send_token_arg <"t1", 0-60-13050>
+                                                                      >
+                                                                    mat_art_id <1-0-1478>
+                                                                  man_start_sibling <trigger, "OUELLETTE, ROGER - 505-342-6054 - RROuellett">
+                                                                    act_replace_select_action
+                                                                        <
+                                                                        uni_start_stream
+                                                                        sm_m_send_token_arg <"t1", 0-60-13051>
+                                                                        >
+                                                                      mat_art_id <1-0-1478>
+                                                                    man_start_sibling <trigger, "OUGHOURLI, DIANA - 703-265-3452 - Diana8">
+                                                                      act_replace_select_action
+                                                                          <
+                                                                          uni_start_stream
+                                                                          sm_m_send_token_arg <"t1", 0-60-13052>
+                                                                          >
+                                                                        mat_art_id <1-0-1478>
+                                                                      man_start_sibling <trigger, "OULTON, DENNY - 703-265-3037 - Denoulton">
+                                                                        act_replace_select_action
+                                                                            <
+                                                                            uni_start_stream
+                                                                            sm_m_send_token_arg <"t1", 0-60-13054>
+                                                                            >
+                                                                          mat_art_id <1-0-1478>
+                                                                        man_start_sibling <trigger, "OWEN, JEFFREY - 703-265-4150 - JeffPOwen">
+                                                                          act_replace_select_action
+                                                                              <
+                                                                              uni_start_stream
+                                                                              sm_m_send_token_arg <"t1", 0-60-13057>
+                                                                              >
+                                                                            mat_art_id <1-0-1478>
+                                                                          man_start_sibling <trigger, "OWENS, JOHN (II) - 703-918-1975 - Jbowens">
+                                                                            act_replace_select_action
+                                                                                <
+                                                                                uni_start_stream
+                                                                                sm_m_send_token_arg <"t1", 0-60-13060>
+                                                                                >
+                                                                              mat_art_id <1-0-1478>
+                                                                            man_start_sibling <trigger, "Owens, John - 703-265-4746 - JMOwens">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream
+                                                                                  sm_m_send_token_arg <"t1", 0-60-13059>
+                                                                                  >
+                                                                                mat_art_id <1-0-1478>
+                                                                              man_end_object
+                                                                            man_end_object
+                                                                          man_start_sibling <org_group, "">
+                                                                            mat_orientation <hef>
+                                                                            man_start_object <trigger, "Open">
+                                                                              act_replace_select_action
+                                                                                  <
+                                                                                  uni_start_stream <00x>
+                                                                                  sm_do_list_action <30>
+                                                                                  >
+                                                                                mat_font_sis <system, 12, normal>
+                                                                                mat_bool_default <yes>
+                                                                              man_start_sibling <trigger, "More">
+                                                                                mat_bool_disabled <yes>
+                                                                                mat_relative_tag <26>
+                                                                                act_replace_select_action
+                                                                                    <
+                                                                                    uni_wait_on
+                                                                                    uni_start_stream
+                                                                                      buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                                                                      buf_set_token <"Cc">
+                                                                                      buf_add_atom_pointer <01x, 00x, 3cx, 04x, a4x, 00x, 14x>
+                                                                                      buf_close_buffer
+                                                                                    uni_end_stream
+                                                                                    >
+                                                                                  mat_font_sis <system, 12, normal>
+                                                                                man_end_object
+                                                                              man_end_object
+                                                                            man_end_object
+                                                                            man_update_display
+                                                                          man_update_woff_end_stream

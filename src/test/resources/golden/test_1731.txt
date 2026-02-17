@@ -1,0 +1,57 @@
+uni_start_stream
+  man_start_object <ind_group, "ICCC Room Update">
+    mat_orientation <vff>
+    mat_precise_width <471>
+    mat_precise_height <322>
+    mat_bool_precise <yes>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-7229>
+    mat_bool_background_tile <yes>
+    man_start_object <ornament, "ICCC Room Update">
+      mat_precise_width <460>
+      mat_precise_height <35>
+      mat_precise_x <6>
+      mat_precise_y <7>
+      mat_font_sis <arial, 14, normal>
+      mat_orientation <hcc>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_bool_read_only <yes>
+      mat_precise_width <451>
+      mat_precise_height <246>
+      mat_precise_x <9>
+      mat_precise_y <56>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_vertical_scroll <yes>
+      mat_relative_tag <1>
+    man_end_object
+    man_update_display
+    man_set_context_relative <1>
+    man_append_data <"<HTML><PRE>This is to keep everyone up to date on ">
+    man_append_data <"the progress of the computer room in Reston for In">
+    man_append_data <"ternal Computing. After several delays, the long a">
+    man_append_data <"waited computer room for Internal Computing is clo">
+    man_append_data <"ser to becoming a reality. The space has been iden">
+    man_append_data <"tified and appropriate power, air conditioning and">
+    man_append_data <" fire protectant is being installed, the one item ">
+    man_append_data <"that is slowing progress is the installation of th">
+    man_append_data <"e a/c unit (due to the UPS strike).\x7f\x7f<U><B>Phase I">
+    man_append_data <": (Sept 17th)\x7f</U></B>o Move of the QA Lab (approx">
+    man_append_data <" 9/17)\x7fo Ethernet Connectivity to the Computer Roo">
+    man_append_data <"m (completed 9/2)\x7fo Power requirements submitted t">
+    man_append_data <"o facilities (completed 9/2)\x7fo Furniture requireme">
+    man_append_data <"nts submitted to facilities (approx 9/5)\x7fo Cabinet">
+    man_append_data <" requirements submitted to John Kraftchek (complet">
+    man_append_data <"ed 9/2)\x7fo Phones installed (completed 9/10)\x7f\x7f<U><B">
+    man_append_data <">Phase II: (Sept 30th)</U></B>\x7fo Conduits installe">
+    man_append_data <"d between LAN Closets and Computer Room (9/30)\x7fo I">
+    man_append_data <"dentify the number of routers to move (completed 8">
+    man_append_data <"/29)\x7fo Identify the number of servers to move (com">
+    man_append_data <"pleted 8/29)\x7fo Install fiber connectivity to compu">
+    man_append_data <"ter room (9/30-10/31)\x7f\x7fPlease contact me if you ha">
+    man_append_data <"ve any questions.\x7f\x7fDave\x7f</PRE></HTML>">
+    man_end_data
+    man_end_context
+  man_update_woff_end_stream

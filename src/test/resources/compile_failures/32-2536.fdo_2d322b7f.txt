@@ -1,0 +1,92 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Kurierdienst starten">
+    mat_object_id <32-2536>
+    mat_style_id <32-2536>
+    mat_orientation <vff>
+    mat_precise_width <360>
+    mat_precise_height <250>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_precise_width <344>
+      mat_precise_height <170>
+      mat_font_sis <arial, 8, normal>
+      man_append_data <"W�hlen Sie "Starten", um den Kurierdienst f�r Ihre AOL-Namen jetzt zu aktivieren. Die von Ihnen eingestellten Aufgaben werden dann ausgef�hrt. Mit "Einstellungen" k�nnen Sie den geplanten Kurierdienst bearbeiten.\x7f\x7fHinweis: Dateien unbekannter Herkunft k�nnen Viren enthalten und Ihrem Computersystem dadurch Schaden zuf�gen! Vergewissern Sie sich daher bitte �ber den Ursprung von Dateien, bevor Sie einen Kurierdienst starten. Um neue eMail auch ohne Anhang zu erhalten, w�hlen Sie "Einstellungen" und �ndern die entsprechende Option. F�r weitere Infos w�hlen Sie bitte das AOL-Stichwort: SICHERHEIT.\x7f\x7f">
+    man_start_sibling <sms_list, "">
+      mat_orientation <hff>
+      man_start_object <trigger, "Danach nicht abmelden">
+        mat_precise_x <8>
+        mat_precise_y <180>
+        mat_relative_tag <1>
+        mat_bool_default_send <no>
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_width <208>
+      mat_precise_height <30>
+      man_start_object <trigger, "Starten">
+        mat_precise_x <36>
+        mat_precise_y <213>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_bool_default <yes>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              man_set_context_relative <1>
+              de_set_data_type <default>
+              de_get_data_value
+              uni_save_result
+              man_end_context
+              man_close_update
+              de_end_extraction
+              uni_get_result
+              if_last_return_true_then <1, 2>
+              mip_action_command <0ex>
+              uni_sync_skip <1>
+              mip_action_command <09x>
+              uni_sync_skip <2>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "Einstellungen">
+          mat_precise_x <134>
+          mat_precise_y <213>
+          mat_precise_width <90>
+          mat_precise_height <23>
+          mat_trigger_style <14>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_exists <20-0-62>
+                if_last_return_true_then <1, 2>
+                uni_invoke_no_context <32-2506>
+                uni_sync_skip <1>
+                uni_invoke_no_context <32-2507>
+                uni_sync_skip <2>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "Abbrechen">
+            mat_precise_x <250>
+            mat_precise_y <213>
+            mat_precise_width <80>
+            mat_precise_height <23>
+            mat_trigger_style <14>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

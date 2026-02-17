@@ -1,0 +1,68 @@
+uni_start_stream <01x>
+  man_start_object <ind_group, "">
+    mat_bool_modal <yes>
+    uni_next_atom_typed <ascii>
+    mat_title <"New Window Delta">
+    mat_orientation <vef>
+    mat_bool_background_flood <yes>
+    mat_color_face <255, 255, 255>
+    man_start_object <ornament, "">
+      rich_manage
+      rich_set_static
+      mat_relative_tag <1>
+      mat_height <7>
+      mat_width <40>
+      mat_font_sis <arial, 8, normal>
+      mat_color_text <1, 1, 1>
+      uni_next_atom_typed <ascii>
+      man_append_data <"view complex delta south special right dynamic sigma. primary invoke main secondary create load create process. secondary section current main process center start object. open create current close label process refresh frame. corner execute update advanced dialog delete current primary. fourth object process gadget standard dynamic refresh">
+    man_end_object
+    man_start_object <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "">
+        mat_trigger_style <default>
+        mat_bool_default <yes>
+        mat_title_width <7>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_font_id <arial>
+        uni_next_atom_typed <ascii>
+        mat_title <"OK">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+          uni_end_stream
+          >
+      man_end_object
+      man_start_object <trigger, "">
+        mat_trigger_style <default>
+        mat_title_width <23>
+        mat_color_face <0, 51, 153>
+        mat_color_text <255, 255, 255>
+        mat_color_top_edge <102, 153, 204>
+        mat_color_bottom_edge <0, 0, 102>
+        mat_font_size <8>
+        mat_font_id <arial>
+        uni_next_atom_typed <ascii>
+        mat_title <"Basic Edge South">
+        act_set_criterion <select>
+        act_append_action
+          <
+          uni_start_stream <01x>
+            man_close
+            man_update_display
+            sm_enter_paid
+            xfer_invoke_dl_manager
+          uni_end_stream
+          >
+      man_end_object
+    man_end_object
+  man_update_end_object
+  uni_wait_clear
+uni_end_stream

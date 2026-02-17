@@ -1,0 +1,294 @@
+uni_start_stream
+  man_start_object <ind_group, "">
+    mat_orientation <vlf>
+    mat_object_id <32-225>
+    uni_next_atom_typed <ascii>
+    mat_title <"Main Component Edge">
+    mat_style_id <32-223>
+    mat_bool_background_flood <yes>
+    mat_bool_background_tile <yes>
+    mat_art_id <1-0-38936>
+    act_set_criterion <210>
+    act_replace_action
+        <
+        uni_start_stream
+          man_set_context_relative <2>
+          rich_get_text_style
+          var_number_set_from_atom <A>
+          man_change_context_relative <42>
+          var_number_get <A>
+          var_number_set <B, 1>
+          if_numa_and_numb_then <1, 2>
+          mat_value <1>
+          uni_sync_skip <1>
+          mat_value <0>
+          uni_sync_skip <2>
+          man_change_context_relative <43>
+          var_number_get <A>
+          var_number_set <B, 2>
+          if_numa_and_numb_then <1, 2>
+          mat_value <1>
+          uni_sync_skip <1>
+          mat_value <0>
+          uni_sync_skip <2>
+          man_change_context_relative <44>
+          var_number_get <A>
+          var_number_set <B, 4>
+          if_numa_and_numb_then <1, 2>
+          mat_value <1>
+          uni_sync_skip <1>
+          mat_value <0>
+          uni_sync_skip <2>
+          man_end_context
+          man_update_display
+        uni_end_stream
+        >
+      man_start_object <edit_view, "">
+        mat_height <1>
+        mat_width <25>
+        mat_capacity <20>
+        mat_validation <128>
+        mat_relative_tag <1>
+        uni_next_atom_typed <ascii>
+        mat_title <"thi">
+        mat_title_pos <left | center>
+      man_start_sibling <org_group, "">
+        mat_orientation <vft>
+        man_start_object <org_group, "">
+          mat_orientation <hlt>
+          mat_bool_tool_group <yes>
+          mat_bool_resize_horizontal <yes>
+          mat_bool_resize_vertical <yes>
+          man_start_object <org_group, "">
+            mat_orientation <hft>
+            man_start_object <trigger, "">
+              uni_next_atom_typed <ascii>
+              mat_context_help <"New Screen">
+              mat_relative_tag <60>
+              mat_horizontal_spacing <0>
+              mat_vertical_spacing <2>
+              mat_art_id <1-0-31462>
+              mat_bool_small_icon <yes>
+              act_replace_select_action
+                  <
+                  uni_start_stream
+                    rich_text_color
+                  uni_end_stream
+                  >
+              man_start_sibling <trigger, "">
+                uni_next_atom_typed <ascii>
+                mat_context_help <"Special Left Omega">
+                mat_relative_tag <61>
+                mat_horizontal_spacing <3>
+                mat_art_id <1-0-31463>
+                mat_bool_small_icon <yes>
+                act_replace_select_action
+                    <
+                    uni_start_stream
+                      rich_background_color
+                    uni_end_stream
+                    >
+                man_end_object
+              man_start_sibling <org_group, "">
+                mat_orientation <hft>
+                man_start_object <trigger, "">
+                  uni_next_atom_typed <ascii>
+                  mat_context_help <"Complex Label South">
+                  mat_art_id <1-0-31459>
+                  mat_bool_small_icon <yes>
+                  mat_relative_tag <41>
+                  mat_horizontal_spacing <0>
+                  act_replace_select_action
+                      <
+                      uni_start_stream
+                        rich_font_size <1>
+                      uni_end_stream
+                      >
+                  man_start_sibling <trigger, "">
+                    uni_next_atom_typed <ascii>
+                    mat_context_help <"Simple Theta">
+                    mat_relative_tag <64>
+                    mat_horizontal_spacing <0>
+                    mat_art_id <1-0-31460>
+                    mat_bool_small_icon <yes>
+                    act_replace_select_action
+                        <
+                        uni_start_stream
+                          rich_font_size <3>
+                        uni_end_stream
+                        >
+                    man_start_sibling <trigger, "">
+                      uni_next_atom_typed <ascii>
+                      mat_context_help <"Simple Theta Object">
+                      mat_relative_tag <65>
+                      mat_horizontal_spacing <3>
+                      mat_art_id <1-0-31461>
+                      mat_bool_small_icon <yes>
+                      act_replace_select_action
+                          <
+                          uni_start_stream
+                            rich_font_size <7>
+                          uni_end_stream
+                          >
+                      man_end_object
+                    man_start_sibling <sms_list, "">
+                      mat_orientation <hlt>
+                      mat_bool_list_icons <yes>
+                      man_start_object <trigger, "">
+                        uni_next_atom_typed <ascii>
+                        mat_context_help <"bott">
+                        mat_relative_tag <42>
+                        mat_precise_height <19>
+                        mat_precise_width <24>
+                        mat_horizontal_spacing <0>
+                        mat_trigger_style <group_state>
+                        mat_art_id <1-0-40059>
+                        mat_bool_small_icon <yes>
+                        act_replace_select_action
+                            <
+                            uni_start_stream
+                              rich_font_attribute <1>
+                            uni_end_stream
+                            >
+                          act_set_criterion <23>
+                          act_replace_action
+                              <
+                              uni_start_stream
+                                rich_font_attribute <1>
+                              uni_end_stream
+                              >
+                          man_start_sibling <trigger, "">
+                            uni_next_atom_typed <ascii>
+                            mat_context_help <"Sub Front">
+                            mat_relative_tag <43>
+                            mat_horizontal_spacing <0>
+                            mat_trigger_style <group_state>
+                            mat_precise_height <19>
+                            mat_precise_width <24>
+                            mat_art_id <1-0-40060>
+                            mat_bool_small_icon <yes>
+                            act_replace_select_action
+                                <
+                                uni_start_stream
+                                  rich_font_attribute <2>
+                                uni_end_stream
+                                >
+                              act_set_criterion <23>
+                              act_replace_action
+                                  <
+                                  uni_start_stream
+                                    rich_font_attribute <2>
+                                  uni_end_stream
+                                  >
+                              man_start_sibling <trigger, "">
+                                uni_next_atom_typed <ascii>
+                                mat_context_help <"Sub Block">
+                                mat_relative_tag <44>
+                                mat_horizontal_spacing <3>
+                                mat_trigger_style <group_state>
+                                mat_art_id <1-0-31466>
+                                mat_bool_small_icon <yes>
+                                act_replace_select_action
+                                    <
+                                    uni_start_stream
+                                      rich_font_attribute <4>
+                                    uni_end_stream
+                                    >
+                                  act_set_criterion <23>
+                                  act_replace_action
+                                      <
+                                      uni_start_stream
+                                        rich_font_attribute <4>
+                                      uni_end_stream
+                                      >
+                                  man_end_object
+                                man_end_object
+                              man_start_sibling <edit_view, "">
+                                rich_manage
+                                rich_allow_embeds <no>
+                                rich_ignore_tabs <yes>
+                                mat_field_script <latin>
+                                mat_encode_type <00x>
+                                mat_precise_height <80>
+                                mat_precise_width <320>
+                                mat_capacity <512>
+                                mat_validation <128>
+                                mat_relative_tag <2>
+                                mat_bool_first_script <no>
+                                mat_bool_writeable <yes>
+                              man_end_object
+                            man_start_sibling <org_group, "">
+                              mat_orientation <hcf>
+                              uni_next_atom_typed <ascii>
+                              man_start_object <trigger, "Custom Alpha">
+                                uni_next_atom_typed <ascii>
+                                mat_context_help <"Advanced Omega Sub\x7fDynamic East Beta">
+                                mat_command_key <0dx>
+                                mat_bool_precise <yes>
+                                mat_precise_width <90>
+                                mat_precise_height <23>
+                                mat_font_sis <ms_sans_serif, 8, bold>
+                                mat_color_face <72, 109, 170>
+                                mat_color_text <255, 255, 255>
+                                mat_color_top_edge <182, 182, 255>
+                                mat_color_bottom_edge <36, 36, 85>
+                                mat_color_text_shadow <36, 36, 85>
+                                mat_color_frame_hilight <182, 182, 255>
+                                mat_color_frame_shadow <1, 32, 85>
+                                mat_horizontal_spacing <3>
+                                act_set_criterion <select>
+                                act_append_action
+                                  <
+                                  uni_start_stream
+                                    uni_wait_on
+                                    de_validate <display_msg | terminate>
+                                    buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    de_start_extraction
+                                    uni_next_atom_typed <ascii>
+                                    buf_set_token <"iS">
+                                    man_set_context_relative <1>
+                                    de_get_data
+                                    man_change_context_relative <2>
+                                    de_get_data
+                                    man_end_context
+                                    de_end_extraction
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                                uni_next_atom_typed <ascii>
+                              man_start_sibling <trigger, "Complex Frame">
+                                uni_next_atom_typed <ascii>
+                                mat_context_help <"Advanced Main Epsilon\x7fStatic View">
+                                mat_bool_precise <yes>
+                                mat_precise_width <80>
+                                mat_precise_height <23>
+                                mat_font_sis <ms_sans_serif, 8, bold>
+                                mat_color_face <72, 109, 170>
+                                mat_color_text <255, 255, 255>
+                                mat_color_top_edge <182, 182, 255>
+                                mat_color_bottom_edge <36, 36, 85>
+                                mat_color_selected <218, 218, 218>
+                                mat_color_frame_hilight <182, 182, 255>
+                                mat_color_frame_shadow <36, 36, 85>
+                                mat_color_text_shadow <36, 36, 85>
+                                mat_horizontal_spacing <2>
+                                act_set_criterion <select>
+                                act_append_action
+                                  <
+                                  uni_start_stream
+                                    uni_wait_on
+                                    buf_start_buffer <token_header | stream_id_header | host_bound | start_stream_header | end_stream_trailer | response_id_header>
+                                    de_start_extraction
+                                    uni_next_atom_typed <ascii>
+                                    buf_set_token <"iO">
+                                    man_set_context_relative <1>
+                                    de_get_data
+                                    man_end_context
+                                    de_end_extraction
+                                    buf_close_buffer
+                                  uni_end_stream
+                                  >
+                              man_end_object
+                            man_end_object
+                            man_update_display
+                          uni_end_stream

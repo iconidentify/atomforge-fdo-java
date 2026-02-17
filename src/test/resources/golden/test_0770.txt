@@ -1,0 +1,118 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Advanced Screen Object">
+    mat_object_id <32-7771>
+    mat_style_id <32-7771>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <195>
+    mat_color_face <255, 251, 240>
+    mat_object_id <32-2510>
+    mat_style_id <32-2510>
+    mat_title <"Complex Delta Item">
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "First Back Side">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <20, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <view, "">
+      rich_manage
+      rich_set_static
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_font_size <8>
+      mat_precise_width <400>
+      mat_precise_height <100>
+      mat_bool_vertical_scroll <no>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_bool_exportable <no>
+      mat_font_id <arial>
+      man_append_data <"close simple screen module advanced frame default west. button front refresh frame basic\x7f\x7fstart west advanced panel element close bottom view. load send handle process start execute frame back. center execute handle update front block center second. fourth">
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <155>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <50>
+        mat_precise_y <160>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_color_face <255, 153, 0>
+        mat_color_text <1, 1, 1>
+        mat_color_top_edge <255, 204, 0>
+        mat_trigger_style <rectangle>
+        mat_font_size <8>
+        mat_title <"ele">
+        mat_bool_default <yes>
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              man_close_update
+              idb_start_obj <"b">
+              idb_atr_globalid <20-0-59>
+              var_number_set <A, 1>
+              uni_use_last_atom_value <idb_append_data>
+              idb_end_obj
+              uni_invoke_no_context <32-2511>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <181>
+          mat_precise_y <160>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_color_face <255, 153, 0>
+          mat_color_text <1, 1, 1>
+          mat_color_top_edge <255, 204, 0>
+          mat_color_bottom_edge <255, 204, 0>
+          mat_trigger_style <rectangle>
+          mat_font_size <8>
+          mat_title <"cor">
+          mat_font_id <arial>
+          act_replace_select_action
+              <
+              uni_start_stream
+                man_close_update
+                idb_start_obj <"b">
+                idb_atr_globalid <20-0-59>
+                var_number_set <A, 0>
+                uni_use_last_atom_value <idb_append_data>
+                idb_end_obj
+                uni_invoke_no_context <32-2511>
+              uni_end_stream
+              >
+          man_start_sibling <trigger, "">
+            mat_precise_x <309>
+            mat_precise_y <160>
+            mat_precise_width <70>
+            mat_precise_height <23>
+            mat_color_face <255, 153, 0>
+            mat_color_text <1, 1, 1>
+            mat_color_top_edge <255, 204, 0>
+            mat_color_bottom_edge <255, 204, 0>
+            mat_trigger_style <rectangle>
+            mat_font_size <8>
+            mat_title <"Second West">
+            mat_font_id <arial>
+            act_replace_select_action
+                <
+                uni_start_stream <00x>
+                  man_close_update
+                uni_end_stream <00x>
+                >
+            man_end_object
+          man_end_object
+          man_update_display
+          uni_wait_off
+        uni_end_stream <00x>

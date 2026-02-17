@@ -1,0 +1,97 @@
+uni_start_stream
+  man_start_object <ind_group, "AOL stock information">
+    mat_orientation <vcf>
+    mat_bool_resize_vertical <no>
+    mat_bool_resize_horizontal <no>
+    mat_context_help <"Like what you see here\x7fand want to come back?\x7f\x7fJust click here to\x7fadd this area to your\x7fFavorite Places.">
+    mat_art_id <1-0-2383>
+    mat_bool_background_tile <yes>
+    man_start_object <edit_view, "Symbol:">
+      mat_width <40>
+      mat_height <1>
+      mat_bool_resize_vertical <no>
+      mat_bool_resize_horizontal <no>
+      mat_title_pos <above | top_or_left>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      man_append_data <"Hidden Text Removed">
+      man_end_data
+      mat_bool_invisible <yes>
+      mat_relative_tag <1>
+    man_start_sibling <org_group, "">
+      mat_orientation <hff>
+      man_start_object <ornament, "">
+        mat_art_id <1-0-1307>
+        mat_font_sis <small_fonts, 7, normal>
+      man_start_sibling <ornament, "">
+        mat_relative_tag <2>
+        mat_width <20>
+        mat_height <1>
+        mat_font_sis <arial, 14, bold>
+        mat_orientation <hlf>
+      man_end_object
+    man_start_sibling <trigger, "Junk">
+      mat_bool_invisible <yes>
+      mat_relative_tag <12>
+      mat_font_sis <system, 12, normal>
+      mat_bool_default <yes>
+    man_start_sibling <view, "">
+      mat_width <38>
+      mat_height <12>
+      mat_font_sis <arial, 10, normal>
+      mat_bool_writeable <yes>
+      mat_bool_exportable <yes>
+      mat_bool_vertical_scroll <no>
+      mat_ruler <20>
+      man_append_data <"AOL - AMERICA ONLINE INC\r\nExchange:\tNYSE comp\r\nDel">
+      man_append_data <"ay:\tat least 20 minutes\r\nLast Price:\t127 5/8 at 16">
+      man_append_data <":15\r\nChange:\tUp 3 3/8  (+2.72%)\r\nHigh:\t127 5/8 at ">
+      man_append_data <"15:52\r\nLow:\t124 13/16 at 9:59\r\nOpen:\t125 3/8 \r\nPre">
+      man_append_data <"vious Close:\t124 1/4 on 3/12\r\nVolume:\t2,658,100\r\n3">
+      man_append_data <"0-Day Avg. Volume:\t2,533,000\r\nShares Outstanding:\t">
+      man_append_data <"105,106,000\r\n52-Week High:\t127.62\r\n52-Week Low:\t38">
+      man_append_data <".62\r\nBeta:\t1.59\r\nYield:\tNil\r\nP/E Ratio:\tNot Materi">
+      man_append_data <"al\r\nEPS:\t0.26\r\n\r\nS&P Comstock\r\n">
+      man_end_data
+      mat_relative_tag <3>
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      man_start_object <trigger, "Again">
+        mat_title_pos <below | center>
+        act_replace_select_action
+            <
+            uni_start_stream_wait_on <00x>
+            de_ez_send_form <"pq">
+            >
+          mat_font_sis <small_fonts, 7, normal>
+          mat_bool_resize_vertical <yes>
+          mat_art_id <1-0-4896>
+          mat_trigger_style <rectangle>
+          mat_bool_default <yes>
+        man_start_sibling <trigger, "Portfolio">
+          mat_title_pos <below | center>
+          act_replace_select_action
+              <
+              uni_start_stream_wait_on <00x>
+              sm_m_send_token_arg <"pf", 0-0-1>
+              >
+            mat_font_sis <small_fonts, 7, normal>
+            mat_bool_resize_vertical <yes>
+            mat_art_id <1-0-1858>
+            mat_trigger_style <rectangle>
+          man_start_sibling <trigger, "Chart">
+            mat_title_pos <below | center>
+            act_replace_select_action
+                <
+                uni_start_stream_wait_on <00x>
+                sm_m_send_token_arg <"pc", 0-0-1>
+                >
+              mat_font_sis <small_fonts, 7, normal>
+              mat_bool_resize_vertical <yes>
+              mat_art_id <1-0-1296>
+              mat_trigger_style <rectangle>
+            man_end_object
+          man_end_object
+          man_update_display
+        man_update_woff_end_stream

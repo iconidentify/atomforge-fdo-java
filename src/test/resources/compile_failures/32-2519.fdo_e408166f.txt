@@ -1,0 +1,158 @@
+uni_start_stream <00x>
+  man_start_object <ind_group, "Kurierdienst-Einstellungen">
+    mat_object_id <32-2519>
+    mat_style_id <32-2519>
+    mat_orientation <vft>
+    mat_precise_width <422>
+    mat_precise_height <225>
+the_unknown <16, 204, 01x>
+    mat_position <center_center>
+    mat_bool_resize_vertical <no>
+    mat_bool_modal <yes>
+    mat_bool_precise <yes>
+    mat_bool_background_flood <yes>
+    man_start_object <ornament, "Uhrzeit">
+      mat_precise_x <8>
+      mat_precise_y <8>
+      mat_size <18, 1>
+      mat_font_id <arial>
+      mat_font_size <14>
+      mat_font_style <bold>
+    man_start_sibling <ornament, "">
+      mat_precise_x <8>
+      mat_precise_y <53>
+      mat_precise_width <400>
+      mat_precise_height <70>
+      mat_font_size <8>
+      mat_font_id <arial>
+      man_append_data <"Geben Sie bitte den Zeitpunkt ein, wann Sie den Kurierdienst das erste Mal benutzen m�chten.">
+    man_start_sibling <org_group, "">
+      mat_orientation <hcf>
+      mat_precise_y <130>
+      mat_precise_width <410>
+      mat_precise_height <25>
+      man_start_object <ornament, "">
+        mat_precise_x <113>
+        mat_precise_y <127>
+        mat_precise_width <83>
+        mat_precise_height <22>
+        mat_font_id <arial>
+        mat_font_size <9>
+        mat_font_style <bold>
+        man_append_data <"Uhrzeit:">
+      man_end_object
+      man_start_object <select_range, "">
+        mat_relative_tag <8>
+        mat_font_sis <arial, 9, normal>
+        mat_precise_x <201>
+        mat_precise_y <125>
+        mat_precise_width <45>
+        mat_precise_height <22>
+        mat_increment <1>
+        mat_minimum <0>
+        mat_maximum <23>
+        mat_vertical_spacing <5>
+      man_end_object
+      man_start_object <dss_list, "">
+        mat_relative_tag <9>
+        mat_orientation <vff>
+        mat_increment <15>
+        mat_minimum <0>
+        mat_maximum <45>
+        mat_font_sis <arial, 9, normal>
+        mat_title <" :">
+        mat_title_pos <left | center | 4>
+        mat_precise_x <246>
+        mat_precise_y <123>
+        mat_precise_width <42>
+        mat_precise_height <22>
+        idb_set_context <20-0-61>
+        idb_atr_offset <0>
+        idb_get_value <04x>
+        mip_flip_it
+        var_number_set_from_atom <A>
+        man_start_object <trigger, "">
+          var_number_get <A>
+          uni_convert_last_atom_data
+          uni_use_last_atom_string <mat_title>
+        man_end_object
+        man_start_object <trigger, "">
+          var_number_add <30>
+          var_number_get <A>
+          uni_convert_last_atom_data
+          uni_use_last_atom_string <mat_title>
+        man_end_object
+      man_end_object
+    man_start_sibling <org_group, "">
+      mat_orientation <hef>
+      mat_precise_y <179>
+      mat_precise_width <408>
+      mat_precise_height <29>
+      man_start_object <trigger, "">
+        mat_precise_x <135>
+        mat_precise_y <190>
+        mat_precise_width <70>
+        mat_precise_height <23>
+        mat_trigger_style <14>
+        mat_title <"Weiter">
+        mat_font_id <arial>
+        act_replace_select_action
+            <
+            uni_start_stream
+              de_start_extraction <0>
+              idb_set_context <20-0-54>
+              idb_atr_offset <28>
+              man_set_context_relative <8>
+              de_get_data_value
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_change_context_relative <9>
+              de_get_data_pointer
+              uni_convert_last_atom_string
+              mip_flip_it
+              uni_use_last_atom_value <idb_append_data>
+              man_end_context
+              idb_end_context
+              de_end_extraction
+              man_close_update
+              mip_action_command <07x>
+              uni_invoke_no_context <32-2520>
+            uni_end_stream
+            >
+        man_start_sibling <trigger, "">
+          mat_precise_x <222>
+          mat_precise_y <190>
+          mat_precise_width <70>
+          mat_precise_height <23>
+          mat_trigger_style <14>
+          mat_title <"Abbrechen">
+          act_replace_select_action
+              <
+              uni_start_stream <00x>
+                man_close_update
+              uni_end_stream <00x>
+              >
+          man_end_object
+        man_end_object
+        man_update_display
+        idb_set_context <20-0-54>
+        man_set_context_relative <8>
+        idb_atr_offset <28>
+        idb_get_value
+        uni_use_last_atom_value <mat_value>
+        man_change_context_relative <9>
+        idb_atr_offset <32>
+        idb_get_value
+        var_number_set_from_atom <A>
+        var_number_set <B, 30>
+        if_numa_lt_numb_then <10, 20>
+        mat_value <1>
+        uni_sync_skip <10>
+        mat_value <2>
+        uni_sync_skip <20>
+        man_end_context
+        idb_end_context
+        man_update_display
+        man_end_context
+        uni_wait_off
+      uni_end_stream <00x>
